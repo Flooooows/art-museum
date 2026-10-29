@@ -12,7 +12,7 @@ L’utilisateur veut examiner mille cartes, lire sous chacune le score et la rar
 - [x] (2026-10-30 UTC+8) Construire la page indépendante, 12 familles, filtres, pagination 24 cartes, choix exclusifs non précochés et sauvegarde/import/export.
 - [x] (2026-10-30 UTC+8) 76 tests réussis, build double entrée et TypeScript strict ; recalcul hors réseau identique, empreintes protégées intactes. Parcours réels choix/export/import/rechargement/erreurs vérifiés, largeurs 1440/390/320 sans débordement.
 - [x] (2026-10-30 UTC+8) Documenter méthode, sources, limites, commandes et résultats ; revue indépendante réalisée et correction de pagination notée résolue.
-- [ ] Terminer la comparaison documentaire au système visuel existant et clore la livraison.
+- [x] (2026-10-30 UTC+8) Terminer la comparaison documentaire dans `.impeccable/review/review-workspace-documentation.md`, en conservant `DESIGN.md` et son sidecar ; revue et documentation closes.
 
 ## Surprises & Discoveries
 
@@ -27,6 +27,8 @@ Décision : conserver les 100 propositions figées V2 et scorer les nouvelles œ
 Décision : sauvegarde dans une clé locale distincte, export JSON versionné et CSV, import validé et confirmation des conflits avant remplacement ; aucune sélection préalable depuis la proposition. Un document chargé avec erreurs ne doit jamais effacer une décision. Auteur/date : assistant, 2026-10-30.
 
 ## Outcomes & Retrospective
+
+Livraison documentaire terminée : le documenter indépendant a inspecté les huit captures, le code, les tokens et la provenance, puis rédigé `.impeccable/review/review-workspace-documentation.md`. Les écarts locaux et les anciens décalages documentaires sont signalés, sans réécrire le système global. Le premier commit de fonctionnalité est `3a4997139f4882dc4797945ef2a9abc4e108acfc` ; les décisions utilisateur ne font pas partie des fichiers committés.
 
 La revue indépendante complète a demandé une correction matérielle de continuité clavier. Celle-ci est implémentée, vérifiée dans le navigateur, puis notée **resolved**, disposition **ship**, par le même réviseur sur son passage de verdict limité à ce correctif (pas un nouvel audit intégral). Les captures bureau/téléphone ont été renouvelées. La version statique issue du build a aussi été ouverte sur le port 4173 : aucune présélection, choix persistant après rechargement et annulation fonctionnels. Les décisions de test ont été retirées des sessions de test, pas des données utilisateur.
 
@@ -73,3 +75,5 @@ Pas de nouvelle dépendance d’exécution : React, lucide-react, TypeScript, Vi
 Révision initiale : périmètre confirmé et plan fondé sur l’architecture existante, avec réutilisation stricte et absence de migration.
 
 Révision d’implémentation (2026-10-30 UTC+8) : collecte et atelier livrés dans les fichiers de travail, résultats et preuves réels consignés ; ajout de la protection des sauvegardes illisibles/concurrentes et maintien des cartes en place jusqu’à actualisation des filtres. Revue indépendante en cours avant clôture.
+
+Révision finale (2026-10-30 UTC+8) : correction clavier notée résolue par le réviseur, comparaison documentaire terminée, tests et build relancés avec succès, preview statique vérifiée. Aucun déploiement, aucune importation dans le catalogue actif ni activation des décisions. Publication du code dans le dépôt déjà demandé par l’utilisateur, sans push forcé.
