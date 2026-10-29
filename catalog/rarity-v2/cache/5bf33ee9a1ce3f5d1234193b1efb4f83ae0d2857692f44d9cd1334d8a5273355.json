@@ -1,0 +1,180 @@
+{
+  "provider": "wikimedia",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageprops%7Cinfo&redirects=1&titles=Parade+de+cirque%7CThe+Death+of+Socrates%7CThe+Great+Wave+off+Kanagawa%7CMona+Lisa%7CWilliam+%28hippopotamus+figurine%29%7CThe+Unicorn+in+Captivity%7CVirgin+and+Child+with+the+Infant+John+the+Baptist+%28Botticelli%2C+Cleveland%29%7CThe+Large+Plane+Trees%7CRed+Cross+with+Triptych+%28Faberg%C3%A9+egg%29",
+  "retrievedAt": "2026-10-29T19:01:42.232Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 70889,
+          "ns": 0,
+          "title": "Mona Lisa",
+          "pageprops": {
+            "displaytitle": "<i>Mona Lisa</i>",
+            "page_image_free": "Mona_Lisa.jpg",
+            "wikibase-shortdesc": "Painting by Leonardo da Vinci",
+            "wikibase_item": "Q12418"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T01:57:52Z",
+          "lastrevid": 1382505541,
+          "length": 105143
+        },
+        {
+          "pageid": 9471660,
+          "ns": 0,
+          "title": "The Great Wave off Kanagawa",
+          "pageprops": {
+            "defaultsort": "Great Wave Off Kanagawa, The",
+            "displaytitle": "<i>The Great Wave off Kanagawa</i>",
+            "page_image_free": "Tsunami_by_hokusai_19th_century.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase-shortdesc": "Woodblock print by Hokusai (1831)",
+            "wikibase_item": "Q252485"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T21:57:48Z",
+          "lastrevid": 1382473427,
+          "length": 63073
+        },
+        {
+          "pageid": 17977209,
+          "ns": 0,
+          "title": "The Death of Socrates",
+          "pageprops": {
+            "defaultsort": "Death Of Socrates, The",
+            "displaytitle": "<i>The Death of Socrates</i>",
+            "page_image_free": "David_-_The_Death_of_Socrates.jpg",
+            "wikibase-shortdesc": "1787 painting by Jacques-Louis David",
+            "wikibase_item": "Q1752990"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T20:29:18Z",
+          "lastrevid": 1365320768,
+          "length": 15805
+        },
+        {
+          "pageid": 22794418,
+          "ns": 0,
+          "title": "Red Cross with Triptych (Fabergé egg)",
+          "pageprops": {
+            "page_image_free": "Henrik_wigström_e_adrian_prachov_per_casa_fabergé,_uovo_pasquale_imperiale_della_croce_rossa._1915.jpg",
+            "wikibase-shortdesc": "1915 Imperial Fabergé egg",
+            "wikibase_item": "Q2186008"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:41:10Z",
+          "lastrevid": 1340004622,
+          "length": 6303
+        },
+        {
+          "pageid": 31128791,
+          "ns": 0,
+          "title": "Virgin and Child with the Infant John the Baptist (Botticelli, Cleveland)",
+          "pageprops": {
+            "displaytitle": "<i>Virgin and Child with the Infant John the Baptist</i> (Botticelli, Cleveland)",
+            "page_image_free": "Sandro_Botticelli_-_Virgin_and_Child_with_the_Young_Saint_John_the_Baptist_-_1970.160_-_Cleveland_Museum_of_Art.tif",
+            "wikibase-shortdesc": "Painting by Sandro Botticelli and his workshop",
+            "wikibase_item": "Q7934011"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:47:58Z",
+          "lastrevid": 1375680737,
+          "length": 1903
+        },
+        {
+          "pageid": 41349438,
+          "ns": 0,
+          "title": "William (hippopotamus figurine)",
+          "pageprops": {
+            "page_image_free": "Standing_Hippopotamus_MET_DP248993.jpg",
+            "wikibase-shortdesc": "Egyptian hippopotamus figurine",
+            "wikibase_item": "Q137836"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:55:09Z",
+          "lastrevid": 1362874522,
+          "length": 7856
+        },
+        {
+          "pageid": 48347950,
+          "ns": 0,
+          "title": "Parade de cirque",
+          "pageprops": {
+            "defaultsort": "Parade de cirque",
+            "displaytitle": "<i>Parade de cirque</i>",
+            "page_image_free": "Georges_Seurat_066.jpg",
+            "wikibase-shortdesc": "Painting by Georges Seurat",
+            "wikibase_item": "Q3823444"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:59:24Z",
+          "lastrevid": 1368969077,
+          "length": 24606
+        },
+        {
+          "pageid": 63014081,
+          "ns": 0,
+          "title": "The Large Plane Trees",
+          "pageprops": {
+            "defaultsort": "Large Plane Trees",
+            "displaytitle": "<i>The Large Plane Trees</i>",
+            "page_image_free": "The_Large_Plane_Trees_(Road_Menders_at_Saint-Rémy),_by_Vincent_van_Gogh,_Cleveland_Museum_of_Art,_1947.209.jpg",
+            "wikibase-shortdesc": "1889 painting by Vincent van Gogh",
+            "wikibase_item": "Q26221185"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:07:45Z",
+          "lastrevid": 1376884720,
+          "length": 4860
+        },
+        {
+          "pageid": 78224815,
+          "ns": 0,
+          "title": "The Unicorn in Captivity",
+          "pageprops": {
+            "displaytitle": "<i>The Unicorn in Captivity</i>",
+            "page_image_free": "The_Unicorn_in_Captivity_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "Late Gothic tapestry from Southern Netherlands",
+            "wikibase_item": "Q18683189"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:14:50Z",
+          "lastrevid": 1330835561,
+          "length": 7195
+        }
+      ]
+    }
+  },
+  "payloadSha256": "d1a99ad0d1b7def6570b067b8148358c37e79a4b0ab470de0f1bc88d37e51c41"
+}

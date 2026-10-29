@@ -1,0 +1,538 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60761862.json",
+  "retrievedAt": "2026-10-29T15:50:47.317580+00:00",
+  "payload": {
+    "entities": {
+      "Q60761862": {
+        "pageid": 60619381,
+        "ns": 0,
+        "title": "Q60761862",
+        "lastrevid": 1769300968,
+        "modified": "2022-11-11T15:53:21Z",
+        "type": "item",
+        "id": "Q60761862",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Book of the Dead of Hori"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "funerary equipment by unknown artist (1921.1032)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "a81d850f3ff016d1d42cee50efb646c61d96e7f8",
+                "datavalue": {
+                  "value": "1921.1032",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60761862$247CAF1B-BE1A-4B72-9FEB-1C0DAD426577",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60761862$17081993-556C-4E50-9352-970933A7C063",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "63339e215908ca0b49b9a6753f619ea104635402",
+                "datavalue": {
+                  "value": {
+                    "text": "Book of the Dead of Hori",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60761862$5CAF818E-ECB5-4DD0-B3DA-001740848BA6",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "2873610d7e970ebddf5e3dc3689a23a49e658c2b",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1921.1032",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60761862$FB9A2B6E-F192-4883-B551-FBF52F919AC1",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "61f9e0434994f8ae7b61b5e3be4c8b1a84ee0634",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1921.1032",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60761862$9d07a9e2-a43e-4420-adae-e92e6014a987",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "7c377ff25a9e22f53da61ff0ed3865aedd9411eb",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "89632bb76925df35f2fc1274c6b9eba335a726e4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1921.1032",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60761862$FDB087D7-0700-46DB-8BF9-F8C729935AC3",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "bc5b3bb2aa0644bb09d98da795f05632b9c4d4b5",
+                "datavalue": {
+                  "value": "Clevelandart 1921.1032.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60761862$B14510B8-C466-4A01-B1E9-CED83EB8401A",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "afabb95baf7d0e10bb4fb1c94630c8e9b8050852",
+                "datavalue": {
+                  "value": "Egypt, New Kingdom, Dynasty 21 - Book of the Dead of Hori - 1921.1032 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60761862$a463b899-13b5-451d-914c-a56e749d7a38",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "7c377ff25a9e22f53da61ff0ed3865aedd9411eb",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "89632bb76925df35f2fc1274c6b9eba335a726e4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1921.1032",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "a9964cf1795e4b1b1847bf876c0e083eb9283bd0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4406616,
+                    "id": "Q4406616"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60761862$77DD482D-C0A1-42F9-8E97-C3AE4899EF67",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "d25240a3c34b23138849407a5d591699bd94d406",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 79497835,
+                    "id": "Q79497835"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60761862$466751a5-9534-47dd-b8e8-ccd3bd708f17",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "7c377ff25a9e22f53da61ff0ed3865aedd9411eb",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "89632bb76925df35f2fc1274c6b9eba335a726e4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1921.1032",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60761862$266d1574-e141-4a4b-86ef-c43c7c46d8df",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "7c377ff25a9e22f53da61ff0ed3865aedd9411eb",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "89632bb76925df35f2fc1274c6b9eba335a726e4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1921.1032",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60761862$9c7f0955-97d1-4421-8ce5-6f84507f9a5d",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5e25a5f6038ae2cfef21ceea78354b9782837108",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "89632bb76925df35f2fc1274c6b9eba335a726e4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1921.1032",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "eda0ecccadb38ab5ae3212a6a6be26111cff87af",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-06-11T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "cc6919fa103d05c74853e4aa0e49420da45aea8f",
+                "datavalue": {
+                  "value": "Book of the Dead of Hori",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60761862$feefe2c1-ea5e-47a6-b824-abc37aa0a8a6",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Book of the Dead of Hori",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Book_of_the_Dead_of_Hori"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "53e4012478f9cc8de33eeb103cee5b56d5d97b18b8de9a6b66539486733d8a07"
+}

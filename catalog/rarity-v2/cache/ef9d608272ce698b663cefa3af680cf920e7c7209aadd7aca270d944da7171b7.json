@@ -1,0 +1,919 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q137836.json",
+  "retrievedAt": "2026-10-29T15:45:43.660980+00:00",
+  "payload": {
+    "entities": {
+      "Q137836": {
+        "pageid": 139569,
+        "ns": 0,
+        "title": "Q137836",
+        "lastrevid": 2439536185,
+        "modified": "2025-12-08T08:44:12Z",
+        "type": "item",
+        "id": "Q137836",
+        "labels": {
+          "de": {
+            "language": "de",
+            "value": "Hippopotamus William"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "Hipopotamul William"
+          },
+          "en": {
+            "language": "en",
+            "value": "William the Hippopotamus"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "William the Hippopotamus"
+          },
+          "es": {
+            "language": "es",
+            "value": "Hipopótamo William"
+          },
+          "ne": {
+            "language": "ne",
+            "value": "विलियम दि फाइयान्स हिप्पोपोटामस"
+          },
+          "af": {
+            "language": "af",
+            "value": "Die seekoei William"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "William l'hippopotame en faïence"
+          },
+          "ja": {
+            "language": "ja",
+            "value": "カバのウィリアム"
+          },
+          "pt-br": {
+            "language": "pt-br",
+            "value": "William, o hipopótamo de faiança"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "William, o hipopótamo de faiança"
+          },
+          "it": {
+            "language": "it",
+            "value": "Figura di ippopotamo"
+          },
+          "ar": {
+            "language": "ar",
+            "value": "تمثال فرس النهر"
+          },
+          "zh": {
+            "language": "zh",
+            "value": "河马陶塑"
+          },
+          "ko": {
+            "language": "ko",
+            "value": "하마상"
+          },
+          "ru": {
+            "language": "ru",
+            "value": "Фигура гиппопотама"
+          },
+          "sl": {
+            "language": "sl",
+            "value": "Povodni konj William"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "Hipopòtam William"
+          },
+          "id": {
+            "language": "id",
+            "value": "William si Kuda Nil Faience"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "Egyptian hippopotamus figurine"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "statuette égyptienne"
+          },
+          "pt-br": {
+            "language": "pt-br",
+            "value": "obra no Metropolitan Museum"
+          },
+          "de": {
+            "language": "de",
+            "value": "archäologisches Fundstück"
+          }
+        },
+        "aliases": {
+          "en": [
+            {
+              "language": "en",
+              "value": "William Hippopotamus"
+            },
+            {
+              "language": "en",
+              "value": "Hippopotamus"
+            },
+            {
+              "language": "en",
+              "value": "Hippopotamus (\"William\")"
+            },
+            {
+              "language": "en",
+              "value": "William the Faience Hippopotamus"
+            }
+          ],
+          "fr": [
+            {
+              "language": "fr",
+              "value": "William l'hippopotame"
+            },
+            {
+              "language": "fr",
+              "value": "William"
+            }
+          ]
+        },
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "53eb2fc773ec31f68c3c3bcbe718bb7dd460a974",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1066288,
+                    "id": "Q1066288"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1932": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1932",
+                    "hash": "88e5bc0f522b9aa87ea637997cfb2db2cac16b2e",
+                    "datavalue": {
+                      "value": "Figurine, Hippopotamus (\"William\")",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1932"
+              ],
+              "id": "Q137836$09195BBC-E31D-4797-93E1-B5EABDCAAD7D",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "124d7f0076f9c28fcbc5d97d9ae52a1777bc33dd",
+                "datavalue": {
+                  "value": "Standing Hippopotamus MET DP248993.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q137836$9A5A7BC4-5878-4097-B0DD-255E5F3EC946",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "27fc736028ceb26ce581215acf582090dce4ef2b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 160236,
+                    "id": "Q160236"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P2868": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2868",
+                    "hash": "ac94ac8aa276c192bd2d673b9b2a6f358450c120",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29188408,
+                        "id": "Q29188408"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P580": [
+                  {
+                    "snaktype": "value",
+                    "property": "P580",
+                    "hash": "bcecdc49b05260261ec6291688de5a564399c174",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1917-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P2868",
+                "P580"
+              ],
+              "id": "Q137836$DAD7EE73-FFDA-4786-A9FD-A17800A7D702",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "877dd141d0b31fb061c5e0384781fb89064bd720",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "8ea58355c7cdfebf78cf781b41cd0a07e896c730",
+                        "datavalue": {
+                          "value": "http://www.metmuseum.org/art/collection/search#!/search?showOnly=highlights",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "277ac2287852fe0f87a0631ed19e9416481db092",
+                "datavalue": {
+                  "value": "17.9.1",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "27fc736028ceb26ce581215acf582090dce4ef2b",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 160236,
+                        "id": "Q160236"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q137836$E87B3066-97D2-4E66-A770-623EEADAEBB2",
+              "rank": "normal"
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "0ae7d5cfe929299b25f4f9668c079f6576086a8f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 160236,
+                    "id": "Q160236"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q137836$3D39412F-DFFE-47DF-85BB-95EF1A9B5186",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8cdc6b3a961fc3d1780c31fa771a9961bcce1332",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "ac268b2b3d30bdca19e090062750ee8683ecb037",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 160236,
+                            "id": "Q160236"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P3634": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3634",
+                        "hash": "a93a6153c1414691a9cfae6f4ad39d6b9d55e26e",
+                        "datavalue": {
+                          "value": "544227",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "3b484e449d058ead231f4a9bd74b48ce76b48bbc",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-04-14T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P3634",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P3634": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3634",
+                "hash": "a93a6153c1414691a9cfae6f4ad39d6b9d55e26e",
+                "datavalue": {
+                  "value": "544227",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q137836$7253bba3-4179-3e96-ecab-4e03fa241e95",
+              "rank": "normal"
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "1f045d7831e1429890a6e89afaab8ae97721c6e5",
+                "datavalue": {
+                  "value": {
+                    "time": "-1920-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 7,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1326": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1326",
+                    "hash": "f6a81d7d982f3d51a524aed40249679515cfff1a",
+                    "datavalue": {
+                      "value": {
+                        "time": "-1878-01-01T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ],
+                "P1319": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1319",
+                    "hash": "b6d1142b7a8b0640ded82826d7154087c12dc297",
+                    "datavalue": {
+                      "value": {
+                        "time": "-1961-01-01T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1326",
+                "P1319"
+              ],
+              "id": "Q137836$1C1EEADB-9BB0-483A-B690-E2C511002D05",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "843e2588c1a75383d14a186068bdf908c2c504e2",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 34505,
+                    "id": "Q34505"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1354": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1354",
+                    "hash": "55ff697d61ad8351b2c58a1296b02e3dec45e83e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 1088,
+                        "id": "Q1088"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1354"
+              ],
+              "id": "Q137836$2e49161e-47e0-2269-81ed-6bd9da676f71",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "d9deb422119cf11a61b9a4d1f56473631b2ad68f",
+                "datavalue": {
+                  "value": "William the Faience Hippopotamus",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q137836$0830c228-4d10-63fd-a3b9-70ed1cf4a4a1",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "somevalue",
+                "property": "P170",
+                "hash": "d3550e860f988c6675fff913440993f58f5c40c5",
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P3831": [
+                  {
+                    "snaktype": "value",
+                    "property": "P3831",
+                    "hash": "85949230fce9fa2d3d310429b4ae408f90b65ea1",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 4233718,
+                        "id": "Q4233718"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P3831"
+              ],
+              "id": "Q137836$727fb719-483b-9c74-af3d-c9b60aab5c08",
+              "rank": "normal"
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "59adb881878e7daf35db6061a9057457d859841f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 253664,
+                    "id": "Q253664"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q137836$8792b987-41cc-f006-8e81-4c0962635439",
+              "rank": "normal"
+            }
+          ],
+          "P1343": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1343",
+                "hash": "a4465b1d0c63f507d2d29dd582ddada23fa5e2db",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 28837176,
+                    "id": "Q28837176"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q137836$935B4B2E-56FC-4E7C-8FBB-859137644751",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1343",
+                "hash": "a73a8ea9e6c522314e27926ddc520a6dd9beffa0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 29167435,
+                    "id": "Q29167435"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q137836$69BFA97C-FD7F-4256-B612-B8CCEF30EE19",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2c537836998fee3d4a49aa4a05956352434d6334",
+                  "snaks": {
+                    "P304": [
+                      {
+                        "snaktype": "value",
+                        "property": "P304",
+                        "hash": "dd1977567f22f4cf510adfaadf5e3574813b3521",
+                        "datavalue": {
+                          "value": "46",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P304"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P646": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P646",
+                "hash": "f5f92503fd658f96c4341196eeccbcdd3d665d6d",
+                "datavalue": {
+                  "value": "/m/0zmysbq",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q137836$4E0DC736-E492-4829-A792-637A0170AF89",
+              "rank": "normal"
+            }
+          ],
+          "P495": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P495",
+                "hash": "f3f1f73f4582d18d4d035d4366c4910620207641",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 79,
+                    "id": "Q79"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q137836$27A0A49F-EE93-4873-8D62-93709C7D4063",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "dcd236885d7a90efc698ebf864aee3e0b8d283ac",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "ac268b2b3d30bdca19e090062750ee8683ecb037",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 160236,
+                            "id": "Q160236"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P3634": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3634",
+                        "hash": "a93a6153c1414691a9cfae6f4ad39d6b9d55e26e",
+                        "datavalue": {
+                          "value": "544227",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "7123d2fc3c00433ffe43264e2db7126fc81a6f21",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-11-05T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P3634",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "b38c6f5aabed746df8e6389968f2fa261d79b547",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 116234000,
+                    "id": "Q116234000"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q137836$267c842a-db70-4778-bd13-1c29094c0c69",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q137836$E6B86871-92C3-4D69-A50E-A7B611466654",
+              "rank": "normal"
+            }
+          ],
+          "P126": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P126",
+                "hash": "8f2df60494b74da563092b788f0ad500df6ed296",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 67429133,
+                    "id": "Q67429133"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q137836$02FB9F29-D5D3-49FC-8E26-5D989E3D799C",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "dewiki": {
+            "site": "dewiki",
+            "title": "Hippopotamus William",
+            "badges": [],
+            "url": "https://de.wikipedia.org/wiki/Hippopotamus_William"
+          },
+          "rowiki": {
+            "site": "rowiki",
+            "title": "Hipopotamul William",
+            "badges": [],
+            "url": "https://ro.wikipedia.org/wiki/Hipopotamul_William"
+          },
+          "newiki": {
+            "site": "newiki",
+            "title": "विलियम दि फाइयान्स हिप्पोपोटामस",
+            "badges": [],
+            "url": "https://ne.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%B2%E0%A4%BF%E0%A4%AF%E0%A4%AE_%E0%A4%A6%E0%A4%BF_%E0%A4%AB%E0%A4%BE%E0%A4%87%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B8_%E0%A4%B9%E0%A4%BF%E0%A4%AA%E0%A5%8D%E0%A4%AA%E0%A5%8B%E0%A4%AA%E0%A5%8B%E0%A4%9F%E0%A4%BE%E0%A4%AE%E0%A4%B8"
+          },
+          "nlwiki": {
+            "site": "nlwiki",
+            "title": "William the Hippopotamus",
+            "badges": [],
+            "url": "https://nl.wikipedia.org/wiki/William_the_Hippopotamus"
+          },
+          "eswiki": {
+            "site": "eswiki",
+            "title": "Hipopótamo William",
+            "badges": [],
+            "url": "https://es.wikipedia.org/wiki/Hipop%C3%B3tamo_William"
+          },
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:William the Faience Hippopotamus",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:William_the_Faience_Hippopotamus"
+          },
+          "frwiki": {
+            "site": "frwiki",
+            "title": "William l'hippopotame en faïence",
+            "badges": [],
+            "url": "https://fr.wikipedia.org/wiki/William_l%27hippopotame_en_fa%C3%AFence"
+          },
+          "ptwiki": {
+            "site": "ptwiki",
+            "title": "William, o hipopótamo de faiança",
+            "badges": [],
+            "url": "https://pt.wikipedia.org/wiki/William,_o_hipop%C3%B3tamo_de_faian%C3%A7a"
+          },
+          "afwiki": {
+            "site": "afwiki",
+            "title": "William die seekoei",
+            "badges": [],
+            "url": "https://af.wikipedia.org/wiki/William_die_seekoei"
+          },
+          "slwiki": {
+            "site": "slwiki",
+            "title": "Povodni konj William",
+            "badges": [],
+            "url": "https://sl.wikipedia.org/wiki/Povodni_konj_William"
+          },
+          "zhwiki": {
+            "site": "zhwiki",
+            "title": "彩陶河马威廉",
+            "badges": [],
+            "url": "https://zh.wikipedia.org/wiki/%E5%BD%A9%E9%99%B6%E6%B2%B3%E9%A9%AC%E5%A8%81%E5%BB%89"
+          },
+          "kowiki": {
+            "site": "kowiki",
+            "title": "도자기 하마 윌리엄",
+            "badges": [],
+            "url": "https://ko.wikipedia.org/wiki/%EB%8F%84%EC%9E%90%EA%B8%B0_%ED%95%98%EB%A7%88_%EC%9C%8C%EB%A6%AC%EC%97%84"
+          },
+          "cawiki": {
+            "site": "cawiki",
+            "title": "Hipopòtam William",
+            "badges": [],
+            "url": "https://ca.wikipedia.org/wiki/Hipop%C3%B2tam_William"
+          },
+          "idwiki": {
+            "site": "idwiki",
+            "title": "William si Kuda Nil Faience",
+            "badges": [],
+            "url": "https://id.wikipedia.org/wiki/William_si_Kuda_Nil_Faience"
+          },
+          "enwiki": {
+            "site": "enwiki",
+            "title": "William (hippopotamus figurine)",
+            "badges": [],
+            "url": "https://en.wikipedia.org/wiki/William_(hippopotamus_figurine)"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "5e71140a62dd002a6c2dab81c8b0eed0fc46c7c2619692cf1e7c76f5be848a20"
+}

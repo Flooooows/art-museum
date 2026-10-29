@@ -1,0 +1,183 @@
+{
+  "runId": "02b68c195210ea3536d84c1a",
+  "reproducible": true,
+  "protectedInputsUnchanged": true,
+  "outputHashes": {
+    "results.json": "77fd59b1597dfc23fe1e3d23b6459f29ccbe4bba43705fba2cd9a2cf4b2e466c",
+    "results.csv": "b59265f51c0ac3e6300bb53ae48f07a05d82f9cbeec162b736355ae87adb78e5",
+    "REPORT.md": "c7e8ac24d147e926c8f3681ff99e7fad3ab1cd9e1c16d4455b532c8c8c40f0ae",
+    "latest.json": "088044228e2b456e69646d5c1b41e6adc72196138e5750c8218ce39d482181b0"
+  },
+  "summary": {
+    "runId": "02b68c195210ea3536d84c1a",
+    "analyzed": 100,
+    "proposed": 100,
+    "confirmed": 0,
+    "provisional": 100,
+    "rejected": 0,
+    "changed": 47,
+    "stable": 87,
+    "masterpieceCandidates": [
+      "45434",
+      "mona-lisa"
+    ],
+    "averageConfidence": 0.6121616130948914,
+    "confidenceBands": {
+      "low": 14,
+      "medium": 82,
+      "high": 4
+    },
+    "criterionCoverage": {
+      "P": {
+        "observed": 0,
+        "derived": 9,
+        "estimated": 91,
+        "averageObservedShare": 0.10458333333333332
+      },
+      "A": {
+        "observed": 0,
+        "derived": 43,
+        "estimated": 57,
+        "averageObservedShare": 0.4379166666666666
+      },
+      "H": {
+        "observed": 0,
+        "derived": 75,
+        "estimated": 25,
+        "averageObservedShare": 0.4874999999999994
+      },
+      "M": {
+        "observed": 0,
+        "derived": 80,
+        "estimated": 20,
+        "averageObservedShare": 0.89
+      },
+      "C": {
+        "observed": 0,
+        "derived": 1,
+        "estimated": 99,
+        "averageObservedShare": 0.006999999999999999
+      }
+    },
+    "distribution": [
+      {
+        "rarity": "Esquisse",
+        "active": 43,
+        "proposed": 16
+      },
+      {
+        "rarity": "Étude",
+        "active": 39,
+        "proposed": 62
+      },
+      {
+        "rarity": "Composition",
+        "active": 14,
+        "proposed": 18
+      },
+      {
+        "rarity": "Œuvre",
+        "active": 3,
+        "proposed": 2
+      },
+      {
+        "rarity": "Pièce maîtresse",
+        "active": 1,
+        "proposed": 2
+      }
+    ],
+    "highUncertainty": [
+      "436535",
+      "544453",
+      "544184",
+      "544450",
+      "544442",
+      "820892",
+      "20804",
+      "35",
+      "9480",
+      "1085",
+      "544864",
+      "250945",
+      "204759",
+      "204758",
+      "467642",
+      "cma-127571",
+      "cma-113202",
+      "cma-127572",
+      "cma-118679",
+      "cma-117032",
+      "cma-144966",
+      "cma-157501",
+      "cma-132367",
+      "cma-97165",
+      "cma-97166",
+      "cma-127746",
+      "cma-124076",
+      "cma-146469",
+      "cma-129219",
+      "cma-136510",
+      "cma-122351",
+      "cma-147017",
+      "cma-135185",
+      "cma-149410",
+      "cma-128392",
+      "cma-143278",
+      "cma-135336",
+      "cma-128072",
+      "cma-151015",
+      "cma-149421",
+      "cma-135517",
+      "cma-125104",
+      "cma-95259",
+      "cma-136760",
+      "cma-87891",
+      "cma-142792",
+      "cma-169684",
+      "cma-93984",
+      "cma-147518",
+      "cma-151352",
+      "cma-149884",
+      "cma-94136",
+      "cma-540823",
+      "cma-144280",
+      "cma-155759",
+      "cma-126198",
+      "cma-96303",
+      "cma-157614",
+      "cma-102377",
+      "cma-148794",
+      "cma-94073",
+      "cma-102388",
+      "cma-142734",
+      "cma-165186",
+      "cma-150156",
+      "cma-296869",
+      "cma-150488",
+      "cma-152818",
+      "cma-160089",
+      "cma-151884",
+      "cma-93173",
+      "cma-153683",
+      "cma-399499",
+      "cma-111811",
+      "cma-137128",
+      "cma-135431",
+      "cma-137023",
+      "cma-150996",
+      "cma-169251",
+      "cma-105933",
+      "cma-153401",
+      "cma-130939",
+      "cma-165426",
+      "cma-161637",
+      "cma-163505",
+      "cma-98298",
+      "cma-156131",
+      "cma-284749",
+      "cma-151445",
+      "cma-106757",
+      "cma-151450"
+    ]
+  }
+}

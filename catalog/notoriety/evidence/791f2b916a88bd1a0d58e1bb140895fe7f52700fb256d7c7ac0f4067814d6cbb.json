@@ -1,0 +1,1307 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q21785872.json",
+  "retrievedAt": "2026-10-29T15:49:30.638495+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q21785872": {
+        "pageid": 23823807,
+        "ns": 0,
+        "title": "Q21785872",
+        "lastrevid": 2373002251,
+        "modified": "2025-07-03T19:54:12Z",
+        "type": "item",
+        "id": "Q21785872",
+        "labels": {
+          "da": {
+            "language": "da",
+            "value": "I skoven ved L'Hermitage, Pontoise"
+          },
+          "en": {
+            "language": "en",
+            "value": "Edge of the Woods Near L'Hermitage, Pontoise"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "Sous-bois à l'Hermitage, Pontoise / Le Fond de L´Hermitage"
+          }
+        },
+        "descriptions": {
+          "da": {
+            "language": "da",
+            "value": "maleri af Camille Pissarro"
+          },
+          "en": {
+            "language": "en",
+            "value": "painting by Camille Pissarro"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Camille Pissarro"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Camille Pissarro"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Camille Pissarro"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Camille Pissarro"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Camille Pissarro"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Camille Pissarro"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Camille Pissarro"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Camille Pissarro"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Camille Pissarro"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת קאמי פיסארו"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Camille Pissarro"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Camille Pissarro"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Camille Pissarro"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Camille Pissarro"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Camille Pissarro"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Camille Pissarro"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Camille Pissarro festménye"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Camille Pissarro"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Camille Pissarro"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Camille Pissarro"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Camille Pissarro"
+          }
+        },
+        "aliases": {
+          "da": [
+            {
+              "language": "da",
+              "value": "Edge of the Woods Near L'Hermitage, Pontoise"
+            }
+          ]
+        },
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$d20df646-443e-0cca-7236-6415b57e6829",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aa9b7e1548a24f84cb1a6617558e22a0f636edba",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$60593b40-4d2c-5112-7509-d2df719ea715",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aa9b7e1548a24f84cb1a6617558e22a0f636edba",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "22dc97b356ca711c0c9b872f6fd599598de4802d",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 134741,
+                    "id": "Q134741"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$e1b50b8b-4afb-1ef9-8fe9-906707f29f34",
+              "rank": "normal"
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "59f9be7619be3525e7530419e93df5cf6dfe0ad8",
+                "datavalue": {
+                  "value": "1951.356",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q21785872$F35CF03B-EDC3-4C7E-869A-03893F070110",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aa9b7e1548a24f84cb1a6617558e22a0f636edba",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "f04a2c69da1fce6ad752d2845b38cd2418457f42",
+                "datavalue": {
+                  "value": {
+                    "time": "+1879-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q21785872$E6ADF678-260A-4245-ACE8-C7DB5393423C",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aa9b7e1548a24f84cb1a6617558e22a0f636edba",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "2276ba6f3bd45e3014bbf0141ff11aec3a0a216a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 12321255,
+                    "id": "Q12321255"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q21785872$a98f688f-48a2-e17f-6c6d-dabccc680f02",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$43fb9a58-4a31-e7ea-b0c2-a3f240258ae2",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "2eaf48fdf87e51269837b4942655a8194454d5cb",
+                "datavalue": {
+                  "value": "Edge of the Woods Near L'Hermitage, Pontoise, by Camille Pissarro, Cleveland Museum of Art, 1951.356.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q21785872$4ff36fed-1d60-43db-acfa-2e8fd2016cad",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "fd5abbf280609fbbf99602b290c8e2bad533d951",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "ba9478368ac849736da69830bf3209fb80ce89c9",
+                "datavalue": {
+                  "value": "Camille Pissarro - Edge of the Woods Near L'Hermitage, Pontoise - 1951.356 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q21785872$cd401d76-2936-4814-8fa9-73512f21b591",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "6f4b5b5e03e15721554b5b2597e71e1810c637a0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 191163,
+                    "id": "Q191163"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$5bb17112-4d12-39f1-0a14-78ebda876016",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "81d2204e041d1c195436978ecbbc00309aff3081",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4421,
+                    "id": "Q4421"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$443f1988-497d-206e-1003-10fb20423d00",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "08856e0888472d17d5cf23a68edaa43bac5d8fd1",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 2935,
+                    "id": "Q2935"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$068e15dc-4602-a032-a42c-e8af447223e8",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "44743b191f4fc4ac6ef0ff786715f993306557ec",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 8441,
+                    "id": "Q8441"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$3fa5ffd5-44c0-7154-1943-90db9a11603e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "cc8c356218ecfa9de1fca44cf129eae9b5c60966",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 532,
+                    "id": "Q532"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$aea3b84e-4227-3df7-0235-94f69078ce58",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "4ff33a4d6f8a414c800ca2061bfa01343afc4d55",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 10884,
+                    "id": "Q10884"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$4F22F24D-3D37-42D4-8A39-48F5CA67E76B",
+              "rank": "normal"
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "d7bfecd3f1025c6f32f7b776269c72d2ea2b51b9",
+                "datavalue": {
+                  "value": {
+                    "amount": "+125.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q21785872$E70B2C07-2110-4F92-9713-B497009F9FDC",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aa9b7e1548a24f84cb1a6617558e22a0f636edba",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "f5919e1b5d039f987a5cbbbed12aa0ed3acde628",
+                "datavalue": {
+                  "value": {
+                    "amount": "+163.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q21785872$E9F6050C-C7D2-4A8F-B62F-E59A663C0DA1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aa9b7e1548a24f84cb1a6617558e22a0f636edba",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P528": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "9453b06323e1582c99dff20ccb6d60a56cb6efcb",
+                "datavalue": {
+                  "value": "597",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "85cf81dd18e4e24bfa0a656fad7c6702cfa3735e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 21601983,
+                        "id": "Q21601983"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q21785872$fade5f4d-4521-01be-edf5-2a1b546f1121",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "738cdf2bb69fae81c8069fde1996ef2ff8bb70d3",
+                "datavalue": {
+                  "value": "489",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "9f470db3ad502787c4831c021ff1ff2061eb7487",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 19311510,
+                        "id": "Q19311510"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q21785872$C6B043F9-126C-4FCB-9442-5BE8A321C00E",
+              "rank": "normal"
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$7FC3A862-D4B9-460C-9EFB-F3C30D848A9A",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aa9b7e1548a24f84cb1a6617558e22a0f636edba",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "5038ebdb0d2fe0eca3ad808a92488af8936e6f7a",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1951.356",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q21785872$EE2E5332-3739-4F5D-AEB1-6366DB298A1F",
+              "rank": "normal"
+            }
+          ],
+          "P6007": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6007",
+                "hash": "16ac8a1b2f2a1094d7c93800f28680408b2cad7e",
+                "datavalue": {
+                  "value": "58752",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q21785872$2c716bcd-42ff-2724-90df-b2d5e240fc19",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2cef96efdf1ab00ce5f42c61c96a6dfbfff32582",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "6b25f6ea99039c9519a903dd9b9cabcaa3654e0b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 57548668,
+                            "id": "Q57548668"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "9f488b3402252aa298895b4b2a63c8843005dcdf",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-11-04T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P608": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P608",
+                "hash": "0a4702b3be5668a84a42fd5113737e451662402c",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 16389549,
+                    "id": "Q16389549"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$9c09f7ce-4941-87d7-acd7-20a66d643340",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q21785872$4517DA86-9829-47F8-8514-790629D6EF58",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "765e29f48893c7b86035e5fe9747aa556836ef34",
+                "datavalue": {
+                  "value": {
+                    "text": "Edge of the Woods Near L'Hermitage, Pontoise",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q21785872$C557FFF6-5C23-48C1-B13B-B7A0FA769BC3",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "c82039def4e47f4fc6b990a51db13412af295ea4",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ce03e20241d4f71b74143a01a9232abc9443f09d",
+                "datavalue": {
+                  "value": {
+                    "text": "Sous-bois à l'Hermitage, Pontoise",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q21785872$ec1e31cf-4bd5-f5bb-153b-e54a99833dde",
+              "rank": "preferred"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "8423f5a24986cd32bb24afd047efa37b0715c821",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 10288082,
+                    "id": "Q10288082"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$9d63923b-43f6-d11f-1236-327461f0f680",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "06a7cd17d78192051594f71142333b6d854fff84",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "58370ba13828fd125a6903629773c9352a76a9e5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 142,
+                    "id": "Q142"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q21785872$3a8261d0-6ca6-4440-b402-b474c3be7025",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5fcea2b91a6b156b16643083f72030274c5e49c9",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf2a2abcd888e915738c3a59df0af648324ec615",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1951.356",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "d27919cea05ab88d3d9a2dced7eb032c486c9df7",
+                "datavalue": {
+                  "value": "Camille pissarro, limite della foresta presso l'hermitage, pontoise, 1879, 01.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q21785872$fb0e1834-4ecf-aa20-7ae1-df1ee4545266",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60746481.json",
+  "retrievedAt": "2026-10-29T15:50:40.287011+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60746481": {
+        "pageid": 60604984,
+        "ns": 0,
+        "title": "Q60746481",
+        "lastrevid": 1852101394,
+        "modified": "2023-03-14T14:19:56Z",
+        "type": "item",
+        "id": "Q60746481",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Cosmetic Jar in the Form of the God Bes"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "vessels by unknown artist (1995.13)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "50d32bfd3cf298f21aa094be41d6e935efffa757",
+                "datavalue": {
+                  "value": "1995.13",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60746481$83D446B9-47CA-4627-BA32-4C72591988FA",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746481$3B111892-1F07-4821-8C01-55375D42EF4B",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "794de045049acbb7cfd2a4f8ad3313cf239f948c",
+                "datavalue": {
+                  "value": {
+                    "text": "Cosmetic Jar in the Form of the God Bes",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60746481$4BDFED92-2BE7-4919-9679-A49BCDE6880C",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "dc62da3d5a8d4906bd7de3670b8f78b3cc9fe11a",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1995.13",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60746481$A800D197-BCC1-4C15-99E7-1E723C044E30",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "087e012329b0d50987ccb690a48abc64a20b539c",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1995.13",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60746481$81da1c47-d352-4018-88d0-74927e8f5183",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5aa4a78252ef7a3449cb1bc898fd2f9a08677927",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "43d748327373b6d26ed09b930a0fb301bb0272a7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1995.13",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746481$794B25A5-648C-4088-A8B1-1A5C1A94CA26",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "429752a12368178bae42f3e13f750a3e383bd8a8",
+                "datavalue": {
+                  "value": "Clevelandart 1995.13.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60746481$2E4EF9FC-26A1-4514-BBCC-62C724B28FE2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "4d7aa011a0982aa38fe5f94cf9d30064518efe6b",
+                "datavalue": {
+                  "value": "Egypt, Late Period, Dynasties 26 - Cosmetic Jar in the Form of the God Bes - 1995.13 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60746481$e174df34-3b58-48c1-a4b6-966d880a015b",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5aa4a78252ef7a3449cb1bc898fd2f9a08677927",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "43d748327373b6d26ed09b930a0fb301bb0272a7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1995.13",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "a9964cf1795e4b1b1847bf876c0e083eb9283bd0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4406616,
+                    "id": "Q4406616"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746481$44197F6B-6DB3-49AF-B97D-35D62D3826CE",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "5c8fe83f6483c9b8411b8793c1de2266eb03f213",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 987767,
+                    "id": "Q987767"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746481$7c259143-74e9-4e58-9e98-d2fd72352153",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5aa4a78252ef7a3449cb1bc898fd2f9a08677927",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "43d748327373b6d26ed09b930a0fb301bb0272a7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1995.13",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60746481$2c406326-7a8c-4b42-bdae-433e3e91c2d4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5aa4a78252ef7a3449cb1bc898fd2f9a08677927",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "43d748327373b6d26ed09b930a0fb301bb0272a7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1995.13",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746481$a8e4721b-ecaa-44f9-b8be-7dbd40214d2b",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "679a438aa98fbc79e10682fe2a025da857a27a8a",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "43d748327373b6d26ed09b930a0fb301bb0272a7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1995.13",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "853239dd6c115a99435ae254bd9748a06ea77f82",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-14T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

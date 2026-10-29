@@ -1,0 +1,85 @@
+{
+  "algorithmVersion": "2.0.0",
+  "configurationVersion": "2.0.0-draft.1",
+  "issuedAt": "2026-10-30",
+  "mode": "simulation",
+  "weights": { "P": 0.25, "A": 0.2, "H": 0.25, "M": 0.2, "C": 0.1 },
+  "thresholds": [40, 60, 75, 90],
+  "rarities": ["Esquisse", "Étude", "Composition", "Œuvre", "Pièce maîtresse"],
+  "normalization": {
+    "mode": "provisional",
+    "referenceFile": null,
+    "minimumReferenceSize": 500,
+    "minimumCategorySize": 50,
+    "categoryBlend": 0.2,
+    "dailyViewKnots": [[0, 0], [1, 15], [10, 35], [100, 60], [1000, 85], [10000, 100]],
+    "categoryDailyScale": { "painting": 1, "sculpture": 1, "antiquity": 1, "decorative": 1, "photography": 1, "manuscript": 1, "other": 1 },
+    "uncertaintyPoints": 8,
+    "rationale": "Courbe exploratoire fixe et graduelle, sans saturation à 1000 vues/jour ni percentile sur les 100 cibles. Échelles par catégorie neutres faute de référentiel indépendant ; le moteur accepte un référentiel figé et contrôlé. Ces points sont une politique provisoire, pas des quantiles mesurés."
+  },
+  "estimation": {
+    "minimumPeers": 5,
+    "minimumPopularityPeers": 8,
+    "priorStrength": 8,
+    "minimumPeerQuality": 0.5,
+    "minimumHalfWidth": 18,
+    "anonymousContextMaximum": 65,
+    "maximumArtistPopularityUplift": 10,
+    "maximumInstitutionPopularityUplift": 6,
+    "priors": {
+      "painting": { "P": [5, 35, 75], "A": [10, 45, 80], "H": [10, 45, 80], "M": [5, 30, 65], "C": [0, 30, 75] },
+      "sculpture": { "P": [5, 32, 75], "A": [10, 42, 80], "H": [10, 45, 80], "M": [5, 30, 65], "C": [0, 25, 70] },
+      "antiquity": { "P": [5, 30, 75], "A": [10, 42, 80], "H": [10, 45, 80], "M": [5, 30, 65], "C": [0, 25, 70] },
+      "decorative": { "P": [5, 32, 75], "A": [10, 42, 80], "H": [10, 40, 80], "M": [5, 30, 65], "C": [0, 25, 70] },
+      "photography": { "P": [5, 35, 75], "A": [10, 45, 80], "H": [10, 42, 80], "M": [5, 30, 65], "C": [0, 30, 75] },
+      "manuscript": { "P": [5, 32, 75], "A": [10, 40, 80], "H": [10, 45, 80], "M": [5, 30, 65], "C": [0, 30, 75] },
+      "other": { "P": [0, 30, 80], "A": [0, 35, 85], "H": [0, 40, 85], "M": [0, 30, 70], "C": [0, 25, 80] }
+    },
+    "rationale": "Distributions éditoriales initiales de plausibilité, non ajustées statistiquement. Modes modestes, plages larges et patrimoniales comparables à la peinture ; ni inconnue=0 ni remplacement uniforme par 50. Les médianes de comparables non imputés sont rétractées vers ces distributions quand au moins cinq voisins sont disponibles ; aucune estimation n’alimente une autre estimation. Un contexte précis peut relever légèrement A, sans transmettre la célébrité d’une civilisation."
+  },
+  "indicators": {
+    "historyCitationKnots": [[0, 10], [1, 30], [5, 45], [15, 60], [30, 75], [60, 90]],
+    "historyProxyHalfWidth": 22,
+    "collectionPoints": 20,
+    "publicRecordPoints": 10,
+    "highlightPoints": 20,
+    "exhibitionMaximum": 22,
+    "publicationMaximum": 23,
+    "institutionMaximum": 95,
+    "institutionHalfWidth": 12,
+    "missingExhibitionPoints": 8,
+    "missingPublicationPoints": 10,
+    "missingHighlightPoints": 8,
+    "editorialHalfWidth": 14,
+    "educationOnlyCultureScore": 25,
+    "educationOnlyCultureHalfWidth": 20,
+    "rationale": "H est un indice documentaire issu des références spécifiques, pas une mesure directe d’influence historique. M combine des familles distinctes de reconnaissance ; une simple notice donne 30, jamais 100. Absence de liste signifie couverture inconnue et intervalle élargi, pas zéro exposition prouvé. C n’est pas déduit d’un nombre de pages ou citations."
+  },
+  "confidence": {
+    "componentWeights": { "coverage": 0.2, "sourceQuality": 0.15, "identification": 0.2, "observedShare": 0.2, "precision": 0.15, "consistency": 0.1 },
+    "confirmedMinimum": 0.82,
+    "minimumObservedCoverage": 0.65,
+    "maximumEstimatedWeight": 0.25,
+    "minimumIndependentGroups": 2,
+    "thresholdMargin": 2.5,
+    "highEstimationWeight": 0.6,
+    "highEstimationConfidenceCap": 0.55,
+    "priorOnlyConfidenceCap": 0.35,
+    "provisionalNormalizationCap": 0.8,
+    "conflictTolerance": 15,
+    "rationale": "Indice heuristique explicable, pas probabilité d’exactitude. Les copies de mêmes sources ne multiplient pas la confiance ; faible couverture, estimation et dispersion la réduisent. Confirmed qualifie seulement la simulation, n’autorise aucune activation."
+  },
+  "sensitivity": {
+    "normalizationScales": [0.5, 1, 2],
+    "weightProfiles": {
+      "internet": { "P": 0.3, "A": 0.25, "H": 0.2, "M": 0.15, "C": 0.1 },
+      "heritage": { "P": 0.2, "A": 0.15, "H": 0.3, "M": 0.25, "C": 0.1 }
+    }
+  },
+  "providers": {
+    "minimumIntervalMs": 6000,
+    "timeoutMs": 20000,
+    "maximumRetryAfterMs": 120000,
+    "userAgent": "MUSE-Rarity-Research/2.0 (noncommercial simulation; local cache)"
+  }
+}

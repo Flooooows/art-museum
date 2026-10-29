@@ -1,0 +1,144 @@
+/* Source art and supplied PNG frames remain separate, without cropping either. */
+.framed-art {
+  display: block;
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+}
+.framed-art-window {
+  display: block;
+  position: absolute;
+  left: var(--frame-left);
+  top: var(--frame-top);
+  width: var(--frame-width);
+  height: var(--frame-height);
+  box-sizing: border-box;
+  padding: 3%;
+  background: var(--mat);
+  z-index: 1;
+}
+.framed-art-matte {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background: var(--mat);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  pointer-events: none;
+}
+:root .framed-art .framed-work {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: none;
+  padding: 0;
+  object-fit: contain;
+  background: transparent;
+}
+:root .framed-art .framed-art-overlay {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+  pointer-events: none;
+  background: transparent;
+  z-index: 2;
+}
+.framed-art-fallback {
+  border: 7px ridge var(--frame-metal);
+  box-shadow: inset 0 0 0 2px var(--image-ground);
+  background: var(--mat);
+}
+.framed-art-fallback::before {
+  content: "";
+  position: absolute;
+  inset: 4%;
+  border: 1px solid var(--frame-metal);
+  pointer-events: none;
+}
+.framed-art-missing .framed-work {
+  filter: grayscale(1);
+  opacity: 0.42;
+}
+:root .artwork-mat {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+:root .artwork-mat > .framed-art {
+  flex: none;
+}
+:root .artwork-card-top {
+  margin-bottom: 12px;
+}
+:root .artwork-index {
+  padding-inline: 4px;
+}
+:root .museum-grid .artwork-mat {
+  background: transparent;
+  border: 0;
+}
+:root .detail-reproduction {
+  padding: 12px;
+  background: transparent;
+}
+:root .detail-reproduction > .framed-art {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+:root .detail-reproduction > span:not(.framed-art) {
+  display: block;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 12px;
+  text-align: center;
+}
+:root .discovery-face {
+  height: auto;
+  aspect-ratio: 2 / 3;
+  position: relative;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+:root .discovery-back {
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
+.discovery-visible .framed-art {
+  animation: unveil-art 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+:root .rarity {
+  color: var(--rarity-on-color);
+}
+:root .rarity-plain {
+  --rarity-label: var(--rarity-ink);
+  color: var(--rarity-label);
+}
+:root[data-theme="dark"] .rarity[data-rarity-level] {
+  --rarity-label: var(--rarity-dark-ink);
+}
+:root .rarity-filters button > i {
+  width: 9px;
+  height: 9px;
+  border: 1px solid currentColor;
+  flex-shrink: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .discovery-visible .framed-art {
+    animation: none;
+  }
+}

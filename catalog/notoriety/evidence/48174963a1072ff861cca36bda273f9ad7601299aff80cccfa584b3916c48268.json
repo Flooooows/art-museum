@@ -1,0 +1,1108 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q3947722.json",
+  "retrievedAt": "2026-10-29T15:45:53.312937+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q3947722": {
+        "pageid": 3764578,
+        "ns": 0,
+        "title": "Q3947722",
+        "lastrevid": 2513791679,
+        "modified": "2026-07-04T12:03:37Z",
+        "type": "item",
+        "id": "Q3947722",
+        "labels": {
+          "it": {
+            "language": "it",
+            "value": "San Nicola di Bari"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "San Nicola di Bari"
+          },
+          "es": {
+            "language": "es",
+            "value": "San Nicolás de Bari"
+          },
+          "en": {
+            "language": "en",
+            "value": "Saint Nicholas of Bari"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Carlo Crivelli (Italian, 1430/35-1495) (1952.111)"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Carlo Crivelli"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Carlo Crivelli"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Carlo Crivelli"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Carlo Crivelli"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Carlo Crivelli"
+          },
+          "hy": {
+            "language": "hy",
+            "value": "Կառլո Կրիվելիի նկար"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Carlo Crivelli"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Carlo Crivelli"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Carlo Crivelli"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Carlo Crivelli festménye"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Carlo Crivelli"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Carlo Crivelli"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Carlo Crivelli"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Carlo Crivelli"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Carlo Crivelli"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Carlo Crivelli"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Carlo Crivelli"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Carlo Crivelli"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Carlo Crivelli"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Carlo Crivelli"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Carlo Crivelli"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Carlo Crivelli"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P361": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P361",
+                "hash": "366ef270ee2b7730a853a821fa675454a2b483b8",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3907484,
+                    "id": "Q3907484"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$dffd70ca-4f06-af01-ba92-46e12e02645c",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "ffb306062d64693284a0b0e62e645ad9b87ecb3b",
+                "datavalue": {
+                  "value": "Carlo Crivelli - Saint Nicholas of Bari - 1952.111 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q3947722$EB5E6FB2-8952-42E9-A34B-2ECE4F8D45AB",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 11920,
+                            "id": "Q11920"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "67436454ab5f1bc035540ee51cc457a9d027e7e4",
+                "datavalue": {
+                  "value": "Clevelandart 1952.111.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q3947722$4920b026-f437-49e5-8ef0-a009c3ba6a65",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "1f049a9b99209b77b01d2460be7f6a6206b07a2d",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "ab93a13962592175c4bf130ee97bdeb14b6ed67f",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1952.111",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$DB927867-6603-40A4-92CC-4974E71F5654",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 11920,
+                            "id": "Q11920"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "788b623e9b7e39665ca24161f52a43a00ac9e1ba",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 348024,
+                    "id": "Q348024"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$C7DABFCD-3D42-42A8-B928-0094486BEB30",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 11920,
+                            "id": "Q11920"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$4DA51A7A-EA17-42A4-B9FE-7EA7CDD6FEF5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 11920,
+                            "id": "Q11920"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "fbb09169867afc324862a52094ffe692143ed8e7",
+                "datavalue": {
+                  "value": {
+                    "time": "+1472-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P31": [
+                  {
+                    "snaktype": "value",
+                    "property": "P31",
+                    "hash": "d5ac6d02e7a8948b72184d9e39cf10acbc5e61ed",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 26961029,
+                        "id": "Q26961029"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P31"
+              ],
+              "id": "Q3947722$E94CA448-DD9F-4DC1-966C-D93CD0CB41FA",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8f08ac3e0839bdbc4c6eb8d671e772deb12ba423",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "250b03083f7971a02473af3e43115ef521b1440d",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 465,
+                            "id": "Q465"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "9e12b3bcf84652f8286241913e1dc96e9b40d28e",
+                "datavalue": {
+                  "value": "1952.111",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q3947722$738915cc-45eb-d395-ccdc-6848000d71b7",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "d960cb76ecb248024b7446bd6fcca59788366315",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 2864737,
+                    "id": "Q2864737"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$80c27d1f-460b-a810-b17d-9ff216d0d961",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "ab5745ee7b2807d5fe76bc9510496d23873c13ef",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 44269,
+                    "id": "Q44269"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$49467bb3-4278-8994-d7c1-954521ac7a0e",
+              "rank": "normal"
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$DCAB12AB-32AA-4BAF-8676-6171C4741995",
+              "rank": "normal"
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "79dc15995fa86be676648771b0ea20ab2eb1870b",
+                "datavalue": {
+                  "value": {
+                    "amount": "+32.5",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q3947722$58E1A0E9-8D9A-40CF-B8E9-D9A555B8675A",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "4f945b68238e801c117adc6d73057f9b8c479866",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 11920,
+                            "id": "Q11920"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "053dfe2559aacf7ec00b70825931f4e851ca0d79",
+                        "datavalue": {
+                          "value": "https://it.wikipedia.org/w/index.php?title=San_Nicola_di_Bari_(Carlo_Crivelli)&oldid=95419454",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "d91ddfa1288ffe3e4a84bbed81cb272cb14e149a",
+                "datavalue": {
+                  "value": {
+                    "amount": "+96",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q3947722$3028F692-ABB4-4B1A-BF09-3C0DA205F11A",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "4f945b68238e801c117adc6d73057f9b8c479866",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 11920,
+                            "id": "Q11920"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "053dfe2559aacf7ec00b70825931f4e851ca0d79",
+                        "datavalue": {
+                          "value": "https://it.wikipedia.org/w/index.php?title=San_Nicola_di_Bari_(Carlo_Crivelli)&oldid=95419454",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "b524001f1d30e72cbf51d3bd255ab938d32e622e",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1952.111",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q3947722$B38ED8F3-1198-4D57-8F9E-FD5D42746CE1",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q3947722$B6B4DD6B-8421-4BB1-8D09-890B9BD7C4B0",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "a9768d94cc6cbb0402d120bcac2326ee0ac030b9",
+                "datavalue": {
+                  "value": {
+                    "text": "Saint Nicholas of Bari",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3947722$47496463-6d0c-43fa-9f32-ebfd0f733ff1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "0182fb71c2b23bb17899cd2af332e155ffb0d5f2",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "ab93a13962592175c4bf130ee97bdeb14b6ed67f",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1952.111",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "dc68687ed897a951f8e868001a0429d8ebabd207",
+                "datavalue": {
+                  "value": {
+                    "text": "San Nicola di Bari",
+                    "language": "it"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3947722$7C3B38C5-4F8A-40AE-A87F-50E93E6EB1F7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8e96deaf13394cdae8ae96282ac09f0249bf7920",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "87253146bfa222af93441de77b247dc98c9d5a13",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-12-27T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "3c941c286a0f6cc1cf74146f8c4216da571e7dd4",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Carlo_crivelli,_san_nicola_di_bari.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "77821dfedb1608c3e0df9cadae11e5cbb68b1631",
+                "datavalue": {
+                  "value": "Saint Nicholas of Bari (Carlo Crivelli - Cleveland Museum of Art)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q3947722$94084BDC-56B3-446E-893D-5345D2305254",
+              "rank": "normal"
+            }
+          ],
+          "P2671": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2671",
+                "hash": "b945990f73074e1bc66549e77da27b43e4587675",
+                "datavalue": {
+                  "value": "/g/11b41k021",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3947722$0C7B0CF7-1D99-4D28-8D74-E32FF123920C",
+              "rank": "normal"
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "1992f385c0988da5740973f6b67ee34a267d6e28",
+                "datavalue": {
+                  "value": "Carlo crivelli, san nicola di bari, 1472, 01.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q3947722$778BF19F-967E-47BE-989C-0C73291BF16A",
+              "rank": "normal"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "ea9885e223e8e1488802673251a4f4ae4c6d3474",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 450181,
+                    "id": "Q450181"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$cad1fb6f-478f-141a-5154-ba015a37dcf3",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "8c71cd129ae5dff154e6cce7cb3bdb71ea64ca71",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 75948418,
+                    "id": "Q75948418"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$c79d3131-49ad-74db-4df3-0183adf07b4b",
+              "rank": "normal"
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "649ee9fb1557b8774d0c4453d4af20ac25fd13be",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 175166,
+                    "id": "Q175166"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$16a0248e-47c6-f112-29e1-645e57105110",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "efeae71ff703391b2a4175c364f2973e1bdb1127",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 929186,
+                    "id": "Q929186"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3947722$f74cb28f-45f0-f4dd-9064-6aa597bb1ddd",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "32442acff3bd145a61bbd0b67fc5712a6a0bb800",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 106857709,
+                    "id": "Q106857709"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q3947722$f8d0faa4-415d-b812-83d1-23a41532bf65",
+              "rank": "normal"
+            }
+          ],
+          "P13818": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13818",
+                "hash": "af2444388195aec25d46c6dae7ef788fe522cc53",
+                "datavalue": {
+                  "value": "18739150-ed69-4858-950e-b96aa8fdea80",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3947722$6d481356-4ec6-723d-3d63-a7be2627c3b4",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "itwiki": {
+            "site": "itwiki",
+            "title": "San Nicola di Bari (Carlo Crivelli)",
+            "badges": [],
+            "url": "https://it.wikipedia.org/wiki/San_Nicola_di_Bari_(Carlo_Crivelli)"
+          },
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Saint Nicholas of Bari (Carlo Crivelli - Cleveland Museum of Art)",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Saint_Nicholas_of_Bari_(Carlo_Crivelli_-_Cleveland_Museum_of_Art)"
+          },
+          "eswiki": {
+            "site": "eswiki",
+            "title": "San Nicolás de Bari (políptico de 1472)",
+            "badges": [],
+            "url": "https://es.wikipedia.org/wiki/San_Nicol%C3%A1s_de_Bari_(pol%C3%ADptico_de_1472)"
+          }
+        }
+      }
+    }
+  }
+}

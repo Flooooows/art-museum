@@ -1,0 +1,837 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60502690.json",
+  "retrievedAt": "2026-10-29T15:45:50.780850+00:00",
+  "payload": {
+    "entities": {
+      "Q60502690": {
+        "pageid": 60373632,
+        "ns": 0,
+        "title": "Q60502690",
+        "lastrevid": 2363169350,
+        "modified": "2025-06-18T15:13:26Z",
+        "type": "item",
+        "id": "Q60502690",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Panel from a Cassone: The Race of the Berberi Palio in the Streets of Florence"
+          }
+        },
+        "descriptions": {
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Giovanni Francesco Toscani"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Giovanni Francesco Toscani"
+          },
+          "en": {
+            "language": "en",
+            "value": "(1916.801) painting by Giovanni Francesco Toscani (Italian, c. 1380-1430)"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Giovanni Francesco Toscani"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Giovanni Francesco Toscani"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Giovanni di Francesco Toscani"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Giovanni Toscani"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Giovanni Toscani"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Giovanni Toscani"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Giovanni Toscani"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Giovanni Toscani"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Giovanni Toscani"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Giovanni Toscani"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Giovanni Francesco Toscani festménye"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Giovanni Francesco Toscani"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Giovanni Francesco Toscani"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Giovanni Francesco Toscani"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Giovanni Francesco Toscani"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Giovanni Francesco Toscani"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Giovanni Francesco Toscani"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Giovanni Francesco Toscani"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Giovanni Francesco Toscani"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "f5207bfaeeb578ce5e164648674be0a0b100246c",
+                "datavalue": {
+                  "value": "1916.801",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60502690$07CB4AEA-6158-41B0-B57E-7AF56691D3F6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6454104759b4244c1da8782f4e252f1a13213d79",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502690$52B50ABD-7C20-465D-B65A-620B53E0CEAC",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6454104759b4244c1da8782f4e252f1a13213d79",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502690$CA3D08E5-98A3-47C9-8A31-CFC992B27559",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6454104759b4244c1da8782f4e252f1a13213d79",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502690$2DCBF387-3A8E-4961-A634-4067CC270059",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6454104759b4244c1da8782f4e252f1a13213d79",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "b4cbf750b69356c8e0320f06f2f222da6dd9266c",
+                "datavalue": {
+                  "value": {
+                    "time": "+1418-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60502690$7684B440-D3AD-45D7-B819-02C4E16812F9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6454104759b4244c1da8782f4e252f1a13213d79",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "3c55e69e371380f89bf8626f5711f952114a5890",
+                "datavalue": {
+                  "value": {
+                    "amount": "+42.1",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60502690$7471501E-5116-4F3F-9024-D156C48CC596",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6454104759b4244c1da8782f4e252f1a13213d79",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "66e6670db5b1323e379b9c39356229948b0f4294",
+                "datavalue": {
+                  "value": {
+                    "amount": "+139.5",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60502690$82D43108-8699-4F7C-8B4C-8DAD31139C85",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6454104759b4244c1da8782f4e252f1a13213d79",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "8d7ed06a8a59145e41095696dfe9cd4dafd581aa",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1916.801",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60502690$8EF2AC53-D18A-463F-84E9-A57DD4683A6A",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "0481479a6d4b7b57aa4b30092fee6d8f1f50152a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1526455,
+                    "id": "Q1526455"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502690$BD0739C3-764D-492D-8883-5A1E9A1A8BC1",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "63f9e5d79b3555fcc51977f1c97b2d65252b7e5c",
+                "datavalue": {
+                  "value": "Giovanni Francesco Toscani - Panel from a Cassone, The Race of the Palio in the Streets of Florence - 1916.801 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60502690$20783bff-0c64-4dab-a5cb-6db1f2f17c39",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "bdc218a8c828bf471fc3b827ec097690d92be1cb",
+                "datavalue": {
+                  "value": "Clevelandart 1916.801.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60502690$a91f526a-3172-40e8-b39b-ac1a2d608c1f",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1a4d2c5a97660a30e8d4c9255315d640428ece9f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "475837ba413676e8a2a4c4ed9608618ee15feceb",
+                "datavalue": {
+                  "value": {
+                    "text": "Panel from a Cassone: The Race of the Palio in the Streets of Florence",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60502690$262d4d78-fd6e-458a-9d3d-3351325d0260",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "32a7675fbe35996f69e9ae9ac5bfc1eec601ec5a",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0d7aea8e94defcedd4da0f2a8ccbd5e585df68bc",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.801",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60502690$68D21552-23E4-4492-9955-7DB7858763E6",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "06b95d408bb241eab1802df3e10f33e5c45e6f80",
+                "datavalue": {
+                  "value": "Cassone with the Palio dei Barberi",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60502690$4beb1314-53f1-4060-a74c-7735be79e1ec",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Cassone with the Palio dei Barberi",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Cassone_with_the_Palio_dei_Barberi"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "0311ab10f60e4cda2272bd7dbc1ce857a8f83eddf82960c25d439f9f66ee3dcf"
+}

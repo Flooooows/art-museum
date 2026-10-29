@@ -1,0 +1,1612 @@
+/* Loaded after styles.css: readable type and semantic themes override the reference's miniature labels. */
+:root {
+  color-scheme: light;
+  --text: #29201d;
+  --text-soft: #625249;
+  --heading: #4a0011;
+  --link: #0028c2;
+  --focus: #0038ff;
+  --action-bg: #4a0011;
+  --action-hover: #6b1123;
+  --card: #fffefb;
+  --surface-hover: #eae4da;
+  --surface-inset: #eae5dc;
+  --mat: #eeece4;
+  --image-ground: #e1ddd3;
+  --gold-ink: #78601f;
+  --gold-surface: #eee7d8;
+  --border: #d7cdc1;
+  --selection: #e3cfb0;
+  --error-bg: #f9e8df;
+  --error-ink: #831c19;
+  --header-height: 88px;
+  --type-body: 1rem;
+  --type-control: 0.9375rem;
+  --type-label: 0.875rem;
+  --type-caption: 0.8125rem;
+  background: var(--paper);
+  color: var(--text);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #210a12;
+  --paper-low: #2d101b;
+  --paper-mid: #3b1725;
+  --text: #f8e9df;
+  --text-soft: #d8bdc0;
+  --heading: #f5dfbd;
+  --muted: #d8bdc0;
+  --link: #bdcbff;
+  --focus: #c9d3ff;
+  --action-bg: #8f304c;
+  --action-hover: #aa3c5d;
+  --card: #33131f;
+  --surface-hover: #512237;
+  --surface-inset: #351721;
+  --mat: #48212e;
+  --image-ground: #240e17;
+  --gold-ink: #edca87;
+  --gold-surface: #483021;
+  --border: #855363;
+  --line: #59303e;
+  --selection: #75344a;
+  --error-bg: #511b28;
+  --error-ink: #ffd1c3;
+}
+
+html {
+  scroll-padding-top: calc(var(--header-height) + 24px);
+}
+body {
+  font-size: var(--type-body);
+  background: var(--paper);
+  color: var(--text);
+}
+main,
+h1,
+h2,
+h3,
+[tabindex] {
+  scroll-margin-top: calc(var(--header-height) + 24px);
+}
+::selection {
+  background: var(--selection);
+  color: var(--text);
+}
+:root :is(button, a, input, select, summary):focus-visible {
+  outline-color: var(--focus);
+}
+:root input {
+  caret-color: var(--heading);
+}
+:root select,
+:root input[type="radio"] {
+  accent-color: var(--action-bg);
+}
+:root p {
+  text-wrap: pretty;
+}
+
+/* Persistent, opaque navigation stays legible over both galleries and the opening room. */
+:root .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  height: var(--header-height);
+  background: var(--paper);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 5px 16px -12px #17050f66;
+}
+:root .header-inner {
+  gap: 32px;
+}
+:root .site-header nav {
+  gap: 24px;
+}
+:root .site-header nav a {
+  font-size: var(--type-label);
+  letter-spacing: 0.065em;
+  color: var(--text);
+}
+:root .site-header nav a.active {
+  color: var(--heading);
+}
+:root .site-header nav a.active::after {
+  background: var(--heading);
+}
+:root .site-header nav a:hover {
+  color: var(--link);
+}
+:root .brand {
+  color: var(--heading);
+}
+:root .brand svg {
+  color: var(--gold-ink);
+}
+:root .header-tools {
+  gap: 10px;
+}
+:root .icon-button {
+  width: 44px;
+  height: 44px;
+}
+:root .icon-button:hover {
+  background: var(--surface-hover);
+}
+:root .profile-button {
+  width: 42px;
+  height: 42px;
+}
+:root .theme-toggle {
+  color: var(--gold-ink);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+}
+:root .theme-toggle:hover {
+  color: var(--heading);
+}
+:root .stock-badge {
+  font-size: var(--type-control);
+  min-height: 40px;
+  padding: 8px 13px;
+}
+:root .stock-limit {
+  color: var(--text-soft);
+}
+:root .stock-badge svg {
+  color: var(--gold-ink);
+}
+
+/* One useful scale on every viewport: prose 16, controls 15, labels 14, captions 13. */
+:root
+  :is(
+    .featured-description,
+    .catalog-description,
+    .ritual-step p,
+    .collection-intro-copy > p,
+    .empty-collection p,
+    .detail-content > p:not(.anecdote, .detail-artist, .fine-print),
+    .save-explanation p,
+    .demo-settings p,
+    .import-confirmation p,
+    .empty-revelation p,
+    .reveal-anecdote
+  ) {
+  font-size: var(--type-body);
+  line-height: 1.8;
+}
+
+:root
+  :is(
+    .button,
+    .catalog-card .button,
+    .detail-actions .button,
+    .save-actions .button,
+    .opening-action > .button,
+    .reveal-summary-actions .button,
+    .text-link,
+    .recent-panel .text-link,
+    .light-link,
+    .source-link,
+    .demo-settings .source-link,
+    .filter-pills button,
+    .rarity-filters button,
+    .view-tabs button,
+    .family-panel label,
+    .rate > div:first-child,
+    .inspect-button,
+    .demo-settings summary,
+    .import-error
+  ) {
+  font-size: var(--type-control);
+  line-height: 1.5;
+  letter-spacing: 0.015em;
+}
+
+:root
+  :is(
+    .intro-status span,
+    .feature-badges,
+    .feature-stats span,
+    .available > span,
+    .feature-stats small,
+    .available small,
+    .featured-rates,
+    .discovery-strip > .page-width,
+    .discovery-strip span:first-child,
+    .catalog-card-top,
+    .catalog-card-top > span:last-child,
+    .catalog-progress,
+    .catalog-progress > div:last-child,
+    .art-previews span,
+    .ritual-note,
+    .catalog-note,
+    .site-footer > div,
+    .site-footer button,
+    .atelier-heading > span,
+    .opening-steps li > span,
+    .opening-steps small,
+    .sealed-info > span,
+    .sealed-info > p,
+    .sealed-info dl > div,
+    .rates h3,
+    .rates p,
+    .ritual-choice legend,
+    .ritual-choice small,
+    .preservation-note h3,
+    .preservation-note p,
+    .opening-tagline,
+    .revelation-heading > span,
+    .revelation-heading > span:last-child,
+    .reveal-card-label,
+    .reveal-card-label > span:last-child,
+    .revealed-art-top,
+    .revealed-art-title p,
+    .reveal-summary > div > span,
+    .reveal-count > p > span,
+    .reveal-note,
+    .card-back-action,
+    .collection-stats span,
+    .sidebar-panel h2,
+    .sidebar-all,
+    .sidebar-catalog span,
+    .recent-panel > span,
+    .badges-panel small,
+    .sort-control,
+    .clear-filters,
+    .artist-name,
+    .artwork-card-foot > span,
+    .collection-pagination > span,
+    .collection-closing > span,
+    .museum-caption p,
+    .museum-caption > span,
+    .detail-artist,
+    .detail-content dt,
+    .guest-profile p,
+    .guest-profile > span,
+    .save-explanation h3,
+    .plan-list > div,
+    .catalog-album p,
+    .catalog-album span
+  ) {
+  font-size: var(--type-label);
+  line-height: 1.65;
+  letter-spacing: 0.025em;
+}
+
+:root
+  :is(
+    .rarity,
+    .detail-content > .rarity,
+    .artwork-card-top .rarity,
+    .revealed-art-title .rarity,
+    .artwork-index,
+    .artwork-index span:last-child,
+    .artwork-card-top > span:last-child,
+    .detail-reproduction > span,
+    .fine-print
+  ) {
+  font-size: var(--type-caption);
+  line-height: 1.55;
+  letter-spacing: 0.015em;
+}
+
+:root
+  :is(
+    .button,
+    .catalog-card .button,
+    .detail-actions .button,
+    .save-actions .button,
+    .reveal-summary-actions .button
+  ) {
+  min-height: 48px;
+  padding: 13px 18px;
+  gap: 9px;
+  white-space: normal;
+}
+:root :is(.filter-pills button, .rarity-filters button, .view-tabs button) {
+  min-height: 42px;
+  padding: 9px 14px;
+  white-space: normal;
+}
+:root .text-link {
+  padding-block: 9px;
+}
+:root .shop-intro p {
+  font-size: 20px;
+  line-height: 1.65;
+}
+:root .opus {
+  font-size: 18px;
+}
+:root .feature-stats {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+:root .feature-stats strong {
+  font-size: 24px;
+  white-space: normal;
+}
+:root .feature-stats > div {
+  padding: 14px 11px;
+}
+:root .intro-status strong {
+  font-size: 29px;
+}
+:root .intro-status small {
+  font-size: 17px;
+  color: var(--gold-ink);
+}
+:root .intro-status {
+  flex-shrink: 1;
+}
+:root .featured-content {
+  padding-bottom: 34px;
+}
+:root .featured-actions {
+  align-items: center;
+  gap: 20px;
+}
+:root .featured-rates summary {
+  line-height: 1.7;
+  padding-block: 8px;
+}
+:root .feature-badges > span {
+  padding: 5px 9px;
+}
+:root .discovery-strip > .page-width {
+  min-height: 52px;
+  overflow: visible;
+  white-space: normal;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  padding-block: 14px;
+}
+:root .discovery-strip span:first-child {
+  color: var(--heading);
+}
+:root .ritual-step {
+  background: var(--card);
+}
+:root .ritual-step > div {
+  color: var(--link);
+}
+:root .section-heading {
+  flex-wrap: wrap;
+}
+:root .section-heading h2 {
+  font-size: 34px;
+}
+:root .catalog-card {
+  padding: 18px;
+}
+:root .catalog-title h3 {
+  font-size: 28px;
+}
+:root .catalog-description {
+  min-height: 0;
+  margin-bottom: 22px;
+}
+:root .catalog-progress {
+  padding: 12px;
+}
+:root progress {
+  background: var(--border);
+  accent-color: var(--link);
+}
+:root progress::-webkit-progress-bar {
+  background: var(--border);
+}
+:root progress::-webkit-progress-value {
+  background: var(--link);
+}
+:root progress::-moz-progress-bar {
+  background: var(--link);
+}
+:root .catalog-progress progress::-webkit-progress-value {
+  background: var(--gold-ink);
+}
+:root .catalog-progress progress::-moz-progress-bar {
+  background: var(--gold-ink);
+}
+:root .catalog-progress > div {
+  flex-wrap: wrap;
+  gap: 6px;
+}
+:root .art-previews {
+  flex-wrap: wrap;
+  gap: 7px;
+}
+:root .art-previews img {
+  width: 31px;
+  height: 39px;
+}
+:root .catalog-card-top {
+  align-items: flex-start;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+:root .ritual-step h3 {
+  font-size: 26px;
+}
+:root .ritual-step p {
+  max-width: 65ch;
+}
+:root .ritual-section .section-heading > p {
+  font-size: 19px;
+}
+:root .site-footer {
+  flex-wrap: wrap;
+}
+:root .site-footer > p {
+  font-size: 19px;
+}
+:root .site-footer > div {
+  flex-wrap: wrap;
+  gap: 14px 24px;
+}
+:root .toast {
+  font-size: 15px;
+  line-height: 1.7;
+}
+:root .storage-warning {
+  font-size: 15px;
+}
+
+/* The nocturnal opening ritual keeps its palette; its information no longer shrinks. */
+:root .nocturne :is(.atelier-heading, .revelation-heading) h1,
+:root .nocturne.empty-revelation h1 {
+  color: #f5dfbd;
+}
+:root :is(.atelier-heading h1, .revelation-heading h1) {
+  font-size: 34px;
+}
+:root .atelier-heading {
+  flex-wrap: wrap;
+}
+:root .opening-steps {
+  width: 100%;
+}
+:root .opening-steps strong {
+  font-size: 26px;
+}
+:root .opening-steps li {
+  opacity: 0.85;
+}
+:root .opening-steps .current {
+  opacity: 1;
+}
+:root .sealed-info h2 {
+  font-size: 31px;
+}
+:root .sealed-info dl > div {
+  flex-wrap: wrap;
+}
+:root .rates p {
+  line-height: 1.8;
+}
+:root .tear-seal > span:last-child {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* The supplied artwork contains its own lettering and complete foil silhouette. */
+:root .atelier-pack-supplied {
+  aspect-ratio: 2 / 3;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+}
+:root .atelier-pack-supplied::before,
+:root .atelier-pack-supplied::after {
+  content: none;
+}
+:root .atelier-pack-supplied .atelier-pack-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 18px 24px #0d000d99);
+}
+:root .atelier-pack-supplied .tear-seal {
+  top: 0;
+  left: 4%;
+  right: 4%;
+  height: 48px;
+}
+:root .atelier-pack-supplied .tear-seal > span:first-child {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+:root .atelier-pack-supplied .tear-seal > span:last-child {
+  top: auto;
+  padding: 6px 8px;
+  border-radius: 5px;
+  background: #210a12;
+  color: #f5dfbd;
+  text-shadow: none;
+}
+:root .atelier-pack-supplied .tear-seal:focus-visible {
+  outline-color: #c9d3ff;
+}
+:root .rates h3 {
+  margin-bottom: 18px;
+}
+:root .rate {
+  margin-top: 15px;
+}
+:root .rate-track {
+  height: 5px;
+}
+:root .ritual-choice {
+  padding: 22px;
+}
+:root .ritual-choice label {
+  padding: 20px 14px;
+}
+:root .ritual-choice strong {
+  font-size: 28px;
+}
+:root .ritual-choice small {
+  font-size: 15px;
+  line-height: 1.8;
+}
+:root .preservation-note p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+:root .opening-action > .button {
+  min-width: 0;
+  min-height: 56px;
+  max-width: 100%;
+}
+:root .opening-hint {
+  font-size: 20px;
+}
+:root .opening-tagline {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+:root .revelation-heading {
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+:root .reveal-card-label {
+  gap: 9px;
+  margin-bottom: 13px;
+}
+:root .revealed-art-top {
+  flex-wrap: wrap;
+  min-height: 28px;
+}
+:root .revealed-art-title {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 116px;
+  padding-top: 14px;
+}
+:root .revealed-art-title h2 {
+  font-size: 27px;
+  line-height: 1.2;
+}
+:root .revealed-art-title p {
+  margin-top: 7px;
+}
+:root .revealed-art-title .rarity {
+  display: inline-flex;
+  max-width: none;
+}
+:root .flipping-card {
+  min-height: 600px;
+}
+:root .inspect-button {
+  min-height: 48px;
+}
+:root .reveal-summary,
+:root .reveal-summary-actions {
+  flex-wrap: wrap;
+}
+:root .reveal-summary-actions > div {
+  min-width: 265px;
+  max-width: 100%;
+}
+
+/* Inventory density follows the larger, readable controls rather than scaling them down. */
+:root .collection-intro {
+  flex-wrap: wrap;
+}
+:root .collection-intro-copy {
+  min-width: 300px;
+}
+:root .collection-stats {
+  flex-wrap: wrap;
+}
+:root .collection-stats strong {
+  font-size: 29px;
+}
+:root .collection-stats span {
+  white-space: normal;
+}
+:root .collection-stats > div {
+  min-width: 92px;
+}
+:root .collection-stats .completion-stat strong {
+  font-size: 38px;
+}
+:root .collection-layout {
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 30px;
+}
+:root .sidebar-panel {
+  padding: 22px 18px;
+}
+:root .sidebar-panel h2 {
+  align-items: flex-start;
+}
+:root .sidebar-catalog {
+  padding-block: 16px;
+}
+:root .sidebar-catalog strong {
+  font-size: 18px;
+}
+:root .sidebar-catalog > img {
+  width: 45px;
+  height: 53px;
+}
+:root .sidebar-catalog > div > div {
+  align-items: flex-start;
+}
+:root .family-panel label {
+  min-height: 30px;
+  gap: 10px;
+  margin-top: 10px;
+}
+:root .family-panel input {
+  width: 17px;
+  height: 17px;
+}
+:root .recent-panel > p {
+  font-size: 20px;
+}
+:root .collection-toolbar {
+  flex-wrap: wrap;
+}
+:root .view-tabs {
+  flex-wrap: wrap;
+  border-radius: 12px;
+  padding: 5px;
+  gap: 4px;
+}
+:root .view-tabs button {
+  border-radius: 9px;
+}
+:root .sort-control {
+  flex-wrap: wrap;
+}
+:root .sort-control select {
+  max-width: none;
+  min-height: 48px;
+  font-size: 16px;
+  padding: 10px;
+}
+:root .search-filters {
+  flex-wrap: wrap;
+}
+:root .search-field {
+  height: auto;
+  min-height: 48px;
+}
+:root .search-field input {
+  font-size: 16px;
+  padding-block: 13px;
+}
+:root .possession-filter {
+  height: auto;
+  min-height: 48px;
+}
+:root .possession-filter select {
+  font-size: 16px;
+  max-width: none;
+  padding-block: 10px;
+}
+:root .rarity-filters {
+  gap: 8px;
+}
+:root .artwork-grid {
+  gap: 25px;
+}
+:root .artwork-card {
+  padding: 15px;
+}
+:root .artwork-card-top {
+  position: static;
+  align-items: flex-start;
+  gap: 8px;
+  min-height: 28px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+:root .artwork-card-top .rarity {
+  padding: 4px 6px;
+  max-width: 100%;
+  white-space: normal;
+}
+:root .artwork-card-top .rarity svg {
+  width: 12px;
+  height: 12px;
+}
+:root .artwork-card-top > span:last-child {
+  margin-left: auto;
+}
+:root .artwork-mat {
+  aspect-ratio: auto;
+  padding: 9px;
+}
+:root .artwork-mat > img {
+  flex: none;
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+}
+:root .artwork-index {
+  justify-content: flex-end;
+  min-height: 25px;
+  margin-top: 10px;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+:root .artwork-index > span:first-child {
+  display: none;
+}
+:root .artwork-open h3 {
+  font-size: 25px;
+  line-height: 1.25;
+}
+:root .artist-name {
+  margin-top: 9px;
+  min-height: 0;
+  text-transform: none;
+}
+:root .artwork-card-foot {
+  min-height: 44px;
+  margin-top: 16px;
+  padding: 5px 8px;
+}
+:root .favorite-button {
+  width: 38px;
+  height: 38px;
+}
+:root .favorite-button svg {
+  width: 18px;
+  height: 18px;
+}
+:root .rarity {
+  padding: 5px 8px;
+}
+:root .rarity-plain {
+  color: var(--rarity-label, var(--rarity));
+}
+:root .collection-pagination {
+  flex-wrap: wrap;
+  gap: 16px;
+}
+:root .collection-pagination button {
+  min-width: 42px;
+  width: 42px;
+  height: 44px;
+  font-size: 15px;
+}
+:root .collection-closing > p {
+  font-size: 20px;
+}
+:root .museum-caption {
+  flex-wrap: wrap;
+}
+:root .catalog-album {
+  padding: 19px;
+}
+:root .catalog-album h2 {
+  font-size: 24px;
+}
+:root .museum-grid .artwork-mat > img {
+  height: 380px;
+}
+
+/* Long-form and save dialogs use the same reading scale as the pages. */
+:root .modal {
+  color: var(--text);
+  border-color: var(--border);
+}
+:root .modal-heading h2 {
+  font-size: 29px;
+  line-height: 1.3;
+}
+:root .modal-heading {
+  align-items: flex-start;
+}
+:root .detail-content > h2 {
+  font-size: 38px;
+}
+:root .detail-content > h3 {
+  font-size: 27px;
+}
+:root .detail-content > p:not(.anecdote, .detail-artist, .fine-print) {
+  max-width: 65ch;
+}
+:root .anecdote {
+  font-size: 21px;
+  line-height: 1.65;
+}
+:root .detail-content dl > div {
+  font-size: 16px;
+  line-height: 1.75;
+  grid-template-columns: 150px minmax(0, 1fr);
+  padding-block: 12px;
+}
+:root .detail-content dt {
+  line-height: 1.6;
+}
+:root .detail-actions {
+  gap: 12px;
+}
+:root .detail-actions .button {
+  flex: 1 1 190px;
+}
+:root .save-actions {
+  flex-wrap: wrap;
+}
+:root .save-actions .button {
+  flex: 1 1 220px;
+}
+:root .guest-profile h3 {
+  font-size: 25px;
+}
+:root .guest-profile {
+  flex-wrap: wrap;
+}
+:root .guest-profile > span {
+  margin-left: 0;
+}
+:root .museum-link {
+  font-size: 25px;
+}
+:root .demo-settings h3 {
+  font-size: 23px;
+}
+
+/* Theme remaps are semantic: burgundy actions stay burgundy, never ivory-filled. */
+:root
+  :is(
+    h1,
+    .brand,
+    .section-heading h2,
+    .catalog-title h3,
+    .ritual-step h3,
+    .collection-intro h1,
+    .artwork-open h3,
+    .empty-collection h2,
+    .museum-caption h2,
+    .modal-heading h2,
+    .detail-content > h2,
+    .detail-content > h3,
+    .guest-profile h3,
+    .save-explanation h3,
+    .demo-settings h3,
+    .catalog-album h2,
+    .museum-link,
+    .family-panel .selected,
+    .collection-link
+  ) {
+  color: var(--heading);
+}
+
+:root
+  :is(
+    .shop-intro p,
+    .catalog-description,
+    .catalog-note,
+    .ritual-step p,
+    .ritual-section .section-heading > p,
+    .site-footer > p,
+    .collection-intro-copy > p,
+    .sidebar-panel h2,
+    .sidebar-panel h2 > span,
+    .sidebar-all,
+    .sidebar-catalog span,
+    .family-panel label,
+    .recent-panel > span,
+    .badges-panel > div > span,
+    .sort-control,
+    .artist-name,
+    .artwork-card-foot,
+    .collection-pagination > span,
+    .collection-closing > p,
+    .collection-closing > span,
+    .empty-collection p,
+    .museum-caption p,
+    .museum-caption > span,
+    .detail-artist,
+    .fine-print,
+    .detail-content dt,
+    .detail-content dd,
+    .detail-content > p:not(.anecdote),
+    .guest-profile p,
+    .save-explanation p,
+    .demo-settings summary,
+    .demo-settings p,
+    .import-confirmation p,
+    .catalog-album p,
+    .catalog-album span,
+    .art-previews span,
+    .catalog-progress > div:first-child,
+    .catalog-progress > div:last-child,
+    .discovery-strip > .page-width
+  ) {
+  color: var(--text-soft);
+}
+
+:root
+  :is(
+    .source-link,
+    .sidebar-all.selected,
+    .sidebar-catalog.selected strong,
+    .museum-link:hover
+  ) {
+  color: var(--link);
+}
+:root
+  :is(
+    .button-primary,
+    .view-tabs button.active,
+    .collection-pagination button.active,
+    .collection-stats .duplicates-stat,
+    .toast,
+    .skip-link,
+    .collection-portrait > span
+  ) {
+  background: var(--action-bg);
+  color: #fff8ee;
+}
+:root .button-primary:hover:not(:disabled) {
+  background: var(--action-hover);
+}
+:root .button-ghost {
+  background: var(--paper-mid);
+  color: var(--heading);
+  border-color: var(--border);
+}
+:root .button-ghost:hover:not(:disabled) {
+  background: var(--surface-hover);
+}
+:root :is(.filter-pills button, .rarity-filters button) {
+  color: var(--text);
+}
+:root :is(.filter-pills button.active, .rarity-filters button.active) {
+  color: #fff8ee;
+}
+:root :is(.filter-pills button:hover, .rarity-filters button:hover) {
+  background: var(--surface-hover);
+}
+:root
+  :is(
+    .catalog-card,
+    .sidebar-panel,
+    .collection-stats,
+    .collection-pagination,
+    .artwork-card-foot
+  ) {
+  background: var(--paper-low);
+}
+:root .catalog-card:hover {
+  background: var(--surface-hover);
+}
+:root .catalog-card-gold {
+  background: var(--gold-surface);
+}
+:root .pack-display {
+  background: var(--surface-inset);
+}
+:root .catalog-progress {
+  background: var(--card);
+}
+:root
+  :is(
+    .catalog-progress strong,
+    .catalog-title > svg,
+    .site-footer button,
+    .ritual-note,
+    .badges-panel .unlocked,
+    .museum-caption > svg,
+    .catalog-album > svg
+  ) {
+  color: var(--gold-ink);
+}
+:root .catalog-card-top > span:last-child {
+  background: var(--paper-mid);
+  color: var(--text-soft);
+}
+:root .catalog-card:nth-child(2) .catalog-card-top > span:last-child {
+  background: var(--paper-mid);
+  color: var(--link);
+}
+:root .catalog-card-gold .catalog-card-top > span:last-child {
+  background: var(--gold-surface);
+  color: var(--gold-ink);
+}
+:root
+  :is(
+    .catalog-album,
+    .empty-collection,
+    .save-explanation,
+    .anecdote,
+    .guest-profile > span
+  ) {
+  background: var(--paper-mid);
+}
+:root .catalog-album:hover {
+  background: var(--surface-hover);
+}
+:root .collection-stats > div {
+  background: var(--paper-mid);
+}
+:root .collection-stats .completion-stat {
+  background: transparent;
+}
+:root .collection-stats .duplicates-stat {
+  background: var(--action-bg);
+}
+:root .view-tabs button {
+  color: var(--text-soft);
+}
+:root .view-tabs button.active {
+  color: #fff8ee;
+}
+:root
+  :is(
+    .search-field,
+    .sort-control select,
+    .possession-filter,
+    .collection-pagination button
+  ) {
+  background: var(--paper-mid);
+  color: var(--text);
+  border-color: var(--border);
+}
+:root
+  :is(.search-field input, .possession-filter select, .sort-control select) {
+  color: var(--text);
+}
+:root .search-field input::placeholder {
+  color: var(--text-soft);
+}
+:root .search-field:focus-within {
+  outline-color: var(--focus);
+}
+:root .artwork-card {
+  background: var(--card);
+  border-color: var(--line);
+}
+:root .artwork-mat {
+  background: var(--mat);
+  border-color: var(--border);
+}
+:root .artwork-mat > img {
+  background: var(--image-ground);
+}
+:root .artwork-card-top > span:last-child {
+  background: var(--card);
+  color: var(--text-soft);
+}
+:root :is(.artwork-index, .artwork-index span:last-child, .favorite-button) {
+  color: var(--text-soft);
+}
+:root .is-favorite {
+  color: var(--heading);
+}
+:root .collection-pagination button.active {
+  background: var(--action-bg);
+  color: #fff8ee;
+}
+:root .collection-closing > svg {
+  color: var(--heading);
+}
+:root .museum-grid {
+  background: var(--surface-inset);
+}
+:root .museum-grid .artwork-card {
+  background: var(--card);
+}
+:root .museum-grid .artwork-mat {
+  background: var(--mat);
+}
+:root .detail-reproduction {
+  background: var(--mat);
+}
+:root .detail-reproduction > span {
+  color: var(--text-soft);
+}
+:root .anecdote {
+  color: var(--heading);
+}
+:root
+  :is(
+    .anecdote svg,
+    .guest-profile > span,
+    .save-explanation > svg,
+    .sidebar-panel h2 > svg
+  ) {
+  color: var(--gold-ink);
+}
+:root .plan-list strong {
+  color: var(--heading);
+}
+:root .import-error {
+  background: var(--error-bg);
+  color: var(--error-ink);
+  border-color: var(--border);
+}
+
+:root[data-theme="dark"] .revealed-art {
+  border-color: var(--border);
+}
+:root[data-theme="dark"] .revealed-art > button {
+  background: var(--image-ground);
+}
+:root[data-theme="dark"]
+  :is(.revealed-art-top, .revealed-art-title, .reveal-summary) {
+  color: var(--heading);
+}
+:root[data-theme="dark"]
+  :is(.revealed-art-title p, .reveal-count > p > span, .reveal-count small) {
+  color: var(--text-soft);
+}
+:root[data-theme="dark"] .rarity[data-rarity-level="0"] {
+  --rarity-label: #d8ccc3;
+}
+:root[data-theme="dark"] .rarity[data-rarity-level="1"] {
+  --rarity-label: #9bd2b1;
+}
+:root[data-theme="dark"] .rarity[data-rarity-level="2"] {
+  --rarity-label: #b9c8ff;
+}
+:root[data-theme="dark"] .rarity[data-rarity-level="3"] {
+  --rarity-label: #e4abe9;
+}
+:root[data-theme="dark"] .rarity[data-rarity-level="4"] {
+  --rarity-label: #f1ce75;
+}
+:root[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: var(--border);
+}
+
+@media (max-width: 1200px) {
+  :root .packs-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  :root .collection-layout {
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 24px;
+  }
+  :root .artwork-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  :root .catalog-card .pack-display {
+    aspect-ratio: auto;
+    min-height: 310px;
+  }
+  :root .catalog-card .pack-display .pack {
+    width: 185px;
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --header-height: 116px;
+  }
+  :root .header-inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 64px 52px;
+    gap: 0 12px;
+    padding-inline: 24px;
+    height: 116px;
+  }
+  :root .brand-link {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  :root .header-tools {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 0;
+  }
+  :root .site-header nav {
+    position: static;
+    inset: auto;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    height: 52px;
+    width: 100%;
+    border-top: 1px solid var(--line);
+    justify-content: space-between;
+    gap: 10px;
+  }
+  :root .site-header nav a {
+    height: 48px;
+  }
+  :root .site-header nav a.active::after {
+    bottom: 4px;
+  }
+  :root .notification-button,
+  :root .search-header {
+    display: none;
+  }
+  :root .atelier-layout {
+    grid-template-columns: minmax(240px, 1fr) minmax(280px, 1.5fr);
+  }
+  :root .atelier-right {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+  }
+  :root .ritual-options {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  :root .reveal-grid {
+    grid-template-columns: 1fr;
+    max-width: 610px;
+    margin-inline: auto;
+    gap: 35px;
+  }
+  :root .reveal-column:nth-child(1),
+  :root .reveal-column:nth-child(3) {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 950px) {
+  :root .collection-layout {
+    grid-template-columns: 1fr;
+  }
+  :root .collection-sidebar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+  :root .sidebar-panel:first-child .sidebar-catalog {
+    display: flex;
+    width: 100%;
+    padding: 12px 0;
+  }
+  :root .collection-stats {
+    width: 100%;
+    justify-content: space-between;
+  }
+  :root .collection-stats .completion-stat {
+    min-width: 120px;
+  }
+  :root .ritual-grid {
+    grid-template-columns: 1fr;
+  }
+  :root .feature-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  :root .feature-stats > div:last-child {
+    display: flex;
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 650px) {
+  :root .header-inner {
+    padding-inline: 16px;
+  }
+  :root .header-tools {
+    gap: 5px;
+  }
+  :root .header-tools .icon-button {
+    width: 40px;
+    height: 40px;
+  }
+  :root .profile-button {
+    width: 38px;
+    height: 38px;
+  }
+  :root .stock-badge {
+    padding-inline: 9px;
+    gap: 5px;
+    font-size: 14px;
+  }
+  :root .site-header nav a {
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+  :root .shop-intro h1 {
+    font-size: clamp(38px, 10vw, 48px);
+  }
+  :root .shop-intro p {
+    font-size: 18px;
+  }
+  :root .intro-status {
+    gap: 14px;
+    padding: 16px;
+  }
+  :root .intro-status span {
+    font-size: 13px;
+  }
+  :root .intro-status i {
+    display: none;
+  }
+  :root .featured-content {
+    padding: 26px 22px 0;
+  }
+  :root .featured h2 {
+    font-size: 36px;
+  }
+  :root .feature-stats strong {
+    font-size: 23px;
+  }
+  :root .featured-actions {
+    justify-content: flex-start;
+  }
+  :root .available strong {
+    font-size: 30px;
+  }
+  :root .featured-actions > .button {
+    width: 100%;
+  }
+  :root .feature-badges {
+    font-size: 12px;
+  }
+  :root .catalog-title h3 {
+    font-size: 29px;
+  }
+  :root .section-heading h2,
+  :root .ritual-section .section-heading h2 {
+    font-size: 32px;
+  }
+  :root .catalog-note {
+    font-size: 14px;
+  }
+  :root .catalog-card .button svg {
+    display: block;
+  }
+  :root .catalog-card .button svg:last-child {
+    display: block;
+  }
+  :root .collection-sidebar {
+    grid-template-columns: 1fr;
+  }
+  :root .collection-intro-copy {
+    min-width: 0;
+  }
+  :root .collection-intro h1 {
+    font-size: 34px;
+  }
+  :root .collection-stats {
+    gap: 9px;
+    padding: 15px 12px;
+  }
+  :root .collection-stats > div {
+    min-width: 68px;
+    padding: 10px 8px;
+  }
+  :root .collection-stats .completion-stat {
+    min-width: 105px;
+  }
+  :root .collection-stats span {
+    font-size: 13px;
+  }
+  :root .collection-stats strong {
+    font-size: 27px;
+  }
+  :root .family-panel {
+    display: block;
+  }
+  :root .family-panel label {
+    margin-top: 10px;
+  }
+  :root .view-tabs {
+    justify-content: flex-start;
+  }
+  :root .sort-control {
+    margin-left: 0;
+  }
+  :root .search-field {
+    flex-basis: 100%;
+  }
+  :root .search-field input {
+    font-size: 16px;
+  }
+  :root .artwork-open h3 {
+    font-size: 26px;
+  }
+  :root .artwork-card-foot > span {
+    font-size: 14px;
+  }
+  :root .collection-pagination {
+    padding: 17px 12px;
+  }
+  :root .collection-pagination > div {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  :root .collection-pagination > span {
+    font-size: 14px;
+  }
+  :root .collection-closing > span {
+    font-size: 13px;
+  }
+  :root .atelier-layout {
+    display: contents;
+  }
+  :root .atelier-right {
+    display: flex;
+    flex-direction: column;
+  }
+  :root .ritual-options {
+    gap: 9px;
+  }
+  :root .ritual-choice {
+    padding: 20px 16px;
+  }
+  :root .ritual-choice strong {
+    font-size: 24px;
+  }
+  :root .ritual-choice label {
+    padding: 18px 10px;
+    gap: 7px;
+  }
+  :root .opening-hint {
+    font-size: 19px;
+  }
+  :root .opening-tagline {
+    gap: 8px;
+  }
+  :root .revelation-heading h1,
+  :root .atelier-heading h1 {
+    font-size: 32px;
+    max-width: none;
+  }
+  :root .atelier-heading > span {
+    white-space: normal;
+  }
+  :root .opening-steps strong {
+    font-size: 21px;
+  }
+  :root .opening-steps small {
+    font-size: 12px;
+  }
+  :root .flipping-card {
+    min-height: 570px;
+    aspect-ratio: auto;
+    height: 650px;
+  }
+  :root .reveal-summary-actions > div {
+    width: 100%;
+    min-width: 0;
+  }
+  :root .reveal-note {
+    font-size: 14px;
+  }
+  :root .revealed-art-title h2 {
+    font-size: 26px;
+  }
+  :root .modal {
+    padding: 23px 19px;
+  }
+  :root .modal-heading h2 {
+    font-size: 27px;
+  }
+  :root .detail-content > h2 {
+    font-size: 34px;
+  }
+  :root .detail-content dl > div {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  :root .detail-content dt {
+    font-size: 14px;
+  }
+  :root .detail-content dd {
+    font-size: 16px;
+  }
+  :root .detail-actions .button {
+    width: 100%;
+  }
+  :root .save-actions {
+    flex-direction: column;
+  }
+  :root .save-actions .button {
+    flex: auto;
+  }
+  :root .guest-profile > img {
+    width: 56px;
+    height: 61px;
+  }
+  :root .guest-profile h3 {
+    font-size: 24px;
+  }
+  :root .guest-profile p {
+    font-size: 14px;
+  }
+  :root .save-explanation h3 {
+    font-size: 16px;
+  }
+  :root .save-explanation p {
+    font-size: 16px;
+  }
+  :root .site-footer > div {
+    align-items: flex-start;
+  }
+  :root .site-footer button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  :root .packs-grid,
+  :root .artwork-grid {
+    grid-template-columns: 1fr;
+  }
+  :root .catalog-card .pack-display {
+    aspect-ratio: auto;
+    min-height: 310px;
+  }
+  :root .catalog-card .pack-display .pack {
+    width: 185px;
+    max-width: 75%;
+  }
+  :root .catalog-card .pack-name {
+    font-size: 16px;
+  }
+  :root .catalog-card .pack-center > img {
+    width: 80px;
+    height: 80px;
+  }
+  :root .artwork-mat > img {
+    height: 330px;
+  }
+  :root .collection-stats .completion-stat {
+    flex-basis: 100%;
+  }
+  :root .collection-stats .completion-stat progress {
+    max-width: 180px;
+  }
+  :root .collection-stats > div {
+    flex: 1;
+  }
+}
+
+@media (max-width: 360px) {
+  :root .brand {
+    font-size: 25px;
+    gap: 6px;
+  }
+  :root .site-header nav a {
+    font-size: 13px;
+  }
+  :root .stock-badge {
+    font-size: 13px;
+    padding-inline: 7px;
+  }
+  :root .opening-steps strong {
+    font-size: 19px;
+  }
+  :root .opening-steps small {
+    font-size: 12px;
+  }
+  :root .ritual-options {
+    grid-template-columns: 1fr;
+  }
+  :root .reveal-summary {
+    padding: 20px;
+  }
+}

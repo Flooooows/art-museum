@@ -1,0 +1,1350 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60477093.json",
+  "retrievedAt": "2026-10-29T15:45:49.642963+00:00",
+  "payload": {
+    "entities": {
+      "Q60477093": {
+        "pageid": 60348114,
+        "ns": 0,
+        "title": "Q60477093",
+        "lastrevid": 2418962688,
+        "modified": "2025-10-20T03:37:55Z",
+        "type": "item",
+        "id": "Q60477093",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Boy Drinking"
+          },
+          "de": {
+            "language": "de",
+            "value": "Trinkender Junge"
+          },
+          "it": {
+            "language": "it",
+            "value": "ragazzo che beve"
+          },
+          "he": {
+            "language": "he",
+            "value": "נער שותה"
+          }
+        },
+        "descriptions": {
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Annibale Carracci"
+          },
+          "en": {
+            "language": "en",
+            "value": "painting by Annibale Carracci (Italian, c. 1560-1609) (1994.4)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Annibale Carracci"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura d'Annibale Carracci"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre d'Annibale Carracci"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Annibale Carracci"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Annibale Carracci"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת אניבל קארצ'י"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura d'Annibale Carracci"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Annibale Carracci"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Annibale Carracci"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Annibale Carracci"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Annibale Carracci"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Annibale Carracci festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Annibale Carracci"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Annibale Carracci"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Annibale Carracci"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Annibale Carracci"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Annibale Carracci"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Annibale Carracci"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Annibale Carracci"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Annibale Carracci"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture d'Annibale Carracci"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "4cc076a9e33c8a520b17a2f6804a4c137a9ebdcb",
+                "datavalue": {
+                  "value": "1994.4",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60477093$D858869B-2DE2-4C54-A1BD-CCD7D59ACE1C",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9dc5d293c78768745a4d3e904d62fc97a6a95a5e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60477093$96CC551D-BA24-4EEE-8B8A-BA5A22B62088",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9dc5d293c78768745a4d3e904d62fc97a6a95a5e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60477093$6DF0AD50-EC7E-410D-BF95-42B8BFC89C76",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9dc5d293c78768745a4d3e904d62fc97a6a95a5e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60477093$91F68765-1AEB-4005-9FDF-04F7495FC2D6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9dc5d293c78768745a4d3e904d62fc97a6a95a5e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60477093$A5B71CF6-1D3D-4641-8110-35EBB2E30220",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9dc5d293c78768745a4d3e904d62fc97a6a95a5e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "2276ba6f3bd45e3014bbf0141ff11aec3a0a216a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 12321255,
+                    "id": "Q12321255"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60477093$31C4043E-58AC-4DA6-81A1-148FBB9C35A6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9dc5d293c78768745a4d3e904d62fc97a6a95a5e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "cdc3a3121078be928971a39ead25693660883d36",
+                "datavalue": {
+                  "value": {
+                    "amount": "+55.800000000000004",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60477093$40BF5F82-2CDB-4A38-9DFC-B43310DC26B1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9dc5d293c78768745a4d3e904d62fc97a6a95a5e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "4ed03ab4d9556a32301128c2d6d03796112b655c",
+                "datavalue": {
+                  "value": {
+                    "amount": "+43.7",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60477093$92C40126-678C-4AB5-BBF0-3C1AFE2C740F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9dc5d293c78768745a4d3e904d62fc97a6a95a5e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "e3da9b345c53c94e1b486f43566609591b15660a",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1994.4",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60477093$777C32B6-2148-4270-BC5B-7A16B10CAEC1",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "d105b64b09db94e2a6d2602d290afb8a47c28503",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 7824,
+                    "id": "Q7824"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60477093$2F2EC61A-14E3-40AB-9A33-AE5A26372396",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "73a47b240b91e7ecee71255596ed34c616ba0504",
+                "datavalue": {
+                  "value": "Annibale Carracci - Boy Drinking - 1994.4 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60477093$d01140be-3116-4f9d-94a8-d9621ac2c4d5",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "b7e0977e4d1c2b6287476b3536dc524b6efa83e0",
+                "datavalue": {
+                  "value": "Clevelandart 1994.4.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60477093$f6d3dc18-d068-4456-91c1-f31bcfc648a9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "832cf3a754a9b974765632c8947a2ed0940228ff",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "44369b6b96a6e5e5a0f4852125c24cd5d8491987",
+                "datavalue": {
+                  "value": {
+                    "time": "+1582-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 8,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1319": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1319",
+                    "hash": "9c62693059490665e88e49fa7cb8e9357306586f",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1582-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ],
+                "P1326": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1326",
+                    "hash": "8e36b648ded5b0275c40eec5869886214d6f037a",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1583-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1319",
+                "P1326"
+              ],
+              "id": "Q60477093$FEFA58F6-AE74-4569-8F65-893D449BFDF8",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3cfbccedfb33aafb37c1c57fe4e0305d162ff990",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "10d06cbb5cc986a65d7eba0b023930218b743b60",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "86e27f9979c7471e5afb8c660a9e442cab8c95e5",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Annibale_Carracci_-_Boy_Drinking_-_1994.4_-_Cleveland_Museum_of_Art.tiff",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "7d8a4a9284e3e9b2dd7e56806e54a94672820537",
+                "datavalue": {
+                  "value": {
+                    "text": "Boy Drinking",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60477093$dd4ca1c7-3af4-4727-8476-071a72125204",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "61730f7ff1d4da8214119a9863d74b6eede84ef8",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60477093$A05B4174-A0A0-4C4B-8984-25DDEFA12A1F",
+              "rank": "normal"
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "7af130982148f99061e425ae97b53baea25a5cdf",
+                "datavalue": {
+                  "value": "Annibale carracci, ragazzo che beve, 1582-83 ca. 01.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60477093$c61814ac-41c9-9698-b495-d81b1186f82b",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "624f6bb04bf01b3ced6a46aa61cbae1912a545dd",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 38,
+                    "id": "Q38"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60477093$f5f81507-af44-4eaa-ae73-7a27e3847aac",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "4606a2f642c086a2c41a85c5a64dc41d1de186ca",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "282a2331a72434c02e10aa9517fb70d865c96002",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "c00b193842fc211cd5748552d48da260ca54f103",
+                "datavalue": {
+                  "value": "Boy Drinking by Annibale Carracci",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60477093$394E117A-F867-4659-B422-2CC68787B7F6",
+              "rank": "normal"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "3a94ac1c04c4ec766de8e896104678d6bec0c07f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 113622757,
+                    "id": "Q113622757"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60477093$b42cf6d2-4cb9-8c83-aca3-b4e3344441a8",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b1752a9c08bb51d42c54cc3ba1140e1afdcc02f4",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "ce33d4a4b554421699ec6e2a880c9493c45c17f1",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1994.4",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "2ae02124af83b1a0021e2a4c289e1b86f6a680c3",
+                        "datavalue": {
+                          "value": {
+                            "text": "Boy Drinking | Cleveland Museum of Art",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P407": [
+                      {
+                        "snaktype": "value",
+                        "property": "P407",
+                        "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 1860,
+                            "id": "Q1860"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "2edc918b012f00c1e8f5ab41c3bcabb32052ab48",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-10-20T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P407",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "b71f97d541e178d3ed0bc247b4e71b9333e720b9",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d7213f12f5d44fd53f3ab12eeae788a30aae927d",
+                        "datavalue": {
+                          "value": "https://www.sothebys.com/en/articles/derek-johns-ltd",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "9deef904163ac56501787a3cbfffbbbdcf8ea8c0",
+                        "datavalue": {
+                          "value": {
+                            "text": "Derek Johns, London",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P577": [
+                      {
+                        "snaktype": "value",
+                        "property": "P577",
+                        "hash": "030e191c08bcaa46100bc413059635d34bd41930",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-06-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P407": [
+                      {
+                        "snaktype": "value",
+                        "property": "P407",
+                        "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 1860,
+                            "id": "Q1860"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "2edc918b012f00c1e8f5ab41c3bcabb32052ab48",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-10-20T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P1683": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1683",
+                        "hash": "c6471cf3c2c2c74b39a608509b64d7fd8928e974",
+                        "datavalue": {
+                          "value": {
+                            "text": "Well-known for his talent for uncovering neglected masterpieces, Derek Johns supplies the world's leading museums and private collections. Among his most notable discoveries are Francisco Goya’s 1804 full-length Portrait of the Marquesa de Santiago and Dieric Bouts’s The Annunciation, both at the Getty Museum, Annibale Carracci’s Boy Drinking now at the Cleveland Museum of Art and a late Canaletto of a View of Piazza San Marco today at LACMA.",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P577",
+                    "P407",
+                    "P813",
+                    "P1683"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Boy Drinking by Annibale Carracci",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Boy_Drinking_by_Annibale_Carracci"
+          },
+          "hewiki": {
+            "site": "hewiki",
+            "title": "נער שותה",
+            "badges": [],
+            "url": "https://he.wikipedia.org/wiki/%D7%A0%D7%A2%D7%A8_%D7%A9%D7%95%D7%AA%D7%94"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "fccb48d2a6a2add554a2e7119d5b3d4ed73f5dea75f05e288dca90a0a73c8e53"
+}

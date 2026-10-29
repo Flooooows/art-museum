@@ -1,0 +1,1146 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60473635.json",
+  "retrievedAt": "2026-10-29T15:49:52.322213+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60473635": {
+        "pageid": 60344793,
+        "ns": 0,
+        "title": "Q60473635",
+        "lastrevid": 2437391424,
+        "modified": "2025-12-02T20:47:13Z",
+        "type": "item",
+        "id": "Q60473635",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "The Farm at the Entrance of the Wood"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "La ferme, à l'entrée du bois"
+          },
+          "it": {
+            "language": "it",
+            "value": "La fattoria all'inizio della foresta"
+          }
+        },
+        "descriptions": {
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Rosa Bonheur"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Rosa Bonheur"
+          },
+          "en": {
+            "language": "en",
+            "value": "painting by Rosa Bonheur (French, 1822-1899) (1978.73)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Rosa Bonheur"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Rosa Bonheur"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Rosa Bonheur"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Rosa Bonheur"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Rosa Bonheur"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Rosa Bonheur"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Rosa Bonheur"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Rosa Bonheur"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Rosa Bonheur"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Rosa Bonheur"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Rosa Bonheur"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Rosa Bonheur festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Rosa Bonheur"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Rosa Bonheur"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Rosa Bonheur"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Rosa Bonheur"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Rosa Bonheur"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Rosa Bonheur"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Rosa Bonheur"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "63aa96bad9137b99d9d0aff4874d8bcd02f41953",
+                "datavalue": {
+                  "value": "1978.73",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60473635$C10BD8E2-270B-478C-BF0D-505F18AB6275",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "67a093a90c0d23c40b9bddd580c3abcb5735d3fe",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60473635$4DAB3942-6F6C-472B-8A5E-E5AEBC60F78A",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "67a093a90c0d23c40b9bddd580c3abcb5735d3fe",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60473635$55621F97-3683-42B2-9DD6-6E752F114F2D",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "67a093a90c0d23c40b9bddd580c3abcb5735d3fe",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60473635$C8FBFB3D-DB18-4887-9C80-1A0B071D48E4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "67a093a90c0d23c40b9bddd580c3abcb5735d3fe",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "5acb216799b767ede1cd2e39c1fee7037ae0dc80",
+                "datavalue": {
+                  "value": {
+                    "amount": "+28.4",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60473635$8B0CAE8D-E72E-4960-8B1D-5CE9819E6E32",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "67a093a90c0d23c40b9bddd580c3abcb5735d3fe",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "d5c7ba89d3c06295f73cb62cd417ba9e86f7b8a4",
+                "datavalue": {
+                  "value": {
+                    "amount": "+40.30",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60473635$7ECF4218-21BE-4B8F-AC6A-24D17C7BE76D",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "67a093a90c0d23c40b9bddd580c3abcb5735d3fe",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "402bff202de2396365426db2d9a7d8ef7b6d88c2",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1978.73",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60473635$A0BC48F7-80E0-4893-9338-25E4B7E4B15A",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "6e4137eca53254f683b9c3110b7cc38bf9557710",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 241732,
+                    "id": "Q241732"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60473635$DB9B341F-A594-446F-8A46-EA06D07BADCD",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "41d73149a35424a046cbeda1adb0751cc4048364",
+                "datavalue": {
+                  "value": "Rosa Bonheur - The Farm at the Entrance of the Wood - 1978.73 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60473635$5f7e424e-b6e2-40d7-bd7d-8a22835bd13f",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "33990bbfd2ad937c795df8f8a472118fb8dcd8de",
+                "datavalue": {
+                  "value": "Rosa Bonheur - The Farm at the Entrance of the Wood - 1978.73 - Cleveland Museum of Art.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60473635$7d5ce7c9-3160-4002-9693-c5b5c844ff36",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "c7e1ab4b9911d50ce0804b9f5c202a3a0b287e13",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "1ead4200bd45e6b4d48bc34a80a105513207b772",
+                "datavalue": {
+                  "value": {
+                    "time": "+1850-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 7,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60473635$FC8F9112-CA49-4988-B645-AEC953C374A7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6c937924066491f12688005dc734899c41933bdf",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "1f43ecffd28591244c2452b6b9565f5914b6c6e4",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-03-20T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "51bd42ecd2cea5382d218865d44e985d04376f77",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Rosa_Bonheur_-_La_ferme,_à_l'entrée_du_bois.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60473635$2FB01492-8722-4C5F-9237-2CECCEAD1923",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6c937924066491f12688005dc734899c41933bdf",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "1f43ecffd28591244c2452b6b9565f5914b6c6e4",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-03-20T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "51bd42ecd2cea5382d218865d44e985d04376f77",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Rosa_Bonheur_-_La_ferme,_à_l'entrée_du_bois.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "73428fb78a149966fd0131d34cbca0ad9dd48bb8",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1314278,
+                    "id": "Q1314278"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60473635$D5C06F3F-4CA4-4F81-88FB-1A616D34D49F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6c937924066491f12688005dc734899c41933bdf",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "1f43ecffd28591244c2452b6b9565f5914b6c6e4",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-03-20T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "51bd42ecd2cea5382d218865d44e985d04376f77",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Rosa_Bonheur_-_La_ferme,_à_l'entrée_du_bois.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "c4523322827b321baced4c51fd380d752e14e77e",
+                "datavalue": {
+                  "value": {
+                    "text": "The Farm at the Entrance of the Wood",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60473635$a9bf2e1f-fc3d-4c40-9fe5-e0fe507aec04",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8db90e6e54f682babdea2772036ca24fca6e640d",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ad445049497aa354cf113fed893a204f7b9b5f7e",
+                "datavalue": {
+                  "value": {
+                    "text": "La ferme à l’entrée du bois",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60473635$42abe917-4032-2645-7dc2-7d024ca072fd",
+              "rank": "preferred"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60473635$B20199A2-88A6-4481-A80E-199C52B53706",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "58370ba13828fd125a6903629773c9352a76a9e5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 142,
+                    "id": "Q142"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60473635$70f60645-7201-4986-8669-1ea72eb890f4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "082a8d38d8148c785d104d24f467fcc098516ec9",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5dcc8fa78ef58cf5f98131853dd65e8110f76494",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1978.73",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P953": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P953",
+                "hash": "8d39ac696d1a7566b8715f09db72c570e34a008f",
+                "datavalue": {
+                  "value": "https://archive.org/details/clevelandart-1978.73-the-farm-at-the-entr",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60473635$bd64bd1d-47bf-3b49-b6b1-34da9ad2d78a",
+              "rank": "normal"
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "20b824e5fd628a4e57c98d9fc3727ff0dfd290bb",
+                "datavalue": {
+                  "value": "Rosa bonheur, la fattoria all'inizio della foresta, 1860-80 ca.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60473635$b1ccaa3d-4014-2742-c1ce-774bc3aae9cb",
+              "rank": "normal"
+            }
+          ],
+          "P724": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P724",
+                "hash": "a6e986a887d9a15d282d9d6b00dd3f59a4e4b0fd",
+                "datavalue": {
+                  "value": "clevelandart-1978.73-the-farm-at-the-entr",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q60473635$AF59BF3B-9A8D-429F-9A40-603EA0AD4AE9",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

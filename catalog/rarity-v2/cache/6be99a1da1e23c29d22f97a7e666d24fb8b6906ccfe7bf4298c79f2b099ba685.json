@@ -1,0 +1,778 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60749031.json",
+  "retrievedAt": "2026-10-29T15:51:00.707328+00:00",
+  "payload": {
+    "entities": {
+      "Q60749031": {
+        "pageid": 60607474,
+        "ns": 0,
+        "title": "Q60749031",
+        "lastrevid": 2245111626,
+        "modified": "2024-09-07T19:38:37Z",
+        "type": "item",
+        "id": "Q60749031",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Lily of the Valley Comb"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "jewelry by René Lalique (French, 1860-1945) (1981.49)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "b06e7b404af39c918dcee9356f82951eaf64096b",
+                "datavalue": {
+                  "value": "1981.49",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60749031$5FB3C65B-E5DD-411E-826B-57497764219E",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$B0039770-FF5F-4A9E-804D-2FFBB63F6768",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "329736bd60f091066149556d31bf41f43194c35e",
+                "datavalue": {
+                  "value": {
+                    "text": "Lily of the Valley Comb",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60749031$754B3634-6E91-4E78-B01E-10A7C9C54EF3",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "69e4e942ab1ed20e46ca1121fb2ed948b6456dee",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1981.49",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60749031$16541C38-ADC0-48E1-8803-1D1F3F6B5DB2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "4269493402a995beb09b2e91c0f8c3e18308d9ea",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1981.49",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60749031$743ab154-44fc-4ed5-ab90-e097d517aecb",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "ce301c982740f16c39fa89eee5fa11ccb53d05fc",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5a596934fe57d598a17a912cb5df88da2ca1fc03",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1981.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$378D565C-2845-43BC-91F0-0322F0AFED88",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "d69dced83f9584d7894ca06a2d3918db8bcd6b8b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 451400,
+                    "id": "Q451400"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$938C91B6-9E5D-452B-B047-5FCC96DDEC9A",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "dd0b6b7b6fe97fac5e5bd6da556b1bcc0bb387c0",
+                  "snaks": {
+                    "P6379": [
+                      {
+                        "snaktype": "value",
+                        "property": "P6379",
+                        "hash": "20182bc65bf92126789978f5be496f27147f0dcc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 657415,
+                            "id": "Q657415"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P6379"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "5570347fdc76d2a80732f51ea10ee4b144a084e0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 50423863,
+                    "id": "Q50423863"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60749031$f4f56795-26ca-4915-8d33-ee5730580675",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "ce301c982740f16c39fa89eee5fa11ccb53d05fc",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5a596934fe57d598a17a912cb5df88da2ca1fc03",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1981.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$936a87b4-c559-4227-bf46-5598397862d9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "4a26355ec8256d8a07772b19823fe58f7ccc7a73",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5a596934fe57d598a17a912cb5df88da2ca1fc03",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1981.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "3b386a41f06a540f2d5d61e107ccb9d5f4f4c809",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-11T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "0469b9901f4bad7ebe6016f0f515ec677958ac07",
+                "datavalue": {
+                  "value": {
+                    "time": "+1900-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q60749031$5338e0d1-3381-40a6-8240-e9dacc6dfb46",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "4a26355ec8256d8a07772b19823fe58f7ccc7a73",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5a596934fe57d598a17a912cb5df88da2ca1fc03",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1981.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "3b386a41f06a540f2d5d61e107ccb9d5f4f4c809",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-11T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dd104435a287edcb8bcbd6790097a758c2cfb9b9",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 2142903,
+                    "id": "Q2142903"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$60430DFD-8284-4F87-9D4B-501B1ED0E141",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "855f18277d5ee4311b0c9343ae1511681bc50965",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 50316288,
+                    "id": "Q50316288"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$027C0D5F-7259-4A0A-AA07-C7DA158D6B9F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "c3499cc4f6e3a042ed9b7153a5ff978bb8e557b8",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "c66d6a2eb61c7550715e89048c5aaeda96663598",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1981.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ef60b1b641b9eb1d77cd9e21f1556115fe2c2c7e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-09-26T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "47e143cdd8a199b525e5a74e5a5b678658e794c3",
+                "datavalue": {
+                  "value": "René lalique, pettinino giglio della valle, corno, smalti e oro, 1900 ca. mughetti.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60749031$5D15E981-47E1-4C6D-910C-B251D0399AAF",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "daace91e0c668dc40de89d916b963c54428a2dee",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 101711,
+                    "id": "Q101711"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$5DC64480-A358-4120-8C92-1D205082A83C",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d4ab8a16640291c0db79bbd8a609d079bb62d165",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "f72678d9930ce6667a9284f9cd0d9bf25a3dd2e7",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1981.49#",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ef60b1b641b9eb1d77cd9e21f1556115fe2c2c7e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-09-26T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "1468a9852fc1e67d6cfcd3d4e6b72090015d1790",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 213371,
+                    "id": "Q213371"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$8E6A1772-181B-45DF-9DC8-0EF608D3040D",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d4ab8a16640291c0db79bbd8a609d079bb62d165",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "f72678d9930ce6667a9284f9cd0d9bf25a3dd2e7",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1981.49#",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ef60b1b641b9eb1d77cd9e21f1556115fe2c2c7e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-09-26T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "ba98efee5f158223a7163de958af000e6b22e773",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 897,
+                    "id": "Q897"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60749031$1AAC22EC-AF7F-493D-B540-D4782D4EE4BF",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d4ab8a16640291c0db79bbd8a609d079bb62d165",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "f72678d9930ce6667a9284f9cd0d9bf25a3dd2e7",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1981.49#",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ef60b1b641b9eb1d77cd9e21f1556115fe2c2c7e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-09-26T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "139f280504fdc1de744682c38ee5d9776db3bdc3939bf3c3c8279d5032c76a19"
+}

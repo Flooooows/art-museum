@@ -1,0 +1,1141 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60514853.json",
+  "retrievedAt": "2026-10-29T15:45:54.679728+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60514853": {
+        "pageid": 60385640,
+        "ns": 0,
+        "title": "Q60514853",
+        "lastrevid": 1567657217,
+        "modified": "2022-01-24T22:25:19Z",
+        "type": "item",
+        "id": "Q60514853",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "The Burning of the Houses of Lords and Commons, 16 October 1834"
+          },
+          "it": {
+            "language": "it",
+            "value": "L'incendio delle Camere dei Lord e dei Comuni"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "L'Incendie de la Chambre des Lords et des Communes, le 16 octobre 1834"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Joseph Mallord William Turner (Cleveland Museum of Art)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Joseph Mallord William Turner"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Joseph Mallord William Turner (Cleveland Museum of Art)"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Joseph Mallord William Turner"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de J. M. W. Turner"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Joseph Mallord William Turner"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Joseph Mallord William Turner"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Joseph Mallord William Turner"
+          },
+          "fy": {
+            "language": "fy",
+            "value": "skilderij fan William Turner"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Joseph Mallord William Turner"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת ויליאם טרנר"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av J.M.W. Turner"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av William Turner"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av William Turner"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af J.M.W. Turner"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by J. M. W. Turner"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "William Turner festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "pittura di William Turner"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de William Turner"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da J. M. W. Turner"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de J. M. W. Turner"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Joseph Mallord William Turner"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Williama Turnera"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di J. M. W. Turner"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "d983ba0b4d18eb9dd1d4fad59204e12d9e57974d",
+                "datavalue": {
+                  "value": "1942.647",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60514853$c80ee765-78a3-4fd8-bcd2-592025576c40",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$e9a63703-7aad-4f64-bf13-d2c26e2b7701",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$e796c97c-5022-46f7-ad70-6d7576904965",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$dff3d761-f46a-403a-98e4-131a41018135",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "024a989fb77799332c2fc254b8de981eea345a77",
+                "datavalue": {
+                  "value": {
+                    "time": "+1835-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60514853$9ad9e3e4-7d5e-4487-9b8f-ed86f82dfce5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$f75267d6-d2ac-4682-84e8-fb8b7c79f05a",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "2276ba6f3bd45e3014bbf0141ff11aec3a0a216a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 12321255,
+                    "id": "Q12321255"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60514853$9bfad065-455c-4f6c-a0a0-fbaebc438c87",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "3e2c15468bca76c514063873ba7cd48e8ffcd94b",
+                "datavalue": {
+                  "value": {
+                    "amount": "+92.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60514853$4ff46e17-a6d2-490a-b719-0a3cf15b876c",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "193651ab1ca2e7e71d393bf51141ab927cd1c1c4",
+                "datavalue": {
+                  "value": {
+                    "amount": "+123.2",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60514853$f53494c8-e316-417e-88dd-97ba74f8ed8f",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b98adf6b4f71c41e85c1beb9d02afbe274e4a815",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "a5405eaec67077ed8440e7b5e744530aebb657ab",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1942.647",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60514853$1aaf1b73-e9a5-4c00-89d9-cda700f4360d",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "ff175851373a47eb1348d784748ea8f802f79c99",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 159758,
+                    "id": "Q159758"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$29D6F698-A931-4187-A15A-29E7334D707D",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "7fd236fabc62f12a433ba92330295d99fc264a42",
+                "datavalue": {
+                  "value": "Joseph Mallord William Turner - The Burning of the Houses of Lords and Commons, 16 October 1834 - 1942.647 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60514853$344160F2-3E27-428D-9809-94EA4AAE8DB7",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "882044969389e9802fc1241655e54b5ff4db37c7",
+                "datavalue": {
+                  "value": "Joseph Mallord William Turner - The Burning of the Houses of Lords and Commons, 16 October 1834 - 1942.647 - Cleveland Museum of Art.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60514853$6c202b81-4047-0669-a327-762946b4eda6",
+              "rank": "preferred"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "d2749462b42ba64e5e787bd8e46fefcc7a34f245",
+                "datavalue": {
+                  "value": {
+                    "text": "The Burning of the Houses of Lords and Commons, 16 October 1834",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60514853$bbae1473-42ca-48be-862f-f70f3b6d24f7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "88c3004ee4738b24fcbd31f0387e144be2cb4114",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60514853$192E846D-AE29-4C74-AE37-CD954D88A7BF",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "c9dab724d112fa4423df7a3897f51b27042f0125",
+                "datavalue": {
+                  "value": "The Burning of the Houses of Lords and Commons by J. M. W. Turner (Cleveland Museum of Art)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60514853$486677ec-4eae-04bb-95d5-55217b35a1cb",
+              "rank": "normal"
+            }
+          ],
+          "P2913": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2913",
+                "hash": "89e10111a4f590ad6f47666dec432030ac1bc6a2",
+                "datavalue": {
+                  "value": {
+                    "time": "+1834-10-16T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 11,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60514853$643a35b9-4375-7c0c-2566-bd264df0ccbf",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "b44d2a0faf54688140258f2e54e07c9a92e69ae9",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4859409,
+                    "id": "Q4859409"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$05a9691c-4247-e933-429f-d75aaa09b06f",
+              "rank": "normal"
+            }
+          ],
+          "P921": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P921",
+                "hash": "232b779f9ed4cb7cf87311ea42dc8a6805602f8d",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4859409,
+                    "id": "Q4859409"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$54bc0410-404c-6ff8-23da-d65a196b6649",
+              "rank": "normal"
+            }
+          ],
+          "P1889": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1889",
+                "hash": "12b06541f96c78e3817369be0bc105d99736cb93",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3204090,
+                    "id": "Q3204090"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$86e3e9e1-454c-b901-054b-5954ea45f142",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "610e1b900feac2e0c02a53dd7e353c28ca887e83",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1935974,
+                    "id": "Q1935974"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$2aedd6cf-45d9-ccbf-937d-400754325a0c",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "3650817132e8baa925692127f1ef112d50f553ed",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 21,
+                    "id": "Q21"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60514853$513ad197-8179-4c90-8b54-39e056b88246",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "dcc807b266eeec57ac1e286b9cf7d2ffc86d65d0",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "be524d34d013b2d40ad63ecc07d892d0de471762",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.647",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "074c333f28b3841e3d5f83c9799962e2425de3db",
+                "datavalue": {
+                  "value": "Joseph mallord william turner, l'incendio della casa dei lord e dei commons, 16 ottobre 1834, 1835.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60514853$d8af91d8-4070-7903-2d20-bf1455b135ca",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:The Burning of the Houses of Lords and Commons by J. M. W. Turner (Cleveland Museum of Art)",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:The_Burning_of_the_Houses_of_Lords_and_Commons_by_J._M._W._Turner_(Cleveland_Museum_of_Art)"
+          }
+        }
+      }
+    }
+  }
+}

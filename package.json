@@ -1,0 +1,38 @@
+{
+  "name": "muse-art-booster",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prepare:frames": "node scripts/prepare-frames.mjs",
+    "catalog:check": "tsx scripts/audit-catalog.ts",
+    "catalog:images": "tsx scripts/audit-image-rights.ts",
+    "catalog:notoriety": "tsx scripts/report-notoriety.ts",
+    "rarity:v2:collect": "tsx scripts/rarity-v2/collect.ts",
+    "rarity:v2": "tsx scripts/rarity-v2/run.ts",
+    "rarity:v2:verify": "tsx scripts/rarity-v2/verify.ts",
+    "predev": "npm run prepare:frames",
+    "pretest": "npm run prepare:frames",
+    "dev": "vite",
+    "build": "npm run prepare:frames && npm run catalog:check && npm run catalog:images && tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "tsx --test src/*.test.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "axe-core": "^4.14.0",
+    "prettier": "^3.9.10",
+    "sharp": "^0.35.5",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.2"
+  }
+}

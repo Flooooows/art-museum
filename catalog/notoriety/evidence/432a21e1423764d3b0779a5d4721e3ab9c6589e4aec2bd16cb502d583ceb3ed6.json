@@ -1,0 +1,984 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60515026.json",
+  "retrievedAt": "2026-10-29T15:45:52.648796+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60515026": {
+        "pageid": 60385811,
+        "ns": 0,
+        "title": "Q60515026",
+        "lastrevid": 2411778503,
+        "modified": "2025-10-02T09:13:50Z",
+        "type": "item",
+        "id": "Q60515026",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Coronation of the Virgin"
+          },
+          "de": {
+            "language": "de",
+            "value": "Marienkrönung"
+          },
+          "it": {
+            "language": "it",
+            "value": "Coronazione della Vergine"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Fra Angelico in the Cleveland Museum of Art"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Fra Angelico, Cleveland Museum of Art"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Fra Angelico, Cleveland Museum of Art"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Fra Angelico, Cleveland Museum of Art"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Fra Angelico, Cleveland Museum of Art"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Fra Angelico"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Fra Angelico"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Fra Angelico"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Fray Angelico"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Fra Angelico"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת פרה אנג'ליקו"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Fra Angelico"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Fra Angelico"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Fra Angelico"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Fra Angelico"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Fra Angelico"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Fra Angelico"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Fra Angelico festménye"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Fra Angelico"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Fra Angelico"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Fra Angelico"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Fra Angelico"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Fra Angelico"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "52e329ecbbee8d4b6118b738bc065d5cec2da6da",
+                "datavalue": {
+                  "value": "1944.79",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "5204eaa1f10d144b4a4a8ad43d4f888cf39a6de6",
+                    "datavalue": {
+                      "value": "The Elisabeth Severance Prentiss Collection 1944.79",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195",
+                "P1810"
+              ],
+              "id": "Q60515026$6ee6e40c-0d8a-458e-9e66-aafae985ef61",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f641694ee5f0485d412dc92638470973a2263b79",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a7fa86f88836782703dc6da98f7366b9f5aec436",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1944.79",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515026$1b5c57b7-75bb-4683-9074-442d853d0a0b",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f641694ee5f0485d412dc92638470973a2263b79",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a7fa86f88836782703dc6da98f7366b9f5aec436",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1944.79",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515026$84b8ea80-a836-4dea-ad9d-34eee1437dc1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f641694ee5f0485d412dc92638470973a2263b79",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a7fa86f88836782703dc6da98f7366b9f5aec436",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1944.79",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515026$6a283fd5-eeaa-42ce-8a8f-5aff498ef02b",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f641694ee5f0485d412dc92638470973a2263b79",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a7fa86f88836782703dc6da98f7366b9f5aec436",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1944.79",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "9124d0d81ed1fafd19abbbd73169b9ee564069e8",
+                "datavalue": {
+                  "value": {
+                    "amount": "+27.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515026$ee17868c-11d4-431b-94c7-a020e35f9161",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f641694ee5f0485d412dc92638470973a2263b79",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a7fa86f88836782703dc6da98f7366b9f5aec436",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1944.79",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "73da4bcb351389b325c41167c2132e15e25285ea",
+                "datavalue": {
+                  "value": {
+                    "amount": "+37.2",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515026$4af06660-0e24-4b6b-9547-c98cba6fbdc3",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f641694ee5f0485d412dc92638470973a2263b79",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a7fa86f88836782703dc6da98f7366b9f5aec436",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1944.79",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "005e0d692fd97b85de100acdaac8e6f97c47b7f9",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1944.79",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60515026$760e41de-3a41-4be8-b0c5-50c68736648c",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "7ae99e5d67a610fe466d640f33016d5cbeff2341",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5664,
+                    "id": "Q5664"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515026$A95CF680-E60B-4248-80F8-F9D384E85A99",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "f40a38f42b56752837e3d84c3834deedcc3075e1",
+                "datavalue": {
+                  "value": "Fra Angelico - Coronation of the Virgin - 1944.79 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60515026$8fb72b4b-f5d1-4d84-b01f-6db3fdc86119",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "2c8768b3db2b8e9b85e187b08d34724898a19745",
+                "datavalue": {
+                  "value": "Clevelandart 1944.79.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60515026$57aad9f2-5146-4148-8368-80eb6e2eea0d",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "9814d20842722230ed0abbd1c49b714bcaafea33",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a7fa86f88836782703dc6da98f7366b9f5aec436",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1944.79",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "77a35d9bc618693f484d128f6bad8d8cab1ddd50",
+                "datavalue": {
+                  "value": {
+                    "time": "+1420-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60515026$CC052DA8-C5C5-44C0-A9D8-5622AD114A5E",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "830188263c55e2613c86e50ed84f9e5d23b063af",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "1f43ecffd28591244c2452b6b9565f5914b6c6e4",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-03-20T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "62fdaeea2694141eb27620cb6d5372bc2783a466",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Clevelandart_1944.79.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "55d02bbcb2c771d9172c713df01856cea5730311",
+                "datavalue": {
+                  "value": {
+                    "text": "Coronation of the Virgin",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60515026$484d95a0-de86-42da-b7a1-790469fb88ab",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "80e23e6e938d5aa6db173d6042c85203c44852a5",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a7fa86f88836782703dc6da98f7366b9f5aec436",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1944.79",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60515026$19652F88-5DBD-439F-A1A7-7C1789071476",
+              "rank": "normal"
+            }
+          ],
+          "P921": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P921",
+                "hash": "89f9e35cc18b3863cee9d3bf1d75656738d451a8",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1093370,
+                    "id": "Q1093370"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515026$BBFC1575-F9CC-4073-835C-F9F7482056B3",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "d960cb76ecb248024b7446bd6fcca59788366315",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 2864737,
+                    "id": "Q2864737"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515026$18F19513-AA97-4C18-9E57-52817127E217",
+              "rank": "normal"
+            }
+          ],
+          "P140": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P140",
+                "hash": "a5edfd29f5e8faff8d547ced0ece9e8f6773cd20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5043,
+                    "id": "Q5043"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515026$D2FC1540-10FA-448E-82DA-527A6CD327C3",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "98a5a83ca77bab52b5e1996863ea0b15d2885da8",
+                "datavalue": {
+                  "value": "Coronation of the Virgin by Angelico (Cleveland Museum of Art)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60515026$F9B57043-FC17-495F-AB9F-9BD582448F7E",
+              "rank": "normal"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "8f789b627ca67ee1ef5795b6edb7ecfb2ac429b2",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60903290,
+                    "id": "Q60903290"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P582": [
+                  {
+                    "snaktype": "value",
+                    "property": "P582",
+                    "hash": "aa1c48155ff4c69461ea745f195eb3443286194d",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1944-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P582"
+              ],
+              "id": "Q60515026$a0d5e8f6-4a1b-0b85-876a-f50f1f889ea7",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Coronation of the Virgin by Angelico (Cleveland Museum of Art)",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Coronation_of_the_Virgin_by_Angelico_(Cleveland_Museum_of_Art)"
+          }
+        }
+      }
+    }
+  }
+}

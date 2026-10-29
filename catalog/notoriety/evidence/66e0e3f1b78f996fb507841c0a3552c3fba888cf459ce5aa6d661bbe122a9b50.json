@@ -1,0 +1,526 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60750068.json",
+  "retrievedAt": "2026-10-29T15:50:45.528539+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60750068": {
+        "pageid": 60608494,
+        "ns": 0,
+        "title": "Q60750068",
+        "lastrevid": 1651348301,
+        "modified": "2022-05-31T16:45:48Z",
+        "type": "item",
+        "id": "Q60750068",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Headrest of Irut"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "funerary equipment by unknown artist (1914.626)"
+          },
+          "ar": {
+            "language": "ar",
+            "value": "قطع أثرية"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "06e1a3023066b6748d060514c3dcbc5e07604468",
+                "datavalue": {
+                  "value": "1914.626",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60750068$6D7C7835-E7CC-4646-8922-00C562E39906",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60750068$8234893C-F3A1-4EAC-AD5C-F1F022FFEE31",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ace0705cf51d0800ed5c52ab8d9585e8900ae50d",
+                "datavalue": {
+                  "value": {
+                    "text": "Headrest of Irut",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60750068$3DF087CE-BCF4-4371-80C5-FF58F085ABDA",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "677e7b458fd98cd1d390e80f56538c6a34b5242e",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1914.626",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60750068$CCE68AFE-9D6C-4B95-9148-3FF3F2E40A75",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "4edb5397544f762dd8f83405084cd08c751fd618",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1914.626",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60750068$c2bd8e45-f87b-4761-ac73-26561704457d",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "bbdac44d0a4ae18ee68e27bd3b3dea91a389a74e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0337fafba352cc4b10bc39fab9424209dd61e6fa",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.626",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60750068$C978D85E-5C4A-4051-8179-94EF5E286731",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "72250c0878546bb031fa1d036872490fe51d821c",
+                "datavalue": {
+                  "value": "Clevelandart 1914.626.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60750068$D7672E32-F24C-4B10-BC4C-B2A90F234EA2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "d4fd4cdcec883041963d5132d164e28aa6ddf1bc",
+                "datavalue": {
+                  "value": "Egypt, Old Kingdom, Dynasties 5-6, 2454-2140 BC - Headrest of Irut - 1914.626 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60750068$c7418a41-d8d3-43e3-95cc-99126c559f20",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "bbdac44d0a4ae18ee68e27bd3b3dea91a389a74e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0337fafba352cc4b10bc39fab9424209dd61e6fa",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.626",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "97829a49266823538e1652976f43f384c4effefa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 64521059,
+                    "id": "Q64521059"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60750068$65119d7f-4717-cbea-03ac-0dccedc9bc4e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "c9c864916c2f756a3e9303f34b7889d583d8d480",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 220659,
+                    "id": "Q220659"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60750068$ed067880-48b9-9c9a-3804-cd45759419fd",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "d25240a3c34b23138849407a5d591699bd94d406",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 79497835,
+                    "id": "Q79497835"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60750068$b169ce19-010b-4de7-b77d-45377bdb9f05",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "bbdac44d0a4ae18ee68e27bd3b3dea91a389a74e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0337fafba352cc4b10bc39fab9424209dd61e6fa",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.626",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "69d8441904116bf4bbc8d7fc6fd692d411ff5fc7",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 143447,
+                    "id": "Q143447"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60750068$d43ea9a6-4f7b-c1c9-e4cd-59eb18466ab8",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "somevalue",
+                "property": "P170",
+                "hash": "d3550e860f988c6675fff913440993f58f5c40c5",
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60750068$06b7cb57-47a0-d01c-64ac-57d7aa78abe9",
+              "rank": "normal"
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60750068$20f64af8-416a-1df1-3be1-02371dd32289",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60750068$57505766-9fbf-4501-ab94-5bd39bb33c3f",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "bbdac44d0a4ae18ee68e27bd3b3dea91a389a74e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0337fafba352cc4b10bc39fab9424209dd61e6fa",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.626",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

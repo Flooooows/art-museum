@@ -1,0 +1,1005 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q15880875.json",
+  "retrievedAt": "2026-10-29T15:49:18.112127+00:00",
+  "payload": {
+    "entities": {
+      "Q15880875": {
+        "pageid": 17507223,
+        "ns": 0,
+        "title": "Q15880875",
+        "lastrevid": 2485834386,
+        "modified": "2026-04-30T13:40:06Z",
+        "type": "item",
+        "id": "Q15880875",
+        "labels": {
+          "nl": {
+            "language": "nl",
+            "value": "Portret van Romaine Lacaux"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "Romaine Lacaux"
+          },
+          "en": {
+            "language": "en",
+            "value": "Romaine Lacaux"
+          },
+          "de": {
+            "language": "de",
+            "value": "Mademoiselle Romaine Lancaux"
+          },
+          "es": {
+            "language": "es",
+            "value": "Retrato de Romaine Lacaux"
+          },
+          "he": {
+            "language": "he",
+            "value": "דיוקן רומן לקו"
+          }
+        },
+        "descriptions": {
+          "fr": {
+            "language": "fr",
+            "value": "tableau d'Auguste Renoir"
+          },
+          "en": {
+            "language": "en",
+            "value": "painting by Pierre-Auguste Renoir (French, 1841-1919) (1942.1065)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Pierre-Auguste Renoir"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Auguste Renoir"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Pierre-Auguste Renoir"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Pierre-Auguste Renoir"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Pierre-Auguste Renoir"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Pierre-Auguste Renoir"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Pierre-Auguste Renoir"
+          },
+          "br": {
+            "language": "br",
+            "value": "taolenn gant Auguste Renoir"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Pierre-Auguste Renoir"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Pierre-Auguste Renoir"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Auguste Renoir"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Pierre-Auguste Renoir festménye"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Pierre-Auguste Renoir"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Pierre-Auguste Renoir"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Pierre-Auguste Renoir"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Pierre-Auguste Renoir"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Auguste Renoir"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Auguste Renoir"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Pierre-Auguste Renoir"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Auguste Renoir"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Pierre-Auguste Renoir"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת רומן לקו"
+          }
+        },
+        "aliases": {
+          "fr": [
+            {
+              "language": "fr",
+              "value": "Portrait de Romaine Lacaux"
+            }
+          ]
+        },
+        "claims": {
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "7003c9182abd96c314ad425f3091934f5f02135c",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 39931,
+                    "id": "Q39931"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$D6BCD92E-9A33-4920-B808-2ACA40EE9D6E",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$0D4AEB68-0451-41C6-894F-47EBB605557B",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "991a05b46f1b1fe39d56fe5f3e85a225a311cb08",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 134307,
+                    "id": "Q134307"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$E463C0F4-51B4-4CDD-A998-76D74B19D77D",
+              "rank": "normal"
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "afea9b3bb2afd79c0db11e3e5522cb3fa3166038",
+                "datavalue": {
+                  "value": {
+                    "time": "+1864-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q15880875$d03a9fab-4ba0-2572-7338-5490d8d56d17",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "e7b712a591fb523660e1ee3197c653ef44894f3a",
+                "datavalue": {
+                  "value": "Romaine Lacaux, by Pierre-Auguste Renoir, Cleveland Museum of Art, 1942.1065.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q15880875$55C89281-D152-4B2B-AE44-8D5190BED915",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$2C45C8BC-BDC5-4F87-86EF-A73732432492",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 10000,
+                            "id": "Q10000"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "e3ad491af8e54d50a8811e199b5527f7557c6448",
+                "datavalue": {
+                  "value": "1942.1065",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q15880875$9edb0dcc-4cad-e7ec-730c-e1582af1d8b9",
+              "rank": "normal"
+            }
+          ],
+          "P941": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P941",
+                "hash": "99e09d988384c757eb709340e902478274b8e8e2",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 18930838,
+                    "id": "Q18930838"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$ab6f4067-4056-ee20-133d-33b9d4c97298",
+              "rank": "normal"
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$CDB7A895-035A-4081-94BC-045BB5F77AC4",
+              "rank": "normal"
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "0f6bb3f687809e4ae318515842e0b7af4d947b89",
+                "datavalue": {
+                  "value": {
+                    "amount": "+81.3",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q15880875$DD1E2475-5385-4092-AE0F-24DB8FEB4DFF",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "0e791796c105789e380a04f7e5a0d73142bc7fff",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "f4b1a997bca38744cc80da0c54e35c405254e246",
+                        "datavalue": {
+                          "value": "http://www.clevelandart.org/art/1942.1065",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "775e4bc3406f34d4db423a7a92abe6c7af78a5e1",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-07-02T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "9034a333a8d6df774c2c16cbfca79e9fe2b0f145",
+                "datavalue": {
+                  "value": {
+                    "amount": "+65",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q15880875$89768421-ADF1-4B98-ACB7-7D9C2093CDC0",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "0e791796c105789e380a04f7e5a0d73142bc7fff",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "775e4bc3406f34d4db423a7a92abe6c7af78a5e1",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-07-02T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "f4b1a997bca38744cc80da0c54e35c405254e246",
+                        "datavalue": {
+                          "value": "http://www.clevelandart.org/art/1942.1065",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$604A1CF9-A542-48BE-B197-2844F43C2392",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "492c8880135dcf471a73517ad8c3ca9b8639357b",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c0afe4bba4d3df6a44244a9c1111c1a3b44a9e3e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-07-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "fa3c732dd7d8fb3ef50dee8dccb05705385f2a0f",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_100.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "b940c43918571149b36c8ab8596b479cca45c72e",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 28823,
+                    "id": "Q28823"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q15880875$818AD4B5-EC49-4EE1-95E2-58C3A1C74656",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "e0d8e9ce2bc56c5d8e3e751f9d697bc14af8932f",
+                "datavalue": {
+                  "value": "Romaine Lacaux (Pierre-Auguste Renoir - Cleveland Museum of Art)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q15880875$92b5f354-4ace-7370-a809-229886eebc08",
+              "rank": "normal"
+            }
+          ],
+          "P528": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "ddc38c2ad05c4bce7aa0fab863322518ce9d7a3b",
+                "datavalue": {
+                  "value": "34",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "ac29420be10c3842ea3abc51820c00c52e609bfe",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60997035,
+                        "id": "Q60997035"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q15880875$A391B4FE-33D7-4F13-9C35-C5017D656F55",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "33f5fbeffd20054194d5b4578a737ff5fdc98098",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "15f29039f80e22bcb1ea5723a7c003bbca00128d",
+                        "datavalue": {
+                          "value": "https://archive.org/details/CMAPaintings1945/page/n43",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "2c9417746a05633d613c25ae27284a4ab218a331",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 506,
+                    "id": "Q506"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$468262F4-CF83-4664-B818-5FB6A0C73733",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ee1ad6ce8f175a767eb24eddbfeb0d3c87637ae9",
+                "datavalue": {
+                  "value": {
+                    "text": "Romaine Lacaux",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q15880875$f699641c-c83b-40a4-975f-2897b27d4c72",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "043d13b905a2e6e8b3b0612b7c81ac3816c69ad0",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "ea3a681646ada59ce5fccc6d0337fed48f21fcdf",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1942.1065",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "67ac943b3cb365c1d520cb66ee9d3340aae6d817",
+                "datavalue": {
+                  "value": {
+                    "text": "Romaine Lacaux",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q15880875$91bc069b-4688-644e-1d9c-31966071351f",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "cfe54488e9c483feda61705c9b0032aa7197c67a",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61830521,
+                        "id": "Q61830521"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "94593a9af78f1100dce40d73381d05eeb6af11d2",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940641,
+                        "id": "Q29940641"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q15880875$F21ED29F-86BC-41D8-9B51-734D7CF04852",
+              "rank": "normal"
+            }
+          ],
+          "P2671": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2671",
+                "hash": "431c3e954b2093fd6c594c8153720bfab88598ef",
+                "datavalue": {
+                  "value": "/g/12tb812zm",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q15880875$B059DC29-C8A1-49E0-B487-4B75FBF5F38E",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "734d761d7ac711502414af529f54ad90367329b9",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 256175,
+                    "id": "Q256175"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q15880875$306bd874-4388-b851-b1b6-44f6619c4577",
+              "rank": "normal"
+            }
+          ],
+          "P11110": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P11110",
+                "hash": "9ae86f6e6bb0a362549a624fb708aab045dfd57d",
+                "datavalue": {
+                  "value": "1942.1065",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q15880875$0501ed32-4cc1-41e4-86c1-066392e4c5c4",
+              "rank": "normal"
+            }
+          ],
+          "P4701": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P4701",
+                "hash": "0d06527425db4d6ef4795599db64b501bca30d6a",
+                "datavalue": {
+                  "value": "pgG--uOYdTZpKw",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q15880875$9a1590b1-4af7-3d2b-83d1-ae1453d0b724",
+              "rank": "normal"
+            }
+          ],
+          "P6002": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6002",
+                "hash": "e9dd9c52f5966b549e3b270f084ac6d532cfcbd3",
+                "datavalue": {
+                  "value": "pierre-auguste-renoir/romaine-lascaux-1864",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q15880875$1076c64a-41bd-1f32-3ba8-2d9aacba9aea",
+              "rank": "normal"
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "6865ea7805a9b71a0338776fbabde9b6e5a4de7c",
+                "datavalue": {
+                  "value": "Pierre-auguste renoir, romaine lascaux, 1864, 01.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q15880875$952ca4a7-4d47-ea8c-969f-0807c7f811ea",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "nlwiki": {
+            "site": "nlwiki",
+            "title": "Portret van Romaine Lacaux",
+            "badges": [],
+            "url": "https://nl.wikipedia.org/wiki/Portret_van_Romaine_Lacaux"
+          },
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Romaine Lacaux (Pierre-Auguste Renoir - Cleveland Museum of Art)",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Romaine_Lacaux_(Pierre-Auguste_Renoir_-_Cleveland_Museum_of_Art)"
+          },
+          "eswiki": {
+            "site": "eswiki",
+            "title": "Retrato de Romaine Lacaux",
+            "badges": [],
+            "url": "https://es.wikipedia.org/wiki/Retrato_de_Romaine_Lacaux"
+          },
+          "hewiki": {
+            "site": "hewiki",
+            "title": "דיוקן רומן לקו",
+            "badges": [],
+            "url": "https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%95%D7%A7%D7%9F_%D7%A8%D7%95%D7%9E%D7%9F_%D7%9C%D7%A7%D7%95"
+          },
+          "frwiki": {
+            "site": "frwiki",
+            "title": "Romaine Lacaux",
+            "badges": [],
+            "url": "https://fr.wikipedia.org/wiki/Romaine_Lacaux"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "3b2d1f40c6045ddc5898f3ef52b7a1b96763b908560ff15d4f68052589530063"
+}

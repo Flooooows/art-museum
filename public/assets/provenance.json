@@ -1,0 +1,1442 @@
+{
+  "collections/": {
+    "source": "25 PNG ajoutés par l’utilisateur dans public/assets/collections : art-moderne, art-mysterieux, beaux-arts, egypte et prehistoire, en fer/cuivre/argent/dore/lapis-lazuli.",
+    "origin": "Cadres décoratifs fournis par l’utilisateur, originaux conservés sans modification.",
+    "license": "Non précisée par l’utilisateur.",
+    "derivatives": "collections/display/*.png : réductions transparentes 640×960 générées avec Sharp par scripts/prepare-frames.mjs, sans recadrage ni recoloration.",
+    "manifest": "src/frame-assets.json conserve pour chaque variante le chemin original, le chemin d’affichage, la fenêtre intérieure mesurée et une empreinte source."
+  },
+  "booster.png": {
+    "source": "Fichier public/assets/booster.png ajouté par l’utilisateur.",
+    "origin": "Visuel de pochette MUSE fourni par l’utilisateur pour remplacer le placeholder de l’atelier d’ouverture.",
+    "license": "Non précisée par l’utilisateur.",
+    "usage": "Image originale conservée, affichée entière sans recadrage ni surimpression de marque.",
+    "width": 1024,
+    "height": 1536
+  },
+  "hero-texture.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkV_zTxxurAtuCKZgKTlY96km-2I98b-Dh5aMww-nVQ51ju9XsIsw_VwkyKZLdS1Yh_apVTJU_Kt5kZty4soGDVJn4RZNXe9u10J93U4ZzHZKiMOM6nGm06XTuA-nF0rX_C4d533W2GkIh9o4rx-jpdq8G-aKFSvHGsg39lxHxPWD0CyRxALPE3LtKZuS8AeXiAV-c6YmqbLR-pvmR63rm6J45g7sonRnUp9NHBMw",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique.",
+    "crop": [
+      0,
+      25,
+      512,
+      279
+    ]
+  },
+  "renaissance-texture.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuBscRXREAciVKrGNFWYdtkjXcM68msp5P-DdPTSMtxkY7ri1m30ddnwjEnADfj6GUQ-KDMtaJEv8OTdmBKbtUtTEeHQ75l0TTL9WJXokE23SqevJWTl0TI_der1BRmBBf4ny4tOBFibPnDFItiE1oSWxeq-AFos3yLNBNuChYFSqiUAzuNfaOog6g3AWS35LBligebT2InpCce8FebTakMey_nwua0-3Jmg8OuBOlI",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "teaser-portrait.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuBNC9RrI_EBnkAveW65ahU8nIlv6dOLs0g3wih4zsZW1Kwjd4RmRVa7FjQvGQvoqACcQiC57kQa9UzRYS6Mc0C8narL3my1Gra7puGNVElBcFLI_6wUnLXaLQkEFsr0kWGRranaVdOE1dE2FZqPv9MgMQPpGtrVf2hW2MNTT_mebXgPawPV42d3p00AGQocVtxHTTUYxpp7vWfyhMagCDGZFHynZdyCu0oFruYwzl0",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "renaissance-art.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuC_3tpe3ILXEIHRWimj_O94C95qEuFZdM4N1inZE5VO9PMIgadbmRHLLwWpy8X-03pCm3YQJo3EV_Vqu52PqD29v3Ic2fMK5BvNbN7PtQmoZ-YxFCPatir2KiHI5qEzSXn4zbj4-quREYbm3rqgY9uxBlvhOAZwgb9XxeF9MFprnY-4dxzZ-PwV5XHtbhxVcR3uMGw-hvUtAozY_GtfrDBncCNQo-mCzbwgjxr1vFk",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "hero-art.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuBx5KqesytAdsRwbDQ3OgGDIP2YvY04x4vIIsVRLudiZxlob-Z-jNiL7ZPZvnkp72ey4tRri9KJeJvNOir5n9gX97c4a3NWaBB7KJjpzOu4qsvWbjycO4OMNZY23lOjJatD2vnu0mRS7wU3sxn7axxu1owLcVb-wVTFvUE03QQrgFI1N3gml6oTXjrxJHcUU4ZGyTYth5RJEYw6uWSjoUL0qTCBca7RrmOeWZ7NrBU",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "teaser-blue.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuD4E1pncgKzKzxM49ybOkYTjN6kUpY5XzBoJboJcH6aHjhHEKZtBJxyB2AdMiY6VHe-VS9z-NoTaRUHhMvmY2YdqKDLauV-fTmy1kdkT-v-5bxdkDNJhCPEvI0ktIB1ItA2YMKGd4Yl7sxrbCdxBrBtbD2rALj4rcsprPrqfdTQ8kWO23fLEjUFvXrCZqeqAdcMSnKvmOx5Gpdl0hZCQ46Z4QawbmIG4lN_XBf7DGs",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "impasto-texture.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuB1Z7x_aBUZqpBIrGYvWJr9VNhuEU2n-p0Pgm0bdpeC1VYjBPqNudjj9KNTnm4myMKDHiaeCEOvNTKnCaWVBNJcLWMwLRBKNL5Gwy3C1Tf1oSJZJ0RklOxWLqdVu_8usxOwi38BHE-R53tkRZ5iR-WQQJ5U8eAkoQVnA2NkCoQi7IZoIHQRDT1yzzMr0hOsV7TSQGnbsXUJFByq1lqGfu9bcFx4kvoNrnL_cCc6noI",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "regards-texture.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuCZXiL_XTnZTSmc1FE69AJ0osaaOU7_gHNj5bg7JkNqJqFSiVzA-rvsx55BlRkUWFZLCVVbxJmWgbwFQFeRjXNMKpCFB_EFWpOes3ZsSv1aj4sj4cFNiA9_CtRLw1d5t1m3bQHvY3Jy8iUggNclDkHhPfeKpGOi2NAuSsqjpkYfy8FhqMwyBL_g50lcWU4adzNxUOJ4eruBB9B08xtFeCaoX6BGp0vo_3WvL3oTZLA",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "regards-art.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQN6JplY2whCR12_SQ5x6cAKWj-4piT5BKLx8mv4M56B7P4iV-dMkcJWruB359BTLNqLvKk69EraQD8XSfQc7ZMGtT7LH3sWwwjtVkRFl7aRsNqM3i8tPGWi6TyolI9LxPxplgeM0RxGvsTqZ2ol3aduoPNbhk4FgfWRU3h85HGCAS0yFV0uN7rANPP0KJD4OqoFX5q5debHxwdQ9pcIb-ih2HekgaCoH5XeXWwzQ",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "atelier-bg.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuBHcp-4BHZw3NXm8u6XctDUQgHfo6YdsWBSM5nCl6ytPzOaOMHQTeX7ya5szX2FmDJ8rtskF5LfT90rjwjLlWhpF9Y-4qbXWIUy6GmkQCZjH5OUa2qolEWsHuZnEWinRP2rxDBFXAE0vNTFLQowraV7xQuTB2QgT75EXxXmZEVGQ6C9sLxuWd0ipfHVrggivorpdfrgWbQersJIhth7agG5mIxV7-RR9XTWcu0ZgfU",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique.",
+    "crop": [
+      73,
+      16,
+      440,
+      279
+    ]
+  },
+  "impasto-art.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuDXLNFlhgdSYxMT7k_ctac7yNiV9nGeFyBRD44fG86bhrGSeSNf7zw5XZIS_Sx8igJ9LOQJEXyCcobFXMD9-B6Fkj0M6hhGSvAbuHMyWhTyWWH0FWuFSVXJ24EGBRBl_ev-OqaLRrrIBcM4_wFWDIOOO2JwojOGO76GXwfmTlQkPlYXBsRBEcMnwHHVaG9YtbKCjR3ISeUCXZli8t2NVjZ7iKFEJvVa2xq2Af0ckFE",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "gold-art.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuBpB-fCUg_vsCtK82FK0zFT0QSyDYeKB2KzpOD8cd73C4988zThSoMi1IIszX7FOEK9JReI2JKUKzYlZpie9-iousvWXVysM0H_q7j59lAaXdEPMBoEykg07JEh5RaJOvVeD8y4tMw9_eIKSFTirGEMWSMgyfeEcwBc1a8aPjvH4YyoaS0U55SJ3O8eil6jsdS8fq2x51UxEXMCTWwALjSgPHiJawT68S7OXV0y0z4",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "atelier-pack.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuCtXSFrDm84J-0ks8Fw6R7SamJ2HT_YJHBiKuzXvophmjpKHs9ruy3RIQ1ya-DGTcwg7n_Ahc9aYuYbfkRJ_VKwNsM2yaN0QAvQcH3ijZWaR-PhU-Gr8G-YJTg63fjgLOOeSDbIvLFB_O_iDUCaSys7shZVBRtUbmOxt4DLbrO8SFFta3Ci47CSlcBiebIL4QtPpB5pDVevprKEsVhyZnHXFiMTQ9XYjVCvWVdrfTU",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique.",
+    "crop": [
+      167,
+      0,
+      346,
+      279
+    ]
+  },
+  "gold-texture.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuCZNVMO2JCptvxc0P2R_T5R_zGNCrYoMMMLZm5y-ib_CtAmY7K4C8I0EU42oVGa6eOaxg94r9wjk3HpMvFs2sSo3DF3F9stdTJrsht1UEV_GaYOMk_B65pdlrsCIwhNBCgLcyx-9UxH6sR8xA1pFpZMdH_S0NZE4aIfpcHAKgwQOvyaCG-IK2FnFUDcZjgYjYlK4LzsUhaKR5t4inVrM7NKFfCFeL50AEmndbg_u38",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "hero-bust.jpg": {
+    "source": "https://lh3.googleusercontent.com/aida-public/AB6AXuDwp5YJoLwd9Cz1Q4IBkx8jjqVIDOFgL1qx_BhwyMiJyo0pAUSSd_q8i_YPAbVxRvyo2ylqAL2C8xVf5_X-JOuSxea0I_atIJ4WOCZhppLLLCp0H8wCmw0o2Xh8KbyhHyqvPLe1e4AxXa7oCXmMSIDBPEcIlO9SDfyMwybiGKmWxori3ymztbOZ7WieE4M1PS55n0Ru7OfXM1GdccQlWRj0vpANNt29JcB4QH_a4Sw",
+    "origin": "Maquette fournie par l’utilisateur. Visuel illustratif synthétique, pas une reproduction historique."
+  },
+  "work-436535.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/436535",
+    "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Wheat Field with Cypresses",
+    "artist": "Vincent van Gogh",
+    "date": "1889",
+    "medium": "Oil on canvas",
+    "rightsEvidence": "catalog/evidence/met-436535.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "aaf20930e1688bb60ac544653d24d6722032b88eb4dcb8402ec0487bc5f4f974",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-436105.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/436105",
+    "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "The Death of Socrates",
+    "artist": "Jacques Louis David",
+    "date": "1787",
+    "medium": "Oil on canvas",
+    "rightsEvidence": "catalog/evidence/met-436105.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "cf0683b18b72937f2d0cef4294f0603dbfbdadb5b6db41a4afdbee7316ac9707",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-437654.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/437654",
+    "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Circus Sideshow (Parade de cirque)",
+    "artist": "Georges Seurat",
+    "date": "1887–88",
+    "medium": "Oil on canvas",
+    "rightsEvidence": "catalog/evidence/met-437654.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "da30cba12a0afd59519a3c53fc79742c3977c1baba9909be659741673ec1f6bd",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-45434.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/45434",
+    "image": "https://images.metmuseum.org/CRDImages/as/web-large/DP130155.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
+    "artist": "Katsushika Hokusai",
+    "date": "ca. 1830–32",
+    "medium": "Woodblock print; ink and color on paper",
+    "rightsEvidence": "catalog/evidence/met-45434.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "94d709a4ee2603d0091ba10b6bbc76df015306cfea08cd4e19139da7dfaa1561",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-544442.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/544442",
+    "image": "https://images.metmuseum.org/CRDImages/eg/web-large/DP-24216-003.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Sphinx of Hatshepsut",
+    "artist": "",
+    "date": "ca. 1473–1458 BCE",
+    "medium": "Granite, paint",
+    "rightsEvidence": "catalog/evidence/met-544442.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "798c790cb750534a81d969e2c02d3b311a9701f8f9642437a1c924631d9bae26",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-544450.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/544450",
+    "image": "https://images.metmuseum.org/CRDImages/eg/web-large/DP-24215-002.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Seated Statue of Hatshepsut",
+    "artist": "",
+    "date": "ca. 1473–1458 BCE",
+    "medium": "Indurated limestone, paint",
+    "rightsEvidence": "catalog/evidence/met-544450.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "99324c7b1d243b88d65fb1bc624afc9922516c00787940e6cd03b07fe61967a2",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-544227.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/544227",
+    "image": "https://images.metmuseum.org/CRDImages/eg/web-large/DP248993.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Hippopotamus (\"William\")",
+    "artist": "",
+    "date": "ca. 1961–1878 B.C.",
+    "medium": "Faience",
+    "rightsEvidence": "catalog/evidence/met-544227.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "b255bfbb3a9719d8d1f499995141acd5283dca0feb3ae9d76e2dcb25ebcd84a9",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-544453.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/544453",
+    "image": "https://images.metmuseum.org/CRDImages/eg/web-large/DP115769.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Head from a Statue of King Amenhotep I",
+    "artist": "",
+    "date": "ca. 1525–1504 BCE",
+    "medium": "Sandstone, paint",
+    "rightsEvidence": "catalog/evidence/met-544453.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "3e78e34ce2e1c03374e1460d4fc68cd1376d75dc8f27969ef0655169de3b8eb6",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-544184.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/544184",
+    "image": "https://images.metmuseum.org/CRDImages/eg/web-large/DP323868.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Face of Senwosret III",
+    "artist": "",
+    "date": "ca. 1878–1840 B.C.",
+    "medium": "Red quartzite",
+    "rightsEvidence": "catalog/evidence/met-544184.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "2d23a7086d3994b7d0cec6f41e881c64c8b1b6ad5924386b0196c4843fe078eb",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-9480.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/9480",
+    "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DT190.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Vase",
+    "artist": "Louis C. Tiffany",
+    "date": "1893–96",
+    "medium": "Favrile glass",
+    "rightsEvidence": "catalog/evidence/met-9480.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "8f8f5647fbee8480204b0fc6dcd582a6ee840f168d0b0987647eb91cb32052f0",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-35.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/35",
+    "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP162517.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "The Adams Vase",
+    "artist": "Paulding Farnham",
+    "date": "1893–95",
+    "medium": "Gold, amethysts, spessartites, tourmalines, fresh water pearls, quartzes, rock crystal, and enamel",
+    "rightsEvidence": "catalog/evidence/met-35.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "0b54946a5303f5272914145dddfd7057164d6b4c7f74f0bbd0e7a7f83f180138",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-20804.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/20804",
+    "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-13969-001.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Vase",
+    "artist": "Tiffany & Co.",
+    "date": "1900",
+    "medium": "Silver, silver-gilt, freshwater baroque pearls, amazonite, opals.",
+    "rightsEvidence": "catalog/evidence/met-20804.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "1076bf866defed904d25c702b929df4d9a735d41b6cacd7610ff15d764441a76",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-820892.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/820892",
+    "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-17121-001.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Vase",
+    "artist": "Tiffany & Co.",
+    "date": "1879",
+    "medium": "Silver, copper, gold, and silver-copper-zinc alloy",
+    "rightsEvidence": "catalog/evidence/met-820892.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "7046732b61a03f83eded0c71c60b3d5495f8615ef50a4ab911f586fa1ecade1d",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-1085.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/1085",
+    "image": "https://images.metmuseum.org/CRDImages/ad/web-large/193008.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Cabinet",
+    "artist": "Charles Tisch",
+    "date": "ca. 1884",
+    "medium": "Rosewood, ivory, mother-of-pearl, brass, glass, and other woods",
+    "rightsEvidence": "catalog/evidence/met-1085.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "2c3259c80b4a8e6629134a3f0f270262e5252b04b7360fe0183341600dd833b0",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-204758.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/204758",
+    "image": "https://images.metmuseum.org/CRDImages/es/web-large/DP249451.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Perseus with the Head of Medusa",
+    "artist": "Antonio Canova",
+    "date": "1804–6",
+    "medium": "Marble",
+    "rightsEvidence": "catalog/evidence/met-204758.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "d06ec4f662bb75c7d8bafc7ea3115a2438fc16f285e5aa4c33eae63693b0c580",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-204759.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/204759",
+    "image": "https://images.metmuseum.org/CRDImages/es/web-large/DP-14050-001.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Head of Medusa",
+    "artist": "Antonio Canova",
+    "date": "1806–7",
+    "medium": "Plaster cast, with modern metal rod",
+    "rightsEvidence": "catalog/evidence/met-204759.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "6d3a2c60efd57dd3e305269b49eb9acb636f73c582e9d8eff092e6816d2fb790",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-250945.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/250945",
+    "image": "https://images.metmuseum.org/CRDImages/gr/web-large/DP138761.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Wall painting: Perseus and Andromeda in landscape, from the imperial villa at Boscotrecase",
+    "artist": "",
+    "date": "last decade of the 1st century BCE",
+    "medium": "Fresco",
+    "rightsEvidence": "catalog/evidence/met-250945.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "d927b5f11b50131eb5f8c54fb6f17621b7e4558cf13fc68ecd08469a52a96ed3",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-467642.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/467642",
+    "image": "https://images.metmuseum.org/CRDImages/cl/web-large/DP118991.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "The Unicorn Rests in a Garden (from the Unicorn Tapestries)",
+    "artist": "",
+    "date": "1495–1505",
+    "medium": "Wool warp with wool, silk, silver, and gilt wefts",
+    "rightsEvidence": "catalog/evidence/met-467642.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "00a83cd8d5ae88ebfa85a72dd4f1dd94c930751ae1b609c2154ffff424160cb8",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-544864.jpg": {
+    "source": "https://www.metmuseum.org/art/collection/search/544864",
+    "image": "https://images.metmuseum.org/CRDImages/eg/web-large/DP243443.jpg",
+    "license": "Domaine public — The Metropolitan Museum of Art, Open Access",
+    "title": "Statuette of a hippo goddess, probably Taweret",
+    "artist": "",
+    "date": "332–30 BCE",
+    "medium": "Glassy faience",
+    "rightsEvidence": "catalog/evidence/met-544864.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "9281365edcd72eba36b594c6177ed3d83408b631997e40344822d874826f9a29",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-mona-lisa.jpg": {
+    "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mona_Lisa.jpg/500px-Mona_Lisa.jpg",
+    "license": "Domaine public — Léonard de Vinci ; reproduction Wikimedia Commons (PD-Art)",
+    "title": "La Joconde",
+    "rightsEvidence": "catalog/evidence/commons-mona-lisa.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "76c539a4d798e45dcd5801513087525265cf38576e0581154334a21d7b80dfe7",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-127571.jpg": {
+    "source": "https://clevelandart.org/art/1950.250",
+    "image": "https://openaccess-cdn.clevelandart.org/1950.250/1950.250_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-127571.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "d31ced234899337037b633218844df09e2e8ee5f6130b9a6140afe737e55fc8f",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-113202.jpg": {
+    "source": "https://clevelandart.org/art/1932.227",
+    "image": "https://openaccess-cdn.clevelandart.org/1932.227/1932.227_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-113202.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "6add5a46fb8b05f10f52a06da1c66d58eb482e4015f4c9d3dc2ecd80554b47ec",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-127572.jpg": {
+    "source": "https://clevelandart.org/art/1950.251",
+    "image": "https://openaccess-cdn.clevelandart.org/1950.251/1950.251_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-127572.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "eb458183f444bc7d807ebb5b6b7174dd4777615f1929e2eaa12de116a477d4b8",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-118679.jpg": {
+    "source": "https://clevelandart.org/art/1939.68",
+    "image": "https://openaccess-cdn.clevelandart.org/1939.68/1939.68_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-118679.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "196272f7c9ace84f13a08745c8f09822cd7cbe7ef13b756cbf3d5e538175e5d6",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-117032.jpg": {
+    "source": "https://clevelandart.org/art/1937.577",
+    "image": "https://openaccess-cdn.clevelandart.org/1937.577/1937.577_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-117032.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "0761a2b91cf2989818ae6328893d19fdc38c5b45801eba264b9e4a12b256a49d",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-144966.jpg": {
+    "source": "https://clevelandart.org/art/1970.160",
+    "image": "https://openaccess-cdn.clevelandart.org/1970.160/1970.160_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-144966.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "a3881b52899636d14e572efbd4ee9ada46b0e4bbfd61ac3b04f735c8f318c85d",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-157501.jpg": {
+    "source": "https://clevelandart.org/art/1994.4",
+    "image": "https://openaccess-cdn.clevelandart.org/1994.4/1994.4_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-157501.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "14c52333da33cc1d7ff184039780b874be41dfd210b5a65e9762b85e611a758f",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-132367.jpg": {
+    "source": "https://clevelandart.org/art/1954.834",
+    "image": "https://openaccess-cdn.clevelandart.org/1954.834/1954.834_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-132367.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "e9f12de013c72e3231f90d5de6d3a23a0716d460f647ce23f9d2d94dc3df3265",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-97165.jpg": {
+    "source": "https://clevelandart.org/art/1916.801",
+    "image": "https://openaccess-cdn.clevelandart.org/1916.801/1916.801_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-97165.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "c07d570fa3baa1d172ef567f8eb344acd385bf7d93a621707a1f34c42b638e23",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-97166.jpg": {
+    "source": "https://clevelandart.org/art/1916.802",
+    "image": "https://openaccess-cdn.clevelandart.org/1916.802/1916.802_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-97166.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "5562f724b48dcf5a6022510e4c57a1a296fcb8af41accae3c8806741d2bf3f86",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-127746.jpg": {
+    "source": "https://clevelandart.org/art/1950.400",
+    "image": "https://openaccess-cdn.clevelandart.org/1950.400/1950.400_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-127746.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "2e4bdb35530e7976c09b9778493fc804e66103967c6037fe4675bd99ce2bd07f",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-124076.jpg": {
+    "source": "https://clevelandart.org/art/1944.79",
+    "image": "https://openaccess-cdn.clevelandart.org/1944.79/1944.79_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-124076.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "767d278cd2febdc64066302acbb8fa1956724e1f277a5a4658ee4e5e12809f5e",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-146469.jpg": {
+    "source": "https://clevelandart.org/art/1972.121",
+    "image": "https://openaccess-cdn.clevelandart.org/1972.121/1972.121_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-146469.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "e53dc4dde1f61839ba1ae5522ce6cc17348ee4df25dd75ff307ce6f5dd15d81f",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-129219.jpg": {
+    "source": "https://clevelandart.org/art/1952.111",
+    "image": "https://openaccess-cdn.clevelandart.org/1952.111/1952.111_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-129219.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "5c72d2431ba2a32c157ebd166248a50f5ce44b3b370920e7f078cbf8281cc4cc",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-136510.jpg": {
+    "source": "https://clevelandart.org/art/1960.81",
+    "image": "https://openaccess-cdn.clevelandart.org/1960.81/1960.81_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-136510.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "4c20ffad9fe2dadf335e825bce3d0983d9b65193fb23097dce659d4505fd8c2b",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-125249.jpg": {
+    "source": "https://clevelandart.org/art/1947.209",
+    "image": "https://openaccess-cdn.clevelandart.org/1947.209/1947.209_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-125249.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "3a9337e095805241fb86be7c6eb9235d69a062d541719f5a74143995e0214042",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-122351.jpg": {
+    "source": "https://clevelandart.org/art/1942.647",
+    "image": "https://openaccess-cdn.clevelandart.org/1942.647/1942.647_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-122351.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "b6c4edc0e515208c1e353863544647da76478212bcc1eaf1831acb5280728f00",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-147017.jpg": {
+    "source": "https://clevelandart.org/art/1972.48",
+    "image": "https://openaccess-cdn.clevelandart.org/1972.48/1972.48_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-147017.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "d389904432f4dd18c2d648b584248a39c6e8cc964b69e236207120faffda8b1d",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-135185.jpg": {
+    "source": "https://clevelandart.org/art/1958.21",
+    "image": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-135185.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "b8508d3dafd5c7e5abbf7acd8223654326918d5b6941f560d575d9c762d0fda0",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-121188.jpg": {
+    "source": "https://clevelandart.org/art/1942.1065",
+    "image": "https://openaccess-cdn.clevelandart.org/1942.1065/1942.1065_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-121188.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "ec4f6d5cf25f2a5706ccbc0668f400536cccb8f74f8dd7682da5768a4d04c2e8",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-149410.jpg": {
+    "source": "https://clevelandart.org/art/1978.63",
+    "image": "https://openaccess-cdn.clevelandart.org/1978.63/1978.63_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-149410.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "7657cab5166c48ad5ad1bbeae52f7f0f627533949fa0d543b4fd249fb58aa0c9",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-128392.jpg": {
+    "source": "https://clevelandart.org/art/1951.356",
+    "image": "https://openaccess-cdn.clevelandart.org/1951.356/1951.356_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-128392.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "8523ded8b988852fcb25e5b723af374730b6133875582f20615cb0cbd3674db6",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-143278.jpg": {
+    "source": "https://clevelandart.org/art/1967.215",
+    "image": "https://openaccess-cdn.clevelandart.org/1967.215/1967.215_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-143278.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "79f82c7e28afc064bd19199dd6883d90d3bb42af26cd61517b6cd28e27dbe58e",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-135336.jpg": {
+    "source": "https://clevelandart.org/art/1958.34",
+    "image": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-135336.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "a7b656149585a4186136ae8373861080f43369a190c3456c50f0e5239c535387",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-128072.jpg": {
+    "source": "https://clevelandart.org/art/1950.89",
+    "image": "https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-128072.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "e44e765ffa5354edebe3d8518494bd4780f0fc69c0bf360faca7be2bc4a6acd5",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-151015.jpg": {
+    "source": "https://clevelandart.org/art/1982.6",
+    "image": "https://openaccess-cdn.clevelandart.org/1982.6/1982.6_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-151015.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "d79b6e1bef9e9e4644b16eda5a602f240a2a398087a9832faa48b3e9018523e1",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-149421.jpg": {
+    "source": "https://clevelandart.org/art/1978.73",
+    "image": "https://openaccess-cdn.clevelandart.org/1978.73/1978.73_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-149421.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "cf225ae00328d8a3529d752307dd0215bce37c6c476559a7aa036e30c3bb8797",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-135517.jpg": {
+    "source": "https://clevelandart.org/art/1958.56",
+    "image": "https://openaccess-cdn.clevelandart.org/1958.56/1958.56_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-135517.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "ed1bc213d35635b7d391dcece259fdf9cce80cd92d154950665898d9177ac68b",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-125104.jpg": {
+    "source": "https://clevelandart.org/art/1946.83",
+    "image": "https://openaccess-cdn.clevelandart.org/1946.83/1946.83_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-125104.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "5066d947dbd8cfe83d93ea4b4be178830dafe0714ae3eaf392be2b65fd76a99b",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-126769.jpg": {
+    "source": "https://clevelandart.org/art/1949.186",
+    "image": "https://openaccess-cdn.clevelandart.org/1949.186/1949.186_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-126769.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "49cd400d1e05f65756e3652b47f395c1c76bdaeeecc371dc768102b3d364922a",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-95259.jpg": {
+    "source": "https://clevelandart.org/art/1916.1032",
+    "image": "https://openaccess-cdn.clevelandart.org/1916.1032/1916.1032_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-95259.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "c5b19b92f256e23d7e64d68e3b815c07d7224e01be72061667036389564f5b64",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-136760.jpg": {
+    "source": "https://clevelandart.org/art/1961.262",
+    "image": "https://openaccess-cdn.clevelandart.org/1961.262/1961.262_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-136760.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "9c40161e0afefdf08400ce93e763382540c91fb37c17d41336e8e0fbed2130ef",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-87891.jpg": {
+    "source": "https://clevelandart.org/art/2023.38",
+    "image": "https://openaccess-cdn.clevelandart.org/2023.38/2023.38_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-87891.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "bae111ae607d19185b51b0a6631cb951dc4596da1e456779bf64f4b854995aa7",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-142792.jpg": {
+    "source": "https://clevelandart.org/art/1966.49",
+    "image": "https://openaccess-cdn.clevelandart.org/1966.49/1966.49_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-142792.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "a99cbd57e52a50ab180d0c8fa883adf174daf48012ab80499c3cb66e6a7ae322",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-169684.jpg": {
+    "source": "https://clevelandart.org/art/2011.49",
+    "image": "https://openaccess-cdn.clevelandart.org/2011.49/2011.49_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-169684.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "fc13e071ac24a1fed8dcef09fd490d0c2dc5c9caefd849e263a286b23c6660b7",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-93984.jpg": {
+    "source": "https://clevelandart.org/art/1914.561",
+    "image": "https://openaccess-cdn.clevelandart.org/1914.561/1914.561_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-93984.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "64440253d354a77d2f9ec14a1ec4259aee5089307c26076b92d1a23f6c6cf354",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-147518.jpg": {
+    "source": "https://clevelandart.org/art/1973.29",
+    "image": "https://openaccess-cdn.clevelandart.org/1973.29/1973.29_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-147518.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "a7e45a84eb08c5117b746f5842073d228fbf510ce91be383f5759c7f646f8a1c",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-151352.jpg": {
+    "source": "https://clevelandart.org/art/1983.196",
+    "image": "https://openaccess-cdn.clevelandart.org/1983.196/1983.196_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-151352.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "f514c9841d1258d4cb6cb993c938ad722eb0d27ecc88afdc552cf518bb6dea41",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-149884.jpg": {
+    "source": "https://clevelandart.org/art/1980.123",
+    "image": "https://openaccess-cdn.clevelandart.org/1980.123/1980.123_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-149884.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "095a4741cbcc105f73edcbdbf92f2e51e9ed51d67c2cf94665405e0c8c94bb76",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-94136.jpg": {
+    "source": "https://clevelandart.org/art/1914.680",
+    "image": "https://openaccess-cdn.clevelandart.org/1914.680/1914.680_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-94136.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "ae1039d101c105806bf728e125901f9aa75d32a4676d5f577d13b9305861e251",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-540823.jpg": {
+    "source": "https://clevelandart.org/art/2023.102",
+    "image": "https://openaccess-cdn.clevelandart.org/2023.102/2023.102_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-540823.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "3e1f2d17a7b44a384fef5be125c5ad2f62511b41857e80589a565653a6dae320",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-144280.jpg": {
+    "source": "https://clevelandart.org/art/1969.118",
+    "image": "https://openaccess-cdn.clevelandart.org/1969.118/1969.118_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-144280.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "71d37c7560e08cba1e16e0a3e227362b0904e3d120cb501c4898d478aef53a65",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-155759.jpg": {
+    "source": "https://clevelandart.org/art/1991.107",
+    "image": "https://openaccess-cdn.clevelandart.org/1991.107/1991.107_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-155759.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "62b80f07231e56ba6d292a6474f6040f7faa388fe7e4a580a8146d6d05768d9f",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-126198.jpg": {
+    "source": "https://clevelandart.org/art/1948.420",
+    "image": "https://openaccess-cdn.clevelandart.org/1948.420/1948.420_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-126198.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "f66658afe1946e983d4984f6c345d3f3688b5622814a7e37df95db189b056ccd",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-96303.jpg": {
+    "source": "https://clevelandart.org/art/1916.2011",
+    "image": "https://openaccess-cdn.clevelandart.org/1916.2011/1916.2011_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-96303.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "cb53ea415d6bd64bfac886531a81ffe6b500d289ba1d48c46904bcfb5ede8dfb",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-157614.jpg": {
+    "source": "https://clevelandart.org/art/1995.13",
+    "image": "https://openaccess-cdn.clevelandart.org/1995.13/1995.13_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-157614.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "7f100039e27137f90e7e7ad353362c32547a0b54f0c1aaa9bdc5c9b605aec5dc",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-102377.jpg": {
+    "source": "https://clevelandart.org/art/1921.1021.a",
+    "image": "https://openaccess-cdn.clevelandart.org/1921.1021.a/1921.1021.a_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-102377.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "0617aa0568c484d8a850c57ad1259990ca740497f675213f78b65bbb7fd12d99",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-148794.jpg": {
+    "source": "https://clevelandart.org/art/1976.4",
+    "image": "https://openaccess-cdn.clevelandart.org/1976.4/1976.4_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-148794.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "26691ab6d2ccb2dd1e7ad0ac20b6d0c2e440be969375fd53e4fb4622fcd9b716",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-94073.jpg": {
+    "source": "https://clevelandart.org/art/1914.626",
+    "image": "https://openaccess-cdn.clevelandart.org/1914.626/1914.626_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-94073.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "12f7c7f811c0d1b229e5fc8d6228a95757bb481b94b5f1848a0dae63bb8c8264",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-102388.jpg": {
+    "source": "https://clevelandart.org/art/1921.1032",
+    "image": "https://openaccess-cdn.clevelandart.org/1921.1032/1921.1032_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-102388.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "58390c17d6e303d0701a9c3330f304ab6d54d0828d10c8fa21338939fbc52e4a",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-142734.jpg": {
+    "source": "https://clevelandart.org/art/1966.443",
+    "image": "https://openaccess-cdn.clevelandart.org/1966.443/1966.443_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-142734.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "509f115ae3ca701a1b5fc942f118eabdde664c5993deba352dab2039a7bf8144",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-165186.jpg": {
+    "source": "https://clevelandart.org/art/2007.180",
+    "image": "https://openaccess-cdn.clevelandart.org/2007.180/2007.180_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-165186.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "ec99452646e3156e4b1c7bcd79f037c258bf83d829c8dcd4046d6524101e6920",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-150156.jpg": {
+    "source": "https://clevelandart.org/art/1980.74",
+    "image": "https://openaccess-cdn.clevelandart.org/1980.74/1980.74_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-150156.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "c111f481acbe6c6be6b3a63f4a1d54364ba62e1c83aee63e4bfb0d0fd5f9d991",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-296869.jpg": {
+    "source": "https://clevelandart.org/art/2018.267",
+    "image": "https://openaccess-cdn.clevelandart.org/2018.267/2018.267_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-296869.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "34b4a2de742c2952961ab7ef486b795add3fe78f72fd5aa8423bb9ac2d931c12",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-150488.jpg": {
+    "source": "https://clevelandart.org/art/1981.49",
+    "image": "https://openaccess-cdn.clevelandart.org/1981.49/1981.49_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-150488.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "8b7455402df8a045fc74688b77417220a8584dc86f7191f79d35b7eb083fa957",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-152818.jpg": {
+    "source": "https://clevelandart.org/art/1985.69",
+    "image": "https://openaccess-cdn.clevelandart.org/1985.69/1985.69_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-152818.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "8f42cf89bb2e22982e6d447f5456120e883ffc8f5c014014581850d1ccd2d041",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-160089.jpg": {
+    "source": "https://clevelandart.org/art/1997.58",
+    "image": "https://openaccess-cdn.clevelandart.org/1997.58/1997.58_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-160089.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "b6c8a70dbf798d8608bb7688e2538476d92abf0d1be1e17480d10ef7a25933c4",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-151884.jpg": {
+    "source": "https://clevelandart.org/art/1984.177",
+    "image": "https://openaccess-cdn.clevelandart.org/1984.177/1984.177_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-151884.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "89efbaa33e4612a57c6e82689e0a6423628a91c59bc2ce71ea8b66f68dfda6d5",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-93173.jpg": {
+    "source": "https://clevelandart.org/art/2018.289",
+    "image": "https://openaccess-cdn.clevelandart.org/2018.289/2018.289_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-93173.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "0dd9eb4e11b839f3cfce4d13ef6e53a5dce7ea2342e79ab447ff66ed61eb0c21",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-140001.jpg": {
+    "source": "https://clevelandart.org/art/1963.673",
+    "image": "https://openaccess-cdn.clevelandart.org/1963.673/1963.673_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-140001.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "ee51687f88bce25470691ff69356b423e7ed6574bb947215b001bf02dc83cdba",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-153683.jpg": {
+    "source": "https://clevelandart.org/art/1987.2",
+    "image": "https://openaccess-cdn.clevelandart.org/1987.2/1987.2_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-153683.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "acf29cc951c906140fcdf714766107f5881ac7b7c2b77c76f987f09a9a3b4e8f",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-399499.jpg": {
+    "source": "https://clevelandart.org/art/2021.3",
+    "image": "https://openaccess-cdn.clevelandart.org/2021.3/2021.3_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-399499.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "e7ce47fb7f58224e88c9b93c86a8ce0d29a75e9418ba36c4153be00305604e88",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-111811.jpg": {
+    "source": "https://clevelandart.org/art/1930.331",
+    "image": "https://openaccess-cdn.clevelandart.org/1930.331/1930.331_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-111811.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "e7e750a2f9111bb0d688d21d35b90ebe7034e4cc276b13f3ccc76c24c208122e",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-137128.jpg": {
+    "source": "https://clevelandart.org/art/1961.93",
+    "image": "https://openaccess-cdn.clevelandart.org/1961.93/1961.93_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-137128.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "2e59e195b613ebbba41d8861b8d65326991ca373c91eb2a43e0b640473a14b31",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-135431.jpg": {
+    "source": "https://clevelandart.org/art/1958.427.1",
+    "image": "https://openaccess-cdn.clevelandart.org/1958.427.1/1958.427.1_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-135431.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "b0f8f7e1e3b76bd8cc4fd9583c309440ca870f32c2cd5a4ce5eb5997e0e2d8fa",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-137023.jpg": {
+    "source": "https://clevelandart.org/art/1961.46",
+    "image": "https://openaccess-cdn.clevelandart.org/1961.46/1961.46_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-137023.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "31990e4e311abf5ff2c9acdf14ce9e5d7abb028b17a8feda22fa321db8ba14d9",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-150996.jpg": {
+    "source": "https://clevelandart.org/art/1982.45",
+    "image": "https://openaccess-cdn.clevelandart.org/1982.45/1982.45_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-150996.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "3f2d0c7d8c0d32087ab44520d0d6d7fbea38a7505d113e471bbe3afbdc731a83",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-169251.jpg": {
+    "source": "https://clevelandart.org/art/2011.136",
+    "image": "https://openaccess-cdn.clevelandart.org/2011.136/2011.136_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-169251.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "7af6d3073dc7d9fa73e43938b01f53a73cba89437d6871070fcfdffbe5f173fe",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-105933.jpg": {
+    "source": "https://clevelandart.org/art/1924.1015",
+    "image": "https://openaccess-cdn.clevelandart.org/1924.1015/1924.1015_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-105933.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "5e0c320c112d8183724d809db5be4621bcd6a01737ce86f7b8e45168c854e04a",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-153401.jpg": {
+    "source": "https://clevelandart.org/art/1986.85",
+    "image": "https://openaccess-cdn.clevelandart.org/1986.85/1986.85_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-153401.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "d116fe96d105105c0b2cdf14d84c3fa856cd3e188d764dc0285130f30c124597",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-130939.jpg": {
+    "source": "https://clevelandart.org/art/1953.628",
+    "image": "https://openaccess-cdn.clevelandart.org/1953.628/1953.628_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-130939.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "6c7f35b902e8fdfd07019080aa241bb3101b38b531fab16ed065d4b44b13363c",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-165426.jpg": {
+    "source": "https://clevelandart.org/art/2007.276",
+    "image": "https://openaccess-cdn.clevelandart.org/2007.276/2007.276_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-165426.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "3c8d525cfd0c100851d0b6101f1eda36a4a7885d0f2ffcf49b013a2e398dd660",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-161637.jpg": {
+    "source": "https://clevelandart.org/art/2000.201",
+    "image": "https://openaccess-cdn.clevelandart.org/2000.201/2000.201_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-161637.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "799260f4525d9bffb94476568f95cfa280cbc18afd40fd2cb3a4e835b285625b",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-163505.jpg": {
+    "source": "https://clevelandart.org/art/2004.64",
+    "image": "https://openaccess-cdn.clevelandart.org/2004.64/2004.64_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-163505.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "f7305f836106a9407126d9b6a1494b342894d8ea3645a337960b310ec2a2f1db",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-98298.jpg": {
+    "source": "https://clevelandart.org/art/1917.974",
+    "image": "https://openaccess-cdn.clevelandart.org/1917.974/1917.974_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-98298.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "c75ab20e17a1e02ea6b71be0de9d8e0b31f68b8d2574b60231cd75e9782fe491",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-156131.jpg": {
+    "source": "https://clevelandart.org/art/1991.6",
+    "image": "https://openaccess-cdn.clevelandart.org/1991.6/1991.6_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-156131.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "42a2bcef3a1d81f3d0f7636956e153f048cad0af850fff30f9023f4f138f7234",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-284749.jpg": {
+    "source": "https://clevelandart.org/art/2017.21",
+    "image": "https://openaccess-cdn.clevelandart.org/2017.21/2017.21_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-284749.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "119d25fd2efb4815f9a66514bbd10f6ffebc83b1cd38c32de0d69bea94a97331",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-151445.jpg": {
+    "source": "https://clevelandart.org/art/1983.29",
+    "image": "https://openaccess-cdn.clevelandart.org/1983.29/1983.29_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-151445.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "0c02f6b26733f0d59e040756c77f10ac19c1fc00e1d83f4f6240a220c1ee6f93",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-106757.jpg": {
+    "source": "https://clevelandart.org/art/1924.777",
+    "image": "https://openaccess-cdn.clevelandart.org/1924.777/1924.777_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-106757.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "b66af369810f9ec320b0712dc2c6b5115270ca795af42cd966aeae75d3af6815",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "work-cma-151450.jpg": {
+    "source": "https://clevelandart.org/art/1983.31",
+    "image": "https://openaccess-cdn.clevelandart.org/1983.31/1983.31_web.jpg",
+    "license": "CC0 — The Cleveland Museum of Art",
+    "rightsEvidence": "catalog/evidence/cma-151450.json",
+    "reviewedAt": "2026-10-29",
+    "sha256": "cf87626021d05706231d0ddabe49cc128f61f380df77d81aa5c850d43cb50eca",
+    "editorialAdaptation": "Notice et texte français adaptés pour MUSE ; aucune approbation du musée n’est impliquée."
+  },
+  "collections/decoratifs-fer.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Create ONE production-ready decorative frame asset for a museum collectible artwork card. Portrait 2:3 canvas, exactly 1024 x 1536 pixels if possible. Use the reference ONLY for straight-on frame composition, realistic tactile metal detail and portrait proportions; DO NOT copy its Art Deco shapes. New family: French Art Nouveau decorative arts around 1900, elegant sinuous botanical ironwork, slender iris leaves and small ginkgo fans, restrained whiplash curves, a few subtle enamel-like details. ESQUISSE / IRON finish: dark graphite forged iron with cool steel highlights, visibly metallic, not silver, no gold or copper. Symmetrical balanced four-sided frame, orthographic front view, no perspective, entire outer silhouette visible with ~24 pixels clearance to the canvas edges. Dense ornament kept strictly on the border bands: left and right 12% of canvas each; upper and lower 11%. Large EMPTY RECTANGULAR center aperture from x=15% to85%, y=13% to87%, straight inner lip; no leaves or decorative protrusions into this opening. No painting, no object, no glass, no reflection across the aperture. No letters, numbers, logos, badges, symbols or caption plate. Asset isolation requirement: both the entire central opening and all space outside the frame must be PERFECTLY FLAT SOLID VIVID MAGENTA #ff00ff for later chroma-key transparency, with no shadows, texture or lighting on this magenta. No magenta whatsoever in the frame materials. Absolutely no checkerboard. Crisp silhouette, sophisticated photographed metal bas-relief, fine crafted detail readable at card size. ONE iron frame only, not a contact sheet.",
+    "reference": "public/assets/collections/art-moderne-fer.png",
+    "referenceSha256": "45c6a7b393a2aadf291c6ca42dc73d0baea3d384ca98e2a54acbe62bc514485e",
+    "source": "output/imagegen/decoratifs-fer-source.png",
+    "sourceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "processing": "PNG 1024×1536 ; canal alpha natif conservé sans masque ni recoloration ; provenance XMP ajoutée.",
+    "sha256": "e0dce7b41045ea6bcba85cac16e39e1660aaf43979176b26e630c061b04aad82"
+  },
+  "collections/decoratifs-cuivre.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Edit the supplied Art Nouveau museum-card frame into the COPPER rarity variant. Preserve the exact 1024x1536 portrait canvas, the entire frame silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: convincingly warm reddish copper, burnished russet and orange-brown patina in recesses, bright warm copper highlights, NOT yellow gold and NOT silver. Small inset enamel areas may be deep warm oxblood and brown, not blue. Maintain elegant photographed metal relief and fine craftsmanship. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE copper frame, not a sheet.",
+    "reference": "output/imagegen/decoratifs-fer-source.png",
+    "referenceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "source": "output/imagegen/decoratifs-cuivre-source.png",
+    "sourceSha256": "a50c752f06a3b43144aede75667ac81faba89688331847f1cc026d6065425f29",
+    "processing": "PNG 1024×1536 ; canal alpha natif conservé sans masque ni recoloration ; provenance XMP ajoutée.",
+    "sha256": "989ccf7dfdd8ba22635d19cb9f8b5929bc908f4e4c76ae61f3b23453e1282e98"
+  },
+  "collections/decoratifs-argent.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Edit the supplied Art Nouveau museum-card frame into the SILVER rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: luminous cool SILVER, much brighter and whiter than the original graphite iron, polished pale silver highlights and softly oxidized pewter recesses, no gold or copper. Small inset enamel areas may be pearl-white and very pale ice-blue. Maintain elegant photographed metallic bas-relief and fine craftsmanship. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE silver frame, not a sheet.",
+    "reference": "output/imagegen/decoratifs-fer-source.png",
+    "referenceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "source": "output/imagegen/decoratifs-argent-source.png",
+    "sourceSha256": "885f9afad5865a8435c8b87198e14d112761cd33aa63aac5968293a12b261c14",
+    "processing": "PNG 1024×1536 ; canal alpha natif conservé sans masque ni recoloration ; provenance XMP ajoutée.",
+    "sha256": "464b2361f85e4ec083d0c8882cbca20021c261b98a0864ea116fd87fdd432570"
+  },
+  "collections/decoratifs-dore.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Edit the supplied Art Nouveau museum-card frame into the GOLD rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: rich warm antique GOLD with bright honey-gold highlights, subtle ochre patina in recesses, confidently yellow gold not reddish copper. Small inset enamel areas may be muted amber and dark honey, without changing their shapes. Maintain elegant photographed metallic bas-relief and fine craftsmanship, luxurious but not glittery. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE gold frame, not a sheet.",
+    "reference": "output/imagegen/decoratifs-fer-source.png",
+    "referenceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "source": "output/imagegen/decoratifs-dore-source.png",
+    "sourceSha256": "372796214cf609153b1d0d93a7001928a863b82308e5eb84a1bfef2af52ea09e",
+    "processing": "PNG 1024×1536 ; canal alpha natif conservé sans masque ni recoloration ; provenance XMP ajoutée.",
+    "sha256": "f8ec1cba5fd02bd07e1fc985b6e4b3a5bd3378f728bc6ae2406cb4e434182602"
+  },
+  "collections/decoratifs-lapis-lazuli.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Edit the supplied Art Nouveau museum-card frame into the LAPIS-LAZULI highest-rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: predominantly deep intense royal ultramarine LAPIS-LAZULI stone, rich blue body with natural subtle stone veining and a few tiny pyrite flecks. Use restrained fine antique-gold outlines and highlights on the botanical relief to articulate the carved forms, but the frame must read BLUE LAPIS first, not a gold frame with a few blue accents. No purple, neon, glow or gems protruding into the opening. Maintain highly crafted realistic bas-relief. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE lapis frame, not a sheet.",
+    "reference": "output/imagegen/decoratifs-fer-source.png",
+    "referenceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "source": "output/imagegen/decoratifs-lapis-lazuli-source.png",
+    "sourceSha256": "6a4b6e01ef6adf43e3b6b28d797b86d668efb08f7458c7b49414071a6965bb17",
+    "processing": "PNG 1024×1536 ; canal alpha natif conservé sans masque ni recoloration ; provenance XMP ajoutée.",
+    "sha256": "1d13ae87cd5eee30c1cd68800d2634f21b501fa4e29e43bfbbd0a91c85438a8c"
+  },
+  "collections/display/decoratifs-fer.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Create ONE production-ready decorative frame asset for a museum collectible artwork card. Portrait 2:3 canvas, exactly 1024 x 1536 pixels if possible. Use the reference ONLY for straight-on frame composition, realistic tactile metal detail and portrait proportions; DO NOT copy its Art Deco shapes. New family: French Art Nouveau decorative arts around 1900, elegant sinuous botanical ironwork, slender iris leaves and small ginkgo fans, restrained whiplash curves, a few subtle enamel-like details. ESQUISSE / IRON finish: dark graphite forged iron with cool steel highlights, visibly metallic, not silver, no gold or copper. Symmetrical balanced four-sided frame, orthographic front view, no perspective, entire outer silhouette visible with ~24 pixels clearance to the canvas edges. Dense ornament kept strictly on the border bands: left and right 12% of canvas each; upper and lower 11%. Large EMPTY RECTANGULAR center aperture from x=15% to85%, y=13% to87%, straight inner lip; no leaves or decorative protrusions into this opening. No painting, no object, no glass, no reflection across the aperture. No letters, numbers, logos, badges, symbols or caption plate. Asset isolation requirement: both the entire central opening and all space outside the frame must be PERFECTLY FLAT SOLID VIVID MAGENTA #ff00ff for later chroma-key transparency, with no shadows, texture or lighting on this magenta. No magenta whatsoever in the frame materials. Absolutely no checkerboard. Crisp silhouette, sophisticated photographed metal bas-relief, fine crafted detail readable at card size. ONE iron frame only, not a contact sheet.",
+    "reference": "public/assets/collections/art-moderne-fer.png",
+    "referenceSha256": "45c6a7b393a2aadf291c6ca42dc73d0baea3d384ca98e2a54acbe62bc514485e",
+    "source": "/assets/collections/decoratifs-fer.png",
+    "sourceSha256": "e0dce7b41045ea6bcba85cac16e39e1660aaf43979176b26e630c061b04aad82",
+    "processing": "Dérivé PNG transparent 640×960, ouverture mesurée et XMP conservée par prepare-frames.mjs.",
+    "sha256": "f1be697303c70f1c6d999c26036581566440a3d19c4a2f4672be00cea6f93df6"
+  },
+  "collections/display/decoratifs-cuivre.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Edit the supplied Art Nouveau museum-card frame into the COPPER rarity variant. Preserve the exact 1024x1536 portrait canvas, the entire frame silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: convincingly warm reddish copper, burnished russet and orange-brown patina in recesses, bright warm copper highlights, NOT yellow gold and NOT silver. Small inset enamel areas may be deep warm oxblood and brown, not blue. Maintain elegant photographed metal relief and fine craftsmanship. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE copper frame, not a sheet.",
+    "reference": "output/imagegen/decoratifs-fer-source.png",
+    "referenceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "source": "/assets/collections/decoratifs-cuivre.png",
+    "sourceSha256": "989ccf7dfdd8ba22635d19cb9f8b5929bc908f4e4c76ae61f3b23453e1282e98",
+    "processing": "Dérivé PNG transparent 640×960, ouverture mesurée et XMP conservée par prepare-frames.mjs.",
+    "sha256": "525d16fd9743776021cb62aa7ba7bb192cf04bb86e2e246c9f37f66798107b55"
+  },
+  "collections/display/decoratifs-argent.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Edit the supplied Art Nouveau museum-card frame into the SILVER rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: luminous cool SILVER, much brighter and whiter than the original graphite iron, polished pale silver highlights and softly oxidized pewter recesses, no gold or copper. Small inset enamel areas may be pearl-white and very pale ice-blue. Maintain elegant photographed metallic bas-relief and fine craftsmanship. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE silver frame, not a sheet.",
+    "reference": "output/imagegen/decoratifs-fer-source.png",
+    "referenceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "source": "/assets/collections/decoratifs-argent.png",
+    "sourceSha256": "464b2361f85e4ec083d0c8882cbca20021c261b98a0864ea116fd87fdd432570",
+    "processing": "Dérivé PNG transparent 640×960, ouverture mesurée et XMP conservée par prepare-frames.mjs.",
+    "sha256": "f3549df7089aee8a8b1b6603bc8687fac25978e54be831d372cc589cb4011164"
+  },
+  "collections/display/decoratifs-dore.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Edit the supplied Art Nouveau museum-card frame into the GOLD rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: rich warm antique GOLD with bright honey-gold highlights, subtle ochre patina in recesses, confidently yellow gold not reddish copper. Small inset enamel areas may be muted amber and dark honey, without changing their shapes. Maintain elegant photographed metallic bas-relief and fine craftsmanship, luxurious but not glittery. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE gold frame, not a sheet.",
+    "reference": "output/imagegen/decoratifs-fer-source.png",
+    "referenceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "source": "/assets/collections/decoratifs-dore.png",
+    "sourceSha256": "f8ec1cba5fd02bd07e1fc985b6e4b3a5bd3378f728bc6ae2406cb4e434182602",
+    "processing": "Dérivé PNG transparent 640×960, ouverture mesurée et XMP conservée par prepare-frames.mjs.",
+    "sha256": "d11eadeadc1ee8f248d8087d6743ae199bae7ca18d2e1b4108ab5e475ad5909c"
+  },
+  "collections/display/decoratifs-lapis-lazuli.png": {
+    "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "generationModel": "openai/gpt-image-2",
+    "generatedAt": "2026-10-29",
+    "generationPrompt": "Edit the supplied Art Nouveau museum-card frame into the LAPIS-LAZULI highest-rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: predominantly deep intense royal ultramarine LAPIS-LAZULI stone, rich blue body with natural subtle stone veining and a few tiny pyrite flecks. Use restrained fine antique-gold outlines and highlights on the botanical relief to articulate the carved forms, but the frame must read BLUE LAPIS first, not a gold frame with a few blue accents. No purple, neon, glow or gems protruding into the opening. Maintain highly crafted realistic bas-relief. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE lapis frame, not a sheet.",
+    "reference": "output/imagegen/decoratifs-fer-source.png",
+    "referenceSha256": "59bb443bfb79877013d9f398d4ce0da848bbc8e5c48470f09414969ee118ea7d",
+    "source": "/assets/collections/decoratifs-lapis-lazuli.png",
+    "sourceSha256": "1d13ae87cd5eee30c1cd68800d2634f21b501fa4e29e43bfbbd0a91c85438a8c",
+    "processing": "Dérivé PNG transparent 640×960, ouverture mesurée et XMP conservée par prepare-frames.mjs.",
+    "sha256": "0a9adcd60e018a5faa9f048fe16a9648fb11263d8082aff3d3de41f0b90d54d1"
+  },
+  "collections/display/art-moderne-argent-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-moderne-argent.png",
+    "sourceSha256": "d46b15c2e20211c6d728a64fee265511b0238bb4d2f6d405f2b431d1eebccd46",
+    "sha256": "e2fff9233c414257377b3edb3fb473a4c2bb4ce40b7a739d0daf32527ce4e584",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-moderne-cuivre-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-moderne-cuivre.png",
+    "sourceSha256": "26ce64a1eb026455be37a68275ce25dd25dd9a7646e44e8c121a0abcaabf613a",
+    "sha256": "010e61af97c3d04f9d6cdd2f098c702da4339d05879b9f74f4ceacac6d6bf513",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-moderne-dore-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-moderne-dore.png",
+    "sourceSha256": "3d2bfb69e357289c4512c065a0d866c46013c3b369bdf90d7aa3d9308b74da2e",
+    "sha256": "19f8f287d03c58a4c77471610bb401a23cf6679baf0abb34a6773ae3eec3aeee",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-moderne-fer-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-moderne-fer.png",
+    "sourceSha256": "45c6a7b393a2aadf291c6ca42dc73d0baea3d384ca98e2a54acbe62bc514485e",
+    "sha256": "34e572a9f7a9983b07adece262d2a8928d03e406165530097cc9dbd33fbd0265",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-moderne-lapis-lazuli-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-moderne-lapis-lazuli.png",
+    "sourceSha256": "40958c5f97f1202b04d1c1403057f0f3128b42e0d94840f464c1ae65d650104d",
+    "sha256": "3dbe7f1aee2f5a8b4ac3b56d7ca4022b51069da44a24a0f131d3c86b66af6df8",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-mysterieux-argent-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-mysterieux-argent.png",
+    "sourceSha256": "a7c1b4df957c63ee25d0f5eb756d62cc578dc5ae1cbc9da919f71f1d46c1ca78",
+    "sha256": "3bfe1f5146c8825156a4078824e8e86bce7a36489944c0b67c4157515d488b6f",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-mysterieux-cuivre-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-mysterieux-cuivre.png",
+    "sourceSha256": "cab9148153a1383821f189516835d376ba6be95e5a40a8d4208be19f49d5eb80",
+    "sha256": "df66d63fb8e270c294c417e632103acc3f7c9df2cfb90b3fbefcb7330fa1e2d8",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-mysterieux-dore-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-mysterieux-dore.png",
+    "sourceSha256": "368af6d67f1bdb33a429216c405d0e07c68c157e2abbe26aa02b6b8484e47961",
+    "sha256": "74730a0f7ea985a53d62ed59a8a7caea15d810eea0065e87bc12f792a30354e8",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-mysterieux-fer-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-mysterieux-fer.png",
+    "sourceSha256": "4193605952186dbf5735ec0b869e5b44461e27a3b783d6a66eebe326a2c0c687",
+    "sha256": "e3d1d8669c492d8247ace3281beca5e0fc3862c5ff4ca274f6021dbc2c4132dc",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/art-mysterieux-lapis-lazuli-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/art-mysterieux-lapis-lazuli.png",
+    "sourceSha256": "cd8d4b39b98dd7add1cb3125637c01fa3c4bbdb22b8d5b4f0c500adac6be082c",
+    "sha256": "46990d1e5dd1567f36c795991755de72069b0e5bdde6f342d13a267776ad41bd",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/beaux-arts-argent-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/beaux-arts-argent.png",
+    "sourceSha256": "023ea0ebba80d0eba3d410a2f7adc9355dd45bf5ac07db6e9a75266aa43267f9",
+    "sha256": "54f1d9400f9b785d8cbf4ae005a6258f11a5cd202202613c0b171d265e77cd39",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/beaux-arts-cuivre-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/beaux-arts-cuivre.png",
+    "sourceSha256": "150f37305d0bd48ed76cd5a07886ed1b7bb3e484df5af9f5c77005acbd117948",
+    "sha256": "9015c1df366071429604443bdd297ff7f18ec5d22bb6bfc14b1c528bad94b923",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/beaux-arts-dore-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/beaux-arts-dore.png",
+    "sourceSha256": "dc9c37078374483ceb732cb0e8438428fcbf773db3e512c90715f0203dc6f551",
+    "sha256": "98d32161a2847e49119da6bd5c095b32bec72639048f60e1bfad7f2a18138d1a",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/beaux-arts-fer-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/beaux-arts-fer.png",
+    "sourceSha256": "03d59d73fb5051d7ead21817fdc8d236a2c52ae34d5da39fda4ca9196dd2d605",
+    "sha256": "a3fada14886b365dfacb90ae6ac68273b097f0f0a31cf12e31520651c599fae8",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/beaux-arts-lapis-lazuli-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/beaux-arts-lapis-lazuli.png",
+    "sourceSha256": "9a7af67c386aa4dd5c0223fc42789ae4c3ee4863a5a8782963faaec03f41c88c",
+    "sha256": "04fd48640c5565b0d926da7ef9a75e42307b15387176a71b7de385defd9278fb",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/decoratifs-argent-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/decoratifs-argent.png",
+    "sourceSha256": "464b2361f85e4ec083d0c8882cbca20021c261b98a0864ea116fd87fdd432570",
+    "sha256": "9ff312d3c0073c4b123acc0d2726b59084114c42f305d1ffdaa80507a9f0a31c",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/decoratifs-cuivre-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/decoratifs-cuivre.png",
+    "sourceSha256": "989ccf7dfdd8ba22635d19cb9f8b5929bc908f4e4c76ae61f3b23453e1282e98",
+    "sha256": "427e195f3c49a2400dffb09dadf1cc43fe2e8afc84f5e2e7f3fb23215378c56c",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/decoratifs-dore-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/decoratifs-dore.png",
+    "sourceSha256": "f8ec1cba5fd02bd07e1fc985b6e4b3a5bd3378f728bc6ae2406cb4e434182602",
+    "sha256": "2b8b7b168ec53b306bc21188e888fc0970e867c87d2cedd6016db1b3a9dc0283",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/decoratifs-fer-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/decoratifs-fer.png",
+    "sourceSha256": "e0dce7b41045ea6bcba85cac16e39e1660aaf43979176b26e630c061b04aad82",
+    "sha256": "cba8514a780d13553bcead32ed0aa908af2aea64a829ba17b580d5ac2a39ae72",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/decoratifs-lapis-lazuli-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/decoratifs-lapis-lazuli.png",
+    "sourceSha256": "1d13ae87cd5eee30c1cd68800d2634f21b501fa4e29e43bfbbd0a91c85438a8c",
+    "sha256": "dc4581d9194b94fc8013e539efc6952fa647173d9c84e18d33e795a801ce3c63",
+    "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/egypte-argent-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/egypte-argent.png",
+    "sourceSha256": "03856a0013a51a267f622c13ca244ba7da7db68af854c41cc45ef9204b5665da",
+    "sha256": "a4dfdcf525bd707ae8fe49f92b105f6f48c522f8ef8dde7e1457d10faeb4805d",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/egypte-cuivre-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/egypte-cuivre.png",
+    "sourceSha256": "e9d858aaee438caba9eff86aeee84e9b85823dabf541b696b24afe66e4ac7865",
+    "sha256": "71d9edd08877e3cf198780e201bd760195562c68542f4a6d2a7ac94c402a666d",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/egypte-dore-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/egypte-dore.png",
+    "sourceSha256": "2421410114a2372812b5fc6cb14c29afc0138709423987254d1add480dc5c453",
+    "sha256": "fb2d1adf5d724bb06e8e9280790a35aeb78b43d39b2d7aac771cfbb3263e531e",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/egypte-fer-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/egypte-fer.png",
+    "sourceSha256": "be84a97ba6acb54d923f17f9521f169b91c59feeb541dc2f031821cbba6d628b",
+    "sha256": "d6a45d71b25047e4e039ea76589a477169e55f808689f53bec3772305f854cf0",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/egypte-lapis-lazuli-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/egypte-lapis-lazuli.png",
+    "sourceSha256": "9b33aa02299cd8a052e2a50f4f1f12f84c1450ba9c6b8a908369135368ee798c",
+    "sha256": "ea644d44256eb825828c35b02b43831a0b284143fdd5817d9d5c27f02e44049b",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/prehistoire-argent-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/prehistoire-argent.png",
+    "sourceSha256": "ba7654e16d1846345ef1d048fb48a2a2e2470b976071c9d52bec06ac9f9c3778",
+    "sha256": "443ecbaae58b22f73756520356c1f6f3c835c6503127b9bf0ce638fdfad7f3cb",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/prehistoire-cuivre-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/prehistoire-cuivre.png",
+    "sourceSha256": "1c1ec08f9b53cdbd04caf5335ffb3fcd20ea7437e73301ffb443c0969532452c",
+    "sha256": "11dd0e97590bbde4b4e0883d698c7feec50577169553c1a8890776e7c6f94fa7",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/prehistoire-dore-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/prehistoire-dore.png",
+    "sourceSha256": "30a11d874c4c4cfeddf89d7408f3bc1c48cf580ac145f778261ae36c16d5cf09",
+    "sha256": "44068bd13afbe6af124477025b167b23bed54c7d562e3e77a623098c0772f664",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/prehistoire-fer-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/prehistoire-fer.png",
+    "sourceSha256": "d7c054c68aa416d4f5bbc6e47e5d13a1b93f3f8aac81a21c3aa63621892475ab",
+    "sha256": "7cabe0e4fcc48f2e6e2973431778085b4e34954a0e23f17af0f292315a178c46",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  },
+  "collections/display/prehistoire-lapis-lazuli-matte.png": {
+    "origin": "Masque technique du passe-partout dérivé des pixels alpha du cadre, pas une nouvelle illustration.",
+    "source": "/assets/collections/prehistoire-lapis-lazuli.png",
+    "sourceSha256": "49a8d29915b79174074ef7bf65632951b029db8737aa7cf992cac9971fa81700",
+    "sha256": "b85e8af3ee81b91ff0983e364a71bed4491d4bde51aa6df3c9159f5a6b7fb043",
+    "license": "Licence du cadre source non précisée ; aucune nouvelle licence attribuée.",
+    "processing": "Région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs ; PNG 640×960. Remplissage neutre par le thème, sans transformation du cadre ou de l’œuvre."
+  }
+}

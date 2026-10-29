@@ -1,0 +1,1083 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60515361.json",
+  "retrievedAt": "2026-10-29T15:49:58.134108+00:00",
+  "payload": {
+    "entities": {
+      "Q60515361": {
+        "pageid": 60386140,
+        "ns": 0,
+        "title": "Q60515361",
+        "lastrevid": 2341685946,
+        "modified": "2025-04-25T16:25:55Z",
+        "type": "item",
+        "id": "Q60515361",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Frieze of Dancers"
+          },
+          "de": {
+            "language": "de",
+            "value": "Tänzerinnen ihre Schuhe bindend"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Edgar Degas (French, 1834-1917) (1946.83)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Edgar Degas"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Edgar Degas"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura d'Edgar Degas"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre d'Edgar Degas"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Edgar Degas"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Edgar Degas"
+          },
+          "fy": {
+            "language": "fy",
+            "value": "skilderij fan Edgar Degas"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Edgar Degas"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת אדגר דגה"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Edgar Degas"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura d'Edgar Degas"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Edgar Degas"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Edgar Degas"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Edgar Degas"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Edgar Degas"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Edgar Degas"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Edgar Degas festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Edgar Degas"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Edgar Degas"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Edgar Degas"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Edgar Degas"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Edgar Degas"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture d'Edgar Degas"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "3739db0ee5e3a85d4574d22fb52e6ba73d75bf05",
+                "datavalue": {
+                  "value": "1946.83",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60515361$2078670c-4c86-4fba-bfae-a6eea95dc513",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "88f747a4f3926a55efdb82de12d194f09ba3ac27",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515361$81752ec0-b3ea-4813-b09f-2bafd25ae96f",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "88f747a4f3926a55efdb82de12d194f09ba3ac27",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515361$081a7eee-38ff-4fff-b4ba-8798e3b45058",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "88f747a4f3926a55efdb82de12d194f09ba3ac27",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515361$4add1d39-b582-4380-9c75-dab8aed0579d",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "88f747a4f3926a55efdb82de12d194f09ba3ac27",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "65894c4f5cef7dc8a9447dc22840d8ed068bab43",
+                "datavalue": {
+                  "value": {
+                    "time": "+1895-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q60515361$971065c4-36ba-46b3-974d-8060bf149db6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "88f747a4f3926a55efdb82de12d194f09ba3ac27",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "08024496d0a7803bb031b5d126c85995833a2731",
+                "datavalue": {
+                  "value": {
+                    "amount": "+70.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515361$0ea159f8-f467-463a-ac34-660940c94785",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "88f747a4f3926a55efdb82de12d194f09ba3ac27",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "ac1ff03bff6d4e4e14da3b91b0925b299f39e49e",
+                "datavalue": {
+                  "value": {
+                    "amount": "+200.5",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515361$d81d215a-5de3-4931-a1b1-4f27cf75a283",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "88f747a4f3926a55efdb82de12d194f09ba3ac27",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "44b2de178536189d8e174be4de6f6a5c474ec5ca",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1946.83",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60515361$16522e3b-0bf7-49aa-ae11-a285f19da563",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "8fbde14c87d21fee646a4406e11a580588715600",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 46373,
+                    "id": "Q46373"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515361$C0C846FA-4BE5-4D99-AEE8-D758F4191153",
+              "rank": "normal"
+            }
+          ],
+          "P4765": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P4765",
+                "hash": "9509e31f39530cf87c332c6a0d2887076ebfbe93",
+                "datavalue": {
+                  "value": "http://openaccess-cdn.clevelandart.org/1946.83/1946.83_full.tif",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P2701": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2701",
+                    "hash": "f875936ba25cb8ae86e40d4705e1548785a28e88",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 215106,
+                        "id": "Q215106"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P2699": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2699",
+                    "hash": "31267bc65f3e45701e898d6671979370c6bcea41",
+                    "datavalue": {
+                      "value": "https://clevelandart.org/art/1946.83",
+                      "type": "string"
+                    },
+                    "datatype": "url"
+                  }
+                ],
+                "P1476": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1476",
+                    "hash": "63ca65cf564a2f46fe8a0249d50f28828c5dc15f",
+                    "datavalue": {
+                      "value": {
+                        "text": "Frieze of Dancers",
+                        "language": "en"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ],
+                "P2093": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2093",
+                    "hash": "795601336cf9e94f54b3312ece66adacc2466f1e",
+                    "datavalue": {
+                      "value": "Edgar Degas",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ],
+                "P275": [
+                  {
+                    "snaktype": "value",
+                    "property": "P275",
+                    "hash": "28a6efcc224656589c283263e9efa1effe56d682",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 6938433,
+                        "id": "Q6938433"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P2701",
+                "P2699",
+                "P1476",
+                "P2093",
+                "P275"
+              ],
+              "id": "Q60515361$17520f0a-ad21-4938-9436-dabe957555c1",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "255fbf1974104cbd93cfef8dfd28fd621794e6cb",
+                "datavalue": {
+                  "value": "Clevelandart 1946.83.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60515361$65C120A6-8DBA-454D-87CE-BA6BE9478FAA",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "63ca65cf564a2f46fe8a0249d50f28828c5dc15f",
+                "datavalue": {
+                  "value": {
+                    "text": "Frieze of Dancers",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60515361$c2922d6b-c71a-4396-a5c7-b1e23c4ade8c",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "7c40fb1395552b385941e8a3f767110522c91dff",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60515361$C3A0BAA5-084D-47AA-9841-3D2CDF1AD5F5",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "58370ba13828fd125a6903629773c9352a76a9e5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 142,
+                    "id": "Q142"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515361$f6b6dfe3-10c8-494f-965c-c882048a1683",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "a1505426fcc84ccb5f59fbce37c6196438ec30c8",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d786e21de20d3d7fba693861b7b97f5ab722bcc4",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1946.83",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "0251ea6f228bc7a3764ea10225cd85b8c47b8eb5",
+                "datavalue": {
+                  "value": "Frieze of Dancers (1946.83) by Edgar Degas",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60515361$6EA13058-CB47-4B5B-A81A-9DB5844A783A",
+              "rank": "normal"
+            }
+          ],
+          "P528": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "a6853b2da5cd661c277763e79580412c81c0e36a",
+                "datavalue": {
+                  "value": "1093",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "5c17d65ca52fff6f3af3c78596e652a11442bae1",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 109287541,
+                        "id": "Q109287541"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q60515361$0C333A1A-8E61-45D2-A9E6-A965F81F4234",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "e9f4a41feef3069b1ee4c0cfed25059379472d65",
+                "datavalue": {
+                  "value": "MS-1538",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "72984b245998f72a111c2a23f20bc32144168b56",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 124998203,
+                        "id": "Q124998203"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q60515361$F271FE4D-9F3B-4C45-8164-78D26D70C4F6",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "32ff82516721357f9a88f42892a134bd5d51d92f",
+                "datavalue": {
+                  "value": "1144",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "ee7d8d4b38667784f6c57e96958543727fb0e3a9",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 125144673,
+                        "id": "Q125144673"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q60515361$55338622-7AB0-4198-8AAD-CC61426794E3",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Frieze of Dancers (1946.83) by Edgar Degas",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Frieze_of_Dancers_(1946.83)_by_Edgar_Degas"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "0d17de65cb055498e695f80929b454ca64c75b086efd2f6b14f880f3544a4a73"
+}

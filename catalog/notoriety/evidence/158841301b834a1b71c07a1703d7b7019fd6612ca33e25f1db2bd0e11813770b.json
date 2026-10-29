@@ -1,0 +1,514 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60780005.json",
+  "retrievedAt": "2026-10-29T15:45:58.431286+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60780005": {
+        "pageid": 60635723,
+        "ns": 0,
+        "title": "Q60780005",
+        "lastrevid": 2465619043,
+        "modified": "2026-02-22T11:11:30Z",
+        "type": "item",
+        "id": "Q60780005",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Poppy Inkwell"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "(2018.289) glass by Clara Wolcott Driscoll (American, 1861-1944); Tiffany Glass & Decorating Co. (American, New York, 1892–1900); Tiffany Studios (American, New York, 1902–1932)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "3b4982219e7a36ea44093fd0abd5daf41a21478e",
+                "datavalue": {
+                  "value": "2018.289",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60780005$C23B571A-9A8F-4693-8E39-3C19A496D9AA",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60780005$8C1A42ED-7C29-4BF7-9DA7-C1D57D1B5663",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "188a8b2b40e5b7d25502cc72e14bef683699807a",
+                "datavalue": {
+                  "value": {
+                    "text": "Inkwell",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60780005$60C8300D-D2B8-4420-A278-0AB42062370B",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "dbd4a4a24f7536c80ffef14fd741c10dd2ee5ad0",
+                "datavalue": {
+                  "value": {
+                    "text": "Poppy Inkwell",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60780005$cb166a91-2a7a-49a4-9bd7-9bcd11201e7c",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b12887ef63ffc184919efe67b504ed2d6f4072a5",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5586b7b943fb4e3e39775e3162e2e65d5c5ba929",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2018.289",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "686f7e3962dec8f4d51cd0f3aecf96b92eca619f",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-09-11T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "c2608aebdaae6c22748a2f57c242dba0cd6857d1",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/2018.289",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60780005$7B13736C-4837-4CBC-8F2A-CFAEDCF32991",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "2b143dc603cc6c1f9d3847707d2ca192c15d734a",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/2018.289",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60780005$dad50934-abbf-492d-8015-ad514dbe06f6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "a54bd4942e9d4ee5eba06c04cbeeaf1bb21efe67",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5586b7b943fb4e3e39775e3162e2e65d5c5ba929",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2018.289",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60780005$61B758DC-BF99-474F-9055-405CAF1554D3",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "8f4ded26fcc9cd925ebcdc5532f22a7e029b8d39",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 11469,
+                    "id": "Q11469"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60780005$95807B07-1C01-43BE-8A2E-4A29E4C13F80",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "c677a1ecfee0cf5232774ca33cf462a02ee6a203",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1922981,
+                    "id": "Q1922981"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60780005$d7ea80a2-50e7-4c2a-92b1-f53218f1c260",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d4954ac925493ac6a48894c9dc29f26022834388",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5586b7b943fb4e3e39775e3162e2e65d5c5ba929",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2018.289",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "8e4bc79c13352d4efe4342f52ef67138a858cb18",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-06-20T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60780005$0fc06d0d-5ecb-4549-9c06-1ed934356d08",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "a54bd4942e9d4ee5eba06c04cbeeaf1bb21efe67",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5586b7b943fb4e3e39775e3162e2e65d5c5ba929",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2018.289",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "4e613bd6ead07e8d09085fb0b8ae04976b2f7a39",
+                "datavalue": {
+                  "value": "Clara Wolcott Driscoll (American, 1861-1944), Tiffany Studios (American, 1902-1932) - Inkwell - 2018.289 - Cleveland Museum of Art.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60780005$7d8ace46-9f9c-408c-b483-27820291412b",
+              "rank": "normal"
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60780005$4168b742-8e5f-47c9-99fa-d6b83d4b58a0",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9067d4ca8626a38e10d3c6a5e3643454d3c8e327",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5586b7b943fb4e3e39775e3162e2e65d5c5ba929",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2018.289",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "1599f1b4313f6486de99a0dff749e2ca22e30272",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-06-24T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

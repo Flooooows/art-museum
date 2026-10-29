@@ -1,0 +1,1046 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60480843.json",
+  "retrievedAt": "2026-10-29T15:45:57.060367+00:00",
+  "payload": {
+    "entities": {
+      "Q60480843": {
+        "pageid": 60351937,
+        "ns": 0,
+        "title": "Q60480843",
+        "lastrevid": 2341693761,
+        "modified": "2025-04-25T16:49:47Z",
+        "type": "item",
+        "id": "Q60480843",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Portrait of Jean-Baptiste Lemoyne the Younger"
+          }
+        },
+        "descriptions": {
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Elisabeth Louise Vigée-LeBrun"
+          },
+          "en": {
+            "language": "en",
+            "value": "painting by Elisabeth Louise Vigée-LeBrun (French, 1755-1842) (2011.49)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Elisabeth Louise Vigée-LeBrun"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Louise Élisabeth Vigée Le Brun"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre d'Élisabeth Louise Vigée Le Brun"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Élisabeth Vigée Le Brun"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Marie-Louise-Élisabeth Vigée-Lebrun"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת אליזבט ויז'ה-לה ברן"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura d'Élisabeth Vigée Le Brun"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Élisabeth Vigée-Le Brun"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Élisabeth Vigée Le Brun"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Élisabeth-Louise Vigée-Le Brun"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Élisabeth Vigée-Le Brun"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Élisabeth Vigée Le Brun festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Élisabeth Vigée Le Brun"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Élisabeth-Louise Vigée-Le Brun"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Élisabeth Louise Vigée Le Brun"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Élisabeth Louise Vigée Le Brun"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Élisabeth Louise Vigée Le Brun"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Élisabeth Vigée Le Brun"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Élisabeth Vigée-Lebrun"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Élisabeth Louise Vigée Le Brun"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture d'Elisabeth Louise Vigée-LeBrun"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "a9b26396fe74e5f941fdf84d5603a66272ebe521",
+                "datavalue": {
+                  "value": "2011.49",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60480843$5A9A8B44-81DC-46DC-8B43-8AF2E7BB71F3",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "84dd3e3a3b1d47dda52450f6b40eb5f69be405bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60480843$169CB224-BDDA-455B-B1B0-3CD9F0D21DEB",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "84dd3e3a3b1d47dda52450f6b40eb5f69be405bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60480843$C8F137C6-7ED1-4D7D-BC86-24A150FE7391",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "84dd3e3a3b1d47dda52450f6b40eb5f69be405bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60480843$A9341BCE-7E99-419D-8921-2CFA650AC37E",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "84dd3e3a3b1d47dda52450f6b40eb5f69be405bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60480843$AC721657-397D-459A-8FDF-DA9CA49DC1ED",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "84dd3e3a3b1d47dda52450f6b40eb5f69be405bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "2276ba6f3bd45e3014bbf0141ff11aec3a0a216a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 12321255,
+                    "id": "Q12321255"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60480843$E593A8F7-3D4B-40AC-8511-092F61ED1BC4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "84dd3e3a3b1d47dda52450f6b40eb5f69be405bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "d3ef4e546b4c4d3e16a4f3b92935be824a10118e",
+                "datavalue": {
+                  "value": {
+                    "amount": "+37.4",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60480843$F8F4E1C4-8534-4B35-9797-E08BD33C86CA",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "84dd3e3a3b1d47dda52450f6b40eb5f69be405bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "a5cff5ef299e0761e8d905ec61b7e05bd98e0fa1",
+                "datavalue": {
+                  "value": {
+                    "amount": "+44.1",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60480843$86B1EC73-D6A4-454F-B8F2-7BEA41B661D5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "84dd3e3a3b1d47dda52450f6b40eb5f69be405bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "d650b7bb6cdc893499618b87c85666d601410f22",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/2011.49",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60480843$BB0B36B3-F08D-4EDA-8096-BCEACAE9308C",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "4ac72ac207354a355854f3e5abf677dbedc020e1",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 213163,
+                    "id": "Q213163"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60480843$4D4D0CD3-488E-41D4-A001-0EEF2B60D6CA",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "991a05b46f1b1fe39d56fe5f3e85a225a311cb08",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 134307,
+                    "id": "Q134307"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60480843$E251CC6A-BDE6-4F32-9213-52DDF27A79DA",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "77a3fb703075eea52ed5776dbcf2e72af5b7fcce",
+                "datavalue": {
+                  "value": "Elisabeth Louise Vigée-LeBrun - Portrait of Jean-Baptiste Lemoyne the Younger - 2011.49 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60480843$F489947F-135B-4DD1-A920-9BFF11B0CB8A",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "dddd72c833b50510d6c42c13e7df04d77c959f68",
+                "datavalue": {
+                  "value": "Clevelandart 2011.49.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60480843$62c296da-b479-4b22-8794-f0117fb75b83",
+              "rank": "deprecated",
+              "references": [
+                {
+                  "hash": "030018e5225216b997a6239a72f6921966a4e415",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "16948638ad3733cfd870a0be5173f9693710aa9c",
+                "datavalue": {
+                  "value": {
+                    "text": "Portrait of Jean-Baptiste Lemoyne the Younger",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60480843$0e07cae7-e9f1-418e-ac1a-824e4c34fa75",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "b18eb3f3109d021649a61364248f5e9691e09041",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60480843$A223AC3F-085E-4FBB-A628-6D9583DC0375",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "58370ba13828fd125a6903629773c9352a76a9e5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 142,
+                    "id": "Q142"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60480843$003529e6-5fef-4f47-94f8-ecfb0a024fc2",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5b21744402fbddf14a4a3d50e15a706bbb1365ac",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "1c90ddd1f889f660159d955752c2ec00bb337ddd",
+                "datavalue": {
+                  "value": {
+                    "time": "+1774-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60480843$be989040-81fb-4155-845f-e5ea22ada322",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e00180176ba442e87d4a0f6f07fbf5903be812ae",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6d1f6d115116efeabccf743c9c1d8c5f73f66ac7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2011.49",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "acf7e7955a3487aa0ce24d7c4f47e23eee2d2f24",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "d0c1060515a1525a5e3207a1b979905a91b7058831e1b54b6e1488e506cac86a"
+}
