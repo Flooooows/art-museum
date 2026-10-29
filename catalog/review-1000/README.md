@@ -2,6 +2,8 @@
 
 Page indépendante : **`/review.html`**. Elle affiche pour chaque œuvre une reproduction entière, son score V2, sa rareté conseillée et cinq choix exclusifs pour la décision humaine. Aucun choix n’est précoché. Une décision se modifie ou s’annule individuellement.
 
+Pour commencer sans entrer dans les détails techniques : **[guide d’utilisation pas à pas](../../docs/UTILISER_ATELIER.md)** (choix, sauvegarde automatique, export/import et dépannage).
+
 ## Utiliser l’atelier
 
 Depuis la racine du projet :
