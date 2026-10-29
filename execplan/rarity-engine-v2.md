@@ -13,7 +13,8 @@ L’utilisateur demande un moteur indépendant proposant une rareté crédible m
 - [x] (2026-10-30 UTC+8) Implémenter calibration, validation, rapports versionnés, archive des sources et commandes.
 - [x] (2026-10-30 UTC+8) Exécuter sur les cent œuvres : 100 propositions provisoires, 47 changements, 87 niveaux stables ; 67 tests passent, contrôles TypeScript stricts et build réussissent.
 - [x] (2026-10-30 UTC+8) Vérifier deux calculs identiques (02b68c195210ea3536d84c1a), les empreintes des preuves/sorties et les entrées protégées ; terminer guide et inventaire `catalog/rarity-v2/FILES.md`.
-- [ ] Publier le projet complet sur le dépôt demandé, après contrôle du contenu et sans écraser d’historique distant.
+- [x] (2026-10-30 UTC+8) Publier les 1099 fichiers du projet complet sur `https://github.com/Flooooows/art-museum.git`, branche `main`, premier commit `34e40e0`, sans forcer ni écraser d’historique.
+- [x] (2026-10-30 UTC+8) Vérifier une copie propre du commit : `npm ci`, 67 tests, build, contrôles TypeScript stricts et même exécution V2 reproductible ; 27 liens locaux de documentation valides.
 
 ## Surprises & Discoveries
 
@@ -42,6 +43,8 @@ Les 100 statuts restent provisional, sans confirmations artificielles. Confiance
 Les sept connecteurs existent ; Met/Cleveland/Wikidata/Pageviews et la vérification Wikipédia ont réellement contribué. Smithsonian et Europeana sont testés avec fixtures mais sans données réelles exploitées faute de clés/identifiants liés ; Google Trends n’est pas intégré. Normalisation et distributions initiales restent provisoires, H souvent documentaire et C principalement estimé. Le résultat utile est une proposition auditable, pas une preuve de justesse artistique : un référentiel indépendant représentatif, davantage de preuves culturelles et une revue humaine restent nécessaires avant toute migration.
 
 Les 27 nouveaux tests V2 portent le total à 67 tests réussis. Les contrôles TypeScript stricts des scripts et du domaine ainsi que `npm run build` passent ; les 100 images passent le contrôle de droits existant. `npm run rarity:v2:verify` confirme le même identifiant et les mêmes octets sur deux calculs hors réseau, puis vérifie les preuves et les entrées protégées. Guide et inventaire précis : `catalog/rarity-v2/README.md` et `catalog/rarity-v2/FILES.md`.
+
+Publication effectuée sur `main` avec le commit initial `34e40e08104886d25ceb26110fb470c3e32dfc3a`, sans push forcé. Une copie propre de ce commit, avec installation depuis `package-lock.json`, reproduit les 67 tests, le build, les contrôles stricts et exactement l’exécution `02b68c195210ea3536d84c1a`. Les dépendances et sorties temporaires sont exclues ; les cinq sources de cadres sont incluses. Aucun déploiement, aucune migration et aucune activation de rareté n’ont été effectués.
 
 ## Context and Orientation
 
@@ -80,3 +83,5 @@ Types et domaine purs TypeScript ; Node fs/crypto/fetch et tsx pour les outils. 
 Révision initiale : plan fondé sur l’audit, reprise des captures et protection explicite des trois générations de résultats.
 
 Révision de livraison (2026-10-30 UTC+8) : jalons clos avec résultats et preuves effectifs ; ajout de l’inventaire et des limites résiduelles. Publication Git ajoutée à la demande ultérieure de l’utilisateur vers `https://github.com/Flooooows/art-museum.git` : vérifier les références, conserver les sources PNG nécessaires et exclure les sorties temporaires/secrets, sans jamais forcer le push. Le projet était initialement sans dépôt Git ; le distant ne présentait aucune référence lors des inspections et le compte authentifié correspond au propriétaire.
+
+Révision finale de publication (2026-10-30 UTC+8) : push initial réussi ; ajout du commit publié et de la validation indépendante depuis une copie propre, pour clore le plan avec des preuves de livraison plutôt qu’une intention de publication.
