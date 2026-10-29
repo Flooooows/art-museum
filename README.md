@@ -38,6 +38,8 @@ Les adaptations de lisibilité et les couleurs sémantiques sont dans `src/appea
 
 Ouvrir **`/review.html`** après `npm run dev` pour examiner les 100 œuvres actuelles et 900 nouvelles notices CC0. Chaque carte présente le score V2, la proposition, la confiance et un choix exclusif de rareté finale. Recherche, 12 familles, filtres, pagination et import/export JSON/CSV ; sauvegarde locale indépendante du jeu. **Toutes les propositions restent provisoires et aucun choix n’active une rareté.** [Guide, provenance et reproduction](catalog/review-1000/README.md).
 
+**Première utilisation : [guide pas à pas de l’atelier](docs/UTILISER_ATELIER.md)** — démarrer le site, choisir les raretés, comprendre la sauvegarde automatique, exporter et reprendre ses décisions.
+
 ## Limites de cette version
 
 La progression est enregistrée **uniquement dans ce navigateur**. L’export est nécessaire pour la transférer ou la protéger contre l’effacement des données locales. Les comptes synchronisés, paiements, abonnements et échanges multijoueurs ne sont pas implémentés ni simulés.
