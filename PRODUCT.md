@@ -32,6 +32,10 @@ La nouvelle demande Rarity Engine V2 gouverne le moteur indépendant **2.0.0** :
 
 L’ancienne grille active et l’essai Internet à quatre scores complets (`catalog/notoriety`, poids 30/25/20/15/10 issus de `MUSE_systeme_rarete.md`) sont conservés. Aucune migration de catalogue, carte acquise, prix, marché ou probabilité : elle nécessitera une validation explicite. Les sources effectivement exploitées et les critères observés/dérivés/estimés sont distingués ; avoir cent propositions ne signifie pas cent classements confirmés.
 
+### Atelier de validation indépendant
+
+L’utilisateur a confirmé un mini-site séparé de 1 000 œuvres au total : les 100 actuelles et 900 nouvelles. `/review.html` affiche les scores et propositions V2 sous les reproductions, avec un seul choix humain de rareté finale, filtres, progression et export/import. Les décisions sont locales au navigateur, dans un stockage distinct du jeu. Les nouvelles familles appartiennent à l’atelier, pas aux pochettes actives. Aucun choix n’est précoché ni activé automatiquement. Les scores historiques sont conservés ; les nouvelles notices sont CC0 de Cleveland, avec estimations et limites explicites. Aucun backend ou déploiement supplémentaire n’est inclus.
+
 ## Brand Commitments
 
 Nom MUSE issu des maquettes. Reproduire la direction visuelle des fichiers dans `stitch_booster_pack_opening_platform/`, en adaptant les textes aux règles du concept.

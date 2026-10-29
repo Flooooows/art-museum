@@ -34,6 +34,10 @@ Ouvrir http://localhost:5173. Pour une version compilée : `npm run build`, puis
 
 Les adaptations de lisibilité et les couleurs sémantiques sont dans `src/appearance.css`, chargé après les styles des maquettes. `src/navigation.css`, chargé ensuite, définit les nouveaux écrans et le parcours intégré ; `src/frames.css` définit en dernier les cadres et les encres de rareté. Les reproductions des œuvres ne sont pas inversées en mode sombre. Si le stockage du navigateur est bloqué, le changement de thème reste utilisable pour la session.
 
+## Atelier de validation de 1 000 œuvres
+
+Ouvrir **`/review.html`** après `npm run dev` pour examiner les 100 œuvres actuelles et 900 nouvelles notices CC0. Chaque carte présente le score V2, la proposition, la confiance et un choix exclusif de rareté finale. Recherche, 12 familles, filtres, pagination et import/export JSON/CSV ; sauvegarde locale indépendante du jeu. **Toutes les propositions restent provisoires et aucun choix n’active une rareté.** [Guide, provenance et reproduction](catalog/review-1000/README.md).
+
 ## Limites de cette version
 
 La progression est enregistrée **uniquement dans ce navigateur**. L’export est nécessaire pour la transférer ou la protéger contre l’effacement des données locales. Les comptes synchronisés, paiements, abonnements et échanges multijoueurs ne sont pas implémentés ni simulés.
