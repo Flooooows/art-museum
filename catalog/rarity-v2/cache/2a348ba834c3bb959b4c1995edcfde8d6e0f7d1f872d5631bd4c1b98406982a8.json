@@ -1,0 +1,1834 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60465880.json",
+  "retrievedAt": "2026-10-29T15:49:04.965700+00:00",
+  "payload": {
+    "entities": {
+      "Q60465880": {
+        "pageid": 60337749,
+        "ns": 0,
+        "title": "Q60465880",
+        "lastrevid": 2380741534,
+        "modified": "2025-07-17T07:19:26Z",
+        "type": "item",
+        "id": "Q60465880",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Water Lilies (Agapanthus)"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "Nénuphars (Agapanthus)"
+          },
+          "de": {
+            "language": "de",
+            "value": "Seerosen (Agapanthus)"
+          }
+        },
+        "descriptions": {
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Claude Monet, Cleveland Museum of Art"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Claude Monet, Cleveland Museum of Art"
+          },
+          "en": {
+            "language": "en",
+            "value": "painting by Claude Monet, Cleveland Museum of Art"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Claude Monet, Cleveland Museum of Art"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Claude Monet"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Claude Monet"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Claude Monet"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Claude Monet"
+          },
+          "fy": {
+            "language": "fy",
+            "value": "skilderij fan Claude Monet"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Claude Monet"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת קלוד מונה"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Claude Monet"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Claude Monet"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Claude Monet"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Claude Monet"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Claude Monet"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Claude Monet"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Claude Monet"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Claude Monet festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Claude Monet, Cleveland Museum of Art"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Claude Monet"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Claude Monet"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Claude Monet"
+          },
+          "bn": {
+            "language": "bn",
+            "value": "ক্লোদ মোনে অঙ্কিত চিত্র"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Claude Monet"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "faf0a791eaccc99bf0bc3e6ad5aaa8c2f53293c9",
+                "datavalue": {
+                  "value": "1960.81",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60465880$A868E9B9-CE2B-4ACE-A9FA-2EA09D2EC3A4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "15a7879f0f6de99e434f4e479e1b89d1cc468785",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "0540cffd8ae3aeedbaa29a2e7fcf315bc825b047",
+                "datavalue": {
+                  "value": "A6420",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "f2a5ea061f7d2f489150132ba96dfb3ac31b5a21",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 10288073,
+                        "id": "Q10288073"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60465880$56b98b41-4aed-d362-8a04-7278d546f14f",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3ff4d1fa2aa2291c779abda94f6df934d038b47f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "c212aab83ba05d135b0b59afbe7a5120fef88284",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "c170c69f9b64b52d485bfb1c69cdcb1695af9cb1",
+                        "datavalue": {
+                          "value": {
+                            "text": "Water Lilies (Agapanthus) | Cleveland Museum of Art",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P407": [
+                      {
+                        "snaktype": "value",
+                        "property": "P407",
+                        "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 1860,
+                            "id": "Q1860"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "8b11122afba7d49cd63eb414ee188bb3901c087c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-05-25T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P1683": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1683",
+                        "hash": "a354eb3a897cb8f4fdd0e1b5bec229a9deb11f10",
+                        "datavalue": {
+                          "value": {
+                            "text": "Katia Granoff, Paris. Bought from her by Knoedler & Co. (stock number a 6420), July 1956.",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P407",
+                    "P813",
+                    "P1683"
+                  ]
+                },
+                {
+                  "hash": "7d35886d587fc63b9dc6ec648cb9a4b8cf3499bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d25bcf73e1bf45e09a88212f05c674bfe4ef1da4",
+                        "datavalue": {
+                          "value": "https://rosettaapp.getty.edu/delivery/DeliveryManagerServlet?dps_pid=FL4157327",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "87f8eb7bf07b52b84c139bc7620cff105ca30024",
+                        "datavalue": {
+                          "value": {
+                            "text": "Painting stock book 10: A4783-A7177",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "8b11122afba7d49cd63eb414ee188bb3901c087c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-05-25T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$E69C81E2-AA41-4B44-B283-E0B8C74F7994",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "15a7879f0f6de99e434f4e479e1b89d1cc468785",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$83166E2E-FFCA-411A-8A7B-E46972AB6C29",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "15a7879f0f6de99e434f4e479e1b89d1cc468785",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$715054A6-6C2A-4009-8ED3-8ED93FF57289",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "15a7879f0f6de99e434f4e479e1b89d1cc468785",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$C9944885-9A20-4DA0-B817-986F01FA8189",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "15a7879f0f6de99e434f4e479e1b89d1cc468785",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "2276ba6f3bd45e3014bbf0141ff11aec3a0a216a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 12321255,
+                    "id": "Q12321255"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60465880$3BA34F64-A818-4DA0-8E7D-582FD95B0DF7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "15a7879f0f6de99e434f4e479e1b89d1cc468785",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "192813460b96d56dcdd82a43a6592e73869d9fc6",
+                "datavalue": {
+                  "value": {
+                    "amount": "+201.29999999999998",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60465880$C0D32AE5-11D6-4EBD-9F60-C3230C5E58A5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "15a7879f0f6de99e434f4e479e1b89d1cc468785",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "2814ccddb63394441a8765b17dcb6751112ad954",
+                "datavalue": {
+                  "value": {
+                    "amount": "+425.6",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60465880$58C4E081-E11F-4E99-8A7F-EE7B761B1046",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "15a7879f0f6de99e434f4e479e1b89d1cc468785",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "c5a87a6f11700710a8aab60c1988dc9dcfb70306",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1960.81",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60465880$0196331B-173E-4A11-9468-AE5B353F5A76",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "f47d4b67ededc595e76da5c395dffde50d5984ef",
+                "datavalue": {
+                  "value": "https://www.fondationlouisvuitton.fr/fr/flv-play/le-triptyque-de-l-agapanthe-de-claude-monet",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60465880$d71d0189-4152-834f-0ade-9bab4945db31",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fe93a44b1deba1606db5417c79e76bb392e1b77c",
+                  "snaks": {
+                    "P1683": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1683",
+                        "hash": "afdd1f40969bd3b75c80896746dd83a478eef3f1",
+                        "datavalue": {
+                          "value": {
+                            "text": "Découvrez les coulisses de l'arrivée évènement du triptyque de l'Agapanthe pour la première fois à Paris depuis 1956.Le triptyque de L’Agapanthe (env. 1915-1926), Grande Décoration de près de treize mètres, est conservé dans trois musées américains (Cleveland Museum of Art, Saint Louis Art Museum et le Nelson-Atkins Museum of Art à Kansas City). Cette oeuvre sur laquelle Monet travaille pendant près de 10 ans et qu’il considère comme « l’une de ses quatre meilleures séries », a joué un rôle décisif dans la reconnaissance du peintre aux États-Unis.",
+                            "language": "fr"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P1683"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "c7e635f3fab7132d1992c0f5c2e1ff18341ec566",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296,
+                    "id": "Q296"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$87C6DD65-99E6-4BCE-951E-2521869140D5",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "31b41a6a2a1092d19b2079c8af9055eaec6cf373",
+                "datavalue": {
+                  "value": "Water Lilies (Agapanthus), by Claude Monet, Cleveland Museum of Art, 1960.81.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60465880$18859151-52cb-49fa-8519-17a2274f4ef8",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1b8622c69884f30f3c29ff0f9844399222a9c00c",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "52148a5905eaa70c471997cfca962cd8db747784",
+                "datavalue": {
+                  "value": {
+                    "time": "+1915-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60465880$23E61E08-8BC7-44BD-B508-0BC47A2DF551",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "69b6d5ca5a95640046827d9a36f71587a5ed4df2",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c72eaf5c7fba2b8de838b3766a57baa03fae3e52",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-23T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "edcd17f7392997ab04424e30096b43f47a379154",
+                "datavalue": {
+                  "value": "Water Lilies (Claude Monet, Cleveland Museum of Art)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60465880$0186da18-4b8a-3b50-3be6-171cde11cc52",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "efa858eb8d25bf4e046ad91c6e8cc90cfe5b0216",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 159541,
+                    "id": "Q159541"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$52f1a3d6-4557-d9d2-0c78-1825089f2041",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "7fbec03bd91d5655c5c1eb3b5aa3fa4eb2d273a7",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3347071,
+                    "id": "Q3347071"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$fa784078-4caf-956a-496a-73173d642fea",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "d3331ad68028e48755bf811223129bda8347a9a4",
+                "datavalue": {
+                  "value": {
+                    "text": "Water Lilies (Agapanthus)",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60465880$d4f2bfd8-fabb-4294-964b-a445c447c866",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e2a108e45b0e8c65ad4f50a9e30e18ccb9fa57f1",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "fda83efae5d8ddd1eae6defc3090873e5005bfb8",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P528": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "56717ae2072efb7bc91417c69ea2615d69d1c353",
+                "datavalue": {
+                  "value": "1975",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "d5dcd1bcf6bf51188199e654418fc21c14d9f624",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 17441029,
+                        "id": "Q17441029"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q60465880$c4cffb52-4aab-b6f6-0f8c-4845dfca0018",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "cfe54488e9c483feda61705c9b0032aa7197c67a",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61830521,
+                        "id": "Q61830521"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "94593a9af78f1100dce40d73381d05eeb6af11d2",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940641,
+                        "id": "Q29940641"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60465880$C975D7B0-94BE-4161-BEEB-1EC4EB3167F2",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "58370ba13828fd125a6903629773c9352a76a9e5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 142,
+                    "id": "Q142"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$3a41bc9a-4304-a5ff-d065-9b85aa9b38f5",
+              "rank": "normal"
+            }
+          ],
+          "P11110": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P11110",
+                "hash": "9a8335be4fb508b3f4e86a04bee4b1c702cbea78",
+                "datavalue": {
+                  "value": "1960.81",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q60465880$d5ecef3c-4e3c-4a4e-c947-ee81c7ebb238",
+              "rank": "normal"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "abad3138fd67b7a83cdabf97cd4d88ad22fff1dc",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3194127,
+                    "id": "Q3194127"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$7fcc6edd-4f81-ac6f-37f1-81b3a3a7a748",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "671fbebe57f4fcd294475deaee2c2a9ae71a2307",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "c212aab83ba05d135b0b59afbe7a5120fef88284",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "c170c69f9b64b52d485bfb1c69cdcb1695af9cb1",
+                        "datavalue": {
+                          "value": {
+                            "text": "Water Lilies (Agapanthus) | Cleveland Museum of Art",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P407": [
+                      {
+                        "snaktype": "value",
+                        "property": "P407",
+                        "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 1860,
+                            "id": "Q1860"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "8b11122afba7d49cd63eb414ee188bb3901c087c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-05-25T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P407",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "c50a1fb07815f851ed063cce479c85f7ac2a8912",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 73572768,
+                    "id": "Q73572768"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60465880$f0d71a3b-4df0-9525-56e8-3d50db5399b0",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6688682d68ca516e8006e93f2f98b409f32a03ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "f0aaaafb42b93995ec1023730f824f7c1fe5706e",
+                        "datavalue": {
+                          "value": "https://provenance.production.getty.fargeo.com/research/provenance/report/3adaf160-21a9-304d-b0f6-932d01f29cef",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "7d74bd947855e19a39bcfcefd091b0d35582d54d",
+                        "datavalue": {
+                          "value": {
+                            "text": "Arches Provenance - Resource Report Knoedler Purchase of Stock Numbers A6418-A6420 (1956-07-20)",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "8b11122afba7d49cd63eb414ee188bb3901c087c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-05-25T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "bd4f5787997e2d956c9132f8f2178078f4268f33",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 53950502,
+                    "id": "Q53950502"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P582": [
+                  {
+                    "snaktype": "value",
+                    "property": "P582",
+                    "hash": "efd008d251508ba70f709ead203f66582f523e00",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1960-04-28T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P582"
+              ],
+              "id": "Q60465880$556300b1-450b-49f2-adea-e504128c207c",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "6688682d68ca516e8006e93f2f98b409f32a03ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "f0aaaafb42b93995ec1023730f824f7c1fe5706e",
+                        "datavalue": {
+                          "value": "https://provenance.production.getty.fargeo.com/research/provenance/report/3adaf160-21a9-304d-b0f6-932d01f29cef",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "7d74bd947855e19a39bcfcefd091b0d35582d54d",
+                        "datavalue": {
+                          "value": {
+                            "text": "Arches Provenance - Resource Report Knoedler Purchase of Stock Numbers A6418-A6420 (1956-07-20)",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "8b11122afba7d49cd63eb414ee188bb3901c087c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-05-25T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "7d35886d587fc63b9dc6ec648cb9a4b8cf3499bd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d25bcf73e1bf45e09a88212f05c674bfe4ef1da4",
+                        "datavalue": {
+                          "value": "https://rosettaapp.getty.edu/delivery/DeliveryManagerServlet?dps_pid=FL4157327",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "87f8eb7bf07b52b84c139bc7620cff105ca30024",
+                        "datavalue": {
+                          "value": {
+                            "text": "Painting stock book 10: A4783-A7177",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "8b11122afba7d49cd63eb414ee188bb3901c087c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-05-25T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "c402eb9fab95355d50655d1c19c7a8e267f04b16",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 10288073,
+                    "id": "Q10288073"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P582": [
+                  {
+                    "snaktype": "value",
+                    "property": "P582",
+                    "hash": "efd008d251508ba70f709ead203f66582f523e00",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1960-04-28T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P582"
+              ],
+              "id": "Q60465880$ba5b81b5-4d47-4957-f2de-c7e44a873097",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "02ca4253aaeaf7e5be1bafa69d565cd4855ebfe0",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d25bcf73e1bf45e09a88212f05c674bfe4ef1da4",
+                        "datavalue": {
+                          "value": "https://rosettaapp.getty.edu/delivery/DeliveryManagerServlet?dps_pid=FL4157327",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "87f8eb7bf07b52b84c139bc7620cff105ca30024",
+                        "datavalue": {
+                          "value": {
+                            "text": "Painting stock book 10: A4783-A7177",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4895b2dc0236ee98be83d519070e29d49730d224",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-07-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "e2ebfd78f549b5d1187c3d6019b88db01676c592",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "c212aab83ba05d135b0b59afbe7a5120fef88284",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1960.81",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1476": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1476",
+                        "hash": "c170c69f9b64b52d485bfb1c69cdcb1695af9cb1",
+                        "datavalue": {
+                          "value": {
+                            "text": "Water Lilies (Agapanthus) | Cleveland Museum of Art",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P407": [
+                      {
+                        "snaktype": "value",
+                        "property": "P407",
+                        "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 1860,
+                            "id": "Q1860"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4895b2dc0236ee98be83d519070e29d49730d224",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-07-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1476",
+                    "P407",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Water Lilies (Claude Monet, Cleveland Museum of Art)",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Water_Lilies_(Claude_Monet,_Cleveland_Museum_of_Art)"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "7ea7ca0d14737b5598660ecd608c9770ae938ab874d51bff90a4257cf6f22c84"
+}

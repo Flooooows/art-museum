@@ -1,0 +1,578 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q79474134.json",
+  "retrievedAt": "2026-10-29T15:50:31.063067+00:00",
+  "payload": {
+    "entities": {
+      "Q79474134": {
+        "pageid": 78913036,
+        "ns": 0,
+        "title": "Q79474134",
+        "lastrevid": 1769354472,
+        "modified": "2022-11-11T17:21:52Z",
+        "type": "item",
+        "id": "Q79474134",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Paint Box of Vizier Amenemope"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "Boîte à peinture du vizir Amenemope"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "implements by unknown artist (1914.680)"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "objet par une artiste anonyme (1914.680)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q79474134$37949F49-1946-48EC-B928-66A3E2503260",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3daaec278fbd2dc4cf24735b3aba242ed237f154",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0b2e24b3cbb31ccba6d26fd6b1fd775cd4634429",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.680",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "52b8283de9d696eebaa2bdbaaa8a3f4f1efc7797",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 39546,
+                    "id": "Q39546"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q79474134$ba5c940d-f38e-41ed-97b8-0a1c189fbc7a",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3daaec278fbd2dc4cf24735b3aba242ed237f154",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0b2e24b3cbb31ccba6d26fd6b1fd775cd4634429",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.680",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "f585559ed2b5e950e487ae5a24dbd04c1450d4ca",
+                "datavalue": {
+                  "value": "1914.680",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q79474134$A93A4058-79C8-41AD-91A7-CE1585DE4427",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3daaec278fbd2dc4cf24735b3aba242ed237f154",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0b2e24b3cbb31ccba6d26fd6b1fd775cd4634429",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.680",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "07fe4e163ff82db070f97f82f6ea1ce44413afbb",
+                "datavalue": {
+                  "value": {
+                    "text": "Paint Box of Vizier Amenemope",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q79474134$000E3BC1-E57B-4978-9C7D-52D391487014",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3daaec278fbd2dc4cf24735b3aba242ed237f154",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0b2e24b3cbb31ccba6d26fd6b1fd775cd4634429",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.680",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "f4293ca2a47314bd1f98a1e02fdd8f40e52fb3b2",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1914.680",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q79474134$E6615B7E-C043-4BE2-8D6D-CC482E52C64C",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3daaec278fbd2dc4cf24735b3aba242ed237f154",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0b2e24b3cbb31ccba6d26fd6b1fd775cd4634429",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.680",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q79474134$E4A77454-F6E6-4E17-82ED-D284BCD313DD",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3daaec278fbd2dc4cf24735b3aba242ed237f154",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0b2e24b3cbb31ccba6d26fd6b1fd775cd4634429",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.680",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "19af3207a63bd5de07e0857b0f7bf83fe6f8f9ca",
+                "datavalue": {
+                  "value": "Egypt, New Kingdom, Dynasty 18 (1540-1296 BC), reign of Amenhotep II - Paint Box of Vizier Amenemope - 1914.680 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q79474134$965db1d3-b1ad-44f7-9000-28f027294a30",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3daaec278fbd2dc4cf24735b3aba242ed237f154",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0b2e24b3cbb31ccba6d26fd6b1fd775cd4634429",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.680",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q79474134$ca63884f-1226-4986-bbd5-0df984d58215",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fe5e4528fb5757a97ec5df76d64dd3b05d02741d",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0b2e24b3cbb31ccba6d26fd6b1fd775cd4634429",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1914.680",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b65d2831818e0f4932b60acb70401e6921da7467",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-06-26T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "7c06cfc01ec624ce16cd13e43a85f4a6783c673c61beea7d95a0ce1cce456e50"
+}

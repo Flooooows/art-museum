@@ -1,0 +1,20 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=La+Mort+de+Socrate+%28David%29",
+  "retrievedAt": "2026-10-29T15:45:39.261541+00:00",
+  "payload": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "1289757": {
+          "pageid": 1289757,
+          "ns": 0,
+          "title": "La Mort de Socrate (David)"
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "b03d681aee572b645920ab4a9ec3dbbadb33ec1f28f06754be062546bd762a34"
+}

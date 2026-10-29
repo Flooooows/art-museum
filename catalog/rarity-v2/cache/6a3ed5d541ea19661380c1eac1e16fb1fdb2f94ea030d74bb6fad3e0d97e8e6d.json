@@ -1,0 +1,20 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=Parade+de+cirque",
+  "retrievedAt": "2026-10-29T15:45:39.535240+00:00",
+  "payload": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "14430913": {
+          "pageid": 14430913,
+          "ns": 0,
+          "title": "Parade de cirque"
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "b45fd761fd93d12a76dc70f0dcab1755b8e9b070f2891f684a8e43c2d312f725"
+}

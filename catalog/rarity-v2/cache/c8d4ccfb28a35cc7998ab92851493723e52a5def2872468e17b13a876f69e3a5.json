@@ -1,0 +1,156 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=pageprops%7Cinfo&redirects=1&titles=Parade+de+cirque%7CLa+Mort+de+Socrate+%28David%29%7CLa+Grande+Vague+de+Kanagawa%7CLa+Joconde%7CWilliam+l%27hippopotame+en+fa%C3%AFence%7CLa+Vierge+et+l%27Enfant+avec+le+petit+saint+Jean-Baptiste%7CRomaine+Lacaux%7CCombat+de+tigre+et+de+buffle",
+  "retrievedAt": "2026-10-29T19:01:35.996Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 10043,
+          "ns": 0,
+          "title": "La Joconde",
+          "pageprops": {
+            "defaultsort": "Joconde",
+            "displaytitle": "<i>La Joconde</i>",
+            "page_image_free": "Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_natural_color.jpg",
+            "wikibase_item": "Q12418"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T12:46:27Z",
+          "lastrevid": 240556813,
+          "length": 102477
+        },
+        {
+          "pageid": 1289757,
+          "ns": 0,
+          "title": "La Mort de Socrate (David)",
+          "pageprops": {
+            "defaultsort": "Mort de Socrate, La",
+            "displaytitle": "<i>La Mort de Socrate</i> (David)",
+            "page_image_free": "David_-_The_Death_of_Socrates.jpg",
+            "wikibase_item": "Q1752990"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T12:49:31Z",
+          "lastrevid": 238921903,
+          "length": 11293
+        },
+        {
+          "pageid": 2032158,
+          "ns": 0,
+          "title": "La Grande Vague de Kanagawa",
+          "pageprops": {
+            "defaultsort": "Grande vague de Kanagawa",
+            "displaytitle": "<i>La Grande Vague de Kanagawa</i>",
+            "page_image_free": "Tsunami_by_hokusai_19th_century.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase_item": "Q252485"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T12:50:39Z",
+          "lastrevid": 240746167,
+          "length": 72681
+        },
+        {
+          "pageid": 12074850,
+          "ns": 0,
+          "title": "William l'hippopotame en faïence",
+          "pageprops": {
+            "displaytitle": "<i>William l'hippopotame en faïence</i>",
+            "page_image_free": "Standing_Hippopotamus_MET_DP248993.jpg",
+            "wikibase_item": "Q137836"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T13:04:13Z",
+          "lastrevid": 236058300,
+          "length": 6962
+        },
+        {
+          "pageid": 14086227,
+          "ns": 0,
+          "title": "Combat de tigre et de buffle",
+          "pageprops": {
+            "displaytitle": "<i>Combat de tigre et de buffle</i>",
+            "page_image_free": "Henri_Rousseau_-_Fight_between_a_Tiger_and_a_Buffalo_-_1949.186_-_Cleveland_Museum_of_ArtFXD.jpg",
+            "wikibase_item": "Q60515648"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T13:06:27Z",
+          "lastrevid": 229357769,
+          "length": 2414
+        },
+        {
+          "pageid": 14430913,
+          "ns": 0,
+          "title": "Parade de cirque",
+          "pageprops": {
+            "displaytitle": "<i>Parade de cirque</i>",
+            "page_image_free": "Georges_Seurat_066.jpg",
+            "wikibase_item": "Q3823444"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T13:06:51Z",
+          "lastrevid": 238702734,
+          "length": 2999
+        },
+        {
+          "pageid": 15609811,
+          "ns": 0,
+          "title": "La Vierge et l'Enfant avec le petit saint Jean-Baptiste",
+          "pageprops": {
+            "defaultsort": "Vierge et l'Enfant avec le petit saint Jean-Baptiste, La",
+            "displaytitle": "<i>La Vierge et l'Enfant avec le petit saint Jean-Baptiste</i>",
+            "page_image_free": "Sandro_Botticelli_-_Virgin_and_Child_with_the_Young_Saint_John_the_Baptist_-_1970.160_-_Cleveland_Museum_of_Art.tif",
+            "wikibase_item": "Q7934011"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T13:08:06Z",
+          "lastrevid": 207444099,
+          "length": 2173
+        },
+        {
+          "pageid": 17399735,
+          "ns": 0,
+          "title": "Romaine Lacaux",
+          "pageprops": {
+            "displaytitle": "<i>Romaine Lacaux</i>",
+            "page_image_free": "Romaine_Lacaux,_by_Pierre-Auguste_Renoir,_Cleveland_Museum_of_Art,_1942.1065.jpg",
+            "wikibase_item": "Q15880875"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T13:10:23Z",
+          "lastrevid": 236030260,
+          "length": 2232
+        }
+      ]
+    }
+  },
+  "payloadSha256": "0f4317fd5074322545a402274ddf09e40881767e933460c305ea4d57c044a104"
+}

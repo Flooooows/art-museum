@@ -1,0 +1,730 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q106477702.json",
+  "retrievedAt": "2026-10-29T15:51:13.805934+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q106477702": {
+        "pageid": 101771149,
+        "ns": 0,
+        "title": "Q106477702",
+        "lastrevid": 1857712457,
+        "modified": "2023-03-21T20:14:57Z",
+        "type": "item",
+        "id": "Q106477702",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Gorgoneion Antefix (Ornamental Roof Tile)"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "ceramic by unknown artist"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q106477702$87891859-C6A4-4C4D-A775-68CF1CE29DD9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "470df69ee167cee253f2ba896cfa0460eef83241",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9ffab6a031525f886aa3c019f2e42c8679516d0e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2021.3",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "250c69e2839a647d40251f7ace5c3ccf29a93ede",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q106477702$AE94AC07-6678-4F25-BB97-289F7303DC87",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "470df69ee167cee253f2ba896cfa0460eef83241",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9ffab6a031525f886aa3c019f2e42c8679516d0e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2021.3",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "250c69e2839a647d40251f7ace5c3ccf29a93ede",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "f8119d8bd3f269c43a22e0e61c03495d8afeee05",
+                "datavalue": {
+                  "value": "2021.3",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q106477702$A4DB0E14-7BD0-4D79-9CAC-8E2263D1F3C5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "470df69ee167cee253f2ba896cfa0460eef83241",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9ffab6a031525f886aa3c019f2e42c8679516d0e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2021.3",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "250c69e2839a647d40251f7ace5c3ccf29a93ede",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ad99abd0b0a296be822e13af441e0bdc9c2c4664",
+                "datavalue": {
+                  "value": {
+                    "text": "Gorgoneion Antefix (Ornamental Roof Tile)",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q106477702$D96D0CF1-EFC6-43EE-A9A2-1CDEDAD7503F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "470df69ee167cee253f2ba896cfa0460eef83241",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9ffab6a031525f886aa3c019f2e42c8679516d0e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2021.3",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "250c69e2839a647d40251f7ace5c3ccf29a93ede",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "75c9bbdfa17da5de86ee810280d798361fed1f66",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/2021.3",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P407": [
+                  {
+                    "snaktype": "value",
+                    "property": "P407",
+                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 1860,
+                        "id": "Q1860"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P407"
+              ],
+              "id": "Q106477702$ACC806C8-3EA1-4F80-89BA-83A9B0287580",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "470df69ee167cee253f2ba896cfa0460eef83241",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9ffab6a031525f886aa3c019f2e42c8679516d0e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2021.3",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "250c69e2839a647d40251f7ace5c3ccf29a93ede",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "9843dd8b9285af91b851d5fd27f8170d5714b4d8",
+                "datavalue": {
+                  "value": {
+                    "time": "-0500-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q106477702$0F9E9F6E-727D-46FE-AEB0-45863ED7C9B1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "470df69ee167cee253f2ba896cfa0460eef83241",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9ffab6a031525f886aa3c019f2e42c8679516d0e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2021.3",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "250c69e2839a647d40251f7ace5c3ccf29a93ede",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q106477702$7923A885-D729-4A39-A0CE-E4A046C62DF0",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "470df69ee167cee253f2ba896cfa0460eef83241",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9ffab6a031525f886aa3c019f2e42c8679516d0e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2021.3",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "250c69e2839a647d40251f7ace5c3ccf29a93ede",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "5b6767751318288e55cd7955f6aed9434941145e",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 13464614,
+                    "id": "Q13464614"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q106477702$616218CC-42B6-457D-9396-E33D639B245C",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "470df69ee167cee253f2ba896cfa0460eef83241",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9ffab6a031525f886aa3c019f2e42c8679516d0e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2021.3",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "250c69e2839a647d40251f7ace5c3ccf29a93ede",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-12T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P4765": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P4765",
+                "hash": "88e290ff429bbd9bbceb7cb08b9ae3738a03a7e1",
+                "datavalue": {
+                  "value": "https://openaccess-cdn.clevelandart.org/2021.3/2021.3_print.jpg",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P2093": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2093",
+                    "hash": "3346656d44a27a1a358c7677f808018a0fa40da7",
+                    "datavalue": {
+                      "value": "unknown artist",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ],
+                "P1476": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1476",
+                    "hash": "ad99abd0b0a296be822e13af441e0bdc9c2c4664",
+                    "datavalue": {
+                      "value": {
+                        "text": "Gorgoneion Antefix (Ornamental Roof Tile)",
+                        "language": "en"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ],
+                "P2701": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2701",
+                    "hash": "20a36d91e90c1e5116c0fdbb6a1cda3bedd14c46",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 2195,
+                        "id": "Q2195"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P275": [
+                  {
+                    "snaktype": "value",
+                    "property": "P275",
+                    "hash": "28a6efcc224656589c283263e9efa1effe56d682",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 6938433,
+                        "id": "Q6938433"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P137": [
+                  {
+                    "snaktype": "value",
+                    "property": "P137",
+                    "hash": "083b8b75e9e12f863eeaf69ff004ea6b5ca04222",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P2699": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2699",
+                    "hash": "baa9d470e009c3789f1a8e6aed215e56f91ff6e8",
+                    "datavalue": {
+                      "value": "https://clevelandart.org/art/2021.3",
+                      "type": "string"
+                    },
+                    "datatype": "url"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P2093",
+                "P1476",
+                "P2701",
+                "P275",
+                "P137",
+                "P2699"
+              ],
+              "id": "Q106477702$fd1691fc-1af5-427c-a3ee-a1979a3693dd",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

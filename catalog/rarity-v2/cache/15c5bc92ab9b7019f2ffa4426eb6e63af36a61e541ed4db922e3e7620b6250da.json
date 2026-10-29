@@ -1,0 +1,453 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60757958.json",
+  "retrievedAt": "2026-10-29T15:51:42.551432+00:00",
+  "payload": {
+    "entities": {
+      "Q60757958": {
+        "pageid": 60615959,
+        "ns": 0,
+        "title": "Q60757958",
+        "lastrevid": 1851864309,
+        "modified": "2023-03-14T06:26:21Z",
+        "type": "item",
+        "id": "Q60757958",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Ceremonial Disk-Axe (Yue)"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "jade by unknown artist (1991.6)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "e9daeb0bfdd4d63e85738c869676fe7f1451a2cd",
+                "datavalue": {
+                  "value": "1991.6",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60757958$A5B92208-AA6D-4DDB-B55A-33C5A666C459",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60757958$DA48ECE7-98FF-4ADD-8E56-23A437DD1E4E",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "4f91fca90fe5a3d97d8194e1f707b0492c4200f7",
+                "datavalue": {
+                  "value": {
+                    "text": "Ceremonial Disk-Axe (Yue)",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60757958$A5FE3872-F766-4DBF-94F0-1AE49A9D769D",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "48b5009546a201f70f13d6fb95bb79a69203ad74",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1991.6",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60757958$D342BA36-9AB6-4781-964E-55BC2C4B7590",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "0875bd366a4f75ba6383858b2b1ab701ab3d0518",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1991.6",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60757958$29f244d2-8e1e-4afb-96c7-bbdc9906ad3f",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "c9ad1fcd8c9d8e5ae99994295310bcbca80a642d",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6cb624b49eebebb340e991af532a73082ec3ba99",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1991.6",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60757958$98E53ADA-1347-4CCF-BF4B-1ECE8558DFF1",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "6863402233b4cf84b78864dd02a965788d7c3596",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60733799,
+                    "id": "Q60733799"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60757958$27BF9A3E-6549-4EBC-9EC6-8154E7C7E544",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "b3d3ab642761362f1262af40ba40a963a1bfc5cb",
+                "datavalue": {
+                  "value": "Clevelandart 1991.6.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60757958$F31A66D3-BED0-410D-B524-36E3028E5CAF",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "4e029e2b3195f5c9d66956844db632a7912448c3",
+                "datavalue": {
+                  "value": "Northeast China, Neolithic period, Hongshan Culture - Ceremonial Disk-Axe (Yue) - 1991.6 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60757958$2275d306-427d-489b-9a8a-ce4e32f2321b",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "c9ad1fcd8c9d8e5ae99994295310bcbca80a642d",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6cb624b49eebebb340e991af532a73082ec3ba99",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1991.6",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60757958$ecf91f47-9cc5-43e5-a52c-0b5345cfc986",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "4544fde0f6d8b7781977edab9b21bfc4e5ca42e0",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6cb624b49eebebb340e991af532a73082ec3ba99",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1991.6",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60757958$3e4439cd-3f11-4437-bf57-1effbd447750",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "545c1917fb7e44f8c798f26e7ed572851cad69e9",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6cb624b49eebebb340e991af532a73082ec3ba99",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1991.6",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "853239dd6c115a99435ae254bd9748a06ea77f82",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-14T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "938de1cdd14b033e2832d71d790f1e8e8efaf3beac221f8825824fd04a6e1bf5"
+}

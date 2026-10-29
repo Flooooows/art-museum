@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4a0011" />
+    <script>
+      (() => {
+        let preference = null;
+        try {
+          preference = localStorage.getItem("muse-theme");
+        } catch {}
+        const theme =
+          preference === "light" || preference === "dark"
+            ? preference
+            : matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+        document.documentElement.dataset.theme = theme;
+        document.querySelector('meta[name="theme-color"]').content =
+          theme === "dark" ? "#210a12" : "#fbf9f4";
+      })();
+    </script>
+    <meta
+      name="description"
+      content="Ouvrez des pochettes de découvertes, explorez l’histoire des œuvres et composez votre musée personnel."
+    />
+    <title>MUSE — Un musée à collectionner</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,1206 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60515791.json",
+  "retrievedAt": "2026-10-29T15:45:56.565652+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60515791": {
+        "pageid": 60386571,
+        "ns": 0,
+        "title": "Q60515791",
+        "lastrevid": 2534848939,
+        "modified": "2026-08-22T14:14:36Z",
+        "type": "item",
+        "id": "Q60515791",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Reading"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "L'ombrelle verte"
+          },
+          "ja": {
+            "language": "ja",
+            "value": "読書"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Berthe Morisot (French, 1841-1895) (1950.89)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Berthe Morisot"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Berthe Morisot"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Berthe Morisot"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Berthe Morisot"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Berthe Morisot"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Berthe Morisot"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Berthe Morisot"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Berthe Morisot"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת ברת מוריזו"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Berthe Morisot"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Berthe Morisot"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Berthe Morisot"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Berthe Morisot"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Berthe Morisot"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Berthe Morisot"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Berthe Morisot"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Berthe Morisot festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Berthe Morisot"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Berthe Morisot"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Berthe Morisot"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Berthe Morisot"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Berthe Morisot"
+          },
+          "ja": {
+            "language": "ja",
+            "value": "ベルト・モリゾによる絵画作品"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "a3b7ca7bfdb9a3aef82db7b33d07f99bcaf71dd4",
+                "datavalue": {
+                  "value": "1950.89",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60515791$4ae27f48-89d4-4f32-b4b6-35b6db8181b4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fd128e079a34b20fc61d252e5bd2c12d9d4516b6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "085e3a4eebe0721cd19e45b862b3d3b72e0622c0",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.89",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$c7b74475-1895-42ec-a5be-518cb0d402d1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fd128e079a34b20fc61d252e5bd2c12d9d4516b6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "085e3a4eebe0721cd19e45b862b3d3b72e0622c0",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.89",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$cabe53bd-051c-4f37-8346-61b2388ac23e",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fd128e079a34b20fc61d252e5bd2c12d9d4516b6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "085e3a4eebe0721cd19e45b862b3d3b72e0622c0",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.89",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$b3b5a3c5-dc9c-4f4e-bdbf-ccf9c8a7b724",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fd128e079a34b20fc61d252e5bd2c12d9d4516b6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "085e3a4eebe0721cd19e45b862b3d3b72e0622c0",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.89",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "42be55c66482095b862e2d247cc92a6cd284d042",
+                "datavalue": {
+                  "value": {
+                    "time": "+1873-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60515791$442012d8-5dae-44e4-81ee-25ca2894b881",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fd128e079a34b20fc61d252e5bd2c12d9d4516b6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "085e3a4eebe0721cd19e45b862b3d3b72e0622c0",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.89",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "ddab7fe09de2abc4402a52b1a4a29735b98ac064",
+                "datavalue": {
+                  "value": {
+                    "amount": "+46.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515791$b7179ae5-2971-40df-96ae-baadc4ede980",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fd128e079a34b20fc61d252e5bd2c12d9d4516b6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "085e3a4eebe0721cd19e45b862b3d3b72e0622c0",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.89",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "ced2890c7bf32c0343d0cca086e7b03f6926348f",
+                "datavalue": {
+                  "value": {
+                    "amount": "+71.8",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515791$3cf06fad-2535-4f52-9a35-62b223a5aa42",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fd128e079a34b20fc61d252e5bd2c12d9d4516b6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "085e3a4eebe0721cd19e45b862b3d3b72e0622c0",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.89",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "b9ef0d7ca957d0eb1a1d3963a28514baf9f7d005",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1950.89",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60515791$f9d3cf16-f396-44fe-ad81-890255aabaa6",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "b48333f7ed156fbb63e8ad2d5eee2ec4c3acd5f3",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 105320,
+                    "id": "Q105320"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$B6C1BAEF-DD07-439F-BFA3-C0EC29BCC792",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "04a976a58e2aa863aafa354df8dd40e650b52980",
+                "datavalue": {
+                  "value": "Berthe Morisot - Reading - 1950.89 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60515791$138B85DB-034B-4A5B-BA25-80BDAB42072D",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "75a9dc4f177c604f2263bca5bd8ba649d2efe44d",
+                "datavalue": {
+                  "value": {
+                    "text": "Reading",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60515791$8D9FBC99-F293-4F68-A6CB-31A9EDD3FD9B",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "2fb450483386383950385e5337c38347a60d002b",
+                "datavalue": {
+                  "value": {
+                    "text": "La Lecture",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60515791$DCC41E4A-1A99-4DDB-9A12-6E162FC8DA92",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "67dbb892a8d677cbdca6e91db08122cfbea6135d",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "bb01f56fb0f3352c686d2f64db72620371ddf723",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "62f6929af884f5d71b5f19a44a504886d2f02d58",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Berthe_Morisot_-_La_Lecture_(1873).jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$932CF7CE-F913-42C6-8FFB-B4342BD327E0",
+              "rank": "normal"
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$60F321B8-1F8A-4E90-B327-B4B60B9D95F8",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "ff835118c173e212660c39935e0514c6df534436",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "214d6abff03532386de80a727956428c0f93e51d",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-03-10T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "267ab1ebdcb0624bd3be27c42316a8a2e7cd8338",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Berthe_Morisot_Reading.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "73428fb78a149966fd0131d34cbca0ad9dd48bb8",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1314278,
+                    "id": "Q1314278"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60515791$A5EDC0E1-DF3C-4549-A677-61A366A967C7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "ff835118c173e212660c39935e0514c6df534436",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "214d6abff03532386de80a727956428c0f93e51d",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-03-10T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "267ab1ebdcb0624bd3be27c42316a8a2e7cd8338",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Berthe_Morisot_Reading.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60515791$E1DACD99-A11E-4471-AE7E-8EDDA17006A3",
+              "rank": "normal"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "8423f5a24986cd32bb24afd047efa37b0715c821",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 10288082,
+                    "id": "Q10288082"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$dbce7396-49b9-710a-c2ee-88b4520be769",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "58370ba13828fd125a6903629773c9352a76a9e5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 142,
+                    "id": "Q142"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$06a3f6dd-a211-4fd1-991d-c0f0b24894be",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "ce7058740cec7771999ac43e7803c6d7c30f0022",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "085e3a4eebe0721cd19e45b862b3d3b72e0622c0",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.89",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "c60b15493499e6f21a25c937cd6073499af5c4c6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1047337,
+                    "id": "Q1047337"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515791$49d264c7-48e4-b369-8708-52c14d9ab5fe",
+              "rank": "normal"
+            }
+          ],
+          "P528": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "78235a080516c52a485045d0bc78e7b07428f981",
+                "datavalue": {
+                  "value": "14",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "a2117483ccdca79d071f041f20742f990bf419a9",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 113993030,
+                        "id": "Q113993030"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q60515791$780038af-e29f-4cb3-a750-10864fc33e66",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d3360d7ef42b7195b89ddb6b0109264328e5505f",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d0ecf87ad2dcf3f57a932b49b0a8fc3da8f2b7aa",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File%3AClevelandart_1950.89.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "76eb02deb40fe0af1194a192effb43a041d18156",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-01-02T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

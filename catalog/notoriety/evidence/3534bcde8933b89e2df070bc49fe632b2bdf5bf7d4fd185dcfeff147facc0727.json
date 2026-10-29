@@ -1,0 +1,658 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60781165.json",
+  "retrievedAt": "2026-10-29T15:51:02.661553+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60781165": {
+        "pageid": 60636783,
+        "ns": 0,
+        "title": "Q60781165",
+        "lastrevid": 1852039098,
+        "modified": "2023-03-14T11:58:39Z",
+        "type": "item",
+        "id": "Q60781165",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Wall Charger Depicting Two Birds"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "enamel by Fernand Thesmar (French, 1843-1912) (1985.69)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "acb4ee86b3e99ae82547137e1f679fdf560b1382",
+                "datavalue": {
+                  "value": "1985.69",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60781165$D0CC826F-40DE-4659-9A62-BF1E47B514A6",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60781165$B58572D5-0F14-4D6D-ACB0-5B70DEA3579B",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "f0b23a390b39f72c864e79b603c845cf03ed0e1f",
+                "datavalue": {
+                  "value": {
+                    "text": "Plaque: Two Birds on a Thorny Bough",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60781165$7FC7066F-6F4F-4FE3-A134-491AD8B59EBC",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ea6abe6ee9947a6461a6f0dc07bdc61ef3fe7f06",
+                "datavalue": {
+                  "value": {
+                    "text": "Wall Charger Depicting Two Birds",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60781165$a55996e9-4bd7-48f4-bcb9-d2c0eb45692d",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e93ee29b4e821ed457691ad97d241905a14aabb8",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5d814d1817c45f3ff78050c8d82ecc20d14a6dd7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1985.69",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "031a988ca4a3f367a0f1df2961d529aa87c6093e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "5e305a5f39ab16860b78dddcf4ef82c73b50cc50",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1985.69",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60781165$97C53DBF-007D-4744-8B59-20F469D81387",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "3509c8fb5f3d1081856b7d5e24aa81c3936c9989",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1985.69",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60781165$918c2095-43d1-46d2-a7d9-8e6f0d473f3a",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "434a1cc90daa0418ca99abcafed4b7f99525a404",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5d814d1817c45f3ff78050c8d82ecc20d14a6dd7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1985.69",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60781165$835D189F-0BFC-4281-BE5B-EDA6AEADAC47",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "c7793983c02591b58a094a2edd0f8ca3a265bd01",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4759893,
+                    "id": "Q4759893"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60781165$46578F3B-CEE4-46D3-9CD2-C698B103DECC",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "6aa426e24cacdd0ace5314bdd1b1b9f4c79ea01c",
+                "datavalue": {
+                  "value": "Clevelandart 1985.69.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60781165$5BE7F55F-44F0-48EC-A464-4AE477B9C0C1",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "e079ca1b9803f3f76c6ca6b49de09ce0b549014e",
+                "datavalue": {
+                  "value": "Fernand Thesmar - Plaque- Two Birds on a Thorny Bough - 1985.69 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60781165$c481ba66-0a24-4d58-9b4b-fe9b467a8fa3",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "434a1cc90daa0418ca99abcafed4b7f99525a404",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5d814d1817c45f3ff78050c8d82ecc20d14a6dd7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1985.69",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "f5afad958a38beac2f42446387de80a08fa05311",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4364339,
+                    "id": "Q4364339"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60781165$12bcadf0-4722-ad1a-0992-bd8a2842bcdb",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "36f6932625eba7306a0c1901083af26c54690c81",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 79496108,
+                    "id": "Q79496108"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60781165$29b00bb4-2e41-46d5-9eca-6410bcb30b20",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "434a1cc90daa0418ca99abcafed4b7f99525a404",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5d814d1817c45f3ff78050c8d82ecc20d14a6dd7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1985.69",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60781165$e2c9b780-3818-403c-9ae7-c46000ad185e",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "434a1cc90daa0418ca99abcafed4b7f99525a404",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5d814d1817c45f3ff78050c8d82ecc20d14a6dd7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1985.69",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60781165$848246a9-49e4-4ae4-be34-acc573426398",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e93ee29b4e821ed457691ad97d241905a14aabb8",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5d814d1817c45f3ff78050c8d82ecc20d14a6dd7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1985.69",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "031a988ca4a3f367a0f1df2961d529aa87c6093e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "f04a2c69da1fce6ad752d2845b38cd2418457f42",
+                "datavalue": {
+                  "value": {
+                    "time": "+1879-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q60781165$4909f3f3-2419-4f19-82cd-d9e549e4dfab",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "40a1014db9abb3c7ac05e5568b925d7b8bbcf045",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "5d814d1817c45f3ff78050c8d82ecc20d14a6dd7",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1985.69",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "853239dd6c115a99435ae254bd9748a06ea77f82",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-14T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

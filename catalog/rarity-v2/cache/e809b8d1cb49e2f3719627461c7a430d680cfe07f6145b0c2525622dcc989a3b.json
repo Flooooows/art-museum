@@ -1,0 +1,1335 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60472115.json",
+  "retrievedAt": "2026-10-29T15:45:53.265492+00:00",
+  "payload": {
+    "entities": {
+      "Q60472115": {
+        "pageid": 60343424,
+        "ns": 0,
+        "title": "Q60472115",
+        "lastrevid": 2430134457,
+        "modified": "2025-11-16T01:46:43Z",
+        "type": "item",
+        "id": "Q60472115",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Portrait of a Woman"
+          },
+          "de": {
+            "language": "de",
+            "value": "Porträt einer Frau"
+          },
+          "it": {
+            "language": "it",
+            "value": "Ritratto di Gentildonna"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Hölgy portréja"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "Portret damy"
+          },
+          "sl": {
+            "language": "sl",
+            "value": "Portret dame"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "Portret van een dame"
+          },
+          "ru": {
+            "language": "ru",
+            "value": "Портрет дамы"
+          },
+          "es": {
+            "language": "es",
+            "value": "Retrato de una dama"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "Retrato de uma senhora"
+          },
+          "be": {
+            "language": "be",
+            "value": "Партрэт дамы"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "Portrait d'une dame"
+          },
+          "mk": {
+            "language": "mk",
+            "value": "Портрет на дама"
+          },
+          "mul": {
+            "language": "mul",
+            "value": "Portrait of a Lady"
+          }
+        },
+        "descriptions": {
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Agnolo Bronzino, Cleveland Museum of Art"
+          },
+          "en": {
+            "language": "en",
+            "value": "painting by Agnolo Bronzino, Cleveland Museum of Art (1972.121)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Agnolo Bronzino"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Bronzino"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Bronzino"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Agnolo Bronzino"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Bronzino"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Agnolo Bronzino"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת אניולו ברונזינו"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Agnolo Bronzino"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Bronzino"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Agnolo Bronzino"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Agnolo Bronzino"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Agnolo Bronzino"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Bronzino"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Agnolo Bronzino festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Agnolo Bronzino"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Agnolo Bronzino"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Agnolo Bronzino"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Agnolo Bronzino"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Agnolo Bronzino"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Bronzino"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture d'Agnolo Bronzino"
+          },
+          "sl": {
+            "language": "sl",
+            "value": "slika avtorja Agnolo Bronzino (Cleveland)"
+          },
+          "ar": {
+            "language": "ar",
+            "value": "لوحة فنية رسمها برونزينو"
+          }
+        },
+        "aliases": {
+          "en": [
+            {
+              "language": "en",
+              "value": "Portrait of a Lady"
+            }
+          ],
+          "de": [
+            {
+              "language": "de",
+              "value": "Bildnis einer Dame"
+            }
+          ]
+        },
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "0eda806abc0f3df77e4b9f06dddd049a7e17baca",
+                "datavalue": {
+                  "value": "1972.121",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60472115$DBBBA721-824A-4884-8FA9-5F4C350ABEBE",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2207789a0bd2afa7e9b6cfe5b07a2191edd68476",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P580": [
+                  {
+                    "snaktype": "value",
+                    "property": "P580",
+                    "hash": "1eba62b20d9e1fc37937ada6fdb8a67474a40ddb",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1972-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P580"
+              ],
+              "id": "Q60472115$0378A9E1-727C-4454-977A-C42C7BEE3FCD",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2207789a0bd2afa7e9b6cfe5b07a2191edd68476",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60472115$4BAD85AE-9D01-4BDB-B96A-917DD015AA24",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2207789a0bd2afa7e9b6cfe5b07a2191edd68476",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60472115$05D3E979-9AB9-4C38-A000-24E18B221F79",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2207789a0bd2afa7e9b6cfe5b07a2191edd68476",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "6b100e9d0290fc44b87965ae330ab982fef6bc5c",
+                "datavalue": {
+                  "value": {
+                    "time": "+1550-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q60472115$94F383A1-30D0-459D-9DB1-5D57FFE00F73",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2207789a0bd2afa7e9b6cfe5b07a2191edd68476",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "8d8921c80aed2aebd9e3ea45d39a9d1fec0fc9ca",
+                "datavalue": {
+                  "value": {
+                    "amount": "+60.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60472115$0BB8664D-D0F3-4C2E-840C-FBA718BFB89F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2207789a0bd2afa7e9b6cfe5b07a2191edd68476",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "987456c7125f37c565783c5557f23b74d17b2199",
+                "datavalue": {
+                  "value": {
+                    "amount": "+48.8",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60472115$3BBAC41F-71C6-4D7A-A6A9-BB5524B87C9B",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2207789a0bd2afa7e9b6cfe5b07a2191edd68476",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "cdd2424b66d41bb2d8f3dec92e531534846d51bd",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "00689ef74d421210cc0742446b071d7d68330f02",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 7803,
+                    "id": "Q7803"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60472115$182971BC-5715-4B3D-AD5E-DAE481F8FCC9",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "88d0c4060c89063dff4371876759391d91bed5d9",
+                "datavalue": {
+                  "value": "Agnolo Bronzino - Portrait of a Woman - 1972.121 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60472115$60a7bf03-9ff2-45c8-86de-bc1eda20a92a",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "bf4e9953dcf9efd95535b95b70460e4d6cb32d98",
+                "datavalue": {
+                  "value": "Clevelandart 1972.121.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60472115$12ff171e-d8bd-49b1-ac7c-292d33e78004",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "5d96d070369532b075f6cdcf410c2beaa5ff3022",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "991a05b46f1b1fe39d56fe5f3e85a225a311cb08",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 134307,
+                    "id": "Q134307"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60472115$F8408347-BBFE-48EC-9DDE-1EAF24B73384",
+              "rank": "normal"
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60472115$B75BA79C-4695-40EF-B3AC-B77C38914957",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d1ba00fc050c5f03d1266e28781e72be2eac4654",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "10d06cbb5cc986a65d7eba0b023930218b743b60",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "a8c4c61068176dc24558c2ce3af11a18c3932e4b",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Agnolo_Bronzino_-_Portrait_of_a_Woman_-_1972.121_-_Cleveland_Museum_of_Art.tiff",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "32442acff3bd145a61bbd0b67fc5712a6a0bb800",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 106857709,
+                    "id": "Q106857709"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60472115$4050228A-3329-49F9-89F6-0CD0ABF047B0",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d1ba00fc050c5f03d1266e28781e72be2eac4654",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "10d06cbb5cc986a65d7eba0b023930218b743b60",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "a8c4c61068176dc24558c2ce3af11a18c3932e4b",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Agnolo_Bronzino_-_Portrait_of_a_Woman_-_1972.121_-_Cleveland_Museum_of_Art.tiff",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "edf51bc6a81352fdbd6e40b79de38b2917e3b5f8",
+                "datavalue": {
+                  "value": {
+                    "text": "Portrait of a Woman",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60472115$72ac3484-c0d8-4b15-9779-cf93689a3340",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "21e942d254a53a080292143d329f47392fb6a7a2",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6228f096b3bfa612455ba9eb0f01189ad146092c",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60472115$932ADCD2-32DB-451D-88D2-AE619FFC71B7",
+              "rank": "normal"
+            }
+          ],
+          "P921": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P921",
+                "hash": "344dd56ce79f6f4ded25a2e4392dad65ac8ac854",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 467,
+                    "id": "Q467"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60472115$6F6C5E4F-5BC6-4AD6-A60B-4D1FFC4FF238",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "b1870ce7f5f2144fdeefaa714b7974079a5af123",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 467,
+                    "id": "Q467"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60472115$A535DB2A-F7AA-4CD2-9666-FAECBE8E43F3",
+              "rank": "normal"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "a7d79631f4ecaa093d10edb60af87a65b07fc98d",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 55739545,
+                    "id": "Q55739545"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P582": [
+                  {
+                    "snaktype": "value",
+                    "property": "P582",
+                    "hash": "14a4bcfc0f9d8c356007a6a437ae7c28f099a95c",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1972-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P582"
+              ],
+              "id": "Q60472115$fa429977-4248-f3da-bd6d-905cfb74fdd9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "62988772179eaef6a4796e90ca961743d5ca5cbc",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "283c325d4429ed8e8dfadeaacd7a9aeede37ef06",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1972.121",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1683": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1683",
+                        "hash": "84720dd421b2c27f4ea9646e16e9bbd183235ed2",
+                        "datavalue": {
+                          "value": {
+                            "text": "Provenance Stadelscher Museums-Verein, Frankfurt, in 1882; Freifau Mumm von Schwarzenstein, Frankfurt; Baron Max von Grunelius, Frankfurt ;[David M. Koester, Zurich], sold to the Cleveland Museum of Art, 1972.",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P123": [
+                      {
+                        "snaktype": "value",
+                        "property": "P123",
+                        "hash": "754fd3389a603d5255d24732788625f77bc9a4b7",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 657415,
+                            "id": "Q657415"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "80497908d471c8c88c720286d0e0574decd732b0",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-04-11T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1683",
+                    "P123",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P17": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P17",
+                "hash": "be4c6eafa2984964f04be85667263f5642ba1a72",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 30,
+                    "id": "Q30"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60472115$bed917f2-476f-134f-3201-919a77ec8991",
+              "rank": "normal"
+            }
+          ],
+          "P11110": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P11110",
+                "hash": "74aa06ce2f7c1dd5e0d3a6bdfe8101056432dff1",
+                "datavalue": {
+                  "value": "1972.121",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q60472115$e4366298-463e-d0d0-3d89-73dbf40d58f1",
+              "rank": "normal"
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "72121433c0accf592a2161ef46b1dd890a080927",
+                "datavalue": {
+                  "value": "Bronzino, ritratto di donna, 1550 ca. 01.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60472115$29968628-4b6a-0d06-283e-e05bd515812a",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "cfde1cdc18da2c8d88931c16fce4eac6706436fb45a05ff3d5e448fa68a6d0d9"
+}

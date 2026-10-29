@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Parade_de_cirque/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-29T15:45:40.753764+00:00",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1033
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1120
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1008
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1101
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1036
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1150
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1034
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1099
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 830
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 727
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 798
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Parade_de_cirque",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1068
+      }
+    ]
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "8138139dd8c1e41691c5d9def13e952b26cb2215494da05643384f5e9ae1e4f3"
+}

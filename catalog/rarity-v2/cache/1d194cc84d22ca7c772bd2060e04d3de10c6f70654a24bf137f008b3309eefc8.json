@@ -1,0 +1,20 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=Vincent+van+Gogh",
+  "retrievedAt": "2026-10-29T15:45:40.337762+00:00",
+  "payload": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "20395": {
+          "pageid": 20395,
+          "ns": 0,
+          "title": "Vincent van Gogh"
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "f7b7d9a3043a04a761f5520c2a712cf0cae6dc041be8f6023d049f6afc284f19"
+}

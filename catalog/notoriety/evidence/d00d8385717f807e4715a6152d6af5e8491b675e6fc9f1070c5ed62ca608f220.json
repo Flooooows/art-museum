@@ -1,0 +1,643 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q122922177.json",
+  "retrievedAt": "2026-10-29T15:50:32.834534+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q122922177": {
+        "pageid": 117175291,
+        "ns": 0,
+        "title": "Q122922177",
+        "lastrevid": 1990403139,
+        "modified": "2023-10-12T11:08:20Z",
+        "type": "item",
+        "id": "Q122922177",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Uraeus (Rearing Cobra)"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "metalwork by unknown artist"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q122922177$5E477B12-611D-4B5D-A51A-6AFED231D519",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cb76aee50da426d1c416bc4068ea1b7ebdfbd6ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b44f2e71a13b7314ceb50934648bbda45a4d0700",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2023.102",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c48191e67118da01d57748831852b07cf10dcdcb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-10-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q122922177$E2ED56C7-08FB-448A-B70E-30A2BF0E4A51",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cb76aee50da426d1c416bc4068ea1b7ebdfbd6ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b44f2e71a13b7314ceb50934648bbda45a4d0700",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2023.102",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c48191e67118da01d57748831852b07cf10dcdcb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-10-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "f4dbc784dc36b1f8f9426e8af61c5ff374b52f85",
+                "datavalue": {
+                  "value": "2023.102",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q122922177$69A9E9E5-BF38-4B4F-847C-9A36DB1A24A8",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cb76aee50da426d1c416bc4068ea1b7ebdfbd6ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b44f2e71a13b7314ceb50934648bbda45a4d0700",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2023.102",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c48191e67118da01d57748831852b07cf10dcdcb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-10-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "45c20cc11d2d6d2ae06bd1018cb2605546bc8ce0",
+                "datavalue": {
+                  "value": {
+                    "text": "Uraeus (Rearing Cobra)",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q122922177$6095AFD9-0C39-440B-9084-4884D3E6CDE9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cb76aee50da426d1c416bc4068ea1b7ebdfbd6ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b44f2e71a13b7314ceb50934648bbda45a4d0700",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2023.102",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c48191e67118da01d57748831852b07cf10dcdcb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-10-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "e504c8d1326e5e3fd9e7cb69cb2cad7ce5ce38bc",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/2023.102",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P407": [
+                  {
+                    "snaktype": "value",
+                    "property": "P407",
+                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 1860,
+                        "id": "Q1860"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P407"
+              ],
+              "id": "Q122922177$350187FB-0AB0-4C62-AF07-E3B6CB5B0733",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cb76aee50da426d1c416bc4068ea1b7ebdfbd6ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b44f2e71a13b7314ceb50934648bbda45a4d0700",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2023.102",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c48191e67118da01d57748831852b07cf10dcdcb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-10-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q122922177$3E14399B-4A27-42BB-AAD0-A820BB1F13C9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cb76aee50da426d1c416bc4068ea1b7ebdfbd6ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b44f2e71a13b7314ceb50934648bbda45a4d0700",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2023.102",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c48191e67118da01d57748831852b07cf10dcdcb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-10-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "09a45c10c4d2e8f5e35a0d55db851f515f77ced5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 29382731,
+                    "id": "Q29382731"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q122922177$461CBD7E-CE5B-4C4E-AC8C-8932D45AA7DC",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cb76aee50da426d1c416bc4068ea1b7ebdfbd6ef",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b44f2e71a13b7314ceb50934648bbda45a4d0700",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2023.102",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c48191e67118da01d57748831852b07cf10dcdcb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-10-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P4765": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P4765",
+                "hash": "f4a9c72c311191baecf12fb5253c063659efda32",
+                "datavalue": {
+                  "value": "https://openaccess-cdn.clevelandart.org/2023.102/2023.102_print.jpg",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P2093": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2093",
+                    "hash": "3346656d44a27a1a358c7677f808018a0fa40da7",
+                    "datavalue": {
+                      "value": "unknown artist",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ],
+                "P1476": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1476",
+                    "hash": "45c20cc11d2d6d2ae06bd1018cb2605546bc8ce0",
+                    "datavalue": {
+                      "value": {
+                        "text": "Uraeus (Rearing Cobra)",
+                        "language": "en"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ],
+                "P2701": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2701",
+                    "hash": "20a36d91e90c1e5116c0fdbb6a1cda3bedd14c46",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 2195,
+                        "id": "Q2195"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P275": [
+                  {
+                    "snaktype": "value",
+                    "property": "P275",
+                    "hash": "28a6efcc224656589c283263e9efa1effe56d682",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 6938433,
+                        "id": "Q6938433"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P137": [
+                  {
+                    "snaktype": "value",
+                    "property": "P137",
+                    "hash": "083b8b75e9e12f863eeaf69ff004ea6b5ca04222",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P2699": [
+                  {
+                    "snaktype": "value",
+                    "property": "P2699",
+                    "hash": "007347da14e40fb23e447f7db07740fb9543fc0a",
+                    "datavalue": {
+                      "value": "https://clevelandart.org/art/2023.102",
+                      "type": "string"
+                    },
+                    "datatype": "url"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P2093",
+                "P1476",
+                "P2701",
+                "P275",
+                "P137",
+                "P2699"
+              ],
+              "id": "Q122922177$480f79df-cbf3-45ec-8cb7-08f835c93284",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

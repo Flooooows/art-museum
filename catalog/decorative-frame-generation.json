@@ -1,0 +1,40 @@
+{
+  "family": "decoratifs",
+  "style": "Art nouveau, iris et ginkgo, vers 1900",
+  "origin": "Génération IA demandée par l’utilisateur ; asset décoratif contemporain, pas une reproduction historique.",
+  "modelReportedByTool": "openai/gpt-image-2",
+  "createdAt": "2026-10-29",
+  "license": "Asset généré à la demande ; aucune licence muséale ou CC0 attribuée.",
+  "variants": [
+    {
+      "finish": "fer",
+      "source": "output/imagegen/decoratifs-fer-source.png",
+      "reference": "public/assets/collections/art-moderne-fer.png",
+      "prompt": "Create ONE production-ready decorative frame asset for a museum collectible artwork card. Portrait 2:3 canvas, exactly 1024 x 1536 pixels if possible. Use the reference ONLY for straight-on frame composition, realistic tactile metal detail and portrait proportions; DO NOT copy its Art Deco shapes. New family: French Art Nouveau decorative arts around 1900, elegant sinuous botanical ironwork, slender iris leaves and small ginkgo fans, restrained whiplash curves, a few subtle enamel-like details. ESQUISSE / IRON finish: dark graphite forged iron with cool steel highlights, visibly metallic, not silver, no gold or copper. Symmetrical balanced four-sided frame, orthographic front view, no perspective, entire outer silhouette visible with ~24 pixels clearance to the canvas edges. Dense ornament kept strictly on the border bands: left and right 12% of canvas each; upper and lower 11%. Large EMPTY RECTANGULAR center aperture from x=15% to85%, y=13% to87%, straight inner lip; no leaves or decorative protrusions into this opening. No painting, no object, no glass, no reflection across the aperture. No letters, numbers, logos, badges, symbols or caption plate. Asset isolation requirement: both the entire central opening and all space outside the frame must be PERFECTLY FLAT SOLID VIVID MAGENTA #ff00ff for later chroma-key transparency, with no shadows, texture or lighting on this magenta. No magenta whatsoever in the frame materials. Absolutely no checkerboard. Crisp silhouette, sophisticated photographed metal bas-relief, fine crafted detail readable at card size. ONE iron frame only, not a contact sheet."
+    },
+    {
+      "finish": "cuivre",
+      "source": "output/imagegen/decoratifs-cuivre-source.png",
+      "reference": "output/imagegen/decoratifs-fer-source.png",
+      "prompt": "Edit the supplied Art Nouveau museum-card frame into the COPPER rarity variant. Preserve the exact 1024x1536 portrait canvas, the entire frame silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: convincingly warm reddish copper, burnished russet and orange-brown patina in recesses, bright warm copper highlights, NOT yellow gold and NOT silver. Small inset enamel areas may be deep warm oxblood and brown, not blue. Maintain elegant photographed metal relief and fine craftsmanship. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE copper frame, not a sheet."
+    },
+    {
+      "finish": "argent",
+      "source": "output/imagegen/decoratifs-argent-source.png",
+      "reference": "output/imagegen/decoratifs-fer-source.png",
+      "prompt": "Edit the supplied Art Nouveau museum-card frame into the SILVER rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: luminous cool SILVER, much brighter and whiter than the original graphite iron, polished pale silver highlights and softly oxidized pewter recesses, no gold or copper. Small inset enamel areas may be pearl-white and very pale ice-blue. Maintain elegant photographed metallic bas-relief and fine craftsmanship. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE silver frame, not a sheet."
+    },
+    {
+      "finish": "dore",
+      "source": "output/imagegen/decoratifs-dore-source.png",
+      "reference": "output/imagegen/decoratifs-fer-source.png",
+      "prompt": "Edit the supplied Art Nouveau museum-card frame into the GOLD rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: rich warm antique GOLD with bright honey-gold highlights, subtle ochre patina in recesses, confidently yellow gold not reddish copper. Small inset enamel areas may be muted amber and dark honey, without changing their shapes. Maintain elegant photographed metallic bas-relief and fine craftsmanship, luxurious but not glittery. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE gold frame, not a sheet."
+    },
+    {
+      "finish": "lapis-lazuli",
+      "source": "output/imagegen/decoratifs-lapis-lazuli-source.png",
+      "reference": "output/imagegen/decoratifs-fer-source.png",
+      "prompt": "Edit the supplied Art Nouveau museum-card frame into the LAPIS-LAZULI highest-rarity variant. Preserve the exact 1024x1536 portrait canvas, entire silhouette, all iris flowers, ginkgo fans, sinuous leaf geometry, straight rectangular inner opening, and every detail in exactly the same position. Change only the main material: predominantly deep intense royal ultramarine LAPIS-LAZULI stone, rich blue body with natural subtle stone veining and a few tiny pyrite flecks. Use restrained fine antique-gold outlines and highlights on the botanical relief to articulate the carved forms, but the frame must read BLUE LAPIS first, not a gold frame with a few blue accents. No purple, neon, glow or gems protruding into the opening. Maintain highly crafted realistic bas-relief. Preserve the existing real alpha transparency exactly in the center opening, all small open spaces, and outside the silhouette; output transparent PNG, not a flat background, checkerboard or gradient. No artwork inside, no glass covering the opening, no text, logo, badge or extra ornament. ONE lapis frame, not a sheet."
+    }
+  ]
+}

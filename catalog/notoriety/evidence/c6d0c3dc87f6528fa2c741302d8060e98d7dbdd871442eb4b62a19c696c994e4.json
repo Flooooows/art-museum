@@ -1,0 +1,929 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60513856.json",
+  "retrievedAt": "2026-10-29T15:45:46.813404+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60513856": {
+        "pageid": 60384603,
+        "ns": 0,
+        "title": "Q60513856",
+        "lastrevid": 2456164204,
+        "modified": "2026-01-19T19:16:56Z",
+        "type": "item",
+        "id": "Q60513856",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "The Holy Family with Saint John the Baptist and Saint Margaret"
+          },
+          "de": {
+            "language": "de",
+            "value": "Heilige Familie mit dem Johannesknaben und der hl. Margarethe"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "Saint famille avec Saintes Jean le Baptiste et Margarethe"
+          },
+          "it": {
+            "language": "it",
+            "value": "Sacra famiglia con santi Giovanni Battista e Margareta"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Filippino Lippi, Cleveland Museum of Art"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Filippino Lippi, Cleveland Museum of Art"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Filippino Lippi, Cleveland Museum of Art"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Filippino Lippi, Cleveland Museum of Art"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Filippino Lippi"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Filippino Lippi"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Filippino Lippi"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת פיליפינו ליפי"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Filippino Lippi"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Filippino Lippi"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Filippino Lippi"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Filippino Lippi"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Filippino Lippi festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Filippino Lippi, Cleveland Museum of Art"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Filippino Lippi"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Filippino Lippi"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Filippino Lippi"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Filippino Lippi"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Filippino Lippi"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Filippino Lippi"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Filippino Lippi"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Filippino Lippi"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Filippino Lippi"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "c34f629a18f6613f5a887e0a14bbfd4310144c28",
+                "datavalue": {
+                  "value": "1932.227",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60513856$11463113-df71-46de-9794-624b340d4739",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1c9d6d61cd5d3e26277d4a482b539b039d89acc5",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "460081e8914fbb359c1d99050b0a47e78911e268",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1932.227",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60513856$c2dae882-6fff-4ea8-8c72-4f3395ab05b6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1c9d6d61cd5d3e26277d4a482b539b039d89acc5",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "460081e8914fbb359c1d99050b0a47e78911e268",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1932.227",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60513856$10f9e2f8-6532-46b1-8c77-234842da8752",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1c9d6d61cd5d3e26277d4a482b539b039d89acc5",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "460081e8914fbb359c1d99050b0a47e78911e268",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1932.227",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60513856$798a0cf7-54f3-4329-91a4-7a4d9effafad",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1c9d6d61cd5d3e26277d4a482b539b039d89acc5",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "460081e8914fbb359c1d99050b0a47e78911e268",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1932.227",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "da172f1ece733c5a3f3517a5604f322b97574b2a",
+                "datavalue": {
+                  "value": {
+                    "time": "+1495-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q60513856$529545af-33f2-4554-a3df-d01b7c12f080",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1c9d6d61cd5d3e26277d4a482b539b039d89acc5",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "460081e8914fbb359c1d99050b0a47e78911e268",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1932.227",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "69fddf6fc6127ef87fa2ef2c24a139d2a4ca1065",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1932.227",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60513856$1532a4df-22b1-4fc0-8f4f-2ff5ccfc1b0f",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "15d380bdbefb7e553ee92d3666d004421f1487e9",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296265,
+                    "id": "Q296265"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60513856$6777D3CA-F72A-413D-B177-95F509329D26",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "0150b9026fd5c98327a998c1f1542437a9fb5d53",
+                "datavalue": {
+                  "value": "Filippino Lippi - The Holy Family with Saint John the Baptist and Saint Margaret - 1932.227 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60513856$40C3DF0A-48DF-4467-A2BD-2989DC389226",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "9a7e4c946b804e3f936c29c788e777b65628ef92",
+                "datavalue": {
+                  "value": "Clevelandart 1932.227.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60513856$0bb6f120-de8b-4c4c-acdd-31be156c26a3",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "dc6ac6399822e75ed323234411cafa8d553dd235",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "460081e8914fbb359c1d99050b0a47e78911e268",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1932.227",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P528": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "6e96c7ffaa1f9454eb8ce4486883029e26f76f5d",
+                "datavalue": {
+                  "value": "48",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "ac29420be10c3842ea3abc51820c00c52e609bfe",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60997035,
+                        "id": "Q60997035"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q60513856$FC87DA49-90AB-4D2F-974D-69D496DF19C6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1d57b642e3c2c1a691453049c13087398240167c",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "6b4f27bb5e66b862e90b046bfbc2d77c42327d8b",
+                        "datavalue": {
+                          "value": "https://archive.org/details/CMAPaintings1945/page/n57",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "7ddac3761d4bff68e6f7242650ce58e19af562d6",
+                "datavalue": {
+                  "value": {
+                    "text": "The Holy Family with Saint John the Baptist and Saint Margaret",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60513856$3598a5c3-232b-4950-bec4-5c72594bf005",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d79a599bd2cdbbe23e24acb0ff33c220ce3184fd",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "460081e8914fbb359c1d99050b0a47e78911e268",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1932.227",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60513856$29A03757-96C7-405E-A1D2-E6F1B0F00B1B",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "d960cb76ecb248024b7446bd6fcca59788366315",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 2864737,
+                    "id": "Q2864737"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60513856$42F98296-87B3-4D13-B679-E8C957BD6150",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "624f6bb04bf01b3ced6a46aa61cbae1912a545dd",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 38,
+                    "id": "Q38"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60513856$4f5bf8fe-90b8-4d4b-947f-81fe54018f6a",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "4fa78c3d95c524c89851af20784667bf7e45cdfb",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "460081e8914fbb359c1d99050b0a47e78911e268",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1932.227",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "047ce8ab85f1f49291edd3ddfa3875fae20adda5",
+                "datavalue": {
+                  "value": "The Holy Family with Saint John the Baptist and Saint Margaret by Filippino Lippi",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60513856$49542537-4a40-5332-8755-b792d443763f",
+              "rank": "normal"
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "7be115800e16bf24706767066ab8da38b9257982",
+                "datavalue": {
+                  "value": "Filippino lippi, sacra famiglia coi ss. giovanni battista e margherita, 1495 ca. 01.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60513856$e0de3fa8-41cd-7462-292e-b60fd75257f6",
+              "rank": "normal"
+            }
+          ],
+          "P608": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P608",
+                "hash": "8b0b4b16c927bf4d18716b75beebc83ac7120078",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 136543424,
+                    "id": "Q136543424"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60513856$723a43b2-481d-3efa-a988-8b02ffa4442c",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:The Holy Family with Saint John the Baptist and Saint Margaret by Filippino Lippi",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:The_Holy_Family_with_Saint_John_the_Baptist_and_Saint_Margaret_by_Filippino_Lippi"
+          }
+        }
+      }
+    }
+  }
+}

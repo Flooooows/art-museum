@@ -1,0 +1,1303 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q59115342.json",
+  "retrievedAt": "2026-10-29T15:45:48.781975+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q59115342": {
+        "pageid": 59023715,
+        "ns": 0,
+        "title": "Q59115342",
+        "lastrevid": 2456165636,
+        "modified": "2026-01-19T19:25:46Z",
+        "type": "item",
+        "id": "Q59115342",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "The Sacrifice of Isaac"
+          },
+          "it": {
+            "language": "it",
+            "value": "Il sacrificio di Isacco"
+          },
+          "de": {
+            "language": "de",
+            "value": "Abrahams Opfer"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "Ofiarowanie Izaaka (obraz Andrei del Sarto)"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Andrea del Sarto (Italian, 1486-1530) (1937.577)"
+          },
+          "it": {
+            "language": "it",
+            "value": "Dipinto di Andrea del Sarto"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Andrea del Sarto"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Andrea del Sarto"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura d'Andrea del Sarto"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Andrea del Sarto"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Andrea del Sarto"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Andrea del Sarto festménye"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Andrea del Sarto"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Andrea del Sarto"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Andrea del Sarto"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Andrea del Sarto"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Andrea del Sarto"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Andrea del Sarto"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Andrea del Sarto"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Andrea del Sarto"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Andrea del Sarto"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Andrea del Sarto"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Andrea del Sarto"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Andrea del Sarto"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Andrea del Sarto"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture d'Andrea del Sarto"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$4C62B305-53E4-4DF0-8D6A-4A3DDFB64F28",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "63dfde34317c42529250ed4655d99cd3200b2bfd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d0a8ec9aa472dcc3e7bcd02766b9f15a603fd84b",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-11-22T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$124E1291-3DC4-4FFB-83E3-DCF8DC1ED2DB",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "63dfde34317c42529250ed4655d99cd3200b2bfd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d0a8ec9aa472dcc3e7bcd02766b9f15a603fd84b",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-11-22T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "32442acff3bd145a61bbd0b67fc5712a6a0bb800",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 106857709,
+                    "id": "Q106857709"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q59115342$4995145B-7BBC-4BC1-96D8-123309F2DAA0",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "63dfde34317c42529250ed4655d99cd3200b2bfd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d0a8ec9aa472dcc3e7bcd02766b9f15a603fd84b",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-11-22T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "d5476378aca27358a6a0f46a42bd30e05a1ad0ea",
+                "datavalue": {
+                  "value": {
+                    "amount": "+178",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q59115342$44E7B1C4-16D2-40A5-937B-A53F38688EB9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "63dfde34317c42529250ed4655d99cd3200b2bfd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d0a8ec9aa472dcc3e7bcd02766b9f15a603fd84b",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-11-22T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "59e6a6cf941778668133163cb39aae874880ceee",
+                "datavalue": {
+                  "value": {
+                    "amount": "+138",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q59115342$5027F149-12CD-4AD7-9124-757DE2EE6B86",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "63dfde34317c42529250ed4655d99cd3200b2bfd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d0a8ec9aa472dcc3e7bcd02766b9f15a603fd84b",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-11-22T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$B463DC60-0F8D-466E-8EEC-9AF9D55EFFA4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "63dfde34317c42529250ed4655d99cd3200b2bfd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d0a8ec9aa472dcc3e7bcd02766b9f15a603fd84b",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-11-22T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "93ecfb61b9506d9c111b3b412d736c6fa9e792cc",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5571,
+                    "id": "Q5571"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$7438883D-0F62-48FD-8B6D-4A58A5EB788D",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "63dfde34317c42529250ed4655d99cd3200b2bfd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d0a8ec9aa472dcc3e7bcd02766b9f15a603fd84b",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2018-11-22T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P17": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P17",
+                "hash": "be4c6eafa2984964f04be85667263f5642ba1a72",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 30,
+                    "id": "Q30"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$2304eeeb-474d-b0e9-f693-312fda210a5a",
+              "rank": "normal"
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "939ec5eaec6eee1bff2dc24ba68375977682b321",
+                "datavalue": {
+                  "value": "1937.577",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q59115342$69587bb5-4325-5376-2bf6-e344522dc157",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "8710f743b4041e3b9d60a24f2a1e7bda371173d7",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1937.577",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q59115342$B725A81E-0FED-48A0-A546-E87420B771C0",
+              "rank": "normal"
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$BB153616-250F-408E-B357-5BAFE649C19B",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f5161eb1faa7dd58aeac0b8021cb3f51f2f9f83c",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b13515cfeafe97320800dce08f7b0aace06b4060",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1937.577",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "9682a118df95f028c32a63c2950d08ad9d4663e4",
+                "datavalue": {
+                  "value": {
+                    "time": "+1527-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q59115342$2E09CB99-6101-44EE-A179-D71417911777",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f5161eb1faa7dd58aeac0b8021cb3f51f2f9f83c",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b13515cfeafe97320800dce08f7b0aace06b4060",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1937.577",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "a5bc8e159327e0da713e94806a4c268b49706e04",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P528": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P528",
+                "hash": "dc46f9720a65167a64ab236443dfa77a33d35f37",
+                "datavalue": {
+                  "value": "50",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P972": [
+                  {
+                    "snaktype": "value",
+                    "property": "P972",
+                    "hash": "ac29420be10c3842ea3abc51820c00c52e609bfe",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60997035,
+                        "id": "Q60997035"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P972"
+              ],
+              "id": "Q59115342$5051B793-203A-4CE0-BDAA-4F10BC66E6A0",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2474d70130b423471466ba191cbdaae90f5dfcdc",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "8d0714cecf95427323012b0392b55c6d84eb4a42",
+                        "datavalue": {
+                          "value": "https://archive.org/details/CMAPaintings1945/page/n59",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "e1891bc4cb70d50c0d7daadd27263a3695634e4b",
+                "datavalue": {
+                  "value": {
+                    "text": "Il sacrificio di Isacco",
+                    "language": "it"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q59115342$E8C5AC90-7671-41E0-A37F-57A7F851B948",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1f353b57b75942693d6618d07c06fd26792681eb",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "760272c1b6019a058abe893a4b0a96b7abbf49a7",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-03-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "9ad1ebd0e1c6d6d4316ee1a0adfdcb90423f4869",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Andrea_del_Sarto_-_Il_sacrificio_di_Isacco_(Cleveland).jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "dbdd740aaeecc10277f0d8898614bfaba088322d",
+                "datavalue": {
+                  "value": {
+                    "text": "The Sacrifice of Isaac",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q59115342$d9be0638-5c48-45c7-8bac-243a1f207d8b",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5fcb24d5134ce968406b7cd3ba8aab9873ecce8a",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b13515cfeafe97320800dce08f7b0aace06b4060",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1937.577",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P921": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P921",
+                "hash": "7d49c3c4fb967de2014c759e0ec6b8891b8348d0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5007906,
+                    "id": "Q5007906"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$451906F0-60A2-41E1-BA44-587006EF669D",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "d960cb76ecb248024b7446bd6fcca59788366315",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 2864737,
+                    "id": "Q2864737"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$7DD183BD-782B-438D-8E5A-21D89F235E21",
+              "rank": "normal"
+            }
+          ],
+          "P140": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P140",
+                "hash": "a5edfd29f5e8faff8d547ced0ece9e8f6773cd20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5043,
+                    "id": "Q5043"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q59115342$345AE7C1-3E34-4DFC-B078-9732C9BA8D82",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q59115342$80BBD0DC-8DB0-4E9B-B29E-0E0C38C4DB0E",
+              "rank": "normal"
+            }
+          ],
+          "P2671": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2671",
+                "hash": "edea9f8bc5e735b114cb2dfbd1f1ff5f89c6e7c0",
+                "datavalue": {
+                  "value": "/g/11h3bgyfzc",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q59115342$631DE45B-E461-4407-86DD-57B8ABCF399E",
+              "rank": "normal"
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "8ea9b4d5bf9aa4b9ac680681e786e62770c9ce20",
+                "datavalue": {
+                  "value": "Andrea del sarto, sacrificio di isacco, 1527 ca. 01.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q59115342$2eb205b4-4cf7-4736-78f9-e4fed30cc1a6",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "88c0734d368bf37fbe70b2caaadcfff409bf9168",
+                "datavalue": {
+                  "value": "Sacrifice of Isaac by Andrea del Sarto (Cleveland Museum of Art)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q59115342$310346b4-e1ce-49c4-abbe-aa6d36bb36fb",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "6295b4055e1fb293d87af28d4af6ab02a1e274a0",
+                "datavalue": {
+                  "value": "Andrea del Sarto - Il sacrificio di Isacco (Cleveland).jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q59115342$C82A8A90-D50D-4302-9071-1F18D1150002",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "37f1f72efc76113c29636e52680e5d0137ace6e2",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "1d35c8586dacc762c752d1872c3d8402198a0c3f",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-09-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "9ad1ebd0e1c6d6d4316ee1a0adfdcb90423f4869",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Andrea_del_Sarto_-_Il_sacrificio_di_Isacco_(Cleveland).jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {
+          "plwiki": {
+            "site": "plwiki",
+            "title": "Ofiarowanie Izaaka (obraz Andrei del Sarto)",
+            "badges": [],
+            "url": "https://pl.wikipedia.org/wiki/Ofiarowanie_Izaaka_(obraz_Andrei_del_Sarto)"
+          },
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Sacrifice of Isaac by Andrea del Sarto (Cleveland Museum of Art)",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Sacrifice_of_Isaac_by_Andrea_del_Sarto_(Cleveland_Museum_of_Art)"
+          }
+        }
+      }
+    }
+  }
+}

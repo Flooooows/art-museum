@@ -1,0 +1,841 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60502700.json",
+  "retrievedAt": "2026-10-29T15:45:51.933691+00:00",
+  "payload": {
+    "entities": {
+      "Q60502700": {
+        "pageid": 60373643,
+        "ns": 0,
+        "title": "Q60502700",
+        "lastrevid": 1680289356,
+        "modified": "2022-07-17T12:29:59Z",
+        "type": "item",
+        "id": "Q60502700",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Virgin and Child with Angels"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "(1916.802) painting by Filippo Lippi (Italian, c. 1406-1469)"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "59977ae0e9ef18773559f610d18f61bcf430acd8",
+                "datavalue": {
+                  "value": "1916.802",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60502700$51A46668-1303-4DB2-AE48-06AE319A3884",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aab6784ae384a3e3a52c516d3e123c2f7c39238b",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502700$19F48BF8-1E3C-4E55-9325-9EE1F3395AAF",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aab6784ae384a3e3a52c516d3e123c2f7c39238b",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502700$13F169AE-6A81-4CB9-98A2-E84B72B8AC7A",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aab6784ae384a3e3a52c516d3e123c2f7c39238b",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502700$F48E71D4-A947-469D-B067-03CDE64CD106",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aab6784ae384a3e3a52c516d3e123c2f7c39238b",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "78508c90c372c0df54b4735f1a266c130d57749b",
+                "datavalue": {
+                  "value": {
+                    "time": "+1460-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q60502700$6C9A185A-B764-4F5A-8BDC-6E181F27D127",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aab6784ae384a3e3a52c516d3e123c2f7c39238b",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "ef1b6a34945675620775dc7161a587355268f4c3",
+                "datavalue": {
+                  "value": {
+                    "amount": "+95.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60502700$64A80D9E-D993-4268-9302-48296B97DCA1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aab6784ae384a3e3a52c516d3e123c2f7c39238b",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "f6733ede29e85e27e0cf1d5a5de094e5dbadad2e",
+                "datavalue": {
+                  "value": {
+                    "amount": "+53.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60502700$7600F77D-EFDD-4C05-A151-AD11E08E3517",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "aab6784ae384a3e3a52c516d3e123c2f7c39238b",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "03ada97a99715c76d9543a354332a35e832c8c03",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "bf24382bf67107127255d54469b22459b9e59338",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1916.802",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60502700$E6EB28A1-D2F4-42D5-8392-E21528ED38FC",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "f89822164d9df6703206727f0ea01f61d3a55619",
+                "datavalue": {
+                  "value": "Filippo Lippi - Virgin and Child with Angels - 1916.802 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60502700$1AC26D48-24B3-42E5-8EC8-A029F4F35AE9",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "1204a91d87b7ec72e574a5a4f5c7406965b16f57",
+                "datavalue": {
+                  "value": "Clevelandart 1916.802.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60502700$f4e31a78-30d5-4812-8807-ed2d646a3b25",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fcd74afe801b52bec45ddc779e9d483794a926cb",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "40fee537b52553be38b5ed78e7854c2c2df89b06",
+                "datavalue": {
+                  "value": {
+                    "text": "Virgin and Child with Angels",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60502700$7570de6f-33dc-466c-bcb7-b1540a2ead94",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e6de41d7d33e78d969058c09553a7e3a7c46b94c",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a9894b9444ed3af474792a36549b8ed255e72dcb",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1916.802",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60502700$4DCE8622-E2DD-43FC-A64E-5371F7E3045E",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "b977830e9b47b6719736d14d9abe71235bd28a14",
+                "datavalue": {
+                  "value": "Virgin and Child with Angels (1916.802)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60502700$460A9132-8E94-4AF7-8A63-7246247F4AB7",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "ed0637a5495a48bbab4ede65627b63e1b813f6d5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 205148,
+                    "id": "Q205148"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502700$50cd74f2-435d-376d-7a82-72456b132a43",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "d960cb76ecb248024b7446bd6fcca59788366315",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 2864737,
+                    "id": "Q2864737"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502700$4caf0a49-4478-96eb-e125-01c7b882031c",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "05e4d1b08f51fbbf69bdc6aa5a9e86008c393aed",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 9309699,
+                    "id": "Q9309699"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502700$2f358f6a-4b58-754a-0a28-87b6bac01c6f",
+              "rank": "normal"
+            }
+          ],
+          "P140": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P140",
+                "hash": "a5edfd29f5e8faff8d547ced0ece9e8f6773cd20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5043,
+                    "id": "Q5043"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60502700$58D631F3-1546-4036-8E7B-37823BF69CDA",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Virgin and Child with Angels (1916.802)",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Virgin_and_Child_with_Angels_(1916.802)"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "5ea0ee836736e4e97a6544c3d60bc1ab102a91536652b4dc53343859544f876d"
+}

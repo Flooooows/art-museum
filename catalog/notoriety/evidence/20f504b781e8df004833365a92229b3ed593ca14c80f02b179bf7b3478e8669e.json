@@ -1,0 +1,511 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60759366.json",
+  "retrievedAt": "2026-10-29T15:51:35.100545+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60759366": {
+        "pageid": 60617184,
+        "ns": 0,
+        "title": "Q60759366",
+        "lastrevid": 1559195786,
+        "modified": "2022-01-09T13:57:19Z",
+        "type": "item",
+        "id": "Q60759366",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Bird-shaped Urn"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "ceramic by unknown artist (2007.276)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "6ee68415186058cb45b3bb17945d8f27a439b4ce",
+                "datavalue": {
+                  "value": "2007.276",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60759366$83A9A5F1-4E3A-44B3-863E-436B1CE74CB8",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60759366$23EC2CDB-08EB-43D4-9303-D29751220C05",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "c1344272a62e69da8975a0235fdf20e6d65eb8e2",
+                "datavalue": {
+                  "value": {
+                    "text": "Bird-shaped Urn",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60759366$DE227F7C-5C35-4A8C-9132-ACE4F9D938D6",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "a14d656a6b9512a8800e7a21b48d04d60534fa53",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/2007.276",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60759366$8790F473-B852-4560-BE35-549CA68F2092",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "90665b06cd9ba57bd523a339195fd4d8992056a6",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/2007.276",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60759366$dca6e7e9-9e51-42ed-85f3-380d9c9694b4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "77c9a17ac03e66b8562595a6ea0faaa07d610622",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0e0c3cec48737caea89238aa73d5266e375ac2b9",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.276",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60759366$6F7D143C-EE3E-4346-B59C-8706694E711D",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "561857967b3ec5027a893fdd68337ab0859041d0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 17379525,
+                    "id": "Q17379525"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60759366$2F6B338D-3AE2-47DD-9EE6-ABD6E9F6AA00",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "5b6767751318288e55cd7955f6aed9434941145e",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 13464614,
+                    "id": "Q13464614"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60759366$d7b1f403-c9b9-4ea5-b4f1-58af978ec7bc",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "77c9a17ac03e66b8562595a6ea0faaa07d610622",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0e0c3cec48737caea89238aa73d5266e375ac2b9",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.276",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "8e78010a738b65731dbdadd985cf19d01e447df4",
+                "datavalue": {
+                  "value": "Clevelandart 2007.276.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60759366$B41B29B1-CF6B-41B5-800D-20B413D6D8A7",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "7aae10cd60444a897701308aafa200fea295891c",
+                "datavalue": {
+                  "value": "Northwest China, Neolithic period, Majiayao culture, Banshan phase - Bird-shaped Urn - 2007.276 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60759366$a61e3c62-9e69-4619-b490-7b3d17eaef90",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "77c9a17ac03e66b8562595a6ea0faaa07d610622",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0e0c3cec48737caea89238aa73d5266e375ac2b9",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.276",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60759366$d4d40a2a-fb5c-491c-a2e5-9a0faf392f94",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8499cb1ab62601a00c143c035732870b190a97e1",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0e0c3cec48737caea89238aa73d5266e375ac2b9",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.276",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60759366$2fe1eeb1-0b10-4dfa-8243-6d258d3db2b3",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "05113265e55e0a9248b7d6e31ca8ad921e3f6d4b",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0e0c3cec48737caea89238aa73d5266e375ac2b9",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.276",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "637e58f4690eaf74d848542b510b3f555f0d4d28",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-22T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

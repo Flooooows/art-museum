@@ -1,0 +1,74 @@
+{
+  "checks": "Deux calculs sans réseau, comparaison SHA-256",
+  "generatedHashes": {
+    "catalog/notoriety/results.json": "5ef0129ae21d6f5dae51a3f6885d04d94f943211f15f5519f1d055d95d39fd42",
+    "catalog/notoriety/results.csv": "f938b35edbc93836943b563f1bf55abe20d7bd01666bfefa3d2ffa15abb272bc",
+    "catalog/notoriety/REPORT.md": "bf0ccf6282bd3445f69c46fe31df740eb68508c622596443b1cd0f02e83c6cba"
+  },
+  "protectedHashes": {
+    "src/catalog/seed.json": "a8dfba5ae05f4f6002e039095cc4d60fedeb204b6e8a22cb584c684b75e8e688",
+    "src/packRules.ts": "481b5825dd6e43f210e78486dc17c007d2c5d55ef8ec1dcda25d08c4be8860b8",
+    "src/collection.ts": "0542c24fd5a726ff02f4a0f5a72d01e31fc0213f98ee7bc552f52fc7532f0df2",
+    "MUSE_systeme_rarete.md": "b184be59a159eda5e47179ced67cb07c264867cd338cb6203e1f59bdd073fa8f"
+  },
+  "changed": [],
+  "modifiedProtected": [],
+  "seedMatchesCollection": true,
+  "summary": {
+    "works": 100,
+    "completeExploratoryScores": 4,
+    "incomplete": 96,
+    "availableCriteria": {
+      "P": 9,
+      "A": 43,
+      "H": 5,
+      "M": 100,
+      "C": 5
+    },
+    "activeDistribution": [
+      {
+        "label": "Esquisse",
+        "count": 43
+      },
+      {
+        "label": "Étude",
+        "count": 39
+      },
+      {
+        "label": "Composition",
+        "count": 14
+      },
+      {
+        "label": "Œuvre",
+        "count": 3
+      },
+      {
+        "label": "Pièce maîtresse",
+        "count": 1
+      }
+    ],
+    "completeSubsetDistribution": [
+      {
+        "label": "Esquisse",
+        "count": 0
+      },
+      {
+        "label": "Étude",
+        "count": 0
+      },
+      {
+        "label": "Composition",
+        "count": 0
+      },
+      {
+        "label": "Œuvre",
+        "count": 2
+      },
+      {
+        "label": "Pièce maîtresse",
+        "count": 2
+      }
+    ],
+    "unchangedActiveCatalog": true
+  }
+}

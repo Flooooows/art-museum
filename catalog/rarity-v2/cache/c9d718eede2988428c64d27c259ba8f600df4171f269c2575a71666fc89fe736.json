@@ -1,0 +1,106 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/204759",
+  "retrievedAt": "2026-10-29T14:08:18.717750+00:00",
+  "payload": {
+    "objectID": 204759,
+    "isHighlight": false,
+    "accessionNumber": "67.110.2",
+    "accessionYear": "1967",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DP-14050-001.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP-14050-001.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/es/original/DP-14050-002.jpg"
+    ],
+    "constituents": [
+      {
+        "constituentID": 161742,
+        "role": "Maker",
+        "name": "Studio of Antonio Canova",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115339",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5547",
+        "gender": ""
+      }
+    ],
+    "department": "European Sculpture and Decorative Arts",
+    "objectName": "Cast",
+    "title": "Head of Medusa",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Maker",
+    "artistPrefix": "Studio of",
+    "artistDisplayName": "Antonio Canova",
+    "artistDisplayBio": "Italian, Possagno 1757–1822 Venice",
+    "artistSuffix": "",
+    "artistAlphaSort": "Canova, Antonio",
+    "artistNationality": "Italian",
+    "artistBeginDate": "1757",
+    "artistEndDate": "1822",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5547",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115339",
+    "objectDate": "1806–7",
+    "objectBeginDate": 1806,
+    "objectEndDate": 1807,
+    "medium": "Plaster cast, with modern metal rod",
+    "dimensions": "confirmed, height including metal attachment rod: 14 7/8 × 13 × 12 3/4 in. (37.8 × 33 × 32.4 cm)\r\nHeight (confirmed, height head only): 12 1/2 in. (31.8 cm)",
+    "measurements": [
+      {
+        "elementName": "Height",
+        "elementDescription": "confirmed, height head only",
+        "elementMeasurements": {
+          "Height": 31.750063
+        }
+      },
+      {
+        "elementName": "Overall",
+        "elementDescription": "confirmed, height including metal attachment rod",
+        "elementMeasurements": {
+          "Depth": 32.385063,
+          "Height": 37.782574,
+          "Width": 33.020065
+        }
+      }
+    ],
+    "creditLine": "Fletcher Fund, 1967",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Sculpture",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-01-31T04:54:36.6Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/204759",
+    "tags": [
+      {
+        "term": "Heads",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300375054",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q3409626"
+      },
+      {
+        "term": "Medusa",
+        "AAT_URL": "http://vocab.getty.edu/page/ia/901000543",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q160730"
+      }
+    ],
+    "objectWikidata_URL": "https://www.wikidata.org/wiki/Q105100271",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "b59253f4ff12430d5b219fde46af656501576092fa6857403472c7472fdc2d07"
+}

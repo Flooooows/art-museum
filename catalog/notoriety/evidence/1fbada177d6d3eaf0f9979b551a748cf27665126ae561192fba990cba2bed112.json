@@ -1,0 +1,1262 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60515739.json",
+  "retrievedAt": "2026-10-29T15:45:46.725461+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60515739": {
+        "pageid": 60386521,
+        "ns": 0,
+        "title": "Q60515739",
+        "lastrevid": 2536900084,
+        "modified": "2026-08-27T01:21:58Z",
+        "type": "item",
+        "id": "Q60515739",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Portrait of a Man, possibly Girolamo Rosati"
+          },
+          "tr": {
+            "language": "tr",
+            "value": "Girolamo Rosati Portresi"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Lorenzo Lotto"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Lorenzo Lotto"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "peinture de Lorenzo Lotto"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Lorenzo Lotto"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "pintura de Lorenzo Lotto"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Lorenzo Lotto"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Lorenzo Lotto"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת לורנצו לוטו"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Lorenzo Lotto"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Lorenzo Lotto"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Lorenzo Lotto"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Lorenzo Lotto"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Lorenzo Lotto"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Lorenzo Lotto festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Lorenzo Lotto"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Lorenzo Lotto"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Lorenzo Lotto"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Lorenzo Lotto"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Lorenzo Lotto"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Lorenzo Lotto"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Lorenzo Lotto"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Lorenzo Lotto"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Lorenzo Lotto"
+          },
+          "tr": {
+            "language": "tr",
+            "value": "Lorenzo Lotto tablosu (Cleveland Sanat Müz., Ohio)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "ebe7cad8ad5ab0ea32ec14c4b9fa99896227c100",
+                "datavalue": {
+                  "value": "1950.250",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60515739$aa469694-63e8-4df9-a252-5158edbaa2a1",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "5da847b75951494c08d3e19ea4893d36152fd4cf",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "ebe7cad8ad5ab0ea32ec14c4b9fa99896227c100",
+                "datavalue": {
+                  "value": "1950.250",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "b7c56dc64379284057ec037b747a724fe9f13aba",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 42370205,
+                        "id": "Q42370205"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60515739$f1d8fffa-4b94-4d31-3735-245d805c5a79",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f9b11b2d25313ef00b6854ba8254e3f74f4eaf70",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "b455113ae63087f1b18c6148dae494d31c7251ee",
+                        "datavalue": {
+                          "value": "http://www.nepip.org/public/search/itemsearch.cfm?action=itmdetail&museum_id=9830&accession_num=1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$32ef31af-f2cd-4b6e-a5d9-e330c8ccd1e8",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5da847b75951494c08d3e19ea4893d36152fd4cf",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$3d26b0fc-29c1-431c-87ee-a8d651296da7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5da847b75951494c08d3e19ea4893d36152fd4cf",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$92e65a87-7102-4af5-9d73-8703855a73a4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5da847b75951494c08d3e19ea4893d36152fd4cf",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$f533506f-640b-4c0e-9848-5fd7421cceb4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5da847b75951494c08d3e19ea4893d36152fd4cf",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "2276ba6f3bd45e3014bbf0141ff11aec3a0a216a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 12321255,
+                    "id": "Q12321255"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60515739$95edd18e-3541-45af-a6fe-7cc5a835f110",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5da847b75951494c08d3e19ea4893d36152fd4cf",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "fbde6036d37ab6c461afeeef6a63a305b7d16b57",
+                "datavalue": {
+                  "value": {
+                    "amount": "+108.2",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515739$814a9d58-adbc-42fc-bb89-fed0f3f8d91b",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5da847b75951494c08d3e19ea4893d36152fd4cf",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "f899ab468ba36648b8695504affe66e02b4a6b41",
+                "datavalue": {
+                  "value": {
+                    "amount": "+100.49999999999999",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515739$0436935c-9af8-44da-b45a-f420fa60e14c",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "5da847b75951494c08d3e19ea4893d36152fd4cf",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "7cbc56f596d5449468ac09ced556b47853199b4c",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 310973,
+                    "id": "Q310973"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$C13CDAB4-809A-4C85-A83E-8192485E4504",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "72f9b222af9389d62733057d2556284e71e6722d",
+                "datavalue": {
+                  "value": "Lorenzo Lotto - Portrait of a Man, possibly Girolamo Rosati - 1950.250 - Cleveland Museum of Art.tiff",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60515739$f58d94f2-6e28-475a-a9e3-c57f07ecde12",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "991a05b46f1b1fe39d56fe5f3e85a225a311cb08",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 134307,
+                    "id": "Q134307"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$9AF446CE-2E0E-4898-8E79-11A06C5748CE",
+              "rank": "normal"
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "d30e272d6fbfc36f1b6f1ab966d2708836c18373",
+                "datavalue": {
+                  "value": {
+                    "time": "+1533-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 8,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1319": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1319",
+                    "hash": "e1872d746072d0e6390a14d9499cb99332eec697",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1533-01-01T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ],
+                "P1326": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1326",
+                    "hash": "ea17a3968025f307818ecbb09f6f632dc2cda902",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1534-01-01T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1319",
+                "P1326"
+              ],
+              "id": "Q60515739$7af85bd1-d075-473a-bded-811cb8a55257",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "69ece20a134469f970c9e29bb9def1faf69dd5ea",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "eee5707f0b0efb54f6e30ec2e7017594e9331106",
+                "datavalue": {
+                  "value": {
+                    "text": "Portrait of a Man, possibly Girolamo Rosati",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60515739$3adaf3fe-3329-4f06-9ccf-92fdf71593b9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "69ece20a134469f970c9e29bb9def1faf69dd5ea",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60515739$31522042-A7BB-49FA-9A1C-F49AC624A92C",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "624f6bb04bf01b3ced6a46aa61cbae1912a545dd",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 38,
+                    "id": "Q38"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$130d01d7-79a5-4f6e-ba3e-521160dffddc",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "db7c98d090d3567237db63ef4f954bd768ebd3ae",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "72a4417df1336962e0a94ebdd0861a052ca5871c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "2dcd540f8c6461d60b53c19146cc6840dd10ec5d",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "fbc2c6f111573f393666165223d3c84b940325a9",
+                "datavalue": {
+                  "value": "Portrait of a Man, possibly Girolamo Rosati (1950.250)",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60515739$aff69c9d-4658-533c-c7c1-84b1aad4bc5f",
+              "rank": "normal"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "8a8938e25d9553a438d06d6d41c12cd585d661f5",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 110969456,
+                    "id": "Q110969456"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P580": [
+                  {
+                    "snaktype": "value",
+                    "property": "P580",
+                    "hash": "46991eb89199bb267fa2c3516d823837b3614912",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1923-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P580"
+              ],
+              "id": "Q60515739$c11f7d66-4554-4a68-f06e-e0bb2dc6614d",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "c46294d1d54fd057e45d2d2c4104e897f0e10b04",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "ecaf6048e86f8a7ade1b64eb0e53aa7a1f908639",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1950.250",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1683": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1683",
+                        "hash": "59e283c93a47244c05590c12ba1316d33c3d024a",
+                        "datavalue": {
+                          "value": {
+                            "text": "Imperial collection, Vienna;- 1923 Kunsthistorisches Museum (Vienna, Austria), sold to Moritz Lindemann, 1923;1923 Moritz Lindemann (Vienna, Austria),sold to Wilhelm von Ofenheim, 1923;1923 - 1930 Wilhelm von Ofenheim, 1860-1930 (Vienna, Austria), upon his death, held in trust by his heirs, 1930;1930 - 1939 Von Ofenheim family trust, sold to Rosenberg and Stiebel, 1939;[Rosenberg & Stiebel, New York], sold to the Cleveland Museum of Art, 1950.",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1683"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P11110": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P11110",
+                "hash": "2927c821f3a23ff39082f76d68072d5d6f833854",
+                "datavalue": {
+                  "value": "1950.250",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q60515739$619f5382-4533-6c5f-6584-f7f6138fe48e",
+              "rank": "normal"
+            }
+          ],
+          "P7420": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7420",
+                "hash": "bd9eb5bb23f772051ef75781e449f4eef38d9148",
+                "datavalue": {
+                  "value": "Lorenzo lotto, ritratto d'uomo, forse girolamo rosati, 1533-34, 01.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60515739$1f02a339-491b-fb73-3103-3b89830f0bee",
+              "rank": "normal"
+            }
+          ],
+          "P17": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P17",
+                "hash": "be4c6eafa2984964f04be85667263f5642ba1a72",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 30,
+                    "id": "Q30"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$f3340506-4475-169e-77c7-d739423c5443",
+              "rank": "normal"
+            }
+          ],
+          "P135": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P135",
+                "hash": "d752c7e699d510436f9039843cbd42bf55abd335",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 610687,
+                    "id": "Q610687"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515739$ebffc210-42d7-e617-15ac-8145944428ab",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Portrait of a Man, possibly Girolamo Rosati (1950.250)",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Portrait_of_a_Man,_possibly_Girolamo_Rosati_(1950.250)"
+          }
+        }
+      }
+    }
+  }
+}

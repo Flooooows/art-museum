@@ -1,0 +1,619 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60753721.json",
+  "retrievedAt": "2026-10-29T15:51:04.393721+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60753721": {
+        "pageid": 60612082,
+        "ns": 0,
+        "title": "Q60753721",
+        "lastrevid": 1851331993,
+        "modified": "2023-03-13T15:39:52Z",
+        "type": "item",
+        "id": "Q60753721",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Cabinet"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "furniture and woodwork by Carlo Bugatti (Italian, 1856-1940) (1984.177)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "824524a189e2794568a3dc8c40f01bb325cc7b7c",
+                "datavalue": {
+                  "value": "1984.177",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60753721$0CCD72C2-210A-4D41-BD3D-D457F5CE5508",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60753721$18B90F01-6CDB-4279-83C0-057BB2C0F8AF",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "5ad336ccc0c46ac127008c95d7f8f7a36388e54d",
+                "datavalue": {
+                  "value": {
+                    "text": "Cabinet",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60753721$C0D3F0C9-7471-412F-BC1F-6535031C0A93",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "f9f1f1e9cf8fa296f9b823f6fdc81715a44a58e2",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1984.177",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60753721$AAE6A8F9-057D-423D-AF1B-8248C6F8B4AE",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "05d3abd47d44a5d023db9abae308672365beeb88",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1984.177",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60753721$6935803c-4455-4fe5-8195-ebd0f98bf7e1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "146cf21cfb3078f1fb4779badb973bd893dda568",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf520b139c57e6d82ded4a733df66b9063d11e9a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1984.177",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60753721$AF1A252A-959E-4AB3-A8A9-85B772F689E0",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "650d6915457d16988c56081d410b8631b60923e8",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 14745,
+                    "id": "Q14745"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60753721$C8A8DED2-1511-4300-8CAD-3BC07B0477BE",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "93f61a88768602fdfa9be3c1adfab8cc1b3ccce2",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60734095,
+                    "id": "Q60734095"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60753721$d4ae3ece-6780-4b73-943e-4b834f0293b9",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "146cf21cfb3078f1fb4779badb973bd893dda568",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf520b139c57e6d82ded4a733df66b9063d11e9a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1984.177",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "26e3d67e738324b5f180d0cf9057d0a00e565adc",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 549250,
+                    "id": "Q549250"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60753721$64BABFB0-510C-4037-801C-9331CE75A994",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "972378dffe23ee8b63072a4aa15f141d24bfda57",
+                "datavalue": {
+                  "value": "Clevelandart 1984.177.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60753721$ADC2074F-FA7F-4956-ACBD-2CEC4B603ADB",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "b28ba2b5edd060facb6d922110686bd89fae32b4",
+                "datavalue": {
+                  "value": "Carlo Bugatti - Cabinet - 1984.177 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60753721$8b5f0905-ff45-4b3b-a934-aee7cb05c599",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "146cf21cfb3078f1fb4779badb973bd893dda568",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf520b139c57e6d82ded4a733df66b9063d11e9a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1984.177",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60753721$4935fb86-b3e7-4f03-9dec-a09a851def20",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "146cf21cfb3078f1fb4779badb973bd893dda568",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf520b139c57e6d82ded4a733df66b9063d11e9a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1984.177",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60753721$43401ef1-aa6f-4beb-9971-5fbd60b51e0d",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e570bb2b5761e7083aaf3e7727fccf0c3950bfa6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf520b139c57e6d82ded4a733df66b9063d11e9a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1984.177",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "031a988ca4a3f367a0f1df2961d529aa87c6093e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "65894c4f5cef7dc8a9447dc22840d8ed068bab43",
+                "datavalue": {
+                  "value": {
+                    "time": "+1895-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q60753721$42ae35f6-b016-4eb3-988f-b62dcf36a9e7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e570bb2b5761e7083aaf3e7727fccf0c3950bfa6",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cf520b139c57e6d82ded4a733df66b9063d11e9a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1984.177",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "031a988ca4a3f367a0f1df2961d529aa87c6093e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

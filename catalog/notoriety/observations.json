@@ -1,0 +1,3965 @@
+{
+  "schemaVersion": 1,
+  "period": {
+    "start": "2025-10-01",
+    "end": "2026-09-30",
+    "days": 365
+  },
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "access": "all-access",
+  "agent": "user",
+  "trends": {
+    "status": "not_collected",
+    "reason": "Pas d’export Google Trends comparable ; aucune valeur supposée."
+  },
+  "seedSha256": "a8dfba5ae05f4f6002e039095cc4d60fedeb204b6e8a22cb584c684b75e8e688",
+  "works": [
+    {
+      "id": "437654",
+      "title": "Parade de cirque",
+      "creator": "Georges Seurat",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/437654",
+      "institutionEvidence": "catalog/evidence/met-437654.json",
+      "objectQid": "Q3823444",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/b9cfd3de688dfcfa63713263f52ea74c67d7ea2b61d6cbd3918216a559b5a276.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q3823444",
+        "label": "The Circus Parade",
+        "identityEvidence": "catalog/notoriety/evidence/b9cfd3de688dfcfa63713263f52ea74c67d7ea2b61d6cbd3918216a559b5a276.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "fr",
+            "title": "Parade de cirque",
+            "url": "https://fr.wikipedia.org/wiki/Parade_de_cirque",
+            "status": "measured",
+            "views": 2266,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/e4900273be7a335ab56832dd7bf0fb344e2bc6e8f1fc062355ee34c06e447f96.json"
+            ]
+          },
+          {
+            "language": "en",
+            "title": "Parade de cirque",
+            "url": "https://en.wikipedia.org/wiki/Parade_de_cirque",
+            "status": "measured",
+            "views": 12004,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/87f954dfbc50012a52ff0c2c2622ad0a164cadb678bb9e30b7d50cb443bb5286.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q34013",
+          "label": "Georges Seurat",
+          "identityEvidence": "catalog/notoriety/evidence/5ce0a4819e8392c7907d6294b8ebe09b50c2afbfd1fee5299bae8e6a9825e2bb.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Georges Seurat",
+              "url": "https://fr.wikipedia.org/wiki/Georges_Seurat",
+              "status": "measured",
+              "views": 44577,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/ba488e589b7c69ac26fdc65b9348f6eff8a7dc8ad987b11027616f10326a83fb.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Georges Seurat",
+              "url": "https://en.wikipedia.org/wiki/Georges_Seurat",
+              "status": "measured",
+              "views": 240322,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/d0534f5de45f0fefa77472cff7cd8b3a6e0705ba43a7465f40aaab703070e766.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "436105",
+      "title": "La Mort de Socrate",
+      "creator": "Jacques Louis David",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436105",
+      "institutionEvidence": "catalog/evidence/met-436105.json",
+      "objectQid": "Q1752990",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/f4fccc0cd0f9c35acdce82b4a4e5ac5f533060a00935801d268c4ab2cccf0fd9.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q1752990",
+        "label": "The Death of Socrates",
+        "identityEvidence": "catalog/notoriety/evidence/f4fccc0cd0f9c35acdce82b4a4e5ac5f533060a00935801d268c4ab2cccf0fd9.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "fr",
+            "title": "La Mort de Socrate (David)",
+            "url": "https://fr.wikipedia.org/wiki/La_Mort_de_Socrate_%28David%29",
+            "status": "measured",
+            "views": 15999,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/6dbe180d48df7645fee3d3dfb7c70c1b794a2de6f752c3ca8165587bd9ea5f4d.json"
+            ]
+          },
+          {
+            "language": "en",
+            "title": "The Death of Socrates",
+            "url": "https://en.wikipedia.org/wiki/The_Death_of_Socrates",
+            "status": "measured",
+            "views": 163887,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/6478fc1a65bf4b0a8c2b60429b37d3859780a6bd567e73bc145ef1b30398d79e.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q83155",
+          "label": "Jacques-Louis David",
+          "identityEvidence": "catalog/notoriety/evidence/90d8804860d92a8611e83c99cd145038b5800d3ebf0aac22e09d5a073cca3b14.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Jacques-Louis David",
+              "url": "https://fr.wikipedia.org/wiki/Jacques-Louis_David",
+              "status": "measured",
+              "views": 159889,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/ec1c624426d653884af00726890eecd3df1487adcbc9b97b457876d9592d0b33.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Jacques-Louis David",
+              "url": "https://en.wikipedia.org/wiki/Jacques-Louis_David",
+              "status": "measured",
+              "views": 247678,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/e8c40c03d9d6a8eae458a9aa949f2b7879acb1948965d188050e19ae4c21cb7f.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "436535",
+      "title": "Champ de blé avec cyprès",
+      "creator": "Vincent van Gogh",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/436535",
+      "institutionEvidence": "catalog/evidence/met-436535.json",
+      "objectQid": "Q18689458",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/e36d98ecb6a6f60a17a6907f31214c54caceec6f4dc2304931da367c6e87d0fe.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q18689458",
+        "label": "Wheat Field with Cypresses",
+        "identityEvidence": "catalog/notoriety/evidence/e36d98ecb6a6f60a17a6907f31214c54caceec6f4dc2304931da367c6e87d0fe.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q5582",
+          "label": "Vincent van Gogh",
+          "identityEvidence": "catalog/notoriety/evidence/67dacdf6d9927d05dba51e4d58d8dbe1143fa40791b8131e5401ce689d3e9186.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Vincent van Gogh",
+              "url": "https://fr.wikipedia.org/wiki/Vincent_van_Gogh",
+              "status": "measured",
+              "views": 362109,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/3234ba81ea270d89f314dadf108bc4a1b891a9a1232bdaadbfd06a0f6ada58a3.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Vincent van Gogh",
+              "url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+              "status": "measured",
+              "views": 1953827,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/5404cc053963c3051b27e36aec45718493cc54e9f2766d239938498f8c19b60b.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "45434",
+      "title": "La Grande Vague de Kanagawa",
+      "creator": "Katsushika Hokusai",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/45434",
+      "institutionEvidence": "catalog/evidence/met-45434.json",
+      "objectQid": "Q28912605",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/ca496e9c0e03197259971031c891953ad44d674d0649b4669898972e759fa832.json",
+      "audienceScope": "composition",
+      "workAudience": {
+        "qid": "Q252485",
+        "label": "The Great Wave off Kanagawa",
+        "identityEvidence": "catalog/notoriety/evidence/c70349e431f3f8c97cca214d7f28d2146bd997dcb04c91a7deda139044276a78.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "fr",
+            "title": "La Grande Vague de Kanagawa",
+            "url": "https://fr.wikipedia.org/wiki/La_Grande_Vague_de_Kanagawa",
+            "status": "measured",
+            "views": 221710,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/3a43937f780f6462bcfab2633d072998b732d440c0c0ffdae7b4f965be340eaf.json"
+            ]
+          },
+          {
+            "language": "en",
+            "title": "The Great Wave off Kanagawa",
+            "url": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa",
+            "status": "measured",
+            "views": 742112,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/89c0c38962b0479d4e38f7441bac2be5922e28f575f4bf35a6ff90eb17b2853e.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q5586",
+          "label": "Katsushika Hokusai",
+          "identityEvidence": "catalog/notoriety/evidence/b6f79c07fb2e615fd0ac6831de08bba2ea167d14a304dfe2e1e6540fe3aa7b8b.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Hokusai",
+              "url": "https://fr.wikipedia.org/wiki/Hokusai",
+              "status": "measured",
+              "views": 67717,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/05e1560eb46f9fde4c7389e95c43ec69acb4f0e0b96a2335644edfc609769532.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Hokusai",
+              "url": "https://en.wikipedia.org/wiki/Hokusai",
+              "status": "measured",
+              "views": 368641,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/ec34f18b5bc7455f37314eca23ef920a9d508701d51d7433e578edee3eaa0743.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": false
+      }
+    },
+    {
+      "id": "mona-lisa",
+      "title": "La Joconde",
+      "creator": "Léonard de Vinci",
+      "sourceUrl": "https://collections.louvre.fr/ark:/53355/cl010062370",
+      "institutionEvidence": "catalog/evidence/commons-mona-lisa.json",
+      "objectQid": "Q12418",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/c334fd9f764739d981dde4439332ed61ee03dfe0af4026b861bfaa22931b52ab.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q12418",
+        "label": "Mona Lisa",
+        "identityEvidence": "catalog/notoriety/evidence/c334fd9f764739d981dde4439332ed61ee03dfe0af4026b861bfaa22931b52ab.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "fr",
+            "title": "La Joconde",
+            "url": "https://fr.wikipedia.org/wiki/La_Joconde",
+            "status": "measured",
+            "views": 354397,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/32d10384e4eb150c29536c34886c4f9ef42e8dc30c2afdfca0d6e8ae1735b12a.json"
+            ]
+          },
+          {
+            "language": "en",
+            "title": "Mona Lisa",
+            "url": "https://en.wikipedia.org/wiki/Mona_Lisa",
+            "status": "measured",
+            "views": 1917595,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/ec2793d14c68194fcead2444e935689fe11ffd20bf3b10cfadb30f2f231f97e7.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q762",
+          "label": "Leonardo da Vinci",
+          "identityEvidence": "catalog/notoriety/evidence/b53e1c8581023159d11832650951c94cad99ef925154a9b6a63839bd46ab5082.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Léonard de Vinci",
+              "url": "https://fr.wikipedia.org/wiki/L%C3%A9onard_de_Vinci",
+              "status": "measured",
+              "views": 419473,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/0f30f61d0757f045dd44111ff7537554acbc4a77e26bb072309ec181930104b6.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Leonardo da Vinci",
+              "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+              "status": "measured",
+              "views": 2072683,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/d9ced420d9e8de43022a508573fa1d1f2db3c64bae7304c90cfdb82a6035b67d.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": null
+      }
+    },
+    {
+      "id": "544453",
+      "title": "Tête d’Aménophis Ier",
+      "creator": "Égypte ancienne · XVIIIe dynastie",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/544453",
+      "institutionEvidence": "catalog/evidence/met-544453.json",
+      "objectQid": "Q29385794",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/b7a31fc99d94a64c9491613af9644e0532a7214c1358d8a95600607d0fd7060e.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q29385794",
+        "label": "Head from a Statue of King Amenhotep I",
+        "identityEvidence": "catalog/notoriety/evidence/b7a31fc99d94a64c9491613af9644e0532a7214c1358d8a95600607d0fd7060e.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "544184",
+      "title": "Visage de Sésostris III",
+      "creator": "Égypte ancienne · XIIe dynastie",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/544184",
+      "institutionEvidence": "catalog/evidence/met-544184.json",
+      "objectQid": "Q29385767",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/60dc9c1b008a2f656a4a3b9228127ca7ad2571f511b807b354a15b1a404f610d.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q29385767",
+        "label": "Face of Senwosret III",
+        "identityEvidence": "catalog/notoriety/evidence/60dc9c1b008a2f656a4a3b9228127ca7ad2571f511b807b354a15b1a404f610d.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "544450",
+      "title": "Hatchepsout assise",
+      "creator": "Égypte ancienne · XVIIIe dynastie",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/544450",
+      "institutionEvidence": "catalog/evidence/met-544450.json",
+      "objectQid": "Q29385790",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/d3a30b2a89232c78ec731f6bc1379295d596c233f42c75de766fbfeef17ddfdc.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q29385790",
+        "label": "Seated Statue of Hatshepsut",
+        "identityEvidence": "catalog/notoriety/evidence/d3a30b2a89232c78ec731f6bc1379295d596c233f42c75de766fbfeef17ddfdc.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "544442",
+      "title": "Sphinx d’Hatchepsout",
+      "creator": "Égypte ancienne · XVIIIe dynastie",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/544442",
+      "institutionEvidence": "catalog/evidence/met-544442.json",
+      "objectQid": "Q29385787",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/52d7d491ed6580fe1dc9ae610304577541c2e889ec6034c8239a827596149999.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q29385787",
+        "label": "Sphinx of Hatshepsut",
+        "identityEvidence": "catalog/notoriety/evidence/52d7d491ed6580fe1dc9ae610304577541c2e889ec6034c8239a827596149999.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "544227",
+      "title": "L’Hippopotame « William »",
+      "creator": "Égypte ancienne · Moyen Empire",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/544227",
+      "institutionEvidence": "catalog/evidence/met-544227.json",
+      "objectQid": "Q137836",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/ef9d608272ce698b663cefa3af680cf920e7c7209aadd7aca270d944da7171b7.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q137836",
+        "label": "William the Hippopotamus",
+        "identityEvidence": "catalog/notoriety/evidence/ef9d608272ce698b663cefa3af680cf920e7c7209aadd7aca270d944da7171b7.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "fr",
+            "title": "William l'hippopotame en faïence",
+            "url": "https://fr.wikipedia.org/wiki/William_l%27hippopotame_en_fa%C3%AFence",
+            "status": "measured",
+            "views": 2678,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/d83df210202128a3057f31a6f5fbfcfe0734d1bae7adbbaf144ecce85b42e265.json"
+            ]
+          },
+          {
+            "language": "en",
+            "title": "William (hippopotamus figurine)",
+            "url": "https://en.wikipedia.org/wiki/William_%28hippopotamus_figurine%29",
+            "status": "unavailable_or_incomplete",
+            "views": null,
+            "months": 11,
+            "evidence": [
+              "catalog/notoriety/evidence/e7a66162ca68b20891c819db5ef1648a932da934185b1c6082a86c78c0169750.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "820892",
+      "title": "Vase aux motifs naturalistes",
+      "creator": "Tiffany & Co.",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/820892",
+      "institutionEvidence": "catalog/evidence/met-820892.json",
+      "objectQid": "Q104413142",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/c5bebd6996364d5833a74b59fbb66eab278d0026050b7a4048c4a72a6b18e240.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q104413142",
+        "label": "Vase",
+        "identityEvidence": "catalog/notoriety/evidence/c5bebd6996364d5833a74b59fbb66eab278d0026050b7a4048c4a72a6b18e240.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q1066858",
+          "label": "Tiffany & Co.",
+          "identityEvidence": "catalog/notoriety/evidence/87a256aa693505b3c1e7263139273ef9b2de96628b05a0a4f487b194a81008b8.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Tiffany & Co.",
+              "url": "https://fr.wikipedia.org/wiki/Tiffany_%26_Co.",
+              "status": "measured",
+              "views": 23602,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/abe3e0649caa3210a6443c829f9daee46acb1c0b9dfe75785198d397644ad9e6.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Tiffany & Co.",
+              "url": "https://en.wikipedia.org/wiki/Tiffany_%26_Co.",
+              "status": "measured",
+              "views": 217275,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/9427a9e47a9afbbfb0043a8b35fd7d4b31fb03eba1728e91b3070ea152d669f0.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": false
+      }
+    },
+    {
+      "id": "20804",
+      "title": "Vase en argent",
+      "creator": "Tiffany & Co.",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/20804",
+      "institutionEvidence": "catalog/evidence/met-20804.json",
+      "objectQid": "Q104413008",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/8afaa70176de56d441e97076d2dc0005399d9067fe98a6397ea7841f41fb9095.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q104413008",
+        "label": "Vase",
+        "identityEvidence": "catalog/notoriety/evidence/8afaa70176de56d441e97076d2dc0005399d9067fe98a6397ea7841f41fb9095.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": false
+      }
+    },
+    {
+      "id": "35",
+      "title": "Le Vase Adams",
+      "creator": "Paulding Farnham · Tiffany & Co.",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/35",
+      "institutionEvidence": "catalog/evidence/met-35.json",
+      "objectQid": "Q83545838",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/1ccfd940d35a7b536339166c6e420e8d0e27add9797869b128685c4e0c8f3ed5.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q83545838",
+        "label": "The Adams Vase",
+        "identityEvidence": "catalog/notoriety/evidence/1ccfd940d35a7b536339166c6e420e8d0e27add9797869b128685c4e0c8f3ed5.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": false
+      }
+    },
+    {
+      "id": "9480",
+      "title": "Vase en verre Favrile",
+      "creator": "Louis Comfort Tiffany",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/9480",
+      "institutionEvidence": "catalog/evidence/met-9480.json",
+      "objectQid": "Q29382969",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/f9ca5ee25836547617f14b197cbe8454147e2322efd532ec31f06f8bf85fa0fe.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q29382969",
+        "label": "Vase",
+        "identityEvidence": "catalog/notoriety/evidence/f9ca5ee25836547617f14b197cbe8454147e2322efd532ec31f06f8bf85fa0fe.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q312950",
+          "label": "Louis Comfort Tiffany",
+          "identityEvidence": "catalog/notoriety/evidence/14351b4c36132b6869912f98104ff917c54bb6368d022fccee402bf2cee9eb3c.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Louis Comfort Tiffany",
+              "url": "https://fr.wikipedia.org/wiki/Louis_Comfort_Tiffany",
+              "status": "measured",
+              "views": 7772,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/1705380e90485a4a9d7adfbbc6ff2d137b3c7bd33808b536efdfb60ab4ccb72c.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Louis Comfort Tiffany",
+              "url": "https://en.wikipedia.org/wiki/Louis_Comfort_Tiffany",
+              "status": "measured",
+              "views": 113223,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/d5d6d16ae3ac30731bc60517fe7ce0b75b8d69822c135b1351e6af13d41a3383.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "1085",
+      "title": "Cabinet aux incrustations",
+      "creator": "Charles Tisch",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/1085",
+      "institutionEvidence": "catalog/evidence/met-1085.json",
+      "objectQid": null,
+      "objectIdentityEvidence": null,
+      "audienceScope": "exact_object",
+      "workAudience": null,
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": false
+      }
+    },
+    {
+      "id": "544864",
+      "title": "La Déesse hippopotame",
+      "creator": "Égypte ancienne · Époque ptolémaïque",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/544864",
+      "institutionEvidence": "catalog/evidence/met-544864.json",
+      "objectQid": "Q29385853",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/356573fd75c4beed0c46e0099e99c66afe536bc4dfb88fe9eb4caef2b7c8fbe2.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q29385853",
+        "label": "Statuette of the Goddess Taweret",
+        "identityEvidence": "catalog/notoriety/evidence/356573fd75c4beed0c46e0099e99c66afe536bc4dfb88fe9eb4caef2b7c8fbe2.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "250945",
+      "title": "Persée et Andromède",
+      "creator": "Atelier romain",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/250945",
+      "institutionEvidence": "catalog/evidence/met-250945.json",
+      "objectQid": "Q29383811",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/9fa7d95e7bec91cb979aa16213ff25d194bbd377d11d7e48d06f13e0cfe6a9fd.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q29383811",
+        "label": "Wall painting: Perseus and Andromeda in landscape, from the imperial villa at Boscotrecase",
+        "identityEvidence": "catalog/notoriety/evidence/9fa7d95e7bec91cb979aa16213ff25d194bbd377d11d7e48d06f13e0cfe6a9fd.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "204759",
+      "title": "Tête de Méduse",
+      "creator": "Atelier d’Antonio Canova",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/204759",
+      "institutionEvidence": "catalog/evidence/met-204759.json",
+      "objectQid": "Q105100271",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/f0ef524b71e006ea57c5db891ae7f1ff53f47932be2a14235940d50662e28a84.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q105100271",
+        "label": "Head of Medusa",
+        "identityEvidence": "catalog/notoriety/evidence/f0ef524b71e006ea57c5db891ae7f1ff53f47932be2a14235940d50662e28a84.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": false
+      }
+    },
+    {
+      "id": "204758",
+      "title": "Persée tenant la tête de Méduse",
+      "creator": "Antonio Canova",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/204758",
+      "institutionEvidence": "catalog/evidence/met-204758.json",
+      "objectQid": "Q29383614",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/51322fe17d973e0fe11baa5628be93707b26285cd5a35b5a4c2811c29a33d13c.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q29383614",
+        "label": "Perseus with the Head of Medusa",
+        "identityEvidence": "catalog/notoriety/evidence/51322fe17d973e0fe11baa5628be93707b26285cd5a35b5a4c2811c29a33d13c.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q5547",
+          "label": "Antonio Canova",
+          "identityEvidence": "catalog/notoriety/evidence/b0673b0d7ac66a02d6747cd7ddeb3d80f39c273cf5610065e8bc057ad6d8ef21.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Antonio Canova",
+              "url": "https://fr.wikipedia.org/wiki/Antonio_Canova",
+              "status": "measured",
+              "views": 15201,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/ff72a9cb2727b974ae6ed7ab55bf1be947f8bc6b257a69bc4c60a39441dc362a.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Antonio Canova",
+              "url": "https://en.wikipedia.org/wiki/Antonio_Canova",
+              "status": "measured",
+              "views": 61790,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/d3b9f6476405841968cf796e15b9c8434012a6c7e75ea8864ad8738922ee6f6d.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "467642",
+      "title": "La Licorne captive",
+      "creator": "Ateliers des Pays-Bas du Sud",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/467642",
+      "institutionEvidence": "catalog/evidence/met-467642.json",
+      "objectQid": "Q18683189",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/f9fc3b6efe5e99b97b19ab124d15de41f60a729fb44d14b1475752fb1a2e5136.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q18683189",
+        "label": "The Unicorn in Captivity",
+        "identityEvidence": "catalog/notoriety/evidence/f9fc3b6efe5e99b97b19ab124d15de41f60a729fb44d14b1475752fb1a2e5136.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "en",
+            "title": "The Unicorn in Captivity",
+            "url": "https://en.wikipedia.org/wiki/The_Unicorn_in_Captivity",
+            "status": "measured",
+            "views": 15949,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/72ae642cd2a6328a011b3e331f212f054f233efab77bfe77d869a99a3a892fab.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": null,
+        "exhibitions": null,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-127571",
+      "title": "Portrait d’un homme, peut-être Girolamo Rosati",
+      "creator": "Lorenzo Lotto",
+      "sourceUrl": "https://clevelandart.org/art/1950.250",
+      "institutionEvidence": "catalog/evidence/cma-127571.json",
+      "objectQid": "Q60515739",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/1fbada177d6d3eaf0f9979b551a748cf27665126ae561192fba990cba2bed112.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60515739",
+        "label": "Portrait of a Man, possibly Girolamo Rosati",
+        "identityEvidence": "catalog/notoriety/evidence/1fbada177d6d3eaf0f9979b551a748cf27665126ae561192fba990cba2bed112.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q310973",
+          "label": "Lorenzo Lotto",
+          "identityEvidence": "catalog/notoriety/evidence/aac6f990570b2d1b7b7ead6ac135e5677b981ca7f45280d06d6e889f7c4a75c7.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Lorenzo Lotto",
+              "url": "https://fr.wikipedia.org/wiki/Lorenzo_Lotto",
+              "status": "measured",
+              "views": 4663,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/97d422ba5b6548463cd64d9d3cec0a92e1431cf44d5bbf4fb9f3d23aa5bb8d60.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Lorenzo Lotto",
+              "url": "https://en.wikipedia.org/wiki/Lorenzo_Lotto",
+              "status": "measured",
+              "views": 16123,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/a299f3e6a61624501c3b0a27ad57ccb95274eb1b3bb3afa4ad8d7681fefbc615.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 35,
+        "exhibitions": 11,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-113202",
+      "title": "La Sainte Famille avec saint Jean-Baptiste et sainte Marguerite",
+      "creator": "Filippino Lippi",
+      "sourceUrl": "https://clevelandart.org/art/1932.227",
+      "institutionEvidence": "catalog/evidence/cma-113202.json",
+      "objectQid": "Q60513856",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/c6d0c3dc87f6528fa2c741302d8060e98d7dbdd871442eb4b62a19c696c994e4.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60513856",
+        "label": "The Holy Family with Saint John the Baptist and Saint Margaret",
+        "identityEvidence": "catalog/notoriety/evidence/c6d0c3dc87f6528fa2c741302d8060e98d7dbdd871442eb4b62a19c696c994e4.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q296265",
+          "label": "Filippino Lippi",
+          "identityEvidence": "catalog/notoriety/evidence/cdafb9841871088e2bc38d9147fc0481bc522703cea4290288ff4881bd710cd6.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Filippino Lippi",
+              "url": "https://fr.wikipedia.org/wiki/Filippino_Lippi",
+              "status": "measured",
+              "views": 8014,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/2672a692c11fed6df31574907c33e3df836e1bc6ffbb3ab837a352faf953f22b.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Filippino Lippi",
+              "url": "https://en.wikipedia.org/wiki/Filippino_Lippi",
+              "status": "measured",
+              "views": 21032,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/98338a480fdb1e911ab9a99fb87e92bc430e4bc51f46be855d188821b1c92732.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 74,
+        "exhibitions": 5,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-127572",
+      "title": "L’Annonciation",
+      "creator": "Paolo Véronèse et son atelier",
+      "sourceUrl": "https://clevelandart.org/art/1950.251",
+      "institutionEvidence": "catalog/evidence/cma-127572.json",
+      "objectQid": "Q60515744",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/6af334b7f47fdd0f6229c28e554fd1fb67fae12b95a43465e395fda8685fcf0b.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60515744",
+        "label": "The Annunciation",
+        "identityEvidence": "catalog/notoriety/evidence/6af334b7f47fdd0f6229c28e554fd1fb67fae12b95a43465e395fda8685fcf0b.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 43,
+        "exhibitions": 6,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-118679",
+      "title": "Lazare et le mauvais riche",
+      "creator": "Jacopo Bassano",
+      "sourceUrl": "https://clevelandart.org/art/1939.68",
+      "institutionEvidence": "catalog/evidence/cma-118679.json",
+      "objectQid": "Q60514320",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/18d05e7efcb73fe8c2ce766ae35656b42bd7a888bb76e53c7fc67a3be80f9611.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60514320",
+        "label": "Lazarus and the Rich Man",
+        "identityEvidence": "catalog/notoriety/evidence/18d05e7efcb73fe8c2ce766ae35656b42bd7a888bb76e53c7fc67a3be80f9611.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q346502",
+          "label": "Jacopo Bassano",
+          "identityEvidence": "catalog/notoriety/evidence/cd5d04eea4cbae008650c9715c53f4063bf4b4b8455e6862492b37c5b206a688.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Jacopo Bassano",
+              "url": "https://fr.wikipedia.org/wiki/Jacopo_Bassano",
+              "status": "measured",
+              "views": 3141,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/e1b4ebe09380386974692c427809565d7d81563452cdf251810401757bf6296c.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Jacopo Bassano",
+              "url": "https://en.wikipedia.org/wiki/Jacopo_Bassano",
+              "status": "measured",
+              "views": 10487,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/ec6cf64392803264f386179cc6cb3774d3c7e33438db3d99b210246eb5f3eb49.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 59,
+        "exhibitions": 7,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-117032",
+      "title": "Le Sacrifice d’Isaac",
+      "creator": "Andrea del Sarto",
+      "sourceUrl": "https://clevelandart.org/art/1937.577",
+      "institutionEvidence": "catalog/evidence/cma-117032.json",
+      "objectQid": "Q59115342",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/045eaa2206ae1051731ac90f840d35c6f4624b896a10fdec1d9486a0f30ebe26.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q59115342",
+        "label": "The Sacrifice of Isaac",
+        "identityEvidence": "catalog/notoriety/evidence/045eaa2206ae1051731ac90f840d35c6f4624b896a10fdec1d9486a0f30ebe26.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q5571",
+          "label": "Andrea del Sarto",
+          "identityEvidence": "catalog/notoriety/evidence/a287e9d04bad87552f9e4d9608cbfff481133fba9af055959b219566b408772e.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Andrea del Sarto",
+              "url": "https://fr.wikipedia.org/wiki/Andrea_del_Sarto",
+              "status": "measured",
+              "views": 6229,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/482b7d05c7d0e2abb5d5830bc0c1f86c67c639e40e2b18dd52733a423679c2db.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Andrea del Sarto",
+              "url": "https://en.wikipedia.org/wiki/Andrea_del_Sarto",
+              "status": "measured",
+              "views": 20108,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/dcc0bdaa0230db5d83623a4a8eb2ef9edec23878534c4f7bbfd645193d05a34c.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 58,
+        "exhibitions": 8,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-144966",
+      "title": "La Vierge à l’Enfant avec le jeune saint Jean-Baptiste",
+      "creator": "Sandro Botticelli et son atelier",
+      "sourceUrl": "https://clevelandart.org/art/1970.160",
+      "institutionEvidence": "catalog/evidence/cma-144966.json",
+      "objectQid": "Q7934011",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/cbbfef4a7278efa3fd441c298f9be8df6b49e69d41ac6a476dd9e1ad7d7eaa2b.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q7934011",
+        "label": "Virgin and Child with the Young Saint John the Baptist",
+        "identityEvidence": "catalog/notoriety/evidence/cbbfef4a7278efa3fd441c298f9be8df6b49e69d41ac6a476dd9e1ad7d7eaa2b.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "fr",
+            "title": "La Vierge et l'Enfant avec le petit saint Jean-Baptiste",
+            "url": "https://fr.wikipedia.org/wiki/La_Vierge_et_l%27Enfant_avec_le_petit_saint_Jean-Baptiste",
+            "status": "measured",
+            "views": 194,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/9a0e4fc3daefd8e5090a7deda77f1cfa4ad2484a564c700f5c51402f13b970c4.json"
+            ]
+          },
+          {
+            "language": "en",
+            "title": "Virgin and Child with the Infant John the Baptist (Botticelli, Cleveland)",
+            "url": "https://en.wikipedia.org/wiki/Virgin_and_Child_with_the_Infant_John_the_Baptist_%28Botticelli%2C_Cleveland%29",
+            "status": "measured",
+            "views": 314,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/0f8924f893bd66dd1715e440929440a29df433acfdf2b8184d63f3b39ea23700.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 28,
+        "exhibitions": 3,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-157501",
+      "title": "Garçon buvant",
+      "creator": "Annibale Carracci",
+      "sourceUrl": "https://clevelandart.org/art/1994.4",
+      "institutionEvidence": "catalog/evidence/cma-157501.json",
+      "objectQid": "Q60477093",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/3516156c9f9be7994b0670e3a22c2b3ac007d7a06108c4614b3e6edf8f187fc9.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60477093",
+        "label": "Boy Drinking",
+        "identityEvidence": "catalog/notoriety/evidence/3516156c9f9be7994b0670e3a22c2b3ac007d7a06108c4614b3e6edf8f187fc9.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q7824",
+          "label": "Annibale Carracci",
+          "identityEvidence": "catalog/notoriety/evidence/60b98cd02b6126c89dcb40eec97cf76de5b000acd47d053b28fff75b9f28d136.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Annibale Carracci",
+              "url": "https://fr.wikipedia.org/wiki/Annibale_Carracci",
+              "status": "measured",
+              "views": 13063,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/612ffb837b9f805f424951ffda1fd95a57c834699480f5e6c4fd7fe766d3d92b.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Annibale Carracci",
+              "url": "https://en.wikipedia.org/wiki/Annibale_Carracci",
+              "status": "measured",
+              "views": 37634,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/430db9122170ab9629ca8ec351a4f1c6462202acff533dca579ab999bacc7998.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 33,
+        "exhibitions": 3,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-132367",
+      "title": "La Vierge à l’Enfant sur un trône",
+      "creator": "Battista di Biagio Sanguigni",
+      "sourceUrl": "https://clevelandart.org/art/1954.834",
+      "institutionEvidence": "catalog/evidence/cma-132367.json",
+      "objectQid": "Q60516617",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/6d8eb2fa54172e8a3501c3e8c096d6c790cef097d6d43b73d3d309ce50ec0d04.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60516617",
+        "label": "Virgin and Child Enthroned",
+        "identityEvidence": "catalog/notoriety/evidence/6d8eb2fa54172e8a3501c3e8c096d6c790cef097d6d43b73d3d309ce50ec0d04.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q963010",
+          "label": "Battista di Biagio Sanguigni",
+          "identityEvidence": "catalog/notoriety/evidence/a285c06221394af2d32fb5d53c391705071479e5430f443f66657b811aa31bfe.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Battista di Biagio Sanguigni",
+              "url": "https://fr.wikipedia.org/wiki/Battista_di_Biagio_Sanguigni",
+              "status": "measured",
+              "views": 168,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/ad60fc7034ddc4cb7f5fb5dc5cb911dee52f8e1277a6e1b896a3d9519450a4da.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Battista di Biagio Sanguigni",
+              "url": "https://en.wikipedia.org/wiki/Battista_di_Biagio_Sanguigni",
+              "status": "measured",
+              "views": 384,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/fa5893bbba932a3f692da2b0db3c3718370c498cde1d5a3f3cd7ca0e1f59dac6.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 13,
+        "exhibitions": 4,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-97165",
+      "title": "La Course du Palio dans les rues de Florence",
+      "creator": "Giovanni Francesco Toscani",
+      "sourceUrl": "https://clevelandart.org/art/1916.801",
+      "institutionEvidence": "catalog/evidence/cma-97165.json",
+      "objectQid": "Q60502690",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/345772ec38538b3af6752cde6a14aabd60b98e614ef7d9c84911d2c6cbd7f6f4.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60502690",
+        "label": "Panel from a Cassone: The Race of the Berberi Palio in the Streets of Florence",
+        "identityEvidence": "catalog/notoriety/evidence/345772ec38538b3af6752cde6a14aabd60b98e614ef7d9c84911d2c6cbd7f6f4.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q1526455",
+          "label": "Giovanni Francesco Toscani",
+          "identityEvidence": "catalog/notoriety/evidence/f6997dbff8c4337a1b7ab380d13843b5e3a9eb8a4d29cf28e0e0cd8ba19a8b14.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Maestro della Crocifissione Grigg",
+              "url": "https://fr.wikipedia.org/wiki/Maestro_della_Crocifissione_Grigg",
+              "status": "measured",
+              "views": 158,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/801f06c11b8c1ba60fffc51fafb3581a2fce186910179cdcab9226c05c6bf438.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Giovanni di Francesco Toscani",
+              "url": "https://en.wikipedia.org/wiki/Giovanni_di_Francesco_Toscani",
+              "status": "measured",
+              "views": 390,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/b673d08585ee63f560ba021d43db95b8f03b7c7b3a9014ee6a1bc0a8af4d65a3.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 10,
+        "exhibitions": 7,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-97166",
+      "title": "La Vierge à l’Enfant avec des anges",
+      "creator": "Suiveur de Fra Filippo Lippi",
+      "sourceUrl": "https://clevelandart.org/art/1916.802",
+      "institutionEvidence": "catalog/evidence/cma-97166.json",
+      "objectQid": "Q60502700",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/446b83cb4cf08d30842e3eec1aa1c7f572b07609bc30f0be009352035f77f035.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60502700",
+        "label": "Virgin and Child with Angels",
+        "identityEvidence": "catalog/notoriety/evidence/446b83cb4cf08d30842e3eec1aa1c7f572b07609bc30f0be009352035f77f035.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 32,
+        "exhibitions": 3,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-127746",
+      "title": "Le Baptême du Christ",
+      "creator": "Atelier de Jacopo Tintoretto",
+      "sourceUrl": "https://clevelandart.org/art/1950.400",
+      "institutionEvidence": "catalog/evidence/cma-127746.json",
+      "objectQid": "Q60515784",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/37b5b34d06411d1b543c73c7c0e0db6e7b89a61bb3a4124e7ed6e480dd458d82.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60515784",
+        "label": "Baptism of Christ",
+        "identityEvidence": "catalog/notoriety/evidence/37b5b34d06411d1b543c73c7c0e0db6e7b89a61bb3a4124e7ed6e480dd458d82.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 45,
+        "exhibitions": 3,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-124076",
+      "title": "Le Couronnement de la Vierge",
+      "creator": "Fra Angelico",
+      "sourceUrl": "https://clevelandart.org/art/1944.79",
+      "institutionEvidence": "catalog/evidence/cma-124076.json",
+      "objectQid": "Q60515026",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/432a21e1423764d3b0779a5d4721e3ab9c6589e4aec2bd16cb502d583ceb3ed6.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60515026",
+        "label": "Coronation of the Virgin",
+        "identityEvidence": "catalog/notoriety/evidence/432a21e1423764d3b0779a5d4721e3ab9c6589e4aec2bd16cb502d583ceb3ed6.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q5664",
+          "label": "Fra Angelico",
+          "identityEvidence": "catalog/notoriety/evidence/096ccc691fab43969c00c5c7791096957df5d424aa0c8eff38c25f42241c0820.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Fra Angelico",
+              "url": "https://fr.wikipedia.org/wiki/Fra_Angelico",
+              "status": "measured",
+              "views": 32007,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/875c821618c26e0210e81445080661859dacaa054b829c2cf9ad19239dd10741.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Fra Angelico",
+              "url": "https://en.wikipedia.org/wiki/Fra_Angelico",
+              "status": "measured",
+              "views": 112807,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/b591925f3a4256b7689c81014d950059c0a9347986a3ad1a074f6a634f7f2bed.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 11,
+        "exhibitions": 3,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-146469",
+      "title": "Portrait d’une femme",
+      "creator": "Agnolo Bronzino",
+      "sourceUrl": "https://clevelandart.org/art/1972.121",
+      "institutionEvidence": "catalog/evidence/cma-146469.json",
+      "objectQid": "Q60472115",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/e809b8d1cb49e2f3719627461c7a430d680cfe07f6145b0c2525622dcc989a3b.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60472115",
+        "label": "Portrait of a Woman",
+        "identityEvidence": "catalog/notoriety/evidence/e809b8d1cb49e2f3719627461c7a430d680cfe07f6145b0c2525622dcc989a3b.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q7803",
+          "label": "Bronzino",
+          "identityEvidence": "catalog/notoriety/evidence/879b6bc922da6e32870444909a87bc3c2de7020582ff5307d3079714cb4071ac.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Bronzino",
+              "url": "https://fr.wikipedia.org/wiki/Bronzino",
+              "status": "measured",
+              "views": 8624,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/e2cbec88b097038bb90677eea2372b33dccad37f902f9c7c8b55dd84beb06f38.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Bronzino",
+              "url": "https://en.wikipedia.org/wiki/Bronzino",
+              "status": "measured",
+              "views": 37220,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/107fa2a251b29e8d47ea42252850fd8e2cea49ee4590771d8cdae81cee4273cb.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 6,
+        "exhibitions": 4,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-129219",
+      "title": "Saint Nicolas de Bari",
+      "creator": "Carlo Crivelli",
+      "sourceUrl": "https://clevelandart.org/art/1952.111",
+      "institutionEvidence": "catalog/evidence/cma-129219.json",
+      "objectQid": "Q3947722",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/48174963a1072ff861cca36bda273f9ad7601299aff80cccfa584b3916c48268.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q3947722",
+        "label": "Saint Nicholas of Bari",
+        "identityEvidence": "catalog/notoriety/evidence/48174963a1072ff861cca36bda273f9ad7601299aff80cccfa584b3916c48268.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q348024",
+          "label": "Carlo Crivelli",
+          "identityEvidence": "catalog/notoriety/evidence/ce56840e77f5e00762a65e71927c6f94e4ac5f74dd8f07c04a64c0bbab2d8a5f.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Carlo Crivelli (peintre)",
+              "url": "https://fr.wikipedia.org/wiki/Carlo_Crivelli_%28peintre%29",
+              "status": "measured",
+              "views": 3488,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/99b616c953b97e22be633ed099d2796619ddc5dcebbf61d5782074d883748c1e.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Carlo Crivelli",
+              "url": "https://en.wikipedia.org/wiki/Carlo_Crivelli",
+              "status": "measured",
+              "views": 23159,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/38efecf184c0f3ece558f658aa9e738e51160071ba54c4ff21576a0600abf232.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 11,
+        "exhibitions": 4,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-136510",
+      "title": "Nymphéas (Agapanthes)",
+      "creator": "Claude Monet",
+      "sourceUrl": "https://clevelandart.org/art/1960.81",
+      "institutionEvidence": "catalog/evidence/cma-136510.json",
+      "objectQid": "Q60465880",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/2a348ba834c3bb959b4c1995edcfde8d6e0f7d1f872d5631bd4c1b98406982a8.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60465880",
+        "label": "Water Lilies (Agapanthus)",
+        "identityEvidence": "catalog/notoriety/evidence/2a348ba834c3bb959b4c1995edcfde8d6e0f7d1f872d5631bd4c1b98406982a8.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q296",
+          "label": "Claude Monet",
+          "identityEvidence": "catalog/notoriety/evidence/5ebfc82362cb5e096e4a056f35271695542ee6f1a086ee295cde7d1b630d214b.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Claude Monet",
+              "url": "https://fr.wikipedia.org/wiki/Claude_Monet",
+              "status": "measured",
+              "views": 292105,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/7e12efe1522393bc6d68c8fae79cbedfe092496fa29cb448b3e2e7a69ffa46d8.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Claude Monet",
+              "url": "https://en.wikipedia.org/wiki/Claude_Monet",
+              "status": "measured",
+              "views": 717886,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/a4c0a37ec919ef9dde6976d0e7186e14ca0af0fbf973f3a8af2ea2a7612136f5.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 63,
+        "exhibitions": 15,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-125249",
+      "title": "Les Grands Platanes, cantonniers à Saint-Rémy",
+      "creator": "Vincent van Gogh",
+      "sourceUrl": "https://clevelandart.org/art/1947.209",
+      "institutionEvidence": "catalog/evidence/cma-125249.json",
+      "objectQid": "Q26221185",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/a22efd235fedd3d677e46e053ca3ecfc424eb4590c609587231749760c205641.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q26221185",
+        "label": "The Large Plane Trees (Road Menders at Saint-Rémy)",
+        "identityEvidence": "catalog/notoriety/evidence/a22efd235fedd3d677e46e053ca3ecfc424eb4590c609587231749760c205641.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "en",
+            "title": "The Large Plane Trees",
+            "url": "https://en.wikipedia.org/wiki/The_Large_Plane_Trees",
+            "status": "measured",
+            "views": 2910,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/35b4b0b0c64a428b92b5b1eb04cfbae52af2e0fa1304606b5fb9fca2dcf9965e.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q5582",
+          "label": "Vincent van Gogh",
+          "identityEvidence": "catalog/notoriety/evidence/67dacdf6d9927d05dba51e4d58d8dbe1143fa40791b8131e5401ce689d3e9186.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Vincent van Gogh",
+              "url": "https://fr.wikipedia.org/wiki/Vincent_van_Gogh",
+              "status": "measured",
+              "views": 362109,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/3234ba81ea270d89f314dadf108bc4a1b891a9a1232bdaadbfd06a0f6ada58a3.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Vincent van Gogh",
+              "url": "https://en.wikipedia.org/wiki/Vincent_van_Gogh",
+              "status": "measured",
+              "views": 1953827,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/5404cc053963c3051b27e36aec45718493cc54e9f2766d239938498f8c19b60b.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 77,
+        "exhibitions": 16,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-122351",
+      "title": "L’Incendie du Parlement de Londres, le 16 octobre 1834",
+      "creator": "Joseph Mallord William Turner",
+      "sourceUrl": "https://clevelandart.org/art/1942.647",
+      "institutionEvidence": "catalog/evidence/cma-122351.json",
+      "objectQid": "Q60514853",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/71f040b83421670b2d2c3eca93b32057e0d612000cc1036307752d6487340f0e.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60514853",
+        "label": "The Burning of the Houses of Lords and Commons, 16 October 1834",
+        "identityEvidence": "catalog/notoriety/evidence/71f040b83421670b2d2c3eca93b32057e0d612000cc1036307752d6487340f0e.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q159758",
+          "label": "J. M. W. Turner",
+          "identityEvidence": "catalog/notoriety/evidence/14a921ca6069e4d31c6cc82cdeb85aaf1e6867dff14bda99ec2d0365ef6115d0.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "William Turner",
+              "url": "https://fr.wikipedia.org/wiki/William_Turner",
+              "status": "measured",
+              "views": 11515,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/5980ba2d72659b8b01c5df6661edd631816687b7b57773607a5a1a7d059e1fb7.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "J. M. W. Turner",
+              "url": "https://en.wikipedia.org/wiki/J._M._W._Turner",
+              "status": "measured",
+              "views": 415668,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/2af31f96fdd633b76a165beff136087dc1c9e53583f945a71a6b3cca9592e117.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 135,
+        "exhibitions": 17,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-147017",
+      "title": "L’Étang de Branch Hill à Hampstead",
+      "creator": "John Constable",
+      "sourceUrl": "https://clevelandart.org/art/1972.48",
+      "institutionEvidence": "catalog/evidence/cma-147017.json",
+      "objectQid": "Q60472321",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/a267bb8a142b726c159e12be2d3d7dd0534e0472e399540deaa599cae568aabb.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60472321",
+        "label": "Branch Hill Pond, Hampstead",
+        "identityEvidence": "catalog/notoriety/evidence/a267bb8a142b726c159e12be2d3d7dd0534e0472e399540deaa599cae568aabb.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q159297",
+          "label": "John Constable",
+          "identityEvidence": "catalog/notoriety/evidence/26e0252ebd8b6315b7e9b4705f5e9c0e7d2715a1f2d55399ce10383d5eebb208.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "John Constable",
+              "url": "https://fr.wikipedia.org/wiki/John_Constable",
+              "status": "measured",
+              "views": 14235,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/c3f319dffdce5558fe962e9b9d92e10c30bf122b5b22df01819c0fe890aa9e7b.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "John Constable",
+              "url": "https://en.wikipedia.org/wiki/John_Constable",
+              "status": "measured",
+              "views": 146213,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/ec7ed0fcb3f82aaaf56f49a3434cb38f340776db937ccbb84080e38f3c86ba72.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 8,
+        "exhibitions": 4,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-135185",
+      "title": "La Montagne Sainte-Victoire",
+      "creator": "Paul Cézanne",
+      "sourceUrl": "https://clevelandart.org/art/1958.21",
+      "institutionEvidence": "catalog/evidence/cma-135185.json",
+      "objectQid": "Q60517723",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/a62ab35bc43048ba513633076d573586372d3031654b6326716a04ed7de2d6ce.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60517723",
+        "label": "Mount Sainte-Victoire",
+        "identityEvidence": "catalog/notoriety/evidence/a62ab35bc43048ba513633076d573586372d3031654b6326716a04ed7de2d6ce.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q35548",
+          "label": "Paul Cézanne",
+          "identityEvidence": "catalog/notoriety/evidence/1f29bbce81c51fe086865fc58c7760ee37e5b9acb7863d4d31f7bfcf77347565.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Paul Cézanne",
+              "url": "https://fr.wikipedia.org/wiki/Paul_C%C3%A9zanne",
+              "status": "measured",
+              "views": 182011,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/975dc032e308c60ff9992f835b3abb4a4da74c89562a9c7b5ed8dd014884aa5d.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Paul Cézanne",
+              "url": "https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne",
+              "status": "measured",
+              "views": 291794,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/8605f4a6d8e457843ad4310f365249fa81ebaae782572c1aa8fc81dac3a10982.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 69,
+        "exhibitions": 13,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-121188",
+      "title": "Romaine Lacaux",
+      "creator": "Pierre-Auguste Renoir",
+      "sourceUrl": "https://clevelandart.org/art/1942.1065",
+      "institutionEvidence": "catalog/evidence/cma-121188.json",
+      "objectQid": "Q15880875",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/3c6eeed6e5886c17f8b76ee22b6606b93159a2ea11d02e1ba83e88c7f7edcd48.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q15880875",
+        "label": "Romaine Lacaux",
+        "identityEvidence": "catalog/notoriety/evidence/3c6eeed6e5886c17f8b76ee22b6606b93159a2ea11d02e1ba83e88c7f7edcd48.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "fr",
+            "title": "Romaine Lacaux",
+            "url": "https://fr.wikipedia.org/wiki/Romaine_Lacaux",
+            "status": "unavailable_or_incomplete",
+            "views": null,
+            "months": 6,
+            "evidence": [
+              "catalog/notoriety/evidence/2a060d59d970e6ebc97a5e43874b3c11d2cf5de51ab1198f4e627f54d64252cc.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q39931",
+          "label": "Pierre-Auguste Renoir",
+          "identityEvidence": "catalog/notoriety/evidence/c0eef412b87518cd9a02ddc9cb64bcf40c1ac86b1a8fc38ffc1a1d57680134bb.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Auguste Renoir",
+              "url": "https://fr.wikipedia.org/wiki/Auguste_Renoir",
+              "status": "measured",
+              "views": 163001,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/e9831d49ca2d0570aa27c9a09e691de1930f202c5b849a2f472f2d717d2840c9.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Pierre-Auguste Renoir",
+              "url": "https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir",
+              "status": "measured",
+              "views": 287182,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/a9e82b9406969318f5eb2826f03c7c3ab0ae571c12321658313fc9fb42640dbf.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 75,
+        "exhibitions": 19,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-149410",
+      "title": "Dans les vagues",
+      "creator": "Paul Gauguin",
+      "sourceUrl": "https://clevelandart.org/art/1978.63",
+      "institutionEvidence": "catalog/evidence/cma-149410.json",
+      "objectQid": "Q60473553",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/ff3cff069b15a99df3c428ab2db8eb6d1b8f6e06ccbd8f71310cb279a13bb6ec.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60473553",
+        "label": "In the Waves (Dans les Vagues)",
+        "identityEvidence": "catalog/notoriety/evidence/ff3cff069b15a99df3c428ab2db8eb6d1b8f6e06ccbd8f71310cb279a13bb6ec.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q37693",
+          "label": "Paul Gauguin",
+          "identityEvidence": "catalog/notoriety/evidence/d4909905e00b212a1052f1965874b95e7823304611c1bf3fde319b9dfd380e41.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Paul Gauguin",
+              "url": "https://fr.wikipedia.org/wiki/Paul_Gauguin",
+              "status": "measured",
+              "views": 119563,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/8dc0a2a59c7f88720499c5f0bc2a149a2017cad84d21fb4680899ac669b28f40.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Paul Gauguin",
+              "url": "https://en.wikipedia.org/wiki/Paul_Gauguin",
+              "status": "measured",
+              "views": 453638,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/efb87e84e92dd4a6b0dbc4fdf9162c4cd95ad870d8aad3821552cef558fd9f9e.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 20,
+        "exhibitions": 12,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-128392",
+      "title": "Lisière du bois près de l’Hermitage, Pontoise",
+      "creator": "Camille Pissarro",
+      "sourceUrl": "https://clevelandart.org/art/1951.356",
+      "institutionEvidence": "catalog/evidence/cma-128392.json",
+      "objectQid": "Q21785872",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/791f2b916a88bd1a0d58e1bb140895fe7f52700fb256d7c7ac0f4067814d6cbb.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q21785872",
+        "label": "Edge of the Woods Near L'Hermitage, Pontoise",
+        "identityEvidence": "catalog/notoriety/evidence/791f2b916a88bd1a0d58e1bb140895fe7f52700fb256d7c7ac0f4067814d6cbb.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q134741",
+          "label": "Camille Pissarro",
+          "identityEvidence": "catalog/notoriety/evidence/96347739490ba4b40e93da33478119c1059c86e2ce9c4504188175f1b68b41ee.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Camille Pissarro",
+              "url": "https://fr.wikipedia.org/wiki/Camille_Pissarro",
+              "status": "measured",
+              "views": 59961,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/e393d66e09e31175c8a0872a29c0fe78fd5dee65796ffe6d5ac5cd9b142c8244.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Camille Pissarro",
+              "url": "https://en.wikipedia.org/wiki/Camille_Pissarro",
+              "status": "measured",
+              "views": 171399,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/fa925e54d2a0f9acf43b7e5f151430709bec3923b195c365f313267e27c9a911.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 57,
+        "exhibitions": 8,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-143278",
+      "title": "Composition avec rouge, jaune et bleu",
+      "creator": "Piet Mondrian",
+      "sourceUrl": "https://clevelandart.org/art/1967.215",
+      "institutionEvidence": "catalog/evidence/cma-143278.json",
+      "objectQid": "Q60469855",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/56152b4d4f1ccf7b2be54f658cc7f7c2a62c649bf10a1d3e7b50e764512be811.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60469855",
+        "label": "Composition with Red, Yellow, and Blue",
+        "identityEvidence": "catalog/notoriety/evidence/56152b4d4f1ccf7b2be54f658cc7f7c2a62c649bf10a1d3e7b50e764512be811.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q151803",
+          "label": "Piet Mondrian",
+          "identityEvidence": "catalog/notoriety/evidence/d65a5757e82dfc0a74fd0e87e28802f038b865a1a492eef30a07503e77acae64.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Piet Mondrian",
+              "url": "https://fr.wikipedia.org/wiki/Piet_Mondrian",
+              "status": "measured",
+              "views": 68422,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/f5e8e7926e9f4e3bc19c0d6d416e467e9cf7e81d40892fbd82dd7fd5684f1c47.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Piet Mondrian",
+              "url": "https://en.wikipedia.org/wiki/Piet_Mondrian",
+              "status": "measured",
+              "views": 287660,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/4c5033a047043e78d0758d09bb0c1f9d2afeddf3426decb687a6de1dc2467e51.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 21,
+        "exhibitions": 8,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-135336",
+      "title": "Berthe Morisot au manchon",
+      "creator": "Édouard Manet",
+      "sourceUrl": "https://clevelandart.org/art/1958.34",
+      "institutionEvidence": "catalog/evidence/cma-135336.json",
+      "objectQid": "Q60465125",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/22a10b7f609acc3bdcea49fa0cb4b2156b98dc8441eea06b6518785d9999fedc.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60465125",
+        "label": "Berthe Morisot",
+        "identityEvidence": "catalog/notoriety/evidence/22a10b7f609acc3bdcea49fa0cb4b2156b98dc8441eea06b6518785d9999fedc.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q40599",
+          "label": "Édouard Manet",
+          "identityEvidence": "catalog/notoriety/evidence/eec7e598178951ac517ad126a1a5228069b8d07b38f296001f896cf25fd774a1.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Édouard Manet",
+              "url": "https://fr.wikipedia.org/wiki/%C3%89douard_Manet",
+              "status": "measured",
+              "views": 88841,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/bd696d7efec3bf9d8914c9bf84ac8bb7a0138b3e12e44a9cc590a4e84983c957.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Édouard Manet",
+              "url": "https://en.wikipedia.org/wiki/%C3%89douard_Manet",
+              "status": "measured",
+              "views": 260328,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/18c95e662b34fcbca43b1d3b152c295fe5b62b48183f26266f06af0246940587.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 69,
+        "exhibitions": 15,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-128072",
+      "title": "La Lecture",
+      "creator": "Berthe Morisot",
+      "sourceUrl": "https://clevelandart.org/art/1950.89",
+      "institutionEvidence": "catalog/evidence/cma-128072.json",
+      "objectQid": "Q60515791",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/3b85f8fae6bce85cf4d91fefa6d302493feb453b67b0fe40a6eccd5e445dc534.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60515791",
+        "label": "Reading",
+        "identityEvidence": "catalog/notoriety/evidence/3b85f8fae6bce85cf4d91fefa6d302493feb453b67b0fe40a6eccd5e445dc534.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q105320",
+          "label": "Berthe Morisot",
+          "identityEvidence": "catalog/notoriety/evidence/91f351adc38c3cacbf26926bca7198cce427383722473f1e1bf6f93d5c9788e1.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Berthe Morisot",
+              "url": "https://fr.wikipedia.org/wiki/Berthe_Morisot",
+              "status": "measured",
+              "views": 74042,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/c8f7a20711bccf8f7a15b0f446ffa366d3aa77d033112d1a94a54e494211566f.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Berthe Morisot",
+              "url": "https://en.wikipedia.org/wiki/Berthe_Morisot",
+              "status": "measured",
+              "views": 130939,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/b7c85aa696b94bec93c822212780573ef94c4140830869f468f466775a8e6f07.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 76,
+        "exhibitions": 14,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-151015",
+      "title": "Intérieur",
+      "creator": "Gwen John",
+      "sourceUrl": "https://clevelandart.org/art/1982.6",
+      "institutionEvidence": "catalog/evidence/cma-151015.json",
+      "objectQid": "Q60475048",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/509ecc3ce2157332d10e53df9e629f9235a99f3932975eebb59eabc8af49bb30.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60475048",
+        "label": "Interior",
+        "identityEvidence": "catalog/notoriety/evidence/509ecc3ce2157332d10e53df9e629f9235a99f3932975eebb59eabc8af49bb30.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q274339",
+          "label": "Gwen John",
+          "identityEvidence": "catalog/notoriety/evidence/d1c05b6efc98a379e57a11d4d27bf3a43cd46ecca16b0ebb117d6616c06b9c57.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Gwen John",
+              "url": "https://fr.wikipedia.org/wiki/Gwen_John",
+              "status": "measured",
+              "views": 3212,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/1464beca438146e5525b1aee171597fceeafcface65d4a00a6a4738756919d75.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Gwen John",
+              "url": "https://en.wikipedia.org/wiki/Gwen_John",
+              "status": "measured",
+              "views": 59621,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/623fe163a9451914b0aa22d1e907a14080993e13e0ec71cf8e2c162763ad5079.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 3,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-149421",
+      "title": "La Ferme à l’entrée du bois",
+      "creator": "Rosa Bonheur",
+      "sourceUrl": "https://clevelandart.org/art/1978.73",
+      "institutionEvidence": "catalog/evidence/cma-149421.json",
+      "objectQid": "Q60473635",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/51832f9a886683dfb066d0b6fe362a049904d60b76cda2063a8597832ff78888.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60473635",
+        "label": "The Farm at the Entrance of the Wood",
+        "identityEvidence": "catalog/notoriety/evidence/51832f9a886683dfb066d0b6fe362a049904d60b76cda2063a8597832ff78888.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q241732",
+          "label": "Rosa Bonheur",
+          "identityEvidence": "catalog/notoriety/evidence/fe4c9d054453b1319dbea875949f7ffe6305eb9c41469d70d29b51221b3c7db4.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Rosa Bonheur",
+              "url": "https://fr.wikipedia.org/wiki/Rosa_Bonheur",
+              "status": "measured",
+              "views": 107573,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/0cc3d82aadef23fbcaeabbcab7112ada7e7dc312a8c4355ce4fd37fd5d489d97.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Rosa Bonheur",
+              "url": "https://en.wikipedia.org/wiki/Rosa_Bonheur",
+              "status": "measured",
+              "views": 62075,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/65e2ecff725c7b74a703dd4a21418d33649df8857dd4a8f188ade4f3c339b3a2.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 11,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-135517",
+      "title": "Le Cirque",
+      "creator": "Attribué à Suzanne Valadon",
+      "sourceUrl": "https://clevelandart.org/art/1958.56",
+      "institutionEvidence": "catalog/evidence/cma-135517.json",
+      "objectQid": "Q60465167",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/b16f4210fa63c03b94872420c32774066ee101486734c9671ec862a9ff9607ab.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60465167",
+        "label": "The Circus",
+        "identityEvidence": "catalog/notoriety/evidence/b16f4210fa63c03b94872420c32774066ee101486734c9671ec862a9ff9607ab.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 9,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-125104",
+      "title": "Frise de danseuses",
+      "creator": "Edgar Degas",
+      "sourceUrl": "https://clevelandart.org/art/1946.83",
+      "institutionEvidence": "catalog/evidence/cma-125104.json",
+      "objectQid": "Q60515361",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/364bc8095958b1ef952c63a8f96d64de6b79d210b0beb30b6b59dbfc2f24bb90.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60515361",
+        "label": "Frieze of Dancers",
+        "identityEvidence": "catalog/notoriety/evidence/364bc8095958b1ef952c63a8f96d64de6b79d210b0beb30b6b59dbfc2f24bb90.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q46373",
+          "label": "Edgar Degas",
+          "identityEvidence": "catalog/notoriety/evidence/65d4df91ac68d9a516b44d64077da6a0deb508a1a5feba79254b2f67a288532f.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Edgar Degas",
+              "url": "https://fr.wikipedia.org/wiki/Edgar_Degas",
+              "status": "measured",
+              "views": 61865,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/819a006d77e51c45f0cf875eaa9c2d8b737deffc6577c2b37ff26a2bbb95b42d.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Edgar Degas",
+              "url": "https://en.wikipedia.org/wiki/Edgar_Degas",
+              "status": "measured",
+              "views": 264146,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/da07f6f9a499ae151ec29ab39f1ff728b198d115bb43abd3e5f8bddb0975c256.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 44,
+        "exhibitions": 12,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-126769",
+      "title": "Combat d’un tigre et d’un buffle",
+      "creator": "Henri Rousseau",
+      "sourceUrl": "https://clevelandart.org/art/1949.186",
+      "institutionEvidence": "catalog/evidence/cma-126769.json",
+      "objectQid": "Q60515648",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/47fff0f8edead114aa4e29690f177f99084594ed42acb83f0bcc9b3651f4330b.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60515648",
+        "label": "Fight between a Tiger and a Buffalo",
+        "identityEvidence": "catalog/notoriety/evidence/47fff0f8edead114aa4e29690f177f99084594ed42acb83f0bcc9b3651f4330b.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "fr",
+            "title": "Combat de tigre et de buffle",
+            "url": "https://fr.wikipedia.org/wiki/Combat_de_tigre_et_de_buffle",
+            "status": "measured",
+            "views": 1776,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/eae092c5de78ffda0730a964b8619b463fcb7c38feeeb1ada83867513546ae2e.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q156386",
+          "label": "Henri Rousseau",
+          "identityEvidence": "catalog/notoriety/evidence/8e3bff4e5c46351bbd7a318b7cedb39b3fb7d911c601696a7fcd97bcc7f408e9.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Henri Rousseau",
+              "url": "https://fr.wikipedia.org/wiki/Henri_Rousseau",
+              "status": "measured",
+              "views": 89510,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/c4c77e22b0b2e90f2530bcd59496b8daae6f049486e1ab934d3051b66977051c.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Henri Rousseau",
+              "url": "https://en.wikipedia.org/wiki/Henri_Rousseau",
+              "status": "measured",
+              "views": 129432,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/fcc05da7dde81831570819115274b0244fe0fc3224658da29c96aa5120cac1a1.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 24,
+        "exhibitions": 13,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-95259",
+      "title": "Cavaliers grecs se reposant dans une forêt",
+      "creator": "Eugène Delacroix",
+      "sourceUrl": "https://clevelandart.org/art/1916.1032",
+      "institutionEvidence": "catalog/evidence/cma-95259.json",
+      "objectQid": "Q52449380",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/923544b34caf27e609259484c7004c5ff1e40e5389f228ade68cf28b7c34af0c.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q52449380",
+        "label": "Greek Cavalry Men Resting in Forest",
+        "identityEvidence": "catalog/notoriety/evidence/923544b34caf27e609259484c7004c5ff1e40e5389f228ade68cf28b7c34af0c.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q33477",
+          "label": "Eugène Delacroix",
+          "identityEvidence": "catalog/notoriety/evidence/329088829a59b7df4fcccd8c10b932f2030ecd9b83f039ce25a5233d85091609.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Eugène Delacroix",
+              "url": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix",
+              "status": "measured",
+              "views": 119788,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/cdbaaf6507dc5726b7917cfe47c9f0234ed35212838134f0b9b7330b5da353f9.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Eugène Delacroix",
+              "url": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix",
+              "status": "measured",
+              "views": 177060,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/cb312cc0921f5221ce7db9e2758f89a914250b43d8cfdeeb432f1267b67f9671.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 11,
+        "exhibitions": 14,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-136760",
+      "title": "Saint-Mammès, canal du Loing",
+      "creator": "Alfred Sisley",
+      "sourceUrl": "https://clevelandart.org/art/1961.262",
+      "institutionEvidence": "catalog/evidence/cma-136760.json",
+      "objectQid": "Q60465956",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/c6eddfda9f2c7e3a6b1f0a3118c8101ee473aed4fa63ef2f1de79fe6c24f2496.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60465956",
+        "label": "Saint-Mammès, Loing Canal",
+        "identityEvidence": "catalog/notoriety/evidence/c6eddfda9f2c7e3a6b1f0a3118c8101ee473aed4fa63ef2f1de79fe6c24f2496.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q175130",
+          "label": "Alfred Sisley",
+          "identityEvidence": "catalog/notoriety/evidence/a9923220f40861c8e6c1d2e6b3840c6bdd47f2271665445508bad88f67763e70.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Alfred Sisley",
+              "url": "https://fr.wikipedia.org/wiki/Alfred_Sisley",
+              "status": "measured",
+              "views": 32737,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/5123fb18ab2ed9512627b4ca86b5e17718497b27085b8ce8ed86001a6535dd15.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Alfred Sisley",
+              "url": "https://en.wikipedia.org/wiki/Alfred_Sisley",
+              "status": "measured",
+              "views": 50296,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/1d0c8ed6f0bbb00e8930241dabadeb51bb3637d21430cd3e4611fe39a3e4e113.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 6,
+        "exhibitions": 4,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-87891",
+      "title": "Strandgade, lumière du soleil",
+      "creator": "Vilhelm Hammershøi",
+      "sourceUrl": "https://clevelandart.org/art/2023.38",
+      "institutionEvidence": "catalog/evidence/cma-87891.json",
+      "objectQid": null,
+      "objectIdentityEvidence": null,
+      "audienceScope": "exact_object",
+      "workAudience": null,
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 4,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-142792",
+      "title": "Lutteurs dans un cirque",
+      "creator": "Ernst Ludwig Kirchner",
+      "sourceUrl": "https://clevelandart.org/art/1966.49",
+      "institutionEvidence": "catalog/evidence/cma-142792.json",
+      "objectQid": "Q60469727",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/52c52e41845edb9c7f80033dad96b5ebc371e5ef780b42c275cf2c2165e24cd4.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60469727",
+        "label": "Wrestlers in a Circus",
+        "identityEvidence": "catalog/notoriety/evidence/52c52e41845edb9c7f80033dad96b5ebc371e5ef780b42c275cf2c2165e24cd4.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q229272",
+          "label": "Ernst Ludwig Kirchner",
+          "identityEvidence": "catalog/notoriety/evidence/103ade09ed10812297320edb9cb157e1bbdba15b97ba734d5c79994f3696d8f5.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Ernst Ludwig Kirchner",
+              "url": "https://fr.wikipedia.org/wiki/Ernst_Ludwig_Kirchner",
+              "status": "measured",
+              "views": 12950,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/b9f751b58ddf7c7906bfc1cb7ac2339f34dd7558c47ec6f22e16bbb18bd403c5.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Ernst Ludwig Kirchner",
+              "url": "https://en.wikipedia.org/wiki/Ernst_Ludwig_Kirchner",
+              "status": "measured",
+              "views": 61821,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/831e736a823b2a00cc16000b89b931c5dc80f4fbf9d8c06fceeea763f9ff5ef2.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 30,
+        "exhibitions": 2,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-169684",
+      "title": "Portrait de Jean-Baptiste Lemoyne le Jeune",
+      "creator": "Élisabeth Louise Vigée Le Brun",
+      "sourceUrl": "https://clevelandart.org/art/2011.49",
+      "institutionEvidence": "catalog/evidence/cma-169684.json",
+      "objectQid": "Q60480843",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/6d9b9872341c7a6167dfc7e4b4de4885045cb780b3d358a0bb6894339a888ca6.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60480843",
+        "label": "Portrait of Jean-Baptiste Lemoyne the Younger",
+        "identityEvidence": "catalog/notoriety/evidence/6d9b9872341c7a6167dfc7e4b4de4885045cb780b3d358a0bb6894339a888ca6.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q213163",
+          "label": "Élisabeth Louise Vigée Le Brun",
+          "identityEvidence": "catalog/notoriety/evidence/775461bc3f7fa4de6372d93ee4f507d26831b8774957dfd72281d5664d3d2ddd.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Élisabeth Vigée Le Brun",
+              "url": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Vig%C3%A9e_Le_Brun",
+              "status": "measured",
+              "views": 62296,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/0ae897205ac03030ef0c10bb6e7f7fb5a819b76e588ae48c9848dd4d193acf83.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Élisabeth Vigée Le Brun",
+              "url": "https://en.wikipedia.org/wiki/%C3%89lisabeth_Vig%C3%A9e_Le_Brun",
+              "status": "measured",
+              "views": 114291,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/529a8cbfca091ac884332cf712ee86b26906fa6a93f7fdfc3cc2f9d322250d99.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 1,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-93984",
+      "title": "Cercueil de Bakenmout",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1914.561",
+      "institutionEvidence": "catalog/evidence/cma-93984.json",
+      "objectQid": "Q60740279",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/cc3d4097604e37544b0c7508829cd8180b0072ee2d1b3f74032d4facde016b46.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60740279",
+        "label": "Coffin of Bakenmut",
+        "identityEvidence": "catalog/notoriety/evidence/cc3d4097604e37544b0c7508829cd8180b0072ee2d1b3f74032d4facde016b46.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 25,
+        "exhibitions": 3,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-147518",
+      "title": "Amulette de Bastet",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1973.29",
+      "institutionEvidence": "catalog/evidence/cma-147518.json",
+      "objectQid": "Q60757772",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/15927678babbc88db4ce76f9f5506d6b73ce2ff4f5f63297a43252e0815a249b.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60757772",
+        "label": "Amulet of Bastet",
+        "identityEvidence": "catalog/notoriety/evidence/15927678babbc88db4ce76f9f5506d6b73ce2ff4f5f63297a43252e0815a249b.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 8,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-151352",
+      "title": "Miroir à manche en forme de jeune femme",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1983.196",
+      "institutionEvidence": "catalog/evidence/cma-151352.json",
+      "objectQid": "Q60777976",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/40a5ecf05c89fdc0feb1fa51df8f0c3315e12551c1f35532f25c34ee286d351c.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60777976",
+        "label": "Caryatid Mirror",
+        "identityEvidence": "catalog/notoriety/evidence/40a5ecf05c89fdc0feb1fa51df8f0c3315e12551c1f35532f25c34ee286d351c.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 10,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-149884",
+      "title": "Amulette en forme de grenouille",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1980.123",
+      "institutionEvidence": "catalog/evidence/cma-149884.json",
+      "objectQid": "Q60757147",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/5b4a715c16c79525e23e71632ea297a255764814e2f49b45944760f00b05b5a8.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60757147",
+        "label": "Frog Amulet",
+        "identityEvidence": "catalog/notoriety/evidence/5b4a715c16c79525e23e71632ea297a255764814e2f49b45944760f00b05b5a8.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 2,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-94136",
+      "title": "Boîte à couleurs du vizir Amenemopé",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1914.680",
+      "institutionEvidence": "catalog/evidence/cma-94136.json",
+      "objectQid": "Q79474134",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/1052813e27be8604b6b4b49957495dc82ea93324a4ec89f7916a1fd5b68c0120.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79474134",
+        "label": "Paint Box of Vizier Amenemope",
+        "identityEvidence": "catalog/notoriety/evidence/1052813e27be8604b6b4b49957495dc82ea93324a4ec89f7916a1fd5b68c0120.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 11,
+        "exhibitions": 3,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-540823",
+      "title": "Uræus, cobra dressé",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/2023.102",
+      "institutionEvidence": "catalog/evidence/cma-540823.json",
+      "objectQid": "Q122922177",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/d00d8385717f807e4715a6152d6af5e8491b675e6fc9f1070c5ed62ca608f220.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q122922177",
+        "label": "Uraeus (Rearing Cobra)",
+        "identityEvidence": "catalog/notoriety/evidence/d00d8385717f807e4715a6152d6af5e8491b675e6fc9f1070c5ed62ca608f220.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 5,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-144280",
+      "title": "Le Taureau Apis",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1969.118",
+      "institutionEvidence": "catalog/evidence/cma-144280.json",
+      "objectQid": "Q60762440",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/83462a6c0d6ac1874345aaffc032a7569811142fe83562634cc36266f83eb3ea.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60762440",
+        "label": "Apis Bull",
+        "identityEvidence": "catalog/notoriety/evidence/83462a6c0d6ac1874345aaffc032a7569811142fe83562634cc36266f83eb3ea.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 8,
+        "exhibitions": 4,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-155759",
+      "title": "Jeune porteuse de jarre",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1991.107",
+      "institutionEvidence": "catalog/evidence/cma-155759.json",
+      "objectQid": "Q60746596",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/a476b8397d85dcd970d25f9166420d241073e412f1767070618714d269924fa1.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60746596",
+        "label": "Statuette of a Serving Girl",
+        "identityEvidence": "catalog/notoriety/evidence/a476b8397d85dcd970d25f9166420d241073e412f1767070618714d269924fa1.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 3,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-126198",
+      "title": "Statue de Minnefer en marche",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1948.420",
+      "institutionEvidence": "catalog/evidence/cma-126198.json",
+      "objectQid": "Q60762950",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/a402a7a6aa25318714ba870f2a9a937dfca52897ee299908a95d236987a22004.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60762950",
+        "label": "Striding Statue of Minnefer",
+        "identityEvidence": "catalog/notoriety/evidence/a402a7a6aa25318714ba870f2a9a937dfca52897ee299908a95d236987a22004.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 9,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-96303",
+      "title": "Tête de Sekhmet",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1916.2011",
+      "institutionEvidence": "catalog/evidence/cma-96303.json",
+      "objectQid": "Q79479159",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/3c7ecebf1cc6a66781e8a61919fb67b8d416afc0a8bfb799022eee0dc6b9b7a7.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79479159",
+        "label": "Head of Sekhmet",
+        "identityEvidence": "catalog/notoriety/evidence/3c7ecebf1cc6a66781e8a61919fb67b8d416afc0a8bfb799022eee0dc6b9b7a7.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 7,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-157614",
+      "title": "Pot à cosmétiques en forme de Bès",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1995.13",
+      "institutionEvidence": "catalog/evidence/cma-157614.json",
+      "objectQid": "Q60746481",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/18332a6af4915f414afe9cf130f0739d7fa1a7b576c0f6c953bafe11082c46b2.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60746481",
+        "label": "Cosmetic Jar in the Form of the God Bes",
+        "identityEvidence": "catalog/notoriety/evidence/18332a6af4915f414afe9cf130f0739d7fa1a7b576c0f6c953bafe11082c46b2.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 4,
+        "exhibitions": 1,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-102377",
+      "title": "Vase canope à tête de chacal",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1921.1021.a",
+      "institutionEvidence": "catalog/evidence/cma-102377.json",
+      "objectQid": "Q60741572",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/f7d0b3008647d8ac2a48408f67fded1cebe49bbd38d2ff253fb0d7a5ab35a8ff.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60741572",
+        "label": "Canopic Jar with Jackal's Head",
+        "identityEvidence": "catalog/notoriety/evidence/f7d0b3008647d8ac2a48408f67fded1cebe49bbd38d2ff253fb0d7a5ab35a8ff.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 2,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-148794",
+      "title": "Talatat avec portrait de Néfertiti",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1976.4",
+      "institutionEvidence": "catalog/evidence/cma-148794.json",
+      "objectQid": "Q60741205",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/21670fc1ce4bbf4509e4789f123a4d97b452fab5a5cb9cb2b56662f121cf34f8.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60741205",
+        "label": "Talatat: Portrait of Nefertiti",
+        "identityEvidence": "catalog/notoriety/evidence/21670fc1ce4bbf4509e4789f123a4d97b452fab5a5cb9cb2b56662f121cf34f8.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 9,
+        "exhibitions": 3,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-94073",
+      "title": "Appui-tête d’Irout",
+      "creator": "Atelier égyptien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1914.626",
+      "institutionEvidence": "catalog/evidence/cma-94073.json",
+      "objectQid": "Q60750068",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/66e0e3f1b78f996fb507841c0a3552c3fba888cf459ce5aa6d661bbe122a9b50.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60750068",
+        "label": "Headrest of Irut",
+        "identityEvidence": "catalog/notoriety/evidence/66e0e3f1b78f996fb507841c0a3552c3fba888cf459ce5aa6d661bbe122a9b50.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 3,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-102388",
+      "title": "Livre des morts d’Hori",
+      "creator": "Scribe et peintre égyptiens non identifiés",
+      "sourceUrl": "https://clevelandart.org/art/1921.1032",
+      "institutionEvidence": "catalog/evidence/cma-102388.json",
+      "objectQid": "Q60761862",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/3ef5581ac6507ae69596624cda91614027e2eacc07694cb87360a2d29044fb31.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60761862",
+        "label": "Book of the Dead of Hori",
+        "identityEvidence": "catalog/notoriety/evidence/3ef5581ac6507ae69596624cda91614027e2eacc07694cb87360a2d29044fb31.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 7,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-142734",
+      "title": "Brin de muguet",
+      "creator": "Maison Fabergé",
+      "sourceUrl": "https://clevelandart.org/art/1966.443",
+      "institutionEvidence": "catalog/evidence/cma-142734.json",
+      "objectQid": "Q60760986",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/25b8d7144c98ece281a48c6f1e1b81e96fe654c8c30337fc689b8db7aeaa6330.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60760986",
+        "label": "Flower Study of a Lily of the Valley",
+        "identityEvidence": "catalog/notoriety/evidence/25b8d7144c98ece281a48c6f1e1b81e96fe654c8c30337fc689b8db7aeaa6330.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q189762",
+          "label": "Peter Carl Fabergé",
+          "identityEvidence": "catalog/notoriety/evidence/183d7d90adc7af45fb8a41e84d66f81843a24c7fcb0f80ced9591405676692ab.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Pierre-Karl Fabergé",
+              "url": "https://fr.wikipedia.org/wiki/Pierre-Karl_Faberg%C3%A9",
+              "status": "measured",
+              "views": 42495,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/206ca767603faca57a817967a7c69111e86fa5dd84eef213300a2528d54e572a.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Peter Carl Fabergé",
+              "url": "https://en.wikipedia.org/wiki/Peter_Carl_Faberg%C3%A9",
+              "status": "measured",
+              "views": 92825,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/1d22719559b83664ad97d78997a336cc99855a7729dac811baf7faf2a24d17a8.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 4,
+        "exhibitions": 6,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-165186",
+      "title": "Vase Grenouilles et Nénuphars",
+      "creator": "René Lalique",
+      "sourceUrl": "https://clevelandart.org/art/2007.180",
+      "institutionEvidence": "catalog/evidence/cma-165186.json",
+      "objectQid": "Q60756278",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/f138873b9523c2fe46d9218268fc6e5a2c8f15dd8b9b06268a72967c54e954a8.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60756278",
+        "label": "Frogs and Lily Pads (Grenouilles et Nénuphars) Vase",
+        "identityEvidence": "catalog/notoriety/evidence/f138873b9523c2fe46d9218268fc6e5a2c8f15dd8b9b06268a72967c54e954a8.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q451400",
+          "label": "René Lalique",
+          "identityEvidence": "catalog/notoriety/evidence/f945bb22e8a5f66ce23c22f57b6f4620833a05b2b9a8b980eba1e9cb02f52449.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "René Lalique",
+              "url": "https://fr.wikipedia.org/wiki/Ren%C3%A9_Lalique",
+              "status": "measured",
+              "views": 16584,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/c62606e61dc527b9e95de0244dbcd74d27bb708f4adb9488e7d7e1262e1db58e.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "René Lalique",
+              "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Lalique",
+              "status": "measured",
+              "views": 34714,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/5f954b9d3d74c9ce40f7850843b7676afa7b940593c0e1ddb87e178949820520.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 9,
+        "exhibitions": 1,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-150156",
+      "title": "Service à thé et à café",
+      "creator": "Carlo Bugatti ; fabrication Adrien-Aurélien Hébrard",
+      "sourceUrl": "https://clevelandart.org/art/1980.74",
+      "institutionEvidence": "catalog/evidence/cma-150156.json",
+      "objectQid": "Q60758265",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/82377ab171877558b2f9e76b76b7deb5c98ed0e428ed13c60e8995bf2247407e.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60758265",
+        "label": "Tea and Coffee Service",
+        "identityEvidence": "catalog/notoriety/evidence/82377ab171877558b2f9e76b76b7deb5c98ed0e428ed13c60e8995bf2247407e.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 15,
+        "exhibitions": 7,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-296869",
+      "title": "Lampadaire aux pivoines, pied bambou",
+      "creator": "Probablement Clara Wolcott Driscoll ; Tiffany Studios",
+      "sourceUrl": "https://clevelandart.org/art/2018.267",
+      "institutionEvidence": "catalog/evidence/cma-296869.json",
+      "objectQid": "Q60757482",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/6e48e1f3e6fd5fe14d89951b321ae0fc009a250a34aa219ea3d0f12da8d240de.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60757482",
+        "label": "Peony Floor Lamp with a Bamboo Base",
+        "identityEvidence": "catalog/notoriety/evidence/6e48e1f3e6fd5fe14d89951b321ae0fc009a250a34aa219ea3d0f12da8d240de.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 0,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-150488",
+      "title": "Peigne au muguet",
+      "creator": "René Lalique",
+      "sourceUrl": "https://clevelandart.org/art/1981.49",
+      "institutionEvidence": "catalog/evidence/cma-150488.json",
+      "objectQid": "Q60749031",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/6be99a1da1e23c29d22f97a7e666d24fb8b6906ccfe7bf4298c79f2b099ba685.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60749031",
+        "label": "Lily of the Valley Comb",
+        "identityEvidence": "catalog/notoriety/evidence/6be99a1da1e23c29d22f97a7e666d24fb8b6906ccfe7bf4298c79f2b099ba685.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q451400",
+          "label": "René Lalique",
+          "identityEvidence": "catalog/notoriety/evidence/f945bb22e8a5f66ce23c22f57b6f4620833a05b2b9a8b980eba1e9cb02f52449.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "René Lalique",
+              "url": "https://fr.wikipedia.org/wiki/Ren%C3%A9_Lalique",
+              "status": "measured",
+              "views": 16584,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/c62606e61dc527b9e95de0244dbcd74d27bb708f4adb9488e7d7e1262e1db58e.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "René Lalique",
+              "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Lalique",
+              "status": "measured",
+              "views": 34714,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/5f954b9d3d74c9ce40f7850843b7676afa7b940593c0e1ddb87e178949820520.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 3,
+        "exhibitions": 8,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-152818",
+      "title": "Plat mural aux deux oiseaux",
+      "creator": "Édouard Lièvre et Fernand Thesmar",
+      "sourceUrl": "https://clevelandart.org/art/1985.69",
+      "institutionEvidence": "catalog/evidence/cma-152818.json",
+      "objectQid": "Q60781165",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/3534bcde8933b89e2df070bc49fe632b2bdf5bf7d4fd185dcfeff147facc0727.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60781165",
+        "label": "Wall Charger Depicting Two Birds",
+        "identityEvidence": "catalog/notoriety/evidence/3534bcde8933b89e2df070bc49fe632b2bdf5bf7d4fd185dcfeff147facc0727.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q4759893",
+          "label": "Fernand Thesmar",
+          "identityEvidence": "catalog/notoriety/evidence/976b33331b79a629637ce6ed8c27ee9f5ef5bb422966589a88b5962e4a750ae1.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Fernand Thesmar",
+              "url": "https://fr.wikipedia.org/wiki/Fernand_Thesmar",
+              "status": "measured",
+              "views": 317,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/0ab5327e10fea88d97df99eb1e74a9303c7e8aafb15fb64cf0d8cb6f6812cd81.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "André Fernand Thesmar",
+              "url": "https://en.wikipedia.org/wiki/Andr%C3%A9_Fernand_Thesmar",
+              "status": "measured",
+              "views": 281,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/43057a72b57345406dc7130c6037aa759588a957ce222aadeb88f353b63b7476.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 0,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-160089",
+      "title": "Écran de cheminée",
+      "creator": "Maison Herter Brothers",
+      "sourceUrl": "https://clevelandart.org/art/1997.58",
+      "institutionEvidence": "catalog/evidence/cma-160089.json",
+      "objectQid": "Q79980739",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/76eebb2d5a9f7272797b92f10f0ffbfcb31a6e17b5a83b7b4b68bdfd5a0634c8.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79980739",
+        "label": "Fire Screen",
+        "identityEvidence": "catalog/notoriety/evidence/76eebb2d5a9f7272797b92f10f0ffbfcb31a6e17b5a83b7b4b68bdfd5a0634c8.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 10,
+        "exhibitions": 0,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-151884",
+      "title": "Cabinet aux incrustations et parchemins peints",
+      "creator": "Carlo Bugatti",
+      "sourceUrl": "https://clevelandart.org/art/1984.177",
+      "institutionEvidence": "catalog/evidence/cma-151884.json",
+      "objectQid": "Q60753721",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/53f83d21150b5299e5212c86c0717c08e66f1fbd1a8fccb4a0be72245b52efd4.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60753721",
+        "label": "Cabinet",
+        "identityEvidence": "catalog/notoriety/evidence/53f83d21150b5299e5212c86c0717c08e66f1fbd1a8fccb4a0be72245b52efd4.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q549250",
+          "label": "Carlo Bugatti",
+          "identityEvidence": "catalog/notoriety/evidence/04793098857d7bf97b97625deb44a41051960950b310c926cd95ffd61ee05ed9.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Carlo Bugatti",
+              "url": "https://fr.wikipedia.org/wiki/Carlo_Bugatti",
+              "status": "measured",
+              "views": 4976,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/6179dc53cda5b1b75a2287d490c966076943fae7022e834b80a5c47a01dad7ad.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Carlo Bugatti",
+              "url": "https://en.wikipedia.org/wiki/Carlo_Bugatti",
+              "status": "measured",
+              "views": 15014,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/f76e8ce129e5dff7575552870a3bb74fd3cd3f2624449281d902dae28d0cec3f.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 2,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-93173",
+      "title": "Encrier aux pavots",
+      "creator": "Dessin attribué à Clara Wolcott Driscoll ; Tiffany",
+      "sourceUrl": "https://clevelandart.org/art/2018.289",
+      "institutionEvidence": "catalog/evidence/cma-93173.json",
+      "objectQid": "Q60780005",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/158841301b834a1b71c07a1703d7b7019fd6612ca33e25f1db2bd0e11813770b.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60780005",
+        "label": "Poppy Inkwell",
+        "identityEvidence": "catalog/notoriety/evidence/158841301b834a1b71c07a1703d7b7019fd6612ca33e25f1db2bd0e11813770b.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 2,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-140001",
+      "title": "Œuf impérial de la Croix-Rouge",
+      "creator": "Peter Carl Fabergé ; Henrik Wigström ; maison Fabergé",
+      "sourceUrl": "https://clevelandart.org/art/1963.673",
+      "institutionEvidence": "catalog/evidence/cma-140001.json",
+      "objectQid": "Q2186008",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/bc141c228854c614dbf16346b295f17d704a394811031c59390db216b5dd38dc.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q2186008",
+        "label": "Imperial Red Cross Easter Egg",
+        "identityEvidence": "catalog/notoriety/evidence/bc141c228854c614dbf16346b295f17d704a394811031c59390db216b5dd38dc.json",
+        "identityAvailable": true,
+        "pages": [
+          {
+            "language": "en",
+            "title": "Red Cross with Triptych (Fabergé egg)",
+            "url": "https://en.wikipedia.org/wiki/Red_Cross_with_Triptych_%28Faberg%C3%A9_egg%29",
+            "status": "measured",
+            "views": 2997,
+            "months": 12,
+            "evidence": [
+              "catalog/notoriety/evidence/c05743359f97aa8e4cd3e4015e851c16db554418c47f35031c0d01eaf30dd47f.json"
+            ]
+          }
+        ]
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q1369599",
+          "label": "Henrik Wigström",
+          "identityEvidence": "catalog/notoriety/evidence/1544ae64c8ded670fe879a5906bf3b2733a481369410339026f0e47cd34f4a1f.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Henrik Wigström",
+              "url": "https://fr.wikipedia.org/wiki/Henrik_Wigstr%C3%B6m",
+              "status": "unavailable_or_incomplete",
+              "views": null,
+              "months": 7,
+              "evidence": [
+                "catalog/notoriety/evidence/e1a34f71df030fc8c2deb04ea29da3cbd97807f3be6082b4b9e1a4f4533a3c5e.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Henrik Wigström",
+              "url": "https://en.wikipedia.org/wiki/Henrik_Wigstr%C3%B6m",
+              "status": "measured",
+              "views": 3724,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/38595db33472ba92dcbbb44927da74b1a6bf305ce9850ff65328ea9dee532774.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 7,
+        "exhibitions": 12,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-153683",
+      "title": "Hercule",
+      "creator": "Atelier romain non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1987.2",
+      "institutionEvidence": "catalog/evidence/cma-153683.json",
+      "objectQid": "Q60759620",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/382b135aa06bf1c4cc6ac62eb41359eb1c436366724fb0fd708f5a925ab40d99.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60759620",
+        "label": "Hercules",
+        "identityEvidence": "catalog/notoriety/evidence/382b135aa06bf1c4cc6ac62eb41359eb1c436366724fb0fd708f5a925ab40d99.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 7,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-399499",
+      "title": "Antéfixe à tête de Gorgone",
+      "creator": "Atelier grec d’Italie du Sud non identifié",
+      "sourceUrl": "https://clevelandart.org/art/2021.3",
+      "institutionEvidence": "catalog/evidence/cma-399499.json",
+      "objectQid": "Q106477702",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/e6e4be6f0893b80f46c79f2da852bf4d3fbd13ba823a6519be4ee11f134cfb09.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q106477702",
+        "label": "Gorgoneion Antefix (Ornamental Roof Tile)",
+        "identityEvidence": "catalog/notoriety/evidence/e6e4be6f0893b80f46c79f2da852bf4d3fbd13ba823a6519be4ee11f134cfb09.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 5,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-111811",
+      "title": "Nataraja, Shiva seigneur de la danse",
+      "creator": "Atelier du Tamil Nadu non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1930.331",
+      "institutionEvidence": "catalog/evidence/cma-111811.json",
+      "objectQid": "Q60762150",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/00fae85bf990b9d776a52a364233ed4520228193e625b88fff44609c2e8d903e.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60762150",
+        "label": "Nataraja, Shiva as the Lord of Dance",
+        "identityEvidence": "catalog/notoriety/evidence/00fae85bf990b9d776a52a364233ed4520228193e625b88fff44609c2e8d903e.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 36,
+        "exhibitions": 12,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-137128",
+      "title": "Ganesha dansant",
+      "creator": "Atelier indien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1961.93",
+      "institutionEvidence": "catalog/evidence/cma-137128.json",
+      "objectQid": "Q60750241",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/70fa2f31effa7fda655f55577891f9d36f4b24b5c3b08a728a919e21567918a9.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60750241",
+        "label": "Dancing Ganesha",
+        "identityEvidence": "catalog/notoriety/evidence/70fa2f31effa7fda655f55577891f9d36f4b24b5c3b08a728a919e21567918a9.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 5,
+        "exhibitions": 3,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-135431",
+      "title": "Dragon",
+      "creator": "Fachang Muqi",
+      "sourceUrl": "https://clevelandart.org/art/1958.427.1",
+      "institutionEvidence": "catalog/evidence/cma-135431.json",
+      "objectQid": "Q60465138",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/d2037311af21c319ec0261e0e29b84fa8a8da27d56da874980d3ed33bc186285.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60465138",
+        "label": "Dragon",
+        "identityEvidence": "catalog/notoriety/evidence/d2037311af21c319ec0261e0e29b84fa8a8da27d56da874980d3ed33bc186285.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "identified",
+      "artistAudiences": [
+        {
+          "qid": "Q3048317",
+          "label": "Muqi",
+          "identityEvidence": "catalog/notoriety/evidence/15e11fbb19697f0a5b6c00b950afe1274a54077981c61f44969a77300cc34db6.json",
+          "identityAvailable": true,
+          "pages": [
+            {
+              "language": "fr",
+              "title": "Muqi Fachang",
+              "url": "https://fr.wikipedia.org/wiki/Muqi_Fachang",
+              "status": "measured",
+              "views": 498,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/b4c1ce3a0cd6c54ee28af0b607f9c425cb6ad5d906dcb779ecb2c7daaa8b9985.json"
+              ]
+            },
+            {
+              "language": "en",
+              "title": "Muqi",
+              "url": "https://en.wikipedia.org/wiki/Muqi",
+              "status": "measured",
+              "views": 5773,
+              "months": 12,
+              "evidence": [
+                "catalog/notoriety/evidence/0a5c32926a1507ed715c62420a4e846acae62b74e657465cd8947e4d9e479e6f.json"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutionSignals": {
+        "citations": 9,
+        "exhibitions": 8,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-137023",
+      "title": "Vishnou sur Garuda",
+      "creator": "Atelier indien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1961.46",
+      "institutionEvidence": "catalog/evidence/cma-137023.json",
+      "objectQid": "Q60760488",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/16f9c5cac83dffce106cf72c096e5dfd90d39658c3da843643457bde029d2a4c.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60760488",
+        "label": "Vishnu Riding on Garuda",
+        "identityEvidence": "catalog/notoriety/evidence/16f9c5cac83dffce106cf72c096e5dfd90d39658c3da843643457bde029d2a4c.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 7,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-150996",
+      "title": "Durga terrassant le démon-buffle",
+      "creator": "Atelier indien non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1982.45",
+      "institutionEvidence": "catalog/evidence/cma-150996.json",
+      "objectQid": "Q60753039",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/ada8f3a8b9f1acecf2efc45e4b1290046ed3631e99d385ce80f14b19759d46b7.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60753039",
+        "label": "Durga Destroying the Buffalo Demon",
+        "identityEvidence": "catalog/notoriety/evidence/ada8f3a8b9f1acecf2efc45e4b1290046ed3631e99d385ce80f14b19759d46b7.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 1,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-169251",
+      "title": "Atlas-Hercule ailé",
+      "creator": "Atelier du Gandhara non identifié",
+      "sourceUrl": "https://clevelandart.org/art/2011.136",
+      "institutionEvidence": "catalog/evidence/cma-169251.json",
+      "objectQid": "Q60757896",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/c3eb9b1a767efbe77cf4e75fccbe1cfb06b7f136c84b524714af264ceb29c469.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60757896",
+        "label": "Winged Atlas-Hercules",
+        "identityEvidence": "catalog/notoriety/evidence/c3eb9b1a767efbe77cf4e75fccbe1cfb06b7f136c84b524714af264ceb29c469.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 2,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-105933",
+      "title": "La Reine Méduse et sa cour",
+      "creator": "Entourage de Maître François",
+      "sourceUrl": "https://clevelandart.org/art/1924.1015",
+      "institutionEvidence": "catalog/evidence/cma-105933.json",
+      "objectQid": "Q79892061",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/3bef6b90b8c6d4d5bfde54d000529a9d509c96876f676d529f3466be831be11b.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79892061",
+        "label": "Single Miniature Excised from Boccaccio's Des Cleres et nobles femmes: Queen Medusa and Her Court",
+        "identityEvidence": "catalog/notoriety/evidence/3bef6b90b8c6d4d5bfde54d000529a9d509c96876f676d529f3466be831be11b.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 11,
+        "exhibitions": 5,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-153401",
+      "title": "Jarre au dragon",
+      "creator": "Atelier coréen non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1986.85",
+      "institutionEvidence": "catalog/evidence/cma-153401.json",
+      "objectQid": "Q79939330",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/07e6c1efe9ca80f523ee3928a5151927831f4e8635b9bc33b30dbe51f4e65d6b.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79939330",
+        "label": "Jar with Dragon Design",
+        "identityEvidence": "catalog/notoriety/evidence/07e6c1efe9ca80f523ee3928a5151927831f4e8635b9bc33b30dbe51f4e65d6b.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 11,
+        "exhibitions": 6,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-130939",
+      "title": "Amulette à figure assise et tête bovine",
+      "creator": "Probablement culture de Hongshan",
+      "sourceUrl": "https://clevelandart.org/art/1953.628",
+      "institutionEvidence": "catalog/evidence/cma-130939.json",
+      "objectQid": null,
+      "objectIdentityEvidence": null,
+      "audienceScope": "exact_object",
+      "workAudience": null,
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 14,
+        "exhibitions": 5,
+        "highlight": true
+      }
+    },
+    {
+      "id": "cma-165426",
+      "title": "Urne en forme d’oiseau",
+      "creator": "Culture de Majiayao, phase Banshan",
+      "sourceUrl": "https://clevelandart.org/art/2007.276",
+      "institutionEvidence": "catalog/evidence/cma-165426.json",
+      "objectQid": "Q60759366",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/20f504b781e8df004833365a92229b3ed593ca14c80f02b179bf7b3478e8669e.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60759366",
+        "label": "Bird-shaped Urn",
+        "identityEvidence": "catalog/notoriety/evidence/20f504b781e8df004833365a92229b3ed593ca14c80f02b179bf7b3478e8669e.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 1,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-161637",
+      "title": "Figurine de Vinča",
+      "creator": "Culture de Vinča",
+      "sourceUrl": "https://clevelandart.org/art/2000.201",
+      "institutionEvidence": "catalog/evidence/cma-161637.json",
+      "objectQid": "Q60780048",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/7d504a6a67ec01c423db54d069adb5b778e2c85cdf1e2ea4c0566a2f12d32612.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60780048",
+        "label": "Vinca Idol",
+        "identityEvidence": "catalog/notoriety/evidence/7d504a6a67ec01c423db54d069adb5b778e2c85cdf1e2ea4c0566a2f12d32612.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 0,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-163505",
+      "title": "Jarre aux spirales",
+      "creator": "Culture de Majiayao, phase Majiayao",
+      "sourceUrl": "https://clevelandart.org/art/2004.64",
+      "institutionEvidence": "catalog/evidence/cma-163505.json",
+      "objectQid": "Q60753785",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/727044656060f6c4f268bae7b7429e1432a706c495c4ac20373cf3c808c07c88.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60753785",
+        "label": "Jar with Spiral Designs",
+        "identityEvidence": "catalog/notoriety/evidence/727044656060f6c4f268bae7b7429e1432a706c495c4ac20373cf3c808c07c88.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 4,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-98298",
+      "title": "Disque cérémoniel bi",
+      "creator": "Culture de Liangzhu",
+      "sourceUrl": "https://clevelandart.org/art/1917.974",
+      "institutionEvidence": "catalog/evidence/cma-98298.json",
+      "objectQid": "Q60762869",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/c6c06a09010a402d77475da21eb037db7ad1c979dcea7ed2287771a95cb6f499.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60762869",
+        "label": "Ceremonial Disc (Bi)",
+        "identityEvidence": "catalog/notoriety/evidence/c6c06a09010a402d77475da21eb037db7ad1c979dcea7ed2287771a95cb6f499.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 3,
+        "exhibitions": 2,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-156131",
+      "title": "Hache-disque cérémonielle yue",
+      "creator": "Culture de Hongshan",
+      "sourceUrl": "https://clevelandart.org/art/1991.6",
+      "institutionEvidence": "catalog/evidence/cma-156131.json",
+      "objectQid": "Q60757958",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/15c5bc92ab9b7019f2ffa4426eb6e63af36a61e541ed4db922e3e7620b6250da.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q60757958",
+        "label": "Ceremonial Disk-Axe (Yue)",
+        "identityEvidence": "catalog/notoriety/evidence/15c5bc92ab9b7019f2ffa4426eb6e63af36a61e541ed4db922e3e7620b6250da.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 1,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-284749",
+      "title": "Urne aux motifs triangulaires",
+      "creator": "Culture de Majiayao",
+      "sourceUrl": "https://clevelandart.org/art/2017.21",
+      "institutionEvidence": "catalog/evidence/cma-284749.json",
+      "objectQid": "Q79860212",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/63536ec5faa2d3130f502a4541d00dd426a9c58a0805ae053b26bb6ab1aec02a.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79860212",
+        "label": "Urn with Triangular Patterns",
+        "identityEvidence": "catalog/notoriety/evidence/63536ec5faa2d3130f502a4541d00dd426a9c58a0805ae053b26bb6ab1aec02a.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 0,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-151445",
+      "title": "Jarre peinte de Ban Chiang",
+      "creator": "Culture de Ban Chiang",
+      "sourceUrl": "https://clevelandart.org/art/1983.29",
+      "institutionEvidence": "catalog/evidence/cma-151445.json",
+      "objectQid": "Q79934947",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/bd232bcdbb8a3dfa4842f9a30f03f1f14896efc439b4d75b566f4d0d39ef8aab.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79934947",
+        "label": "Jar",
+        "identityEvidence": "catalog/notoriety/evidence/bd232bcdbb8a3dfa4842f9a30f03f1f14896efc439b4d75b566f4d0d39ef8aab.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 1,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-106757",
+      "title": "Hachette en silex",
+      "creator": "Fabrication néolithique, auteur non identifié",
+      "sourceUrl": "https://clevelandart.org/art/1924.777",
+      "institutionEvidence": "catalog/evidence/cma-106757.json",
+      "objectQid": "Q79893729",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/8f2209972dee16aac2f82aa7851e86d6e40d1445dd590291b6ebfafb5d4fd9d5.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79893729",
+        "label": "Hatchet",
+        "identityEvidence": "catalog/notoriety/evidence/8f2209972dee16aac2f82aa7851e86d6e40d1445dd590291b6ebfafb5d4fd9d5.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 0,
+        "exhibitions": 0,
+        "highlight": false
+      }
+    },
+    {
+      "id": "cma-151450",
+      "title": "Coupe sur pied de Ban Chiang",
+      "creator": "Culture de Ban Chiang",
+      "sourceUrl": "https://clevelandart.org/art/1983.31",
+      "institutionEvidence": "catalog/evidence/cma-151450.json",
+      "objectQid": "Q79934961",
+      "objectIdentityEvidence": "catalog/notoriety/evidence/634e00d815896d75363c19a11ad7eb7265c317b443c9d7d37f6acdd40ba15774.json",
+      "audienceScope": "exact_object",
+      "workAudience": {
+        "qid": "Q79934961",
+        "label": "Tazza",
+        "identityEvidence": "catalog/notoriety/evidence/634e00d815896d75363c19a11ad7eb7265c317b443c9d7d37f6acdd40ba15774.json",
+        "identityAvailable": true,
+        "pages": []
+      },
+      "creatorStatus": "unresolved_or_uncertain",
+      "artistAudiences": [],
+      "institutionSignals": {
+        "citations": 1,
+        "exhibitions": 1,
+        "highlight": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60756278.json",
+  "retrievedAt": "2026-10-29T15:50:52.059244+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60756278": {
+        "pageid": 60614512,
+        "ns": 0,
+        "title": "Q60756278",
+        "lastrevid": 2197940836,
+        "modified": "2024-07-07T22:02:03Z",
+        "type": "item",
+        "id": "Q60756278",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Frogs and Lily Pads (Grenouilles et Nénuphars) Vase"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "Vase Grenouilles et Nénuphars"
+          },
+          "it": {
+            "language": "it",
+            "value": "Vaso Ran e Gigli"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "glass by René Lalique (French, 1860-1945) (2007.180)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "ac5265cf441a677735809a3a12092712b931de7d",
+                "datavalue": {
+                  "value": "2007.180",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60756278$453AFCE3-029F-4F52-99E3-E044B11C73FA",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60756278$B27CA19A-2612-4A94-8151-13A762472B98",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ad5c1f4be16c1789211d4f4db09706742f68af3a",
+                "datavalue": {
+                  "value": {
+                    "text": "Frogs and Lily Pads Vase",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60756278$A33C6588-E720-41C3-A3E4-DF13478CF484",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "b8eaa93d14792e6acf4c2443a4d3f04a686a0f88",
+                "datavalue": {
+                  "value": {
+                    "text": "Frogs and Lily Pads (Grenouilles et Nénuphars) Vase",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60756278$58865d21-d3ef-4be0-bfa8-f6cf8a1597f4",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "a91915cf385dd55e1ace498e04cb0d61aaaa6ff7",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "7d194afa842bd6488f25fd4fa696f1c22241627e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.180",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "caf7460e7be8a2d2635fd3758ce979411df0f454",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "64ffe23b94ab62d3ed74b0dd7bcd438182d874a3",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/2007.180",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60756278$98BC444B-66BE-4DEE-BDD8-9560982AAFA5",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "0a2136eb26d1b78b3b18fea9e1395379dcabc43d",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/2007.180",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60756278$b5151a02-fb4d-4502-b17c-2b698eb884e7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8e7e5884bec034f6176eebd48a91485803c639a8",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "7d194afa842bd6488f25fd4fa696f1c22241627e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.180",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60756278$E0D110F6-2231-4444-9FFA-51AF529CFA2A",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "c677a1ecfee0cf5232774ca33cf462a02ee6a203",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1922981,
+                    "id": "Q1922981"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60756278$86951351-728a-4f91-a8f2-35ee6f224e0d",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8dba62525077c7a0444eb69c537157dbe2fff7e8",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "7d194afa842bd6488f25fd4fa696f1c22241627e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.180",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "1913fa291e206ec3622593423e8556686aa5c956",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-04-23T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "da599b66af58637ab75402e49ee7819a02af4007",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 191851,
+                    "id": "Q191851"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60756278$f4939ea7-4694-5d14-551e-f81fd2c8117e",
+              "rank": "normal"
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "d69dced83f9584d7894ca06a2d3918db8bcd6b8b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 451400,
+                    "id": "Q451400"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60756278$A5E80B19-6D9A-40D2-9967-D201528CE24D",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "5570347fdc76d2a80732f51ea10ee4b144a084e0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 50423863,
+                    "id": "Q50423863"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60756278$4eb04932-ffdb-403a-a108-c08b1bb3500c",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d6da9f8dbb74ff4d38fc076b764b9561327faf32",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "7d194afa842bd6488f25fd4fa696f1c22241627e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.180",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60756278$fb3481b9-a909-495c-b365-8eb42d84f9be",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "a91915cf385dd55e1ace498e04cb0d61aaaa6ff7",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "7d194afa842bd6488f25fd4fa696f1c22241627e",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/2007.180",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "caf7460e7be8a2d2635fd3758ce979411df0f454",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-16T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "af8c89a567cae12986cdc7ccf40a43d16f661074",
+                "datavalue": {
+                  "value": "René lalique, vaso rane e gigli, 1909-12 ca.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60756278$0A4E5620-E1FF-4A9B-994E-E2C265AC918F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8357342085fa33ce360ea3bfa1317931f0b41e9c",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "6f05340ba0497d1af527719a66b2a2eaaf56a8c0",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-07-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "923139d6810ec168b492d80dc0ca55b1a8314d18",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:René_lalique,_vaso_rane_e_gigli,_1909-12_ca.jpg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

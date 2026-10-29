@@ -1,0 +1,454 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60762950.json",
+  "retrievedAt": "2026-10-29T15:50:36.771101+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60762950": {
+        "pageid": 60620335,
+        "ns": 0,
+        "title": "Q60762950",
+        "lastrevid": 1846996060,
+        "modified": "2023-03-08T00:50:17Z",
+        "type": "item",
+        "id": "Q60762950",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Striding Statue of Minnefer"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "sculpture by unknown artist (1948.420)"
+          },
+          "ar": {
+            "language": "ar",
+            "value": "منحوتة"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "780de2ceee9de2c1547bab2308b6e77d42e6b23d",
+                "datavalue": {
+                  "value": "1948.420",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60762950$B5CF6ED0-9E9E-42A4-81B9-33C9417ADE32",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60762950$2A0884FD-30F6-4E1F-9C78-48D8BC67D3C4",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "3b178770b9cff7b5e8fa7971b23e8d0d769f75f9",
+                "datavalue": {
+                  "value": {
+                    "text": "Striding Statue of Minnefer",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60762950$EC23CE70-B5EE-4131-B9CF-D5CC99BB1CCF",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "74dc71b25c6fc5a354228a34f26280d66c3894c4",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1948.420",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60762950$D086F95F-7538-47F4-ABF4-92F451B10F5B",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "c89e10ccffe1f72696b9fa3e954ffe78cc3146d8",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1948.420",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60762950$ea6722b0-4ab2-4f94-9ddf-f8365c42dc4a",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "69aebfcc6384af4f58934f2c79df8736d226cf21",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0eb2160be42a9cd8296144f2db5ff4f631289419",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1948.420",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60762950$56AD08AB-F31C-493E-8E7E-6B17372900EC",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "64114526c020c1f7bc1bbee1971b1629d0b52d25",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 860861,
+                    "id": "Q860861"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60762950$17F1DFFB-CF39-44EF-A443-220B8D684B25",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "eb1c94bf382933a008ef730231cf97a2e071cf0a",
+                "datavalue": {
+                  "value": "Clevelandart 1948.420.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60762950$E4E48389-BD6D-470D-B71B-0F0B9C6E0F8F",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "89a25b94e650a9eb7c0eb2f3dc4d80e7c68fbd0d",
+                "datavalue": {
+                  "value": "Egypt, Giza, Old Kingdom, Late Dynasty 5 - Striding Statue of Minnefer - 1948.420 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60762950$f91b597e-3492-4d5d-93c7-09e98fa4e837",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "69aebfcc6384af4f58934f2c79df8736d226cf21",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0eb2160be42a9cd8296144f2db5ff4f631289419",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1948.420",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60762950$941858e2-daaa-40fb-bd97-8ae1014e5e35",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "69aebfcc6384af4f58934f2c79df8736d226cf21",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0eb2160be42a9cd8296144f2db5ff4f631289419",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1948.420",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60762950$9acae8dc-a5de-496b-a807-7392be712cc5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e826435a0c4ff20d5edc85027c94148025a4e770",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "0eb2160be42a9cd8296144f2db5ff4f631289419",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1948.420",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4cf996bfd5b9b0ecc8fb3b612b043e3ed3f4fbec",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-07T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

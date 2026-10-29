@@ -1,0 +1,614 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60777976.json",
+  "retrievedAt": "2026-10-29T15:50:27.554834+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60777976": {
+        "pageid": 60634228,
+        "ns": 0,
+        "title": "Q60777976",
+        "lastrevid": 2468768486,
+        "modified": "2026-03-02T16:56:23Z",
+        "type": "item",
+        "id": "Q60777976",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Caryatid Mirror"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "Bronze mirror with a female figure at the base"
+          }
+        },
+        "aliases": {
+          "en": [
+            {
+              "language": "en",
+              "value": "caryatid"
+            },
+            {
+              "language": "en",
+              "value": "ancient Egyptian artwork"
+            },
+            {
+              "language": "en",
+              "value": "bronze mirror"
+            }
+          ]
+        },
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "f4aacea5f12037f8e7877fa15bebf8b449c99367",
+                "datavalue": {
+                  "value": "1983.196",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60777976$AA71EE9E-A4D0-4CF5-83A1-158F7CDF3AE4",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60777976$B5B58CCB-5023-45EC-9E40-5AD6A7DDA0E8",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ab1f6336fede2073fef01116dde0eb871bba1e76",
+                "datavalue": {
+                  "value": {
+                    "text": "Caryatid Mirror",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60777976$CA75B137-42F3-47AC-9930-5E624C5F5BAF",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "4635bd10cfdfedb340f31fe16a05710fa8c5b573",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1983.196",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P407": [
+                  {
+                    "snaktype": "value",
+                    "property": "P407",
+                    "hash": "92569fc163bb841d6f408130e2ad26cd58ec71e3",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 7976,
+                        "id": "Q7976"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P407"
+              ],
+              "id": "Q60777976$2cf21d6f-7967-4109-905f-e1590d7820b6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cbb2eddbf0419fa48aeea95cd0f2703f72468329",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cabb79c9f479d5270ec9c0fc2043b25ad7530f79",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1983.196",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60777976$55EDF62B-D5BF-4404-B583-5F37D082C3ED",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "d642e6cf44a53abeca6df65d526ef3728516fd76",
+                "datavalue": {
+                  "value": "Clevelandart 1983.196.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60777976$C13E74C0-29A6-4011-8D7E-ABC7AE87568A",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "6927f0ed8f05a49d31c432e7ac6c292cc60c6697",
+                "datavalue": {
+                  "value": "Egypt, New Kingdom, Dynasty 18 - Caryatid Mirror - 1983.196 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60777976$0906cc61-e595-4089-8de0-9cb93626e725",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "cbb2eddbf0419fa48aeea95cd0f2703f72468329",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cabb79c9f479d5270ec9c0fc2043b25ad7530f79",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1983.196",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "95da0fc96b68935f9413651c8f6b05bac1698888",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 35197,
+                    "id": "Q35197"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60777976$90237D3B-20EC-4B0D-A9BA-30D089F465D3",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "cc122143bf952b12f3fe21a89b08c00e2f93cce7",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 318394,
+                    "id": "Q318394"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60777976$4ce0ce16-d984-48e3-a9c2-802b59ad40be",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cbb2eddbf0419fa48aeea95cd0f2703f72468329",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cabb79c9f479d5270ec9c0fc2043b25ad7530f79",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1983.196",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60777976$79589eb9-19d1-4238-ac0a-24981ad8869f",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "cbb2eddbf0419fa48aeea95cd0f2703f72468329",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cabb79c9f479d5270ec9c0fc2043b25ad7530f79",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1983.196",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60777976$e3f0efb0-5e83-4555-8644-4370aca9a5e5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9885827a52f99f363bb392864a38320a7f6cd20d",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "cabb79c9f479d5270ec9c0fc2043b25ad7530f79",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1983.196",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "031a988ca4a3f367a0f1df2961d529aa87c6093e",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2348": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2348",
+                "hash": "eec2dcfbc4bb25d6183f04c9b9c11abeed9ea8aa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 146055,
+                    "id": "Q146055"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60777976$1e1fc09a-4848-097a-64d6-df3e1adbd33d",
+              "rank": "normal"
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "1aafd58b38495eb02b371701f0aff3ff4f8c1193",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 34095,
+                    "id": "Q34095"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60777976$0e40c1f4-4740-d43f-b1d5-9ceed820e0b3",
+              "rank": "normal"
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "3d51724ac88df383f2ca2d85ab3d3de571addb25",
+                "datavalue": {
+                  "value": {
+                    "amount": "+38.9",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60777976$d32a8cd9-48dc-6bea-5bfe-df20f81b835b",
+              "rank": "normal"
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "53222a884ad20c9e077c535e52952de8b2dd37b3",
+                "datavalue": {
+                  "value": {
+                    "amount": "+20",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60777976$600e922a-487c-df1d-82f6-63a4f00e66c6",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

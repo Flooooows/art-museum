@@ -1,0 +1,454 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60746596.json",
+  "retrievedAt": "2026-10-29T15:45:57.120024+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q60746596": {
+        "pageid": 60605095,
+        "ns": 0,
+        "title": "Q60746596",
+        "lastrevid": 1851822145,
+        "modified": "2023-03-14T04:54:09Z",
+        "type": "item",
+        "id": "Q60746596",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Statuette of a Serving Girl"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "sculpture by unknown artist (1991.107)"
+          },
+          "ar": {
+            "language": "ar",
+            "value": "منحوتة"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "7660534306d1d04448d4522534ace25d3b3ae445",
+                "datavalue": {
+                  "value": "1991.107",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60746596$0525B730-3F20-408B-85E2-ABDD8869BDA6",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746596$904E6DE4-A2C7-47DE-90EE-42DC4408B16E",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "ad30764bbf3d320e773ed28cf0c504c09e44b715",
+                "datavalue": {
+                  "value": {
+                    "text": "Statuette of a Serving Girl",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60746596$E6067E8B-C41E-4A9D-929E-BA8FC04165F2",
+              "rank": "normal"
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "2ca460c3ec3ebf6d46870bad59b3dc74f668e0ef",
+                "datavalue": {
+                  "value": "https://www.clevelandart.org/art/1991.107",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60746596$E765A788-446E-4A8D-8348-0C2509F4FF55",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "9fbb7049a2b744f3cabb86dab26b6d2e972ce9bd",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1991.107",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60746596$eee024d8-bf16-494b-8dfb-42e2bf1f98d7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "25735c474d1840d2cab2fef45205f700378f3db7",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "520b6d9f29b388c9bbb78e04949783770901bf01",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1991.107",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P5008": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5008",
+                "hash": "4ff960e3613256a59c96dd83d46d233143d91ffa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 60729883,
+                    "id": "Q60729883"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746596$E596B6F7-FC65-4AC2-9FE9-7937C641EA86",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "64114526c020c1f7bc1bbee1971b1629d0b52d25",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 860861,
+                    "id": "Q860861"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746596$2F432212-721F-4E9B-A4C1-DAA3628EE977",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "68542a8f16109244fcc22c242bab7c8d28e438c2",
+                "datavalue": {
+                  "value": "Clevelandart 1991.107.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60746596$0905B6EB-5008-4832-A169-2054A879D37A",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "654f2819445e08e9ad62559e47a80dda354eb3c3",
+                "datavalue": {
+                  "value": "Egypt, New Kingdom, late Dynasty 18 (1540-1296 BC) to Dynasty 19 - Statuette of a Serving Girl - 1991.107 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60746596$4232bd1b-9423-46cd-81e2-eb7fa469df96",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "25735c474d1840d2cab2fef45205f700378f3db7",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "520b6d9f29b388c9bbb78e04949783770901bf01",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1991.107",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0821233e4d69550b9a11cb8448e7b143a2d0bbd9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-02-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q60746596$0754c076-eb00-4d75-a3b6-53da6e7a7499",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "34ffbd5fbd3991e944029b3d2a0f9a9a285f9d47",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "520b6d9f29b388c9bbb78e04949783770901bf01",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1991.107",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "ca4860d02d941fe166013477436a9044ed6a2d99",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-12-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60746596$129a8a1b-51a3-45a3-9ace-dd50868d0ef1",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "549ca196a6914ba21804a61c8e521689c5526fc5",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "520b6d9f29b388c9bbb78e04949783770901bf01",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1991.107",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "853239dd6c115a99435ae254bd9748a06ea77f82",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2023-03-14T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

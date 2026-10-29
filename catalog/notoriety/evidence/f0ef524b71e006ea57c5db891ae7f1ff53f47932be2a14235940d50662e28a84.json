@@ -1,0 +1,475 @@
+{
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q105100271.json",
+  "retrievedAt": "2026-10-29T15:45:45.539190+00:00",
+  "status": 200,
+  "response": {
+    "entities": {
+      "Q105100271": {
+        "pageid": 100488640,
+        "ns": 0,
+        "title": "Q105100271",
+        "lastrevid": 2210530132,
+        "modified": "2024-07-22T21:42:03Z",
+        "type": "item",
+        "id": "Q105100271",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Head of Medusa"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "cast by Antonio Canova (MET, 67.110.2)"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P3634": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3634",
+                "hash": "e1688bc6ca3be3bc53808b7d97296da2143af80f",
+                "datavalue": {
+                  "value": "204759",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q105100271$3BF0D49B-3051-44EF-BCCE-489DAF4E7D62",
+              "rank": "normal"
+            }
+          ],
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "8894b4fcd04e913d6e48c0d13cf237634acca8a2",
+                "datavalue": {
+                  "value": "67.110.2",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "27fc736028ceb26ce581215acf582090dce4ef2b",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 160236,
+                        "id": "Q160236"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q105100271$AB123972-AB20-40E5-A1BC-B183211244F7",
+              "rank": "normal"
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "27fc736028ceb26ce581215acf582090dce4ef2b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 160236,
+                    "id": "Q160236"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P217": [
+                  {
+                    "snaktype": "value",
+                    "property": "P217",
+                    "hash": "8894b4fcd04e913d6e48c0d13cf237634acca8a2",
+                    "datavalue": {
+                      "value": "67.110.2",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ],
+                "P580": [
+                  {
+                    "snaktype": "value",
+                    "property": "P580",
+                    "hash": "5f72e17dbd5c297bbeb1b3843e4682f4dd18c094",
+                    "datavalue": {
+                      "value": {
+                        "time": "+1967-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P217",
+                "P580"
+              ],
+              "id": "Q105100271$3AECD78A-E022-450D-8D07-BD5D9A46EE71",
+              "rank": "normal"
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "0ae7d5cfe929299b25f4f9668c079f6576086a8f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 160236,
+                    "id": "Q160236"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105100271$B19AA68E-C86D-4C42-913E-41CDDAD45D00",
+              "rank": "normal"
+            }
+          ],
+          "P4765": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P4765",
+                "hash": "be3d253b33a5f1c16e985e4589593e2dc6a512eb",
+                "datavalue": {
+                  "value": "https://images.metmuseum.org/CRDImages/es/original/DP-14050-001.jpg",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q105100271$B1342B0C-2D07-406B-B6F0-148107555138",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "0e281aa8920b45299758aeab770de00a7102b543",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 61848113,
+                        "id": "Q61848113"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P459"
+              ],
+              "id": "Q105100271$B26811D2-5639-4C43-AA27-2D605B27F4BA",
+              "rank": "normal"
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "d56b1fdefb31e9847bd571d4f636e023ed1c6644",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 12042203,
+                    "id": "Q12042203"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105100271$53AC5E3E-8F9D-4263-96BD-7BD43D8CF0CF",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "72a6c3df1cb90648ceb0d2d43dedcae069dbd76c",
+                "datavalue": {
+                  "value": "Head of Medusa - MET 67.110.2.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q105100271$C9B35941-759C-4AC2-B5B1-C4D2C4E2CFFA",
+              "rank": "normal"
+            }
+          ],
+          "P495": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P495",
+                "hash": "62faf00998325aad6b60b99fca1465baf1adb5a4",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 38,
+                    "id": "Q38"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105100271$7D96D8EB-2523-4F25-810A-A41A73BF4CE5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1d317e750ebdbf22c31d7b5ad839460c5bd1d003",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "ab6d1736e550b6825951bbbb44dc85d11593d2b8",
+                        "datavalue": {
+                          "value": "https://www.metmuseum.org/art/collection/search/204759",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "695750540c434cff19446963fafc6d97e29f8c08",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-11-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "de56307b4212dd96f731be19870a1017cded56de",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 220,
+                    "id": "Q220"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105100271$CE85C526-C0DE-46F6-8364-0DC72535E27B",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1d317e750ebdbf22c31d7b5ad839460c5bd1d003",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "ab6d1736e550b6825951bbbb44dc85d11593d2b8",
+                        "datavalue": {
+                          "value": "https://www.metmuseum.org/art/collection/search/204759",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "695750540c434cff19446963fafc6d97e29f8c08",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-11-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P10187": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P10187",
+                "hash": "8e93fbea3fc5eb96340ba88a0bd540fe39b971d2",
+                "datavalue": {
+                  "value": "18532257",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q105100271$4AF607A2-5052-4375-AF94-58449F83A65A",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "c412107d04c31930666e6d3b94b3bc5dfd7b5c96",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "9cc9c5fbb26504a24a68301efe0a0deddb0b995d",
+                        "datavalue": {
+                          "value": "http://www.metmuseum.org/art/collection/search/204759",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                },
+                {
+                  "hash": "858a4fae7b99c83542962ca395b92d0639df6e3a",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "ac268b2b3d30bdca19e090062750ee8683ecb037",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 160236,
+                            "id": "Q160236"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P126": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P126",
+                "hash": "ef20696a16b9b60103a0db4010a482ba01fcc001",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 67429136,
+                    "id": "Q67429136"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105100271$CBE697B0-A9FD-444B-89C7-9017CCBB7622",
+              "rank": "normal"
+            }
+          ]
+        },
+        "sitelinks": {}
+      }
+    }
+  }
+}

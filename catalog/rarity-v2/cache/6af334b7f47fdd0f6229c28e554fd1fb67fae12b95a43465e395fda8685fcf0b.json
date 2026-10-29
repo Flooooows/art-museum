@@ -1,0 +1,1280 @@
+{
+  "provider": "wikimedia",
+  "url": "https://www.wikidata.org/wiki/Special:EntityData/Q60515744.json",
+  "retrievedAt": "2026-10-29T15:45:47.674270+00:00",
+  "payload": {
+    "entities": {
+      "Q60515744": {
+        "pageid": 60386526,
+        "ns": 0,
+        "title": "Q60515744",
+        "lastrevid": 2267080497,
+        "modified": "2024-10-29T15:52:10Z",
+        "type": "item",
+        "id": "Q60515744",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "The Annunciation"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "Anunciação (Cleveland)"
+          }
+        },
+        "descriptions": {
+          "en": {
+            "language": "en",
+            "value": "painting by Paolo Veronese (Italian, 1528-1588); Workshop (1950.251)"
+          },
+          "ast": {
+            "language": "ast",
+            "value": "cuadru de Paolo Veronese"
+          },
+          "nl": {
+            "language": "nl",
+            "value": "schilderij van Paolo Veronese"
+          },
+          "pt": {
+            "language": "pt",
+            "value": "pintura de Paolo Veronese"
+          },
+          "ca": {
+            "language": "ca",
+            "value": "quadre de Paolo Veronese"
+          },
+          "eo": {
+            "language": "eo",
+            "value": "pentraĵo de Paolo Veronese"
+          },
+          "es": {
+            "language": "es",
+            "value": "cuadro de Paolo Veronese"
+          },
+          "gl": {
+            "language": "gl",
+            "value": "pintura de Paolo Veronese"
+          },
+          "he": {
+            "language": "he",
+            "value": "ציור מאת פאולו ורונזה"
+          },
+          "io": {
+            "language": "io",
+            "value": "pikturo da Paolo Veronese"
+          },
+          "oc": {
+            "language": "oc",
+            "value": "pintura de Paolo Veronese"
+          },
+          "nb": {
+            "language": "nb",
+            "value": "maleri av Veronese"
+          },
+          "nn": {
+            "language": "nn",
+            "value": "måleri av Paolo Veronese"
+          },
+          "sv": {
+            "language": "sv",
+            "value": "målning av Paolo Veronese"
+          },
+          "da": {
+            "language": "da",
+            "value": "maleri af Paolo Veronese"
+          },
+          "en-gb": {
+            "language": "en-gb",
+            "value": "painting by Paolo Veronese"
+          },
+          "de": {
+            "language": "de",
+            "value": "Gemälde von Paolo Veronese"
+          },
+          "hu": {
+            "language": "hu",
+            "value": "Paolo Veronese festménye"
+          },
+          "it": {
+            "language": "it",
+            "value": "dipinto di Paolo Veronese"
+          },
+          "fr": {
+            "language": "fr",
+            "value": "tableau de Paul Véronèse"
+          },
+          "ro": {
+            "language": "ro",
+            "value": "pictură de Paolo Veronese"
+          },
+          "pl": {
+            "language": "pl",
+            "value": "obraz Paolo Veronese"
+          },
+          "pap": {
+            "language": "pap",
+            "value": "pintura di Paolo Veronese"
+          }
+        },
+        "aliases": {
+          "en": [
+            {
+              "language": "en",
+              "value": "Annunciation (Cleveland)"
+            }
+          ]
+        },
+        "claims": {
+          "P217": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P217",
+                "hash": "4ae3bf0970fa3089b10fd03d2e747a85a8409c08",
+                "datavalue": {
+                  "value": "1950.251",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P195": [
+                  {
+                    "snaktype": "value",
+                    "property": "P195",
+                    "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 657415,
+                        "id": "Q657415"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P195"
+              ],
+              "id": "Q60515744$a6ad12ce-b6f1-4682-a4ea-5ad4072622f3",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P195": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P195",
+                "hash": "85088df09b5d4b44dfd692f4593036be0da922a6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$8be38a2b-1ebb-408e-9486-c9ae6a04cff3",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "dfce24c3a9083b334aa9fc35a67b162acd19286f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3305213,
+                    "id": "Q3305213"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$feaa9f17-0c6b-4a0a-a13b-bcfaf393d647",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P276": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P276",
+                "hash": "ef155140cd4b37e9e015bbce439746d7ee94bc20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 657415,
+                    "id": "Q657415"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$47c20ffb-b304-4316-9e5a-9266e3b6be67",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P571": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P571",
+                "hash": "94243ded304be701481b6a265fc1d2ccd9f56972",
+                "datavalue": {
+                  "value": {
+                    "time": "+1580-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1480": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1480",
+                    "hash": "cb40f2027a88b8d23735681aaccba1069a574f54",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 5727902,
+                        "id": "Q5727902"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1480"
+              ],
+              "id": "Q60515744$072e2bac-9110-4df4-9275-050cb6823026",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "71b8c3a9aada5161bd30692f732bc347daba35cf",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 296955,
+                    "id": "Q296955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$060fcee2-dccf-45a2-8593-d2ffed7e058a",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "218687cd8c85eefae216b7b931a6b3dc9e5462af",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "5065f7cbc46aed1258059809eb776861eac86290",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-02-26T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "d3e3b467560d86927e0f9c475b2da5f3333f2cee",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Paolo_Veronese_-_Annunciazione_-_Cleveland.jpeg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P186",
+                "hash": "2276ba6f3bd45e3014bbf0141ff11aec3a0a216a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 12321255,
+                    "id": "Q12321255"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P518": [
+                  {
+                    "snaktype": "value",
+                    "property": "P518",
+                    "hash": "741c2f726bfd42522b6ee31f850ec9ff7d4b7c41",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 861259,
+                        "id": "Q861259"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P518"
+              ],
+              "id": "Q60515744$38f13d41-48dc-47b3-a12a-2b1c99a04980",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "218687cd8c85eefae216b7b931a6b3dc9e5462af",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "5d3b16d350189b0a81818758208505444c86c127",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 565,
+                            "id": "Q565"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "5065f7cbc46aed1258059809eb776861eac86290",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-02-26T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "d3e3b467560d86927e0f9c475b2da5f3333f2cee",
+                        "datavalue": {
+                          "value": "https://commons.wikimedia.org/wiki/File:Paolo_Veronese_-_Annunciazione_-_Cleveland.jpeg",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P813",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2048": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2048",
+                "hash": "73d6e8af08c607532cc166fa06d29ee3568cac06",
+                "datavalue": {
+                  "value": {
+                    "amount": "+150.0",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515744$e404ec93-ae31-4db0-a22e-76f465eed360",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2049": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2049",
+                "hash": "ddd45efb68b25b10e35624ec272a0a780713dfaf",
+                "datavalue": {
+                  "value": {
+                    "amount": "+133.4",
+                    "unit": "http://www.wikidata.org/entity/Q174728"
+                  },
+                  "type": "quantity"
+                },
+                "datatype": "quantity"
+              },
+              "type": "statement",
+              "id": "Q60515744$38f245f7-5c5c-4cc7-b217-b0d67a0855da",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "03ffd9a23d2fe72a1a27ecebe167b72f4d10705f",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "b748865b1acf6b59d08e125e883dfd163c6a88f6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-01-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P973": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P973",
+                "hash": "793b79656043b9e95fa109ebf2cb91d1610e8b41",
+                "datavalue": {
+                  "value": "https://clevelandart.org/art/1950.251",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "id": "Q60515744$bd6ba737-61b9-4351-b030-16343dd76f39",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "4ad68cf5f43a6e8db9fde883990e24fb4e660c69",
+                "datavalue": {
+                  "value": "Paolo Veronese - The Annunciation - 1950.251 - Cleveland Museum of Art.tif",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q60515744$758DF176-88B3-4B4C-9227-4AA805D0D4C0",
+              "rank": "normal"
+            }
+          ],
+          "P921": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P921",
+                "hash": "b2334b561d97a592147eaa120838d1c192f9c4b4",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 154326,
+                    "id": "Q154326"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$7F64D003-3E7D-4A77-BF3E-2ABC908F1794",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "d960cb76ecb248024b7446bd6fcca59788366315",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 2864737,
+                    "id": "Q2864737"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$EDE9DA30-842F-4E34-968B-9D6B7A8C2896",
+              "rank": "normal"
+            }
+          ],
+          "P140": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P140",
+                "hash": "a5edfd29f5e8faff8d547ced0ece9e8f6773cd20",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5043,
+                    "id": "Q5043"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$B2866526-56A5-409D-A1F0-2D6112A02FD6",
+              "rank": "normal"
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "8c0bc90307fb25a1f12bb7b3178b90fb18fae4ed",
+                "datavalue": {
+                  "value": {
+                    "text": "The Annunciation",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q60515744$64bf4bbe-28a7-4ad5-b0a0-70255f3fd32b",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d5ac7216552fcf189dbd3e0ae43664d1f22c956b",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "73570ca13feab0d991eca757e331388103e5442a",
+                        "datavalue": {
+                          "value": "https://clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2019-04-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P170": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P170",
+                "hash": "80c89ab3ba9d9da64f43d31c6aa25f7d3319ae1b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 9440,
+                    "id": "Q9440"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$2D413FE4-8523-4700-912A-B991E34B24FA",
+              "rank": "normal"
+            }
+          ],
+          "P180": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P180",
+                "hash": "4a8ab2ce7712fbf4272bcc600ffa7456bdd7e5de",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 154326,
+                    "id": "Q154326"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$5864289A-533D-484D-97FF-DAED792417A4",
+              "rank": "normal"
+            }
+          ],
+          "P6216": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6216",
+                "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 19652,
+                    "id": "Q19652"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1001": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1001",
+                    "hash": "91dce20cb7cf8d03dc976a70e56b19939881d751",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 60332278,
+                        "id": "Q60332278"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P459": [
+                  {
+                    "snaktype": "value",
+                    "property": "P459",
+                    "hash": "8f1a08d7359ea45500b600d7ad0f13a7f032145e",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 29940705,
+                        "id": "Q29940705"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1001",
+                "P459"
+              ],
+              "id": "Q60515744$30D083EB-03F4-4E54-A579-2AFDCD3E8D04",
+              "rank": "normal"
+            }
+          ],
+          "P1071": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1071",
+                "hash": "624f6bb04bf01b3ced6a46aa61cbae1912a545dd",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 38,
+                    "id": "Q38"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$90f44dce-44e4-0ed0-4d23-ffe0621306b1",
+              "rank": "normal"
+            }
+          ],
+          "P495": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P495",
+                "hash": "62faf00998325aad6b60b99fca1465baf1adb5a4",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 38,
+                    "id": "Q38"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$4da56352-4561-4670-9174-8a6ab462b213",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "b0d3b23a808fefb1b0eafc38309c0655dc966e3b",
+                "datavalue": {
+                  "value": "Annunciation by Paolo Veronese in the Cleveland Museum of Art",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q60515744$431a991e-4d3b-66d7-2306-d3bf0983c569",
+              "rank": "normal"
+            }
+          ],
+          "P127": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P127",
+                "hash": "7289587902f1beadc9144d392eb4c0bf639afa3d",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 92411,
+                    "id": "Q92411"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q60515744$d0cba666-456d-479b-f132-f00a20d3b27f",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "dba73783b58c5978b330caff3e640bcc5e3c77a0",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "7a9f49759c2988fda0b73b6748dcd0363ab8537f",
+                        "datavalue": {
+                          "value": "https://www.clevelandart.org/art/1950.251",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P1683": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1683",
+                        "hash": "8ad8fc70d5215f5dee716212c166090f1c4e863e",
+                        "datavalue": {
+                          "value": {
+                            "text": "1950-The Cleveland Museum of Art, Cleveland, OhioUntil 1950(Rosenberg & Stiebel, New York, sold to the Cleveland Museum of Art)Probably 1933 - c. 1950Albert Koppel, Switzerland and Toronto, Ontario, consigned to Rosenberg & StiebelProbably 1913-1933Leopold Koppel [1854-1933], Berlin, by descent to his son, Albert KoppelUntil 1913Balboni collection, Venice, probably sold to Leopold Koppel",
+                            "language": "en"
+                          },
+                          "type": "monolingualtext"
+                        },
+                        "datatype": "monolingualtext"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "c57884fc65017f7b587f906c34c1ffb91a3c8303",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-03-23T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P1683",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sitelinks": {
+          "commonswiki": {
+            "site": "commonswiki",
+            "title": "Category:Annunciation by Paolo Veronese in the Cleveland Museum of Art",
+            "badges": [],
+            "url": "https://commons.wikimedia.org/wiki/Category:Annunciation_by_Paolo_Veronese_in_the_Cleveland_Museum_of_Art"
+          }
+        }
+      }
+    }
+  },
+  "httpStatus": 200,
+  "status": "available",
+  "payloadSha256": "22dec862d91b9e2009e36a99993378111d05d1db1b745857eda5bc3f401719c5"
+}

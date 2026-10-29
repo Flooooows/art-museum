@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T02:49:02Z",
+  "title": "Design System: MUSE",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Papier" },
+      "paper-low": { "role": "neutral", "displayName": "Papier de contenant" },
+      "paper-mid": { "role": "neutral", "displayName": "Papier de contrôle" },
+      "wine": { "role": "primary", "displayName": "Velours cardinal" },
+      "wine-light": { "role": "primary", "displayName": "Velours éclairci" },
+      "opening": { "role": "primary", "displayName": "Chambre nocturne" },
+      "blue": { "role": "secondary", "displayName": "Outremer" },
+      "gold": { "role": "tertiary", "displayName": "Dorure" },
+      "ink": { "role": "neutral", "displayName": "Encre" },
+      "muted": { "role": "neutral", "displayName": "Texte atténué" },
+      "line": { "role": "neutral", "displayName": "Filet cardinal" },
+      "white": { "role": "neutral", "displayName": "Blanc source" },
+      "text": { "role": "neutral", "displayName": "Texte courant clair" },
+      "text-soft": { "role": "neutral", "displayName": "Texte secondaire clair" },
+      "heading": { "role": "primary", "displayName": "Titres clairs" },
+      "link": { "role": "secondary", "displayName": "Encre de lien claire" },
+      "focus": { "role": "secondary", "displayName": "Focus clair" },
+      "action-bg": { "role": "primary", "displayName": "Fond d’action clair" },
+      "action-hover": { "role": "primary", "displayName": "Survol d’action clair" },
+      "action-text": { "role": "neutral", "displayName": "Texte sur action cardinal" },
+      "card": { "role": "neutral", "displayName": "Carte claire" },
+      "surface-hover": { "role": "neutral", "displayName": "Surface claire survolée" },
+      "surface-inset": { "role": "neutral", "displayName": "Surface claire en retrait" },
+      "mat": { "role": "neutral", "displayName": "Passe-partout clair" },
+      "image-ground": { "role": "neutral", "displayName": "Fond de reproduction clair" },
+      "gold-ink": { "role": "tertiary", "displayName": "Encre dorée claire" },
+      "gold-surface": { "role": "tertiary", "displayName": "Surface dorée claire" },
+      "border": { "role": "neutral", "displayName": "Bordure claire" },
+      "selection": { "role": "neutral", "displayName": "Sélection claire" },
+      "error-bg": { "role": "neutral", "displayName": "Fond d’erreur clair" },
+      "error-ink": { "role": "neutral", "displayName": "Encre d’erreur claire" },
+      "dark-paper": { "role": "neutral", "displayName": "Canevas bordeaux profond" },
+      "dark-paper-low": { "role": "neutral", "displayName": "Surface sombre basse" },
+      "dark-paper-mid": { "role": "neutral", "displayName": "Surface sombre de contrôle" },
+      "dark-card": { "role": "neutral", "displayName": "Carte sombre" },
+      "dark-text": { "role": "neutral", "displayName": "Texte ivoire" },
+      "dark-heading": { "role": "primary", "displayName": "Titre ivoire chaud" },
+      "dark-text-soft": { "role": "neutral", "displayName": "Texte secondaire rose poudré" },
+      "dark-link": { "role": "secondary", "displayName": "Lien sur sombre" },
+      "dark-focus": { "role": "secondary", "displayName": "Focus sur sombre" },
+      "dark-action-bg": { "role": "primary", "displayName": "Action bordeaux sombre" },
+      "dark-action-hover": { "role": "primary", "displayName": "Survol bordeaux sombre" },
+      "dark-surface-hover": { "role": "neutral", "displayName": "Surface sombre survolée" },
+      "dark-surface-inset": { "role": "neutral", "displayName": "Surface sombre en retrait" },
+      "dark-mat": { "role": "neutral", "displayName": "Passe-partout sombre" },
+      "dark-image-ground": { "role": "neutral", "displayName": "Fond de reproduction sombre" },
+      "dark-gold-ink": { "role": "tertiary", "displayName": "Encre dorée sur sombre" },
+      "dark-gold-surface": { "role": "tertiary", "displayName": "Surface dorée sombre" },
+      "dark-border": { "role": "neutral", "displayName": "Bordure sombre" },
+      "dark-line": { "role": "neutral", "displayName": "Filet sombre" },
+      "dark-selection": { "role": "neutral", "displayName": "Sélection sombre" },
+      "dark-error-bg": { "role": "neutral", "displayName": "Fond d’erreur sombre" },
+      "dark-error-ink": { "role": "neutral", "displayName": "Encre d’erreur sombre" },
+      "rarity-fer-fill": { "role": "neutral", "displayName": "Fer — remplissage", "purpose": "Esquisse : badge, point de filtre, barre de probabilité et métal du repli." },
+      "rarity-fer-ink": { "role": "neutral", "displayName": "Fer — encre claire", "purpose": "Esquisse sans fond dans le thème clair." },
+      "rarity-fer-dark-ink": { "role": "neutral", "displayName": "Fer — encre sombre", "purpose": "Esquisse sans fond dans le thème sombre." },
+      "rarity-fer-badge-ink": { "role": "neutral", "displayName": "Fer — texte sur badge", "purpose": "Texte contrasté sur le remplissage fer, dans les deux thèmes." },
+      "rarity-cuivre-fill": { "role": "tertiary", "displayName": "Cuivre — remplissage", "purpose": "Étude : badge, point de filtre, barre de probabilité et métal du repli." },
+      "rarity-cuivre-ink": { "role": "tertiary", "displayName": "Cuivre — encre claire", "purpose": "Étude sans fond dans le thème clair." },
+      "rarity-cuivre-dark-ink": { "role": "tertiary", "displayName": "Cuivre — encre sombre", "purpose": "Étude sans fond dans le thème sombre." },
+      "rarity-cuivre-badge-ink": { "role": "neutral", "displayName": "Cuivre — texte sur badge", "purpose": "Texte contrasté sur le remplissage cuivre, dans les deux thèmes." },
+      "rarity-argent-fill": { "role": "neutral", "displayName": "Argent — remplissage", "purpose": "Composition : badge, point de filtre, barre de probabilité et métal du repli." },
+      "rarity-argent-ink": { "role": "neutral", "displayName": "Argent — encre claire", "purpose": "Composition sans fond dans le thème clair." },
+      "rarity-argent-dark-ink": { "role": "neutral", "displayName": "Argent — encre sombre", "purpose": "Composition sans fond dans le thème sombre." },
+      "rarity-argent-badge-ink": { "role": "neutral", "displayName": "Argent — texte sur badge", "purpose": "Texte contrasté sur le remplissage argent, dans les deux thèmes." },
+      "rarity-dore-fill": { "role": "tertiary", "displayName": "Or — remplissage", "purpose": "Œuvre : badge, point de filtre, barre de probabilité et métal du repli ; distinct de gold." },
+      "rarity-dore-ink": { "role": "tertiary", "displayName": "Or — encre claire", "purpose": "Œuvre sans fond dans le thème clair ; distinct de gold-ink." },
+      "rarity-dore-dark-ink": { "role": "tertiary", "displayName": "Or — encre sombre", "purpose": "Œuvre sans fond dans le thème sombre." },
+      "rarity-dore-badge-ink": { "role": "neutral", "displayName": "Or — texte sur badge", "purpose": "Texte contrasté sur le remplissage or, dans les deux thèmes." },
+      "rarity-lapis-lazuli-fill": { "role": "secondary", "displayName": "Lapis-lazuli — remplissage", "purpose": "Pièce maîtresse : badge, point de filtre, barre de probabilité et métal du repli ; distinct de blue." },
+      "rarity-lapis-lazuli-ink": { "role": "secondary", "displayName": "Lapis-lazuli — encre claire", "purpose": "Pièce maîtresse sans fond dans le thème clair." },
+      "rarity-lapis-lazuli-dark-ink": { "role": "secondary", "displayName": "Lapis-lazuli — encre sombre", "purpose": "Pièce maîtresse sans fond dans le thème sombre." },
+      "rarity-lapis-lazuli-badge-ink": { "role": "neutral", "displayName": "Lapis-lazuli — texte sur badge", "purpose": "Texte contrasté sur le remplissage lapis-lazuli, dans les deux thèmes." }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Grand titre source", "purpose": "Token de référence conservé ; remplacé par workspace sur l’accueil courant, sans l’ancien clamp mobile." },
+      "headline": { "displayName": "Titre éditorial source", "purpose": "Token de référence conservé ; les compositions courantes utilisent les titres locaux documentés." },
+      "title": { "displayName": "Titre de carte", "purpose": "Nom de l’œuvre dans l’inventaire." },
+      "body": { "displayName": "Prose", "purpose": "Inter, 1rem / 16px, interligne 1.8 : descriptions et récits." },
+      "control": { "displayName": "Contrôle", "purpose": "Space, 0.9375rem / 15px, interligne 1.5 : actions et filtres." },
+      "label": { "displayName": "Libellé", "purpose": "Space, 0.875rem / 14px, interligne 1.65 : navigation, artistes et métadonnées." },
+      "caption": { "displayName": "Annotation", "purpose": "Space, 0.8125rem / 13px, interligne 1.55 : rareté, possession et notes. La micro-impression décorative des emballages n’est pas une échelle d’interface." },
+      "pack-option-tablet": { "displayName": "Choix thématique tablette", "purpose": "Titre des choix à ≤1100px, avant la variante téléphone." },
+      "pack-option-phone": { "displayName": "Choix thématique téléphone", "purpose": "Titre des rangées portrait + titre à ≤600px ; également taille des titres de doublons sur téléphone, avec leur interligne propre." },
+      "pack-option": { "displayName": "Choix thématique", "purpose": "Titre des quatre boutons directs sur bureau ; les titres de doublons partagent cette taille avec un interligne de 1.3." },
+      "discovery-title": { "displayName": "Titre de découverte", "purpose": "Nom de l’œuvre révélée dans le dialogue ; taille aussi utilisée par les états vides sur téléphone." },
+      "compact-section": { "displayName": "Section compacte", "purpose": "Sections Pochettes, Marché et Profil et titre du dialogue sur téléphone ; chaque composition conserve son interligne CSS." },
+      "profile-section": { "displayName": "Section de profil", "purpose": "Sections de profil et états vides sur bureau ; identité du profil sur téléphone." },
+      "workspace-section": { "displayName": "Section d’espace", "purpose": "Titre des univers et notice du marché ; même taille que le titre générique de dialogue hérité." },
+      "opening-title": { "displayName": "Titre d’ouverture", "purpose": "Titre du dialogue. La vedette sur téléphone utilise cette taille avec un interligne de 1.2 et les compteurs du profil avec 1.4." },
+      "pack-feature-tablet": { "displayName": "Vedette tablette", "purpose": "Titre tous styles à ≤800px. L’identité du profil partage cette taille avec un interligne de 1.3." },
+      "workspace-phone": { "displayName": "Titre d’espace téléphone", "purpose": "Titre principal des pages Pochettes, Marché et Profil à ≤600px." },
+      "pack-feature": { "displayName": "Vedette tous styles", "purpose": "Titre Écho de Silence sur bureau." },
+      "workspace": { "displayName": "Titre d’espace", "purpose": "Titre principal des pages Pochettes, Marché et Profil sur bureau." }
+    },
+    "shadows": [
+      { "name": "artwork-rest", "value": "0 4px 7px -3px #29211726", "purpose": "Carte d’inventaire au repos." },
+      { "name": "artwork-hover", "value": "0 9px 16px -7px #29211733", "purpose": "Carte d’inventaire au survol." },
+      { "name": "atelier-pack", "value": "0 22px 45px -10px #0d000dcc", "purpose": "Style source de l’ancien atelier non monté ; ne pas l’ajouter à booster.png dans la vedette ou le dialogue courant." },
+      { "name": "dialog", "value": "0 25px 70px #18000955", "purpose": "Dialogue d’ouverture, fiche ou confirmation de remplacement d’une sauvegarde." }
+    ],
+    "motion": [
+      { "name": "object-easing", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Dévoilement du bloc encadré dans le dialogue ; également présent dans les styles source." },
+      { "name": "room-enter", "value": "0.7s", "purpose": "Style source conservé de l’ancien panneau et de l’atelier, non appliqué aux nouvelles compositions." },
+      { "name": "seal-opening", "value": "0.55s", "purpose": "Style source conservé de déchirure, non appliqué au dialogue courant." },
+      { "name": "card-flip", "value": "0.8s", "purpose": "Style source conservé du retournement 3D, non appliqué aux cartes du dialogue courant." },
+      { "name": "discovery-unveil", "value": "0.5s cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "unveil-art appliqué à .discovery-visible .framed-art : apparition du cadre et de la reproduction par opacité et clip-path, sans retournement 3D ; neutralisé en mouvement réduit." },
+      { "name": "thematic-hover", "value": "transform 0.25s ease-out", "purpose": "Translation de -4px de la pochette thématique au survol." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce", "purpose": "Animations et transitions supprimées ; dévoilement et translation des pochettes thématiques neutralisés." }
+    ],
+    "breakpoints": [
+      { "name": "max-width-narrow", "value": "360px" },
+      { "name": "max-width-single-column", "value": "600px" },
+      { "name": "max-width-mobile", "value": "650px" },
+      { "name": "max-width-thematic-pair", "value": "800px" },
+      { "name": "max-width-compact", "value": "950px" },
+      { "name": "max-width-header-wrap", "value": "1100px" },
+      { "name": "max-width-desktop", "value": "1200px" },
+      { "name": "min-width-wide", "value": "1600px", "purpose": "Styles source des anciennes compositions, sans effet sur la nouvelle vedette." }
+    ],
+    "themes": {
+      "source": "src/appearance.css fait autorité pour les rôles sémantiques et la lisibilité ; ordre de src/main.tsx : styles.css, appearance.css, navigation.css (compositions courantes), frames.css (cadres et encres de rareté, chargé en dernier).",
+      "selector": ":root[data-theme=dark]",
+      "default": "system",
+      "choice": "Bouton Lune/Soleil de l’en-tête ou action d’apparence dans Profil ; choix explicite light ou dark, comportement inchangé.",
+      "storageKey": "muse-theme",
+      "storageFailure": "Choix utilisable en mémoire pour la session ; indépendant de la collection.",
+      "prepaint": "index.html applique le thème avant affichage ; useTheme synchronise data-theme et theme-color.",
+      "light": {
+        "paper": "paper", "paper-low": "paper-low", "paper-mid": "paper-mid",
+        "card": "card", "text": "text", "text-soft": "text-soft", "heading": "heading",
+        "link": "link", "focus": "focus", "action-bg": "action-bg", "action-hover": "action-hover",
+        "surface-hover": "surface-hover", "surface-inset": "surface-inset", "mat": "mat",
+        "image-ground": "image-ground", "gold-ink": "gold-ink", "gold-surface": "gold-surface",
+        "border": "border", "line": "line", "selection": "selection", "error-bg": "error-bg", "error-ink": "error-ink"
+      },
+      "dark": {
+        "paper": "dark-paper", "paper-low": "dark-paper-low", "paper-mid": "dark-paper-mid",
+        "card": "dark-card", "text": "dark-text", "text-soft": "dark-text-soft", "muted": "dark-text-soft", "heading": "dark-heading",
+        "link": "dark-link", "focus": "dark-focus", "action-bg": "dark-action-bg", "action-hover": "dark-action-hover",
+        "surface-hover": "dark-surface-hover", "surface-inset": "dark-surface-inset", "mat": "dark-mat",
+        "image-ground": "dark-image-ground", "gold-ink": "dark-gold-ink", "gold-surface": "dark-gold-surface",
+        "border": "dark-border", "line": "dark-line", "selection": "dark-selection", "error-bg": "dark-error-bg", "error-ink": "dark-error-ink"
+      },
+      "rule": "Valeurs référencées dans le frontmatter de DESIGN.md. Le sombre utilise un canevas bordeaux profond, des surfaces lie-de-vin, du texte ivoire et rose poudré. Les pigments source wine/wine-light restent bordeaux ; les titres et fonds d’action ont des rôles distincts. Les exemples héritent des variables de appearance.css, avec repli clair.",
+      "openingAsset": "Fichier utilisateur /assets/booster.png inchangé, entier au ratio 2:3 dans la vedette tous styles et pour toutes les sélections du dialogue. Aucun doublon de marque, recadrage ou contrôle sur la soudure ; action à côté puis dessous sur téléphone.",
+      "ratesContrast": "Dans le dialogue, navigation.css utilise text pour chaque libellé et taux, y compris le plus rare, et text-soft pour titre/note. Les libellés affichent nom · matière ; les cinq barres et les points de filtres utilisent rarity.color. Aucun privilège gold-ink pour Pièce maîtresse, désormais lapis-lazuli."
+    },
+    "layout": {
+      "header": "Sticky top:0, z-index:40, fond opaque var(--paper) ; 88px, puis 116px à ≤1100px.",
+      "scrollOffset": "scroll-padding-top et scroll-margin-top : calc(var(--header-height) + 24px).",
+      "density": "Univers Pochettes : 4 colonnes, 2 à ≤800px, rangées compactes portrait + titre à ≤600px. Résultats du dialogue : 3 colonnes, 1 à ≤600px. Collection inchangée : 3 colonnes, 2 à ≤1200px, 1 à ≤600px ; rail au-dessus à ≤950px.",
+      "targets": "Actions principales et champs recherche/possession/tri : minimum 48px ; filtres 42px. Saisie/recherche et sélections natives de possession et de tri à 16px. Case d’ouverture immédiate native de 18px ; pas d’ancienne action d’atelier à 56px.",
+      "workspace": {
+        "surfaces": ["pochettes", "marche", "profil"],
+        "desktop": "max-width:1180px ; width:calc(100% - 96px) ; margin:48px auto 80px ; titre 44px/1.2.",
+        "at1100": "width:calc(100% - 64px) ; marge haute 36px.",
+        "at600": "width:calc(100% - 40px) ; margin:30px auto 48px ; titre 36px/1.2.",
+        "at360": "width:calc(100% - 32px)."
+      },
+      "home": {
+        "feature": "Deux colonnes 1.3fr 1fr ; gap 32px ; padding 28px 64px ; surface paper-low ; rayon 12px. Écho de Silence, Tous les styles · 5 cartes et action tous styles dominante.",
+        "image": "booster.png : 208×312px ; 180×270px à ≤800px ; 150×225px en première rangée à ≤600px ; object-fit:contain.",
+        "title": "42px sur bureau, 34px à ≤800px, 32px à ≤600px ; interligne 1.2.",
+        "thematicChoices": "Six boutons directs sur quatre colonnes (donc deux rangées), gap 24px ; deux colonnes à ≤800px ; une colonne de rangées portrait + titre à ≤600px (portrait 122px, puis 96px à ≤360px). Les deux nouvelles pochettes utilisent des reproductions vérifiées de leur groupe.",
+        "omitted": ["bandeau promotionnel", "statistiques imbriquées", "bande de filtres", "explication répétée du rituel"]
+      },
+      "openingDialog": {
+        "desktop": "width:min(1080px, calc(100% - 40px)) ; max-width:1080px ; padding:30px ; max-height:calc(100dvh - 40px) ; overscroll-behavior:contain.",
+        "at600": "width:calc(100% - 24px) ; padding:20px ; max-height:calc(100dvh - 24px).",
+        "title": "32px/1.3 ; 27px à ≤600px.",
+        "preview": "Deux colonnes 0.85fr 1.15fr, image entière 260px maximum ; une colonne et image 160px maximum à ≤600px.",
+        "results": "Cinq cartes sur trois colonnes minmax(0,1fr), donc deux rangées, puis une colonne à ≤600px ; reproduction en object-fit:contain. Les anciens résultats de trois gardent leur taille enregistrée.",
+        "controls": ["5 cartes · 1 pochette de votre stock", "stock et recharge réels", "case native Révéler toutes les cartes immédiatement", "details Contenu et probabilités", "Tout révéler", "Voir ma collection", "Retour aux pochettes"]
+      },
+      "market": "Page préparatoire : disponibilité future, notice paper-low au rayon de 8px, vrais doublons locaux en liste ; recherche maximale 480px avec saisie 16px et rayon 5px. Les rangées deviennent portrait + texte + flèche sur téléphone.",
+      "profile": "Page complète : identité invitée, quatre compteurs réels (deux colonnes à ≤800px), musée, export/import, apparence, informations de version ; sections séparées par filets, actions pleine largeur à ≤600px.",
+      "collection": "Composition et fonctions inchangées : contenant max1536px, gouttières de 48px, rail 280px puis 240px à ≤1200px, vues Inventaire/Catalogues/Favoris/Musée, filtres, tri, pagination, fiches et exposition.",
+      "intentionalRadii": "notice 8px (aussi dialogues téléphone), feature 12px (aussi contenant des vues de collection) ; compléments aux rayons existants, non dérive à annuler.",
+      "widthTarget": "320px est une largeur cible, pas une media query supplémentaire."
+    },
+    "navigation": {
+      "source": "src/navigation.ts et src/App.tsx",
+      "destinations": [
+        { "id": "pochettes", "label": "Pochettes", "hash": "#pochettes", "role": "Choisir, ouvrir et découvrir en dialogue." },
+        { "id": "marche", "label": "Marché", "hash": "#marche", "role": "Consulter ses vrais doublons ; échanges futurs uniquement." },
+        { "id": "collection", "label": "Collection", "hash": "#collection", "role": "Inventaire, catalogues, favoris et musée interne." },
+        { "id": "profil", "label": "Profil", "hash": "#profil", "role": "Sauvegarde, progression, musée et apparence sur une page." }
+      ],
+      "activeDuringOpening": "pochettes ; aria-current=page inchangé pendant l’aperçu et les résultats.",
+      "compatibility": {
+        "#atelier": "#pochettes ; aucun dialogue ni tirage automatique.",
+        "#revelation": "#pochettes ; aucun dialogue ni tirage automatique.",
+        "emptyOrUnknown": "#pochettes ; aucun dialogue ni tirage automatique.",
+        "#musee": "#collection ; active la vue musée interne, pas une cinquième destination."
+      },
+      "normalization": "App.tsx normalise les hash hérités/inconnus avec history.replaceState ; les destinations principales restent des liens nommés.",
+      "pageChange": "Ferme les dialogues, remonte en haut, actualise le titre du document et place le focus sur le contenu principal, sauf la recherche de l’en-tête : elle place ou préserve le focus dans le champ de Collection.",
+      "headerTools": "Stock vers Pochettes, Lune/Soleil pour le thème, recherche vers Collection, portrait vers Profil ; pied de page et alerte de sauvegarde vers Profil."
+    },
+    "interaction": {
+      "opening": "Un seul dialogue natif pour aperçu et résultats. Seule l’action explicite Ouvrir la pochette consomme le stock ; protection contre activations répétées. Les cinq cartes sont acquises immédiatement et conservées après fermeture. Les résultats historiques de trois ne reçoivent aucune carte rétroactive.",
+      "resume": "Si latest contient des cartes non dévoilées, Reprendre ma dernière ouverture restaure ce résultat enregistré et ses révélations, sans nouveau tirage ni consommation.",
+      "nestedDialogs": "Modal utilise useId pour un titre unique, showModal(), Échap/clic de fond et bouton Fermer. Un compteur maintient body overflow verrouillé jusqu’à fermeture du dernier dialogue ; restitution du focus au déclencheur encore connecté.",
+      "profileImport": "Erreurs role=alert dans la section sauvegarde de Profil. Seul le remplacement par import valide est confirmé dans un dialogue destructif, avec export de l’état courant, Annuler et Remplacer et importer ; aucun profil modal.",
+      "marketTruth": "Quantités calculées depuis counts>1 : exemplaires supplémentaires et total réels, premier exemplaire conservé. Recherche titre/artiste sans casse ni accents, fiches accessibles, états sans doublon et sans résultat. Aucune annonce, prix, souscription, vente ou échange actif inventé."
+    },
+    "raritySystem": {
+      "source": "src/data.ts, src/components.tsx, src/Collection.tsx et src/frames.css",
+      "approval": "Noms, matières et indices 0–4 conservés. Taux demandés : argent 15 %, or 3 %, lapis 0,4 % ; solde proportionnel fer 56,1 %, cuivre 25,5 %. Cinq cartes nouvelles ; sauvegarde version 1 acceptant trois ou cinq. Les thèmes renormalisent entre niveaux présents ; affichage jusqu’à deux décimales. Évaluations actives versionnées, seuils éditoriaux 30/50/70/90 distincts des taux ; aucune rareté prétendue validée.",
+      "levels": [
+        { "level": 0, "name": "Esquisse", "material": "Fer", "finish": "fer", "baseRate": 56.1, "fillToken": "rarity-fer-fill", "inkToken": "rarity-fer-ink", "darkInkToken": "rarity-fer-dark-ink", "badgeInkToken": "rarity-fer-badge-ink" },
+        { "level": 1, "name": "Étude", "material": "Cuivre", "finish": "cuivre", "baseRate": 25.5, "fillToken": "rarity-cuivre-fill", "inkToken": "rarity-cuivre-ink", "darkInkToken": "rarity-cuivre-dark-ink", "badgeInkToken": "rarity-cuivre-badge-ink" },
+        { "level": 2, "name": "Composition", "material": "Argent", "finish": "argent", "baseRate": 15, "fillToken": "rarity-argent-fill", "inkToken": "rarity-argent-ink", "darkInkToken": "rarity-argent-dark-ink", "badgeInkToken": "rarity-argent-badge-ink" },
+        { "level": 3, "name": "Œuvre", "material": "Or", "finish": "dore", "baseRate": 3, "fillToken": "rarity-dore-fill", "inkToken": "rarity-dore-ink", "darkInkToken": "rarity-dore-dark-ink", "badgeInkToken": "rarity-dore-badge-ink" },
+        { "level": 4, "name": "Pièce maîtresse", "material": "Lapis-lazuli", "finish": "lapis-lazuli", "baseRate": 0.4, "fillToken": "rarity-lapis-lazuli-fill", "inkToken": "rarity-lapis-lazuli-ink", "darkInkToken": "rarity-lapis-lazuli-dark-ink", "badgeInkToken": "rarity-lapis-lazuli-badge-ink" }
+      ],
+      "variables": { "--rarity": "color / *-fill", "--rarity-ink": "ink / *-ink", "--rarity-dark-ink": "darkInk / *-dark-ink", "--rarity-on-color": "badgeInk / *-badge-ink" },
+      "badge": "Nom éditorial visible, titre natif nom · matière, fond rarity.color et texte --rarity-on-color dans les deux thèmes ; ne pas imposer du blanc à toutes les matières.",
+      "plain": "frames.css applique --rarity-label:var(--rarity-ink) en clair et --rarity-label:var(--rarity-dark-ink) en sombre. Chargé en dernier, il supplante les encres legacy par data-rarity-level de appearance.css.",
+      "filters": "Point de 9px, contour 1px currentColor, remplissage rarity.color ; libellés inchangés. clear-filters utilise var(--link) dans navigation.css.",
+      "contrast": "Textes sur badge et encres sans fond conçus pour au moins 4,5:1 dans leurs contextes clairs/sombres. Palette fonctionnelle distincte des rôles ivoire/bordeaux ; aucune recoloration des cadres ni des œuvres."
+    },
+    "frameSystem": {
+      "source": "src/frames.ts, src/FramedArtwork.tsx, src/frames.css, src/frame-assets.json et scripts/prepare-frames.mjs",
+      "assets": "30 originaux valides transparents 1024×1536, six familles × cinq finitions : 25 fournis et cinq Arts décoratifs générés à la demande. PNG d’affichage et 30 masques intérieurs 640×960 ; manifeste src/frame-assets.json. Cinq Japon conservés mais non activés (quatre sans alpha, un sans ouverture suffisante). Originaux fournis intacts.",
+      "selection": "Catalog.frameFamily optionnel, sinon Catalog.id, puis suffixe rarity.finish. Aucun emprunt à une autre famille si famille ou variante absente.",
+      "catalogMapping": { "beaux-arts": "beaux-arts", "egypte": "egypte", "mythes": "art-mysterieux", "decoratifs": "decoratifs", "renaissance-italienne": "beaux-arts", "premiers-arts": "prehistoire" },
+      "indexedOnly": ["art-moderne"],
+      "futureContent": "Art moderne reste indexé pour l’avenir ; Préhistoire habille dix objets néolithiques sourcés. Arts décoratifs utilise fer/cuivre/argent pour ses niveaux présents ; or et lapis disponibles sans promotion artificielle d’œuvres.",
+      "matte": "Choix utilisateur Papier neutre : région alpha <250 connectée au centre par quatre voisins, fermée avant les bords extérieurs, masque PNG distinct par cadre. --mat #eeece4 en clair, #48212e en sombre ; fenêtre sûre de même fond, padding 3 %, œuvre entière en contain. Aucun étirement des motifs ni recadrage. Cadre au-dessus de l’œuvre et du masque.",
+      "rendering": "FramedArtwork({art, missing?, eager?}) partagé par révélation, collection, musée et fiche. Fenêtre absolue par pourcentages du manifeste ; œuvre entière en object-fit:contain ; superposition du PNG entier au ratio natif 2:3, sans recadrage, étirement ni recoloration. Overlay décoratif alt vide, aria-hidden et pointer-events:none ; titre de l’œuvre comme alternative.",
+      "aperture": "Histogramme d’alpha : plus grand rectangle aligné aux axes contenant le centre, tous pixels alpha <24, retrait de 8 pixels source sur chaque côté ; pourcentages à quatre décimales propres à chaque PNG. Pas de fenêtre fixe commune : les ornements de coin ne couvrent pas l’œuvre.",
+      "cache": "SHA-256 de la révision de préparation et du fichier original ; sorties existantes réutilisées si empreinte inchangée, manifeste réécrit seulement si contenu différent. Sharp déjà présent, aucune nouvelle dépendance.",
+      "fallback": "Famille/variante absente ou onError du PNG : même matière via --frame-metal=rarity.color ; bordure ridge 7px, ombre intérieure 0 0 0 2px image-ground, filet intérieur 1px à 4 %. Fenêtre de repli uniquement : left10%, top8%, width80%, height84%. L’œuvre reste visible, sans fausse illustration détaillée.",
+      "missingArtwork": "Seule .framed-work passe en grayscale(1) et opacity:.42 ; le cadre garde ses couleurs. Accès à la fiche et statut non acquis préservés.",
+      "layout": "Portrait 2:3 plus haut en collection, grille et métadonnées 13/14/25px inchangées. artwork-mat transparent, border:0, padding:0. Métadonnées hors cadre ; cartouches du PNG laissés vides. discovery-face aspect-ratio:2/3 et height:auto ; dos absolu inset:0. Crédit de reproduction sous le cadre de la fiche.",
+      "hiddenCards": "Dos MUSE neutre sans rendu FramedArtwork, chargement de cadre ni information de rareté/matière avant révélation. Dévoilement framed-art via unveil-art, désactivé en mouvement réduit.",
+      "loading": "lazy par défaut en collection/musée, eager dans les ouvertures et fiches.",
+      "extension": "Déposer <famille>-<finition>.png transparent 1024×1536 avec ouverture centrale dans public/assets/collections. Finitions exactes : fer, cuivre, argent, dore, lapis-lazuli. Préfixe = Catalog.id ou frameFamily explicite ; npm run prepare:frames ; préparation aussi en predev, pretest et build. Aucun changement du rendu partagé requis.",
+      "provenance": "Originaux fournis : licence inconnue, intacts. Cinq Arts décoratifs : images générées à la demande avec alpha natif ; prompts, références et modèle retourné dans catalog/decorative-frame-generation.json, XMP des originaux/dérivés. Masques techniques dérivés de l’alpha avec empreintes et source dans public/assets/provenance.json. Aucune licence CC0 attribuée aux cadres ; reproductions historiques inchangées.",
+      "decorativeMatteEvidence": {
+        "review": ".impeccable/review/cadres-passe-partout.md ; revue de l’agent principal, pas indépendante.",
+        "checks": "33 tests et build réussis ; 30 masques couvrent les fenêtres sûres sans peindre les bords extérieurs ; préparation complète identique sur 93 fichiers.",
+        "browser": "Chromium, 390/768/1440 px, deux thèmes : formats paysage, circulaire et panoramique ; collection, fiche, musée, révélation réelle de cinq cartes. Dos sans cadre/masque ni requête associée avant révélation ; repli réseau avec œuvre entière et papier neutre.",
+        "detector": "Une passe ciblée CSS/TSX, aucun finding regex ; règles nécessitant une page et audit axe non exécutés pour ce lot.",
+        "preview": "output/playwright/decoratifs-five-finishes.png : montage technique des cinq matières, pas une modification de rareté."
+      },
+      "finishEvidence": {
+        "source": "Bilan transmis par la session principale ; non réexécuté par le documenter, qui a lu les sources sans navigateur, capture ni édition applicative.",
+        "review": "Relecture indépendante complète : ship après 21 captures, aucun correctif matériel.",
+        "checks": "17 tests et build réussis : 25 fichiers d’affichage, alpha <24 sur chaque fenêtre entière, mappings/replis, contrastes ≥4,5:1, noms et taux. Huit géométries (2 thèmes × 320/390/768/1440px), ratio 2:3 sans recadrage ni débordement ; 23 audits axe sans violation dont filtres de rareté, fiche et résultats ; deux ouvertures réelles, six cartes.",
+        "assets": "25 dérivés : 17,15 Mio contre 50,55 Mio d’originaux, soit 66 % de moins. Scan de provenance de 25 rasters sans manque ; originaux intacts. Seconde préparation : hashes des originaux/dérivés, métadonnées et manifeste inchangés.",
+        "detector": "Une exécution : sept avis consultatifs de nouvelles couleurs approuvées, aucun écart non consultatif ; palette maintenant consignée, pas à annuler.",
+        "testIsolation": "Jeu de test 20 œuvres ×3 limité à la session navigateur de vérification ; output/playwright non public, aucun changement de l’état initial de l’application."
+      }
+    },
+    "rarityEngineV2": {
+      "algorithmVersion": "2.0.0",
+      "configuration": "catalog/rarity-v2/config-2.0.0.json : P/A/H/M/C 25/20/25/20/10, seuils 40/60/75/90, noms et matières conservés.",
+      "reports": "catalog/rarity-v2/REPORT.md, results.json et results.csv : propositions, types de données, confiance, incertitudes, statut et comparaison avec V1.",
+      "safety": "Simulation uniquement ; catalogue, tirages, acquisitions, prix et marché protégés par empreintes. Aucune migration ni modification d’UI.",
+      "limits": "Normalisation et distributions contextuelles initiales provisoires ; sources réellement utilisées distinctes des connecteurs optionnels ; aucune estimation présentée comme mesure."
+    },
+    "notorietyV2Proposal": {
+      "reference": "MUSE_systeme_rarete.md",
+      "criteria": "P/A/H/M/C sur 100, poids 30/25/20/15/10, seuils de simulation 40/60/75/90 ; noms et matières MUSE conservés.",
+      "report": "catalog/notoriety/REPORT.md, results.json et results.csv : cent identifiants exacts, notes calculables ou bornes sans imputation des données absentes.",
+      "limits": "Proxy Wikipédia fr/en sur douze mois, sans Google Trends ; H/M/C éditoriaux. Identités d’objets et séries distinctes, auteurs inconnus non pénalisés par un zéro.",
+      "activeBehavior": "Aucune activation ni modification visuelle : grille historique v1, raretés, probabilités et sauvegardes inchangées."
+    },
+    "catalogueFiveCards": {
+      "source": "src/catalog/seed.json, src/catalog/model.ts, src/catalog/repository.ts, src/packRules.ts ; guide catalog/README.md.",
+      "truth": "20 œuvres demo, 4 catalogues demo, 21 appartenances ; 0 publication et 0 rareté validée. Six ensembles / 100 œuvres cibles proposés, non importés ; 19 candidats et Hokusai en réserve. Pas de base hébergée.",
+      "inventory": "Taouret rejoint Égypte et Mythes avec un seul identifiant ; cadre choisi par catalogue principal. Totaux par appartenances : six œuvres en Égypte, vingt globalement.",
+      "compatibility": "Cinq cartes nouvelles, anciens résultats de trois conservés ; sauvegarde version 1, références actives de rareté explicites. Révéler ne consomme ni stock ni cartes.",
+      "accessibility": "Stock : nom incluant le chiffre visible x / 10. Choix thématiques et cartes : nom issu du contenu visible ; illustration de pochette répétée décorative pour les technologies d’assistance.",
+      "finishEvidence": "Revue de l’agent principal (pas indépendante) : 27 tests, build et fidélité des 20 œuvres réussis ; parcours production locale, 40 géométries sans débordement, 21 audits axe WCAG 2/2.1 A/AA sans violation. Détecteur une fois : []. Voir .impeccable/review/catalogue-cinq-cartes.md."
+    },
+    "catalogueHundredWorks": {
+      "supersedes": "Les nombres et statuts du lot historique catalogueFiveCards ci-dessus décrivent son état à livraison, pas le catalogue actuel.",
+      "truth": "100 œuvres demo, 6 catalogues demo, 102 appartenances ; 20 fiches historiques intactes et 80 ajouts français. 100 reproductions aux droits revus avec preuves. Aucune rareté validée ou publication éditoriale prétendue ; pas de base hébergée.",
+      "rights": "80 CC0 Cleveland, 19 domaine public/Open Access Met, 1 PD-Art Commons avec réserve de juridiction. Réponses datées, empreintes locales/source et comparaison exacte des pixels des vingt JPEG historiques ; originaux conservés. Audit catalog:images intégré au build.",
+      "selection": "99 affectations éditoriales et Hokusai conservé hors de ces ensembles, donc 100 uniques et non 101. Taouret aussi en Égypte et La Joconde aussi en Renaissance italienne. Tailles visibles : 26/21/15/15/15/10 ; ne pas additionner pour compter l’inventaire.",
+      "appearance": "Pas de nouvelle palette, grille ou type. Six choix thématiques réemploient la composition ; nouvelles images de pochettes réellement issues de leur groupe ; Préhistoire utilise ses cadres fournis.",
+      "evidence": "31 tests ; audit des cent fichiers réussi ; recherche et ouverture des 80 nouvelles fiches dans Chromium, texte/source/reproduction/crédit exacts ; accueil 390/1440 dans les deux thèmes sans débordement et sans violation axe. Voir catalog/IMPORT-100.md et .impeccable/review/import-cent-oeuvres.md."
+    },
+    "finishEvidence": {
+      "source": "Bilan transmis par la session principale ; non réexécuté par le documenter (aucune capture ni édition applicative).",
+      "review": "Relecteur indépendant : ship, aucun correctif matériel après 27 captures.",
+      "checks": "13 tests et build réussis ; 48 combinaisons géométriques (4 pages × 2 thèmes × 6 largeurs de 320 à 1440px), sans débordement ; 16 contrôles de pages principales axe et dialogues réussis.",
+      "detector": "Seuls avertissements consultatifs de tailles de titres/rayons non documentés ; les valeurs intentionnelles sont maintenant consignées, sans régression de lisibilité."
+    }
+  },
+  "components": [
+    {
+      "name": "Action cardinal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Bouton principal de 15px, minimum 48px ; fond cardinal sémantique dans les deux thèmes.",
+      "html": "<button type=\"button\" class=\"ds-primary\">Exposer au musée</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;min-height:48px;box-sizing:border-box;border:1px solid #9b6b4033;border-radius:15px;background:var(--action-bg,#4a0011);color:#fff8ee;font-family:Space,Arial,sans-serif;font-weight:500;font-size:var(--type-control,.9375rem);letter-spacing:.015em;text-transform:uppercase;line-height:1.5;white-space:normal;cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}.ds-primary:hover:not(:disabled){background:var(--action-hover,#6b1123);transform:translateY(-2px);box-shadow:0 6px 14px #4a001119}.ds-primary:focus-visible{outline:2px solid var(--focus,#0038ff);outline-offset:4px}.ds-primary:disabled{opacity:.45;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Action outremer",
+      "kind": "button",
+      "refersTo": "button-blue",
+      "description": "Choix tous styles et action explicite d’ouverture dans le dialogue ; minimum 48px, pleine largeur sur téléphone.",
+      "html": "<button type=\"button\" class=\"ds-blue\">Ouvrir la pochette</button>",
+      "css": ".ds-blue{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;min-height:48px;box-sizing:border-box;border:1px solid transparent;border-radius:15px;background:var(--blue,#0038ff);color:#fff;font-family:Space,Arial,sans-serif;font-weight:500;font-size:var(--type-control,.9375rem);letter-spacing:.015em;text-transform:uppercase;line-height:1.5;white-space:normal;cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}.ds-blue:hover:not(:disabled){background:#002bd1;transform:translateY(-2px);box-shadow:0 7px 19px #0038ff29}.ds-blue:focus-visible{outline:2px solid var(--focus,#0038ff);outline-offset:4px}.ds-blue:disabled{opacity:.45;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-blue{transition:none}}"
+    },
+    {
+      "name": "Action papier",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Action secondaire sur la surface moyenne du thème, 15px et minimum 48px.",
+      "html": "<button type=\"button\" class=\"ds-ghost\">Importer une sauvegarde</button>",
+      "css": ".ds-ghost{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;min-height:48px;box-sizing:border-box;border:1px solid var(--border,#d7cdc1);border-radius:15px;background:var(--paper-mid,#f0eee9);color:var(--heading,#4a0011);font-family:Space,Arial,sans-serif;font-weight:500;font-size:var(--type-control,.9375rem);letter-spacing:.015em;text-transform:uppercase;line-height:1.5;white-space:normal;cursor:pointer;transition:background .2s,transform .2s,box-shadow .2s}.ds-ghost:hover:not(:disabled){background:var(--surface-hover,#eae4da);transform:translateY(-2px)}.ds-ghost:focus-visible{outline:2px solid var(--focus,#0038ff);outline-offset:4px}.ds-ghost:disabled{opacity:.45;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-ghost{transition:none}}"
+    },
+    {
+      "name": "Recherche native",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Champ d’inventaire natif de 16px, minimum 48px, avec focus porté par son contenant et couleurs sémantiques.",
+      "html": "<label class=\"ds-search\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input type=\"search\" aria-label=\"Rechercher une œuvre\" placeholder=\"Rechercher une œuvre\" /></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:10px;min-width:0;min-height:48px;box-sizing:border-box;background:var(--paper-mid,#f0eee9);border:1px solid var(--border,#d7cdc1);padding:0 12px;color:var(--text,#29201d);border-radius:3px}.ds-search svg{flex-shrink:0}.ds-search input{width:100%;min-width:0;border:0;background:none;outline:none;font-family:Inter,Arial,sans-serif;font-size:16px;color:var(--text,#29201d);padding:13px 0;caret-color:var(--heading,#4a0011)}.ds-search:focus-within{outline:1px solid var(--focus,#0038ff);outline-offset:2px}.ds-search input::placeholder{color:var(--text-soft,#625249)}"
+    },
+    {
+      "name": "Navigation éditoriale",
+      "kind": "nav",
+      "description": "Quatre destinations Pochettes/Marché/Collection/Profil dans l’en-tête sticky opaque ; navigation 14px et page active soulignée. Pochettes reste active pendant le dialogue. Marque et outils occupent la première rangée de 64px à ≤1100px.",
+      "html": "<header class=\"ds-header\"><nav class=\"ds-nav\" aria-label=\"Navigation principale\"><a href=\"#pochettes\" aria-current=\"page\">Pochettes</a><a href=\"#marche\">Marché</a><a href=\"#collection\">Collection</a><a href=\"#profil\">Profil</a></nav></header>",
+      "css": "html{scroll-padding-top:calc(var(--header-height,88px) + 24px)}.ds-header{position:sticky;top:0;z-index:40;display:flex;align-items:flex-end;min-height:var(--header-height,88px);background:var(--paper,#fbf9f4);border-bottom:1px solid var(--border,#d7cdc1);box-shadow:0 5px 16px -12px #17050f66}.ds-nav{display:flex;align-items:center;gap:24px;height:88px;width:100%}.ds-nav a{display:flex;align-items:center;height:100%;font-family:Space,Arial,sans-serif;font-size:var(--type-label,.875rem);letter-spacing:.065em;text-transform:uppercase;color:var(--text,#29201d);position:relative;text-decoration:none}.ds-nav a[aria-current=page]{color:var(--heading,#4a0011);font-weight:600}.ds-nav a[aria-current=page]:after{content:'';height:2px;background:var(--heading,#4a0011);position:absolute;bottom:20px;left:0;right:0}.ds-nav a:hover{color:var(--link,#0028c2)}.ds-nav a:focus-visible{outline:2px solid var(--focus,#0038ff);outline-offset:4px}@media(max-width:1100px){html{scroll-padding-top:calc(var(--header-height,116px) + 24px)}.ds-header{min-height:116px}.ds-nav{height:52px;gap:10px;justify-content:space-between;border-top:1px solid var(--line,rgba(74,0,17,.12))}.ds-nav a{height:48px}.ds-nav a[aria-current=page]:after{bottom:4px}}@media(max-width:650px){.ds-nav a{letter-spacing:.02em}}@media(max-width:360px){.ds-nav a{font-size:13px}}"
+    },
+    {
+      "name": "Filtre de rareté — Collection",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "États du filtre papier/cardinal de Collection : 15px, minimum 42px et retour à la ligne autorisé ; point de 9px reprenant la matière, ici fer. Pas de bande de filtres sur Pochettes.",
+      "html": "<div class=\"ds-chips\" role=\"group\" aria-label=\"Filtrer par rareté\"><button type=\"button\" aria-pressed=\"true\">Toutes raretés</button><button type=\"button\" aria-pressed=\"false\"><i aria-hidden=\"true\"></i>Esquisse</button></div>",
+      "css": ".ds-chips{display:flex;gap:6px;flex-wrap:wrap}.ds-chips button{font-family:Space,Arial,sans-serif;font-size:var(--type-control,.9375rem);line-height:1.5;text-transform:uppercase;letter-spacing:.015em;padding:9px 14px;min-height:42px;box-sizing:border-box;background:var(--paper-mid,#f0eee9);color:var(--text,#29201d);border:0;border-radius:20px;white-space:normal;cursor:pointer;transition:background .2s,color .2s}.ds-chips button:hover{background:var(--surface-hover,#eae4da)}.ds-chips button[aria-pressed=true]{background:var(--wine,#4a0011);color:#fff8ee}.ds-chips button:focus-visible{outline:2px solid var(--focus,#0038ff);outline-offset:4px}.ds-chips button>i{display:inline-block;width:9px;height:9px;border:1px solid currentColor;border-radius:50%;flex-shrink:0;background:#626970;margin-right:6px}@media(prefers-reduced-motion:reduce){.ds-chips button{transition:none}}"
+    },
+    {
+      "name": "Carte d’œuvre — structure",
+      "kind": "card",
+      "refersTo": "artwork-card",
+      "description": "Spécimen de structure conservé sans image embarquée : silhouette 2:3 et repli CSS sobre lapis-lazuli, pas une imitation des PNG fournis. Fenêtre vide ; en production, œuvre entière en object-fit:contain dans l’ouverture mesurée du manifeste et PNG en superposition. Titre 25px (26px mobile), artiste 14px, rareté et possession 13px hors cadre ; encres du thème actif et badge Pièce maîtresse lapis-lazuli.",
+      "html": "<article class=\"ds-art\"><button type=\"button\" class=\"ds-art-open\" aria-label=\"Découvrir La Joconde\"><div class=\"ds-art-mat\"><div class=\"ds-art-top\"><span class=\"ds-art-rarity\" title=\"Pièce maîtresse · Lapis-lazuli\"><svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M12 3 3 12l9 9 9-9Z\"/></svg>Pièce maîtresse</span><span>N° 001</span></div><div class=\"ds-art-frame\" aria-hidden=\"true\"><div class=\"ds-art-window\"></div></div><div class=\"ds-art-index\"><span>MUSE</span><span>1 EXEMPLAIRE</span></div></div><h3>La Joconde</h3><p class=\"ds-art-artist\">Léonard de Vinci</p></button><div class=\"ds-art-foot\"><span>Beaux-Arts</span></div></article>",
+      "css": ".ds-art{max-width:300px;background:var(--card,#fffefb);padding:15px;border-radius:5px;box-shadow:0 4px 7px -3px #29211726;border:1px solid var(--line,rgba(74,0,17,.12));transition:transform .25s,box-shadow .25s}.ds-art:hover{transform:translateY(-4px);box-shadow:0 9px 16px -7px #29211733}.ds-art-open{display:block;padding:0;border:0;background:none;text-align:left;width:100%;cursor:pointer;color:var(--heading,#4a0011)}.ds-art-open:focus-visible{outline:2px solid var(--focus,#0038ff);outline-offset:4px}.ds-art-mat{padding:0;background:transparent;border:0;position:relative;overflow:hidden;display:flex;flex-direction:column}.ds-art-top{display:flex;gap:8px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;min-height:28px;margin-bottom:12px;font-family:Space,Arial,sans-serif;font-size:var(--type-caption,.8125rem);line-height:1.55}.ds-art-rarity{display:inline-flex;align-items:center;gap:4px;padding:5px 8px;max-width:100%;white-space:normal;background:var(--rarity,#2549a8);color:var(--rarity-on-color,#ffffff);font-family:Space,Arial,sans-serif;font-size:var(--type-caption,.8125rem);line-height:1.55;letter-spacing:.015em;text-transform:uppercase;border-radius:2px;font-weight:500}.ds-art-rarity svg{width:12px;height:12px;flex-shrink:0}.ds-art-top>span:last-child{background:var(--card,#fffefb);color:var(--text-soft,#625249);padding:4px;border-radius:3px;margin-left:auto}.ds-art-frame{position:relative;isolation:isolate;width:100%;aspect-ratio:2/3;box-sizing:border-box;flex:none;border:7px ridge var(--frame-metal,#2549a8);box-shadow:inset 0 0 0 2px var(--image-ground,#e1ddd3);background:var(--mat,#eeece4)}.ds-art-frame:before{content:'';position:absolute;inset:4%;border:1px solid var(--frame-metal,#2549a8);pointer-events:none}.ds-art-window{position:absolute;left:10%;top:8%;width:80%;height:84%;background:var(--image-ground,#e1ddd3)}.ds-art-index{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:7px;min-height:25px;padding-inline:4px;margin-top:10px;font-family:Space,Arial,sans-serif;font-size:var(--type-caption,.8125rem);line-height:1.55;letter-spacing:.015em;color:var(--text-soft,#625249)}.ds-art-index>span:first-child{display:none}.ds-art h3{font-family:Playfair,Georgia,serif;font-weight:400;font-size:25px;line-height:1.25;margin:15px 0 0;letter-spacing:-.01em}.ds-art-artist{font-family:Space,Arial,sans-serif;font-size:var(--type-label,.875rem);line-height:1.65;letter-spacing:.025em;margin:9px 0 0;color:var(--text-soft,#625249)}.ds-art-foot{display:flex;align-items:center;background:var(--paper-low,#f5f3ee);padding:5px 8px;margin-top:16px;color:var(--text-soft,#625249);min-height:44px;font-family:Space,Arial,sans-serif;font-size:var(--type-label,.875rem);line-height:1.65}@media(max-width:650px){.ds-art h3{font-size:26px}}@media(prefers-reduced-motion:reduce){.ds-art{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Tactile Editorial Classicism",
+    "overview": "Le classicisme éditorial tactile de la référence associe la sérénité d’un catalogue de musée au plaisir matériel des pochettes et des cartes : papier ivoire, velours cardinal, cadres transparents fournis et touches de dorure. Playfair donne la voix curatoriale ; les reproductions restent le sujet, accompagnées de textes lisibles et de repères précis. Les cinq matières approuvées — fer, cuivre, argent, or, lapis-lazuli — habillent les raretés sans renommer leurs niveaux éditoriaux.\n\nLe monde visuel des quatre maquettes reste la référence, pas leur ancienne succession de pages. Les adaptations approuvées associent textes lisibles, navigation supérieure persistante, thème sombre cohérent et quatre destinations distinctes : **Pochettes / Marché / Collection / Profil**. L’accueil allégé mène par la pochette tous styles ; choisir, ouvrir et révéler se déroule dans un même dialogue, sans page atelier ni page révélation. Kyara inspire uniquement la répartition des rôles, jamais la marque, les polices ou la palette MUSE.\n\nLa référence utilisateur `stitch_booster_pack_opening_platform/classical_editorial_gilded_tactile/DESIGN.md` reste inchangée. L’ordre effectif de `src/main.tsx` est `src/styles.css`, puis `src/appearance.css` pour les rôles sémantiques et la lisibilité, puis `src/navigation.css` pour les nouvelles compositions, puis **`src/frames.css` en dernier** pour les cadres et encres de rareté. Le CSS exécuté fait autorité sur les anciennes descriptions ; `src/useTheme.ts` et `src/theme.ts` conservent exactement le comportement du thème. Le dernier contrat de `.impeccable/surface.md` précise cette adaptation sans remplacer l’identité.",
+    "keyCharacteristics": [
+      "Papier chaud et hiérarchie éditoriale muséale.",
+      "Velours bordeaux, outremer d’action et dorure ponctuelle.",
+      "Pochettes tactiles et reproductions entières dans les cartes et fiches.",
+      "Contrôles natifs, lecture au toucher et parcours au clavier.",
+      "Lisibilité sans miniaturisation, en-tête sticky opaque et palette sémantique claire/sombre.",
+      "Quatre destinations utiles et découverte continue en dialogue, sans marché fictif.",
+      "Cadres de famille entiers au ratio 2:3 et matières de rareté cohérentes, sans masquer les œuvres."
+    ],
+    "rules": [
+      "Prose 16px, contrôles 15px, libellés 14px, annotations utiles 13px ; la micro-impression décorative des emballages est exemptée, pas généralisée.",
+      "Le thème suit le système jusqu’au choix explicite Lune/Soleil ; muse-theme est séparé de la collection et le choix reste utilisable si le stockage échoue.",
+      "Aucune nouvelle identité ; originaux de cadres et reproductions intacts, dérivés PNG transparents préparés par le script existant.",
+      { "name": "The Material Contrast Rule", "body": "Conserver séparés remplissage, texte sur badge et encre sans fond ; viser au moins 4,5:1 pour leurs textes dans les deux thèmes. Cette palette approuvée ne recolore ni les reproductions ni les PNG de cadres et ne remplace pas les tokens du thème général.", "section": "colors" }
+    ],
+    "dos": [
+      "**Do** conserver le monde muséal fourni : papier, velours cardinal, outremer et dorure ponctuelle.",
+      "**Do** utiliser les alias locaux Playfair, Inter et Space et les valeurs exécutées du CSS.",
+      "**Do** préserver la reproduction entière, les actions explicites et le focus visible.",
+      "**Do** conserver l’échelle lisible, l’empilement anticipé, l’en-tête sticky opaque et les dialogues dans les deux thèmes.",
+      "**Do** préserver les quatre destinations, l’ouverture continue et la reprise du tirage enregistré sans nouvelle consommation.",
+      "**Do** associer chaque famille à ses propres cadres et chaque rareté à sa matière, avec fenêtre transparente mesurée par fichier et reproduction entière.",
+      "**Do** conserver les originaux, préparer les dérivés par le script existant et distinguer remplissage, encre de badge et encre de thème."
+    ],
+    "donts": [
+      "**Don't** remplacer la référence utilisateur ni assimiler ses tokens non exécutés à ceux de l’application.",
+      "**Don't** généraliser les petites inscriptions de pochettes, les cartes ou les surtitres à toute l’interface.",
+      "**Don't** remapper `wine` en texte ivoire : séparer pigments, titres et fonds d’action. Les écarts de type/couleur avec l’ancien registre sont des changements approuvés, pas des défauts à annuler.",
+      "**Don't** décrire comptes, paiements ou échanges comme opérationnels dans cette version locale.",
+      "**Don't** réintroduire les pages atelier/révélation, le profil modal, les fausses annonces ou les prix spéculatifs.",
+      "**Don't** annoncer la rareté d’un dos caché, remplir les cartouches du PNG ou atténuer le cadre d’une œuvre non acquise.",
+      "**Don't** emprunter une famille historique incorrecte, renommer les niveaux, modifier leurs taux ou inventer des œuvres pour les familles en attente."
+    ]
+  }
+}
