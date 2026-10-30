@@ -6,6 +6,8 @@ Pour commencer sans entrer dans les détails techniques : **[guide d’utilisati
 
 ## Utiliser l’atelier
 
+**Site partagé : https://art-museum-8fdd8-atelier.web.app**. Hébergement statique public, sans compte ni synchronisation des décisions. Chaque personne exporte son propre JSON ; l’import dans un navigateur contenant déjà des choix nécessite de vérifier les conflits.
+
 Depuis la racine du projet :
 
 ```sh
@@ -52,6 +54,16 @@ Les mêmes scénarios de courbe et de poids testent la stabilité des nouveaux r
 Toutes les **1 000 propositions restent provisoires**, avec une confiance moyenne de **56,6 %** (indice heuristique, pas probabilité d’exactitude). Répartition : **161 Esquisse, 741 Étude, 94 Composition, 2 Œuvre, 2 Pièce maîtresse**. Ces chiffres ne constituent pas une cible et n’impliquent aucune activation. Des œuvres peuvent avoir le même score faute d’indicateurs discriminants : la revue humaine est précisément nécessaire pour étudier ces limites.
 
 ## Reproduire
+
+### Mettre à jour Firebase Hosting
+
+Le site dédié `art-museum-8fdd8-atelier` appartient au projet `art-museum-8fdd8`. Avec Firebase CLI installé et connecté à un compte autorisé (`firebase login`), lancer `npm run deploy:atelier`. La configuration `firebase.json` cible explicitement ce site, pas le site principal. Aucune règle Firestore ni authentification applicative n’est créée.
+
+`npm run build:atelier` compile uniquement `review.html` dans `dist-atelier`, puis copie le catalogue, les 100 images locales utiles, les polices et leurs licences. Le jeu, les autres assets, les captures sources et les sauvegardes utilisateur ne sont pas déployés. Les 900 nouvelles images restent servies par Cleveland. La page est aussi disponible à `/review.html`.
+
+Le premier déploiement a été vérifié : page, polices et image locale répondent HTTP 200 ; le catalogue en ligne possède exactement l’empreinte du manifeste local. Avant une mise à jour du catalogue, demander aux utilisateurs d’exporter leur JSON pour éviter toute incompatibilité de version.
+
+### Recalculer et tester
 
 ```sh
 # Reconstituer la sélection depuis les captures existantes, sans réseau

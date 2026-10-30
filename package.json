@@ -13,6 +13,8 @@
     "rarity:v2:verify": "tsx scripts/rarity-v2/verify.ts",
     "review:collect": "tsx scripts/review/collect.ts",
     "review:build": "tsx scripts/review/build.ts",
+    "build:atelier": "vite build --config vite.atelier.config.ts && tsx scripts/prepare-atelier-hosting.ts",
+    "deploy:atelier": "npm run build:atelier && firebase deploy --only hosting --project art-museum-8fdd8",
     "predev": "npm run prepare:frames",
     "pretest": "npm run prepare:frames",
     "dev": "vite",
