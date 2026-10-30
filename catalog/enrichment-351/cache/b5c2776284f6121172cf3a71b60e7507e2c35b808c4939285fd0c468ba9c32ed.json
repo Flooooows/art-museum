@@ -1,0 +1,629 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Les+Hasards+heureux+de+l%27escarpolette%7CP%C3%A8lerinage+%C3%A0+l%27%C3%AEle+de+Cyth%C3%A8re%7CDiane+au+bain%7CLa+Raie%7CLe+B%C3%A9n%C3%A9dicit%C3%A9%7CAutoportrait+au+chapeau+de+paille%7CMarie-Antoinette+%C3%A0+la+rose%7CLe+Serment+des+Horaces%7CLa+Mort+de+Marat%7CLe+Sacre+de+Napol%C3%A9on%7CLa+Mort+de+Socrate%7CBonaparte+franchissant+le+Grand-Saint-Bernard%7CPsych%C3%A9+ranim%C3%A9e+par+le+baiser+de+l%27Amour%7CLes+Trois+Gr%C3%A2ces+%28Canova%29%7CPauline+Bonaparte+en+V%C3%A9nus+victorieuse%7CTres+de+mayo%7CSaturne+d%C3%A9vorant+un+de+ses+fils%7CLa+Maja+nue%7CLe+Chien+%28Goya%29%7CLe+Sommeil+de+la+raison+produit+des+monstres%7CLa+Libert%C3%A9+guidant+le+peuple%7CLa+Mort+de+Sardanapale%7CFemmes+d%27Alger+dans+leur+appartement%7CLe+Radeau+de+la+M%C3%A9duse%7CLe+Derby+d%27Epsom%7CLe+Voyageur+contemplant+une+mer+de+nuages%7CL%27Abbaye+dans+une+for%C3%AAt+de+ch%C3%AAnes%7CLa+Mer+de+glace%7CLe+Moine+au+bord+de+la+mer%7CLe+Dernier+Voyage+du+T%C3%A9m%C3%A9raire",
+  "retrievedAt": "2026-10-30T01:42:21.809Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Pèlerinage à l'île de Cythère",
+          "to": "Le Pèlerinage à l'île de Cythère"
+        },
+        {
+          "from": "Tres de mayo",
+          "to": "El tres de mayo de 1808 en Madrid"
+        },
+        {
+          "from": "La Mort de Marat",
+          "to": "Marat assassiné"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Le Sommeil de la raison produit des monstres",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Sommeil_de_la_raison_produit_des_monstres",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Sommeil_de_la_raison_produit_des_monstres&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Sommeil_de_la_raison_produit_des_monstres"
+        },
+        {
+          "ns": 0,
+          "title": "Pauline Bonaparte en Vénus victorieuse",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Pauline_Bonaparte_en_V%C3%A9nus_victorieuse",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Pauline_Bonaparte_en_V%C3%A9nus_victorieuse&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Pauline_Bonaparte_en_V%C3%A9nus_victorieuse"
+        },
+        {
+          "ns": 0,
+          "title": "Marie-Antoinette à la rose",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Marie-Antoinette_%C3%A0_la_rose",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Marie-Antoinette_%C3%A0_la_rose&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Marie-Antoinette_%C3%A0_la_rose"
+        },
+        {
+          "pageid": 26256,
+          "ns": 0,
+          "title": "Le Radeau de la Méduse",
+          "pageprops": {
+            "defaultsort": "Radeau de la Meduse, Le",
+            "displaytitle": "<i>Le Radeau de la Méduse</i>",
+            "page_image_free": "JEAN_LOUIS_THÉODORE_GÉRICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q212616"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:51Z",
+          "lastrevid": 240536097,
+          "length": 122987,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Radeau_de_la_M%C3%A9duse",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Radeau_de_la_M%C3%A9duse&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Radeau_de_la_M%C3%A9duse"
+        },
+        {
+          "pageid": 88373,
+          "ns": 0,
+          "title": "El tres de mayo de 1808 en Madrid",
+          "pageprops": {
+            "displaytitle": "<i>El tres de mayo de 1808 en Madrid</i>",
+            "page_image_free": "Francisco_de_Goya_y_Lucientes_-_Los_fusilamientos_del_tres_de_mayo_-_1814.jpg",
+            "wikibase_item": "Q1091086"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:59Z",
+          "lastrevid": 237760422,
+          "length": 53126,
+          "fullurl": "https://fr.wikipedia.org/wiki/El_tres_de_mayo_de_1808_en_Madrid",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=El_tres_de_mayo_de_1808_en_Madrid&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/El_tres_de_mayo_de_1808_en_Madrid"
+        },
+        {
+          "pageid": 174883,
+          "ns": 0,
+          "title": "Le Voyageur contemplant une mer de nuages",
+          "pageprops": {
+            "defaultsort": "Voyageur au-dessus de la mer de nuages, Le",
+            "displaytitle": "<i>Le Voyageur contemplant une mer de nuages</i>",
+            "page_image_free": "Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+            "wikibase_item": "Q311243"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 240475863,
+          "length": 7308,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Voyageur_contemplant_une_mer_de_nuages",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Voyageur_contemplant_une_mer_de_nuages&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Voyageur_contemplant_une_mer_de_nuages"
+        },
+        {
+          "pageid": 174891,
+          "ns": 0,
+          "title": "La Mer de glace",
+          "pageprops": {
+            "defaultsort": "Mer de glace, La",
+            "displaytitle": "<i>La Mer de glace</i>",
+            "page_image_free": "Caspar_David_Friedrich_-_Das_Eismeer_-_Hamburger_Kunsthalle_-_02.jpg",
+            "wikibase_item": "Q194137"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 222053889,
+          "length": 5944,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Mer_de_glace",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Mer_de_glace&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Mer_de_glace"
+        },
+        {
+          "pageid": 174930,
+          "ns": 0,
+          "title": "Marat assassiné",
+          "pageprops": {
+            "defaultsort": "Mort de Marat, La",
+            "displaytitle": "<i>Marat assassiné</i>",
+            "page_image_free": "Death_of_Marat_by_David.jpg",
+            "wikibase_item": "Q636537"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 240475475,
+          "length": 25982,
+          "fullurl": "https://fr.wikipedia.org/wiki/Marat_assassin%C3%A9",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Marat_assassin%C3%A9&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Marat_assassin%C3%A9"
+        },
+        {
+          "pageid": 177051,
+          "ns": 0,
+          "title": "Le Derby d'Epsom",
+          "pageprops": {
+            "defaultsort": "Derby d'Epsom, Le",
+            "displaytitle": "<i>Le Derby d'Epsom</i>",
+            "page_image_free": "Le_Derby_de_1821_à_Epsom_-_Théodore_Géricault_-_Musée_du_Louvre_Peintures_MI_708_-_photo_2.jpg",
+            "wikibase_item": "Q429753"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 237538632,
+          "length": 4424,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Derby_d%27Epsom",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Derby_d%27Epsom&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Derby_d%27Epsom"
+        },
+        {
+          "pageid": 177482,
+          "ns": 0,
+          "title": "La Mort de Sardanapale",
+          "pageprops": {
+            "defaultsort": "Mort de Sardanapale, La",
+            "displaytitle": "<i>La Mort de Sardanapale</i>",
+            "page_image_free": "La_Mort_de_Sardanapale_-_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_RF_2346.jpg",
+            "wikibase_item": "Q1133821"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 239981512,
+          "length": 20177,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Mort_de_Sardanapale",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Mort_de_Sardanapale&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Mort_de_Sardanapale"
+        },
+        {
+          "pageid": 177484,
+          "ns": 0,
+          "title": "La Liberté guidant le peuple",
+          "pageprops": {
+            "defaultsort": "Liberte guidant le peuple, La",
+            "displaytitle": "<i>La Liberté guidant le peuple</i>",
+            "page_image_free": "La_Liberté_guidant_le_peuple_-_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_RF_129_-_après_restauration_2024.jpg",
+            "wikibase_item": "Q29530"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 240422683,
+          "length": 51816,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Libert%C3%A9_guidant_le_peuple",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Libert%C3%A9_guidant_le_peuple&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Libert%C3%A9_guidant_le_peuple"
+        },
+        {
+          "pageid": 177486,
+          "ns": 0,
+          "title": "Femmes d'Alger dans leur appartement",
+          "pageprops": {
+            "displaytitle": "<i>Femmes d'Alger dans leur appartement</i>",
+            "page_image_free": "Femmes_d'Alger_dans_leur_appartement,_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_INV_3824.jpg",
+            "wikibase_item": "Q1212737"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 236746691,
+          "length": 19052,
+          "fullurl": "https://fr.wikipedia.org/wiki/Femmes_d%27Alger_dans_leur_appartement",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Femmes_d%27Alger_dans_leur_appartement&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Femmes_d%27Alger_dans_leur_appartement"
+        },
+        {
+          "pageid": 179608,
+          "ns": 0,
+          "title": "Saturne dévorant un de ses fils",
+          "pageprops": {
+            "displaytitle": "<i>Saturne dévorant un de ses fils</i>",
+            "page_image_free": "Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg",
+            "wikibase_item": "Q1150997"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 239067671,
+          "length": 13885,
+          "fullurl": "https://fr.wikipedia.org/wiki/Saturne_d%C3%A9vorant_un_de_ses_fils",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Saturne_d%C3%A9vorant_un_de_ses_fils&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Saturne_d%C3%A9vorant_un_de_ses_fils"
+        },
+        {
+          "pageid": 184157,
+          "ns": 0,
+          "title": "Le Serment des Horaces",
+          "pageprops": {
+            "defaultsort": "Serment des Horaces, Le",
+            "displaytitle": "<i>Le Serment des Horaces</i>",
+            "page_image_free": "Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Musée_du_Louvre_Peintures_INV_3692_;_MR_1432.jpg",
+            "wikibase_item": "Q476458"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:13Z",
+          "lastrevid": 240061790,
+          "length": 21057,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Serment_des_Horaces",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Serment_des_Horaces&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Serment_des_Horaces"
+        },
+        {
+          "pageid": 446110,
+          "ns": 0,
+          "title": "La Raie",
+          "pageprops": {
+            "defaultsort": "Raie",
+            "displaytitle": "<i>La Raie</i>",
+            "page_image_free": "La_Raie_-_Jean_Baptiste_Siméon_Chardin_-_Musée_du_Louvre_Peintures_INV_3197.jpg",
+            "wikibase_item": "Q3212142"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:56Z",
+          "lastrevid": 240743205,
+          "length": 7861,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Raie",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Raie&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Raie"
+        },
+        {
+          "pageid": 461378,
+          "ns": 0,
+          "title": "Bonaparte franchissant le Grand-Saint-Bernard",
+          "pageprops": {
+            "defaultsort": "Bonaparte franchissant le Grand-Saint-Bernard",
+            "displaytitle": "<i>Bonaparte franchissant le Grand-Saint-Bernard</i>",
+            "page_image_free": "David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q59201"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:58Z",
+          "lastrevid": 240792138,
+          "length": 80595,
+          "fullurl": "https://fr.wikipedia.org/wiki/Bonaparte_franchissant_le_Grand-Saint-Bernard",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Bonaparte_franchissant_le_Grand-Saint-Bernard&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Bonaparte_franchissant_le_Grand-Saint-Bernard"
+        },
+        {
+          "pageid": 625485,
+          "ns": 0,
+          "title": "Le Pèlerinage à l'île de Cythère",
+          "pageprops": {
+            "defaultsort": "Pelerinage a l'ile de Cythere",
+            "displaytitle": "<i>Le Pèlerinage à l'île de Cythère</i>",
+            "page_image_free": "L'Embarquement_pour_Cythère,_by_Antoine_Watteau,_from_C2RMF_retouched.jpg",
+            "wikibase_item": "Q531329"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:19Z",
+          "lastrevid": 240036009,
+          "length": 11243,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_P%C3%A8lerinage_%C3%A0_l%27%C3%AEle_de_Cyth%C3%A8re",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_P%C3%A8lerinage_%C3%A0_l%27%C3%AEle_de_Cyth%C3%A8re&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_P%C3%A8lerinage_%C3%A0_l%27%C3%AEle_de_Cyth%C3%A8re"
+        },
+        {
+          "pageid": 817859,
+          "ns": 0,
+          "title": "Le Sacre de Napoléon",
+          "pageprops": {
+            "defaultsort": "Sacre de Napoleon, Le",
+            "displaytitle": "<i>Le Sacre de Napoléon</i>",
+            "page_image_free": "Le_Sacre_de_Napoléon_-_Jacques-Louis_David_-_Musée_du_Louvre_Peintures_INV_3699_;_MR_1437.jpg",
+            "wikibase_item": "Q1231009"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:45Z",
+          "lastrevid": 240598089,
+          "length": 27716,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Sacre_de_Napol%C3%A9on",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Sacre_de_Napol%C3%A9on&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Sacre_de_Napol%C3%A9on"
+        },
+        {
+          "pageid": 917412,
+          "ns": 0,
+          "title": "La Mort de Socrate",
+          "pageprops": {
+            "defaultsort": "Mort de Socrate",
+            "disambiguation": "",
+            "displaytitle": "<i>La Mort de Socrate</i>",
+            "wikibase_item": "Q3210839"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:26:44Z",
+          "lastrevid": 187721613,
+          "length": 512,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Mort_de_Socrate",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Mort_de_Socrate&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Mort_de_Socrate"
+        },
+        {
+          "pageid": 1446966,
+          "ns": 0,
+          "title": "Le Dernier Voyage du Téméraire",
+          "pageprops": {
+            "defaultsort": "Dernier voyage du Temeraire, Le",
+            "displaytitle": "<i>Le Dernier Voyage du Téméraire</i>",
+            "page_image_free": "The_Fighting_Temeraire,_JMW_Turner,_National_Gallery.jpg",
+            "wikibase_item": "Q257580"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:17Z",
+          "lastrevid": 237531869,
+          "length": 7159,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Dernier_Voyage_du_T%C3%A9m%C3%A9raire",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Dernier_Voyage_du_T%C3%A9m%C3%A9raire&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Dernier_Voyage_du_T%C3%A9m%C3%A9raire"
+        },
+        {
+          "pageid": 2621897,
+          "ns": 0,
+          "title": "Psyché ranimée par le baiser de l'Amour",
+          "pageprops": {
+            "defaultsort": "Psyche ranimee par le baiser de l'Amour",
+            "displaytitle": "<i>Psyché ranimée par le baiser de l'Amour</i>",
+            "page_image_free": "Antonio_canova,_psiche_rianimata_dal_bacio_di_amore,_1788-1793,_02.JPG",
+            "wikibase_item": "Q517408"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:21Z",
+          "lastrevid": 240021281,
+          "length": 7323,
+          "fullurl": "https://fr.wikipedia.org/wiki/Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour"
+        },
+        {
+          "pageid": 3673794,
+          "ns": 0,
+          "title": "La Maja nue",
+          "pageprops": {
+            "defaultsort": "Maja nue, La",
+            "displaytitle": "<i>La Maja nue</i>",
+            "page_image_free": "Maja_desnuda_(museo_del_Prado).jpg",
+            "wikibase_item": "Q152867"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:52Z",
+          "lastrevid": 232069921,
+          "length": 14433,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Maja_nue",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Maja_nue&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Maja_nue"
+        },
+        {
+          "pageid": 5178302,
+          "ns": 0,
+          "title": "Les Hasards heureux de l'escarpolette",
+          "pageprops": {
+            "defaultsort": "Hasards heureux de l'escarpolette, Les",
+            "displaytitle": "<i>Les Hasards heureux de l'escarpolette</i>",
+            "page_image_free": "Fragonard,_The_Swing.jpg",
+            "wikibase_item": "Q2629559"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:22Z",
+          "lastrevid": 240543425,
+          "length": 9375,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Hasards_heureux_de_l%27escarpolette",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Hasards_heureux_de_l%27escarpolette&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Hasards_heureux_de_l%27escarpolette"
+        },
+        {
+          "pageid": 6299431,
+          "ns": 0,
+          "title": "Le Moine au bord de la mer",
+          "pageprops": {
+            "defaultsort": "Moine au bord de la mer",
+            "displaytitle": "<i>Le Moine au bord de la mer</i>",
+            "page_image_free": "Caspar_David_Friedrich_-_Der_Mönch_am_Meer_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q693746"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:15Z",
+          "lastrevid": 233655705,
+          "length": 4611,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Moine_au_bord_de_la_mer",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Moine_au_bord_de_la_mer&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Moine_au_bord_de_la_mer"
+        },
+        {
+          "pageid": 6773319,
+          "ns": 0,
+          "title": "L'Abbaye dans une forêt de chênes",
+          "pageprops": {
+            "defaultsort": "Abbaye dans une forêt de chênes",
+            "displaytitle": "<i>L'Abbaye dans une forêt de chênes</i>",
+            "page_image_free": "Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q334360"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:56Z",
+          "lastrevid": 235285188,
+          "length": 4387,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Abbaye_dans_une_for%C3%AAt_de_ch%C3%AAnes",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Abbaye_dans_une_for%C3%AAt_de_ch%C3%AAnes&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Abbaye_dans_une_for%C3%AAt_de_ch%C3%AAnes"
+        },
+        {
+          "pageid": 6773398,
+          "ns": 0,
+          "title": "Le Chien (Goya)",
+          "pageprops": {
+            "defaultsort": "Chien, Le",
+            "displaytitle": "<i><span lang=\"es\">Le Chien</span></i> (Goya)",
+            "page_image_free": "Goya_Dog.jpg",
+            "wikibase_item": "Q500936"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:56Z",
+          "lastrevid": 240726591,
+          "length": 3953,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Chien_(Goya)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Chien_(Goya)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Chien_(Goya)"
+        },
+        {
+          "pageid": 7569822,
+          "ns": 0,
+          "title": "Le Bénédicité",
+          "pageprops": {
+            "defaultsort": "Benedicite",
+            "displaytitle": "<i>Le Bénédicité</i>",
+            "page_image_free": "Jean_Siméon_Chardin_-_The_Prayer_before_Meal_-_WGA04768.jpg",
+            "wikibase_item": "Q26921374"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:58:59Z",
+          "lastrevid": 240795609,
+          "length": 4715,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_B%C3%A9n%C3%A9dicit%C3%A9",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_B%C3%A9n%C3%A9dicit%C3%A9&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_B%C3%A9n%C3%A9dicit%C3%A9"
+        },
+        {
+          "pageid": 11028112,
+          "ns": 0,
+          "title": "Les Trois Grâces (Canova)",
+          "pageprops": {
+            "defaultsort": "Trois Grâces",
+            "displaytitle": "<i>Les Trois Grâces</i> (Canova)",
+            "page_image_free": "The_Three_Graces_in_the_Hermitage_by_Antonio_Canova.jpg",
+            "wikibase_item": "Q1058055"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:02:38Z",
+          "lastrevid": 235847254,
+          "length": 9353,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Trois_Gr%C3%A2ces_(Canova)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Trois_Gr%C3%A2ces_(Canova)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Trois_Gr%C3%A2ces_(Canova)"
+        },
+        {
+          "pageid": 16642278,
+          "ns": 0,
+          "title": "Autoportrait au chapeau de paille",
+          "pageprops": {
+            "displaytitle": "<i>Autoportrait au chapeau de paille</i>",
+            "page_image_free": "Self-portrait_in_a_Straw_Hat_by_Elisabeth-Louise_Vigée-Lebrun.jpg",
+            "wikibase_item": "Q18719540"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:09:56Z",
+          "lastrevid": 240310810,
+          "length": 2345,
+          "fullurl": "https://fr.wikipedia.org/wiki/Autoportrait_au_chapeau_de_paille",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Autoportrait_au_chapeau_de_paille&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Autoportrait_au_chapeau_de_paille"
+        },
+        {
+          "pageid": 16807134,
+          "ns": 0,
+          "title": "Diane au bain",
+          "pageprops": {
+            "displaytitle": "<i>Diane au bain</i>",
+            "page_image_free": "Antoine_Watteau_-_Diana_at_her_Bath_-_WGA25446.jpg",
+            "wikibase_item": "Q19117698"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:10:13Z",
+          "lastrevid": 232067410,
+          "length": 1632,
+          "fullurl": "https://fr.wikipedia.org/wiki/Diane_au_bain",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Diane_au_bain&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Diane_au_bain"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "b9dc5d7a8b450e29e8737a94fad8fd6d3ae4a0361f94ba9cdbbe8e1fee5b5f3f"
+}

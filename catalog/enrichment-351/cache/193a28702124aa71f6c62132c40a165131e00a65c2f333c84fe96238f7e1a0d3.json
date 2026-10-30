@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Le_D%C3%A9jeuner_sur_l'herbe/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:23:02.547Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8342
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7987
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6694
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8000
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6450
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9405
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8521
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9830
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6265
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5637
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6325
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Déjeuner_sur_l'herbe",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7526
+      }
+    ]
+  },
+  "payloadSha256": "3d23378d822315df1d2fa44dec371731e7418d1c0c690288a76ae1228b16d6bd"
+}

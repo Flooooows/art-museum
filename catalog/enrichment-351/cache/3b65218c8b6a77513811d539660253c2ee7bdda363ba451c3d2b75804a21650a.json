@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/View_of_Toledo/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:37:08.801Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3551
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3369
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3313
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3350
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3310
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3655
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3615
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3447
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2737
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2673
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3055
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "View_of_Toledo",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3016
+      }
+    ]
+  },
+  "payloadSha256": "da64003962bab7763039843ce91b5b1d41e669cdbb0c16637520a23437a788ea"
+}

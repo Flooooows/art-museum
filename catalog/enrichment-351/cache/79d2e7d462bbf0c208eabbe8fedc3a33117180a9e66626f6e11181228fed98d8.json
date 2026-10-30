@@ -1,0 +1,602 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=L%27Homme+au+turban+rouge%7CLe+Jardin+des+d%C3%A9lices%7CLe+Chariot+de+foin%7CLa+Tentation+de+saint+Antoine+%28Bosch%29%7CLa+Tour+de+Babel+%28Brueghel%29%7CLes+Chasseurs+dans+la+neige%7CLes+Proverbes+flamands%7CLe+Triomphe+de+la+Mort%7CLe+Repas+de+noce%7CLe+Li%C3%A8vre+%28D%C3%BCrer%29%7CMains+en+pri%C3%A8re%7CMelencolia+I%7CRhinoc%C3%A9ros+de+D%C3%BCrer%7CAutoportrait+%C3%A0+vingt-huit+ans%7CLes+Ambassadeurs%7CPortrait+d%27Henri+VIII+%28Holbein%29%7CL%27Enterrement+du+comte+d%27Orgaz%7CVue+de+Tol%C3%A8de%7CLe+Chevalier+%C3%A0+la+main+sur+la+poitrine%7CLe+Christ+mort%7CLa+Bataille+de+San+Romano%7CAnnonciation+%28Fra+Angelico%2C+San+Marco%29%7CLa+Flagellation+du+Christ%7CLa+R%C3%A9surrection%7CLa+Descente+de+croix%7CPortrait+d%27une+jeune+fille%7CVertumne%7CL%27%C3%89t%C3%A9+%28Arcimboldo%29%7CLa+Vocation+de+saint+Matthieu%7CLes+Tricheurs+%28Le+Caravage%29",
+  "retrievedAt": "2026-10-30T01:42:19.615Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Le Chevalier à la main sur la poitrine",
+          "to": "Le Gentilhomme à la main sur la poitrine"
+        },
+        {
+          "from": "Le Triomphe de la Mort",
+          "to": "Triomphe de la Mort"
+        },
+        {
+          "from": "L'Été (Arcimboldo)",
+          "to": "Les Quatre Saisons (Arcimboldo)"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Annonciation (Fra Angelico, San Marco)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Annonciation_(Fra_Angelico,_San_Marco)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Annonciation_(Fra_Angelico,_San_Marco)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Annonciation_(Fra_Angelico,_San_Marco)"
+        },
+        {
+          "ns": 0,
+          "title": "Portrait d'Henri VIII (Holbein)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Portrait_d%27Henri_VIII_(Holbein)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Portrait_d%27Henri_VIII_(Holbein)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Portrait_d%27Henri_VIII_(Holbein)"
+        },
+        {
+          "ns": 0,
+          "title": "Autoportrait à vingt-huit ans",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Autoportrait_%C3%A0_vingt-huit_ans",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Autoportrait_%C3%A0_vingt-huit_ans&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Autoportrait_%C3%A0_vingt-huit_ans"
+        },
+        {
+          "ns": 0,
+          "title": "Le Lièvre (Dürer)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Li%C3%A8vre_(D%C3%BCrer)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Li%C3%A8vre_(D%C3%BCrer)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Li%C3%A8vre_(D%C3%BCrer)"
+        },
+        {
+          "ns": 0,
+          "title": "Les Chasseurs dans la neige",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Chasseurs_dans_la_neige",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Chasseurs_dans_la_neige&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Chasseurs_dans_la_neige"
+        },
+        {
+          "ns": 0,
+          "title": "La Tentation de saint Antoine (Bosch)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Tentation_de_saint_Antoine_(Bosch)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Tentation_de_saint_Antoine_(Bosch)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Tentation_de_saint_Antoine_(Bosch)"
+        },
+        {
+          "pageid": 87266,
+          "ns": 0,
+          "title": "Vertumne",
+          "pageprops": {
+            "page_image_free": "Vertumne_MBA.jpg",
+            "wikibase_item": "Q374311"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:59Z",
+          "lastrevid": 240507084,
+          "length": 14348,
+          "fullurl": "https://fr.wikipedia.org/wiki/Vertumne",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Vertumne&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Vertumne"
+        },
+        {
+          "pageid": 214389,
+          "ns": 0,
+          "title": "Les Ambassadeurs",
+          "pageprops": {
+            "defaultsort": "Ambassadeurs, Les",
+            "displaytitle": "<i>Les Ambassadeurs</i>",
+            "page_image_free": "Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q1212937"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:18Z",
+          "lastrevid": 240583133,
+          "length": 62838,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Ambassadeurs",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Ambassadeurs&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Ambassadeurs"
+        },
+        {
+          "pageid": 326227,
+          "ns": 0,
+          "title": "Le Jardin des délices",
+          "pageprops": {
+            "defaultsort": "Jardin des délices, Le",
+            "displaytitle": "<i>Le Jardin des délices</i>",
+            "page_image_free": "The_Garden_of_earthly_delights.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q321303"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:36Z",
+          "lastrevid": 239366685,
+          "length": 202594,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Jardin_des_d%C3%A9lices",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Jardin_des_d%C3%A9lices&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Jardin_des_d%C3%A9lices"
+        },
+        {
+          "pageid": 904321,
+          "ns": 0,
+          "title": "Triomphe de la Mort",
+          "pageprops": {
+            "defaultsort": "Triomphe de la Mort",
+            "disambiguation": "",
+            "displaytitle": "<i>Triomphe de la Mort</i>",
+            "wikibase_item": "Q3998946"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:26:43Z",
+          "lastrevid": 226276513,
+          "length": 874,
+          "fullurl": "https://fr.wikipedia.org/wiki/Triomphe_de_la_Mort",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Triomphe_de_la_Mort&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Triomphe_de_la_Mort"
+        },
+        {
+          "pageid": 1049261,
+          "ns": 0,
+          "title": "La Bataille de San Romano",
+          "pageprops": {
+            "defaultsort": "Bataille de San Romano, La",
+            "displaytitle": "<i>La Bataille de San Romano</i>",
+            "page_image_free": "Uccello_—_the_Battle_of_San_Romano.jpg",
+            "wikibase_item": "Q2265370"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:22Z",
+          "lastrevid": 235290340,
+          "length": 15526,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Bataille_de_San_Romano",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Bataille_de_San_Romano&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Bataille_de_San_Romano"
+        },
+        {
+          "pageid": 1052549,
+          "ns": 0,
+          "title": "Rhinocéros de Dürer",
+          "pageprops": {
+            "displaytitle": "<i>Rhinocéros de Dürer</i>",
+            "page_image_free": "Dürer's_Rhinoceros,_1515.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q748518"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:22Z",
+          "lastrevid": 236236549,
+          "length": 51107,
+          "fullurl": "https://fr.wikipedia.org/wiki/Rhinoc%C3%A9ros_de_D%C3%BCrer",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Rhinoc%C3%A9ros_de_D%C3%BCrer&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Rhinoc%C3%A9ros_de_D%C3%BCrer"
+        },
+        {
+          "pageid": 1137153,
+          "ns": 0,
+          "title": "Le Repas de noce",
+          "pageprops": {
+            "defaultsort": "Repas de noce",
+            "displaytitle": "<i>Le Repas de noce</i>",
+            "page_image_free": "Pieter_Bruegel_d._Ä._011.jpg",
+            "wikibase_item": "Q603751"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:35Z",
+          "lastrevid": 237290263,
+          "length": 4501,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Repas_de_noce",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Repas_de_noce&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Repas_de_noce"
+        },
+        {
+          "pageid": 1138471,
+          "ns": 0,
+          "title": "La Tour de Babel (Brueghel)",
+          "pageprops": {
+            "defaultsort": "Tour de Babel",
+            "displaytitle": "<i>La Tour de Babel</i> (Brueghel)",
+            "page_image_free": "Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg",
+            "wikibase_item": "Q699091"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:35Z",
+          "lastrevid": 232939095,
+          "length": 5736,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Tour_de_Babel_(Brueghel)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Tour_de_Babel_(Brueghel)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Tour_de_Babel_(Brueghel)"
+        },
+        {
+          "pageid": 2746616,
+          "ns": 0,
+          "title": "Melencolia I",
+          "pageprops": {
+            "displaytitle": "<i>Melencolia I</i>",
+            "page_image_free": "Dürer_Melancholia_I.jpg",
+            "wikibase_item": "Q1362177"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:30Z",
+          "lastrevid": 240446677,
+          "length": 84598,
+          "fullurl": "https://fr.wikipedia.org/wiki/Melencolia_I",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Melencolia_I&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Melencolia_I"
+        },
+        {
+          "pageid": 2814546,
+          "ns": 0,
+          "title": "Les Tricheurs (Le Caravage)",
+          "pageprops": {
+            "defaultsort": "Tricheurs",
+            "displaytitle": "<i>Les Tricheurs</i> (Le Caravage)",
+            "page_image_free": "Caravaggio_-_The_Cardsharps_(1596-97)_Kimbell_Art_Museum.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q663133"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:37Z",
+          "lastrevid": 240400750,
+          "length": 64656,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Tricheurs_(Le_Caravage)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Tricheurs_(Le_Caravage)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Tricheurs_(Le_Caravage)"
+        },
+        {
+          "pageid": 3307837,
+          "ns": 0,
+          "title": "L'Enterrement du comte d'Orgaz",
+          "pageprops": {
+            "defaultsort": "Enterrement du Comte d'Orgaz",
+            "displaytitle": "<i>L'Enterrement du comte d'Orgaz</i>",
+            "page_image_free": "El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG",
+            "wikibase_item": "Q94802"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:19Z",
+          "lastrevid": 238766541,
+          "length": 9948,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Enterrement_du_comte_d%27Orgaz",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Enterrement_du_comte_d%27Orgaz&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Enterrement_du_comte_d%27Orgaz"
+        },
+        {
+          "pageid": 3936006,
+          "ns": 0,
+          "title": "La Résurrection",
+          "pageprops": {
+            "defaultsort": "Resurrection",
+            "displaytitle": "<i>La Résurrection</i>",
+            "page_image_free": "Tizian_006.jpg",
+            "wikibase_item": "Q60831889"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:26:57Z",
+          "lastrevid": 233305582,
+          "length": 1659,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_R%C3%A9surrection",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_R%C3%A9surrection&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_R%C3%A9surrection"
+        },
+        {
+          "pageid": 4902459,
+          "ns": 0,
+          "title": "La Vocation de saint Matthieu",
+          "pageprops": {
+            "defaultsort": "Vocation de saint Matthieu",
+            "displaytitle": "<i>La Vocation de saint Matthieu</i>",
+            "page_image_free": "Caravaggio_—_The_Calling_of_Saint_Matthew.jpg",
+            "wikibase_item": "Q969377"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:48Z",
+          "lastrevid": 240609048,
+          "length": 17840,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Vocation_de_saint_Matthieu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Vocation_de_saint_Matthieu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Vocation_de_saint_Matthieu"
+        },
+        {
+          "pageid": 4965652,
+          "ns": 0,
+          "title": "La Flagellation du Christ",
+          "pageprops": {
+            "defaultsort": "Flagellation du Christ",
+            "disambiguation": "",
+            "displaytitle": "<i>La Flagellation du Christ</i>",
+            "wikibase_item": "Q945677"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:27:02Z",
+          "lastrevid": 228946014,
+          "length": 1000,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Flagellation_du_Christ",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Flagellation_du_Christ&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Flagellation_du_Christ"
+        },
+        {
+          "pageid": 5591718,
+          "ns": 0,
+          "title": "Le Chariot de foin",
+          "pageprops": {
+            "defaultsort": "Chariot de foin, Le",
+            "displaytitle": "<i>Le Chariot de foin</i>",
+            "page_image_free": "Bosch_-_Haywain_Triptych_central_panel_('The_Hay_Wagon').jpg",
+            "wikibase_item": "Q2213811"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:56:04Z",
+          "lastrevid": 240539424,
+          "length": 55315,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Chariot_de_foin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Chariot_de_foin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Chariot_de_foin"
+        },
+        {
+          "pageid": 6097687,
+          "ns": 0,
+          "title": "L'Homme au turban rouge",
+          "pageprops": {
+            "defaultsort": "Homme au turban rouge",
+            "displaytitle": "<i>L'Homme au turban rouge</i>",
+            "page_image_free": "Jan_van_Eyck_-_Portrait_of_a_Man_(Self_Portrait?)_1433.jpg",
+            "wikibase_item": "Q2392901"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:56:58Z",
+          "lastrevid": 236525961,
+          "length": 6077,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Homme_au_turban_rouge",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Homme_au_turban_rouge&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Homme_au_turban_rouge"
+        },
+        {
+          "pageid": 6136216,
+          "ns": 0,
+          "title": "Portrait d'une jeune fille",
+          "pageprops": {
+            "displaytitle": "<i>Portrait d'une jeune fille</i>",
+            "page_image_free": "Petrus_Christus_-_Portrait_of_a_Young_Woman_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q2409245"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:02Z",
+          "lastrevid": 231936768,
+          "length": 7569,
+          "fullurl": "https://fr.wikipedia.org/wiki/Portrait_d%27une_jeune_fille",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Portrait_d%27une_jeune_fille&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Portrait_d%27une_jeune_fille"
+        },
+        {
+          "pageid": 6660424,
+          "ns": 0,
+          "title": "Les Proverbes flamands",
+          "pageprops": {
+            "defaultsort": "Proverbes flamands",
+            "displaytitle": "<i>Les Proverbes flamands</i>",
+            "page_image_free": "Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q533619"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:47Z",
+          "lastrevid": 239501524,
+          "length": 46000,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Proverbes_flamands",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Proverbes_flamands&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Proverbes_flamands"
+        },
+        {
+          "pageid": 7922215,
+          "ns": 0,
+          "title": "Le Gentilhomme à la main sur la poitrine",
+          "pageprops": {
+            "defaultsort": "Gentilhomme à la main sur la poitrine",
+            "displaytitle": "<i>Le Gentilhomme à la main sur la poitrine</i>",
+            "page_image_free": "El_caballero_de_la_mano_en_el_pecho,_by_El_Greco,_from_Prado_in_Google_Earth.jpg",
+            "wikibase_item": "Q6402081"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:22Z",
+          "lastrevid": 222316906,
+          "length": 4117,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Gentilhomme_%C3%A0_la_main_sur_la_poitrine",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Gentilhomme_%C3%A0_la_main_sur_la_poitrine&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Gentilhomme_%C3%A0_la_main_sur_la_poitrine"
+        },
+        {
+          "pageid": 8052924,
+          "ns": 0,
+          "title": "Les Quatre Saisons (Arcimboldo)",
+          "pageprops": {
+            "defaultsort": "Quatre saisons, Les",
+            "displaytitle": "<i>Les Quatre Saisons</i> (Arcimboldo)",
+            "page_image_free": "Arcimboldo_-_Les_saisons_-_1573.jpg",
+            "wikibase_item": "Q1395699"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:31Z",
+          "lastrevid": 235332823,
+          "length": 24917,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Quatre_Saisons_(Arcimboldo)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Quatre_Saisons_(Arcimboldo)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Quatre_Saisons_(Arcimboldo)"
+        },
+        {
+          "pageid": 8278106,
+          "ns": 0,
+          "title": "Vue de Tolède",
+          "pageprops": {
+            "defaultsort": "Vue de Tolède",
+            "displaytitle": "<i>Vue de Tolède</i>",
+            "page_image_free": "El_Greco_View_of_Toledo.jpg",
+            "wikibase_item": "Q883994"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:42Z",
+          "lastrevid": 238766609,
+          "length": 3211,
+          "fullurl": "https://fr.wikipedia.org/wiki/Vue_de_Tol%C3%A8de",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Vue_de_Tol%C3%A8de&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Vue_de_Tol%C3%A8de"
+        },
+        {
+          "pageid": 9084536,
+          "ns": 0,
+          "title": "Mains en prière",
+          "pageprops": {
+            "displaytitle": "<i>Mains en prière</i>",
+            "page_image_free": "Albrecht_Dürer_-_Study_of_an_Apostle's_Hands_(Praying_Hands)_-_WGA07062.jpg",
+            "wikibase_item": "Q699552"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:00:18Z",
+          "lastrevid": 236883305,
+          "length": 5940,
+          "fullurl": "https://fr.wikipedia.org/wiki/Mains_en_pri%C3%A8re",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Mains_en_pri%C3%A8re&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Mains_en_pri%C3%A8re"
+        },
+        {
+          "pageid": 10280987,
+          "ns": 0,
+          "title": "Le Christ mort",
+          "pageprops": {
+            "defaultsort": "Christ mort, Le",
+            "displaytitle": "<i>Le Christ mort</i>",
+            "page_image_free": "The_Body_of_the_Dead_Christ_in_the_Tomb,_and_a_detail,_by_Hans_Holbein_the_Younger.jpg",
+            "wikibase_item": "Q4310527"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:01:42Z",
+          "lastrevid": 237973067,
+          "length": 14082,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Christ_mort",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Christ_mort&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Christ_mort"
+        },
+        {
+          "pageid": 11179559,
+          "ns": 0,
+          "title": "La Descente de croix",
+          "pageprops": {
+            "defaultsort": "Descente de Croix",
+            "disambiguation": "",
+            "displaytitle": "<i>La Descente de croix</i>",
+            "wikibase_item": "Q42753974"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:27:30Z",
+          "lastrevid": 231662366,
+          "length": 1571,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Descente_de_croix",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Descente_de_croix&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Descente_de_croix"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "d802276cb01079c1fd9c979cf14ab6e167c019906c51b94f092814c17148f926"
+}

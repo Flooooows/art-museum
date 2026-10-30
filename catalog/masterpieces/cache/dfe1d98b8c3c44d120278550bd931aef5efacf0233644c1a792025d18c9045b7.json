@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Venus_de_Milo/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:45:06.625Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 47407
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 32221
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 29085
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 28501
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 30649
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 54132
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 68772
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 38393
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 34654
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 29947
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 32249
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_de_Milo",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 31291
+      }
+    ]
+  },
+  "payloadSha256": "83f725aad8ad2ca8f73974b4000861d1e1b9f3318e6cdb84ce9463ed7341f0d5"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/The_Last_Supper_(Leonardo)/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:43:10.031Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 89515
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 79578
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 73343
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 82346
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 83661
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 94431
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 101952
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 88655
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 64199
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 69805
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 80231
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Last_Supper_(Leonardo)",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 73540
+      }
+    ]
+  },
+  "payloadSha256": "4abf4c08417e93728fed5c93565df237961b06a9194e60e70c1ed3f535f634f3"
+}

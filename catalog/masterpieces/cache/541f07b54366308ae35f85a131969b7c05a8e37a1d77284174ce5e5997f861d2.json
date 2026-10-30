@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Mask+Fang",
+  "retrievedAt": "2026-10-30T00:51:04.693Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 131.11815,
+        "id": 187528,
+        "title": "Head",
+        "main_reference_number": "2006.127",
+        "date_display": "Mid–late 19th century",
+        "is_public_domain": true,
+        "artist_title": "Fang",
+        "image_id": "73e4f1d9-97a2-1742-5235-72bfcaef9473"
+      },
+      {
+        "_score": 111.316605,
+        "id": 8027,
+        "title": "Half Figure (Nlo Byeri)",
+        "main_reference_number": "1958.302",
+        "date_display": "Late 19th-early 20th century",
+        "artist_title": "Fang",
+        "image_id": "df9f8cc4-aab0-bf2c-3a34-5fbab78a3bb5",
+        "is_public_domain": false
+      },
+      {
+        "_score": 65.799446,
+        "id": 120215,
+        "title": "Female Face Mask (Mwana Pwo)",
+        "main_reference_number": "1992.731",
+        "date_display": "Late 19th/early 20th century",
+        "artist_title": "Chokwe",
+        "image_id": "5367bf4c-ad3a-53d1-9992-dddd419dea32",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "b027e3f872eede62282073ae14353c7134330d18ebaed48fcaf8454f40da2b95"
+}

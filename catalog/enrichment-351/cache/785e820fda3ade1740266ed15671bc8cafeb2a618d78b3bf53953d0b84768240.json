@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=Three+Beauties+Utamaro",
+  "retrievedAt": "2026-10-30T01:47:14.722Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 1326,
+    "objectIDs": [
+      45803,
+      55639,
+      36622,
+      37357
+    ]
+  },
+  "payloadSha256": "73ab5cafbd89435384a5af4bfe219c9937fc0c7c232555b46e9b5599924a3bff"
+}

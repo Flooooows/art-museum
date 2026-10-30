@@ -1,0 +1,1629 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3ALeshan+Giant+Buddha%2C+20161102.jpg%7CFile%3A230128+Kamakura+Daibutsu+Japan01s3.jpg%7CFile%3ASarnath+capital.jpg%7CFile%3AJademaya.jpg%7CFile%3APiedra+del+Sol.tif%7CFile%3AAztec+Solar+Disk+Calendar.svg%7CFile%3AThe+Thinker%2C+Rodin.jpg%7CFile%3ARodin+-+Le+Baiser+06.jpg%7CFile%3A13602+El-beso-2.jpg%7CFile%3AThe+Burghers+of+Calais+MET+DP221863.jpg%7CFile%3ARodin+Porte+enfer.jpg%7CFile%3ALa+Valse.jpg%7CFile%3AEl+vals.tif%7CFile%3AL%27%C3%82ge+M%C3%BBr.jpg%7CFile%3ACamille+Claudel.-+L%E2%80%99%C3%82ge+m%C3%BBr+ou+La+Destin%C3%A9e%2C+1899%2C+bronze+%283%29.jpg",
+  "retrievedAt": "2026-10-30T01:47:54.845Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 3482486,
+          "ns": 6,
+          "title": "File:Rodin Porte enfer.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 927311,
+              "width": 2073,
+              "height": 3343,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Rodin_Porte_enfer.jpg/1920px-Rodin_Porte_enfer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2580,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rodin_Porte_enfer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Rodin_Porte_enfer.jpg/1920px-Rodin_Porte_enfer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2580,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rodin_Porte_enfer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rodin_Porte_enfer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rodin_Porte_enfer.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3482486",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2008-01-31 21:52:43",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Rodin Porte enfer",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|Taken with Canon EOS 400D|License migration redundant|Self-published work|La Porte de l'Enfer (Jardin du musée Rodin)|Files with coordinates missing SDC location of creation (48° N, 2° E)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.855461",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.316667",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Auguste Rodin: La porte de l'enfer. Musée Rodin, Paris. Projet de porte monumentale pour le Musée des arts décoratifs, jamais réalisé.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2007-12-30",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Till.niermann\" title=\"User:Till.niermann\">Till Niermann</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 6108097,
+          "ns": 6,
+          "title": "File:Jademaya.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 12365,
+              "width": 255,
+              "height": 240,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jademaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1506,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jademaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1506
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jademaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jademaya.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6108097",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2009-03-07 01:39:34",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Jademaya",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|FAL|License migration redundant|Self-published work|Jade Mask of Pakal",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Fotografía de una cabeza de jade maya expuesta en el Museo de Antropología e Historia de la Cd. de México.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "Fotografía 2007 de una pieza de jade de aprox siglo XII",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Yodigo\" title=\"User:Yodigo\">Yodigo</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 15582363,
+          "ns": 6,
+          "title": "File:The Thinker, Rodin.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2131012,
+              "width": 1920,
+              "height": 2560,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/56/The_Thinker%2C_Rodin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2133,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/The_Thinker%2C_Rodin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2133
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/The_Thinker%2C_Rodin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Thinker,_Rodin.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15582363",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-06-22 11:13:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "The Thinker, Rodin",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Gateway DC-T50|PD-user|Le Penseur (Jardin du musée Rodin)|Postures|France photographs taken on 2010-03-11",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "A photo of <i>The Thinker</i> by Rodin located at the Musée Rodin in Paris",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2010-03-11 02:29",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\">Self-photographed</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">I (<a href=\"https://en.wikipedia.org/wiki/User:AndrewHorne\" class=\"extiw\" title=\"en:User:AndrewHorne\">AndrewHorne</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:AndrewHorne\" class=\"extiw\" title=\"en:User talk:AndrewHorne\">talk</a>)) created this work entirely by myself.</bdi></i></span>)",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/User:AndrewHorne\" class=\"extiw\" title=\"en:User:AndrewHorne\">AndrewHorne</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:AndrewHorne\" class=\"extiw\" title=\"en:User talk:AndrewHorne\">talk</a>)",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 30422758,
+          "ns": 6,
+          "title": "File:La Valse.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1185809,
+              "width": 1181,
+              "height": 1759,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/La_Valse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2383,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/La_Valse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2383
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/La_Valse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_Valse.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30422758",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-12-22 03:55:38",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "La Valse",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|PD-old-70-expired|License migration redundant|Artworks without Wikidata item|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|CC-PD-Mark|La Valse by Camille Claudel (Musée Rodin)|Louis Eugène Blot",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Claudel\" class=\"extiw\" title=\"w:en:Camille Claudel\"><span title=\"French sculptor (1864–1943)\">Camille Claudel</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "La Valse (The Waltzers): Created by Camille Claudel, protégé, muse and mistress of Rodin. Conceived in 1889 and cast in 1905 with the Foundry Mark \"Eugene Blot\". This is the first of these casts and is gilded.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "Photograph created 2009",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"http://lanphere.zenfolio.com/p386364173/h1a373efb#h1a373efb\">http://lanphere.zenfolio.com/p386364173/h1a373efb#h1a373efb</a>\n</p>\nPhotograph created by Scott Lanphere",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 30422761,
+          "ns": 6,
+          "title": "File:L'Âge Mûr.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 419059,
+              "width": 1024,
+              "height": 768,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/51/L%27%C3%82ge_M%C3%BBr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1200,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/L%27%C3%82ge_M%C3%BBr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1200
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/L%27%C3%82ge_M%C3%BBr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:L%27%C3%82ge_M%C3%BBr.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30422761",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-07-08 09:11:40",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "L'Âge Mûr",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Canon Digital IXUS 400|PD-old-70-expired|Self-published work|PD-self|CC-PD-Mark|L'Âge mûr by Camille Claudel (Musée d'Orsay)|The Mature Age by Camille Claudel",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "L'age mûr, statue de Camille Claudel, Musée d'Orsay, Paris",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1898 and 1913<div style=\"display: none;\">date QS:P,+1500-00-00T00:00:00Z/6,P1319,+1898-00-00T00:00:00Z/9,P1326,+1913-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Arnaud_25\" title=\"User:Arnaud 25\">Arnaud 25</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 47132803,
+          "ns": 6,
+          "title": "File:Camille Claudel.- L’Âge mûr ou La Destinée, 1899, bronze (3).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2176255,
+              "width": 3237,
+              "height": 2360,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%283%29.jpg/1920px-Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1167,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/9/93/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%283%29.jpg/1920px-Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1167,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/93/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e,_1899,_bronze_(3).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=47132803",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-02-23 15:28:23",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Camille Claudel.- L’Âge mûr ou La Destinée, 1899, bronze (3)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|Images with annotations|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Uploaded with Commonist|Dpt du Nord by PIERRE ANDRE LECLERCQ|Files by User:Pierre André Leclercq|France photographs taken on 2015-01-21|Files with coordinates missing SDC location of creation (50° N, 3° E)|L'Âge mûr by Camille Claudel (Musée de Roubaix)|Artworks by PIERRE ANDRE LECLERCQ/Camille Claudel",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "50.692577",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "3.167560",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Sculptures de <a href=\"https://fr.wikipedia.org/wiki/Camille_Claudel\" class=\"extiw\" title=\"fr:Camille Claudel\"> Camille Claudel</a>, L’Âge mûr ou La Destinée, 1899,  \"Au miroir d'un art nouveau\" au  <a href=\"https://fr.wikipedia.org/wiki/La_Piscine_(mus%C3%A9e)\" class=\"extiw\" title=\"fr:La Piscine (musée)\"> Musée d'Art et d'Industrie de Roubaix dit \"la Piscine\"</a>, <a href=\"https://fr.wikipedia.org/wiki/Roubaix\" class=\"extiw\" title=\"fr:Roubaix\"> Roubaix</a>, France.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2015-01-21 14:30:10",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span><div style=\"display:table;width:;vertical-align:middle;direction:ltr;float:left;line-height:22px;height:24px;font-size:.96em;margin:0px;padding:2px 4px 2px 6px;color:var(--color-base,#000);background:var(--background-color-neutral-subtle,#F8F9FA);border:1px solid #BAB;border-collapse:separate;border-spacing:0px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Commonist.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Commonist.svg/40px-Commonist.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"22\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Commonist.svg/60px-Commonist.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></a></span> This   file was uploaded  with <a href=\"//commons.wikimedia.org/wiki/Commons:Commonist\" title=\"Commons:Commonist\">Commonist</a>.</div>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:PIERRE_ANDRE_LECLERCQ\" class=\"mw-redirect\" title=\"User:PIERRE ANDRE LECLERCQ\">Pierre André</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 49380699,
+          "ns": 6,
+          "title": "File:13602 El-beso-2.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2022135,
+              "width": 1853,
+              "height": 2780,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/89/13602_El-beso-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2400,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/13602_El-beso-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2400
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/13602_El-beso-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:13602_El-beso-2.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49380699",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-06-11 14:12:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "The Kiss",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD US|Author died more than 100 years ago public domain images|Artworks with Wikidata item|CC-PD-Mark|Images donated by Museo Soumaya|Sculptures by Auguste Rodin in the Museo Soumaya|Artworks main subject 3D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Auguste_Rodin\" class=\"extiw\" title=\"w:en:Auguste Rodin\"><span title=\"French sculptor (1840–1917)\">Auguste Rodin</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1889<div style=\"display: none;\">date QS:P571,+1889-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Museo Soumaya",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "This image might not be in the public domain outside of the United States; this especially applies in the countries and areas that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada, Mainland China (not Hong Kong or Macao), Germany, Mexico, and Switzerland. The creator and year of publication are essential information and must be provided. See <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Public_domain\" class=\"extiw\" title=\"w:Wikipedia:Public domain\">Wikipedia:Public domain</a> and <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Copyrights\" class=\"extiw\" title=\"w:Wikipedia:Copyrights\">Wikipedia:Copyrights</a> for more details.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 52617694,
+          "ns": 6,
+          "title": "File:Sarnath capital.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 7852942,
+              "width": 2667,
+              "height": 4760,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sarnath_capital.jpg/1920px-Sarnath_capital.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2856,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sarnath_capital.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sarnath_capital.jpg/1920px-Sarnath_capital.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2856,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sarnath_capital.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sarnath_capital.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sarnath_capital.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=52617694",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-03-11 17:51:40",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Sarnath capital",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Ashoka pillar, Sarnath|Lion capitals in India",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Sarnath Lion Capital, Mauryan period, circa 250 BCE. <figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"//commons.wikimedia.org/wiki/File:Sarnath_Lion_Capital_1911.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Sarnath_Lion_Capital_1911.jpg/250px-Sarnath_Lion_Capital_1911.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"446\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Sarnath_Lion_Capital_1911.jpg/500px-Sarnath_Lion_Capital_1911.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1234\" data-file-height=\"2200\"></a><figcaption>The capital in 1905 at the time of discovery (different photographic angle).</figcaption></figure>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2011-07-09",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Detail of this file: <figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\"><a href=\"//commons.wikimedia.org/wiki/File:L%C3%B6wenkapitell_im_Sarnath_Museum_1991.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/L%C3%B6wenkapitell_im_Sarnath_Museum_1991.jpg/250px-L%C3%B6wenkapitell_im_Sarnath_Museum_1991.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"250\" height=\"380\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/L%C3%B6wenkapitell_im_Sarnath_Museum_1991.jpg/500px-L%C3%B6wenkapitell_im_Sarnath_Museum_1991.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"3232\" data-file-height=\"4914\"></a><figcaption></figcaption></figure>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Chrisi1964",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 56485517,
+          "ns": 6,
+          "title": "File:The Burghers of Calais MET DP221863.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1655985,
+              "width": 3919,
+              "height": 2985,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/The_Burghers_of_Calais_MET_DP221863.jpg/1920px-The_Burghers_of_Calais_MET_DP221863.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1219,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/The_Burghers_of_Calais_MET_DP221863.jpg/3840px-The_Burghers_of_Calais_MET_DP221863.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/The_Burghers_of_Calais_MET_DP221863.jpg/1920px-The_Burghers_of_Calais_MET_DP221863.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1219,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/The_Burghers_of_Calais_MET_DP221863.jpg/3840px-The_Burghers_of_Calais_MET_DP221863.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/The_Burghers_of_Calais_MET_DP221863.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Burghers_of_Calais_MET_DP221863.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56485517",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-02-21 18:07:38",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><a href=\"https://www.wikidata.org/wiki/Q29273401\" class=\"extiw\" title=\"d:Q29273401\"><span title=\"statues by Auguste Rodin at Calais\">The Burghers of Calais</span></a></div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|Artworks with Wikidata item|Artworks with known accession number|Images from Metropolitan Museum of Art|Artworks with Wikidata item missing dimensions|Artworks with Wikidata item redundant artist|Artworks digital representation of unknown type of work|Artworks with digital representation of different depicts|The Burghers of Calais (Metropolitan Museum of Art)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "50.952361",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "1.853333",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Auguste_Rodin\" class=\"extiw\" title=\"w:en:Auguste Rodin\"><span title=\"French sculptor (1840–1917)\">Auguste Rodin</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://www.wikidata.org/wiki/Q44501162\" class=\"extiw\" title=\"d:Q44501162\"><span title=\"artistic subject\">The Burghers of Calais</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q978987#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "modeled 1884–95, cast 1985",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "This file was donated to Wikimedia Commons as part of a project by the <a href=\"//commons.wikimedia.org/wiki/Commons:Met\" title=\"Commons:Met\">Metropolitan Museum of Art</a>. See the <a rel=\"nofollow\" class=\"external text\" href=\"https://metmuseum.org/about-the-met/policies-and-documents/image-resources\">Image and Data Resources Open Access Policy</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border:var(--border-subtle, 2px solid #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"en\">\n<tbody><tr>\n<td style=\"width:90px;\" rowspan=\"2\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"Creative Commons\"><img alt=\"Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/40px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/60px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"CC-Zero\"><img alt=\"CC-Zero\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/40px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/60px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\n</td>\n<td>This file is made available under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/zero/1.0/deed.en\">CC0 1.0 Universal Public Domain Dedication</a>.\n</td></tr>\n<tr style=\"text-align:left;\">\n<td>The person who associated a work with this deed has dedicated the work to the <a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a> by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.\n<p><span class=\"licensetpl_link\" style=\"display:none;\">http://creativecommons.org/publicdomain/zero/1.0/deed.en</span><span class=\"licensetpl_short\" style=\"display:none;\">CC0</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Zero, Public Domain Dedication</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>\n</p>\n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 57285864,
+          "ns": 6,
+          "title": "File:El vals.tif",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 68382768,
+              "width": 4255,
+              "height": 5355,
+              "pagecount": 1,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/El_vals.tif/lossy-page1-1920px-El_vals.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2014,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/El_vals.tif/lossy-page1-3840px-El_vals.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/El_vals.tif/lossy-page1-1920px-El_vals.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2014,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/El_vals.tif/lossy-page1-3840px-El_vals.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/El_vals.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_vals.tif",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57285864",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-03-21 20:49:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "El vals",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "La Valse by Camille Claudel|PD-Art (PD-old-auto-expired)|PD-old-80-expired|CC-PD-Mark|Images donated by Museo Soumaya|Bronze sculptures by Camille Claudel",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Escultura en bronce con pátina café hecha por Camille Claudel",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1895",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Museo Soumaya",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Camille_Claudel\" class=\"extiw\" title=\"w:en:Camille Claudel\"><span title=\"French sculptor (1864–1943)\">Camille Claudel</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 80304811,
+          "ns": 6,
+          "title": "File:Leshan Giant Buddha, 20161102.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2829114,
+              "width": 3000,
+              "height": 1687,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Leshan_Giant_Buddha%2C_20161102.jpg/1920px-Leshan_Giant_Buddha%2C_20161102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 900,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Leshan_Giant_Buddha%2C_20161102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Leshan_Giant_Buddha%2C_20161102.jpg/1920px-Leshan_Giant_Buddha%2C_20161102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 900,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Leshan_Giant_Buddha%2C_20161102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Leshan_Giant_Buddha%2C_20161102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Leshan_Giant_Buddha,_20161102.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=80304811",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-07-10 11:55:29",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Leshan Giant Buddha, 20161102",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Leshan Giant Buddha",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "The Leshan Giant Buddha, an enormous rock carving begun in the early 8th century and completed in the early 9th century during the Chinese Tang Dynasty (618-907).",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2016-08-05 10:26:26",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://wangjiaisheying.lofter.com/post/3b2249_d0d8c92\">http://wangjiaisheying.lofter.com/post/3b2249_d0d8c92</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "王计",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.5",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.5",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.5",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.5",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 89538327,
+          "ns": 6,
+          "title": "File:Rodin - Le Baiser 06.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 9731128,
+              "width": 3879,
+              "height": 5682,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Rodin_-_Le_Baiser_06.jpg/1920px-Rodin_-_Le_Baiser_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2344,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Rodin_-_Le_Baiser_06.jpg/3840px-Rodin_-_Le_Baiser_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Rodin_-_Le_Baiser_06.jpg/1920px-Rodin_-_Le_Baiser_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2344,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Rodin_-_Le_Baiser_06.jpg/3840px-Rodin_-_Le_Baiser_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rodin_-_Le_Baiser_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rodin_-_Le_Baiser_06.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=89538327",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-04-27 15:52:10",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Rodin - Le Baiser 06",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|Self-published work|Base Joconde|CC-PD-Mark|Le Baiser by Auguste Rodin (Musée Rodin)|Photographs by Tylwyth Eldar - Perpignan|Rodin - Maillol face à face",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Le Baiser de Rodin, vers 1881-1882. Plâtre patiné, Musée de Rodin, Paris (Numéro d'inventaire : S.02834 et <a href=\"https://en.wikipedia.org/wiki/Joconde\" class=\"extiw\" title=\"en:Joconde\">Joconde database</a>:  entry  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.pop.culture.gouv.fr/notice/joconde/000SC008792\">000SC008792</a>). Modèle présentant l'état original du groupe. Présent lors de l'exposition temporaire du Musée Hyacinthe Rigaud \"Rodin - Maillol Face à face\" de 2019.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2019-10-27 15:26:14",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Tylwyth_Eldar\" title=\"User:Tylwyth Eldar\">Tylwyth Eldar</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1917, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 135498135,
+          "ns": 6,
+          "title": "File:Piedra del Sol.tif",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 248050072,
+              "width": 11136,
+              "height": 7424,
+              "pagecount": 1,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Piedra_del_Sol.tif/lossy-page1-1920px-Piedra_del_Sol.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1067,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Piedra_del_Sol.tif/lossy-page1-3840px-Piedra_del_Sol.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Piedra_del_Sol.tif/lossy-page1-1920px-Piedra_del_Sol.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1067,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Piedra_del_Sol.tif/lossy-page1-3840px-Piedra_del_Sol.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Piedra_del_Sol.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piedra_del_Sol.tif",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=135498135",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-08-02 21:43:07",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Aztec Sun Stone",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Aztec sun stone|Self-published work|Artworks with Wikidata item|Photos taken with WMMX camera|Pages with complex technique templates|Artworks with Wikidata item missing author|Artworks with Wikidata item missing genre|Museums in Mexico photographed in 2023|Artworks main subject 3D work|2023 photographs by User:ProtoplasmaKid|Pictures made using a Nikon ZFC (supported by Wikimedia México)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "19.426111",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-99.187500",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "Anonymous Mexica artist",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Sculpture depicting the Mexica deity Tonatiuh",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between circa 1250 and circa 1521<div style=\"display: none;\">date QS:P571,+1500-00-00T00:00:00Z/6,P1319,+1250-00-00T00:00:00Z/9,P1326,+1521-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:ProtoplasmaKid\" title=\"User:ProtoplasmaKid\">ProtoplasmaKid</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table style=\"background-color:#e0e0e0; border:dotted 1px #dfded3; padding:1px; font-size:14px; color:#000000;\" cellspacing=\"10\">\n\n\n<tbody><tr>\n<td align=\"left\">\n</td>\n<td>\n<p><br>\n</p>\n<figure class=\"mw-halign-center\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:WP20Symbols_Coatlicue.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/WP20Symbols_Coatlicue.svg/250px-WP20Symbols_Coatlicue.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"117\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/WP20Symbols_Coatlicue.svg/330px-WP20Symbols_Coatlicue.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"401\"></a><figcaption></figcaption></figure>\n<p><a href=\"https://upload.wikimedia.org/wikipedia/commons/2/2e/Piedra_del_Sol.tif?utm_source=commons.wikimedia.org&amp;utm_campaign=index&amp;utm_content=original\" class=\"internal\" title=\"Piedra del Sol.tif\"><b>This creative work</b></a> was created by <a href=\"//commons.wikimedia.org/wiki/User:ProtoplasmaKid\" title=\"User:ProtoplasmaKid\">ProtoplasmaKid</a> It is licensed under a Creative Commons License. You are free to use and distribute it as you wish.\n</p>\n<div class=\"center\">\n<dl><dd><b>On the condition that you always place my attribution next to the material or in the credits of your derivative work in a visible, prominently, and intentional manner, as follows:</b></dd>\n<dd><big><b>ProtoplasmaKid / Wikimedia Commons / CC-BY-SA 4.0</b></big></dd></dl>\n</div>\n<p>Although this work, or modified versions of it, may appear on many websites, this is the original material, and using it for free ONLY requires adhering to the license.<br><small>Also, it would be greatly appreciated if you notify me of the use of my photo, or if you want a different shot or version or a license for full commercial use, contact me by email or on my <a href=\"//commons.wikimedia.org/wiki/User_talk:ProtoplasmaKid\" title=\"User talk:ProtoplasmaKid\">discussion page</a>.</small>\n</p>\n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 138123709,
+          "ns": 6,
+          "title": "File:230128 Kamakura Daibutsu Japan01s3.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 13241422,
+              "width": 6000,
+              "height": 4000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/230128_Kamakura_Daibutsu_Japan01s3.jpg/1920px-230128_Kamakura_Daibutsu_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1067,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/230128_Kamakura_Daibutsu_Japan01s3.jpg/3840px-230128_Kamakura_Daibutsu_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/230128_Kamakura_Daibutsu_Japan01s3.jpg/1920px-230128_Kamakura_Daibutsu_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1067,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/230128_Kamakura_Daibutsu_Japan01s3.jpg/3840px-230128_Kamakura_Daibutsu_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/230128_Kamakura_Daibutsu_Japan01s3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:230128_Kamakura_Daibutsu_Japan01s3.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=138123709",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-09-26 01:15:15",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "230128 Kamakura Daibutsu Japan01s3",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Sony ILCE-6000|Japan photographs taken on 2023-01-28|Self-published work|Files with coordinates missing SDC location of creation|Front right views of the Kamakura Daibutsu|January 2023 in Kamakura",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "35.316699",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "139.533573",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<b><a href=\"https://en.wikipedia.org/wiki/Kamakura_Daibutsu\" class=\"extiw\" title=\"en:Kamakura Daibutsu\">Kamakura Daibutsu</a></b> in <a href=\"//commons.wikimedia.org/wiki/Kamakura\" class=\"mw-redirect\" title=\"Kamakura\">Kamakura</a>, <a href=\"//commons.wikimedia.org/wiki/Kanagawa_prefecture\" title=\"Kanagawa prefecture\">Kanagawa prefecture</a>, <a href=\"//commons.wikimedia.org/wiki/Japan\" class=\"mw-redirect\" title=\"Japan\">Japan</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-01-28",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 201374516,
+          "ns": 6,
+          "title": "File:Aztec Solar Disk Calendar.svg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1309482,
+              "width": 318,
+              "height": 314,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Aztec_Solar_Disk_Calendar.svg/1920px-Aztec_Solar_Disk_Calendar.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1580,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Aztec_Solar_Disk_Calendar.svg/3840px-Aztec_Solar_Disk_Calendar.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Aztec_Solar_Disk_Calendar.svg/1920px-Aztec_Solar_Disk_Calendar.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1580,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Aztec_Solar_Disk_Calendar.svg/3840px-Aztec_Solar_Disk_Calendar.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Aztec_Solar_Disk_Calendar.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Aztec_Solar_Disk_Calendar.svg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=201374516",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-10-09 10:34:27",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Aztec Solar Disk Calendar",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Extracted images|Aztec sun stone in art|Valid SVG created with Vector Magic:Logos",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Aztec_sun_stone\" class=\"extiw\" title=\"w:en:Aztec sun stone\"><span title=\"16th century Mexica sculpture\">Aztec sun stone</span></a> – 16th century Mexica sculpture",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2026-10-09",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Own work based on: <a href=\"//commons.wikimedia.org/wiki/File:Aztec_Solar_Disk_Calendar.png\" title=\"File:Aztec Solar Disk Calendar.png\">Aztec Solar Disk Calendar.png</a> <i>by</i> <a href=\"//commons.wikimedia.org/w/index.php?title=User:Jlevine13&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jlevine13 (page does not exist)\">Jlevine13</a> (based on <a rel=\"nofollow\" class=\"external text\" href=\"https://www.publicdomainfiles.com/show_file.php?id=13925215218542\">Open Clip Art Library</a>)",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Haley.Parrot&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Haley.Parrot (page does not exist)\">Haley.Parrot</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "44f696588ba6a4177a96bc997b0b0d7939882cac113baa10cffe9b43a332a6db"
+}

@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=The+Herring+Net+Winslow+Homer",
+  "retrievedAt": "2026-10-30T00:48:09.105Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 220.21567,
+        "id": 25865,
+        "title": "The Herring Net",
+        "main_reference_number": "1937.1039",
+        "date_display": "1885",
+        "is_public_domain": true,
+        "artist_title": "Winslow Homer",
+        "image_id": "5dca7347-c6dc-24dd-d073-d705b9cdc575"
+      },
+      {
+        "_score": 203.0861,
+        "id": 16776,
+        "title": "After the Hurricane, Bahamas",
+        "main_reference_number": "1933.1235",
+        "date_display": "1899",
+        "is_public_domain": true,
+        "artist_title": "Winslow Homer",
+        "image_id": "b34de958-1cbe-065f-4941-c34f64d2b366"
+      },
+      {
+        "_score": 199.14854,
+        "id": 44018,
+        "title": "Croquet Scene",
+        "main_reference_number": "1942.35",
+        "date_display": "1866",
+        "is_public_domain": true,
+        "artist_title": "Winslow Homer",
+        "image_id": "f7b2db45-f393-653c-07ef-84319b0cdb92"
+      },
+      {
+        "_score": 192.59135,
+        "id": 38666,
+        "title": "The Water Fan",
+        "main_reference_number": "1972.190",
+        "date_display": "1898/99",
+        "is_public_domain": true,
+        "artist_title": "Winslow Homer",
+        "image_id": "1de73bb7-52d6-e099-f4e1-763e201e78fa"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "f4b9b7260cd1ec58cf660fb776683fe360708d1c112e60035639b0044389d6d9"
+}

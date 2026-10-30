@@ -1,0 +1,107 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/826862",
+  "retrievedAt": "2026-10-30T01:47:30.806Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 826862,
+    "isHighlight": false,
+    "accessionNumber": "17.3.413",
+    "accessionYear": "1917",
+    "isPublicDomain": false,
+    "primaryImage": "",
+    "primaryImageSmall": "",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 85337,
+        "role": "Artist",
+        "name": "Francis Dodd",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010173",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5480742",
+        "gender": ""
+      },
+      {
+        "constituentID": 208491,
+        "role": "Subject",
+        "name": "Susan Isabel Dacre",
+        "constituentULAN_URL": "(not assigned)",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q7648003",
+        "gender": "Female"
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Print",
+    "title": "The Garden Door",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Francis Dodd",
+    "artistDisplayBio": "British, Holyhead, Wales 1874–1949 London",
+    "artistSuffix": "",
+    "artistAlphaSort": "Dodd, Francis",
+    "artistNationality": "British, Welsh",
+    "artistBeginDate": "1874",
+    "artistEndDate": "1949",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5480742",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500010173",
+    "objectDate": "1909",
+    "objectBeginDate": 1909,
+    "objectEndDate": 1909,
+    "medium": "Drypoint",
+    "dimensions": "Plate: 14 × 7 7/8 in. (35.5 × 20 cm)\r\nSheet: 15 3/4 × 10 7/16 in. (40 × 26.5 cm)",
+    "measurements": [
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 40,
+          "Width": 26.5
+        }
+      },
+      {
+        "elementName": "Plate",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 35.5,
+          "Width": 20
+        }
+      }
+    ],
+    "creditLine": "Harris Brisbane Dick Fund, 1917",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Prints",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-03-06T04:54:30Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/826862",
+    "tags": [
+      {
+        "term": "Women",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "04b1addb403d5fdc4e8707f4399d4964c344ca752718c87ee9ff2f45e9bebd70"
+}

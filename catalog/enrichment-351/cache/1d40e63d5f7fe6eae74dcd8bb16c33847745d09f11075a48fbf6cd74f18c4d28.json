@@ -1,0 +1,520 @@
+{
+  "provider": "wikimedia",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Carcass+of+Beef%7CThe+Broken+Column%7CSelf-Portrait+with+Cropped+Hair%7CHenry+Ford+Hospital+%28painting%29%7CThe+History+of+Mexico+%28mural%29%7CWind+God+and+Thunder+God%7CWinter+Landscape+%28Sessh%C5%AB%29%7CAlong+the+River+During+the+Qingming+Festival%7CAdmonitions+Scroll%7CTravelers+among+Mountains+and+Streams%7CEarly+Spring+%28painting%29%7CLofty+Mount+Lu%7CJahangir+Preferring+a+Sufi+Shaikh+to+Kings%7CThe+Seated+Scribe%7CDeath+mask+of+K%27inich+Janaab%27+Pakal%7CBoulevard+du+Temple+%28photograph%29%7CThe+Open+Door+%28photograph%29%7CThe+Ladder+%28photograph%29%7CThe+Whisper+of+the+Muse%7CCharles+Darwin+%28Cameron+photograph%29%7CSallie+Gardner+at+a+Gallop%7CWinter+%E2%80%93+Fifth+Avenue%7CThe+Terminal%7CGismonda+%28poster%29%7CJob+%28Mucha%29%7CZodiac+%28Mucha%29%7CDivan+Japonais%7CJane+Avril+%28poster%29%7CThe+Peacock+Skirt%7CThe+Climax",
+  "retrievedAt": "2026-10-30T01:52:38.251Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Divan Japonais",
+          "to": "Le Divan du Monde"
+        },
+        {
+          "from": "Sallie Gardner at a Gallop",
+          "to": "The Horse in Motion"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Jane Avril (poster)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Jane_Avril_(poster)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Jane_Avril_(poster)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Jane_Avril_(poster)"
+        },
+        {
+          "ns": 0,
+          "title": "Zodiac (Mucha)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Zodiac_(Mucha)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Zodiac_(Mucha)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Zodiac_(Mucha)"
+        },
+        {
+          "ns": 0,
+          "title": "Job (Mucha)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Job_(Mucha)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Job_(Mucha)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Job_(Mucha)"
+        },
+        {
+          "ns": 0,
+          "title": "Gismonda (poster)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Gismonda_(poster)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Gismonda_(poster)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Gismonda_(poster)"
+        },
+        {
+          "ns": 0,
+          "title": "Winter – Fifth Avenue",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Winter_%E2%80%93_Fifth_Avenue",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Winter_%E2%80%93_Fifth_Avenue&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Winter_%E2%80%93_Fifth_Avenue"
+        },
+        {
+          "ns": 0,
+          "title": "Charles Darwin (Cameron photograph)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Charles_Darwin_(Cameron_photograph)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Charles_Darwin_(Cameron_photograph)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Charles_Darwin_(Cameron_photograph)"
+        },
+        {
+          "ns": 0,
+          "title": "The Whisper of the Muse",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/The_Whisper_of_the_Muse",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Whisper_of_the_Muse&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Whisper_of_the_Muse"
+        },
+        {
+          "ns": 0,
+          "title": "The Ladder (photograph)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/The_Ladder_(photograph)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Ladder_(photograph)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Ladder_(photograph)"
+        },
+        {
+          "ns": 0,
+          "title": "The Open Door (photograph)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/The_Open_Door_(photograph)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Open_Door_(photograph)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Open_Door_(photograph)"
+        },
+        {
+          "ns": 0,
+          "title": "Death mask of K'inich Janaab' Pakal",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Death_mask_of_K%27inich_Janaab%27_Pakal",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Death_mask_of_K%27inich_Janaab%27_Pakal&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Death_mask_of_K%27inich_Janaab%27_Pakal"
+        },
+        {
+          "ns": 0,
+          "title": "Lofty Mount Lu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Lofty_Mount_Lu",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Lofty_Mount_Lu&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Lofty_Mount_Lu"
+        },
+        {
+          "ns": 0,
+          "title": "Travelers among Mountains and Streams",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Travelers_among_Mountains_and_Streams",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Travelers_among_Mountains_and_Streams&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Travelers_among_Mountains_and_Streams"
+        },
+        {
+          "ns": 0,
+          "title": "Winter Landscape (Sesshū)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Winter_Landscape_(Sessh%C5%AB)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Winter_Landscape_(Sessh%C5%AB)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Winter_Landscape_(Sessh%C5%AB)"
+        },
+        {
+          "ns": 0,
+          "title": "Wind God and Thunder God",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Wind_God_and_Thunder_God",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Wind_God_and_Thunder_God&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Wind_God_and_Thunder_God"
+        },
+        {
+          "ns": 0,
+          "title": "Self-Portrait with Cropped Hair",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Self-Portrait_with_Cropped_Hair",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Self-Portrait_with_Cropped_Hair&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Self-Portrait_with_Cropped_Hair"
+        },
+        {
+          "ns": 0,
+          "title": "Carcass of Beef",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Carcass_of_Beef",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Carcass_of_Beef&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Carcass_of_Beef"
+        },
+        {
+          "pageid": 676909,
+          "ns": 0,
+          "title": "The Terminal",
+          "pageprops": {
+            "defaultsort": "Terminal, The",
+            "displaytitle": "<i>The Terminal</i>",
+            "page_image": "Movie_poster_the_terminal.jpg",
+            "wikibase-shortdesc": "2004 film by Steven Spielberg",
+            "wikibase_item": "Q318766"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:17:07Z",
+          "lastrevid": 1381391355,
+          "length": 28985,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Terminal",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Terminal&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Terminal"
+        },
+        {
+          "pageid": 5556566,
+          "ns": 0,
+          "title": "Along the River During the Qingming Festival",
+          "pageprops": {
+            "defaultsort": "Along The River During The Qingming Festival",
+            "displaytitle": "<i>Along the River During the Qingming Festival</i>",
+            "page_image_free": "Bianjing_city_gate.JPG",
+            "wikibase-shortdesc": "Painting attributed to Zhang Zeduan",
+            "wikibase_item": "Q714802"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:25:31Z",
+          "lastrevid": 1377384338,
+          "length": 34593,
+          "fullurl": "https://en.wikipedia.org/wiki/Along_the_River_During_the_Qingming_Festival",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Along_the_River_During_the_Qingming_Festival&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Along_the_River_During_the_Qingming_Festival"
+        },
+        {
+          "pageid": 6335282,
+          "ns": 0,
+          "title": "The Seated Scribe",
+          "pageprops": {
+            "defaultsort": "Seated Scribe, The",
+            "displaytitle": "<i>The Seated Scribe</i>",
+            "page_image_free": "Le_Scribe_accroupi_-_Musée_du_Louvre_Antiquités_égyptiennes_E_3023.jpg",
+            "wikibase-shortdesc": "Egyptian sculpture dating from the Old Kingdom period",
+            "wikibase_item": "Q378034"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:26:47Z",
+          "lastrevid": 1302764086,
+          "length": 7511,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Seated_Scribe",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Seated_Scribe&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Seated_Scribe"
+        },
+        {
+          "pageid": 20500030,
+          "ns": 0,
+          "title": "Early Spring (painting)",
+          "pageprops": {
+            "displaytitle": "<i>Early Spring</i> (painting)",
+            "page_image_free": "Guo_Xi_-_Early_Spring_(large).jpg",
+            "wikibase-shortdesc": "Chinese artwork",
+            "wikibase_item": "Q5136665"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:39:04Z",
+          "lastrevid": 1343231945,
+          "length": 2243,
+          "fullurl": "https://en.wikipedia.org/wiki/Early_Spring_(painting)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Early_Spring_(painting)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Early_Spring_(painting)"
+        },
+        {
+          "pageid": 26044155,
+          "ns": 0,
+          "title": "The Horse in Motion",
+          "pageprops": {
+            "defaultsort": "Horse In Motion",
+            "displaytitle": "<i>The Horse in Motion</i>",
+            "page_image_free": "The_Horse_in_motion._\"Abe_Edgington,\"_owned_by_Leland_Stanford;_driven_by_C._Marvin,_trotting_at_a_2-24_gait_over_the_Palo_Alto_track,_15th_June_1878_LOC_13624627695.jpg",
+            "wikibase-shortdesc": "1878 photographs by Eadweard Muybridge",
+            "wikibase_item": "Q3924909"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T04:29:39Z",
+          "lastrevid": 1382540450,
+          "length": 32020,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Horse_in_Motion",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Horse_in_Motion&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Horse_in_Motion"
+        },
+        {
+          "pageid": 27579071,
+          "ns": 0,
+          "title": "Admonitions Scroll",
+          "pageprops": {
+            "defaultsort": "Admonitions Scroll",
+            "page_image_free": "Ku_K'ai-chih_001.jpg",
+            "wikibase-shortdesc": "Chinese narrative painting by Gu Kaizhi",
+            "wikibase_item": "Q921351"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:45:31Z",
+          "lastrevid": 1380682830,
+          "length": 52268,
+          "fullurl": "https://en.wikipedia.org/wiki/Admonitions_Scroll",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Admonitions_Scroll&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Admonitions_Scroll"
+        },
+        {
+          "pageid": 32667979,
+          "ns": 0,
+          "title": "Le Divan du Monde",
+          "pageprops": {
+            "defaultsort": "Divan",
+            "page_image_free": "Rue_des_Martyrs.JPG",
+            "wikibase-shortdesc": "Theatre in Paris, France",
+            "wikibase_item": "Q3222361"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:49:05Z",
+          "lastrevid": 1379017426,
+          "length": 4792,
+          "fullurl": "https://en.wikipedia.org/wiki/Le_Divan_du_Monde",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Le_Divan_du_Monde&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Le_Divan_du_Monde"
+        },
+        {
+          "pageid": 44361829,
+          "ns": 0,
+          "title": "The History of Mexico (mural)",
+          "pageprops": {
+            "defaultsort": "History Of Mexico Mural",
+            "displaytitle": "<i>The History of Mexico</i> (mural)",
+            "page_image_free": "Palacio_Nacional_Murals_view.JPG",
+            "wikibase-shortdesc": "Mural by Diego Rivera in Mexico City, Mexico",
+            "wikibase_item": "Q16685337"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:57:13Z",
+          "lastrevid": 1330832174,
+          "length": 6533,
+          "fullurl": "https://en.wikipedia.org/wiki/The_History_of_Mexico_(mural)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_History_of_Mexico_(mural)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_History_of_Mexico_(mural)"
+        },
+        {
+          "pageid": 47996998,
+          "ns": 0,
+          "title": "The Broken Column",
+          "pageprops": {
+            "defaultsort": "Broken Column",
+            "displaytitle": "<i>The Broken Column</i>",
+            "page_image": "The_Broken_Column.jpg",
+            "wikibase-shortdesc": "1944 painting by Frida Kahlo",
+            "wikibase_item": "Q21056477"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:59:16Z",
+          "lastrevid": 1361422476,
+          "length": 7311,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Broken_Column",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Broken_Column&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Broken_Column"
+        },
+        {
+          "pageid": 52838608,
+          "ns": 0,
+          "title": "The Climax",
+          "pageprops": {
+            "defaultsort": "Climax, The",
+            "disambiguation": "",
+            "expectshortpage": "",
+            "wikibase-shortdesc": "Topics referred to by the same term",
+            "wikibase_item": "Q13406330"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-24T11:31:52Z",
+          "lastrevid": 1291669605,
+          "length": 354,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Climax",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Climax&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Climax"
+        },
+        {
+          "pageid": 57535827,
+          "ns": 0,
+          "title": "The Peacock Skirt",
+          "pageprops": {
+            "defaultsort": "Peacock Skirt, The",
+            "displaytitle": "<i>The Peacock Skirt</i>",
+            "page_image_free": "Beardsley-peacockskirt.PNG",
+            "wikibase-shortdesc": "1893 illustration by Aubrey Beardsley",
+            "wikibase_item": "Q56063344"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:04:41Z",
+          "lastrevid": 1376718284,
+          "length": 9055,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Peacock_Skirt",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Peacock_Skirt&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Peacock_Skirt"
+        },
+        {
+          "pageid": 61476134,
+          "ns": 0,
+          "title": "Boulevard du Temple (photograph)",
+          "pageprops": {
+            "defaultsort": "Boulevard du Temple",
+            "displaytitle": "<i>Boulevard du Temple</i> (photograph)",
+            "page_image_free": "Boulevard_du_Temple_by_Daguerre.jpg",
+            "wikibase-shortdesc": "First photograph to show people",
+            "wikibase_item": "Q848570"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:06:53Z",
+          "lastrevid": 1382070203,
+          "length": 16156,
+          "fullurl": "https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Boulevard_du_Temple_(photograph)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph)"
+        },
+        {
+          "pageid": 73525311,
+          "ns": 0,
+          "title": "Henry Ford Hospital (painting)",
+          "pageprops": {
+            "displaytitle": "<i>Henry Ford Hospital</i> (painting)",
+            "page_image": "Frida_Kahlo_painting_Henry_Ford_Hospital_1932.jpeg",
+            "wikibase-shortdesc": "1932 artwork by Frida Kahlo",
+            "wikibase_item": "Q118190557"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:12:51Z",
+          "lastrevid": 1336060425,
+          "length": 14536,
+          "fullurl": "https://en.wikipedia.org/wiki/Henry_Ford_Hospital_(painting)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Henry_Ford_Hospital_(painting)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Henry_Ford_Hospital_(painting)"
+        },
+        {
+          "pageid": 78553146,
+          "ns": 0,
+          "title": "Jahangir Preferring a Sufi Shaikh to Kings",
+          "pageprops": {
+            "displaytitle": "<i>Jahangir Preferring a Sufi Shaikh to Kings</i>",
+            "page_image_free": "Bichitr_-_Jahangir_Preferring_a_Sufi_Shaikh_to_Kings,_from_the_St._Petersburg_album_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "Mughal miniature by Bichitr, c. 1615–1618",
+            "wikibase_item": "Q18683416"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:14:58Z",
+          "lastrevid": 1356975201,
+          "length": 10169,
+          "fullurl": "https://en.wikipedia.org/wiki/Jahangir_Preferring_a_Sufi_Shaikh_to_Kings",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Jahangir_Preferring_a_Sufi_Shaikh_to_Kings&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Jahangir_Preferring_a_Sufi_Shaikh_to_Kings"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "a2bfa582e7d79be14230beea8b65ce428dc272e7b3e8e43649cef3208ea703ef"
+}

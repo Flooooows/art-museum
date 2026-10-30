@@ -1,0 +1,439 @@
+{
+  "provider": "wikimedia",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Grande+Odalisque%7CComposition+VIII%7CThe+Treachery+of+Images%7CThe+Kiss+%28Rodin+sculpture%29%7CVenus+de+Milo%7CWinged+Victory+of+Samothrace%7CNighthawks+%28painting%29%7CThe+Birth+of+the+World%7CThe+Sleeping+Gypsy%7CThe+Third+of+May+1808%7CThe+Arnolfini+Portrait%7CA+Bar+at+the+Folies-Berg%C3%A8re%7COlympia+%28Manet%29%7CThe+Gleaners%7CThe+Hay+Wain%7CTravelers+among+Mountains+and+Streams%7CAlong+the+River+During+the+Qingming+Festival%7CA+Thousand+Li+of+Rivers+and+Mountains%7CWind+God+and+Thunder+God%7CShakuntala+%28Raja+Ravi+Varma%29",
+  "retrievedAt": "2026-10-30T00:39:13.956Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "The Arnolfini Portrait",
+          "to": "Arnolfini Portrait"
+        },
+        {
+          "from": "A Thousand Li of Rivers and Mountains",
+          "to": "Wang Ximeng",
+          "tofragment": "A Thousand Li of Rivers and Mountains"
+        },
+        {
+          "from": "Nighthawks (painting)",
+          "to": "Nighthawks (Hopper)"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Wind God and Thunder God",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Wind_God_and_Thunder_God",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Wind_God_and_Thunder_God&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Wind_God_and_Thunder_God"
+        },
+        {
+          "ns": 0,
+          "title": "Travelers among Mountains and Streams",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Travelers_among_Mountains_and_Streams",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Travelers_among_Mountains_and_Streams&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Travelers_among_Mountains_and_Streams"
+        },
+        {
+          "ns": 0,
+          "title": "Composition VIII",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Composition_VIII",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Composition_VIII&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Composition_VIII"
+        },
+        {
+          "pageid": 53435,
+          "ns": 0,
+          "title": "Venus de Milo",
+          "pageprops": {
+            "defaultsort": "Venus De Milo",
+            "displaytitle": "<i>Venus de Milo</i>",
+            "page_image_free": "Front_views_of_the_Venus_de_Milo.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase-shortdesc": "Ancient Greek marble statue of Aphrodite",
+            "wikibase_item": "Q151952"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T22:31:02Z",
+          "lastrevid": 1377691070,
+          "length": 32435,
+          "fullurl": "https://en.wikipedia.org/wiki/Venus_de_Milo",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Venus_de_Milo&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Venus_de_Milo"
+        },
+        {
+          "pageid": 342998,
+          "ns": 0,
+          "title": "Winged Victory of Samothrace",
+          "pageprops": {
+            "defaultsort": "Winged Victory Of Samothrace",
+            "displaytitle": "<i>Winged Victory of Samothrace</i>",
+            "page_image_free": "Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg",
+            "wikibase-shortdesc": "Ancient Greek sculpture",
+            "wikibase_item": "Q216402"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:15:53Z",
+          "lastrevid": 1381651077,
+          "length": 43465,
+          "fullurl": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Winged_Victory_of_Samothrace&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace"
+        },
+        {
+          "pageid": 985531,
+          "ns": 0,
+          "title": "Olympia (Manet)",
+          "pageprops": {
+            "defaultsort": "Olympia",
+            "displaytitle": "<i>Olympia</i> (Manet)",
+            "page_image_free": "Edouard_Manet_-_Olympia_-_Google_Art_ProjectFXD.jpg",
+            "wikibase-shortdesc": "1863 painting by Édouard Manet",
+            "wikibase_item": "Q737062"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:17:53Z",
+          "lastrevid": 1373048877,
+          "length": 33346,
+          "fullurl": "https://en.wikipedia.org/wiki/Olympia_(Manet)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Olympia_(Manet)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Olympia_(Manet)"
+        },
+        {
+          "pageid": 1019924,
+          "ns": 0,
+          "title": "The Hay Wain",
+          "pageprops": {
+            "defaultsort": "Hay Wain, The",
+            "displaytitle": "<i>The Hay Wain</i>",
+            "page_image_free": "John_Constable_-_The_Hay_Wain_(1821).jpg",
+            "wikibase-shortdesc": "Painting by John Constable",
+            "wikibase_item": "Q2366825"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:17:58Z",
+          "lastrevid": 1362506418,
+          "length": 12901,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Hay_Wain",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Hay_Wain&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Hay_Wain"
+        },
+        {
+          "pageid": 1036801,
+          "ns": 0,
+          "title": "Arnolfini Portrait",
+          "pageprops": {
+            "defaultsort": "Arnolfini Portrait, The",
+            "displaytitle": "<i>Arnolfini Portrait</i>",
+            "page_image_free": "The_Arnolfini_portrait_(1434).jpg",
+            "wikibase-shortdesc": "1434 painting by Jan van Eyck",
+            "wikibase_item": "Q220859"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:18:00Z",
+          "lastrevid": 1375998060,
+          "length": 41505,
+          "fullurl": "https://en.wikipedia.org/wiki/Arnolfini_Portrait",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Arnolfini_Portrait&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Arnolfini_Portrait"
+        },
+        {
+          "pageid": 1070118,
+          "ns": 0,
+          "title": "The Treachery of Images",
+          "pageprops": {
+            "defaultsort": "Treachery of Images, The",
+            "displaytitle": "<i>The Treachery of Images</i>",
+            "page_image": "MagrittePipe.jpg",
+            "wikibase-shortdesc": "1929 painting by René Magritte",
+            "wikibase_item": "Q1061035"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T09:00:43Z",
+          "lastrevid": 1374934998,
+          "length": 9247,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Treachery_of_Images",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Treachery_of_Images&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Treachery_of_Images"
+        },
+        {
+          "pageid": 1858258,
+          "ns": 0,
+          "title": "Nighthawks (Hopper)",
+          "pageprops": {
+            "defaultsort": "Nighthawks",
+            "displaytitle": "<i>Nighthawks</i> (Hopper)",
+            "page_image_free": "Nighthawks_by_Edward_Hopper_1942.jpg",
+            "wikibase-shortdesc": "1942 painting by Edward Hopper",
+            "wikibase_item": "Q83872"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T19:03:42Z",
+          "lastrevid": 1376712287,
+          "length": 29800,
+          "fullurl": "https://en.wikipedia.org/wiki/Nighthawks_(Hopper)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Nighthawks_(Hopper)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Nighthawks_(Hopper)"
+        },
+        {
+          "pageid": 2144815,
+          "ns": 0,
+          "title": "The Kiss (Rodin sculpture)",
+          "pageprops": {
+            "defaultsort": "Kiss, The",
+            "displaytitle": "<i>The Kiss</i> (Rodin sculpture)",
+            "page_image_free": "Rodin_-_Le_Baiser_06.jpg",
+            "wikibase-shortdesc": "Sculpture by Auguste Rodin",
+            "wikibase_item": "Q2418237"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:20:26Z",
+          "lastrevid": 1381221470,
+          "length": 15503,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Kiss_(Rodin_sculpture)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Kiss_(Rodin_sculpture)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Kiss_(Rodin_sculpture)"
+        },
+        {
+          "pageid": 2301932,
+          "ns": 0,
+          "title": "A Bar at the Folies-Bergère",
+          "pageprops": {
+            "defaultsort": "Bar at the Folies-Bergere",
+            "displaytitle": "<i>A Bar at the Folies-Bergère</i>",
+            "page_image_free": "\"Un_Bar_aux_Folies-Bergère\"_by_Édouard_Manet_(1882).jpg",
+            "wikibase-shortdesc": "Painting by Édouard Manet, considered his last major work - 1882",
+            "wikibase_item": "Q1245354"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:20:46Z",
+          "lastrevid": 1362703677,
+          "length": 12753,
+          "fullurl": "https://en.wikipedia.org/wiki/A_Bar_at_the_Folies-Berg%C3%A8re",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=A_Bar_at_the_Folies-Berg%C3%A8re&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/A_Bar_at_the_Folies-Berg%C3%A8re"
+        },
+        {
+          "pageid": 3949645,
+          "ns": 0,
+          "title": "The Third of May 1808",
+          "pageprops": {
+            "defaultsort": "Third of May 1808, The",
+            "displaytitle": "<i>The Third of May 1808</i>",
+            "page_image_free": "El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase-shortdesc": "1814 painting by Francisco de Goya",
+            "wikibase_item": "Q1091086"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:23:27Z",
+          "lastrevid": 1364376467,
+          "length": 41734,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Third_of_May_1808",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Third_of_May_1808&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Third_of_May_1808"
+        },
+        {
+          "pageid": 4339415,
+          "ns": 0,
+          "title": "The Sleeping Gypsy",
+          "pageprops": {
+            "defaultsort": "Sleeping Gypsy, The",
+            "displaytitle": "<i>The Sleeping Gypsy</i>",
+            "page_image_free": "La_Bohémienne_endormie.jpg",
+            "wikibase-shortdesc": "1897 painting by Henri Rousseau",
+            "wikibase_item": "Q1219263"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:24:00Z",
+          "lastrevid": 1368977746,
+          "length": 5711,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Sleeping_Gypsy",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Sleeping_Gypsy&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Sleeping_Gypsy"
+        },
+        {
+          "pageid": 5556566,
+          "ns": 0,
+          "title": "Along the River During the Qingming Festival",
+          "pageprops": {
+            "defaultsort": "Along The River During The Qingming Festival",
+            "displaytitle": "<i>Along the River During the Qingming Festival</i>",
+            "page_image_free": "Bianjing_city_gate.JPG",
+            "wikibase-shortdesc": "Painting attributed to Zhang Zeduan",
+            "wikibase_item": "Q714802"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:25:31Z",
+          "lastrevid": 1377384338,
+          "length": 34593,
+          "fullurl": "https://en.wikipedia.org/wiki/Along_the_River_During_the_Qingming_Festival",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Along_the_River_During_the_Qingming_Festival&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Along_the_River_During_the_Qingming_Festival"
+        },
+        {
+          "pageid": 6030280,
+          "ns": 0,
+          "title": "The Gleaners",
+          "pageprops": {
+            "defaultsort": "Gleaners, The",
+            "displaytitle": "<i>The Gleaners</i>",
+            "page_image_free": "Jean-François_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
+            "wikibase-shortdesc": "Painting by Jean-François Millet",
+            "wikibase_item": "Q1368055"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:26:18Z",
+          "lastrevid": 1374047472,
+          "length": 11050,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Gleaners",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Gleaners&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Gleaners"
+        },
+        {
+          "pageid": 15135114,
+          "ns": 0,
+          "title": "Grande Odalisque",
+          "pageprops": {
+            "displaytitle": "<i>Grande Odalisque</i>",
+            "page_image_free": "La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Musée_du_Louvre_Peintures_RF_1158.jpg",
+            "toc": "",
+            "wikibase-shortdesc": "Painting by Jean-Auguste-Dominique Ingres",
+            "wikibase_item": "Q1978815"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:34:53Z",
+          "lastrevid": 1373713564,
+          "length": 11219,
+          "fullurl": "https://en.wikipedia.org/wiki/Grande_Odalisque",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Grande_Odalisque&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Grande_Odalisque"
+        },
+        {
+          "pageid": 16771974,
+          "ns": 0,
+          "title": "Shakuntala (Raja Ravi Varma)",
+          "pageprops": {
+            "displaytitle": "<i>Shakuntala</i> (Raja Ravi Varma)",
+            "page_image_free": "Raja_Ravi_Varma_-_Mahabharata_-_Shakuntala.jpg",
+            "wikibase-shortdesc": "1898 painting by Raja Ravi Varma",
+            "wikibase_item": "Q7487097"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:36:09Z",
+          "lastrevid": 1361356285,
+          "length": 1985,
+          "fullurl": "https://en.wikipedia.org/wiki/Shakuntala_(Raja_Ravi_Varma)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Shakuntala_(Raja_Ravi_Varma)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Shakuntala_(Raja_Ravi_Varma)"
+        },
+        {
+          "pageid": 23312754,
+          "ns": 0,
+          "title": "Wang Ximeng",
+          "pageprops": {
+            "defaultsort": "Wang, Ximeng",
+            "page_image_free": "A_Thousand_Li_of_Rivers_and_Mountains_part.jpg",
+            "wikibase-shortdesc": "Song dynasty painter (1096–1119)",
+            "wikibase_item": "Q626360"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:41:44Z",
+          "lastrevid": 1360945397,
+          "length": 10033,
+          "fullurl": "https://en.wikipedia.org/wiki/Wang_Ximeng",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Wang_Ximeng&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Wang_Ximeng"
+        },
+        {
+          "pageid": 60274040,
+          "ns": 0,
+          "title": "The Birth of the World",
+          "pageprops": {
+            "defaultsort": "Birth Of The World, The",
+            "displaytitle": "<i>The Birth of the World</i>",
+            "wikibase-shortdesc": "1925 painting by Joan Miró",
+            "wikibase_item": "Q3211044"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:06:07Z",
+          "lastrevid": 1361422037,
+          "length": 2878,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Birth_of_the_World",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Birth_of_the_World&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Birth_of_the_World"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "d9f5936efd243204324943c846eec2958a99809a93931da6ceacbebe941e0e82"
+}

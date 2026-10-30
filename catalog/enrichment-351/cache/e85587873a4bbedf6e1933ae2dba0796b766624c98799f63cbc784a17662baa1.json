@@ -1,0 +1,120 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/757699",
+  "retrievedAt": "2026-10-30T01:46:24.544Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 757699,
+    "isHighlight": false,
+    "accessionNumber": "62.650.370",
+    "accessionYear": "1962",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP877305.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP877305.jpg",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 161808,
+        "role": "Artist",
+        "name": "Honoré Daumier",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500117998",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q187506",
+        "gender": ""
+      },
+      {
+        "constituentID": 75784,
+        "role": "Printer",
+        "name": "Destouches",
+        "constituentULAN_URL": "",
+        "constituentWikidata_URL": "",
+        "gender": ""
+      },
+      {
+        "constituentID": 99046,
+        "role": "Publisher",
+        "name": "Aaron Martinet",
+        "constituentULAN_URL": "(not assigned)",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q29909060",
+        "gender": ""
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Print",
+    "title": "Mr. Prudhomme: I shall never get into a compartment alone with a single traveler... principles of personal safety are contrary to that, from 'On the train,' published in Le Charivari, August 18, 1864",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "'On the train' (En chemin de fer)",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Honoré Daumier",
+    "artistDisplayBio": "French, Marseilles 1808–1879 Valmondois",
+    "artistSuffix": "",
+    "artistAlphaSort": "Daumier, Honoré",
+    "artistNationality": "French",
+    "artistBeginDate": "1808",
+    "artistEndDate": "1879",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q187506",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500117998",
+    "objectDate": "August 18, 1864",
+    "objectBeginDate": 1864,
+    "objectEndDate": 1864,
+    "medium": "Lithograph on newsprint; second state of two (Delteil)",
+    "dimensions": "Image: 9 5/8 in. × 9 in. (24.4 × 22.8 cm)\r\nSheet: 11 5/8 × 10 11/16 in. (29.6 × 27.1 cm)",
+    "measurements": [
+      {
+        "elementName": "Image",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 24.4,
+          "Width": 22.8
+        }
+      },
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 29.6,
+          "Width": 27.1
+        }
+      }
+    ],
+    "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1962",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Prints",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2026-08-27T04:59:41.6Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/757699",
+    "tags": [
+      {
+        "term": "Men",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+      },
+      {
+        "term": "Trains",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300212738",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q870"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "db0f6724f7dec1a416e2b7d17c1f3738f2eb2f50da75457c7d308e3d9eaa6752"
+}

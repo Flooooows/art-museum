@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Le_Serment_des_Horaces/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:33:04.315Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5621
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6262
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4584
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5663
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4050
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5310
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3536
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4387
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2953
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1683
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2155
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Serment_des_Horaces",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3723
+      }
+    ]
+  },
+  "payloadSha256": "c3c0241fd8d6ff873cc4602194d780ef50388e69888b837c550059a3ebb0b073"
+}

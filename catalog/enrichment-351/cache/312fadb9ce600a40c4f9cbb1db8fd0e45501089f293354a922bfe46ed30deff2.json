@@ -1,0 +1,96 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/283068",
+  "retrievedAt": "2026-10-30T01:47:27.409Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 283068,
+    "isHighlight": false,
+    "accessionNumber": "2005.100.498",
+    "accessionYear": "2005",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ph/original/DP148629.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP148629.jpg",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 54947,
+        "role": "Artist",
+        "name": "William Henry Fox Talbot",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500021449",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q299565",
+        "gender": ""
+      }
+    ],
+    "department": "Photographs",
+    "objectName": "Photograph",
+    "title": "The Open Door",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "William Henry Fox Talbot",
+    "artistDisplayBio": "British, Dorset 1800–1877 Lacock",
+    "artistSuffix": "",
+    "artistAlphaSort": "Talbot, William Henry Fox",
+    "artistNationality": "British",
+    "artistBeginDate": "1800",
+    "artistEndDate": "1877",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q299565",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500021449",
+    "objectDate": "before May 1844",
+    "objectBeginDate": 1843,
+    "objectEndDate": 1844,
+    "medium": "Salted paper print from paper negative",
+    "dimensions": "Image: 14.3 x 19.4 cm (5 5/8 x 7 5/8 in. )",
+    "measurements": [
+      {
+        "elementName": "Overall",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 14.3,
+          "Width": 19.4
+        }
+      }
+    ],
+    "creditLine": "Gilman Collection, Purchase, Joseph M. Cohen and Robert Rosenkranz Gifts, 2005",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Photographs",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2026-03-20T04:55:14.207Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/283068",
+    "tags": [
+      {
+        "term": "Architecture",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300263552",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q12271"
+      },
+      {
+        "term": "Doors",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300002803",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q36794"
+      }
+    ],
+    "objectWikidata_URL": "https://www.wikidata.org/wiki/Q104213310",
+    "isTimelineWork": true,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "518923add5c613fbda2ef3d86445badabe1e97b65f6568caf09dacbbe2766018"
+}

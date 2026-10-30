@@ -1,0 +1,109 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/340842",
+  "retrievedAt": "2026-10-30T01:46:50.579Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 340842,
+    "isHighlight": false,
+    "accessionNumber": "52.64",
+    "accessionYear": "1952",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP800796.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP800796.jpg",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 166275,
+        "role": "Artist",
+        "name": "Aubrey Vincent Beardsley",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500032068",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q272566",
+        "gender": ""
+      },
+      {
+        "constituentID": 93776,
+        "role": "Sitter",
+        "name": "Portrait of Madame Gabrielle Réjane",
+        "constituentULAN_URL": "",
+        "constituentWikidata_URL": "",
+        "gender": ""
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Drawing",
+    "title": "Madame Réjane",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Aubrey Vincent Beardsley",
+    "artistDisplayBio": "British, Brighton, Sussex 1872–1898 Menton",
+    "artistSuffix": "",
+    "artistAlphaSort": "Beardsley, Aubrey Vincent",
+    "artistNationality": "British",
+    "artistBeginDate": "1872",
+    "artistEndDate": "1898",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q272566",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500032068",
+    "objectDate": "1894",
+    "objectBeginDate": 1894,
+    "objectEndDate": 1894,
+    "medium": "Pen and carbon black ink, brush and carbon black wash",
+    "dimensions": "sheet: 14 x 9 1/16 in. (35.6 x 23 cm)",
+    "measurements": [
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 35.6,
+          "Width": 23
+        }
+      }
+    ],
+    "creditLine": "Rogers Fund, 1952",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Drawings",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-03-06T04:54:30Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/340842",
+    "tags": [
+      {
+        "term": "Interiors",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300391239",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q2998430"
+      },
+      {
+        "term": "Women",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+      },
+      {
+        "term": "Vases",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300132254",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q191851"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "3362f99e291b9457b9646b8fb8419e9b7f06affbcc478272e6a53f6c12e8e186"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/La_Danse_de_la_vie/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:29:16.080Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 136
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 170
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 146
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 145
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 106
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 127
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 126
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 143
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 127
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 110
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 119
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Danse_de_la_vie",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 145
+      }
+    ]
+  },
+  "payloadSha256": "62c0912c8def1fa3081621ec3ec98a30436e10cd179691fa6f0f4b7390bfaa80"
+}

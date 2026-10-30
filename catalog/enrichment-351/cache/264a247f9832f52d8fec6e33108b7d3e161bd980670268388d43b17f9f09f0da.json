@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Steerage+Stieglitz",
+  "retrievedAt": "2026-10-30T01:47:37.569Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 581,
+    "objectIDs": [
+      267836,
+      269281,
+      269333,
+      306332
+    ]
+  },
+  "payloadSha256": "9879c09c5e15a293a8fd0fa073c3e56a8727e2330520845b1c665cbf85599193"
+}

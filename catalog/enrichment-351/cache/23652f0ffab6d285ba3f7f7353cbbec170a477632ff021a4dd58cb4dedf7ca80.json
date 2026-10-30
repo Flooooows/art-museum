@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Terminal+Stieglitz",
+  "retrievedAt": "2026-10-30T01:47:31.941Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 810,
+    "objectIDs": [
+      767531,
+      269300,
+      270032,
+      269458
+    ]
+  },
+  "payloadSha256": "b164b2669213889682c2377445f546e6aae4f7852720bc9fd355b6f5aac09b05"
+}

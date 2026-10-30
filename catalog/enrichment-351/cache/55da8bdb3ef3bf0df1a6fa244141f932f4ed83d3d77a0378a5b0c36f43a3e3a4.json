@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Wanderer_Above_the_Sea_of_Fog/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:29:11.066Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 25
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 32
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 28
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 27
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 23
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 31
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 32
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 78
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 57
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3373
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Wanderer_Above_the_Sea_of_Fog",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 25147
+      }
+    ]
+  },
+  "payloadSha256": "f9a20ce902995d00a791330fae15ebc420644c12bca6e26a73aab7d9f6ac6a3b"
+}

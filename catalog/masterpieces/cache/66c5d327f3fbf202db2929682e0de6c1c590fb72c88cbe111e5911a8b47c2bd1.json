@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Vessel+Maya",
+  "retrievedAt": "2026-10-30T00:51:09.745Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 91.096825,
+        "id": 110246,
+        "title": "Chak Ak’ Paat Kuy (\"Red Turkey\") Playing the Ballgame",
+        "main_reference_number": "1965.407",
+        "date_display": "650-700",
+        "is_public_domain": true,
+        "artist_title": "Maya",
+        "image_id": "21fb136f-402e-1116-4e43-40ac73d3b2e8"
+      },
+      {
+        "_score": 90.102905,
+        "id": 75645,
+        "title": "Stela",
+        "main_reference_number": "1990.22",
+        "date_display": "c. 702",
+        "is_public_domain": true,
+        "artist_title": "Maya",
+        "image_id": "d03d88d6-78f1-beaf-5e5f-073dbfe2fa81"
+      },
+      {
+        "_score": 81.640175,
+        "id": 17203,
+        "title": "Figure of a Standing Warrior",
+        "main_reference_number": "1963.272",
+        "date_display": "650–800",
+        "is_public_domain": true,
+        "artist_title": "Maya",
+        "image_id": "21110de9-8212-a4a0-2774-63c3bc580844"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "382550e41b78c005e7286a914d62c7637f5b1fa879d36324ffafeb288679666a"
+}

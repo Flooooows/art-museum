@@ -1,0 +1,106 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/17053",
+  "retrievedAt": "2026-10-30T01:46:13.039Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 17053,
+    "isHighlight": false,
+    "accessionNumber": "2001.608.1",
+    "accessionYear": "2001",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DT5026.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5026.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/ad/original/2001.608.1.jpg"
+    ],
+    "constituents": [
+      {
+        "constituentID": 161996,
+        "role": "Artist",
+        "name": "Winslow Homer",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500019202",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q344838",
+        "gender": ""
+      }
+    ],
+    "department": "The American Wing",
+    "objectName": "Watercolor",
+    "title": "Boys in a Dory",
+    "culture": "American",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Winslow Homer",
+    "artistDisplayBio": "American, Boston, Massachusetts 1836–1910 Prouts Neck, Maine",
+    "artistSuffix": "",
+    "artistAlphaSort": "Homer, Winslow",
+    "artistNationality": "American",
+    "artistBeginDate": "1836",
+    "artistEndDate": "1910",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q344838",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500019202",
+    "objectDate": "1873",
+    "objectBeginDate": 1873,
+    "objectEndDate": 1873,
+    "medium": "Watercolor washes and gouache over graphite underdrawing on medium rough textured white wove paper",
+    "dimensions": "9 3/4 x 13 7/8 in. (24.8 x 35.2 cm)",
+    "measurements": [
+      {
+        "elementName": "Overall",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 24.765,
+          "Width": 35.2426
+        }
+      },
+      {
+        "elementName": "Mat",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 36.195072,
+          "Width": 48.8951
+        }
+      }
+    ],
+    "creditLine": "Bequest of Molly Flagg Knudtsen, 2001",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-10-03T04:51:20.327Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/17053",
+    "tags": [
+      {
+        "term": "Boys",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+      },
+      {
+        "term": "Boats",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+      }
+    ],
+    "objectWikidata_URL": "https://www.wikidata.org/wiki/Q20178178",
+    "isTimelineWork": true,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "903d252521fb94edc2123d358d020b4471179e13fcd53d9ed7829ed2cbe85cb1"
+}

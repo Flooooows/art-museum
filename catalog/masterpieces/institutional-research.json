@@ -1,0 +1,68 @@
+{
+  "status": "research_in_progress",
+  "note": "Sources officielles identifiées lors de recherches web. Une source institutionnelle sur l’objet ne vaut pas autorisation de reproduction ; aucune image n’a été téléchargée ni publiée.",
+  "records": [
+    {
+      "title": "The Starry Night",
+      "artist": "Vincent van Gogh",
+      "institution": "The Museum of Modern Art",
+      "institutionalId": "79802",
+      "inventoryNumber": "472.1941",
+      "wikidataId": "Q45585",
+      "url": "https://www.moma.org/collection/works/79802",
+      "supportingUrl": "https://www.moma.org/magazine/articles/1099",
+      "finding": "Notice exacte et commentaire institutionnel présentant explicitement une œuvre iconique et largement aimée. Ne pas confondre les crédits des photographies de salle et une reproduction plane libre."
+    },
+    {
+      "title": "A Sunday on La Grande Jatte — 1884",
+      "artist": "Georges Seurat",
+      "institution": "The Art Institute of Chicago",
+      "institutionalId": "27992",
+      "inventoryNumber": "1926.224",
+      "wikidataId": "Q1044742",
+      "url": "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884",
+      "finding": "Notice exacte, ressources pédagogiques et parcours Essentials ; statut de l’image à vérifier dans l’API institutionnelle avant import."
+    },
+    {
+      "title": "Travelers Among Mountains and Streams",
+      "artist": "Fan Kuan",
+      "institution": "National Palace Museum, Taipei",
+      "inventoryNumber": "故畫000826",
+      "wikidataId": null,
+      "url": "https://theme.npm.edu.tw/EnduringLegacyS203/en/page-2",
+      "supportingUrl": "https://www.npm.gov.tw/Articles.aspx?sno=04006295&l=2",
+      "finding": "Parchemin vers 1000, institution le qualifiant de l’un des trois paysages les plus célèbres des Song du Nord. La recherche Wikipédia exacte n’a pas résolu la page : ne pas inventer de QID."
+    },
+    {
+      "title": "Mangaaka Power Figure (Nkisi N’Kondi)",
+      "artist": "Yombe-Kongo artist and nganga (ritual specialist)",
+      "institution": "The Metropolitan Museum of Art",
+      "institutionalId": "320053",
+      "inventoryNumber": "2008.30",
+      "wikidataId": null,
+      "url": "https://www.metmuseum.org/art/collection/search/320053",
+      "supportingUrl": "https://www.metmuseum.org/met-publications/the-recently-acquired-kongo-magaaka-power-figure-the-metropolitan-museum-journal-v-43-2008",
+      "finding": "Objet précis distinct des autres minkisi et du groupe Mangaaka. Notice, médiation et publication documentées ; vérifier isPublicDomain et primaryImage dans l’API."
+    },
+    {
+      "title": "A’a from Rurutu",
+      "artist": "Artiste de Rurutu non identifié",
+      "institution": "The British Museum",
+      "institutionalId": "Oc,LMS.19",
+      "wikidataId": null,
+      "url": "https://www.britishmuseum.org/collection/object/E_Oc-LMS-19",
+      "finding": "Sculpture précise de Rurutu, pas la catégorie générale des sculptures océaniennes. Les conditions de reproduction doivent être contrôlées séparément ; une licence non commerciale ne suffit pas pour MUSE."
+    },
+    {
+      "title": "The Death of Cleopatra",
+      "artist": "Edmonia Lewis",
+      "institution": "Smithsonian American Art Museum",
+      "institutionalId": "33878",
+      "inventoryNumber": "1994.17",
+      "wikidataId": null,
+      "url": "https://americanart.si.edu/artwork/death-cleopatra-33878",
+      "supportingUrl": "https://www.si.edu/object/death-cleopatra:saam_1994.17",
+      "finding": "Sculpture en marbre de 1876. La notice indique explicitement que le média est dans le domaine public et peut être copié, modifié et distribué. La piste Wikidata obtenue par titre seul ne permet pas de confirmer cette sculpture : garder QID non résolu plutôt que l’associer à tort."
+    }
+  ]
+}

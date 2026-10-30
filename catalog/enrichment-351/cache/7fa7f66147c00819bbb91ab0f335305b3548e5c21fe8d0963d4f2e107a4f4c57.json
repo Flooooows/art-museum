@@ -1,0 +1,555 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3ABoulevard+du+Temple+by+Daguerre.jpg%7CFile%3ARue+des+Martyrs.JPG%7CFile%3AAlexis+Peyrotte+-+Acanthus+Leaf+Design+-+Google+Art+Project.jpg%7CFile%3ARaffaello+Sanzio.jpg%7CFile%3ABild-Ottavio+Leoni%2C+Caravaggio.jpg",
+  "retrievedAt": "2026-10-30T01:53:57.041Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 331612,
+          "ns": 6,
+          "title": "File:Bild-Ottavio Leoni, Caravaggio.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2530419,
+              "width": 1132,
+              "height": 1582,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2236,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2236
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bild-Ottavio_Leoni,_Caravaggio.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=331612",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2021-11-20 08:43:24",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Italian:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>Ritratto di bitto <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q116939727#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Portrait of Caravaggio</i></div></div><div style=\"display: none;\">title QS:P1476,it:\"Ritratto di bitto <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q116939727#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Ritratto di bitto <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q116939727#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Portrait of Caravaggio\"</div><div style=\"display: none;\">label QS:Lde,\"Porträt von Caravaggio\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Uploads by Mattes from external sources|CC-PD-Mark|Files with coordinates missing SDC location of creation|File uploads by User:Mattes (flat)|Artworks main subject 2D work|Artworks with main subject different depicts|Portrait of Caravaggio by Ottavio Leoni",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "43.777222",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "11.258606",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Ottavio_Leoni\" class=\"extiw\" title=\"w:en:Ottavio Leoni\"><span title=\"Roman painter (1578-1630)\">Ottavio Leoni</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nA portrait of the Italian painter <a href=\"https://en.wikipedia.org/wiki/Caravaggio\" class=\"extiw\" title=\"en:Caravaggio\">Michelangelo Merisi da Caravaggio</a></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1621",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.comune.milano.it/dseserver/webcity/comunicati.nsf/weball/41DEB7B24EFDFA36C12570CE0036C5BC\">milano.it</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 5005681,
+          "ns": 6,
+          "title": "File:Boulevard du Temple by Daguerre.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3402919,
+              "width": 3441,
+              "height": 2472,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Boulevard_du_Temple_by_Daguerre.jpg/1920px-Boulevard_du_Temple_by_Daguerre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1149,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Boulevard_du_Temple_by_Daguerre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Boulevard_du_Temple_by_Daguerre.jpg/1920px-Boulevard_du_Temple_by_Daguerre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1149,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Boulevard_du_Temple_by_Daguerre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Boulevard_du_Temple_by_Daguerre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5005681",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2022-07-15 09:38:02",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Boulevard du Temple</i></div></div><div style=\"display: none;\">label QS:Lfr,\"Boulevard du Temple\"</div><div style=\"display: none;\">label QS:Len,\"Boulevard du Temple\"</div><div style=\"display: none;\">label QS:Lar,\"بولڤار دو تومپل\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Boulevard du Temple by Louis Daguerre|Images with annotations|PD-old-100-expired|Featured pictures on Wikipedia, English|Commons featured desktop backgrounds|Scans by Michael Maggs|Photographs with Wikidata item|CC-PD-Mark|Files with coordinates missing SDC location of creation (48° N, 2° E)|Featured photographs in the public domain|Artworks digital representation of unknown type of work|Artworks digital representation of 2D work|Artworks with digital representation of different depicts|Featured pictures on Wikipedia, Arabic|Assessment tagged pages marked as POTY candidates|Photographs with Wikidata item missing author|Featured pictures of history of Paris",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|potd|poty",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.868639",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.363250",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Louis_Daguerre\" class=\"extiw\" title=\"w:en:Louis Daguerre\"><span title=\"French scientist, artist and photographer (1787–1851)\">Louis Daguerre</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Boulevard_du_Temple\" class=\"extiw\" title=\"en:Boulevard du Temple\">Boulevard du Temple</a>, <a href=\"https://en.wikipedia.org/wiki/Paris\" class=\"extiw\" title=\"en:Paris\">Paris</a>, 3rd arrondissement, <a href=\"https://en.wikipedia.org/wiki/Daguerreotype\" class=\"extiw\" title=\"en:Daguerreotype\">Daguerreotype</a>. Made in 1838 by inventor <a href=\"https://en.wikipedia.org/wiki/Louis_Daguerre\" class=\"extiw\" title=\"en:Louis Daguerre\">Louis Daguerre</a>, this is believed to be the earliest photograph showing a living person. It is a view of a busy street, but because the exposure lasted for 4 to 5 minutes (see <a rel=\"nofollow\" class=\"external text\" href=\"https://www.reclamebeeld.nl/shutter-speed-time-of-the-first-image-human-daguerre-photo-boulevard-du-temple-paris/\">shutter speed Daguerre photo explained</a>) the moving traffic left no trace. Only the two men near the bottom left corner, one apparently having his boots polished by the other, stayed in one place long enough to be visible. As with most daguerreotypes, the image is a <a href=\"https://en.wikipedia.org/wiki/mirror_image\" class=\"extiw\" title=\"en:mirror image\">mirror image</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 24 April 1838 and 4 May 1838 (or possibly 1837)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Scanned from The Photography Book, Phaidon Press, London, 1997.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 6982208,
+          "ns": 6,
+          "title": "File:Rue des Martyrs.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5562573,
+              "width": 2736,
+              "height": 3648,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Rue_des_Martyrs.JPG/1920px-Rue_des_Martyrs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2133,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Rue_des_Martyrs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Rue_des_Martyrs.JPG/1920px-Rue_des_Martyrs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2133,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Rue_des_Martyrs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Rue_des_Martyrs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rue_des_Martyrs.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6982208",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2009-06-10 18:08:20",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Rue des Martyrs",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Rue des Martyrs (Paris)|GFDL|Taken with Nikon Coolpix P5000|Le Divan du Monde|License migration redundant|Self-published work|Files with coordinates missing SDC location of creation (48° N, 2° E)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.882314",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.339681",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Rue des Martyrs, Paris XVIII<sup>e</sup>, France",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2009-06-09",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ale_x38\" title=\"User:Ale x38\">Alex</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 21907164,
+          "ns": 6,
+          "title": "File:Alexis Peyrotte - Acanthus Leaf Design - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2022120,
+              "width": 2110,
+              "height": 3201,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Alexis_Peyrotte_-_Acanthus_Leaf_Design_-_Google_Art_Project.jpg/1920px-Alexis_Peyrotte_-_Acanthus_Leaf_Design_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2427,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Alexis_Peyrotte_-_Acanthus_Leaf_Design_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Alexis_Peyrotte_-_Acanthus_Leaf_Design_-_Google_Art_Project.jpg/1920px-Alexis_Peyrotte_-_Acanthus_Leaf_Design_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2427,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Alexis_Peyrotte_-_Acanthus_Leaf_Design_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Alexis_Peyrotte_-_Acanthus_Leaf_Design_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alexis_Peyrotte_-_Acanthus_Leaf_Design_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21907164",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-10-04 19:30:42",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Acanthus Leaf Design</i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Acanthus Leaf Design\"</div><div style=\"display: none;\">label QS:Len,\"Acanthus Leaf Design\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Acanthus ornaments|Alexis Peyrotte|Rocaille|Artworks without Wikidata item|Google Art Project works in Cooper-Hewitt, National Design Museum|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with known accession number|1740s etchings|CC-PD-Mark|Files from Google Arts & Culture|Google Art Project works in Cooper-Hewitt, Smithsonian Design Museum|Etchings in the Cooper–Hewitt, Smithsonian Design Museum|Google Art Project works by Alexis Peyrotte",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<div class=\"fn value\">\nAlexis Peyrotte (1699 - 1769)<br> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.googleartproject.com/artist/alexis-peyrotte/12678796/\">Details on Google Art Project</a></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1740<div style=\"display: none;\">date QS:P571,+1740-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/ngGg73KpS5vt-g\">ngGg73KpS5vt-g at Google Cultural Institute</a> maximum zoom level",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 35440864,
+          "ns": 6,
+          "title": "File:Raffaello Sanzio.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2454720,
+              "width": 3898,
+              "height": 5315,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/1920px-Raffaello_Sanzio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2182,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/3840px-Raffaello_Sanzio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/1920px-Raffaello_Sanzio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2182,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/3840px-Raffaello_Sanzio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Raffaello_Sanzio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35440864",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-07-06 12:38:03",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">Self-portrait</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-portrait by Raphael (1504-1506, Uffizi)|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|16th-century oil portraits of men at bust length|16th-century oil on panel paintings in Italy|1500s portrait paintings from Italy|16th-century three-quarter view portrait paintings of men, facing right and looking at viewer|1506 portrait paintings of men|Artworks digital representation of 2D work|Artworks with digital representation of different depicts|Portrait paintings of men wearing black berets",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Raphael\" class=\"extiw\" title=\"w:en:Raphael\"><span title=\"Italian painter and architect (1483–1520)\">Raphael</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nSelf-portrait of Raphael, aged approximately 23</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1504 and 1506<div style=\"display: none;\">date QS:P,+1504-00-00T00:00:00Z/8,P1319,+1504-00-00T00:00:00Z/9,P1326,+1506-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q555821#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://nevsepic.com.ua/art-i-risovanaya-grafika/2409-raffaello-sanzio-rafael-santi-37-rabot.html\">http://nevsepic.com.ua/art-i-risovanaya-grafika/2409-raffaello-sanzio-rafael-santi-37-rabot.html</a> <a rel=\"nofollow\" class=\"external text\" href=\"http://nevsepic.com.ua/uploads/posts/2011-09/1317049805_59_www.nevsepic.com.ua.jpg\">image</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "784eb181fef5e2d0a7caa9e446c9f576bf67ea53b70e7e11504874a37b94f5ba"
+}

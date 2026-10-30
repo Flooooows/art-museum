@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Rokeby_Venus/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:28:10.961Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5589
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5122
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4995
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5377
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4832
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5154
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5494
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6157
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5014
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5600
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5244
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Rokeby_Venus",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5815
+      }
+    ]
+  },
+  "payloadSha256": "67b0b8691b679a7882885a7b0fb445b263abcd98950714834528f22e6755c801"
+}

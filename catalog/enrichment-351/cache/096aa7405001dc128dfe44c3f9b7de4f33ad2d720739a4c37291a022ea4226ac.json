@@ -1,0 +1,503 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Masque+de+Pakal%7CPierre+du+Soleil%7CT%C3%AAte+colossale+olm%C3%A8que+%28identifier+exemplaire%29%7CMasque+fun%C3%A9raire+du+Seigneur+de+Sip%C3%A1n%7CMachu+Picchu+%28ensemble+architectural%29%7CLe+Penseur%7CLe+Baiser+%28Rodin%29%7CLes+Bourgeois+de+Calais%7CLa+Porte+de+l%27Enfer%7CLa+Valse+%28Claudel%29%7CL%27%C3%82ge+m%C3%BBr%7CLa+Petite+Ch%C3%A2telaine%7CAthl%C3%A8te+luttant+avec+un+python%7CPoint+de+vue+du+Gras%7CBoulevard+du+Temple%7CThe+Open+Door+%28photographie%29%7CL%27%C3%89chelle%7CThe+Whisper+of+the+Muse%7CPortrait+de+Charles+Darwin%7CSallie+Gardner+at+a+Gallop%7CAnimal+Locomotion+%28s%C3%A9rie%29%7CChronophotographie+d%27un+homme+qui+marche%7CThe+Steerage%7CWinter%2C+Fifth+Avenue%7CThe+Terminal%7CCoin+de+la+rue+Valette+et+Panth%C3%A9on%7CEscalier%2C+48+rue+de+Lille%7CPower+House+Mechanic%7CCotton+Mill+Girl%7CGismonda+%28affiche%29",
+  "retrievedAt": "2026-10-30T01:43:31.740Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "The Terminal",
+          "to": "Le Terminal"
+        },
+        {
+          "from": "La Valse (Claudel)",
+          "to": "La Valse (Camille Claudel)"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Gismonda (affiche)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Gismonda_(affiche)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Gismonda_(affiche)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Gismonda_(affiche)"
+        },
+        {
+          "ns": 0,
+          "title": "Cotton Mill Girl",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Cotton_Mill_Girl",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Cotton_Mill_Girl&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Cotton_Mill_Girl"
+        },
+        {
+          "ns": 0,
+          "title": "Power House Mechanic",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Power_House_Mechanic",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Power_House_Mechanic&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Power_House_Mechanic"
+        },
+        {
+          "ns": 0,
+          "title": "Escalier, 48 rue de Lille",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Escalier,_48_rue_de_Lille",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Escalier,_48_rue_de_Lille&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Escalier,_48_rue_de_Lille"
+        },
+        {
+          "ns": 0,
+          "title": "Coin de la rue Valette et Panthéon",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Coin_de_la_rue_Valette_et_Panth%C3%A9on",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Coin_de_la_rue_Valette_et_Panth%C3%A9on&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Coin_de_la_rue_Valette_et_Panth%C3%A9on"
+        },
+        {
+          "ns": 0,
+          "title": "Winter, Fifth Avenue",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Winter,_Fifth_Avenue",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Winter,_Fifth_Avenue&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Winter,_Fifth_Avenue"
+        },
+        {
+          "ns": 0,
+          "title": "The Steerage",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/The_Steerage",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=The_Steerage&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/The_Steerage"
+        },
+        {
+          "ns": 0,
+          "title": "Chronophotographie d'un homme qui marche",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Chronophotographie_d%27un_homme_qui_marche",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Chronophotographie_d%27un_homme_qui_marche&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Chronophotographie_d%27un_homme_qui_marche"
+        },
+        {
+          "ns": 0,
+          "title": "Animal Locomotion (série)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Animal_Locomotion_(s%C3%A9rie)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Animal_Locomotion_(s%C3%A9rie)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Animal_Locomotion_(s%C3%A9rie)"
+        },
+        {
+          "ns": 0,
+          "title": "Portrait de Charles Darwin",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Portrait_de_Charles_Darwin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Portrait_de_Charles_Darwin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Portrait_de_Charles_Darwin"
+        },
+        {
+          "ns": 0,
+          "title": "The Whisper of the Muse",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/The_Whisper_of_the_Muse",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=The_Whisper_of_the_Muse&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/The_Whisper_of_the_Muse"
+        },
+        {
+          "ns": 0,
+          "title": "The Open Door (photographie)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/The_Open_Door_(photographie)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=The_Open_Door_(photographie)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/The_Open_Door_(photographie)"
+        },
+        {
+          "ns": 0,
+          "title": "Athlète luttant avec un python",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Athl%C3%A8te_luttant_avec_un_python",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Athl%C3%A8te_luttant_avec_un_python&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Athl%C3%A8te_luttant_avec_un_python"
+        },
+        {
+          "ns": 0,
+          "title": "Machu Picchu (ensemble architectural)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Machu_Picchu_(ensemble_architectural)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Machu_Picchu_(ensemble_architectural)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Machu_Picchu_(ensemble_architectural)"
+        },
+        {
+          "ns": 0,
+          "title": "Masque funéraire du Seigneur de Sipán",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Masque_fun%C3%A9raire_du_Seigneur_de_Sip%C3%A1n",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Masque_fun%C3%A9raire_du_Seigneur_de_Sip%C3%A1n&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Masque_fun%C3%A9raire_du_Seigneur_de_Sip%C3%A1n"
+        },
+        {
+          "ns": 0,
+          "title": "Tête colossale olmèque (identifier exemplaire)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/T%C3%AAte_colossale_olm%C3%A8que_(identifier_exemplaire)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=T%C3%AAte_colossale_olm%C3%A8que_(identifier_exemplaire)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/T%C3%AAte_colossale_olm%C3%A8que_(identifier_exemplaire)"
+        },
+        {
+          "pageid": 124746,
+          "ns": 0,
+          "title": "Le Baiser (Rodin)",
+          "pageprops": {
+            "defaultsort": "Baiser, Le",
+            "displaytitle": "<i>Le Baiser</i> (Rodin)",
+            "page_image_free": "Rodin_-_Le_Baiser_06.jpg",
+            "wikibase_item": "Q2418237"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:04Z",
+          "lastrevid": 240385780,
+          "length": 9435,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Baiser_(Rodin)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Baiser_(Rodin)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Baiser_(Rodin)"
+        },
+        {
+          "pageid": 290296,
+          "ns": 0,
+          "title": "Le Terminal",
+          "pageprops": {
+            "defaultsort": "Terminal, Le",
+            "displaytitle": "<i>Le Terminal</i>",
+            "page_image_free": "MKNasseri.jpg",
+            "wikibase_item": "Q318766"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:30Z",
+          "lastrevid": 238373194,
+          "length": 18480,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Terminal",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Terminal&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Terminal"
+        },
+        {
+          "pageid": 326656,
+          "ns": 0,
+          "title": "L'Échelle",
+          "pageprops": {
+            "defaultsort": "Echelle",
+            "page_image_free": "L'Échelle_(Ardennes)_city_limit_sign.JPG",
+            "wikibase_item": "Q1146744"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:37Z",
+          "lastrevid": 239930968,
+          "length": 26617,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27%C3%89chelle",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27%C3%89chelle&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27%C3%89chelle"
+        },
+        {
+          "pageid": 722091,
+          "ns": 0,
+          "title": "Le Penseur",
+          "pageprops": {
+            "defaultsort": "Penseur",
+            "displaytitle": "<i>Le Penseur</i>",
+            "page_image_free": "Le_Penseur_in_the_Jardin_du_Musée_Rodin,_Paris_March_2014.jpg",
+            "wikibase_item": "Q18003128"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:33Z",
+          "lastrevid": 237350665,
+          "length": 12419,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Penseur",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Penseur&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Penseur"
+        },
+        {
+          "pageid": 879965,
+          "ns": 0,
+          "title": "Les Bourgeois de Calais",
+          "pageprops": {
+            "defaultsort": "Bourgeois de Calais, Les",
+            "displaytitle": "<i>Les Bourgeois de Calais</i>",
+            "page_image_free": "The_Burghers_of_Calais_MET_DP221863.jpg",
+            "wikibase_item": "Q978987"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:55Z",
+          "lastrevid": 240133722,
+          "length": 18723,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Bourgeois_de_Calais",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Bourgeois_de_Calais&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Bourgeois_de_Calais"
+        },
+        {
+          "pageid": 938870,
+          "ns": 0,
+          "title": "Boulevard du Temple",
+          "pageprops": {
+            "page_image_free": "Paris_boulevard_du_temple.jpg",
+            "wikibase_item": "Q1851236"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:05Z",
+          "lastrevid": 240236059,
+          "length": 17536,
+          "fullurl": "https://fr.wikipedia.org/wiki/Boulevard_du_Temple",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Boulevard_du_Temple&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Boulevard_du_Temple"
+        },
+        {
+          "pageid": 1102692,
+          "ns": 0,
+          "title": "La Porte de l'Enfer",
+          "pageprops": {
+            "defaultsort": "Porte de l'enfer",
+            "displaytitle": "<i>La Porte de l'Enfer</i>",
+            "page_image_free": "La_puerta_del_Infierno_.jpg",
+            "wikibase_item": "Q2003287"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:30Z",
+          "lastrevid": 238561572,
+          "length": 9616,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Porte_de_l%27Enfer",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Porte_de_l%27Enfer&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Porte_de_l%27Enfer"
+        },
+        {
+          "pageid": 2862382,
+          "ns": 0,
+          "title": "L'Âge mûr",
+          "pageprops": {
+            "defaultsort": "Age mur",
+            "displaytitle": "<i>L'Âge mûr</i>",
+            "page_image_free": "L'Âge_Mûr.jpg",
+            "wikibase_item": "Q3205060"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:41Z",
+          "lastrevid": 235288559,
+          "length": 10525,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27%C3%82ge_m%C3%BBr",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27%C3%82ge_m%C3%BBr&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27%C3%82ge_m%C3%BBr"
+        },
+        {
+          "pageid": 3078443,
+          "ns": 0,
+          "title": "Pierre du Soleil",
+          "pageprops": {
+            "page_image_free": "Piedra_del_Sol_en_MNA.jpg",
+            "wikibase_item": "Q786806"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:01Z",
+          "lastrevid": 233989007,
+          "length": 42475,
+          "fullurl": "https://fr.wikipedia.org/wiki/Pierre_du_Soleil",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Pierre_du_Soleil&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Pierre_du_Soleil"
+        },
+        {
+          "pageid": 4107502,
+          "ns": 0,
+          "title": "Point de vue du Gras",
+          "pageprops": {
+            "displaytitle": "<i>Point de vue du Gras</i>",
+            "page_image_free": "View_from_the_Window_at_Le_Gras,_Joseph_Nicéphore_Niépce.jpg",
+            "wikibase_item": "Q616159"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:34Z",
+          "lastrevid": 239212757,
+          "length": 21088,
+          "fullurl": "https://fr.wikipedia.org/wiki/Point_de_vue_du_Gras",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Point_de_vue_du_Gras&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Point_de_vue_du_Gras"
+        },
+        {
+          "pageid": 8781857,
+          "ns": 0,
+          "title": "La Valse (Camille Claudel)",
+          "pageprops": {
+            "defaultsort": "Valse",
+            "displaytitle": "<i>La Valse</i> (Camille Claudel)",
+            "page_image_free": "La_Valse_de_Camille_Claudel_(Musée_Rodin,_Paris)_(51246445543).jpg",
+            "wikibase_item": "Q19945289"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:00:07Z",
+          "lastrevid": 235297053,
+          "length": 7417,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Valse_(Camille_Claudel)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Valse_(Camille_Claudel)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Valse_(Camille_Claudel)"
+        },
+        {
+          "pageid": 10271393,
+          "ns": 0,
+          "title": "Sallie Gardner at a Gallop",
+          "pageprops": {
+            "displaytitle": "<i>Sallie Gardner at a Gallop</i>",
+            "page_image_free": "The_Horse_in_Motion.jpg",
+            "wikibase_item": "Q3924909"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:01:41Z",
+          "lastrevid": 236729210,
+          "length": 2409,
+          "fullurl": "https://fr.wikipedia.org/wiki/Sallie_Gardner_at_a_Gallop",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Sallie_Gardner_at_a_Gallop&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Sallie_Gardner_at_a_Gallop"
+        },
+        {
+          "pageid": 10822219,
+          "ns": 0,
+          "title": "La Petite Châtelaine",
+          "pageprops": {
+            "defaultsort": "Petite Châtelaine, La",
+            "displaytitle": "<i>La Petite Châtelaine</i>",
+            "page_image_free": "Bessie_Love_identifies_a_ghost_in_her_castle_in_Wee_Lady_Betty.jpg",
+            "wikibase_item": "Q18709156"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:02:23Z",
+          "lastrevid": 227816822,
+          "length": 3497,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Petite_Ch%C3%A2telaine",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Petite_Ch%C3%A2telaine&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Petite_Ch%C3%A2telaine"
+        },
+        {
+          "pageid": 14659098,
+          "ns": 0,
+          "title": "Masque de Pakal",
+          "pageprops": {
+            "kartographer_links": "1",
+            "page_image_free": "Maya_Jade_Mask_of_Kinich_Hanab_Pakal,_Ruler_of_Palenque,_615-683_AD.jpg",
+            "wikibase_item": "Q54690126"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:07:13Z",
+          "lastrevid": 236791345,
+          "length": 4451,
+          "fullurl": "https://fr.wikipedia.org/wiki/Masque_de_Pakal",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Masque_de_Pakal&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Masque_de_Pakal"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "f0e8c1ae1b0b5737c7f24eee56ded4c68e757cf5ac1a9a6758a0ec9616d5e9da"
+}

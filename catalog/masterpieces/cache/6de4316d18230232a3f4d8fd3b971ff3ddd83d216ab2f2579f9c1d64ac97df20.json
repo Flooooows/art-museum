@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Royal+Headdress+Bamum",
+  "retrievedAt": "2026-10-30T00:51:07.238Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 81.50737,
+        "id": 202877,
+        "title": "Ndop Display Cloth",
+        "main_reference_number": "2010.4",
+        "date_display": "1910-1937",
+        "artist_title": "Bamum",
+        "image_id": "fff51ac7-7ea4-efaf-9062-6e7f39f321f5",
+        "is_public_domain": false
+      },
+      {
+        "_score": 73.48779,
+        "id": 49660,
+        "title": "The Arrival of Telemachus on Calypso's Island from The Story of Telemachus",
+        "main_reference_number": "1944.4",
+        "date_display": "after 1776",
+        "is_public_domain": true,
+        "artist_title": "Manufacture Royale d’Aubusson",
+        "image_id": "8feaf185-82c1-fa64-8b61-2eda90c520f3"
+      },
+      {
+        "_score": 65.0907,
+        "id": 27847,
+        "title": "Archery from Amusements Champêtres (Country Sports)",
+        "main_reference_number": "1938.1310",
+        "date_display": "1770/90",
+        "is_public_domain": true,
+        "artist_title": "Manufacture Royale d’Aubusson",
+        "image_id": "3cd63d2c-0194-fb23-49b7-4b41b2d08edd"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "63651cd5b2c7fdb3dfb759a5a3036733c04c6c6e1eed4fe1e50d441051556ebb"
+}

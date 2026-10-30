@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Amandier_en_fleurs/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:22:05.694Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1165
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1259
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1118
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1348
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1400
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2008
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1589
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1441
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 979
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 878
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 947
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Amandier_en_fleurs",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 953
+      }
+    ]
+  },
+  "payloadSha256": "addff394e643ea056a9e40fc87ed8c7981b57c4f97b083700c13a28f5f41fc33"
+}

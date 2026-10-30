@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Whistler's_Mother/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:36:03.671Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17632
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13214
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 14417
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13599
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 11065
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13380
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12187
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15311
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12419
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15555
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12853
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Whistler's_Mother",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13565
+      }
+    ]
+  },
+  "payloadSha256": "56ebc160c2b66d533fe863f40a179ec1323be40c7e74557fac742a10ec61c718"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Un_enterrement_%C3%A0_Ornans/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:34:04.392Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5527
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5547
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4300
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5197
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3910
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4631
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3497
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4024
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2725
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1841
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2602
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_enterrement_à_Ornans",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7461
+      }
+    ]
+  },
+  "payloadSha256": "cbd263c2669a87da530340aabe787d06440d65ba77611a1120cf34e91322be70"
+}

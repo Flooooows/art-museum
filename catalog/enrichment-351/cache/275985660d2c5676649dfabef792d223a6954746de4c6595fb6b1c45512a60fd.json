@@ -1,0 +1,614 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=La+Mise+au+tombeau+%28Le+Caravage%29%7CJudith+d%C3%A9capitant+Holopherne+%28Le+Caravage%29%7CBacchus+%28Le+Caravage%29%7CJudith+d%C3%A9capitant+Holopherne+%28Artemisia+Gentileschi%2C+Florence%29%7CSuzanne+et+les+Vieillards+%28Artemisia+Gentileschi%2C+Pommersfelden%29%7CAutoportrait+en+all%C3%A9gorie+de+la+Peinture%7CLa+Ronde+de+nuit%7CLa+Le%C3%A7on+d%27anatomie+du+docteur+Tulp%7CLe+Retour+du+fils+prodigue%7CLes+Syndics+des+drapiers%7CAutoportrait+aux+deux+cercles%7CLa+Jeune+Fille+%C3%A0+la+perle%7CLa+Laiti%C3%A8re%7CVue+de+Delft%7CL%27Art+de+la+peinture%7CLa+Femme+%C3%A0+la+balance%7CLa+Dentelli%C3%A8re%7CLes+M%C3%A9nines%7CLa+Reddition+de+Breda%7CLe+Triomphe+de+Bacchus%7CV%C3%A9nus+%C3%A0+son+miroir%7CL%27Enl%C3%A8vement+des+filles+de+Leucippe%7CLa+Descente+de+croix+%28Rubens%29%7CLes+Trois+Gr%C3%A2ces%7CLes+Bergers+d%27Arcadie%7CL%27Enl%C3%A8vement+des+Sabines+%28Poussin%29%7CLe+Tricheur+%C3%A0+l%27as+de+carreau%7CMadeleine+%C3%A0+la+veilleuse%7CAgnus+Dei+%28Zurbar%C3%A1n%29%7CNature+morte+aux+citrons%2C+oranges+et+rose",
+  "retrievedAt": "2026-10-30T01:42:20.746Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Madeleine à la veilleuse",
+          "to": "La Madeleine à la veilleuse"
+        },
+        {
+          "from": "Les Bergers d'Arcadie",
+          "to": "Et in Arcadia ego (Poussin)"
+        },
+        {
+          "from": "La Reddition de Breda",
+          "to": "La Reddition de Bréda"
+        },
+        {
+          "from": "La Descente de croix (Rubens)",
+          "to": "La Descente de croix"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Nature morte aux citrons, oranges et rose",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Nature_morte_aux_citrons,_oranges_et_rose",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Nature_morte_aux_citrons,_oranges_et_rose&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Nature_morte_aux_citrons,_oranges_et_rose"
+        },
+        {
+          "ns": 0,
+          "title": "Les Syndics des drapiers",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Syndics_des_drapiers",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Syndics_des_drapiers&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Syndics_des_drapiers"
+        },
+        {
+          "ns": 0,
+          "title": "Suzanne et les Vieillards (Artemisia Gentileschi, Pommersfelden)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Suzanne_et_les_Vieillards_(Artemisia_Gentileschi,_Pommersfelden)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Suzanne_et_les_Vieillards_(Artemisia_Gentileschi,_Pommersfelden)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Suzanne_et_les_Vieillards_(Artemisia_Gentileschi,_Pommersfelden)"
+        },
+        {
+          "ns": 0,
+          "title": "Judith décapitant Holopherne (Artemisia Gentileschi, Florence)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Judith_d%C3%A9capitant_Holopherne_(Artemisia_Gentileschi,_Florence)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Judith_d%C3%A9capitant_Holopherne_(Artemisia_Gentileschi,_Florence)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Judith_d%C3%A9capitant_Holopherne_(Artemisia_Gentileschi,_Florence)"
+        },
+        {
+          "ns": 0,
+          "title": "Judith décapitant Holopherne (Le Caravage)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Judith_d%C3%A9capitant_Holopherne_(Le_Caravage)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Judith_d%C3%A9capitant_Holopherne_(Le_Caravage)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Judith_d%C3%A9capitant_Holopherne_(Le_Caravage)"
+        },
+        {
+          "pageid": 20020,
+          "ns": 0,
+          "title": "La Jeune Fille à la perle",
+          "pageprops": {
+            "defaultsort": "Jeune fille a la perle, La",
+            "displaytitle": "<i>La Jeune Fille à la perle</i>",
+            "page_image_free": "1665_Girl_with_a_Pearl_Earring.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase_item": "Q185372"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:50Z",
+          "lastrevid": 239735521,
+          "length": 137362,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Jeune_Fille_%C3%A0_la_perle",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Jeune_Fille_%C3%A0_la_perle&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Jeune_Fille_%C3%A0_la_perle"
+        },
+        {
+          "pageid": 395519,
+          "ns": 0,
+          "title": "Et in Arcadia ego (Poussin)",
+          "pageprops": {
+            "displaytitle": "<i><span lang=\"la\">Et in Arcadia ego</span></i> (Poussin)",
+            "page_image_free": "Nicolas_Poussin_-_Et_in_Arcadia_ego_(première_version).jpg",
+            "wikibase_item": "Q15805858"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:49Z",
+          "lastrevid": 239908786,
+          "length": 14655,
+          "fullurl": "https://fr.wikipedia.org/wiki/Et_in_Arcadia_ego_(Poussin)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Et_in_Arcadia_ego_(Poussin)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Et_in_Arcadia_ego_(Poussin)"
+        },
+        {
+          "pageid": 1338604,
+          "ns": 0,
+          "title": "La Ronde de nuit",
+          "pageprops": {
+            "defaultsort": "Ronde de nuit, La",
+            "displaytitle": "<i>La Ronde de nuit</i>",
+            "page_image_free": "La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg",
+            "wikibase_item": "Q219831"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:04Z",
+          "lastrevid": 240587679,
+          "length": 175420,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Ronde_de_nuit",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Ronde_de_nuit&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Ronde_de_nuit"
+        },
+        {
+          "pageid": 1387415,
+          "ns": 0,
+          "title": "La Laitière",
+          "pageprops": {
+            "defaultsort": "Laitiere",
+            "displaytitle": "<i>La Laitière</i>",
+            "page_image_free": "Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q167605"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:11Z",
+          "lastrevid": 240727963,
+          "length": 63976,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Laiti%C3%A8re",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Laiti%C3%A8re&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Laiti%C3%A8re"
+        },
+        {
+          "pageid": 1450452,
+          "ns": 0,
+          "title": "La Leçon d'anatomie du docteur Tulp",
+          "pageprops": {
+            "defaultsort": "Leçon d'anatomie du docteur Tulp",
+            "displaytitle": "<i>La Leçon d'anatomie du docteur Tulp</i>",
+            "page_image_free": "Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg",
+            "wikibase_item": "Q661378"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:18Z",
+          "lastrevid": 236727549,
+          "length": 45984,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Le%C3%A7on_d%27anatomie_du_docteur_Tulp",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Le%C3%A7on_d%27anatomie_du_docteur_Tulp&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Le%C3%A7on_d%27anatomie_du_docteur_Tulp"
+        },
+        {
+          "pageid": 3151530,
+          "ns": 0,
+          "title": "Vénus à son miroir",
+          "pageprops": {
+            "displaytitle": "<i>Vénus à son miroir</i>",
+            "page_image_free": "Diego_Velázquez_-_Rokeby_Venus.jpg",
+            "wikibase_item": "Q275349"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:07Z",
+          "lastrevid": 236608130,
+          "length": 43586,
+          "fullurl": "https://fr.wikipedia.org/wiki/V%C3%A9nus_%C3%A0_son_miroir",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=V%C3%A9nus_%C3%A0_son_miroir&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/V%C3%A9nus_%C3%A0_son_miroir"
+        },
+        {
+          "pageid": 3505195,
+          "ns": 0,
+          "title": "Les Ménines",
+          "pageprops": {
+            "defaultsort": "Ménines, Les",
+            "displaytitle": "<i>Les Ménines</i>",
+            "page_image_free": "Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg",
+            "wikibase_item": "Q208758"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:35Z",
+          "lastrevid": 237703169,
+          "length": 65696,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_M%C3%A9nines",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_M%C3%A9nines&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_M%C3%A9nines"
+        },
+        {
+          "pageid": 3575303,
+          "ns": 0,
+          "title": "L'Enlèvement des Sabines (Poussin)",
+          "pageprops": {
+            "defaultsort": "Enlevement des Sabines (Nicolas Poussin), L'",
+            "displaytitle": "<i>L'Enlèvement des Sabines</i> (Poussin)",
+            "page_image_free": "Nicolas_Poussin_-_L'Enlèvement_des_Sabines_(1634-5).jpg",
+            "wikibase_item": "Q27096409"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:42Z",
+          "lastrevid": 238539688,
+          "length": 17346,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Enl%C3%A8vement_des_Sabines_(Poussin)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Enl%C3%A8vement_des_Sabines_(Poussin)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Enl%C3%A8vement_des_Sabines_(Poussin)"
+        },
+        {
+          "pageid": 3624049,
+          "ns": 0,
+          "title": "La Dentellière",
+          "pageprops": {
+            "defaultsort": "Dentelliere, La",
+            "disambiguation": "",
+            "displaytitle": "<i>La Dentellière</i>",
+            "wikibase_item": "Q3208181"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:26:55Z",
+          "lastrevid": 230216391,
+          "length": 1199,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Dentelli%C3%A8re",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Dentelli%C3%A8re&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Dentelli%C3%A8re"
+        },
+        {
+          "pageid": 3868279,
+          "ns": 0,
+          "title": "Le Tricheur à l'as de carreau",
+          "pageprops": {
+            "defaultsort": "Tricheur à l'as de carreau, Le",
+            "displaytitle": "<i>Le Tricheur à l'as de carreau</i>",
+            "page_image_free": "Le_Tricheur_à_l'as_de_carreau_-_Georges_de_La_Tour_-_Musée_du_Louvre_Peintures_RF_1972_8.jpg",
+            "wikibase_item": "Q1193312"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:10Z",
+          "lastrevid": 236580053,
+          "length": 53570,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Tricheur_%C3%A0_l%27as_de_carreau",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Tricheur_%C3%A0_l%27as_de_carreau&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Tricheur_%C3%A0_l%27as_de_carreau"
+        },
+        {
+          "pageid": 3917715,
+          "ns": 0,
+          "title": "Vue de Delft",
+          "pageprops": {
+            "displaytitle": "<i>Vue de Delft</i>",
+            "page_image_free": "Vermeer-view-of-delft.jpg",
+            "wikibase_item": "Q523974"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:15Z",
+          "lastrevid": 236151428,
+          "length": 25310,
+          "fullurl": "https://fr.wikipedia.org/wiki/Vue_de_Delft",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Vue_de_Delft&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Vue_de_Delft"
+        },
+        {
+          "pageid": 3918201,
+          "ns": 0,
+          "title": "L'Art de la peinture",
+          "pageprops": {
+            "defaultsort": "Art de la peinture, L'",
+            "displaytitle": "<i>L'Art de la peinture</i>",
+            "page_image_free": "Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q588695"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:15Z",
+          "lastrevid": 238704136,
+          "length": 9078,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Art_de_la_peinture",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Art_de_la_peinture&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Art_de_la_peinture"
+        },
+        {
+          "pageid": 4723153,
+          "ns": 0,
+          "title": "Autoportrait aux deux cercles",
+          "pageprops": {
+            "displaytitle": "<i>Autoportrait aux deux cercles</i>",
+            "page_image_free": "Rembrandt_Self-portrait_(Kenwood).jpg",
+            "wikibase_item": "Q2872725"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:28Z",
+          "lastrevid": 228258185,
+          "length": 13757,
+          "fullurl": "https://fr.wikipedia.org/wiki/Autoportrait_aux_deux_cercles",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Autoportrait_aux_deux_cercles&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Autoportrait_aux_deux_cercles"
+        },
+        {
+          "pageid": 4728659,
+          "ns": 0,
+          "title": "L'Enlèvement des filles de Leucippe",
+          "pageprops": {
+            "defaultsort": "Enlèvement des filles de Leucippe, L'",
+            "displaytitle": "<i>L'Enlèvement des filles de Leucippe</i>",
+            "page_image_free": "Peter_Paul_Rubens_-_The_Rape_of_the_Daughters_of_Leucippus.jpg",
+            "wikibase_item": "Q644936"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:29Z",
+          "lastrevid": 232068659,
+          "length": 1594,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Enl%C3%A8vement_des_filles_de_Leucippe",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Enl%C3%A8vement_des_filles_de_Leucippe&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Enl%C3%A8vement_des_filles_de_Leucippe"
+        },
+        {
+          "pageid": 4964393,
+          "ns": 0,
+          "title": "La Mise au tombeau (Le Caravage)",
+          "pageprops": {
+            "defaultsort": "Mise au tombeau, la",
+            "displaytitle": "<i>La Mise au tombeau</i> (Le Caravage)",
+            "page_image_free": "The_Entombment_of_Christ-Caravaggio_(c.1602-3).jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q1213151"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:57Z",
+          "lastrevid": 230027990,
+          "length": 43305,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Mise_au_tombeau_(Le_Caravage)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Mise_au_tombeau_(Le_Caravage)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Mise_au_tombeau_(Le_Caravage)"
+        },
+        {
+          "pageid": 4964469,
+          "ns": 0,
+          "title": "Bacchus (Le Caravage)",
+          "pageprops": {
+            "displaytitle": "<i>Bacchus</i> (Le Caravage)",
+            "page_image_free": "Bacchus_by_Caravaggio_1.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q2011510"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:57Z",
+          "lastrevid": 236727481,
+          "length": 49828,
+          "fullurl": "https://fr.wikipedia.org/wiki/Bacchus_(Le_Caravage)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Bacchus_(Le_Caravage)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Bacchus_(Le_Caravage)"
+        },
+        {
+          "pageid": 5259844,
+          "ns": 0,
+          "title": "La Madeleine à la veilleuse",
+          "pageprops": {
+            "defaultsort": "Madeleine a la veilleuse, La",
+            "displaytitle": "<i>La Madeleine à la veilleuse</i>",
+            "page_image_free": "Georges_de_La_Tour_007.jpg",
+            "wikibase_item": "Q3210253"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:30Z",
+          "lastrevid": 239181238,
+          "length": 7145,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Madeleine_%C3%A0_la_veilleuse",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Madeleine_%C3%A0_la_veilleuse&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Madeleine_%C3%A0_la_veilleuse"
+        },
+        {
+          "pageid": 5476059,
+          "ns": 0,
+          "title": "La Reddition de Bréda",
+          "pageprops": {
+            "defaultsort": "Reddition de Breda (la)",
+            "displaytitle": "<i>La Reddition de Bréda</i>",
+            "page_image_free": "Velázquez_-_de_Breda_o_Las_Lanzas_(Museo_del_Prado,_1634-35).jpg",
+            "wikibase_item": "Q1133420"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:52Z",
+          "lastrevid": 237684019,
+          "length": 8792,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Reddition_de_Br%C3%A9da",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Reddition_de_Br%C3%A9da&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Reddition_de_Br%C3%A9da"
+        },
+        {
+          "pageid": 6192563,
+          "ns": 0,
+          "title": "La Femme à la balance",
+          "pageprops": {
+            "defaultsort": "Femme a la balance, La",
+            "displaytitle": "<i>La Femme à la balance</i>",
+            "page_image_free": "Johannes_Vermeer_-_Woman_Holding_a_Balance_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q969367"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:07Z",
+          "lastrevid": 220920904,
+          "length": 33786,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Femme_%C3%A0_la_balance",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Femme_%C3%A0_la_balance&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Femme_%C3%A0_la_balance"
+        },
+        {
+          "pageid": 7283487,
+          "ns": 0,
+          "title": "Le Triomphe de Bacchus",
+          "pageprops": {
+            "defaultsort": "Triomphe de Bacchus",
+            "disambiguation": "",
+            "displaytitle": "<i>Le Triomphe de Bacchus</i>",
+            "wikibase_item": "Q123046918"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:27:15Z",
+          "lastrevid": 236317838,
+          "length": 726,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Triomphe_de_Bacchus",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Triomphe_de_Bacchus&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Triomphe_de_Bacchus"
+        },
+        {
+          "pageid": 8484066,
+          "ns": 0,
+          "title": "Les Trois Grâces",
+          "pageprops": {
+            "defaultsort": "Trois Graces",
+            "displaytitle": "<i>Les Trois Grâces</i>",
+            "wikibase_item": "Q3998064"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:51Z",
+          "lastrevid": 238292122,
+          "length": 16171,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Trois_Gr%C3%A2ces",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Trois_Gr%C3%A2ces&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Trois_Gr%C3%A2ces"
+        },
+        {
+          "pageid": 9457898,
+          "ns": 0,
+          "title": "Agnus Dei (Zurbarán)",
+          "pageprops": {
+            "displaytitle": "<i>Agnus Dei</i> (Zurbarán)",
+            "page_image_free": "Francisco_de_Zurbarán_006.jpg",
+            "wikibase_item": "Q4693305"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:00:42Z",
+          "lastrevid": 240157107,
+          "length": 4683,
+          "fullurl": "https://fr.wikipedia.org/wiki/Agnus_Dei_(Zurbar%C3%A1n)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Agnus_Dei_(Zurbar%C3%A1n)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Agnus_Dei_(Zurbar%C3%A1n)"
+        },
+        {
+          "pageid": 11179559,
+          "ns": 0,
+          "title": "La Descente de croix",
+          "pageprops": {
+            "defaultsort": "Descente de Croix",
+            "disambiguation": "",
+            "displaytitle": "<i>La Descente de croix</i>",
+            "wikibase_item": "Q42753974"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:27:30Z",
+          "lastrevid": 231662366,
+          "length": 1571,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Descente_de_croix",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Descente_de_croix&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Descente_de_croix"
+        },
+        {
+          "pageid": 17384357,
+          "ns": 0,
+          "title": "Le Retour du fils prodigue",
+          "pageprops": {
+            "defaultsort": "Retour du fils prodigue",
+            "disambiguation": "",
+            "displaytitle": "<i>Le Retour du fils prodigue</i>",
+            "unexpectedUnconnectedPage": "0"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:27:57Z",
+          "lastrevid": 236031695,
+          "length": 562,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Retour_du_fils_prodigue",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Retour_du_fils_prodigue&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Retour_du_fils_prodigue"
+        },
+        {
+          "pageid": 17519482,
+          "ns": 0,
+          "title": "Autoportrait en allégorie de la Peinture",
+          "pageprops": {
+            "disambiguation": "",
+            "displaytitle": "<i>Autoportrait en allégorie de la Peinture</i>",
+            "wikibase_item": "Q141873596"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T07:22:24Z",
+          "lastrevid": 237824380,
+          "length": 439,
+          "new": true,
+          "fullurl": "https://fr.wikipedia.org/wiki/Autoportrait_en_all%C3%A9gorie_de_la_Peinture",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Autoportrait_en_all%C3%A9gorie_de_la_Peinture&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Autoportrait_en_all%C3%A9gorie_de_la_Peinture"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "9808c7b5a7fd773921f6224abf7539e0eca050520ad22f6c91af704810526201"
+}

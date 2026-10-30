@@ -1,0 +1,99 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/12328",
+  "retrievedAt": "2026-10-30T01:46:17.563Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 12328,
+    "isHighlight": false,
+    "accessionNumber": "31.43.2",
+    "accessionYear": "1931",
+    "isPublicDomain": false,
+    "primaryImage": "",
+    "primaryImageSmall": "",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 162377,
+        "role": "Artist",
+        "name": "John Singer Sargent",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500023972",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q155626",
+        "gender": ""
+      }
+    ],
+    "department": "The American Wing",
+    "objectName": "Drawing",
+    "title": "Virginie Amélie Avegno Gautreau, Study for \"Madame X\"",
+    "culture": "American",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "John Singer Sargent",
+    "artistDisplayBio": "American, Florence 1856–1925 London",
+    "artistSuffix": "",
+    "artistAlphaSort": "Sargent, John Singer",
+    "artistNationality": "American",
+    "artistBeginDate": "1856",
+    "artistEndDate": "1925",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q155626",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500023972",
+    "objectDate": "1883–84",
+    "objectBeginDate": 1883,
+    "objectEndDate": 1884,
+    "medium": "Graphite on off-white wove paper",
+    "dimensions": "12 9/16 × 8 1/4 in. (31.9 × 21 cm)\r\nMat: 19 1/4 × 14 1/4 in. (48.9 × 36.2 cm)",
+    "measurements": [
+      {
+        "elementName": "Overall",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 31.9088,
+          "Width": 21
+        }
+      },
+      {
+        "elementName": "Mat",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 48.8951,
+          "Width": 36.195072
+        }
+      }
+    ],
+    "creditLine": "Gift of Mrs. Francis Ormond and Miss Emily Sargent, 1931",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2026-07-23T04:54:57.013Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/12328",
+    "tags": [
+      {
+        "term": "Women",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "48a1e51868a292bcb53ad6e7361118952adf232ebe0fe3dee4b8076f40e92122"
+}

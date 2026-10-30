@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Ceremonial+Adze+Polynesia",
+  "retrievedAt": "2026-10-30T00:51:06.535Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 57.45888,
+        "id": 18757,
+        "title": "Ceremonial Knife (Tumi)",
+        "main_reference_number": "1963.841",
+        "date_display": "1100–1470",
+        "is_public_domain": true,
+        "artist_title": "Chimú",
+        "image_id": "801ac46f-ead4-a77a-8523-34dfade43877"
+      },
+      {
+        "_score": 54.311546,
+        "id": 5567,
+        "title": "Female Headdress (Nimba, D'mba, or Yamban)",
+        "main_reference_number": "1957.160",
+        "date_display": "Mid 19th-early 20th century",
+        "artist_title": "Baga",
+        "image_id": "7d6a33f1-c17d-220a-815d-bdd787f0f5ed",
+        "is_public_domain": false
+      },
+      {
+        "_score": 53.286007,
+        "id": 195414,
+        "title": "Time of the Brave Mask (Mgbedike)",
+        "main_reference_number": "2008.175",
+        "date_display": "Early/mid–20th century",
+        "artist_title": "Igbo",
+        "image_id": "2d1390e6-053c-520f-dda0-b365ee7181c9",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "78c1756921d9f09e6edc189d2fc3294d61e1a82e8b0d3e1a370f9567413cf367"
+}

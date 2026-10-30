@@ -1,0 +1,122 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11131",
+  "retrievedAt": "2026-10-30T01:46:07.382Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 11131,
+    "isHighlight": false,
+    "accessionNumber": "10.228.6",
+    "accessionYear": "1910",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-21448-001.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-21448-001.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/ad/original/10.228.6.jpg",
+      "https://images.metmuseum.org/CRDImages/ad/original/DT208361.jpg",
+      "https://images.metmuseum.org/CRDImages/ad/original/APS99.jpg",
+      "https://images.metmuseum.org/CRDImages/ad/original/9643.jpg"
+    ],
+    "constituents": [
+      {
+        "constituentID": 161996,
+        "role": "Artist",
+        "name": "Winslow Homer",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500019202",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q344838",
+        "gender": ""
+      }
+    ],
+    "department": "The American Wing",
+    "objectName": "Watercolor",
+    "title": "Palm Tree, Nassau",
+    "culture": "American",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Winslow Homer",
+    "artistDisplayBio": "American, Boston, Massachusetts 1836–1910 Prouts Neck, Maine",
+    "artistSuffix": "",
+    "artistAlphaSort": "Homer, Winslow",
+    "artistNationality": "American",
+    "artistBeginDate": "1836",
+    "artistEndDate": "1910",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q344838",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500019202",
+    "objectDate": "1898",
+    "objectBeginDate": 1898,
+    "objectEndDate": 1898,
+    "medium": "Watercolor and graphite on off-white wove paper",
+    "dimensions": "21 3/8 x 14 7/8 in. (54.3 x 37.8 cm)\r\nFramed: 30 1/2 x 24 1/2 in. (77.5 x 62.2 cm)",
+    "measurements": [
+      {
+        "elementName": "Overall",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 54.3,
+          "Width": 37.7826
+        }
+      },
+      {
+        "elementName": "Mat",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 71.12014,
+          "Width": 55.88011
+        }
+      },
+      {
+        "elementName": "Framed",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 77.47015,
+          "Width": 62.230125
+        }
+      }
+    ],
+    "creditLine": "Amelia B. Lazarus Fund, 1910",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-02-22T04:53:13.223Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/11131",
+    "tags": [
+      {
+        "term": "Beaches",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300008816",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q40080"
+      },
+      {
+        "term": "Palms",
+        "AAT_URL": null,
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q14080"
+      },
+      {
+        "term": "Wind",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300055395",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q8094"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "6a9f8289ebd35de665f7c6e2b5482486a30949cc0ef9d29ac782fde9835d03c5"
+}

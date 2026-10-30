@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Arnolfini_Portrait/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:45:11.422Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 22819
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 21522
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 21784
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 24793
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 37028
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 23792
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 24198
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 21392
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17539
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18987
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 16246
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Arnolfini_Portrait",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 32637
+      }
+    ]
+  },
+  "payloadSha256": "a64aa23d44597c163e98c7df426ea68d42ae945bd2d2ebe64de43837041388b5"
+}

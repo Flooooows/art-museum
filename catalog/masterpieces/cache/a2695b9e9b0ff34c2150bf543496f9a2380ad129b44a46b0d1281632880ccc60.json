@@ -1,0 +1,458 @@
+{
+  "provider": "wikimedia",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=The+Starry+Night%7CBedroom+in+Arles%7CCaf%C3%A9+Terrace+at+Night%7CSelf-Portrait+with+Bandaged+Ear%7CImpression%2C+Sunrise%7CWoman+with+a+Parasol+%E2%80%93+Madame+Monet+and+Her+Son%7CThe+Water+Lily+Pond%7CLa+Japonaise+%28painting%29%7CGare+Saint-Lazare+%28Monet+series%29%7CGuernica+%28Picasso%29%7CLes+Demoiselles+d%27Avignon%7CThe+Weeping+Woman%7CThe+Old+Guitarist%7CThe+Two+Fridas%7CSelf-Portrait+with+Thorn+Necklace+and+Hummingbird%7CThe+Broken+Column%7CThe+Persistence+of+Memory%7CThe+Temptation+of+St.+Anthony+%28Dal%C3%AD%29%7CThe+Kiss+%28Klimt%29%7CPortrait+of+Adele+Bloch-Bauer+I",
+  "retrievedAt": "2026-10-30T00:39:01.478Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "The Water Lily Pond",
+          "to": "Water Lilies (Monet series)"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 365150,
+          "ns": 0,
+          "title": "Impression, Sunrise",
+          "pageprops": {
+            "displaytitle": "<i>Impression, Sunrise</i>",
+            "page_image_free": "Monet_-_Impression,_Sunrise.jpg",
+            "wikibase-shortdesc": "1872 painting by Claude Monet",
+            "wikibase_item": "Q328523"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T02:16:31Z",
+          "lastrevid": 1376413354,
+          "length": 21859,
+          "fullurl": "https://en.wikipedia.org/wiki/Impression,_Sunrise",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Impression,_Sunrise&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Impression,_Sunrise"
+        },
+        {
+          "pageid": 370807,
+          "ns": 0,
+          "title": "The Persistence of Memory",
+          "pageprops": {
+            "defaultsort": "Persistence Of Memory, The",
+            "displaytitle": "<i>The Persistence of Memory</i>",
+            "page_image": "The_Persistence_of_Memory.jpg",
+            "wikibase-shortdesc": "1931 painting by Salvador Dalí",
+            "wikibase_item": "Q25729"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:16:00Z",
+          "lastrevid": 1365591625,
+          "length": 12313,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Persistence_of_Memory&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory"
+        },
+        {
+          "pageid": 1055072,
+          "ns": 0,
+          "title": "Guernica (Picasso)",
+          "pageprops": {
+            "defaultsort": "Guernica",
+            "displaytitle": "<i>Guernica</i> (Picasso)",
+            "page_image": "PicassoGuernica.jpg",
+            "wikibase-shortdesc": "1937 anti-war painting by Pablo Picasso",
+            "wikibase_item": "Q175036"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:18:03Z",
+          "lastrevid": 1382108252,
+          "length": 57443,
+          "fullurl": "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Guernica_(Picasso)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Guernica_(Picasso)"
+        },
+        {
+          "pageid": 1115370,
+          "ns": 0,
+          "title": "The Starry Night",
+          "pageprops": {
+            "defaultsort": "Starry Night, The",
+            "displaytitle": "<i>The Starry Night</i>",
+            "page_image_free": "Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "1889 painting by Vincent van Gogh",
+            "wikibase_item": "Q45585"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:02:00Z",
+          "lastrevid": 1382696005,
+          "length": 48479,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Starry_Night",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Starry_Night&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Starry_Night"
+        },
+        {
+          "pageid": 1352611,
+          "ns": 0,
+          "title": "Café Terrace at Night",
+          "pageprops": {
+            "defaultsort": "Cafe Terrace at Night",
+            "displaytitle": "<i>Café Terrace at Night</i>",
+            "page_image_free": "Van_Gogh_-_Terrace_of_a_Café_at_Night_(Place_du_Forum)_1888.jpg",
+            "wikibase-shortdesc": "1888 painting by Vincent van Gogh",
+            "wikibase_item": "Q1025704"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:18:47Z",
+          "lastrevid": 1368405805,
+          "length": 12914,
+          "fullurl": "https://en.wikipedia.org/wiki/Caf%C3%A9_Terrace_at_Night",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Caf%C3%A9_Terrace_at_Night&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Caf%C3%A9_Terrace_at_Night"
+        },
+        {
+          "pageid": 1820361,
+          "ns": 0,
+          "title": "Les Demoiselles d'Avignon",
+          "pageprops": {
+            "defaultsort": "Demoiselles D'avignon",
+            "displaytitle": "<i>Les Demoiselles d'Avignon</i>",
+            "page_image_free": "Les_Demoiselles_d'Avignon.jpg",
+            "wikibase-shortdesc": "1907 painting by Pablo Picasso",
+            "wikibase_item": "Q910199"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:19:46Z",
+          "lastrevid": 1380842813,
+          "length": 82325,
+          "fullurl": "https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Les_Demoiselles_d%27Avignon&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon"
+        },
+        {
+          "pageid": 2096712,
+          "ns": 0,
+          "title": "Bedroom in Arles",
+          "pageprops": {
+            "defaultsort": "Bedroom In Arles",
+            "displaytitle": "<i>Bedroom in Arles</i>",
+            "page_image_free": "Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "Series of three similar paintings by Vincent van Gogh",
+            "wikibase_item": "Q724377"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:20:20Z",
+          "lastrevid": 1374251357,
+          "length": 12239,
+          "fullurl": "https://en.wikipedia.org/wiki/Bedroom_in_Arles",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Bedroom_in_Arles&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Bedroom_in_Arles"
+        },
+        {
+          "pageid": 2826896,
+          "ns": 0,
+          "title": "The Old Guitarist",
+          "pageprops": {
+            "defaultsort": "Old Guitarist",
+            "displaytitle": "<i>The Old Guitarist</i>",
+            "page_image_free": "Old_guitarist_chicago.jpg",
+            "wikibase-shortdesc": "Painting by Pablo Picasso",
+            "wikibase_item": "Q3228112"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:21:44Z",
+          "lastrevid": 1379738178,
+          "length": 12401,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Old_Guitarist",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Old_Guitarist&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Old_Guitarist"
+        },
+        {
+          "pageid": 5008672,
+          "ns": 0,
+          "title": "The Kiss (Klimt)",
+          "pageprops": {
+            "defaultsort": "Kiss, The",
+            "displaytitle": "<i>The Kiss</i> (Klimt)",
+            "page_image_free": "The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+            "wikibase-shortdesc": "Painting by Gustav Klimt",
+            "wikibase_item": "Q698487"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:24:53Z",
+          "lastrevid": 1381340613,
+          "length": 13902,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Kiss_(Klimt)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)"
+        },
+        {
+          "pageid": 5631982,
+          "ns": 0,
+          "title": "Portrait of Adele Bloch-Bauer I",
+          "pageprops": {
+            "defaultsort": "Portrait of Adele Bloch-Bauer I",
+            "displaytitle": "<i>Portrait of Adele Bloch-Bauer I</i>",
+            "page_image_free": "Gustav_Klimt,_1907,_Adele_Bloch-Bauer_I,_Neue_Galerie_New_York.jpg",
+            "toc": "",
+            "wikibase-badge-Q17437798": "",
+            "wikibase-shortdesc": "1907 painting by Gustav Klimt",
+            "wikibase_item": "Q354396"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T09:52:54Z",
+          "lastrevid": 1382368150,
+          "length": 55726,
+          "fullurl": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Portrait_of_Adele_Bloch-Bauer_I&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I"
+        },
+        {
+          "pageid": 9440855,
+          "ns": 0,
+          "title": "The Weeping Woman",
+          "pageprops": {
+            "defaultsort": "Weeping Woman, The",
+            "displaytitle": "<i>The Weeping Woman</i>",
+            "page_image": "Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg",
+            "wikibase-shortdesc": "Painting by Pablo Picasso",
+            "wikibase_item": "Q3267954"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:29:54Z",
+          "lastrevid": 1371189122,
+          "length": 24682,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Weeping_Woman",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Weeping_Woman&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Weeping_Woman"
+        },
+        {
+          "pageid": 12375263,
+          "ns": 0,
+          "title": "Water Lilies (Monet series)",
+          "pageprops": {
+            "displaytitle": "<i>Water Lilies</i> (Monet series)",
+            "page_image_free": "Reflections_of_Clouds_on_the_Water-Lily_Pond.jpg",
+            "wikibase-shortdesc": "Series of paintings by Claude Monet",
+            "wikibase_item": "Q1189907"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:32:21Z",
+          "lastrevid": 1380937872,
+          "length": 50165,
+          "fullurl": "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Water_Lilies_(Monet_series)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)"
+        },
+        {
+          "pageid": 39228499,
+          "ns": 0,
+          "title": "The Temptation of St. Anthony (Dalí)",
+          "pageprops": {
+            "defaultsort": "Temptation of St. Anthony, The",
+            "displaytitle": "<i>The Temptation of St. Anthony</i> (Dalí)",
+            "page_image": "The_Temptation_of_St._Anthony.jpg",
+            "wikibase-shortdesc": "1946 painting by Salvador Dalí",
+            "wikibase_item": "Q94845"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:53:37Z",
+          "lastrevid": 1365878425,
+          "length": 8049,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Temptation_of_St._Anthony_(Dal%C3%AD)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Temptation_of_St._Anthony_(Dal%C3%AD)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Temptation_of_St._Anthony_(Dal%C3%AD)"
+        },
+        {
+          "pageid": 43524556,
+          "ns": 0,
+          "title": "Woman with a Parasol – Madame Monet and Her Son",
+          "pageprops": {
+            "defaultsort": "Woman with a Parasol - Madame Monet and Her Son",
+            "displaytitle": "<i>Woman with a Parasol – Madame Monet and Her Son</i>",
+            "page_image_free": "Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "1875 painting by Claude Monet",
+            "wikibase_item": "Q2395218"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:56:38Z",
+          "lastrevid": 1361325964,
+          "length": 6568,
+          "fullurl": "https://en.wikipedia.org/wiki/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son"
+        },
+        {
+          "pageid": 44214883,
+          "ns": 0,
+          "title": "The Two Fridas",
+          "pageprops": {
+            "defaultsort": "Two Fridas",
+            "displaytitle": "<i>The Two Fridas</i>",
+            "page_image": "The_Two_Fridas.jpg",
+            "wikibase-shortdesc": "1939 painting by Frida Kahlo",
+            "wikibase_item": "Q3232010"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:57:07Z",
+          "lastrevid": 1375224954,
+          "length": 9763,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Two_Fridas",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Two_Fridas&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Two_Fridas"
+        },
+        {
+          "pageid": 45481305,
+          "ns": 0,
+          "title": "Self-Portrait with Bandaged Ear",
+          "pageprops": {
+            "displaytitle": "<i>Self-Portrait with Bandaged Ear</i>",
+            "page_image_free": "Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_(1889,_Courtauld_Institute).jpg",
+            "wikibase-shortdesc": "1889 self-portrait by Vincent van Gogh",
+            "wikibase_item": "Q19363211"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T23:35:43Z",
+          "lastrevid": 1382723763,
+          "length": 10335,
+          "fullurl": "https://en.wikipedia.org/wiki/Self-Portrait_with_Bandaged_Ear",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Self-Portrait_with_Bandaged_Ear&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Self-Portrait_with_Bandaged_Ear"
+        },
+        {
+          "pageid": 45620765,
+          "ns": 0,
+          "title": "Self-Portrait with Thorn Necklace and Hummingbird",
+          "pageprops": {
+            "displaytitle": "<i>Self-Portrait with Thorn Necklace and Hummingbird</i>",
+            "page_image": "Frida_Kahlo_(self_portrait).jpg",
+            "wikibase-shortdesc": "1940 painting by Frida Kahlo",
+            "wikibase_item": "Q5880026"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:58:01Z",
+          "lastrevid": 1380482075,
+          "length": 10807,
+          "fullurl": "https://en.wikipedia.org/wiki/Self-Portrait_with_Thorn_Necklace_and_Hummingbird",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Self-Portrait_with_Thorn_Necklace_and_Hummingbird&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Self-Portrait_with_Thorn_Necklace_and_Hummingbird"
+        },
+        {
+          "pageid": 47996998,
+          "ns": 0,
+          "title": "The Broken Column",
+          "pageprops": {
+            "defaultsort": "Broken Column",
+            "displaytitle": "<i>The Broken Column</i>",
+            "page_image": "The_Broken_Column.jpg",
+            "wikibase-shortdesc": "1944 painting by Frida Kahlo",
+            "wikibase_item": "Q21056477"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:59:16Z",
+          "lastrevid": 1361422476,
+          "length": 7311,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Broken_Column",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Broken_Column&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Broken_Column"
+        },
+        {
+          "pageid": 61600088,
+          "ns": 0,
+          "title": "Gare Saint-Lazare (Monet series)",
+          "pageprops": {
+            "displaytitle": "<i>Gare Saint-Lazare</i> (Monet series)",
+            "page_image_free": "La_Gare_Saint-Lazare_-_Claude_Monet.jpg",
+            "wikibase-shortdesc": "Series of oil paintings by Claude Monet",
+            "wikibase_item": "Q49985736"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:06:58Z",
+          "lastrevid": 1373486699,
+          "length": 14553,
+          "fullurl": "https://en.wikipedia.org/wiki/Gare_Saint-Lazare_(Monet_series)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Gare_Saint-Lazare_(Monet_series)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Gare_Saint-Lazare_(Monet_series)"
+        },
+        {
+          "pageid": 63716043,
+          "ns": 0,
+          "title": "La Japonaise (painting)",
+          "pageprops": {
+            "defaultsort": "Japonaise",
+            "displaytitle": "<i>La Japonaise</i> (painting)",
+            "page_image_free": "Claude_Monet-Madame_Monet_en_costume_japonais.jpg",
+            "wikibase-shortdesc": "1876 painting by Claude Monet",
+            "wikibase_item": "Q10322900"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:08:10Z",
+          "lastrevid": 1375867150,
+          "length": 14490,
+          "fullurl": "https://en.wikipedia.org/wiki/La_Japonaise_(painting)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=La_Japonaise_(painting)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/La_Japonaise_(painting)"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "8655f19a31fdd824bfbc84d9ae9a8fb67dc54a9be7f2262d1c4f9be441571f5f"
+}

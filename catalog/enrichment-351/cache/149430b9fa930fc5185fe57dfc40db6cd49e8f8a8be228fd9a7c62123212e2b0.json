@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Venus_and_Mars_(Botticelli)/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:26:13.867Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3670
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3496
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3324
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3587
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3181
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3546
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3399
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3352
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2898
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2798
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2872
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Venus_and_Mars_(Botticelli)",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2900
+      }
+    ]
+  },
+  "payloadSha256": "5507996bc70837f71a6ca91ac01a92ef0db03f309ba219f1515f66c42abb0036"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/L%C3%A9onard_de_Vinci/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:36:12.080Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 40897
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 37590
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 33445
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 38596
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 31780
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 40531
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 39004
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 42568
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 33677
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 23762
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 26763
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Léonard_de_Vinci",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 30860
+      }
+    ]
+  },
+  "payloadSha256": "8d2eeaa44a090e4533f2b145b071c0fd60ce0044227a57fe40c2effdd51c18bb"
+}

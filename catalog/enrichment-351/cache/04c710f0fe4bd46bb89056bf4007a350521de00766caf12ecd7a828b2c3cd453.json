@@ -1,0 +1,510 @@
+{
+  "provider": "orsay",
+  "url": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/manifest.json",
+  "retrievedAt": "2026-10-30T02:01:13.145Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "@context": [
+      "https://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/manifest.json",
+    "type": "Manifest",
+    "label": {
+      "fr": [
+        "Degas, Edgar - Dans un cafe ; L'absinthe - RF 1984"
+      ],
+      "en": [
+        "Degas, Edgar - Dans un cafe ; L'absinthe - RF 1984"
+      ]
+    },
+    "homepage": [
+      {
+        "id": "https://www.musee-orsay.fr/fr/oeuvres/1147",
+        "label": {
+          "en": [
+            "View the artwork on the original site"
+          ],
+          "fr": [
+            "Lien vers la notice sur le site d'origine"
+          ]
+        },
+        "type": "Text",
+        "format": "text/html"
+      }
+    ],
+    "requiredStatement": {
+      "label": {
+        "fr": [
+          "Droits d'utilisation et licence"
+        ],
+        "en": [
+          "Rights Description and licence"
+        ]
+      },
+      "value": {
+        "fr": [
+          "https://www.musee-orsay.fr/fr/mentions-legales"
+        ],
+        "en": [
+          "https://www.musee-orsay.fr/en/legal-information"
+        ]
+      }
+    },
+    "provider": [
+      {
+        "id": "https://www.epmo-musees.fr",
+        "type": "Agent",
+        "label": {
+          "fr": [
+            "Etablissement public du Musée d'Orsay et du musée de l'Orangerie - Valerie Giscard d'Estaing"
+          ]
+        },
+        "logo": [
+          {
+            "id": "https://www.epmo-musees.fr/themes/custom/ep/logo.svg",
+            "type": "Image",
+            "format": "image/png",
+            "height": 100,
+            "width": 120
+          }
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "label": {
+          "fr": [
+            "Description"
+          ],
+          "en": [
+            "Description"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Degas, Edgar, Dans un cafe ; L'absinthe. huile sur toile. entre 1875 et 1876. Legs comte Isaac de Camondo, 1911 "
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Désignation"
+          ],
+          "en": [
+            "Title"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Dans un cafe ; L'absinthe"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Auteur"
+          ],
+          "en": [
+            "Creator"
+          ]
+        },
+        "value": {
+          "fr": [
+            "'Degas, Edgar [Paris (France) 1834 - Paris (France) 1917]'"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "N° d'inventaire"
+          ],
+          "en": [
+            "Accession number"
+          ]
+        },
+        "value": {
+          "none": [
+            "RF 1984"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Datation"
+          ],
+          "en": [
+            "Date"
+          ]
+        },
+        "value": {
+          "fr": [
+            "entre 1875 et 1876"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mode d'acquisition"
+          ],
+          "en": [
+            "Acquisition details"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Legs comte Isaac de Camondo, 1911"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mesures"
+          ],
+          "en": [
+            "Dimensions"
+          ]
+        },
+        "value": {
+          "fr": [
+            "H. 92 ; L. 68,5 cm avec cadre H. 116,5 ; L. 92,5 ; EP. 10 cm"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Matériaux et techniques"
+          ],
+          "en": [
+            "Materials and techniques"
+          ]
+        },
+        "value": {
+          "fr": [
+            "huile sur toile"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Lieu de conservation"
+          ],
+          "en": [
+            "Current Location"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Collection"
+          ],
+          "en": [
+            "Collection"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      }
+    ],
+    "viewingDirection": "left-to-right",
+    "items": [
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-1-25-01763888",
+        "type": "Canvas",
+        "height": 850,
+        "width": 622,
+        "label": {
+          "fr": [
+            "Dans un cafe ; L'absinthe"
+          ],
+          "en": [
+            "Dans un cafe ; L'absinthe"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© Musee d'Orsay, dist. GrandPalaisRmn / Patrice Schmidt"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "06/12/2007"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1147!207238_d5ojqyckztuce/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 622,
+            "height": 850
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-1-25-01763888/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/annotation/anno-1-25-01763888",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1147!207238_d5ojqyckztuce/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 622
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-1-25-01763888"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-2-17-638438",
+        "type": "Canvas",
+        "height": 850,
+        "width": 582,
+        "label": {
+          "fr": [
+            "Dans un cafe ; L'absinthe"
+          ],
+          "en": [
+            "Dans un cafe ; L'absinthe"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© RMN-Grand Palais (Musee d'Orsay) / Herve Lewandowski"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                "Detail"
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1147!154280_x1ibp9ogxvnfi/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 582,
+            "height": 850
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-2-17-638438/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/annotation/anno-2-17-638438",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1147!154280_x1ibp9ogxvnfi/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 582
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-2-17-638438"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-3-18-521667",
+        "type": "Canvas",
+        "height": 850,
+        "width": 630,
+        "label": {
+          "fr": [
+            "Dans un cafe ; L'absinthe"
+          ],
+          "en": [
+            "Dans un cafe ; L'absinthe"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© RMN-Grand Palais (Musee d'Orsay) / Adrien Didierjean"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "18/06/2018"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1147!154710_t717cel6w659g/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 630,
+            "height": 850
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-3-18-521667/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/annotation/anno-3-18-521667",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1147!154710_t717cel6w659g/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 630
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1147/canvas/canvas-3-18-521667"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "payloadSha256": "7fd552c5104405b79d8873b014753800922ad728020ecebe4a6aa4eed5de46bf"
+}

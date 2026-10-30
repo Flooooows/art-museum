@@ -1,0 +1,510 @@
+{
+  "provider": "orsay",
+  "url": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/manifest.json",
+  "retrievedAt": "2026-10-30T02:01:11.527Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "@context": [
+      "https://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/manifest.json",
+    "type": "Manifest",
+    "label": {
+      "fr": [
+        "Degas, Edgar - La Classe de danse - RF 1976"
+      ],
+      "en": [
+        "Degas, Edgar - La Classe de danse - RF 1976"
+      ]
+    },
+    "homepage": [
+      {
+        "id": "https://www.musee-orsay.fr/fr/oeuvres/1151",
+        "label": {
+          "en": [
+            "View the artwork on the original site"
+          ],
+          "fr": [
+            "Lien vers la notice sur le site d'origine"
+          ]
+        },
+        "type": "Text",
+        "format": "text/html"
+      }
+    ],
+    "requiredStatement": {
+      "label": {
+        "fr": [
+          "Droits d'utilisation et licence"
+        ],
+        "en": [
+          "Rights Description and licence"
+        ]
+      },
+      "value": {
+        "fr": [
+          "https://www.musee-orsay.fr/fr/mentions-legales"
+        ],
+        "en": [
+          "https://www.musee-orsay.fr/en/legal-information"
+        ]
+      }
+    },
+    "provider": [
+      {
+        "id": "https://www.epmo-musees.fr",
+        "type": "Agent",
+        "label": {
+          "fr": [
+            "Etablissement public du Musée d'Orsay et du musée de l'Orangerie - Valerie Giscard d'Estaing"
+          ]
+        },
+        "logo": [
+          {
+            "id": "https://www.epmo-musees.fr/themes/custom/ep/logo.svg",
+            "type": "Image",
+            "format": "image/png",
+            "height": 100,
+            "width": 120
+          }
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "label": {
+          "fr": [
+            "Description"
+          ],
+          "en": [
+            "Description"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Degas, Edgar, La Classe de danse. huile sur toile. entre 1873 et 1876. Legs comte Isaac de Camondo, 1911 "
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Désignation"
+          ],
+          "en": [
+            "Title"
+          ]
+        },
+        "value": {
+          "fr": [
+            "La Classe de danse"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Auteur"
+          ],
+          "en": [
+            "Creator"
+          ]
+        },
+        "value": {
+          "fr": [
+            "'Degas, Edgar [Paris (France) 1834 - Paris (France) 1917]'"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "N° d'inventaire"
+          ],
+          "en": [
+            "Accession number"
+          ]
+        },
+        "value": {
+          "none": [
+            "RF 1976"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Datation"
+          ],
+          "en": [
+            "Date"
+          ]
+        },
+        "value": {
+          "fr": [
+            "entre 1873 et 1876"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mode d'acquisition"
+          ],
+          "en": [
+            "Acquisition details"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Legs comte Isaac de Camondo, 1911"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mesures"
+          ],
+          "en": [
+            "Dimensions"
+          ]
+        },
+        "value": {
+          "fr": [
+            "H. 85,5 ; L. 75 cm. @ avec cadre H. 109,5 ; L. 99,3 cm"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Matériaux et techniques"
+          ],
+          "en": [
+            "Materials and techniques"
+          ]
+        },
+        "value": {
+          "fr": [
+            "huile sur toile"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Lieu de conservation"
+          ],
+          "en": [
+            "Current Location"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Collection"
+          ],
+          "en": [
+            "Collection"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      }
+    ],
+    "viewingDirection": "left-to-right",
+    "items": [
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-1-18-521666",
+        "type": "Canvas",
+        "height": 850,
+        "width": 744,
+        "label": {
+          "fr": [
+            "La Classe de danse"
+          ],
+          "en": [
+            "La Classe de danse"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© Musee d'Orsay, dist. GrandPalaisRmn / Patrice Schmidt"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "21/11/2008"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1151!206883_r16xma9ehp744/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 744,
+            "height": 850
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-1-18-521666/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/annotation/anno-1-18-521666",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1151!206883_r16xma9ehp744/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 744
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-1-18-521666"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-2-18-521666",
+        "type": "Canvas",
+        "height": 850,
+        "width": 751,
+        "label": {
+          "fr": [
+            "La Classe de danse"
+          ],
+          "en": [
+            "La Classe de danse"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© RMN-Grand Palais (Musee d'Orsay) / Adrien Didierjean"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "18/06/2018"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1151!154709_hvlbim4z0lb88/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 751,
+            "height": 850
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-2-18-521666/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/annotation/anno-2-18-521666",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1151!154709_hvlbim4z0lb88/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 751
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-2-18-521666"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-3-95-024205",
+        "type": "Canvas",
+        "height": 850,
+        "width": 753,
+        "label": {
+          "fr": [
+            "La Classe de danse"
+          ],
+          "en": [
+            "La Classe de danse"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© RMN-Grand Palais (Musee d'Orsay) / Herve Lewandowski"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                "Un fichier 11785 x 13241 pixels est disponible"
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1151!163057_i3xi5630qzsq2/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 753,
+            "height": 850
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-3-95-024205/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/annotation/anno-3-95-024205",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1151!163057_i3xi5630qzsq2/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 753
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1151/canvas/canvas-3-95-024205"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "payloadSha256": "75820760b40227fb528ea37bbdd3a11b2485d65718f4b85dd8e1c7676dd9eb58"
+}

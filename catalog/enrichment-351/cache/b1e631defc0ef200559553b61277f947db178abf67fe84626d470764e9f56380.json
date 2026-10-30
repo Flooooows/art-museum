@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Raboteurs_de_parquet/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:24:04.425Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3359
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3303
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2467
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3072
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2510
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2991
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2716
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3544
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1847
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1401
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1533
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Raboteurs_de_parquet",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2757
+      }
+    ]
+  },
+  "payloadSha256": "2708745d6bf4384d9eceb7f46ea4fd7e12b16c0f758890e96353038635fa569d"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/L'Atelier_du_peintre/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:20:04.375Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2261
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2118
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1739
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1848
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1761
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1912
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1409
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1681
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1294
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 756
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1010
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Atelier_du_peintre",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1609
+      }
+    ]
+  },
+  "payloadSha256": "86a441457b3df252e8606b22478f4c87948f5f2e40c5979d7e6a1235878896ac"
+}

@@ -1,0 +1,76 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Antoni+Gaud%C3%AD%7CVictor+Horta%7CCharles+Rennie+Mackintosh",
+  "retrievedAt": "2026-10-30T01:44:09.749Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 5925,
+          "ns": 0,
+          "title": "Victor Horta",
+          "pageprops": {
+            "defaultsort": "Horta, Victor",
+            "page_image_free": "Victor_Horta_(cropped).jpg",
+            "wikibase_item": "Q49744"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:46Z",
+          "lastrevid": 240814772,
+          "length": 49813,
+          "fullurl": "https://fr.wikipedia.org/wiki/Victor_Horta",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Victor_Horta&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Victor_Horta"
+        },
+        {
+          "pageid": 27628,
+          "ns": 0,
+          "title": "Antoni Gaudí",
+          "pageprops": {
+            "defaultsort": "Gaudí, Antoni",
+            "page_image_free": "Antoni_gaudi.jpg",
+            "wikibase_item": "Q25328"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:51Z",
+          "lastrevid": 240195196,
+          "length": 70461,
+          "fullurl": "https://fr.wikipedia.org/wiki/Antoni_Gaud%C3%AD",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Antoni_Gaud%C3%AD&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Antoni_Gaud%C3%AD"
+        },
+        {
+          "pageid": 80002,
+          "ns": 0,
+          "title": "Charles Rennie Mackintosh",
+          "pageprops": {
+            "defaultsort": "Mackintosh, Charles Rennie",
+            "page_image_free": "Charles-Rennie-Mackintosh.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase_item": "Q220703"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:58Z",
+          "lastrevid": 240051205,
+          "length": 48744,
+          "fullurl": "https://fr.wikipedia.org/wiki/Charles_Rennie_Mackintosh",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Charles_Rennie_Mackintosh&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Charles_Rennie_Mackintosh"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "7f5852f7349cdf972742c02c32cddc44412243620c89240b715e210382327db0"
+}

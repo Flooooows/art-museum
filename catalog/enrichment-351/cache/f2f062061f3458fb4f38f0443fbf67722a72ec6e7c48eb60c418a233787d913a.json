@@ -1,0 +1,75 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Le_Bain_turc_(Ingres)/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:25:05.182Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Bain_turc_(Ingres)",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2087
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Bain_turc_(Ingres)",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1438
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Bain_turc_(Ingres)",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1404
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Bain_turc_(Ingres)",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1132
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Bain_turc_(Ingres)",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 904
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Bain_turc_(Ingres)",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 947
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Le_Bain_turc_(Ingres)",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1259
+      }
+    ]
+  },
+  "payloadSha256": "426f8873dae7fbdc42d38184cb1ab64e7b32f5f00fd6b7bc786cfa3b5ebe19a5"
+}

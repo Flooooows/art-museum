@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Buddha+Shakyamuni+Seated+in+Meditation",
+  "retrievedAt": "2026-10-30T00:48:00.260Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 5634.4517,
+        "id": 21023,
+        "title": "Buddha Shakyamuni Seated in Meditation (Dhyanamudra)",
+        "main_reference_number": "1964.556",
+        "date_display": "Chola period, about 12th century",
+        "is_public_domain": true,
+        "image_id": "0675f9a9-1a7b-c90a-3bb6-7f7be2afb678",
+        "artist_title": null
+      },
+      {
+        "_score": 234.27759,
+        "id": 15596,
+        "title": "Buddha Seated in Meditation",
+        "main_reference_number": "1962.918a-b",
+        "date_display": "18th–19th century",
+        "is_public_domain": true,
+        "image_id": "635328dc-7f38-3a3a-9ce2-cb95b78c82db",
+        "artist_title": null
+      },
+      {
+        "_score": 183.38934,
+        "id": 103274,
+        "title": "Buddha Seated in Meditation (Dhyanamudra)",
+        "main_reference_number": "1984.1304",
+        "date_display": "Kandyan period, 18th century",
+        "is_public_domain": true,
+        "image_id": "964d6f73-1b5f-4ab4-ae97-f47d82463b20",
+        "artist_title": null
+      },
+      {
+        "_score": 154.57146,
+        "id": 144403,
+        "title": "Altarpiece with Meditating Buddha",
+        "main_reference_number": "1996.34",
+        "date_display": "Angkor period, 12th–13th century or later",
+        "is_public_domain": true,
+        "artist_title": "Khmer",
+        "image_id": "4a7391da-d86f-d0e1-8e34-4a7f051a38ca"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "20bfce7873c163cc4644ca754596047619e9fbd881db3c05d8e7c764c1740e32"
+}

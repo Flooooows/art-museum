@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Ancestor+Figure+Easter+Island",
+  "retrievedAt": "2026-10-30T00:51:05.913Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 66.59248,
+        "id": 187528,
+        "title": "Head",
+        "main_reference_number": "2006.127",
+        "date_display": "Mid–late 19th century",
+        "is_public_domain": true,
+        "artist_title": "Fang",
+        "image_id": "73e4f1d9-97a2-1742-5235-72bfcaef9473"
+      },
+      {
+        "_score": 63.09791,
+        "id": 164,
+        "title": "Column-Krater (Mixing Bowl)",
+        "main_reference_number": "1889.16",
+        "date_display": "about 460 BCE",
+        "is_public_domain": true,
+        "artist_title": "Ancient Greek",
+        "image_id": "f7c96efa-2b60-565e-3b03-a3acf7f79ea9"
+      },
+      {
+        "_score": 62.773556,
+        "id": 133862,
+        "title": "Easter Mystery (Mystère de Pâques)",
+        "main_reference_number": "1994.431",
+        "date_display": "1891",
+        "artist_title": "Maurice Denis",
+        "image_id": "e0d8104e-eaf0-0bbc-748d-ecc8d190c4cf",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "d4827bdcb04c86877c64cd5dbe1e29015e1d814d4c2525fc4bd1faa2d19ac4d5"
+}

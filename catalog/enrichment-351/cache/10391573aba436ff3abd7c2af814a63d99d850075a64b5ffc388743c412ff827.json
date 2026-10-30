@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/The_Yellow_Christ/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:33:09.398Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 978
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 973
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 887
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1091
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 964
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1010
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1040
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 949
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1019
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 812
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 774
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Yellow_Christ",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 914
+      }
+    ]
+  },
+  "payloadSha256": "969f413fbca386369aafc9ad6d82d4260873570526feb5db6b246d5a2151b47b"
+}

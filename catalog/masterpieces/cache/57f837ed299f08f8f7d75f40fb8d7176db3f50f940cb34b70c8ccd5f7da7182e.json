@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=America+Windows+Chagall",
+  "retrievedAt": "2026-10-30T00:51:11.653Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 152.49568,
+        "id": 109439,
+        "title": "America Windows",
+        "main_reference_number": "1977.938",
+        "date_display": "1977",
+        "artist_title": "Marc Chagall",
+        "image_id": "6b7e86ef-9ba3-5fc1-76bd-6246a3db5196",
+        "is_public_domain": false
+      },
+      {
+        "_score": 112.548615,
+        "id": 59426,
+        "title": "White Crucifixion",
+        "main_reference_number": "1946.925",
+        "date_display": "1938",
+        "artist_title": "Marc Chagall",
+        "image_id": "cefba431-1241-6240-3a92-ffa787e5fa49",
+        "is_public_domain": false
+      },
+      {
+        "_score": 95.52324,
+        "id": 23700,
+        "title": "The Praying Jew",
+        "main_reference_number": "1937.188",
+        "date_display": "1923 (one of two versions after a 1914 composition)",
+        "artist_title": "Marc Chagall",
+        "image_id": "0b5057af-97c6-5eb8-7328-fa9cf46d8751",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "bdd4a882a0008a37ae4202cd74e53bdaad25f8e00e8e90bf9c18fe017b852b44"
+}

@@ -1,0 +1,518 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=La+Colonne+sans+fin%7CNu+couch%C3%A9+%28Modigliani%29%7CPortrait+de+Jeanne+H%C3%A9buterne%7CLe+B%C5%93uf+%C3%A9corch%C3%A9%7CLes+Deux+Fridas%7CLa+Colonne+bris%C3%A9e%7CAutoportrait+au+collier+d%27%C3%A9pines+et+colibri%7CAutoportrait+aux+cheveux+coup%C3%A9s%7CL%27H%C3%B4pital+Henry-Ford%7CL%27Homme+contr%C3%B4leur+de+l%27univers%7CL%27Histoire+du+Mexique+%28fresques%29%7CLa+Grande+Vague+de+Kanagawa%7CLe+Fuji+par+temps+clair%7COrage+sous+le+sommet%7CLe+R%C3%AAve+de+la+femme+du+p%C3%AAcheur%7CAverse+soudaine+sur+le+pont+Shin-%C5%8Chashi+et+Atake%7CLe+Jardin+des+pruniers+%C3%A0+Kameido%7CLes+Cinquante-trois+Stations+du+T%C5%8Dkaid%C5%8D%7CCent+vues+d%27Edo%7CTrois+Beaut%C3%A9s+de+notre+temps%7C%C5%8Ctani+Oniji+III+dans+le+r%C3%B4le+du+valet+Edobei%7CIris+%C3%A0+Yatsuhashi+%28paravent%29%7CDieux+du+vent+et+du+tonnerre+%28paravent%29%7CPaysage+d%27hiver%7CLe+Jour+de+Qingming+au+bord+de+la+rivi%C3%A8re%7CRouleau+des+conseils+aux+monitrices+du+palais%7CVoyageurs+parmi+les+montagnes+et+les+ruisseaux%7CD%C3%A9but+du+printemps%7CDanse+et+chant+%28Paysans+revenant+du+travail%29%7CLe+Mont+Lu",
+  "retrievedAt": "2026-10-30T01:42:26.921Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "La Colonne sans fin",
+          "to": "Colonne sans fin"
+        },
+        {
+          "from": "Le Jour de Qingming au bord de la rivière",
+          "to": "La Fête de Qingming au bord de la rivière"
+        },
+        {
+          "from": "Le Fuji par temps clair",
+          "to": "Vent frais par matin clair"
+        },
+        {
+          "from": "La Colonne brisée",
+          "to": "La Colonne brisée (Poirier)"
+        },
+        {
+          "from": "Portrait de Jeanne Hébuterne",
+          "to": "Jeanne Hébuterne assise"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Le Mont Lu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Mont_Lu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Mont_Lu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Mont_Lu"
+        },
+        {
+          "ns": 0,
+          "title": "Danse et chant (Paysans revenant du travail)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Danse_et_chant_(Paysans_revenant_du_travail)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Danse_et_chant_(Paysans_revenant_du_travail)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Danse_et_chant_(Paysans_revenant_du_travail)"
+        },
+        {
+          "ns": 0,
+          "title": "Début du printemps",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/D%C3%A9but_du_printemps",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=D%C3%A9but_du_printemps&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/D%C3%A9but_du_printemps"
+        },
+        {
+          "ns": 0,
+          "title": "Voyageurs parmi les montagnes et les ruisseaux",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Voyageurs_parmi_les_montagnes_et_les_ruisseaux",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Voyageurs_parmi_les_montagnes_et_les_ruisseaux&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Voyageurs_parmi_les_montagnes_et_les_ruisseaux"
+        },
+        {
+          "ns": 0,
+          "title": "Rouleau des conseils aux monitrices du palais",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Rouleau_des_conseils_aux_monitrices_du_palais",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Rouleau_des_conseils_aux_monitrices_du_palais&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Rouleau_des_conseils_aux_monitrices_du_palais"
+        },
+        {
+          "ns": 0,
+          "title": "Dieux du vent et du tonnerre (paravent)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Dieux_du_vent_et_du_tonnerre_(paravent)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Dieux_du_vent_et_du_tonnerre_(paravent)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Dieux_du_vent_et_du_tonnerre_(paravent)"
+        },
+        {
+          "ns": 0,
+          "title": "Iris à Yatsuhashi (paravent)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Iris_%C3%A0_Yatsuhashi_(paravent)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Iris_%C3%A0_Yatsuhashi_(paravent)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Iris_%C3%A0_Yatsuhashi_(paravent)"
+        },
+        {
+          "ns": 0,
+          "title": "Ōtani Oniji III dans le rôle du valet Edobei",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/%C5%8Ctani_Oniji_III_dans_le_r%C3%B4le_du_valet_Edobei",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=%C5%8Ctani_Oniji_III_dans_le_r%C3%B4le_du_valet_Edobei&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/%C5%8Ctani_Oniji_III_dans_le_r%C3%B4le_du_valet_Edobei"
+        },
+        {
+          "ns": 0,
+          "title": "Trois Beautés de notre temps",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Trois_Beaut%C3%A9s_de_notre_temps",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Trois_Beaut%C3%A9s_de_notre_temps&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Trois_Beaut%C3%A9s_de_notre_temps"
+        },
+        {
+          "ns": 0,
+          "title": "Le Jardin des pruniers à Kameido",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Jardin_des_pruniers_%C3%A0_Kameido",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Jardin_des_pruniers_%C3%A0_Kameido&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Jardin_des_pruniers_%C3%A0_Kameido"
+        },
+        {
+          "ns": 0,
+          "title": "Averse soudaine sur le pont Shin-Ōhashi et Atake",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Averse_soudaine_sur_le_pont_Shin-%C5%8Chashi_et_Atake",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Averse_soudaine_sur_le_pont_Shin-%C5%8Chashi_et_Atake&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Averse_soudaine_sur_le_pont_Shin-%C5%8Chashi_et_Atake"
+        },
+        {
+          "ns": 0,
+          "title": "Orage sous le sommet",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Orage_sous_le_sommet",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Orage_sous_le_sommet&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Orage_sous_le_sommet"
+        },
+        {
+          "ns": 0,
+          "title": "L'Histoire du Mexique (fresques)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Histoire_du_Mexique_(fresques)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Histoire_du_Mexique_(fresques)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Histoire_du_Mexique_(fresques)"
+        },
+        {
+          "ns": 0,
+          "title": "L'Hôpital Henry-Ford",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27H%C3%B4pital_Henry-Ford",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27H%C3%B4pital_Henry-Ford&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27H%C3%B4pital_Henry-Ford"
+        },
+        {
+          "ns": 0,
+          "title": "Autoportrait aux cheveux coupés",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Autoportrait_aux_cheveux_coup%C3%A9s",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Autoportrait_aux_cheveux_coup%C3%A9s&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Autoportrait_aux_cheveux_coup%C3%A9s"
+        },
+        {
+          "ns": 0,
+          "title": "Nu couché (Modigliani)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Nu_couch%C3%A9_(Modigliani)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Nu_couch%C3%A9_(Modigliani)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Nu_couch%C3%A9_(Modigliani)"
+        },
+        {
+          "pageid": 2032158,
+          "ns": 0,
+          "title": "La Grande Vague de Kanagawa",
+          "pageprops": {
+            "defaultsort": "Grande vague de Kanagawa",
+            "displaytitle": "<i>La Grande Vague de Kanagawa</i>",
+            "page_image_free": "Tsunami_by_hokusai_19th_century.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase_item": "Q252485"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:06Z",
+          "lastrevid": 240746167,
+          "length": 72681,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Grande_Vague_de_Kanagawa",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Grande_Vague_de_Kanagawa&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Grande_Vague_de_Kanagawa"
+        },
+        {
+          "pageid": 2195433,
+          "ns": 0,
+          "title": "Les Deux Fridas",
+          "pageprops": {
+            "defaultsort": "Deux Fridas, Les",
+            "displaytitle": "<i>Les Deux Fridas</i>",
+            "wikibase_item": "Q3232010"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:09Z",
+          "lastrevid": 240486603,
+          "length": 4470,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Deux_Fridas",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Deux_Fridas&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Deux_Fridas"
+        },
+        {
+          "pageid": 2683556,
+          "ns": 0,
+          "title": "Colonne sans fin",
+          "pageprops": {
+            "displaytitle": "<i>Colonne sans fin</i>",
+            "page_image_free": "Stamp_of_Moldova_224.gif",
+            "wikibase_item": "Q2628659"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:23Z",
+          "lastrevid": 234667542,
+          "length": 4767,
+          "fullurl": "https://fr.wikipedia.org/wiki/Colonne_sans_fin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Colonne_sans_fin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Colonne_sans_fin"
+        },
+        {
+          "pageid": 2709514,
+          "ns": 0,
+          "title": "Paysage d'hiver",
+          "pageprops": {
+            "displaytitle": "<i>Paysage d'hiver</i>",
+            "page_image_free": "Bruegel,_Pieter_(I)_-_Winterlandschap_met_schaatsers_en_vogelknip,_1565.jpg",
+            "wikibase_item": "Q3373687"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:25Z",
+          "lastrevid": 222491204,
+          "length": 16112,
+          "fullurl": "https://fr.wikipedia.org/wiki/Paysage_d%27hiver",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Paysage_d%27hiver&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Paysage_d%27hiver"
+        },
+        {
+          "pageid": 2764178,
+          "ns": 0,
+          "title": "Le Rêve de la femme du pêcheur",
+          "pageprops": {
+            "defaultsort": "Rêve de la femme du pecheur",
+            "displaytitle": "<i>Le Rêve de la femme du pêcheur</i>",
+            "page_image_free": "The_Dream_of_the_Fisherman's_Wife,_British_Museum,_version_1_(cropped).jpg",
+            "wikibase_item": "Q2717022"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:32Z",
+          "lastrevid": 239487134,
+          "length": 6487,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_R%C3%AAve_de_la_femme_du_p%C3%AAcheur",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_R%C3%AAve_de_la_femme_du_p%C3%AAcheur&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_R%C3%AAve_de_la_femme_du_p%C3%AAcheur"
+        },
+        {
+          "pageid": 3493971,
+          "ns": 0,
+          "title": "Les Cinquante-trois Stations du Tōkaidō",
+          "pageprops": {
+            "defaultsort": "Cinquante-trois Stations du Tokaido",
+            "displaytitle": "<i>Les Cinquante-trois Stations du Tōkaidō</i>",
+            "page_image_free": "Memorial_Portrait_of_Hiroshige,_by_Kunisada.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q243248"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:34Z",
+          "lastrevid": 240734128,
+          "length": 66723,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Cinquante-trois_Stations_du_T%C5%8Dkaid%C5%8D",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Cinquante-trois_Stations_du_T%C5%8Dkaid%C5%8D&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Cinquante-trois_Stations_du_T%C5%8Dkaid%C5%8D"
+        },
+        {
+          "pageid": 3498999,
+          "ns": 0,
+          "title": "Cent vues d'Edo",
+          "pageprops": {
+            "defaultsort": "Cent Vues d'Edo",
+            "displaytitle": "<i><span class=\"lang-fr\" lang=\"fr\">Cent vues d'Edo</span></i>",
+            "page_image_free": "100_views_edo_057.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q165190"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:35Z",
+          "lastrevid": 238003957,
+          "length": 202158,
+          "fullurl": "https://fr.wikipedia.org/wiki/Cent_vues_d%27Edo",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Cent_vues_d%27Edo&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Cent_vues_d%27Edo"
+        },
+        {
+          "pageid": 4079803,
+          "ns": 0,
+          "title": "La Fête de Qingming au bord de la rivière",
+          "pageprops": {
+            "defaultsort": "Fête de Qingming au bord de la rivière",
+            "displaytitle": "<i>La Fête de Qingming au bord de la rivière</i>",
+            "wikibase_item": "Q714802"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:31Z",
+          "lastrevid": 203907884,
+          "length": 3592,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_F%C3%AAte_de_Qingming_au_bord_de_la_rivi%C3%A8re",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_F%C3%AAte_de_Qingming_au_bord_de_la_rivi%C3%A8re&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_F%C3%AAte_de_Qingming_au_bord_de_la_rivi%C3%A8re"
+        },
+        {
+          "pageid": 7789698,
+          "ns": 0,
+          "title": "L'Homme contrôleur de l'univers",
+          "pageprops": {
+            "defaultsort": "Homme controleur de l'univers",
+            "displaytitle": "<i>L'Homme contrôleur de l'univers</i>",
+            "page_image_free": "Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_(1934).JPG",
+            "wikibase_item": "Q6746081"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:13Z",
+          "lastrevid": 236497773,
+          "length": 2092,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Homme_contr%C3%B4leur_de_l%27univers",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Homme_contr%C3%B4leur_de_l%27univers&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Homme_contr%C3%B4leur_de_l%27univers"
+        },
+        {
+          "pageid": 8089611,
+          "ns": 0,
+          "title": "La Colonne brisée (Poirier)",
+          "pageprops": {
+            "defaultsort": "Colonne brisée",
+            "displaytitle": "<i>La Colonne brisée</i> (Poirier)",
+            "wikibase_item": "Q17347097"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:33Z",
+          "lastrevid": 228810443,
+          "length": 4146,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Colonne_bris%C3%A9e_(Poirier)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Colonne_bris%C3%A9e_(Poirier)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Colonne_bris%C3%A9e_(Poirier)"
+        },
+        {
+          "pageid": 12463362,
+          "ns": 0,
+          "title": "Le Bœuf écorché",
+          "pageprops": {
+            "defaultsort": "Bœuf écorché",
+            "disambiguation": "",
+            "displaytitle": "<i>Le Bœuf écorché</i>",
+            "wikibase_item": "Q62916324"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:27:35Z",
+          "lastrevid": 219092675,
+          "length": 362,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_B%C5%93uf_%C3%A9corch%C3%A9",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_B%C5%93uf_%C3%A9corch%C3%A9&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_B%C5%93uf_%C3%A9corch%C3%A9"
+        },
+        {
+          "pageid": 12517109,
+          "ns": 0,
+          "title": "Autoportrait au collier d'épines et colibri",
+          "pageprops": {
+            "displaytitle": "<i>Autoportrait au collier d'épines et colibri</i>",
+            "wikibase_item": "Q5880026"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:04:28Z",
+          "lastrevid": 239089212,
+          "length": 2416,
+          "fullurl": "https://fr.wikipedia.org/wiki/Autoportrait_au_collier_d%27%C3%A9pines_et_colibri",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Autoportrait_au_collier_d%27%C3%A9pines_et_colibri&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Autoportrait_au_collier_d%27%C3%A9pines_et_colibri"
+        },
+        {
+          "pageid": 13231841,
+          "ns": 0,
+          "title": "Jeanne Hébuterne assise",
+          "pageprops": {
+            "displaytitle": "<i>Jeanne Hébuterne assise</i>",
+            "page_image_free": "Amedeo_Modigliani_-_Jeanne_Hébuterne_assise_-_MB-0115_-_Kunsthaus_Zürich.jpg",
+            "wikibase_item": "Q3937584"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:05:25Z",
+          "lastrevid": 213360704,
+          "length": 1614,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jeanne_H%C3%A9buterne_assise",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jeanne_H%C3%A9buterne_assise&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jeanne_H%C3%A9buterne_assise"
+        },
+        {
+          "pageid": 14595327,
+          "ns": 0,
+          "title": "Vent frais par matin clair",
+          "pageprops": {
+            "defaultsort": "Vent frais par matin clair",
+            "displaytitle": "<i>Vent frais par matin clair</i>",
+            "page_image_free": "「富嶽三十六景_凱風快晴」-South_Wind,_Clear_Sky_(Gaifū_kaisei),_also_known_as_Red_Fuji,_from_the_series_Thirty-six_Views_of_Mount_Fuji_(Fugaku_sanjūrokkei)_MET_DP141062.jpg",
+            "wikibase_item": "Q3565037"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:07:09Z",
+          "lastrevid": 232432185,
+          "length": 3188,
+          "fullurl": "https://fr.wikipedia.org/wiki/Vent_frais_par_matin_clair",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Vent_frais_par_matin_clair&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Vent_frais_par_matin_clair"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "8ad43fc41035e5e51a55205ff7e4a21752bab3830ad21711fe3cf93422c06b35"
+}

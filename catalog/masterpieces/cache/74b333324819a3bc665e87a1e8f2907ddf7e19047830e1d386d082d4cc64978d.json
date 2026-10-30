@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Water+Lilies+Monet",
+  "retrievedAt": "2026-10-30T00:47:57.831Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 169.94693,
+        "id": 16568,
+        "title": "Water Lilies",
+        "main_reference_number": "1933.1157",
+        "date_display": "1906",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "3c27b499-af56-f0d5-93b5-a7f2f1ad5813"
+      },
+      {
+        "_score": 142.75253,
+        "id": 87088,
+        "title": "Water Lily Pond",
+        "main_reference_number": "1933.441",
+        "date_display": "1900",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "8534685d-1102-e1e3-e194-94f6e925e8b0"
+      },
+      {
+        "_score": 127.63681,
+        "id": 97933,
+        "title": "Water Lily Pond",
+        "main_reference_number": "1982.825",
+        "date_display": "1917–19",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "7a23ad22-2044-6d7d-6315-9b101dadc559"
+      },
+      {
+        "_score": 122.52281,
+        "id": 16571,
+        "title": "Arrival of the Normandy Train, Gare Saint-Lazare",
+        "main_reference_number": "1933.1158",
+        "date_display": "1877",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "0f1cc0e0-e42e-be16-3f71-2022da38cb93"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "c5c970f075789ee1b6fe76b31443a6bb5098c4739647508645e763ab64fe4c42"
+}

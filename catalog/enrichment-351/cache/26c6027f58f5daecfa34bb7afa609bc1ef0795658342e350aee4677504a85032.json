@@ -1,0 +1,1502 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3ADelle+vite+de%27+pi%C3%B9+eccellenti+pittori%2C+scultori%2C+et+architetti+%281648%29+%2814799608033%29.jpg%7CFile%3AResurrection+detail.JPG%7CFile%3ARogier+van+der+Weyden+by+Jan+Wierix%2C+1572.jpg%7CFile%3APetrus+christus%2C+ritratto+d%27uomo+con+falcone.jpg%7CFile%3AGiuseppe+Arcimboldo+-+Self+Portrait+-+Google+Art+Project.jpg%7CFile%3AArtemisia+Gentileschi+Selfportrait+Martyr.jpg%7CFile%3ARembrandt+van+Rijn+-+Self-Portrait+-+Google+Art+Project.jpg%7CFile%3ACropped+version+of+Jan+Vermeer+van+Delft+002.jpg%7CFile%3ADiego+Vel%C3%A1zquez+Autorretrato+45+x+38+cm+-+Colecci%C3%B3n+Real+Academia+de+Bellas+Artes+de+San+Carlos+-+Museo+de+Bellas+Artes+de+Valencia.jpg%7CFile%3ASir+Peter+Paul+Rubens+-+Portrait+of+the+Artist+-+Google+Art+Project.jpg%7CFile%3ANicolas+Poussin+078.jpg%7CFile%3ALa+Tour.jpg%7CFile%3AFrancisco+de+Zurbar%C3%A1n+autoportrait.jpg%7CFile%3AJean-Honor%C3%A9+Fragonard+self-portrait.jpg%7CFile%3A%28Treviso%29+The+painter+Antoine+Watteau+by+Rosalba+Carriera+-+Museo+civico+di+Santa+Caterina.jpg",
+  "retrievedAt": "2026-10-30T01:48:14.470Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 157617,
+          "ns": 6,
+          "title": "File:Nicolas Poussin 078.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 229295,
+              "width": 1152,
+              "height": 1500,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nicolas_Poussin_078.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2083,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nicolas_Poussin_078.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2083
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Nicolas_Poussin_078.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nicolas_Poussin_078.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157617",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-02-13 01:11:35",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Self portrait of Nicolas Poussin (1594-1665) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q16690724#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Self portrait of Nicolas Poussin (1594-1665) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q16690724#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Self portrait of Nicolas Poussin (1594-1665) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q16690724#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Autorretrato\"</div><div style=\"display: none;\">label QS:Lhu,\"Önarckép\"</div><div style=\"display: none;\">label QS:Lnds,\"Sülvstporträt\"</div><div style=\"display: none;\">label QS:Lcy,\"Hunanbortread\"</div><div style=\"display: none;\">label QS:Lga,\"féinphortráid\"</div><div style=\"display: none;\">label QS:Lhy,\"Ինքնապատկեր\"</div><div style=\"display: none;\">label QS:Lzh,\"自画像\"</div><div style=\"display: none;\">label QS:Lda,\"Selvportræt\"</div><div style=\"display: none;\">label QS:Lro,\"Autoportret\"</div><div style=\"display: none;\">label QS:Lja,\"自画像\"</div><div style=\"display: none;\">label QS:Lsk,\"Autoportrét\"</div><div style=\"display: none;\">label QS:Luk,\"Автопортрет Пуссена 1650 року\"</div><div style=\"display: none;\">label QS:Lla,\"Effigies sui ipsius\"</div><div style=\"display: none;\">label QS:Lfi,\"Omakuva\"</div><div style=\"display: none;\">label QS:Lkk,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Leo,\"Memportreto\"</div><div style=\"display: none;\">label QS:Lbs,\"Autoportret\"</div><div style=\"display: none;\">label QS:Lit,\"Autoritratto\"</div><div style=\"display: none;\">label QS:Lfr,\"Portrait de l'artiste\"</div><div style=\"display: none;\">label QS:Lhr,\"Autoportret\"</div><div style=\"display: none;\">label QS:Lsv,\"Självporträtt\"</div><div style=\"display: none;\">label QS:Lvec,\"Autoritrato\"</div><div style=\"display: none;\">label QS:Lpt,\"Auto-retrato\"</div><div style=\"display: none;\">label QS:Lbr,\"Emboltred\"</div><div style=\"display: none;\">label QS:Lbg,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Llt,\"Autoportretas\"</div><div style=\"display: none;\">label QS:Lsr,\"Аутопортрет\"</div><div style=\"display: none;\">label QS:Lsl,\"Avtoportret\"</div><div style=\"display: none;\">label QS:Lru,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lmk,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lde,\"Selbstporträt\"</div><div style=\"display: none;\">label QS:Lth,\"ภาพเหมือนตนเอง\"</div><div style=\"display: none;\">label QS:Lpl,\"Autoportret\"</div><div style=\"display: none;\">label QS:Let,\"Autoportree\"</div><div style=\"display: none;\">label QS:Lnl,\"Zelfportret\"</div><div style=\"display: none;\">label QS:Lbe,\"Аўтапартрэт\"</div><div style=\"display: none;\">label QS:Lfa,\"چهرهٔ خود\"</div><div style=\"display: none;\">label QS:Lhe,\"דיוקן עצמי\"</div><div style=\"display: none;\">label QS:Lca,\"Autoretrat\"</div><div style=\"display: none;\">label QS:Lgl,\"Autorretrato\"</div><div style=\"display: none;\">label QS:Lar,\"بورتريه ذاتي\"</div><div style=\"display: none;\">label QS:Lel,\"Αυτοπροσωπογραφία\"</div><div style=\"display: none;\">label QS:Lcs,\"Autoportrét\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Autoportrait - Nicolas Poussin - Louvre INV 7302|PD-old-100-expired|PD-Art (PD-old-100-expired)|PD-Art (Yorck Project)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Yorck Project paintings missing described by source|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nicolas_Poussin\" class=\"extiw\" title=\"w:en:Nicolas Poussin\"><span title=\"French painter (1594-1665)\">Nicolas Poussin</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1650 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q16690724#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<cite class=\"book\" style=\"font-style:normal\">The Yorck Project (2002)      <i> 10.000 Meisterwerke der Malerei</i> (DVD-ROM), distributed by <a href=\"//commons.wikimedia.org/wiki/Commons:10,000_paintings_from_Directmedia\" title=\"Commons:10,000 paintings from Directmedia\">DIRECTMEDIA</a> Publishing GmbH.  <small><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/ISBN\" class=\"extiw\" title=\"en:ISBN\"><span lang=\"en\" dir=\"ltr\">ISBN</span></a></span>:  <a href=\"//commons.wikimedia.org/wiki/Special:BookSources/3936122202\" title=\"Special:BookSources/3936122202\">3936122202</a>. </small></cite>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<i>The work of art depicted in this image and the reproduction thereof are in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> worldwide. The reproduction is part of a <a href=\"//commons.wikimedia.org/wiki/Commons:10,000_paintings_from_Directmedia\" title=\"Commons:10,000 paintings from Directmedia\">collection of reproductions compiled by <i>The Yorck Project</i></a>. The compilation copyright is held by </i><a href=\"https://en.wikipedia.org/wiki/Directmedia_Publishing\" class=\"extiw\" title=\"en:Directmedia Publishing\">Zenodot Verlagsgesellschaft mbH</a><i> and licensed under the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.fsf.org/licensing/licenses/fdl.html\">GNU Free Documentation License</a>.</i>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 375281,
+          "ns": 6,
+          "title": "File:Francisco de Zurbarán autoportrait.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1290560,
+              "width": 953,
+              "height": 1164,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Francisco_de_Zurbar%C3%A1n_autoportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1954,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Francisco_de_Zurbar%C3%A1n_autoportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1954
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Francisco_de_Zurbar%C3%A1n_autoportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Francisco_de_Zurbar%C3%A1n_autoportrait.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=375281",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-07-22 20:16:24",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">Saint Luke as a Painter before Christ on the Cross.</div><div style=\"display: none;\">label QS:Lde,\"Hl. Lukas als Maler vor dem Gekreuzigten\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-auto-expired)|PD-Art (Yorck Project)|Artworks with Wikidata item|Artworks with known accession number|Self-portraits in Spain|1630s portrait paintings|CC-PD-Mark|Artworks with accession number from Wikidata|17th-century oil portraits of men at half length|17th-century portrait paintings in the Museo del Prado|1630s paintings in the Museo del Prado|17th-century paintings of Luke the Evangelist|17th-century portrait paintings of bearded men|17th-century self-portrait paintings of men from Spain|Paintings of male saints by Zurbarán|17th-century profile portrait paintings of men, facing left|Portrait paintings of men with right hand on chest|Paintings by Zurbarán in the Museo del Prado|Yorck Project paintings missing described by source|Artworks digital representation of 2D work|Men looking up in art|Self-portrait paintings holding palette and brushes|Baroque paintings of men|Details of paintings by Francisco de Zurbarán|Crucifixion by Francisco de Zurbarán in the Museo del Prado",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Francisco_de_Zurbar%C3%A1n\" class=\"extiw\" title=\"w:en:Francisco de Zurbarán\"><span title=\"Spanish painter (1598–1664)\">Francisco de Zurbarán</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\ndetail: Possibly Self-portrait <a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.wga.hu/frames-e.html?/html/z/zurbaran/2/st_luke.html\">[1]</a><a rel=\"nofollow\" class=\"external autonumber\" href=\"https://www.jstor.org/stable/869075\">[2]</a><a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.answers.com/topic/francisco-zurbar-n\">[3]</a></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1635-1640",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<cite class=\"book\" style=\"font-style:normal\">The Yorck Project (2002)      <i> 10.000 Meisterwerke der Malerei</i> (DVD-ROM), distributed by <a href=\"//commons.wikimedia.org/wiki/Commons:10,000_paintings_from_Directmedia\" title=\"Commons:10,000 paintings from Directmedia\">DIRECTMEDIA</a> Publishing GmbH.  <small><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/ISBN\" class=\"extiw\" title=\"en:ISBN\"><span lang=\"en\" dir=\"ltr\">ISBN</span></a></span>:  <a href=\"//commons.wikimedia.org/wiki/Special:BookSources/3936122202\" title=\"Special:BookSources/3936122202\">3936122202</a>. </small></cite>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<a class=\"external autonumber\" data-mw-original-href=\"http://mail.wikipedia.org/pipermail/wikide-l/2005-April/012195.html\" href=\"https://mail.wikipedia.org/pipermail/wikide-l/2005-April/012195.html\">[4]</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 540154,
+          "ns": 6,
+          "title": "File:La Tour.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3602565,
+              "width": 4360,
+              "height": 5136,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/La_Tour.jpg/1920px-La_Tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1885,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/La_Tour.jpg/3840px-La_Tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/La_Tour.jpg/1920px-La_Tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1885,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/La_Tour.jpg/3840px-La_Tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/La_Tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_Tour.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=540154",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-03-05 20:19:26",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Saint Joseph charpentier",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Images from Web Gallery of Art|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work|17th-century paintings of Saint Joseph and Jesus Christ as a child|Paintings by Georges de La Tour in the Musée des Beaux-Arts de Besançon|Woodworking hand augers",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Georges_de_La_Tour\" class=\"extiw\" title=\"w:en:Georges de La Tour\"><span title=\"Lorrain painter (1593–1652)\">Georges de La Tour</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Saint Joseph, patron des charpentiers, travaille une poutre devant l'Enfant Jésus qui semble déjà y voir le bois de sa croix.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1640s<div style=\"display: none;\">date QS:P571,+1640-00-00T00:00:00Z/8</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<ul><li><a href=\"https://en.wikipedia.org/wiki/en:Web_Gallery_of_Art\" class=\"extiw\" title=\"w:en:Web Gallery of Art\"><span title=\"virtual art gallery for European fine art created before 1900\">Web Gallery of Art</span></a>:  <span typeof=\"mw:File\"><a href=\"http://www.wga.hu/art/l/la_tour/georges/2/06carpe.jpg\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/20px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/40px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"60\" data-file-height=\"60\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wga.hu/art/l/la_tour/georges/2/06carpe.jpg\">Image</a> <span typeof=\"mw:File\"><a href=\"http://www.wga.hu/html/l/la_tour/georges/2/06carpe.html\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wga.hu/html/l/la_tour/georges/2/06carpe.html\">Info about artwork</a><div style=\"display: none;\">wga QS:P11807,\"l/la_tour/georges/2/06carpe\"</div></li>\n<li><a rel=\"nofollow\" class=\"external free\" href=\"http://www.magnificat.com/lifeteen/\">http://www.magnificat.com/lifeteen/</a> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.magnificat.com/lifeteen/images/hd/1.jpg\">image</a></li></ul>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"clear:both; margin:0.5em auto; background-color: var(--background-color-interactive, #f0f0f0); color: inherit; border: 2px solid var(--border-color-subtle, #e0e0e0); width:100%;\" class=\"layouttemplate\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td>\n<div class=\"center\">This is a faithful photographic reproduction of a two-dimensional, <a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">public domain</a> work of art. The work of art itself is in the public domain for the following reason:</div>\n<div dir=\"auto\">\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1652, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span></div>\n<div class=\"center\">The official position taken by the Wikimedia Foundation is that \"<i>faithful reproductions of two-dimensional public domain works of art are public domain</i>\".<br><b>This photographic reproduction is therefore also considered to be in the public domain in the United States.</b> In other jurisdictions, re-use of this content may be restricted; <b>see <a href=\"//commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs\" title=\"Commons:Reuse of PD-Art photographs\">Reuse of PD-Art photographs</a> for details.</b></div> \n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 787649,
+          "ns": 6,
+          "title": "File:Resurrection detail.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 56023,
+              "width": 170,
+              "height": 187,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Resurrection_detail.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1760,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Resurrection_detail.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1760
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Resurrection_detail.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Resurrection_detail.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=787649",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-07-30 14:15:29",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Resurrection detail",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Files with no machine-readable author|Files with no machine-readable source|Resurrection by Piero della Francesca|Sleeping guards at the tomb of Christ|Media missing infobox template|PD Old|CC-PD-Mark|15th-century self-portrait paintings of men from Italy|Portraits of Piero della Francesca|PD-old missing SDC copyright status|Details of 15th-century paintings|Self-portraits in Italian Renaissance frescos",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 1441104,
+          "ns": 6,
+          "title": "File:Artemisia Gentileschi Selfportrait Martyr.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 191384,
+              "width": 800,
+              "height": 1073,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2146,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2146
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Artemisia_Gentileschi_Selfportrait_Martyr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Artemisia_Gentileschi_Selfportrait_Martyr.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1441104",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2006-12-08 10:54:12",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Italian:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>Autoritratto come martire <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3630748#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Self-Portrait as a Female Martyr</i></div></div><div style=\"display: none;\">title QS:P1476,it:\"Autoritratto come martire <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3630748#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Autoritratto come martire <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3630748#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Autoritratto come martire\"</div><div style=\"display: none;\">label QS:Lpt-br,\"Autorretrato como mártir feminino\"</div><div style=\"display: none;\">label QS:Lfr,\"Autoportrait en martyre\"</div><div style=\"display: none;\">label QS:Lbr,\"Emboltred evel merzherez\"</div><div style=\"display: none;\">label QS:Lru,\"Автопортрет в образе мученицы\"</div><div style=\"display: none;\">label QS:Lde,\"(Selbstbildnis als) Märtyrerin\"</div><div style=\"display: none;\">label QS:Lml,\"സെൽഫ്-പോർട്രയിറ്റ് ആസ് എ ഫീമെയ്ൽ മാർട്ടിർ\"</div><div style=\"display: none;\">label QS:Lnl,\"Zelfportret als martelares\"</div><div style=\"display: none;\">label QS:Lavk,\"Mivdelt ton awalkexik (trutca ke Gentileschi)\"</div><div style=\"display: none;\">label QS:Lpt,\"Autorretrato como mártir feminino\"</div><div style=\"display: none;\">label QS:Len,\"Self-Portrait as a Female Martyr\"</div><div style=\"display: none;\">label QS:Lhy,\"Որպես կին-նահատակ ինքնադիմանկար\"</div><div style=\"display: none;\">label QS:Lda,\"Selvportræt som martyr\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Saints by Artemisia Gentileschi|CC-PD-Mark|17th-century oil portraits of women at bust length|17th-century portrait paintings in the United States|17th-century self-portrait paintings of women|Blue headwear in art|17th-century three-quarter view portrait paintings of women, facing left and looking at viewer|Images from the-athenaeum.org|1610s portrait paintings from Italy (female)|1610s self-portrait paintings of women|Artworks digital representation of 2D work|Chiaroscuro portrait paintings|Paintings of Christian saints holding the martyr's palm|Baroque self-portraits of women|Self-Portrait as a Female Martyr by Artemisia Gentileschi",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Artemisia_Gentileschi\" class=\"extiw\" title=\"w:en:Artemisia Gentileschi\"><span title=\"Italian Baroque painter (1593-1651)\">Artemisia Gentileschi</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://it.wikipedia.org/wiki/Autoritratto_come_martire\" class=\"extiw\" title=\"it:Autoritratto come martire\">Autoritratto come martire</a>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1615 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3630748#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "The Athenaeum:  <a rel=\"nofollow\" class=\"external text\" href=\"http://www.the-athenaeum.org\">Home page</a> – <a rel=\"nofollow\" class=\"external text\" href=\"http://www.the-athenaeum.org/art/detail.php?ID=23446\">Source</a> – <a rel=\"nofollow\" class=\"external text\" href=\"http://www.the-athenaeum.org/art/full.php?ID=23446\">Image</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 1963704,
+          "ns": 6,
+          "title": "File:Diego Velázquez Autorretrato 45 x 38 cm - Colección Real Academia de Bellas Artes de San Carlos - Museo de Bellas Artes de Valencia.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 376497,
+              "width": 945,
+              "height": 1119,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1895,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1895
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1963704",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-07-03 17:16:18",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Self Portrait</i></div></div><div style=\"display: none;\">label QS:Lit,\"<a href=\"https://it.wikipedia.org/wiki/Autoritratto_(Vel%C3%A1zquez)\" class=\"extiw\" title=\"it:Autoritratto (Velázquez)\">Autoritratto</a>\"</div><div style=\"display: none;\">label QS:Lfr,\"<a href=\"https://fr.wikipedia.org/wiki/Autoportrait_(V%C3%A9lasquez)\" class=\"extiw\" title=\"fr:Autoportrait (Vélasquez)\">Autoportrait</a>\"</div><div style=\"display: none;\">label QS:Les,\"<a href=\"https://es.wikipedia.org/wiki/Autorretrato_(Vel%C3%A1zquez)\" class=\"extiw\" title=\"es:Autorretrato (Velázquez)\">Autorretrato</a>\"</div><div style=\"display: none;\">label QS:Lca,\"<a href=\"https://ca.wikipedia.org/wiki/Autoretrat_(Vel%C3%A1zquez)\" class=\"extiw\" title=\"ca:Autoretrat (Velázquez)\">Autoretrat</a>\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Self-portraits in Spain|CC-PD-Mark|Objects with inscriptions (language unspecified)|Self-Portrait by Diego Velázquez (Museu de Belles Arts de València)|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Diego_Vel%C3%A1zquez\" class=\"extiw\" title=\"w:en:Diego Velázquez\"><span title=\"Spanish painter (1599–1660)\">Diego Velázquez</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Autorretrato del pintor español <b><a href=\"//commons.wikimedia.org/wiki/Diego_Vel%C3%A1zquez\" title=\"Diego Velázquez\">Diego Velázquez</a></b> (1599-1660), nacido en <a href=\"//commons.wikimedia.org/wiki/Sevilla\" title=\"Sevilla\">Sevilla</a> y uno de los más destcados pintores del <a href=\"//commons.wikimedia.org/wiki/Baroque_paintings\" title=\"Baroque paintings\">barroco español</a>. Esta obra fue donada por <a href=\"https://es.wikipedia.org/wiki/Francisco_Mart%C3%ADnez_Blanch\" class=\"extiw\" title=\"es:Francisco Martínez Blanch\">Francisco Martínez Blanch</a> a la <a href=\"https://es.wikipedia.org/wiki/Real_Academia_de_Bellas_Artes_de_San_Carlos\" class=\"extiw\" title=\"es:Real Academia de Bellas Artes de San Carlos\">Real Academia de Bellas Artes de San Carlos</a> de <a href=\"//commons.wikimedia.org/wiki/Valencia\" class=\"mw-redirect\" title=\"Valencia\">Valencia</a> en 1835.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1650<div style=\"display: none;\">date QS:P571,+1650-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.cult.gva.es/mbav/data/0572.jpg\">[2]</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"clear:both; margin:0.5em auto; background-color: var(--background-color-interactive, #f0f0f0); color: inherit; border: 2px solid var(--border-color-subtle, #e0e0e0); width:100%;\" class=\"layouttemplate\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td>\n<div class=\"center\">This is a faithful photographic reproduction of a two-dimensional, <a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">public domain</a> work of art. The work of art itself is in the public domain for the following reason:</div>\n<div dir=\"auto\">\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1660, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span></div>\n<div class=\"center\">The official position taken by the Wikimedia Foundation is that \"<i>faithful reproductions of two-dimensional public domain works of art are public domain</i>\".<br><b>This photographic reproduction is therefore also considered to be in the public domain in the United States.</b> In other jurisdictions, re-use of this content may be restricted; <b>see <a href=\"//commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs\" title=\"Commons:Reuse of PD-Art photographs\">Reuse of PD-Art photographs</a> for details.</b></div> \n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 7655017,
+          "ns": 6,
+          "title": "File:Cropped version of Jan Vermeer van Delft 002.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 158312,
+              "width": 1016,
+              "height": 1413,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2225,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2225
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=7655017",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-07-09 17:23:50",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<i>The Procuress</i>.</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The procuress by Johannes Vermeer|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Men facing right in art|Artworks with mismatching digital representation of|Artworks digital representation of 2D work|Presumed self-portraits",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johannes_Vermeer\" class=\"extiw\" title=\"w:en:Johannes Vermeer\"><span title=\"Dutch painter (1632–1675)\">Johannes Vermeer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "The only supposed portrait of Jan Vermeer.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1656<div style=\"display: none;\">date QS:P571,+1656-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Het Mauritshuis: De jonge Vermeer",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"clear:both; margin:0.5em auto; background-color: var(--background-color-interactive, #f0f0f0); color: inherit; border: 2px solid var(--border-color-subtle, #e0e0e0); width:100%;\" class=\"layouttemplate\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td>\n<div class=\"center\">This is a faithful photographic reproduction of a two-dimensional, <a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">public domain</a> work of art. The work of art itself is in the public domain for the following reason:</div>\n<div dir=\"auto\">\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1675, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span></div>\n<div class=\"center\">The official position taken by the Wikimedia Foundation is that \"<i>faithful reproductions of two-dimensional public domain works of art are public domain</i>\".<br><b>This photographic reproduction is therefore also considered to be in the public domain in the United States.</b> In other jurisdictions, re-use of this content may be restricted; <b>see <a href=\"//commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs\" title=\"Commons:Reuse of PD-Art photographs\">Reuse of PD-Art photographs</a> for details.</b></div> \n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 9691936,
+          "ns": 6,
+          "title": "File:Petrus christus, ritratto d'uomo con falcone.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 121506,
+              "width": 771,
+              "height": 1000,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Petrus_christus%2C_ritratto_d%27uomo_con_falcone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2075,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Petrus_christus%2C_ritratto_d%27uomo_con_falcone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2075
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Petrus_christus%2C_ritratto_d%27uomo_con_falcone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Petrus_christus,_ritratto_d%27uomo_con_falcone.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9691936",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-03-09 14:54:31",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Portrait of a Man with a Falcon</i></div></div><div style=\"display: none;\">label QS:Len,\"Portrait of a Man with a Falcon\"</div><div style=\"display: none;\">label QS:Lde,\"Bildnis eines Mannes mit Falken\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Silverpoint drawings|Images from Web Gallery of Art|Artworks without Wikidata item|PD-Art (PD-old-100)|Artworks with known accession number|1440s drawings|CC-PD-Mark|Male fur headgear in art|15th-century portrait drawings of men at bust length|Fur fashion in 1447|WGA files missing P6243 property|WGA School: Flemish|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|WGA time period: 1451-1500|WGA type: portrait|WGA form: graphics|Male portraits with fur clothing|Portraits with falcons|Drawings in the Städel|Drawings by Petrus Christus|Portraits by Petrus Christus",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Petrus_Christus\" class=\"extiw\" title=\"w:en:Petrus Christus\"><span title=\"Flemish painter (c.1410-1475)\">Petrus Christus</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1445 and 1450<div style=\"display: none;\">date QS:P571,+1450-00-00T00:00:00Z/7,P1319,+1445-00-00T00:00:00Z/9,P1326,+1450-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Web_Gallery_of_Art\" class=\"extiw\" title=\"w:en:Web Gallery of Art\"><span title=\"virtual art gallery for European fine art created before 1900\">Web Gallery of Art</span></a>:  <span typeof=\"mw:File\"><a href=\"http://www.wga.hu/art/c/christus/2/portr_fa.jpg\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/20px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/40px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"60\" data-file-height=\"60\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wga.hu/art/c/christus/2/portr_fa.jpg\">Image</a> <span typeof=\"mw:File\"><a href=\"http://www.wga.hu/html/c/christus/2/portr_fa.html\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wga.hu/html/c/christus/2/portr_fa.html\">Info about artwork</a><div style=\"display: none;\">wga QS:P11807,\"c/christus/2/portr_fa\"</div>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22127214,
+          "ns": 6,
+          "title": "File:Sir Peter Paul Rubens - Portrait of the Artist - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2830283,
+              "width": 3786,
+              "height": 5281,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg/1920px-Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2232,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg/1920px-Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2232,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sir_Peter_Paul_Rubens_-_Portrait_of_the_Artist_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22127214",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-10-17 04:33:36",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Portrait of the Artist <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19888550#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Portrait of the Artist <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19888550#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Portrait of the Artist <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19888550#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lru,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lcy,\"Hunanbortread\"</div><div style=\"display: none;\">label QS:Lga,\"féinphortráid\"</div><div style=\"display: none;\">label QS:Lfa,\"چهرهٔ خود\"</div><div style=\"display: none;\">label QS:Lbg,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lja,\"自画像\"</div><div style=\"display: none;\">label QS:Lsk,\"Autoportrét\"</div><div style=\"display: none;\">label QS:Luk,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lla,\"Effigies sui ipsius\"</div><div style=\"display: none;\">label QS:Lfi,\"Omakuva\"</div><div style=\"display: none;\">label QS:Lkk,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lbs,\"Autoportret\"</div><div style=\"display: none;\">label QS:Lit,\"Autoritratto 1623\"</div><div style=\"display: none;\">label QS:Lfr,\"Autoportrait\"</div><div style=\"display: none;\">label QS:Lhr,\"Autoportret\"</div><div style=\"display: none;\">label QS:Llt,\"Autoportretas\"</div><div style=\"display: none;\">label QS:Lsr,\"Аутопортрет\"</div><div style=\"display: none;\">label QS:Lsl,\"Avtoportret\"</div><div style=\"display: none;\">label QS:Lvec,\"Autoritrato\"</div><div style=\"display: none;\">label QS:Lel,\"Αυτοπροσωπογραφία\"</div><div style=\"display: none;\">label QS:Lbe,\"Аўтапартрэт\"</div><div style=\"display: none;\">label QS:Lth,\"ภาพเหมือนตนเอง\"</div><div style=\"display: none;\">label QS:Lmk,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lnds,\"Sülvstporträt\"</div><div style=\"display: none;\">label QS:Lnl,\"Zelfportret 1623\"</div><div style=\"display: none;\">label QS:Let,\"Autoportree\"</div><div style=\"display: none;\">label QS:Lhy,\"Ինքնապատկեր\"</div><div style=\"display: none;\">label QS:Lde,\"Selbstporträt\"</div><div style=\"display: none;\">label QS:Lzh,\"自画像\"</div><div style=\"display: none;\">label QS:Lhe,\"דיוקן עצמי (רובנס, לונדון)\"</div><div style=\"display: none;\">label QS:Lar,\"بورتريه ذاتي\"</div><div style=\"display: none;\">label QS:Lbr,\"Emboltred\"</div><div style=\"display: none;\">label QS:Lcs,\"Autoportrét\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-portrait (Rubens, 1623, Royal Collection of the United Kingdom)|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Google Art Project works by Peter Paul Rubens|Artworks digital representation of 2D work|Files from Google Arts & Culture",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Peter_Paul_Rubens\" class=\"extiw\" title=\"w:en:Peter Paul Rubens\"><span title=\"Flemish painter (1577–1640)\">Peter Paul Rubens</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1623 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q19888550#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/4wEv0AeyeA36qg\">4wEv0AeyeA36qg</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22491906,
+          "ns": 6,
+          "title": "File:Giuseppe Arcimboldo - Self Portrait - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5040811,
+              "width": 3765,
+              "height": 5592,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg/1920px-Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2376,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/8/81/Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg/1920px-Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2376,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/81/Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Arcimboldo_-_Self_Portrait_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22491906",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2021-01-16 17:15:52",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Self Portrait <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q12076091#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Self Portrait <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q12076091#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Self Portrait <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q12076091#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lro,\"Autoportret\"</div><div style=\"display: none;\">label QS:Lfr,\"Autoportrait\"</div><div style=\"display: none;\">label QS:Luk,\"Автопортрет Арчімбольдо\"</div><div style=\"display: none;\">label QS:Lru,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lcs,\"Vlastní podobizna\"</div><div style=\"display: none;\">label QS:Lit,\"Autoritratto\"</div><div style=\"display: none;\">label QS:Lde,\"Selbstporträt\"</div><div style=\"display: none;\">label QS:Lda,\"Selvportræt\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Giuseppe Arcimboldo Self-portrait|Google Art Project works in The National Gallery in Prague|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work|Files from Google Arts & Culture|Files with Assessments template missing SDC Commons no value quality assessment|Google Art Project works by Giuseppe Arcimboldo",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Giuseppe_Arcimboldo\" class=\"extiw\" title=\"w:en:Giuseppe Arcimboldo\"><span title=\"Italian painter of the late Renaissance (1527–1593)\">Giuseppe Arcimboldo</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1570s<div style=\"display: none;\">date QS:P,+1570-00-00T00:00:00Z/8</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q12076091#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Google Arts &amp; Culture:  <a rel=\"nofollow\" class=\"external text\" href=\"http://www.googleartproject.com/\">Home page</a> – <a rel=\"nofollow\" class=\"external text\" href=\"https://artsandculture.google.com/asset/3gHpTvmCqrcIlg\">Image</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 23594212,
+          "ns": 6,
+          "title": "File:Rembrandt van Rijn - Self-Portrait - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 81337881,
+              "width": 12243,
+              "height": 15859,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/1920px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2073,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/3840px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/1920px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2073,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/3840px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23594212",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-01-04 23:41:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">Self-portrait</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-portrait (Rembrandt, 1659)|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Objects with inscriptions in Latin needing translation|Artworks with Wikidata item|Artworks with known accession number|Large images|Unknown date|CC-PD-Mark|Google Art Project works by Rembrandt|Images from the National Gallery of Art|Google Art Project paintings|Featured pictures in the public domain|Featured pictures of paintings by Rembrandt|Artworks digital representation of 2D work|Files from Google Arts & Culture|Colnaghi (art gallery)|Google Art Project works in National Gallery of Art, Washington DC",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Rembrandt\" class=\"extiw\" title=\"w:en:Rembrandt\"><span title=\"Dutch painter and printmaker (1606–1669)\">Rembrandt</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1659<div style=\"display: none;\">date QS:P571,+1659-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/-gHQe8vbiHn2xw\">-gHQe8vbiHn2xw at Google Cultural Institute</a> maximum zoom level",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 33422863,
+          "ns": 6,
+          "title": "File:Rogier van der Weyden by Jan Wierix, 1572.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 342813,
+              "width": 860,
+              "height": 1396,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rogier_van_der_Weyden_by_Jan_Wierix%2C_1572.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2597,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rogier_van_der_Weyden_by_Jan_Wierix%2C_1572.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2597
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rogier_van_der_Weyden_by_Jan_Wierix%2C_1572.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rogier_van_der_Weyden_by_Jan_Wierix,_1572.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33422863",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-06-16 03:20:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Rogier van der Weyden by Jan Wierix, 1572",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Dominicus Lampsonius|Artworks without Wikidata item|PD-old-100-expired|PD-Art (PD-old-100-expired)|CC-PD-Mark|Portraits of Rogier van der Weyden|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Prints in the Pictorum 1572 attributed to Johannes Wierix|Portrait of Rogier van der Weyden (Rogero Brvxellensi Pictori)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi>Attributed to <a href=\"https://en.wikipedia.org/wiki/en:Johannes_Wierix\" class=\"extiw\" title=\"w:en:Johannes Wierix\"><span title=\"Flemish engraver\">Johannes Wierix</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Portrait of Rogier van der Weyden from the <i>Pictorum aliquot Germaniae Inferioris Effigies</i> by Dominicus Lampsonius",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1572<div style=\"display: none;\">date QS:P571,+1572-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.courtauld.org.uk/netherlandishcanon/lampsonius/individual-crops/large/07.html\">http://www.courtauld.org.uk/netherlandishcanon/lampsonius/individual-crops/large/07.html</a> 1610",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 44250657,
+          "ns": 6,
+          "title": "File:Delle vite de' più eccellenti pittori, scultori, et architetti (1648) (14799608033).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1008589,
+              "width": 1690,
+              "height": 1970,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Delle_vite_de%27_pi%C3%B9_eccellenti_pittori%2C_scultori%2C_et_architetti_%281648%29_%2814799608033%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1865,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Delle_vite_de%27_pi%C3%B9_eccellenti_pittori%2C_scultori%2C_et_architetti_%281648%29_%2814799608033%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1865
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Delle_vite_de%27_pi%C3%B9_eccellenti_pittori%2C_scultori%2C_et_architetti_%281648%29_%2814799608033%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Delle_vite_de%27_pi%C3%B9_eccellenti_pittori,_scultori,_et_architetti_(1648)_(14799608033).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=44250657",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-05-18 13:19:15",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Delle vite de' più eccellenti pittori, scultori, et architetti (1648) (14799608033)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Photos uploaded from Flickr by Fæ using a script|PD-old-100-expired|Flickr images reviewed by FlickreviewR|Files from Internet Archive Book Images Flickr stream|Files from Flickr's 'The Commons'|CC-PD-Mark|Portraits of Piero della Francesca|Vasari - Le vite de’ piu eccellenti pittori, scultori, et architettori (1648) - Engraved portraits",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<br>\n<p><b>Identifier</b>: dellevitedepiecc01vasa (<a class=\"external text\" href=\"https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&amp;profile=default&amp;fulltext=Search&amp;search=insource%3A%2Fdellevitedepiecc01vasa%2F\">find matches</a>)<br>\n<b>Title</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookiddellevitedepiecc01vasa\">Delle vite de' più eccellenti pittori, scultori, et architetti</a><br>\n<b>Year</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookyear1648\">1648</a> (<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookdecade1640\">1640s</a>)<br>\n<b>Authors</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookauthorVasari__Giorgio__1511_1574\">Vasari, Giorgio, 1511-1574</a><br>\n<b>Subjects</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectArtists\">Artists</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksubjectArt__Italian\">Art, Italian</a><br>\n<b>Publisher</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookpublisherIn_Bologna___Per_gli_eredi_di_Euangelista_Dozza\">In Bologna : Per gli eredi di Euangelista Dozza</a><br>\n<b>Contributing Library</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookcontributorGetty_Research_Institute\">Getty Research Institute</a><br>\n<b>Digitizing Sponsor</b>:  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/booksponsorGetty_Research_Institute\">Getty Research Institute</a><br>\n<br>\n<b>View Book Page</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/dellevitedepiecc01vasa/dellevitedepiecc01vasa#page/n355/mode/1up\">Book Viewer</a><br>\n<b>About This Book</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/details/dellevitedepiecc01vasa\">Catalog Entry</a><br>\n<b>View All Images</b>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/internetarchivebookimages/tags/bookiddellevitedepiecc01vasa\">All Images From Book</a><br>\nClick here to <a rel=\"nofollow\" class=\"external text\" href=\"https://archive.org/stream/dellevitedepiecc01vasa/dellevitedepiecc01vasa#page/n355/mode/1up\"><b>view book online</b></a> to see this illustration in context in a browseable online version of this book.<br>\n<br>\n<b>Text Appearing Before Image:</b><br>\n<i>ire fi dirà , Giuliano fuo zio : e fu Koteu°le.concorrente nella giouanezza Cv.s óvr.o Scultore, che faceua di terra, chiamato ^iIleniaModanino da Modena &gt; il quale lanorò al detto Alfonfc vna Pietà cor&lt; mfimr^j ^(nipote nel*figure tonde, di terra cotta colorite-, le quali con grand filma v uacua furono * Scultura,condotte , e dal Rè fatte porre nel a Chiefa di Monte Oiiueto di Napo-li» Monafierio in quel luogo honoratifiìmo. Nella qua!eoperaèritratto il detto Rè inginocchioni, il quale pare veramentepiù ,che viuo -, onde Modanino fri da lui con gran didi-mi prem,j rimunerato. Ma morto , che fu, comefi è detro i! Rè, Polito , e Benedetto fé ne ris-tornarono à Firenze : Doue non moltotempo dopo,fe nandò Polito die-tro à Giufano per fempre,furono le Sculture, ePitturedi coftoro circa gli anni di nodrafalute 1447. fine delk Vita ài Giuliano da AI alano » Kk 1 PIE- %6.q S E CO NDA PARTE / ■ . Infortunio àmo/tivirtuofi,the noapoffono per fottioMire lo loroopero*</i><br>\n<b>Text Appearing After Image:</b><br>\n<i>VITA DI PIETRO DELLA FRANCESCA PITTOREDAL BORGO A S. SEPOLCRO. NFELICI fono veramente coloro, che afFatticandofi ne-gli ftudij per giouare altrui , e per lafciare di fé fama , noru»fono lafciati » odaliinfirmiti, ò dalla morte alcuna voltaicondurre à perfertione lopere., che hanno cominciato.EbenefpeiTo auuiene, chelafciandole, ò poco meno, chefinite ò à buon termine , fono vfurpate dalla prefontionedi coloro -, che cercano di ricoprire la loro pelle dafino, con lehonorate fpogliede 1 Leoni. E Ce bene il tempo, ilqualefid.ce padre della veri-tà, ò tardi, ò per tempo manrfefta il vero-, non è però, che per qualche fpatiodi ititi oo &gt; no a lìa dei ra udato dell3 hoooie, che fi deue atte lue fatiche coftu;, che-^1 / ; .-. ha</i><br>\n<br>\n<b>Note About Images</b><br>\n</p>\n<i>Please note that these images are extracted from scanned page images that may have been digitally enhanced for readability - coloration and appearance of these illustrations may not perfectly resemble the original work.</i>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1648",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/internetarchivebookimages/14799608033/\">https://www.flickr.com/photos/internetarchivebookimages/14799608033/</a>\n</p>\n<ul><li>Source book page: <a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/stream/dellevitedepiecc01vasa/dellevitedepiecc01vasa#page/n355/mode/1up\">https://archive.org/stream/dellevitedepiecc01vasa/dellevitedepiecc01vasa#page/n355/mode/1up</a></li></ul>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Giorgio_Vasari\" class=\"extiw\" title=\"w:en:Giorgio Vasari\"><span title=\"Italian painter, architect, writer and historian (1511-1574)\">Giorgio Vasari</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "At the time of upload, the image license was automatically confirmed using the Flickr <a href=\"https://en.wikipedia.org/wiki/API\" class=\"extiw\" title=\"en:API\">API</a>. For more information see <a href=\"//commons.wikimedia.org/wiki/User:F%C3%A6/Flickr_API_detail\" title=\"User:Fæ/Flickr API detail\">Flickr API detail</a>.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 48314096,
+          "ns": 6,
+          "title": "File:Jean-Honoré Fragonard self-portrait.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 105531,
+              "width": 535,
+              "height": 700,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Jean-Honor%C3%A9_Fragonard_self-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2093,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Jean-Honor%C3%A9_Fragonard_self-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2093
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Jean-Honor%C3%A9_Fragonard_self-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jean-Honor%C3%A9_Fragonard_self-portrait.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=48314096",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-04-22 15:52:59",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Jean-Honoré Fragonard self-portrait",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-auto-expired)|CC-PD-Mark|Paintings without Wikidata item|Portrait paintings by Jean-Honoré Fragonard|Self-portraits by Jean-Honoré Fragonard",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Honor%C3%A9_Fragonard\" class=\"extiw\" title=\"w:en:Jean-Honoré Fragonard\"><span title=\"French painter (1732–1806)\">Jean-Honoré Fragonard</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nJean-Honoré Fragonard (self-portrait); oil on canvas</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between circa 1800 and circa 1806<div style=\"display: none;\">date QS:P571,+1800-00-00T00:00:00Z/8,P1319,+1800-00-00T00:00:00Z/9,P1326,+1806-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p><a rel=\"nofollow\" class=\"external free\" href=\"http://www.museesdegrasse.com/evenement/jean-honore-fragonard-autoportrait\">http://www.museesdegrasse.com/evenement/jean-honore-fragonard-autoportrait</a>\n</p><p>Musée du Louvre – On loan to the Villa Musée Fragonard\n</p>\nInv. D 1950.1.2",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 162375783,
+          "ns": 6,
+          "title": "File:(Treviso) The painter Antoine Watteau by Rosalba Carriera - Museo civico di Santa Caterina.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 20845680,
+              "width": 3669,
+              "height": 4690,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/%28Treviso%29_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg/1920px-%28Treviso%29_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2045,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/9/90/%28Treviso%29_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/%28Treviso%29_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg/1920px-%28Treviso%29_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2045,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/90/%28Treviso%29_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/%28Treviso%29_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Treviso)_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=162375783",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-03-18 17:57:27",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The painter Antoine Watteau</i></div></div><div style=\"display: none;\">label QS:Lit,\"Il pittore Antoine Watteau\"</div><div style=\"display: none;\">label QS:Lfr,\"Le peintre Antoine Watteau\"</div><div style=\"display: none;\">label QS:Len,\"The painter Antoine Watteau\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Artworks with Wikidata item|Artworks with photograph information|Files with coordinates missing SDC location of creation|Artworks with structured data with redirected digital representation of property|Artworks with redirected Wikidata link|Artworks digital representation of 2D work|Images by Archaeodontosaurus Treviso - Art|The painter Antoine Watteau by Rosalba Carriera",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "45.667621",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.238145",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Rosalba_Carriera\" class=\"extiw\" title=\"w:en:Rosalba Carriera\"><span title=\"Italian portrait painter and pastellist (1675–1757)\">Rosalba Carriera</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "from 1720 until 1721<div style=\"display: none;\">date QS:P571,+1720-00-00T00:00:00Z/8,P580,+1720-00-00T00:00:00Z/9,P582,+1721-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "4e1115c0b3ac8adfc1bd92549c443d5470d1ee124a3c70b7266428b8683880a4"
+}

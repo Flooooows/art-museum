@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Veranda+Post+Olowe",
+  "retrievedAt": "2026-10-30T00:48:01.571Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 167.28885,
+        "id": 102611,
+        "title": "Veranda Post (Òpó Ògògá)",
+        "main_reference_number": "1984.550",
+        "date_display": "1910-14",
+        "is_public_domain": true,
+        "artist_title": "Olowe of Ise",
+        "image_id": "fec5d023-0b46-45df-eb57-cbf64e24121d"
+      },
+      {
+        "_score": 65.03513,
+        "id": 17229,
+        "title": "The Scream",
+        "main_reference_number": "1963.282",
+        "date_display": "1895",
+        "is_public_domain": true,
+        "artist_title": "Edvard Munch",
+        "image_id": "3b374643-5328-3e00-c02b-5ab56e5ae8f8"
+      },
+      {
+        "_score": 63.523,
+        "id": 73074,
+        "title": "One Room School House, Breathitt County, Kentucky",
+        "main_reference_number": "1988.505.6",
+        "date_display": "1940",
+        "artist_title": "Marion Post Wolcott",
+        "image_id": "cafa749f-a9f8-49f9-7bdd-0efd92992d6c",
+        "is_public_domain": false
+      },
+      {
+        "_score": 62.503014,
+        "id": 73085,
+        "title": "Tenant Farmer's Children, Younger One with Rickets from Malnutrition. Eroded Land the Result of Tobacco-Cotton Weevel. Wadesboro, North Carolina",
+        "main_reference_number": "1988.505.17",
+        "date_display": "c. 1940",
+        "artist_title": "Marion Post Wolcott",
+        "image_id": "8685afa9-89bb-a0e9-57a9-330ad1e10c0b",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "9a893e71c43fc33950377d0a7dc31fb68d5de736f750fdcc52001d0fb701b449"
+}

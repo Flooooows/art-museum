@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/The_Fighting_Temeraire/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:28:00.714Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10423
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13607
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9509
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10865
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10187
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10799
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9686
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9590
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8305
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8381
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8558
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Fighting_Temeraire",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8615
+      }
+    ]
+  },
+  "payloadSha256": "d4e387ad4b58b340cb7e77e6f56153a3802a3666d4a07c82c66a5535beb8d1fc"
+}

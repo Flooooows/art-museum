@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Horse+Tang+dynasty",
+  "retrievedAt": "2026-10-30T00:51:00.907Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 112.1254,
+        "id": 35376,
+        "title": "Equestrienne",
+        "main_reference_number": "1970.1073",
+        "date_display": "Tang dynasty (618–907), mid-8th century",
+        "is_public_domain": true,
+        "image_id": "f18f7064-fb9a-7074-1f1c-f8009eecaec7",
+        "artist_title": null
+      },
+      {
+        "_score": 88.30372,
+        "id": 40558,
+        "title": "Tea Drinking Under the Wutong Tree",
+        "main_reference_number": "1941.13",
+        "date_display": "Ming dynasty (1369–1644), 1509",
+        "is_public_domain": true,
+        "artist_title": "Tang Yin",
+        "image_id": "d1e735ec-0dd2-1035-0486-7dba99e7e74e"
+      },
+      {
+        "_score": 87.96277,
+        "id": 84123,
+        "title": "Drinking at Night",
+        "main_reference_number": "1955.761",
+        "date_display": "Ming dynasty (1368–1644); c. 1520/23",
+        "is_public_domain": true,
+        "artist_title": "Tang Yin",
+        "image_id": "480d33f9-7328-a1f8-bb37-7373230b841b"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "a5427ed6558aa848fcd0a5fb0e7d44915decbb26714bf3359dfb65fccc07d2e7"
+}

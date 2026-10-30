@@ -1,0 +1,516 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=JOB+%28affiche%29%7CLes+Saisons+%28s%C3%A9rie%29%7CZodiaque%7CDivan+Japonais+%28affiche%29%7CJane+Avril+%28affiche%29%7CBal+du+Moulin+Rouge+%28affiche%29%7CThe+Peacock+Skirt%7CThe+Climax%7CStrawberry+Thief%7CAcanthus+%28motif+textile%29%7CVase+aux+libellules+%28identifier+exemplaire%29%7CLampe+Wisteria+%28identifier+exemplaire%29%7CVitrail+Magnolia+%28identifier+exemplaire%29%7CEntr%C3%A9e+du+m%C3%A9tro+parisien+%28type+%C3%A9dicule%29%7CSagrada+Fam%C3%ADlia%7CCasa+Batll%C3%B3%7CParc+G%C3%BCell%7CH%C3%B4tel+Tassel%7CChaise+Hill+House%7CL%C3%A9onard+de+Vinci%7CSandro+Botticelli%7CMichel-Ange%7CRapha%C3%ABl%7CTitien%7CGiorgione%7CJan+van+Eyck%7CJ%C3%A9r%C3%B4me+Bosch%7CPieter+Brueghel+l%27Ancien%7CAlbrecht+D%C3%BCrer%7CHans+Holbein+le+Jeune",
+  "retrievedAt": "2026-10-30T01:43:38.100Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "The Climax",
+          "to": "La Passion du docteur Hohner"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Chaise Hill House",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Chaise_Hill_House",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Chaise_Hill_House&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Chaise_Hill_House"
+        },
+        {
+          "ns": 0,
+          "title": "Entrée du métro parisien (type édicule)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Entr%C3%A9e_du_m%C3%A9tro_parisien_(type_%C3%A9dicule)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Entr%C3%A9e_du_m%C3%A9tro_parisien_(type_%C3%A9dicule)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Entr%C3%A9e_du_m%C3%A9tro_parisien_(type_%C3%A9dicule)"
+        },
+        {
+          "ns": 0,
+          "title": "Vitrail Magnolia (identifier exemplaire)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Vitrail_Magnolia_(identifier_exemplaire)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Vitrail_Magnolia_(identifier_exemplaire)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Vitrail_Magnolia_(identifier_exemplaire)"
+        },
+        {
+          "ns": 0,
+          "title": "Lampe Wisteria (identifier exemplaire)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Lampe_Wisteria_(identifier_exemplaire)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Lampe_Wisteria_(identifier_exemplaire)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Lampe_Wisteria_(identifier_exemplaire)"
+        },
+        {
+          "ns": 0,
+          "title": "Vase aux libellules (identifier exemplaire)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Vase_aux_libellules_(identifier_exemplaire)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Vase_aux_libellules_(identifier_exemplaire)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Vase_aux_libellules_(identifier_exemplaire)"
+        },
+        {
+          "ns": 0,
+          "title": "Acanthus (motif textile)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Acanthus_(motif_textile)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Acanthus_(motif_textile)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Acanthus_(motif_textile)"
+        },
+        {
+          "ns": 0,
+          "title": "Strawberry Thief",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Strawberry_Thief",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Strawberry_Thief&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Strawberry_Thief"
+        },
+        {
+          "ns": 0,
+          "title": "The Peacock Skirt",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/The_Peacock_Skirt",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=The_Peacock_Skirt&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/The_Peacock_Skirt"
+        },
+        {
+          "ns": 0,
+          "title": "Bal du Moulin Rouge (affiche)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Bal_du_Moulin_Rouge_(affiche)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Bal_du_Moulin_Rouge_(affiche)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Bal_du_Moulin_Rouge_(affiche)"
+        },
+        {
+          "ns": 0,
+          "title": "Jane Avril (affiche)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Jane_Avril_(affiche)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jane_Avril_(affiche)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jane_Avril_(affiche)"
+        },
+        {
+          "ns": 0,
+          "title": "Divan Japonais (affiche)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Divan_Japonais_(affiche)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Divan_Japonais_(affiche)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Divan_Japonais_(affiche)"
+        },
+        {
+          "ns": 0,
+          "title": "Les Saisons (série)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Saisons_(s%C3%A9rie)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Saisons_(s%C3%A9rie)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Saisons_(s%C3%A9rie)"
+        },
+        {
+          "ns": 0,
+          "title": "JOB (affiche)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/JOB_(affiche)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=JOB_(affiche)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/JOB_(affiche)"
+        },
+        {
+          "pageid": 4675,
+          "ns": 0,
+          "title": "Jan van Eyck",
+          "pageprops": {
+            "defaultsort": "van Eyck, Jan",
+            "page_image_free": "Jan_van_Eyck_-_Portrait_of_a_Man_(Self_Portrait?)_1433.jpg",
+            "wikibase_item": "Q102272"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:46Z",
+          "lastrevid": 239854240,
+          "length": 31448,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jan_van_Eyck",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jan_van_Eyck&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jan_van_Eyck"
+        },
+        {
+          "pageid": 6433,
+          "ns": 0,
+          "title": "Zodiaque",
+          "pageprops": {
+            "page_image_free": "Zodiaque-Ecliptique.png",
+            "wikibase_item": "Q40540"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:47Z",
+          "lastrevid": 240822384,
+          "length": 42965,
+          "fullurl": "https://fr.wikipedia.org/wiki/Zodiaque",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Zodiaque&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Zodiaque"
+        },
+        {
+          "pageid": 6797,
+          "ns": 0,
+          "title": "Giorgione",
+          "pageprops": {
+            "page_image_free": "Giorgione_059.jpg",
+            "wikibase_item": "Q8459"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:47Z",
+          "lastrevid": 240598560,
+          "length": 77631,
+          "fullurl": "https://fr.wikipedia.org/wiki/Giorgione",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Giorgione&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Giorgione"
+        },
+        {
+          "pageid": 10049,
+          "ns": 0,
+          "title": "Léonard de Vinci",
+          "pageprops": {
+            "page_image_free": "Francesco_Melzi_-_Portrait_of_Leonardo.png",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q762"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:47Z",
+          "lastrevid": 240294650,
+          "length": 372502,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%C3%A9onard_de_Vinci",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%C3%A9onard_de_Vinci&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%C3%A9onard_de_Vinci"
+        },
+        {
+          "pageid": 35724,
+          "ns": 0,
+          "title": "Parc Güell",
+          "pageprops": {
+            "defaultsort": "Parc Guell",
+            "page_image_free": "Barcelone_-_Parc_Güell_-_Entrée.jpg",
+            "wikibase_item": "Q212867"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:52Z",
+          "lastrevid": 240576251,
+          "length": 13359,
+          "fullurl": "https://fr.wikipedia.org/wiki/Parc_G%C3%BCell",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Parc_G%C3%BCell&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Parc_G%C3%BCell"
+        },
+        {
+          "pageid": 41183,
+          "ns": 0,
+          "title": "Michel-Ange",
+          "pageprops": {
+            "defaultsort": "Michel-Ange",
+            "page_image_free": "Michelangelo_Daniele_da_Volterra_(dettaglio).jpg",
+            "wikibase_item": "Q5592"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:53Z",
+          "lastrevid": 239586692,
+          "length": 234284,
+          "fullurl": "https://fr.wikipedia.org/wiki/Michel-Ange",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Michel-Ange&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Michel-Ange"
+        },
+        {
+          "pageid": 56154,
+          "ns": 0,
+          "title": "Sagrada Família",
+          "pageprops": {
+            "defaultsort": "Sagrada Familia",
+            "page_image_free": "SF_maig_2026.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q48435"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:55Z",
+          "lastrevid": 240365996,
+          "length": 132198,
+          "fullurl": "https://fr.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Sagrada_Fam%C3%ADlia&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+        },
+        {
+          "pageid": 67488,
+          "ns": 0,
+          "title": "Jérôme Bosch",
+          "pageprops": {
+            "defaultsort": "Bosch, Jerome",
+            "page_image_free": "Jheronimus_Bosch.jpg",
+            "wikibase_item": "Q130531"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:56Z",
+          "lastrevid": 240539360,
+          "length": 58937,
+          "fullurl": "https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Bosch",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=J%C3%A9r%C3%B4me_Bosch&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Bosch"
+        },
+        {
+          "pageid": 79628,
+          "ns": 0,
+          "title": "Hôtel Tassel",
+          "pageprops": {
+            "defaultsort": "Hotel Tassel",
+            "page_image_free": "Victor_Horta_Hotel_Tassel.JPG",
+            "wikibase_item": "Q1881679"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:58Z",
+          "lastrevid": 240153654,
+          "length": 13579,
+          "fullurl": "https://fr.wikipedia.org/wiki/H%C3%B4tel_Tassel",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=H%C3%B4tel_Tassel&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/H%C3%B4tel_Tassel"
+        },
+        {
+          "pageid": 110560,
+          "ns": 0,
+          "title": "Albrecht Dürer",
+          "pageprops": {
+            "defaultsort": "Dürer, Albrecht",
+            "page_image_free": "Albrecht_Dürer_-_1500_self-portrait_(High_resolution_and_detail).jpg",
+            "wikibase_item": "Q5580"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:02Z",
+          "lastrevid": 240831443,
+          "length": 203495,
+          "fullurl": "https://fr.wikipedia.org/wiki/Albrecht_D%C3%BCrer",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Albrecht_D%C3%BCrer&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Albrecht_D%C3%BCrer"
+        },
+        {
+          "pageid": 129420,
+          "ns": 0,
+          "title": "Sandro Botticelli",
+          "pageprops": {
+            "defaultsort": "Botticelli, Sandro",
+            "page_image_free": "Sandro_Botticelli_Self-portrait_ca_1475.jpg",
+            "wikibase_item": "Q5669"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:05Z",
+          "lastrevid": 240595668,
+          "length": 83585,
+          "fullurl": "https://fr.wikipedia.org/wiki/Sandro_Botticelli",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Sandro_Botticelli&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Sandro_Botticelli"
+        },
+        {
+          "pageid": 188451,
+          "ns": 0,
+          "title": "Hans Holbein le Jeune",
+          "pageprops": {
+            "defaultsort": "Holbein le jeune, Hans",
+            "page_image_free": "Hans_Holbein_the_Younger,_self-portrait.jpg",
+            "wikibase_item": "Q48319"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:14Z",
+          "lastrevid": 238966431,
+          "length": 28981,
+          "fullurl": "https://fr.wikipedia.org/wiki/Hans_Holbein_le_Jeune",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Hans_Holbein_le_Jeune&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Hans_Holbein_le_Jeune"
+        },
+        {
+          "pageid": 325243,
+          "ns": 0,
+          "title": "Casa Batlló",
+          "pageprops": {
+            "defaultsort": "Casa Batllo",
+            "page_image_free": "Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q461371"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:36Z",
+          "lastrevid": 240178877,
+          "length": 104466,
+          "fullurl": "https://fr.wikipedia.org/wiki/Casa_Batll%C3%B3",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Casa_Batll%C3%B3&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Casa_Batll%C3%B3"
+        },
+        {
+          "pageid": 1782635,
+          "ns": 0,
+          "title": "Raphaël",
+          "pageprops": {
+            "defaultsort": "Raphaël",
+            "wikibase_item": "Q11702145"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:44Z",
+          "lastrevid": 240224313,
+          "length": 6208,
+          "fullurl": "https://fr.wikipedia.org/wiki/Rapha%C3%ABl",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Rapha%C3%ABl&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Rapha%C3%ABl"
+        },
+        {
+          "pageid": 4119088,
+          "ns": 0,
+          "title": "Titien",
+          "pageprops": {
+            "page_image_free": "Self-Portrait_(by_Titian)_–_Gemäldegalerie,_Berlin.jpg",
+            "wikibase_item": "Q47551"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:35Z",
+          "lastrevid": 238030232,
+          "length": 96010,
+          "fullurl": "https://fr.wikipedia.org/wiki/Titien",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Titien&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Titien"
+        },
+        {
+          "pageid": 4993046,
+          "ns": 0,
+          "title": "Pieter Brueghel l'Ancien",
+          "pageprops": {
+            "defaultsort": "Brueghel, Pieter 1",
+            "page_image_free": "Pieter_Bruegel_the_Elder_-_The_Painter_and_the_Buyer,_ca._1566_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q43270"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:02Z",
+          "lastrevid": 239752455,
+          "length": 49503,
+          "fullurl": "https://fr.wikipedia.org/wiki/Pieter_Brueghel_l%27Ancien",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Pieter_Brueghel_l%27Ancien&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Pieter_Brueghel_l%27Ancien"
+        },
+        {
+          "pageid": 7554410,
+          "ns": 0,
+          "title": "La Passion du docteur Hohner",
+          "pageprops": {
+            "defaultsort": "Passion du docteur Hohner, La",
+            "displaytitle": "<i>La Passion du docteur Hohner</i>",
+            "page_image_free": "Susanna_Foster_in_The_Climax.jpg",
+            "wikibase_item": "Q7723395"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:58:58Z",
+          "lastrevid": 230844831,
+          "length": 4952,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Passion_du_docteur_Hohner",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Passion_du_docteur_Hohner&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Passion_du_docteur_Hohner"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "c5fc8963f00cecbb43a975ee2f2453180be6e6bbcfbbc6a08fd8b71f8bf13e90"
+}

@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=A+Sunday+Afternoon+Seurat",
+  "retrievedAt": "2026-10-30T00:48:02.837Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 170.77745,
+        "id": 27992,
+        "title": "A Sunday on La Grande Jatte — 1884",
+        "main_reference_number": "1926.224",
+        "date_display": "1884–86, border added 1888–89",
+        "is_public_domain": true,
+        "artist_title": "Georges Seurat",
+        "image_id": "2d484387-2509-5e8e-2c43-22f9981972eb"
+      },
+      {
+        "_score": 135.57278,
+        "id": 111377,
+        "title": "For Sunday's Dinner",
+        "main_reference_number": "1958.296",
+        "date_display": "1888",
+        "is_public_domain": true,
+        "artist_title": "William Michael Harnett",
+        "image_id": "3cea045a-92d6-36cf-1508-2c99ea740218"
+      },
+      {
+        "_score": 123.98572,
+        "id": 61616,
+        "title": "Oil Sketch for \"A Sunday on La Grande Jatte — 1884\"",
+        "main_reference_number": "1981.15",
+        "date_display": "1884",
+        "is_public_domain": true,
+        "artist_title": "Georges Seurat",
+        "image_id": "081be15c-8812-c174-eeb2-cf318a2e67cf"
+      },
+      {
+        "_score": 123.59518,
+        "id": 20199,
+        "title": "Final Study for \"Bathers at Asnières\"",
+        "main_reference_number": "1962.578",
+        "date_display": "1883",
+        "is_public_domain": true,
+        "artist_title": "Georges Seurat",
+        "image_id": "1db67905-d421-95bf-1e91-4b60dd776886"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "df6d9553d14aefaf1acf4ba726fe5b44757073a4e21630413c05f0ed54dcf352"
+}

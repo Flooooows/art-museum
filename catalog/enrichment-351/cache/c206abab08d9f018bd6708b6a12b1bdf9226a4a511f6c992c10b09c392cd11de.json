@@ -1,0 +1,599 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Pluie%2C+vapeur+et+vitesse%7CLe+N%C3%A9grier%7CL%27Incendie+de+la+Chambre+des+lords+et+des+communes%7CLa+Charrette+de+foin%7CLa+Cath%C3%A9drale+de+Salisbury+vue+des+prairies%7CLa+Grande+Odalisque%7CLe+Bain+turc%7CPortrait+de+Monsieur+Bertin%7CUn+enterrement+%C3%A0+Ornans%7CL%27Atelier+du+peintre%7CLa+Vague+%28Courbet%29%7CL%27Origine+du+monde%7CDes+glaneuses%7CL%27Ang%C3%A9lus%7CLe+Wagon+de+troisi%C3%A8me+classe%7CLe+D%C3%A9jeuner+sur+l%27herbe%7COlympia+%28Manet%29%7CUn+bar+aux+Folies+Berg%C3%A8re%7CLe+Fifre%7CLe+Balcon%7CLe+Gulf+Stream%7CSnap+the+Whip%7CLa+Clinique+du+docteur+Gross%7CMadame+X+%28Sargent%29%7CLes+Filles+d%27Edward+Darley+Boit%7CArrangement+en+gris+et+noir+no+1%7CNocturne+en+noir+et+or+%3A+la+fus%C3%A9e+qui+retombe%7CImpression%2C+soleil+levant%7CLa+Femme+%C3%A0+l%27ombrelle%7CLa+Gare+Saint-Lazare+%28Monet%29",
+  "retrievedAt": "2026-10-30T01:42:22.802Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Pluie, vapeur et vitesse",
+          "to": "Pluie, Vapeur et Vitesse"
+        },
+        {
+          "from": "Portrait de Monsieur Bertin",
+          "to": "Portrait de monsieur Bertin"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "La Gare Saint-Lazare (Monet)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Gare_Saint-Lazare_(Monet)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Gare_Saint-Lazare_(Monet)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Gare_Saint-Lazare_(Monet)"
+        },
+        {
+          "ns": 0,
+          "title": "Arrangement en gris et noir no 1",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Arrangement_en_gris_et_noir_no_1",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Arrangement_en_gris_et_noir_no_1&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Arrangement_en_gris_et_noir_no_1"
+        },
+        {
+          "ns": 0,
+          "title": "Snap the Whip",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Snap_the_Whip",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Snap_the_Whip&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Snap_the_Whip"
+        },
+        {
+          "ns": 0,
+          "title": "La Cathédrale de Salisbury vue des prairies",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Cath%C3%A9drale_de_Salisbury_vue_des_prairies",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Cath%C3%A9drale_de_Salisbury_vue_des_prairies&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Cath%C3%A9drale_de_Salisbury_vue_des_prairies"
+        },
+        {
+          "ns": 0,
+          "title": "L'Incendie de la Chambre des lords et des communes",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Incendie_de_la_Chambre_des_lords_et_des_communes",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Incendie_de_la_Chambre_des_lords_et_des_communes&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Incendie_de_la_Chambre_des_lords_et_des_communes"
+        },
+        {
+          "pageid": 177054,
+          "ns": 0,
+          "title": "La Grande Odalisque",
+          "pageprops": {
+            "defaultsort": "Grande Odalisque, La",
+            "displaytitle": "<i>La Grande Odalisque</i>",
+            "page_image_free": "La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Musée_du_Louvre_Peintures_RF_1158.jpg",
+            "wikibase_item": "Q1978815"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 239809539,
+          "length": 13198,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Grande_Odalisque",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Grande_Odalisque&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Grande_Odalisque"
+        },
+        {
+          "pageid": 177940,
+          "ns": 0,
+          "title": "L'Angélus",
+          "pageprops": {
+            "defaultsort": "Angélus, L'",
+            "displaytitle": "<i>L'Angélus</i>",
+            "page_image_free": "JEAN-FRANÇOIS_MILLET_-_El_Ángelus_(Museo_de_Orsay,_1857-1859._Óleo_sobre_lienzo,_55.5_x_66_cm).jpg",
+            "wikibase_item": "Q2571560"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 240152889,
+          "length": 10647,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Ang%C3%A9lus",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Ang%C3%A9lus&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Ang%C3%A9lus"
+        },
+        {
+          "pageid": 177962,
+          "ns": 0,
+          "title": "L'Origine du monde",
+          "pageprops": {
+            "defaultsort": "Origine du monde, L'",
+            "displaytitle": "<i>L'Origine du monde</i>",
+            "page_image_free": "Origin-of-the-World.jpg",
+            "wikibase_item": "Q334138"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 239881317,
+          "length": 41041,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Origine_du_monde",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Origine_du_monde&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Origine_du_monde"
+        },
+        {
+          "pageid": 181343,
+          "ns": 0,
+          "title": "Le Déjeuner sur l'herbe",
+          "pageprops": {
+            "defaultsort": "Déjeuner sur l'herbe, Le",
+            "displaytitle": "<i>Le Déjeuner sur l'herbe</i>",
+            "page_image_free": "Édouard_Manet_-_Le_Déjeuner_sur_l'herbe.jpg",
+            "wikibase_item": "Q152509"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:13Z",
+          "lastrevid": 240242682,
+          "length": 27074,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_D%C3%A9jeuner_sur_l%27herbe",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_D%C3%A9jeuner_sur_l%27herbe&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_D%C3%A9jeuner_sur_l%27herbe"
+        },
+        {
+          "pageid": 394288,
+          "ns": 0,
+          "title": "Olympia (Manet)",
+          "pageprops": {
+            "displaytitle": "<i>Olympia</i> (Manet)",
+            "page_image_free": "Edouard_Manet_-_Olympia_-_Google_Art_Project_2.jpg",
+            "wikibase_item": "Q737062"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:48Z",
+          "lastrevid": 238884690,
+          "length": 23341,
+          "fullurl": "https://fr.wikipedia.org/wiki/Olympia_(Manet)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Olympia_(Manet)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Olympia_(Manet)"
+        },
+        {
+          "pageid": 412551,
+          "ns": 0,
+          "title": "Un bar aux Folies Bergère",
+          "pageprops": {
+            "displaytitle": "<i>Un bar aux Folies Bergère</i>",
+            "page_image_free": "Edouard_Manet,_A_Bar_at_the_Folies-Bergère.jpg",
+            "wikibase_item": "Q1245354"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:51Z",
+          "lastrevid": 239471161,
+          "length": 19214,
+          "fullurl": "https://fr.wikipedia.org/wiki/Un_bar_aux_Folies_Berg%C3%A8re",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Un_bar_aux_Folies_Berg%C3%A8re&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Un_bar_aux_Folies_Berg%C3%A8re"
+        },
+        {
+          "pageid": 799368,
+          "ns": 0,
+          "title": "Le Fifre",
+          "pageprops": {
+            "defaultsort": "Fifre",
+            "page_image_free": "Pré_de_Madame_Carle_(Pelvoux)_-17.JPG",
+            "wikibase_item": "Q3222757"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:42Z",
+          "lastrevid": 235317122,
+          "length": 2286,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Fifre",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Fifre&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Fifre"
+        },
+        {
+          "pageid": 1043800,
+          "ns": 0,
+          "title": "Portrait de monsieur Bertin",
+          "pageprops": {
+            "displaytitle": "<i>Portrait de monsieur Bertin</i>",
+            "page_image_free": "Louis-Francois_Bertin.jpg",
+            "wikibase_item": "Q2985455"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:21Z",
+          "lastrevid": 228109428,
+          "length": 15854,
+          "fullurl": "https://fr.wikipedia.org/wiki/Portrait_de_monsieur_Bertin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Portrait_de_monsieur_Bertin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Portrait_de_monsieur_Bertin"
+        },
+        {
+          "pageid": 1113195,
+          "ns": 0,
+          "title": "Impression, soleil levant",
+          "pageprops": {
+            "displaytitle": "<i>Impression, soleil levant</i>",
+            "page_image_free": "Claude_Monet,_Impression,_soleil_levant.jpg",
+            "wikibase_item": "Q328523"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:31Z",
+          "lastrevid": 239749150,
+          "length": 15569,
+          "fullurl": "https://fr.wikipedia.org/wiki/Impression,_soleil_levant",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Impression,_soleil_levant&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Impression,_soleil_levant"
+        },
+        {
+          "pageid": 1252927,
+          "ns": 0,
+          "title": "Un enterrement à Ornans",
+          "pageprops": {
+            "displaytitle": "<i>Un enterrement à Ornans</i>",
+            "page_image_free": "Gustave_Courbet_-_A_Burial_at_Ornans_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q540488"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:51Z",
+          "lastrevid": 240740027,
+          "length": 21997,
+          "fullurl": "https://fr.wikipedia.org/wiki/Un_enterrement_%C3%A0_Ornans",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Un_enterrement_%C3%A0_Ornans&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Un_enterrement_%C3%A0_Ornans"
+        },
+        {
+          "pageid": 1271596,
+          "ns": 0,
+          "title": "Des glaneuses",
+          "pageprops": {
+            "displaytitle": "<i>Des glaneuses</i>",
+            "page_image_free": "Jean-François_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
+            "wikibase_item": "Q1368055"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:54Z",
+          "lastrevid": 234840782,
+          "length": 11436,
+          "fullurl": "https://fr.wikipedia.org/wiki/Des_glaneuses",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Des_glaneuses&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Des_glaneuses"
+        },
+        {
+          "pageid": 1326283,
+          "ns": 0,
+          "title": "L'Atelier du peintre",
+          "pageprops": {
+            "defaultsort": "Atelier du peintre, L'",
+            "displaytitle": "<i>L'Atelier du peintre</i>",
+            "page_image_free": "Courbet_LAtelier_du_peintre.jpg",
+            "wikibase_item": "Q1167178"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:02Z",
+          "lastrevid": 235286368,
+          "length": 22157,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Atelier_du_peintre",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Atelier_du_peintre&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Atelier_du_peintre"
+        },
+        {
+          "pageid": 1445684,
+          "ns": 0,
+          "title": "Pluie, Vapeur et Vitesse",
+          "pageprops": {
+            "displaytitle": "<i>Pluie, Vapeur et Vitesse</i>",
+            "page_image_free": "Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg",
+            "wikibase_item": "Q2339059"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:17Z",
+          "lastrevid": 237036130,
+          "length": 7770,
+          "fullurl": "https://fr.wikipedia.org/wiki/Pluie,_Vapeur_et_Vitesse",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Pluie,_Vapeur_et_Vitesse&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Pluie,_Vapeur_et_Vitesse"
+        },
+        {
+          "pageid": 1785466,
+          "ns": 0,
+          "title": "Le Balcon",
+          "pageprops": {
+            "defaultsort": "Balcon",
+            "disambiguation": "",
+            "displaytitle": "<i>Le Balcon</i>",
+            "wikibase_item": "Q1192378"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:26:48Z",
+          "lastrevid": 232623199,
+          "length": 968,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Balcon",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Balcon&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Balcon"
+        },
+        {
+          "pageid": 3355638,
+          "ns": 0,
+          "title": "Madame X (Sargent)",
+          "pageprops": {
+            "displaytitle": "<i>Madame X</i> (Sargent)",
+            "page_image_free": "Sargent_MadameX.jpeg",
+            "wikibase_item": "Q2664039"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:22Z",
+          "lastrevid": 235149361,
+          "length": 8498,
+          "fullurl": "https://fr.wikipedia.org/wiki/Madame_X_(Sargent)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Madame_X_(Sargent)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Madame_X_(Sargent)"
+        },
+        {
+          "pageid": 3356189,
+          "ns": 0,
+          "title": "Les Filles d'Edward Darley Boit",
+          "pageprops": {
+            "defaultsort": "Filles d'Edward Darley Boit, Les",
+            "displaytitle": "<i>Les Filles d'Edward Darley Boit</i>",
+            "page_image_free": "John_Singer_Sargent_001.jpg",
+            "wikibase_item": "Q644106"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:22Z",
+          "lastrevid": 232370358,
+          "length": 4125,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Filles_d%27Edward_Darley_Boit",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Filles_d%27Edward_Darley_Boit&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Filles_d%27Edward_Darley_Boit"
+        },
+        {
+          "pageid": 3432129,
+          "ns": 0,
+          "title": "Le Wagon de troisième classe",
+          "pageprops": {
+            "defaultsort": "Wagon de troisième classe, Le",
+            "displaytitle": "<i>Le Wagon de troisième classe</i>",
+            "page_image_free": "Honoré_Daumier_034.jpg",
+            "wikibase_item": "Q3796150"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:28Z",
+          "lastrevid": 219153930,
+          "length": 3063,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Wagon_de_troisi%C3%A8me_classe",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Wagon_de_troisi%C3%A8me_classe&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Wagon_de_troisi%C3%A8me_classe"
+        },
+        {
+          "pageid": 4474512,
+          "ns": 0,
+          "title": "La Charrette de foin",
+          "pageprops": {
+            "defaultsort": "Charrette de foin (Constable), La",
+            "displaytitle": "<i>La Charrette de foin</i>",
+            "page_image_free": "John_Constable_The_Hay_Wain.jpg",
+            "wikibase_item": "Q2366825"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:07Z",
+          "lastrevid": 238895401,
+          "length": 9745,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Charrette_de_foin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Charrette_de_foin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Charrette_de_foin"
+        },
+        {
+          "pageid": 6757574,
+          "ns": 0,
+          "title": "Le Négrier",
+          "pageprops": {
+            "defaultsort": "Negrier, Le",
+            "displaytitle": "<i>Le Négrier</i>",
+            "page_image_free": "Slave-ship.jpg",
+            "wikibase_item": "Q219344"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:54Z",
+          "lastrevid": 240624568,
+          "length": 14161,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_N%C3%A9grier",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_N%C3%A9grier&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_N%C3%A9grier"
+        },
+        {
+          "pageid": 8193414,
+          "ns": 0,
+          "title": "La Clinique du docteur Gross",
+          "pageprops": {
+            "defaultsort": "Clinique du docteur Gross",
+            "displaytitle": "<i>La Clinique du docteur Gross</i>",
+            "page_image_free": "Thomas_Eakins,_American_-_Portrait_of_Dr._Samuel_D._Gross_(The_Gross_Clinic)_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q1213936"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:38Z",
+          "lastrevid": 234752764,
+          "length": 18937,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Clinique_du_docteur_Gross",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Clinique_du_docteur_Gross&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Clinique_du_docteur_Gross"
+        },
+        {
+          "pageid": 8307666,
+          "ns": 0,
+          "title": "Le Gulf Stream",
+          "pageprops": {
+            "defaultsort": "Gulf Stream",
+            "displaytitle": "<i>Le Gulf Stream</i>",
+            "page_image_free": "Winslow_Homer_-_The_Gulf_Stream_-_Metropolitan_Museum_of_Art.jpg",
+            "wikibase_item": "Q7738501"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:43Z",
+          "lastrevid": 225965429,
+          "length": 1635,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Gulf_Stream",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Gulf_Stream&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Gulf_Stream"
+        },
+        {
+          "pageid": 9858051,
+          "ns": 0,
+          "title": "La Vague (Courbet)",
+          "pageprops": {
+            "defaultsort": "Vague",
+            "displaytitle": "<i>La Vague</i> (Courbet)",
+            "wikibase_item": "Q19969388"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:01:14Z",
+          "lastrevid": 234272535,
+          "length": 19638,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Vague_(Courbet)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Vague_(Courbet)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Vague_(Courbet)"
+        },
+        {
+          "pageid": 15644387,
+          "ns": 0,
+          "title": "Nocturne en noir et or : la fusée qui retombe",
+          "pageprops": {
+            "displaytitle": "<i>Nocturne en noir et or : la fusée qui retombe</i>",
+            "page_image_free": "Whistler-Nocturne_in_black_and_gold.jpg",
+            "wikibase_item": "Q646337"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:08:28Z",
+          "lastrevid": 231205967,
+          "length": 2087,
+          "fullurl": "https://fr.wikipedia.org/wiki/Nocturne_en_noir_et_or_:_la_fus%C3%A9e_qui_retombe",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Nocturne_en_noir_et_or_:_la_fus%C3%A9e_qui_retombe&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Nocturne_en_noir_et_or_:_la_fus%C3%A9e_qui_retombe"
+        },
+        {
+          "pageid": 17201491,
+          "ns": 0,
+          "title": "La Femme à l'ombrelle",
+          "pageprops": {
+            "defaultsort": "Femme à l'ombrelle, La",
+            "displaytitle": "<i>La Femme à l'ombrelle</i>",
+            "page_image_free": "La_Femme_à_l'ombrelle,_par_Aristide_Maillol.jpg",
+            "wikibase_item": "Q17491965"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:10:45Z",
+          "lastrevid": 238049448,
+          "length": 1749,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Femme_%C3%A0_l%27ombrelle",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Femme_%C3%A0_l%27ombrelle&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Femme_%C3%A0_l%27ombrelle"
+        },
+        {
+          "pageid": 17319608,
+          "ns": 0,
+          "title": "Le Bain turc",
+          "pageprops": {
+            "defaultsort": "Bain turc",
+            "disambiguation": "",
+            "displaytitle": "<i>Le Bain turc</i>",
+            "wikibase_item": "Q141867700"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T00:37:43Z",
+          "lastrevid": 233937230,
+          "length": 462,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Bain_turc",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Bain_turc&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Bain_turc"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "01fed04731fafe5a987b86cee66a0a1104e6a1ba3ca73a412d99c8b5bc33db53"
+}

@@ -1,0 +1,510 @@
+{
+  "provider": "orsay",
+  "url": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/manifest.json",
+  "retrievedAt": "2026-10-30T02:00:54.922Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "@context": [
+      "https://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/manifest.json",
+    "type": "Manifest",
+    "label": {
+      "fr": [
+        "Millet, Jean-Francois - Des glaneuses ; Les glaneuses - RF 592"
+      ],
+      "en": [
+        "Millet, Jean-Francois - Des glaneuses ; Les glaneuses - RF 592"
+      ]
+    },
+    "homepage": [
+      {
+        "id": "https://www.musee-orsay.fr/fr/oeuvres/342",
+        "label": {
+          "en": [
+            "View the artwork on the original site"
+          ],
+          "fr": [
+            "Lien vers la notice sur le site d'origine"
+          ]
+        },
+        "type": "Text",
+        "format": "text/html"
+      }
+    ],
+    "requiredStatement": {
+      "label": {
+        "fr": [
+          "Droits d'utilisation et licence"
+        ],
+        "en": [
+          "Rights Description and licence"
+        ]
+      },
+      "value": {
+        "fr": [
+          "https://www.musee-orsay.fr/fr/mentions-legales"
+        ],
+        "en": [
+          "https://www.musee-orsay.fr/en/legal-information"
+        ]
+      }
+    },
+    "provider": [
+      {
+        "id": "https://www.epmo-musees.fr",
+        "type": "Agent",
+        "label": {
+          "fr": [
+            "Etablissement public du Musée d'Orsay et du musée de l'Orangerie - Valerie Giscard d'Estaing"
+          ]
+        },
+        "logo": [
+          {
+            "id": "https://www.epmo-musees.fr/themes/custom/ep/logo.svg",
+            "type": "Image",
+            "format": "image/png",
+            "height": 100,
+            "width": 120
+          }
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "label": {
+          "fr": [
+            "Description"
+          ],
+          "en": [
+            "Description"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Millet, Jean-Francois, Des glaneuses ; Les glaneuses. huile sur toile. 1857. Donation sous reserve d'usufruit Mme Pommery, 1890 "
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Désignation"
+          ],
+          "en": [
+            "Title"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Des glaneuses ; Les glaneuses"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Auteur"
+          ],
+          "en": [
+            "Creator"
+          ]
+        },
+        "value": {
+          "fr": [
+            "'Millet, Jean-Francois [Greville-Hague, Manche (50) (France) 1814 - Barbizon, Seine-et-Marne (77) (France) 1875]'"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "N° d'inventaire"
+          ],
+          "en": [
+            "Accession number"
+          ]
+        },
+        "value": {
+          "none": [
+            "RF 592"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Datation"
+          ],
+          "en": [
+            "Date"
+          ]
+        },
+        "value": {
+          "fr": [
+            "1857"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mode d'acquisition"
+          ],
+          "en": [
+            "Acquisition details"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Donation sous reserve d'usufruit Mme Pommery, 1890"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mesures"
+          ],
+          "en": [
+            "Dimensions"
+          ]
+        },
+        "value": {
+          "fr": [
+            "H. 83,5 ; L. 110 cm avec cadre H. 116 ; L. 143,5 ; EP. 8 cm"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Matériaux et techniques"
+          ],
+          "en": [
+            "Materials and techniques"
+          ]
+        },
+        "value": {
+          "fr": [
+            "huile sur toile"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Lieu de conservation"
+          ],
+          "en": [
+            "Current Location"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Collection"
+          ],
+          "en": [
+            "Collection"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      }
+    ],
+    "viewingDirection": "left-to-right",
+    "items": [
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-1-",
+        "type": "Canvas",
+        "height": 640,
+        "width": 850,
+        "label": {
+          "fr": [
+            "Des glaneuses ; Les glaneuses"
+          ],
+          "en": [
+            "Des glaneuses ; Les glaneuses"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© Musee d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "26/10/2012"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!342!210239_t4srh8ksss0ze/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 850,
+            "height": 640
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-1-/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/annotation/anno-1-",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!342!210239_t4srh8ksss0ze/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 640,
+                  "width": 850
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-1-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-2-96-003921",
+        "type": "Canvas",
+        "height": 635,
+        "width": 850,
+        "label": {
+          "fr": [
+            "Des glaneuses ; Les glaneuses"
+          ],
+          "en": [
+            "Des glaneuses ; Les glaneuses"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© Musee d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "07/08/2006"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!342!211061_y1yd08216omq1/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 850,
+            "height": 635
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-2-96-003921/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/annotation/anno-2-96-003921",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!342!211061_y1yd08216omq1/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 635,
+                  "width": 850
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-2-96-003921"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-3-85-002254",
+        "type": "Canvas",
+        "height": 638,
+        "width": 850,
+        "label": {
+          "fr": [
+            "Des glaneuses ; Les glaneuses"
+          ],
+          "en": [
+            "Des glaneuses ; Les glaneuses"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© RMN-Grand Palais (Musee d'Orsay) / Jean Schormans"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "12/03/2013"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!342!157667_d2ksxxt8uu6iq/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 850,
+            "height": 638
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-3-85-002254/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/annotation/anno-3-85-002254",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!342!157667_d2ksxxt8uu6iq/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 638,
+                  "width": 850
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!342/canvas/canvas-3-85-002254"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "payloadSha256": "f59e4ca1f68d1685150effebe0a422f82d70f9c0a27f3ea606b1ed59d1fdedb7"
+}

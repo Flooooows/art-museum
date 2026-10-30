@@ -1,0 +1,174 @@
+.candidates-header {
+  flex-wrap: wrap;
+  gap: 16px 24px;
+}
+.candidates-header > a:not(.review-brand) {
+  font-size: 14px;
+}
+.candidate-batches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  border-bottom: 1px solid var(--line);
+}
+.candidate-batches a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding-block: 12px;
+  text-underline-offset: 6px;
+}
+.candidate-batches a[aria-current="page"] {
+  font-weight: 600;
+  text-decoration-thickness: 2px;
+}
+.candidates-intro {
+  max-width: 900px;
+  padding: 40px 0 32px;
+}
+.candidates-intro > p:first-child {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: var(--soft);
+}
+.candidates-intro h1 {
+  font:
+    400 clamp(34px, 4vw, 56px)/1.15 Playfair,
+    Georgia,
+    serif;
+  color: var(--wine);
+  letter-spacing: -0.025em;
+  margin: 16px 0 24px;
+  text-wrap: balance;
+}
+.candidates-intro > p:not(:first-child) {
+  max-width: 65ch;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.candidate-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 40px;
+  margin-top: 28px;
+  color: var(--soft);
+}
+.candidate-counts strong {
+  color: var(--wine);
+  font-size: 24px;
+  margin-right: 5px;
+}
+.candidate-item {
+  min-width: 0;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 24px;
+}
+.candidate-selection {
+  padding: 0 16px 12px;
+}
+.candidate-selection > p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.candidate-selection > p:first-child {
+  color: var(--soft);
+  margin-top: 20px;
+}
+.candidate-selection fieldset {
+  border: 0;
+  padding: 0;
+  margin: 24px 0;
+  min-width: 0;
+}
+.candidate-selection legend {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.candidate-statuses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.candidate-statuses label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  cursor: pointer;
+}
+.candidate-statuses label.is-selected {
+  background: var(--selected);
+  border-color: var(--wine);
+}
+.candidate-statuses input {
+  accent-color: var(--action);
+}
+.candidate-selection details {
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.candidate-selection li {
+  margin: 12px 0;
+}
+.candidate-import {
+  border: 1px solid var(--line);
+  padding: 24px;
+  margin: 24px 0;
+}
+.candidate-import h2,
+.candidate-research h2 {
+  font:
+    400 30px/1.3 Playfair,
+    Georgia,
+    serif;
+  color: var(--wine);
+}
+.candidate-import p,
+.candidate-research > p {
+  max-width: 70ch;
+}
+.candidate-research {
+  border-top: 1px solid var(--line);
+  margin-top: 56px;
+  padding: 24px 0;
+}
+.candidate-research ul {
+  padding: 0;
+  list-style: none;
+}
+.candidate-research li {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.candidate-research li span {
+  display: block;
+  color: var(--soft);
+  margin-top: 8px;
+}
+.candidates-main .review-list-heading h2 {
+  font:
+    400 30px/1.3 Playfair,
+    Georgia,
+    serif;
+  color: var(--wine);
+}
+@media (max-width: 640px) {
+  .candidates-header {
+    padding: 16px 20px;
+  }
+  .candidates-header .header-actions {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .candidates-intro {
+    padding-top: 24px;
+  }
+  .candidate-counts {
+    gap: 12px 20px;
+  }
+  .candidate-selection {
+    padding-inline: 4px;
+  }
+}

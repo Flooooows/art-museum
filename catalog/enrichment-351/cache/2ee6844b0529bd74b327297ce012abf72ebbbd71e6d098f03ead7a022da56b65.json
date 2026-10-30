@@ -1,0 +1,91 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/388482",
+  "retrievedAt": "2026-10-30T01:47:06.477Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 388482,
+    "isHighlight": false,
+    "accessionNumber": "60.708.157",
+    "accessionYear": "1960",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP816484.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816484.jpg",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 161857,
+        "role": "Artist",
+        "name": "Albrecht Dürer",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115493",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5580",
+        "gender": ""
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Print",
+    "title": "The Rhinoceros",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Albrecht Dürer",
+    "artistDisplayBio": "German, Nuremberg 1471–1528 Nuremberg",
+    "artistSuffix": "",
+    "artistAlphaSort": "Dürer, Albrecht",
+    "artistNationality": "German",
+    "artistBeginDate": "1471",
+    "artistEndDate": "1528",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5580",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115493",
+    "objectDate": "1515",
+    "objectBeginDate": 1515,
+    "objectEndDate": 1515,
+    "medium": "Woodcut",
+    "dimensions": "sheet: 9 3/16 x 11 1/2 in. (23.3 x 29.2 cm)",
+    "measurements": [
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 23.336296,
+          "Width": 29.210058
+        }
+      }
+    ],
+    "creditLine": "Gift of Harry G. Friedman, 1960",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Prints",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-03-06T04:54:30Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/388482",
+    "tags": [
+      {
+        "term": "Rhinoceros",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300250315",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q34718"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "88aa7be7f2beb8d32bb475e70f4b90fdefb4b33908d751f16b912c208c648adc"
+}

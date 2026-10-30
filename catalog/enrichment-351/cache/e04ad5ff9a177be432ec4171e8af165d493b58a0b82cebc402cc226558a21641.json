@@ -1,0 +1,109 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11120",
+  "retrievedAt": "2026-10-30T01:46:08.520Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 11120,
+    "isHighlight": false,
+    "accessionNumber": "10.228.1",
+    "accessionYear": "1910",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP119111.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP119111.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/ad/original/ap10.228.1.jpg"
+    ],
+    "constituents": [
+      {
+        "constituentID": 161996,
+        "role": "Artist",
+        "name": "Winslow Homer",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500019202",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q344838",
+        "gender": ""
+      }
+    ],
+    "department": "The American Wing",
+    "objectName": "Watercolor",
+    "title": "Fishing Boats, Key West",
+    "culture": "American",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Winslow Homer",
+    "artistDisplayBio": "American, Boston, Massachusetts 1836–1910 Prouts Neck, Maine",
+    "artistSuffix": "",
+    "artistAlphaSort": "Homer, Winslow",
+    "artistNationality": "American",
+    "artistBeginDate": "1836",
+    "artistEndDate": "1910",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q344838",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500019202",
+    "objectDate": "1903",
+    "objectBeginDate": 1903,
+    "objectEndDate": 1903,
+    "medium": "Watercolor and graphite on off-white wove paper",
+    "dimensions": "13 15/16 x 21 3/4 in. (35.4 x 55.2 cm)\r\nFramed: 24 1/2 x 30 1/2 in. (62.2 x 77.5 cm)",
+    "measurements": [
+      {
+        "elementName": "Overall",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 35.4,
+          "Width": 55.2451
+        }
+      },
+      {
+        "elementName": "Mat",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 55.88011,
+          "Width": 71.12014
+        }
+      },
+      {
+        "elementName": "Framed",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 62.230125,
+          "Width": 77.47015
+        }
+      }
+    ],
+    "creditLine": "Amelia B. Lazarus Fund, 1910",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-10-03T04:51:20.327Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/11120",
+    "tags": [
+      {
+        "term": "Boats",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300178749",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q35872"
+      }
+    ],
+    "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29382987",
+    "isTimelineWork": true,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "9b3bc32a404276f58490398c77cb6a34a50605eaff5ca3c53d159606ba72dcca"
+}

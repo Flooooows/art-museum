@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Stacks+of+Wheat+End+of+Summer",
+  "retrievedAt": "2026-10-30T00:47:56.601Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 6805.2554,
+        "id": 64818,
+        "title": "Stacks of Wheat (End of Summer)",
+        "main_reference_number": "1985.1103",
+        "date_display": "1890–91",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "a38e2828-ec6f-ece1-a30f-70243449197b"
+      },
+      {
+        "_score": 299.5242,
+        "id": 14624,
+        "title": "Stacks of Wheat (End of Day, Autumn)",
+        "main_reference_number": "1933.444",
+        "date_display": "1890–91",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "4c364c64-2108-4e19-5fc5-1ab26ba924a7"
+      },
+      {
+        "_score": 238.47636,
+        "id": 111318,
+        "title": "Stack of Wheat",
+        "main_reference_number": "1983.29",
+        "date_display": "1890–91",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "27c1d720-8ca5-79a4-5e51-530bf75c1591"
+      },
+      {
+        "_score": 208.13606,
+        "id": 100191,
+        "title": "Stack of Wheat (Thaw, Sunset)",
+        "main_reference_number": "1983.166",
+        "date_display": "1890–91",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "8bd40b36-43ea-8b02-d76a-b325962b86db"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "24bc780819dfeab38330771bf3f85deb343398e4f035e30dacccee71a5987880"
+}

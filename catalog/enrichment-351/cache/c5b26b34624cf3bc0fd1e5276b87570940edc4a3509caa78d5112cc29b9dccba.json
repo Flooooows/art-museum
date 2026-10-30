@@ -1,0 +1,106 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/753519",
+  "retrievedAt": "2026-10-30T01:47:01.976Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 753519,
+    "isHighlight": false,
+    "accessionNumber": "2021.16.15",
+    "accessionYear": "2021",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP-21168-001.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-21168-001.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/dp/original/DP890056.jpg"
+    ],
+    "constituents": [
+      {
+        "constituentID": 166275,
+        "role": "Artist",
+        "name": "Aubrey Vincent Beardsley",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500032068",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q272566",
+        "gender": ""
+      },
+      {
+        "constituentID": 70332,
+        "role": "Author",
+        "name": "Related author Edgar Allan Poe",
+        "constituentULAN_URL": "",
+        "constituentWikidata_URL": "",
+        "gender": ""
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Drawing",
+    "title": "The Black Cat, for Edgar Allan Poe’s “Tales of Mystery and the Imagination,” Chicago, 1895–96",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Aubrey Vincent Beardsley",
+    "artistDisplayBio": "British, Brighton, Sussex 1872–1898 Menton",
+    "artistSuffix": "",
+    "artistAlphaSort": "Beardsley, Aubrey Vincent",
+    "artistNationality": "British",
+    "artistBeginDate": "1872",
+    "artistEndDate": "1898",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q272566",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500032068",
+    "objectDate": "1894",
+    "objectBeginDate": 1894,
+    "objectEndDate": 1894,
+    "medium": "Pen, brush and India ink over graphite",
+    "dimensions": "Sheet: 10 in. × 6 3/8 in. (25.4 × 16.2 cm)",
+    "measurements": [
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 25.4,
+          "Width": 16.2
+        }
+      }
+    ],
+    "creditLine": "Gift of Jacqueline Loewe Fowler, 2020",
+    "geographyType": "Country of Origin",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "Great Britain",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Drawings",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-03-06T04:54:30Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/753519",
+    "tags": [
+      {
+        "term": "Women",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+      },
+      {
+        "term": "Cats",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300265960",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q146"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "38df810714eb765a41698d1e3057dba38486501a8c6f15011fae70fab1b6e366"
+}

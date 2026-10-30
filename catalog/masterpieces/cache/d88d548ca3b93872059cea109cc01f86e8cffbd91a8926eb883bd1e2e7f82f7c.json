@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Paris+Street+Rainy+Day",
+  "retrievedAt": "2026-10-30T00:47:45.205Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 6180.8677,
+        "id": 20684,
+        "title": "Paris Street; Rainy Day",
+        "main_reference_number": "1964.336",
+        "date_display": "1877",
+        "is_public_domain": true,
+        "artist_title": "Gustave Caillebotte",
+        "image_id": "f8fd76e9-c396-5678-36ed-6a348c904d27"
+      },
+      {
+        "_score": 3443.6077,
+        "id": 210484,
+        "title": "Study for Paris Street; Rainy Day",
+        "main_reference_number": "2011.420",
+        "date_display": "1877",
+        "is_public_domain": true,
+        "artist_title": "Gustave Caillebotte",
+        "image_id": "bb330849-a1d7-78df-ac85-e0295c3a448c"
+      },
+      {
+        "_score": 132.79242,
+        "id": 64479,
+        "title": "Rainy Day",
+        "main_reference_number": "1910.314",
+        "date_display": "1906",
+        "artist_title": "Frank Weston Benson",
+        "image_id": "8c92737a-9766-eb66-d0b2-1f042b219674",
+        "is_public_domain": false
+      },
+      {
+        "_score": 122.68075,
+        "id": 4462,
+        "title": "State Street, Rainy Day",
+        "main_reference_number": "1956.1074",
+        "date_display": "1952",
+        "artist_title": "Arthur Siegel",
+        "image_id": "be783836-6c61-7780-2144-b630acb6e7b5",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "f48791302ca2c935117a5183f1cfc07c1e19728f5db4112745f3f259fea4c4a5"
+}

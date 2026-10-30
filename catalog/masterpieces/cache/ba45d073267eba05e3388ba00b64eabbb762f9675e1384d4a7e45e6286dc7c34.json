@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Th%C3%A9odore_G%C3%A9ricault/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:49:00.488Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6896
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6721
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6156
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6848
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5707
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8307
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5792
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5574
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4923
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6456
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4921
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Théodore_Géricault",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5324
+      }
+    ]
+  },
+  "payloadSha256": "0549d526643008f77d5305c3ce049ec89387ecd1f5e1d2dd1d98481ab5495369"
+}

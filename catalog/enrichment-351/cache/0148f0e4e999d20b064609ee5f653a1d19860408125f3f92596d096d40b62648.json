@@ -1,0 +1,572 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Printemps+au+palais+des+Han%7CJahangir+pr%C3%A9f%C3%A9rant+un+cheikh+soufi+%C3%A0+des+rois%7CV%C3%A9nus+de+Milo%7CVictoire+de+Samothrace%7CDiscobole%7CGroupe+du+Laocoon%7CAuguste+de+Prima+Porta%7CStatue+%C3%A9questre+de+Marc+Aur%C3%A8le%7CHerm%C3%A8s+portant+Dionysos+enfant%7CBuste+de+N%C3%A9fertiti%7CMasque+fun%C3%A9raire+de+Tout%C3%A2nkhamon%7CSphinx+de+Gizeh%7CPalette+de+Narmer%7CScribe+accroupi%7CKh%C3%A9phren+assis%7C%C3%89tendard+d%27Ur%7CPorte+d%27Ishtar%7CCode+de+Hammurabi%7CLamassu+ail%C3%A9+%28identifier+exemplaire%29%7CTapisserie+de+Bayeux%7CLivre+de+Kells%7CLes+Tr%C3%A8s+Riches+Heures+du+duc+de+Berry%7CLa+Dame+%C3%A0+la+licorne%7CLa+Chasse+%C3%A0+la+licorne%7CBas-relief+du+Barattage+de+la+mer+de+lait+%28Angkor+Vat%29%7CArm%C3%A9e+de+terre+cuite+de+Qin+Shi+Huang+%28ensemble%29%7CBouddha+g%C3%A9ant+de+Leshan%7CGrand+Bouddha+de+Kamakura%7CChapiteau+aux+lions+d%27Ashoka%7CGrand+Stupa+de+Sanchi",
+  "retrievedAt": "2026-10-30T01:42:28.026Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Scribe accroupi",
+          "to": "Le Scribe accroupi"
+        },
+        {
+          "from": "Bouddha géant de Leshan",
+          "to": "Grand Bouddha de Leshan"
+        },
+        {
+          "from": "Grand Bouddha de Kamakura",
+          "to": "Kōtoku-in"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Grand Stupa de Sanchi",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Grand_Stupa_de_Sanchi",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Grand_Stupa_de_Sanchi&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Grand_Stupa_de_Sanchi"
+        },
+        {
+          "ns": 0,
+          "title": "Armée de terre cuite de Qin Shi Huang (ensemble)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Arm%C3%A9e_de_terre_cuite_de_Qin_Shi_Huang_(ensemble)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Arm%C3%A9e_de_terre_cuite_de_Qin_Shi_Huang_(ensemble)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Arm%C3%A9e_de_terre_cuite_de_Qin_Shi_Huang_(ensemble)"
+        },
+        {
+          "ns": 0,
+          "title": "Bas-relief du Barattage de la mer de lait (Angkor Vat)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Bas-relief_du_Barattage_de_la_mer_de_lait_(Angkor_Vat)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Bas-relief_du_Barattage_de_la_mer_de_lait_(Angkor_Vat)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Bas-relief_du_Barattage_de_la_mer_de_lait_(Angkor_Vat)"
+        },
+        {
+          "ns": 0,
+          "title": "Lamassu ailé (identifier exemplaire)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Lamassu_ail%C3%A9_(identifier_exemplaire)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Lamassu_ail%C3%A9_(identifier_exemplaire)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Lamassu_ail%C3%A9_(identifier_exemplaire)"
+        },
+        {
+          "ns": 0,
+          "title": "Khéphren assis",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Kh%C3%A9phren_assis",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Kh%C3%A9phren_assis&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Kh%C3%A9phren_assis"
+        },
+        {
+          "ns": 0,
+          "title": "Jahangir préférant un cheikh soufi à des rois",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Jahangir_pr%C3%A9f%C3%A9rant_un_cheikh_soufi_%C3%A0_des_rois",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jahangir_pr%C3%A9f%C3%A9rant_un_cheikh_soufi_%C3%A0_des_rois&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jahangir_pr%C3%A9f%C3%A9rant_un_cheikh_soufi_%C3%A0_des_rois"
+        },
+        {
+          "ns": 0,
+          "title": "Printemps au palais des Han",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Printemps_au_palais_des_Han",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Printemps_au_palais_des_Han&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Printemps_au_palais_des_Han"
+        },
+        {
+          "pageid": 12649,
+          "ns": 0,
+          "title": "Palette de Narmer",
+          "pageprops": {
+            "page_image_free": "Manual_of_Egyptian_archæology_and_guide_to_the_study_of_antiquities_in_Egypt._For_the_use_of_students_and_travellers_(1914)_(14774108904).jpg",
+            "wikibase_item": "Q368138"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:48Z",
+          "lastrevid": 221082124,
+          "length": 9352,
+          "fullurl": "https://fr.wikipedia.org/wiki/Palette_de_Narmer",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Palette_de_Narmer&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Palette_de_Narmer"
+        },
+        {
+          "pageid": 14874,
+          "ns": 0,
+          "title": "La Dame à la licorne",
+          "pageprops": {
+            "defaultsort": "Dame a la Licorne, La",
+            "displaytitle": "<i>La Dame à la licorne</i>",
+            "page_image_free": "(Toulouse)_Mon_seul_désir_(La_Dame_à_la_licorne)_-_Musée_de_Cluny_Paris_-_la_Dame.jpg",
+            "wikibase_item": "Q2289754"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:49Z",
+          "lastrevid": 240483015,
+          "length": 40728,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Dame_%C3%A0_la_licorne",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Dame_%C3%A0_la_licorne&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Dame_%C3%A0_la_licorne"
+        },
+        {
+          "pageid": 19061,
+          "ns": 0,
+          "title": "Tapisserie de Bayeux",
+          "pageprops": {
+            "page_image_free": "Odo_bayeux_tapestry.png",
+            "wikibase_item": "Q187483"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:50Z",
+          "lastrevid": 240246812,
+          "length": 148117,
+          "fullurl": "https://fr.wikipedia.org/wiki/Tapisserie_de_Bayeux",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Tapisserie_de_Bayeux&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Tapisserie_de_Bayeux"
+        },
+        {
+          "pageid": 20389,
+          "ns": 0,
+          "title": "Vénus de Milo",
+          "pageprops": {
+            "page_image_free": "Vénus_de_Milo_-_Musée_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg",
+            "wikibase_item": "Q151952"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:50Z",
+          "lastrevid": 240640380,
+          "length": 61224,
+          "fullurl": "https://fr.wikipedia.org/wiki/V%C3%A9nus_de_Milo",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=V%C3%A9nus_de_Milo&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/V%C3%A9nus_de_Milo"
+        },
+        {
+          "pageid": 119182,
+          "ns": 0,
+          "title": "Victoire de Samothrace",
+          "pageprops": {
+            "page_image_free": "Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg",
+            "wikibase_item": "Q216402"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:03Z",
+          "lastrevid": 239888814,
+          "length": 41922,
+          "fullurl": "https://fr.wikipedia.org/wiki/Victoire_de_Samothrace",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Victoire_de_Samothrace&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Victoire_de_Samothrace"
+        },
+        {
+          "pageid": 139482,
+          "ns": 0,
+          "title": "Les Très Riches Heures du duc de Berry",
+          "pageprops": {
+            "defaultsort": "Tres riches heures du duc de Berry",
+            "displaytitle": "<i>Les Très Riches Heures du duc de Berry</i>",
+            "page_image_free": "Anatomical_Man.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q211062"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:06Z",
+          "lastrevid": 239867944,
+          "length": 161321,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry"
+        },
+        {
+          "pageid": 145792,
+          "ns": 0,
+          "title": "Discobole",
+          "pageprops": {
+            "displaytitle": "<i>Discobole</i>",
+            "page_image_free": "Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG",
+            "wikibase_item": "Q133732"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:07Z",
+          "lastrevid": 239901410,
+          "length": 19752,
+          "fullurl": "https://fr.wikipedia.org/wiki/Discobole",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Discobole&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Discobole"
+        },
+        {
+          "pageid": 222234,
+          "ns": 0,
+          "title": "Livre de Kells",
+          "pageprops": {
+            "page_image_free": "KellsFol292rIncipJohn.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q204221"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:19Z",
+          "lastrevid": 237967360,
+          "length": 54321,
+          "fullurl": "https://fr.wikipedia.org/wiki/Livre_de_Kells",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Livre_de_Kells&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Livre_de_Kells"
+        },
+        {
+          "pageid": 389843,
+          "ns": 0,
+          "title": "Code de Hammurabi",
+          "pageprops": {
+            "defaultsort": "Code Hammurabi",
+            "page_image_free": "P1050763_Louvre_code_Hammurabi_face_rwk.JPG",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q93304"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:48Z",
+          "lastrevid": 240142813,
+          "length": 123482,
+          "fullurl": "https://fr.wikipedia.org/wiki/Code_de_Hammurabi",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Code_de_Hammurabi&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Code_de_Hammurabi"
+        },
+        {
+          "pageid": 401844,
+          "ns": 0,
+          "title": "Porte d'Ishtar",
+          "pageprops": {
+            "page_image_free": "Pergamonmuseum_Ishtartor_05.jpg",
+            "wikibase_item": "Q26082"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T22:29:17Z",
+          "lastrevid": 240806887,
+          "length": 16210,
+          "fullurl": "https://fr.wikipedia.org/wiki/Porte_d%27Ishtar",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Porte_d%27Ishtar&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Porte_d%27Ishtar"
+        },
+        {
+          "pageid": 646408,
+          "ns": 0,
+          "title": "Groupe du Laocoon",
+          "pageprops": {
+            "displaytitle": "<i>Groupe du Laocoon</i>",
+            "page_image_free": "Laocoön_and_his_sons_group.jpg",
+            "wikibase_item": "Q465762"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:22Z",
+          "lastrevid": 240625370,
+          "length": 17700,
+          "fullurl": "https://fr.wikipedia.org/wiki/Groupe_du_Laocoon",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Groupe_du_Laocoon&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Groupe_du_Laocoon"
+        },
+        {
+          "pageid": 812261,
+          "ns": 0,
+          "title": "Statue équestre de Marc Aurèle",
+          "pageprops": {
+            "defaultsort": "Marc Aurele, Statue equestre de",
+            "displaytitle": "<i>Statue équestre de Marc Aurèle</i>",
+            "page_image_free": "Replica_of_the_Equestrian_statue_of_Marcus_Aurelius_in_Rome_(2).jpg",
+            "wikibase_item": "Q907387"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:44Z",
+          "lastrevid": 236013883,
+          "length": 20411,
+          "fullurl": "https://fr.wikipedia.org/wiki/Statue_%C3%A9questre_de_Marc_Aur%C3%A8le",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Statue_%C3%A9questre_de_Marc_Aur%C3%A8le&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Statue_%C3%A9questre_de_Marc_Aur%C3%A8le"
+        },
+        {
+          "pageid": 824151,
+          "ns": 0,
+          "title": "Sphinx de Gizeh",
+          "pageprops": {
+            "page_image_free": "The_amazing_Sphinx.jpg",
+            "wikibase_item": "Q130958"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:46Z",
+          "lastrevid": 240177473,
+          "length": 39676,
+          "fullurl": "https://fr.wikipedia.org/wiki/Sphinx_de_Gizeh",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Sphinx_de_Gizeh&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Sphinx_de_Gizeh"
+        },
+        {
+          "pageid": 937976,
+          "ns": 0,
+          "title": "Étendard d'Ur",
+          "pageprops": {
+            "defaultsort": "Etendard d'Ur",
+            "displaytitle": "<i>Étendard d'Ur</i>",
+            "page_image_free": "Denis_Bourez_-_British_Museum,_London_(8747049029)_(2).jpg",
+            "wikibase_item": "Q524447"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:05Z",
+          "lastrevid": 238995392,
+          "length": 10907,
+          "fullurl": "https://fr.wikipedia.org/wiki/%C3%89tendard_d%27Ur",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=%C3%89tendard_d%27Ur&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/%C3%89tendard_d%27Ur"
+        },
+        {
+          "pageid": 1252062,
+          "ns": 0,
+          "title": "Grand Bouddha de Leshan",
+          "pageprops": {
+            "page_image_free": "Leshan_Buddha_Statue_View.JPG",
+            "wikibase_item": "Q205131"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:51Z",
+          "lastrevid": 238705109,
+          "length": 14963,
+          "fullurl": "https://fr.wikipedia.org/wiki/Grand_Bouddha_de_Leshan",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Grand_Bouddha_de_Leshan&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Grand_Bouddha_de_Leshan"
+        },
+        {
+          "pageid": 1323842,
+          "ns": 0,
+          "title": "Hermès portant Dionysos enfant",
+          "pageprops": {
+            "defaultsort": "Hermes portant Dionysos enfant",
+            "page_image_free": "Hermes_and_the_infant_Dionysus_by_Praxiteles.jpg",
+            "wikibase_item": "Q1518432"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:01Z",
+          "lastrevid": 238639665,
+          "length": 15234,
+          "fullurl": "https://fr.wikipedia.org/wiki/Herm%C3%A8s_portant_Dionysos_enfant",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Herm%C3%A8s_portant_Dionysos_enfant&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Herm%C3%A8s_portant_Dionysos_enfant"
+        },
+        {
+          "pageid": 1621003,
+          "ns": 0,
+          "title": "La Chasse à la licorne",
+          "pageprops": {
+            "defaultsort": "Chasse a la licorne",
+            "displaytitle": "<i>La Chasse à la licorne</i>",
+            "page_image_free": "The_Unicorn_in_Captivity_-_detail_head.jpg",
+            "wikibase_item": "Q2626769"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:31Z",
+          "lastrevid": 239447793,
+          "length": 10766,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Chasse_%C3%A0_la_licorne",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Chasse_%C3%A0_la_licorne&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Chasse_%C3%A0_la_licorne"
+        },
+        {
+          "pageid": 3839416,
+          "ns": 0,
+          "title": "Auguste de Prima Porta",
+          "pageprops": {
+            "displaytitle": "<i>Auguste de Prima Porta</i>",
+            "page_image_free": "Augustus_of_Prima_Porta_(inv._2290).jpg",
+            "wikibase_item": "Q667124"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:07Z",
+          "lastrevid": 238218451,
+          "length": 18303,
+          "fullurl": "https://fr.wikipedia.org/wiki/Auguste_de_Prima_Porta",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Auguste_de_Prima_Porta&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Auguste_de_Prima_Porta"
+        },
+        {
+          "pageid": 4380056,
+          "ns": 0,
+          "title": "Buste de Néfertiti",
+          "pageprops": {
+            "displaytitle": "<i>Buste de Néfertiti</i>",
+            "page_image_free": "Nofretete_Neues_Museum.jpg",
+            "wikibase_item": "Q582172"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:58Z",
+          "lastrevid": 239122248,
+          "length": 39658,
+          "fullurl": "https://fr.wikipedia.org/wiki/Buste_de_N%C3%A9fertiti",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Buste_de_N%C3%A9fertiti&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Buste_de_N%C3%A9fertiti"
+        },
+        {
+          "pageid": 5798843,
+          "ns": 0,
+          "title": "Kōtoku-in",
+          "pageprops": {
+            "defaultsort": "kotoku-in",
+            "page_image_free": "230128_Kamakura_Daibutsu_Japan01s3.jpg",
+            "wikibase_item": "Q672056"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:56:25Z",
+          "lastrevid": 239918933,
+          "length": 10099,
+          "fullurl": "https://fr.wikipedia.org/wiki/K%C5%8Dtoku-in",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=K%C5%8Dtoku-in&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/K%C5%8Dtoku-in"
+        },
+        {
+          "pageid": 6531568,
+          "ns": 0,
+          "title": "Le Scribe accroupi",
+          "pageprops": {
+            "defaultsort": "Scribe accroupi, Le",
+            "displaytitle": "<i>Le Scribe accroupi</i>",
+            "page_image_free": "Le_Scribe_accroupi_-_Musée_du_Louvre_Antiquités_égyptiennes_E_3023.jpg",
+            "wikibase_item": "Q378034"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T23:28:48Z",
+          "lastrevid": 238349914,
+          "length": 6847,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Scribe_accroupi",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Scribe_accroupi&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Scribe_accroupi"
+        },
+        {
+          "pageid": 9366030,
+          "ns": 0,
+          "title": "Masque funéraire de Toutânkhamon",
+          "pageprops": {
+            "page_image_free": "CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+            "wikibase_item": "Q9048095"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:00:36Z",
+          "lastrevid": 237380445,
+          "length": 12354,
+          "fullurl": "https://fr.wikipedia.org/wiki/Masque_fun%C3%A9raire_de_Tout%C3%A2nkhamon",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Masque_fun%C3%A9raire_de_Tout%C3%A2nkhamon&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Masque_fun%C3%A9raire_de_Tout%C3%A2nkhamon"
+        },
+        {
+          "pageid": 10246688,
+          "ns": 0,
+          "title": "Chapiteau aux lions d'Ashoka",
+          "pageprops": {
+            "page_image_free": "Sarnath_capital.jpg",
+            "wikibase_item": "Q3595955"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T11:02:22Z",
+          "lastrevid": 240823932,
+          "length": 3128,
+          "fullurl": "https://fr.wikipedia.org/wiki/Chapiteau_aux_lions_d%27Ashoka",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Chapiteau_aux_lions_d%27Ashoka&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Chapiteau_aux_lions_d%27Ashoka"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "d474b05f6f7121111ba4255835a403cc5b122ea7d5233c786650506914a66c81"
+}

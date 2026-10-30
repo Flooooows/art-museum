@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Card+Players+Cezanne",
+  "retrievedAt": "2026-10-30T01:46:25.685Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 7451,
+    "objectIDs": [
+      435868,
+      437990,
+      435872,
+      725321
+    ]
+  },
+  "payloadSha256": "654b3c8939637a300443a1a30afd2e5a69ac27133307530498fb10101075f009"
+}

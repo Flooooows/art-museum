@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=A+Lion+Attacking+a+Horse",
+  "retrievedAt": "2026-10-30T00:51:15.490Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 169.51366,
+        "id": 81503,
+        "title": "Arab Horseman Attacked by a Lion",
+        "main_reference_number": "1922.403",
+        "date_display": "1849–50",
+        "is_public_domain": true,
+        "artist_title": "Eugène Delacroix",
+        "image_id": "c4b0d9da-e89a-df7f-904a-9550697c11f5"
+      },
+      {
+        "_score": 161.63606,
+        "id": 97686,
+        "title": "A Horse Frightened by a Lion",
+        "main_reference_number": "1982.498",
+        "date_display": "1777",
+        "is_public_domain": true,
+        "artist_title": "George Stubbs",
+        "image_id": "9c093c9d-aae3-36bd-fe79-6bf1a7ed07c3"
+      },
+      {
+        "_score": 116.321106,
+        "id": 141454,
+        "title": "A Horse Affrighted by a Lion",
+        "main_reference_number": "2013.760",
+        "date_display": "September 25, 1777",
+        "is_public_domain": true,
+        "artist_title": "George Stubbs",
+        "image_id": "783d5ce8-cf57-190f-ebe1-49e18a67d35d"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "8b96552ce4bced8b24534545dfe1df174afe91ab1eb71e6775501d2a82103971"
+}

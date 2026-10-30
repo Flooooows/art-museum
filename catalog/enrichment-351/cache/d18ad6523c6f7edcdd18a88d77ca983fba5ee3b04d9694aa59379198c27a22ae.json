@@ -1,0 +1,145 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/349160",
+  "retrievedAt": "2026-10-30T01:46:11.915Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 349160,
+    "isHighlight": false,
+    "accessionNumber": "29.88.9(6)",
+    "accessionYear": "1929",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP860371.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP860371.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/dp/original/MM7196.jpg"
+    ],
+    "constituents": [
+      {
+        "constituentID": 161996,
+        "role": "Artist",
+        "name": "After Winslow Homer",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500019202",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q344838",
+        "gender": ""
+      },
+      {
+        "constituentID": 79936,
+        "role": "Engraver",
+        "name": "W. H. Lagarde",
+        "constituentULAN_URL": "",
+        "constituentWikidata_URL": "",
+        "gender": ""
+      },
+      {
+        "constituentID": 166072,
+        "role": "Publisher",
+        "name": "Harper&#39;s Weekly",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500524528",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q3127693",
+        "gender": ""
+      },
+      {
+        "constituentID": 165506,
+        "role": "Publisher",
+        "name": "Harper &amp; Brothers",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500524493",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q3127696",
+        "gender": ""
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Print",
+    "title": "Snap-the-Whip (from \"Harper's Weekly,\" Vol. XVII)",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "After",
+    "artistDisplayName": "Winslow Homer",
+    "artistDisplayBio": "American, Boston, Massachusetts 1836–1910 Prouts Neck, Maine",
+    "artistSuffix": "",
+    "artistAlphaSort": "Homer, Winslow",
+    "artistNationality": "American",
+    "artistBeginDate": "1836",
+    "artistEndDate": "1910",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q344838",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500019202",
+    "objectDate": "September 20, 1873",
+    "objectBeginDate": 1873,
+    "objectEndDate": 1873,
+    "medium": "Wood engraving",
+    "dimensions": "image: 13 9/16 x 20 5/8 in. (34.4 x 52.4 cm)\r\nsheet: 15 15/16 x 21 7/8 in. (40.5 x 55.5 cm)",
+    "measurements": [
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 40.5,
+          "Width": 55.5
+        }
+      },
+      {
+        "elementName": "Image",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 34.44882,
+          "Width": 52.387604
+        }
+      }
+    ],
+    "creditLine": "Harris Brisbane Dick Fund, 1929",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Prints",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2026-07-20T04:54:44.823Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/349160",
+    "tags": [
+      {
+        "term": "Houses",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300005433",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q3947"
+      },
+      {
+        "term": "Boys",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300247598",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q3010"
+      },
+      {
+        "term": "Running",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300239496",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q105674"
+      },
+      {
+        "term": "Flowers",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+      },
+      {
+        "term": "Plants",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300132360",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q756"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "04e28f0854e22abc0514fafb4d54b913b09a32a5468c30e655738913fc8314c9"
+}

@@ -1,0 +1,1636 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3ACamille+Claudel.-+L%E2%80%99%C3%82ge+m%C3%BBr+ou+La+Destin%C3%A9e%2C+1899%2C+bronze+%282%29.jpg%7CFile%3ABessie+Love+identifies+a+ghost+in+her+castle+in+Wee+Lady+Betty.jpg%7CFile%3AUntitled+%28point+de+vue%29%2C+Ni%C3%A9pce+1827+%E2%80%94+HRC+2020+%28cropped%29.jpg%7CFile%3AParis+boulevard+du+temple.jpg%7CFile%3AL%27%C3%89chelle+%28Ardennes%29+city+limit+sign.JPG%7CFile%3AThe+Horse+in+Motion+high+res.jpg%7CFile%3AThe+Horse+in+Motion-anim.gif%7CFile%3APtolemaic+System+-+Digital+Reproduction.png%7CFile%3ASF+maig+2026.jpg%7CFile%3ACasa+Batllo+Overview+Barcelona+Spain+cut.jpg%7CFile%3AG%C3%BCell+BCN+edited.jpg%7CFile%3AReptil+Parc+Guell+Barcelona.jpg%7CFile%3AParcGuell.JPG%7CFile%3AVictor+Horta+Hotel+Tassel.JPG%7CFile%3ABelgique+-+Bruxelles+-+H%C3%B4tel+Tassel+-+02.jpg",
+  "retrievedAt": "2026-10-30T01:48:01.526Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 96120,
+          "ns": 6,
+          "title": "File:Reptil Parc Guell Barcelona.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 640863,
+              "width": 2288,
+              "height": 1247,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Reptil_Parc_Guell_Barcelona.jpg/1920px-Reptil_Parc_Guell_Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 872,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/d/da/Reptil_Parc_Guell_Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Reptil_Parc_Guell_Barcelona.jpg/1920px-Reptil_Parc_Guell_Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 872,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/da/Reptil_Parc_Guell_Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Reptil_Parc_Guell_Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Reptil_Parc_Guell_Barcelona.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=96120",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2005-04-03 15:55:06",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Reptil Parc Guell Barcelona",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|License migration redundant|El Drac (Parc Güell)|Self-published work|June 2004 in Spain",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Figurine by Antoni Gaudí in Parc Güell",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2004-06",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"https://de.wikipedia.org/wiki/Benutzer:Baikonur\" class=\"extiw\" title=\"de:Benutzer:Baikonur\">Baikonur</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 2525009,
+          "ns": 6,
+          "title": "File:Victor Horta Hotel Tassel.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 976752,
+              "width": 1698,
+              "height": 2682,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Victor_Horta_Hotel_Tassel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2527,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Victor_Horta_Hotel_Tassel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2527
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Victor_Horta_Hotel_Tassel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Victor_Horta_Hotel_Tassel.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2525009",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-05-26 19:35:42",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Victor Horta Hotel Tassel",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|Hotel Tassel|License migration redundant|Self-published work|FoP-Belgium",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Victor Horta, Hotel Tassel, rue Paul-Emile Janson 6, Ixelles",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2007-08-07",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Karl_Stas\" title=\"User:Karl Stas\">Karl Stas</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Attribution": {
+                  "value": "I, <a href=\"//commons.wikimedia.org/wiki/User:Karl_Stas\" title=\"User:Karl Stas\">Karl Stas</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 3828100,
+          "ns": 6,
+          "title": "File:The Horse in Motion-anim.gif",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 648978,
+              "width": 340,
+              "height": 230,
+              "duration": 1.0999999999999999,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/07/The_Horse_in_Motion-anim.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1082,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/The_Horse_in_Motion-anim.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1082
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/The_Horse_in_Motion-anim.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Horse_in_Motion-anim.gif",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3828100",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2008-04-05 00:08:24",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "The Horse in Motion-anim",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Sallie Gardner at a Gallop|Videos of 1878|Images from the Library of Congress|Animated GIF files|PD Old|Nevit Dilmen Videos|Images with extracted images|PD US expired|PNG created with GIMP|CC-PD-Mark|Seamless animations|Horse motion studies by Eadweard Muybridge|Animations of running|Silhouettes of horses",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Конь у руху Эдварда Мэйбрыджа. «Салі Гарднер», якая належыць Ліланду Стэнфарду; бег 1:40 па трасе Пала-Альта, 19 чэрвеня 1878 года. Кадры 1—11 выкарыстоўваюцца для анімацыі, кадр 12 не выкарыстоўваюцца.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1878",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Library of Congress Prints and Photographs Division; <a rel=\"nofollow\" class=\"external free\" href=\"https://hdl.loc.gov/loc.pnp/cph.3a45870\">https://hdl.loc.gov/loc.pnp/cph.3a45870</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Eadweard Muybridge, Animation: <a href=\"//commons.wikimedia.org/wiki/User:Nevit\" title=\"User:Nevit\">Nevit Dilmen</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "Public domain works must be out of copyright in both the United States and in the source country of the work in order to be hosted on the Commons. If the work is not a U.S. work, the file <b>must</b> have an additional <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags\" title=\"Commons:Copyright tags\">copyright tag</a> indicating the copyright status in the source country.<br><b>Note:</b> This tag should <i>not</i> be used for sound recordings.<span style=\"display:none;\"><span class=\"licensetpl_short\">PD-1923</span><span class=\"licensetpl_long\"><a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">Public domain</a> in the United States</span><span class=\"licensetpl_link\">//commons.wikimedia.org/wiki/File:The_Horse_in_Motion-anim.gif</span></span>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 6440031,
+          "ns": 6,
+          "title": "File:ParcGuell.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1465587,
+              "width": 2304,
+              "height": 1536,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/ParcGuell.JPG/1920px-ParcGuell.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1067,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/6/61/ParcGuell.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/ParcGuell.JPG/1920px-ParcGuell.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1067,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/61/ParcGuell.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/ParcGuell.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:ParcGuell.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=6440031",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2009-04-07 20:34:16",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "ParcGuell",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Kodak EasyShare DX6490|Self-published work|PD-self|Viaducts (Parc Güell)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Bridge at Parc Guell, Barcelona",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2009-04-06",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:%E1%83%9B%E1%83%9D%E1%83%AA%E1%83%90%E1%83%A0%E1%83%A2%E1%83%98\" title=\"User:მოცარტი\">მოცარტი</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>I, the copyright holder of this work, release this work into the <b><a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a></b>. This applies worldwide.<br><small>In some countries this may not be legally possible; if so:</small><br><i>I grant anyone the right to use this work <b>for any purpose</b>, without any conditions, unless such conditions are required by law.</i>\n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 11306773,
+          "ns": 6,
+          "title": "File:Paris boulevard du temple.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 4927250,
+              "width": 3648,
+              "height": 2736,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Paris_boulevard_du_temple.jpg/1920px-Paris_boulevard_du_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1200,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Paris_boulevard_du_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Paris_boulevard_du_temple.jpg/1920px-Paris_boulevard_du_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1200,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Paris_boulevard_du_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Paris_boulevard_du_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Paris_boulevard_du_temple.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11306773",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-08-27 14:12:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Paris boulevard du temple",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Boulevard du Temple (Paris)|GFDL|Taken with Panasonic Lumix DMC-FZ28|License migration redundant|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Le Boulevard du Temple a Paris, vue vers le nord",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2010-08-27",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Ralf.treinen\" title=\"User:Ralf.treinen\">Ralf.treinen</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 21287945,
+          "ns": 6,
+          "title": "File:L'Échelle (Ardennes) city limit sign.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5682176,
+              "width": 4320,
+              "height": 3240,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG/1920px-L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1200,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG/3840px-L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG/1920px-L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1200,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG/3840px-L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/L%27%C3%89chelle_%28Ardennes%29_city_limit_sign.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:L%27%C3%89chelle_(Ardennes)_city_limit_sign.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21287945",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-09-12 20:54:16",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "L'Échelle (Ardennes) city limit sign",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "City limit signs in Ardennes (department)|Routes départementales in Ardennes|Signs of Concours des villes et villages fleuris in Ardennes (department)|Taken with Panasonic Lumix DMC-TZ20|CC-Zero|L'Échelle|Self-published work|Media with estimated locations|France photographs taken on 2012-08-23|E43 (road sign, France)|EB10 (road sign, France)|Photographs by Henk van Gaal|Files with coordinates missing SDC location of creation (49° N, 4° E)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "49.798014",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "4.478917",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "L'Échelle (Ardennes) city limit sign",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2012-08-23 14:53:11",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Havang(nl)\" title=\"User:Havang(nl)\">Havang(nl)</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 41698940,
+          "ns": 6,
+          "title": "File:Casa Batllo Overview Barcelona Spain cut.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 8365366,
+              "width": 2244,
+              "height": 2765,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Casa_Batllo_Overview_Barcelona_Spain_cut.jpg/1920px-Casa_Batllo_Overview_Barcelona_Spain_cut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1971,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Casa_Batllo_Overview_Barcelona_Spain_cut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Casa_Batllo_Overview_Barcelona_Spain_cut.jpg/1920px-Casa_Batllo_Overview_Barcelona_Spain_cut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1971,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Casa_Batllo_Overview_Barcelona_Spain_cut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Casa_Batllo_Overview_Barcelona_Spain_cut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=41698940",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-07-19 20:05:05",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Casa Batllo Overview Barcelona Spain cut",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Derivative versions|Main facade of Casa Batlló",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Casa Batlló, a Modernista Antoni Gaudí building on Passeig de Gràcia in Barcelona, Catalonia, Spain",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2013-09-23 19:47:36",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain.jpg\" title=\"File:Casa Batllo Overview Barcelona Spain.jpg\">Casa Batllo Overview Barcelona Spain.jpg</a><br>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:ChristianSchd\" title=\"User:ChristianSchd\">ChristianSchd</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 43880547,
+          "ns": 6,
+          "title": "File:Ptolemaic System - Digital Reproduction.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 546280,
+              "width": 2500,
+              "height": 2500,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ptolemaic_System_-_Digital_Reproduction.png/1920px-Ptolemaic_System_-_Digital_Reproduction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1600,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ptolemaic_System_-_Digital_Reproduction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Ptolemaic_System_-_Digital_Reproduction.png/1920px-Ptolemaic_System_-_Digital_Reproduction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1600,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ptolemaic_System_-_Digital_Reproduction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ptolemaic_System_-_Digital_Reproduction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ptolemaic_System_-_Digital_Reproduction.png",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=43880547",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-09-25 19:02:53",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Ptolemaic System - Digital Reproduction",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Celestial spheres (cosmological model)|Self-published work|Derivative versions|PNG diagrams",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "A digital reproduction of Peter Apian's diagram of the celestial orbs from his 1539 work Cosmographia. There have been minor changes to text alignment and the position of stars within their respective spheres; however, the positional relationship between the various spheres has been maintained. \n<p>A description of the contents, as copied from the Wikimedia description of the original image:\n</p><p>English: The scheme of the aforementioned division of spheres. · The empyrean (fiery) heaven, dwelling of God and of all the selected · 10 Tenth heaven, first cause · 9 Ninth heaven, crystalline · 8 Eighth heaven of the firmament · 7 Heaven of Saturn · 6 Jupiter · 5 Mars · 4 Sun · 3 Venus · 2 Mercury · 1 Moon\n</p>\nLatina: Schema huius praemissae divisionis sphaerarum. · Coelum empireum habitaculum dei et omnium electorum · 10 Decimum coelum primu mobile · 9 Nonu coelum cristallinum · 8 Octavum [coelum] firmamentu · 7 Coelu saturni · 6 [Coelu] Iovis · 5 [Coelu] Martis · 4 [Coelu] Solis · 3 [Coelu] Veneris · 2 [Coelu] Mercurii · 1 [Coelu] Lunae",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2015-09-27",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p><span class=\"int-own-work\" lang=\"en\">Own work</span><br>\n</p>\n(<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">This file was derived from:  <a href=\"//commons.wikimedia.org/w/index.php?title=File:Https:&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"File:Https: (page does not exist)\">Https:</a> <i>by</i> <a href=\"//commons.wikimedia.org/w/index.php?title=User:/en.wikipedia.org/wiki/File:Ptolemaicsystem-small.png&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:/en.wikipedia.org/wiki/File:Ptolemaicsystem-small.png (page does not exist)\">/en.wikipedia.org/wiki/File:Ptolemaicsystem-small.png</a><br></bdi></i></span>)",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<p>Cipozy (reproduction), Peter Apian (original).\n</p>\n<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cipozy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cipozy (page does not exist)\">Cipozy</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 47132799,
+          "ns": 6,
+          "title": "File:Camille Claudel.- L’Âge mûr ou La Destinée, 1899, bronze (2).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 7239959,
+              "width": 4608,
+              "height": 3456,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg/1920px-Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1200,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg/3840px-Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg/1920px-Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1200,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg/3840px-Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e%2C_1899%2C_bronze_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Camille_Claudel.-_L%E2%80%99%C3%82ge_m%C3%BBr_ou_La_Destin%C3%A9e,_1899,_bronze_(2).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=47132799",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-02-23 15:28:18",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Camille Claudel.- L’Âge mûr ou La Destinée, 1899, bronze (2)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|License migration redundant|CC-BY-SA-4.0,3.0,2.5,2.0,1.0|Self-published work|Uploaded with Commonist|Dpt du Nord by PIERRE ANDRE LECLERCQ|Files by User:Pierre André Leclercq|France photographs taken on 2015-01-21|Files with coordinates missing SDC location of creation (50° N, 3° E)|Busts in Musée d'Art et d'Industrie de Roubaix|Camille Claudel. Au miroir d'un art nouveau (Roubaix, 2014-2015)|Artworks by PIERRE ANDRE LECLERCQ/Camille Claudel|La Destinée by Camille Claudel",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "50.692577",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "3.167560",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Sculptures de <a href=\"https://fr.wikipedia.org/wiki/Camille_Claudel\" class=\"extiw\" title=\"fr:Camille Claudel\"> Camille Claudel</a>,  \"Au miroir d'un art nouveau\" au  <a href=\"https://fr.wikipedia.org/wiki/La_Piscine_(mus%C3%A9e)\" class=\"extiw\" title=\"fr:La Piscine (musée)\"> Musée d'Art et d'Industrie de Roubaix dit \"la Piscine\"</a>, <a href=\"https://fr.wikipedia.org/wiki/Roubaix\" class=\"extiw\" title=\"fr:Roubaix\"> Roubaix</a>, France.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2015-01-21 14:29:42",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span><div style=\"display:table;width:;vertical-align:middle;direction:ltr;float:left;line-height:22px;height:24px;font-size:.96em;margin:0px;padding:2px 4px 2px 6px;color:var(--color-base,#000);background:var(--background-color-neutral-subtle,#F8F9FA);border:1px solid #BAB;border-collapse:separate;border-spacing:0px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Commonist.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Commonist.svg/40px-Commonist.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"22\" height=\"22\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Commonist.svg/60px-Commonist.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"512\" data-file-height=\"512\"></a></span> This   file was uploaded  with <a href=\"//commons.wikimedia.org/wiki/Commons:Commonist\" title=\"Commons:Commonist\">Commonist</a>.</div>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:PIERRE_ANDRE_LECLERCQ\" class=\"mw-redirect\" title=\"User:PIERRE ANDRE LECLERCQ\">Pierre André</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 57260211,
+          "ns": 6,
+          "title": "File:The Horse in Motion high res.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 8592297,
+              "width": 5694,
+              "height": 3510,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Horse_in_Motion_high_res.jpg/1920px-The_Horse_in_Motion_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 986,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Horse_in_Motion_high_res.jpg/3840px-The_Horse_in_Motion_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Horse_in_Motion_high_res.jpg/1920px-The_Horse_in_Motion_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 986,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Horse_in_Motion_high_res.jpg/3840px-The_Horse_in_Motion_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/The_Horse_in_Motion_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Horse_in_Motion_high_res.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57260211",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-03-22 16:33:59",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\nSallie Gardner au galop</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Sallie Gardner at a Gallop|PD-old-100-expired|Iconic photographs|Photographs with Wikidata item|CC-PD-Mark|PD-old missing SDC copyright status",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Eadweard_Muybridge\" class=\"extiw\" title=\"w:en:Eadweard Muybridge\"><span title=\"English-American photographer (1830–1904)\">Eadweard Muybridge</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "The Horse in Motion by <a href=\"//commons.wikimedia.org/wiki/Eadweard_Muybridge\" title=\"Eadweard Muybridge\">Eadweard Muybridge</a>. Noted photographer, <a href=\"//commons.wikimedia.org/wiki/Eadweard_Muybridge\" title=\"Eadweard Muybridge\">Eadweard Muybridge</a> was hired, in 1872, by <a href=\"https://en.wikipedia.org/wiki/Leland_Stanford\" class=\"extiw\" title=\"w:Leland Stanford\">Leland Stanford</a> a railroad baron and future university founder, to find out if there was moment mid-stride where horses had all hooves off the ground. It took several years but Muybridge delivered having captured a horse, named  \"Sallie Gardner,\" owned by <a href=\"https://en.wikipedia.org/wiki/Leland_Stanford\" class=\"extiw\" title=\"w:Leland Stanford\">Stanford</a>; running at a 1:40 gait over the Palo Alto track, on 19th June 1878. Muybridge used a dozen cameras all triggered one after another with a set of strings.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1878 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3924909#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Provided directly by Library of Congress Prints and Photographs Division",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 64999180,
+          "ns": 6,
+          "title": "File:Belgique - Bruxelles - Hôtel Tassel - 02.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5668124,
+              "width": 3328,
+              "height": 2218,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Belgique_-_Bruxelles_-_H%C3%B4tel_Tassel_-_02.jpg/1920px-Belgique_-_Bruxelles_-_H%C3%B4tel_Tassel_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1066,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/7/71/Belgique_-_Bruxelles_-_H%C3%B4tel_Tassel_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Belgique_-_Bruxelles_-_H%C3%B4tel_Tassel_-_02.jpg/1920px-Belgique_-_Bruxelles_-_H%C3%B4tel_Tassel_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1066,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/71/Belgique_-_Bruxelles_-_H%C3%B4tel_Tassel_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Belgique_-_Bruxelles_-_H%C3%B4tel_Tassel_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_H%C3%B4tel_Tassel_-_02.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=64999180",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-12-23 20:45:03",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Belgique - Bruxelles - Hôtel Tassel - 02",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Hotel Tassel|Self-published work|1988 photographs|Scanned with Canon Pixma MG6600",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Belgique - Bruxelles - Hôtel Tassel (Art nouveau, architecte Victor Horta, 1893)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "Taken in 1988",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:EmDee\" title=\"User:EmDee\">EmDee</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 84084348,
+          "ns": 6,
+          "title": "File:Bessie Love identifies a ghost in her castle in Wee Lady Betty.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 540581,
+              "width": 865,
+              "height": 1219,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Bessie_Love_identifies_a_ghost_in_her_castle_in_Wee_Lady_Betty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2255,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Bessie_Love_identifies_a_ghost_in_her_castle_in_Wee_Lady_Betty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2255
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Bessie_Love_identifies_a_ghost_in_her_castle_in_Wee_Lady_Betty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bessie_Love_identifies_a_ghost_in_her_castle_in_Wee_Lady_Betty.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=84084348",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-11-17 23:42:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Bessie Love identifies a ghost in her castle in Wee Lady Betty",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Wee Lady Betty|PD US expired|Template Unknown (author)|Bessie Love in 1917",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Bessie Love identifies a ghost in her castle in Wee Lady Betty",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1917-09-01",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://archive.org/details/movpict33chal/page/n57\">https://archive.org/details/movpict33chal/page/n57</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 153189480,
+          "ns": 6,
+          "title": "File:Güell BCN edited.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 14370182,
+              "width": 6000,
+              "height": 4000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/G%C3%BCell_BCN_edited.jpg/1920px-G%C3%BCell_BCN_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1067,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/G%C3%BCell_BCN_edited.jpg/3840px-G%C3%BCell_BCN_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/G%C3%BCell_BCN_edited.jpg/1920px-G%C3%BCell_BCN_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1067,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/G%C3%BCell_BCN_edited.jpg/3840px-G%C3%BCell_BCN_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/G%C3%BCell_BCN_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:G%C3%BCell_BCN_edited.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153189480",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-09-26 14:44:59",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Güell BCN edited",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Main stairs (Parc Güell)|Extracted images",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Escalinata del parque Güell",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2021-06-24 07:34:47",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/File:G%C3%BCell_BCN.jpg\" title=\"File:Güell BCN.jpg\">Güell BCN.jpg</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Canaan\" title=\"User:Canaan\">Canaan</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 153804961,
+          "ns": 6,
+          "title": "File:Untitled (point de vue), Niépce 1827 — HRC 2020 (cropped).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 9240210,
+              "width": 4530,
+              "height": 3810,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg/1920px-Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1346,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg/3840px-Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg/1920px-Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1346,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg/3840px-Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Untitled_%28point_de_vue%29%2C_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Untitled_(point_de_vue),_Ni%C3%A9pce_1827_%E2%80%94_HRC_2020_(cropped).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153804961",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-10-11 20:58:39",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Untitled 'point de vue' <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q616159#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Untitled 'point de vue' <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q616159#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Untitled 'point de vue' <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q616159#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Vista desde la ventana en Le Gras\"</div><div style=\"display: none;\">label QS:Lhu,\"Kilátás a dolgozószobából\"</div><div style=\"display: none;\">label QS:Lca,\"Vista des de la finestra a Le Gras\"</div><div style=\"display: none;\">label QS:Lde,\"Blick aus dem Arbeitszimmer\"</div><div style=\"display: none;\">label QS:Llmo,\"Veduda da la fenestra a Le Gras\"</div><div style=\"display: none;\">label QS:Lbe,\"Выгляд з акна\"</div><div style=\"display: none;\">label QS:Lfa,\"اصطبل و کبوترخانه\"</div><div style=\"display: none;\">label QS:Lzh,\"在勒格拉的窗外景色\"</div><div style=\"display: none;\">label QS:Ltr,\"Le Gras'daki Pencereden Manzara\"</div><div style=\"display: none;\">label QS:Lur,\"ویو فرام دی ونڈو ایٹ لے گرا\"</div><div style=\"display: none;\">label QS:Lsv,\"Utsikt från fönstret i Le Gras\"</div><div style=\"display: none;\">label QS:Lhe,\"נוף מחלון בלה-גרא\"</div><div style=\"display: none;\">label QS:Lhi,\"ले ग्रास की खिड़की से दृश्य\"</div><div style=\"display: none;\">label QS:Lko,\"그라의 창문에서 바라본 조망\"</div><div style=\"display: none;\">label QS:Lit,\"Vista dalla finestra a Le Gras\"</div><div style=\"display: none;\">label QS:Lbn,\"জানালা থেকে ল্য গ্রার দৃশ্য (আলোকচিত্র)\"</div><div style=\"display: none;\">label QS:Lfr,\"Point de vue du Gras\"</div><div style=\"display: none;\">label QS:Lvep,\"Nägu iknaspäi\"</div><div style=\"display: none;\">label QS:Lpt,\"Vista da janela em Le Gras\"</div><div style=\"display: none;\">label QS:Lja,\"ル・グラの窓からの眺め\"</div><div style=\"display: none;\">label QS:Lmk,\"Поглед од прозорецот во Ле Гра\"</div><div style=\"display: none;\">label QS:Lhy,\"Տեսարան պատուհանից դեպի Լե Գրաս\"</div><div style=\"display: none;\">label QS:Lnl,\"Uitzicht vanuit het raam in Le Gras\"</div><div style=\"display: none;\">label QS:Lid,\"Pemandangan dari jendela di Gras\"</div><div style=\"display: none;\">label QS:Lpl,\"Widok z okna w Le Gras\"</div><div style=\"display: none;\">label QS:Loc,\"Ponch de vista dau Gras\"</div><div style=\"display: none;\">label QS:Lsh,\"Pogled s prozora u Le Grasu\"</div><div style=\"display: none;\">label QS:Lru,\"Вид из окна в Ле Гра\"</div><div style=\"display: none;\">label QS:Lvi,\"Nhìn từ cửa sổ ở Le Gras\"</div><div style=\"display: none;\">label QS:Luk,\"Вид із вікна в Ле Гра\"</div><div style=\"display: none;\">label QS:Lfi,\"Näkymä ikkunasta Le Grasissa\"</div><div style=\"display: none;\">label QS:Lgl,\"Vista dende a ventá en Le Gras\"</div><div style=\"display: none;\">label QS:Lar,\"منظر من النافذة مأخوذ من لو غرا\"</div><div style=\"display: none;\">label QS:Lel,\"Θέα από το παράθυρο στο Λε Γκρα\"</div><div style=\"display: none;\">label QS:Lcs,\"Pohled z okna v Le Gras\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Point de vue du Gras|PD-old-100-expired|Featured pictures by others nominated by Yann Forget|Featured pictures on Wikipedia, English|Files uploaded by Yann Forget|Artworks with Wikidata item|Artworks with known accession number|Featured pictures on Wikipedia, Hebrew|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of unknown type of work|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "46.726944",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "4.857222",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nic%C3%A9phore_Ni%C3%A9pce\" class=\"extiw\" title=\"w:en:Nicéphore Niépce\"><span title=\"French inventor and photographer (1765-1833)\">Nicéphore Niépce</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Nicéphore Niépce’s “point de vue” heliograph, the oldest surviving photograph",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1827 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q616159#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.hrc.utexas.edu/niepce-heliograph/\">Harry Ransom Center</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg\" class=\"mw-file-description\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 190903882,
+          "ns": 6,
+          "title": "File:SF maig 2026.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 489643,
+              "width": 2588,
+              "height": 1786,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/SF_maig_2026.jpg/1920px-SF_maig_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1104,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/7/78/SF_maig_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/SF_maig_2026.jpg/1920px-SF_maig_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1104,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/78/SF_maig_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/SF_maig_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:SF_maig_2026.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=190903882",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-05-01 16:35:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "SF maig 2026",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Images with extracted images|Files with coordinates missing SDC location of creation|Construction of the Sagrada Família in 2026|Eastern Views of the Sagrada Família",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.404469",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.175836",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Sagrada Família, in Barcelona, Catalonia, Spain.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2026-05-01 10:35:51",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Canaan\" title=\"User:Canaan\">Canaan</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "18eb6d3fab5692abcf9a63729fc13cf9137d906ee830d88cbff43c2d907bd029"
+}

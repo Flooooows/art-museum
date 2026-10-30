@@ -1,0 +1,1515 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3AJohn+Constable+by+Daniel+Gardner%2C+1796.JPG%7CFile%3AIngres%2C+Self-portrait.jpg%7CFile%3AGustave+Courbet%2C+photograph+Atelier+Nadar%2C+c.+1860s.jpg%7CFile%3AJean-FrancoisMillet%28Nadar%29.jpg%7CFile%3AHonore+Daumier-Nadar.jpg%7CFile%3A%C3%89douard+Manet%2C+en+buste%2C+de+face+-+Nadar.jpg%7CFile%3A%C3%89douard+Manet.jpg%7CFile%3AWinslow+Homer+by+Sarony.jpeg%7CFile%3AEakins+selfportrait.jpg%7CFile%3AJohn+Singer+Sargent+1903.jpg%7CFile%3AJames+A.+McNeill+Whistler%2C+half-length+portrait+LCCN2002736830+%28detail%29.jpg%7CFile%3AClaude+Monet+1899+Nadar+crop.jpg%7CFile%3APierre+Auguste+Renoir%2C+uncropped+image.jpg%7CFile%3AEdgar+Degas+self+portrait+1855FXD.jpg%7CFile%3AMorisot+berthe+photo.jpg",
+  "retrievedAt": "2026-10-30T01:48:27.383Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 21593,
+          "ns": 6,
+          "title": "File:Édouard Manet.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 282038,
+              "width": 1005,
+              "height": 1561,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/88/%C3%89douard_Manet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2485,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/%C3%89douard_Manet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2485
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/%C3%89douard_Manet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21593",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-09-15 23:40:29",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Édouard Manet",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100|Photographs of Édouard Manet by Nadar|CC-PD-Mark|19th-century portrait photographs of standing men at three-quarter length|1860s portrait photographs of men|PD-old missing SDC copyright status",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nadar\" class=\"extiw\" title=\"w:en:Nadar\"><span title=\"French photographer and balloonist (1820–1910)\">Nadar</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nPortrait of <a href=\"//commons.wikimedia.org/wiki/%C3%89douard_Manet\" title=\"Édouard Manet\">Édouard Manet</a> (1832-1883)</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1867-1870",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.stellaweb.ch/nadar/pg/manet.htm\">http://www.stellaweb.ch/nadar/pg/manet.htm</a> <br> <a rel=\"nofollow\" class=\"external free\" href=\"http://i.imgur.com/OC7D9.jpg\">http://i.imgur.com/OC7D9.jpg</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<ul class=\"gallery mw-gallery-traditional\">\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Manet_by_Nadar.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Manet_by_Nadar.jpg/120px-Manet_by_Nadar.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"88\" height=\"120\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Manet_by_Nadar.jpg/250px-Manet_by_Nadar.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1005\" data-file-height=\"1373\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:F%C3%A9lix_Nadar_1820-1910_portraits_Edouard_Manet.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/F%C3%A9lix_Nadar_1820-1910_portraits_Edouard_Manet.jpg/120px-F%C3%A9lix_Nadar_1820-1910_portraits_Edouard_Manet.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"86\" height=\"120\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/F%C3%A9lix_Nadar_1820-1910_portraits_Edouard_Manet.jpg/250px-F%C3%A9lix_Nadar_1820-1910_portraits_Edouard_Manet.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1519\" data-file-height=\"2107\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px; height: 150px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:F%C3%A9lix_Nadar_-_%C3%89douard_Manet,_standing_beside_a_chair.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/F%C3%A9lix_Nadar_-_%C3%89douard_Manet%2C_standing_beside_a_chair.jpg/120px-F%C3%A9lix_Nadar_-_%C3%89douard_Manet%2C_standing_beside_a_chair.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"88\" height=\"120\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/F%C3%A9lix_Nadar_-_%C3%89douard_Manet%2C_standing_beside_a_chair.jpg/250px-F%C3%A9lix_Nadar_-_%C3%89douard_Manet%2C_standing_beside_a_chair.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"352\" data-file-height=\"480\"></a></span></div>\n\t\t\t<div class=\"gallerytext\"></div>\n\t\t</li>\n</ul>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 116979,
+          "ns": 6,
+          "title": "File:Eakins selfportrait.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 859690,
+              "width": 1051,
+              "height": 1250,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Eakins_selfportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1903,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Eakins_selfportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1903
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Eakins_selfportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Eakins_selfportrait.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=116979",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-09-21 04:24:46",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Self-portrait</i></div></div><div style=\"display: none;\">label QS:Les,\"Autorretrato\"</div><div style=\"display: none;\">label QS:Lhu,\"Önarckép\"</div><div style=\"display: none;\">label QS:Lca,\"Autoretrat\"</div><div style=\"display: none;\">label QS:Lde,\"Selbstporträt\"</div><div style=\"display: none;\">label QS:Lga,\"féinphortráid\"</div><div style=\"display: none;\">label QS:Lhy,\"Ինքնապատկեր\"</div><div style=\"display: none;\">label QS:Lzh,\"自画像\"</div><div style=\"display: none;\">label QS:Lda,\"Selvportræt\"</div><div style=\"display: none;\">label QS:Lro,\"Autoportret\"</div><div style=\"display: none;\">label QS:Lja,\"自画像 (エイキンズ)\"</div><div style=\"display: none;\">label QS:Lsk,\"Autoportrét\"</div><div style=\"display: none;\">label QS:Lhe,\"דיוקן עצמי\"</div><div style=\"display: none;\">label QS:Lla,\"Effigies sui ipsius\"</div><div style=\"display: none;\">label QS:Lfi,\"Omakuva\"</div><div style=\"display: none;\">label QS:Lkk,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Leo,\"Memportreto\"</div><div style=\"display: none;\">label QS:Lcs,\"Autoportrét\"</div><div style=\"display: none;\">label QS:Lbs,\"Autoportret\"</div><div style=\"display: none;\">label QS:Lit,\"Autoritratto\"</div><div style=\"display: none;\">label QS:Lfr,\"Autoportrait\"</div><div style=\"display: none;\">label QS:Lhr,\"Autoportret\"</div><div style=\"display: none;\">label QS:Luk,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lvec,\"Autoritrato\"</div><div style=\"display: none;\">label QS:Lpt,\"Auto-retrato\"</div><div style=\"display: none;\">label QS:Lmk,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lgl,\"Autorretrato\"</div><div style=\"display: none;\">label QS:Lsv,\"Självporträtt\"</div><div style=\"display: none;\">label QS:Llt,\"Autoportretas\"</div><div style=\"display: none;\">label QS:Lsl,\"Avtoportret\"</div><div style=\"display: none;\">label QS:Lsr,\"Аутопортрет\"</div><div style=\"display: none;\">label QS:Lru,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Lnds,\"Sülvstporträt\"</div><div style=\"display: none;\">label QS:Lth,\"ภาพเหมือนตนเอง\"</div><div style=\"display: none;\">label QS:Lpl,\"Autoportret\"</div><div style=\"display: none;\">label QS:Let,\"Autoportree\"</div><div style=\"display: none;\">label QS:Lnl,\"Zelfportret\"</div><div style=\"display: none;\">label QS:Lcy,\"Hunanbortread\"</div><div style=\"display: none;\">label QS:Lbe,\"Аўтапартрэт\"</div><div style=\"display: none;\">label QS:Lfa,\"چهرهٔ خود\"</div><div style=\"display: none;\">label QS:Lbg,\"Автопортрет\"</div><div style=\"display: none;\">label QS:Len,\"Self-portrait\"</div><div style=\"display: none;\">label QS:Lar,\"بورتريه ذاتي\"</div><div style=\"display: none;\">label QS:Lel,\"Αυτοπροσωπογραφία\"</div><div style=\"display: none;\">label QS:Lbr,\"Emboltred\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|20th-century oil portraits of men at half length|20th-century portrait paintings in the United States|Portraits of Thomas Eakins|20th-century self-portrait paintings of men|1902 oil on canvas paintings in the United States|1902 portrait paintings of men|20th-century self-portrait paintings of men from the United States|1900s portrait paintings from the United States (male)|1900s self-portrait paintings of men|Men facing right in art|Artworks digital representation of 2D work|Paintings by Thomas Eakins in the National Academy of Design|Portrait paintings in the National Academy of Design|Male portrait paintings by Thomas Eakins",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Thomas_Eakins\" class=\"extiw\" title=\"w:en:Thomas Eakins\"><span title=\"American painter (1844–1916)\">Thomas Eakins</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1902 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q7448172#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 130748,
+          "ns": 6,
+          "title": "File:Ingres, Self-portrait.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 669120,
+              "width": 989,
+              "height": 1230,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ingres%2C_Self-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1990,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ingres%2C_Self-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1990
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ingres%2C_Self-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ingres,_Self-portrait.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=130748",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-06-14 16:19:39",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Self-portrait at age 24",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Salon of 1806|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|1800s portrait paintings from France (male)|Artworks with accession number from Wikidata|Paintings with signatures (upper left)|1804 oil on canvas paintings in France|1804 portrait paintings from France|19th-century three-quarter view portrait paintings of men, facing right and looking at viewer|1804 portrait paintings of men|Files with coordinates missing SDC location of creation (49° N, 2° E)|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Self portrait at the age of 24 by Ingres (Musée Condé)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "49.193900",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.485400",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jean-Auguste-Dominique_Ingres\" class=\"extiw\" title=\"w:en:Jean-Auguste-Dominique Ingres\"><span title=\"French painter (1780–1867)\">Jean-Auguste-Dominique Ingres</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1804 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q15844756#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "RMN, <a rel=\"nofollow\" class=\"external text\" href=\"http://www.domainedechantilly.com/domaine-de-chantilly/mus%C3%A9e-cond%C3%A9-ch%C3%A2teau/galeries/chefs-doeuvre/autoportrait-%C3%A0-vingt-quatre-ans\">Domaine de Chantilly</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 1231827,
+          "ns": 6,
+          "title": "File:Jean-FrancoisMillet(Nadar).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1501384,
+              "width": 1354,
+              "height": 1718,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Jean-FrancoisMillet%28Nadar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2030,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Jean-FrancoisMillet%28Nadar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2030
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Jean-FrancoisMillet%28Nadar%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Jean-FrancoisMillet(Nadar).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1231827",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-12-21 22:38:52",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Jean-FrancoisMillet(Nadar)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Superseded|Author died more than 100 years ago public domain images|Black and white portrait photographs of men|CC-PD-Mark|PD-old missing SDC copyright status|Photographs of Jean-François Millet (II) by Nadar",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<b>Jean-Francois Millet</b> by Nadar",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1856-1858 per <a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.getty.edu/art/gettyguide/artObjectDetails?artobj=45559\">[1]</a>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Scanned image by <a href=\"//commons.wikimedia.org/wiki/User:Cacophony\" title=\"User:Cacophony\">User:Cacophony</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nadar\" class=\"extiw\" title=\"w:en:Nadar\"><span title=\"French photographer and balloonist (1820–1910)\">Nadar</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 1594680,
+          "ns": 6,
+          "title": "File:Morisot berthe photo.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 279723,
+              "width": 564,
+              "height": 942,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Morisot_berthe_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2672,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Morisot_berthe_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2672
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Morisot_berthe_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Morisot_berthe_photo.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1594680",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-12-30 16:38:27",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Morisot berthe photo",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD Old|Portraits of Berthe Morisot|19th-century unidentified photographers|Template Unknown (author)|CC-PD-Mark|19th-century portrait photographs of standing women at full length|19th-century portrait photographs of women not categorised by year|PD-old missing SDC copyright status",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"//commons.wikimedia.org/wiki/Berthe_Morisot\" title=\"Berthe Morisot\">Berthe Morisot</a> (1841-1895)</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "19<sup>th</sup> century<div style=\"display: none;\">date QS:P571,+1850-00-00T00:00:00Z/7</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.ibiblio.org/wm/paint/auth/morisot/\">http://www.ibiblio.org/wm/paint/auth/morisot/</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 2264297,
+          "ns": 6,
+          "title": "File:Honore Daumier-Nadar.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5066954,
+              "width": 2245,
+              "height": 3000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Honore_Daumier-Nadar.jpg/1920px-Honore_Daumier-Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2138,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/0/03/Honore_Daumier-Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Honore_Daumier-Nadar.jpg/1920px-Honore_Daumier-Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2138,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/03/Honore_Daumier-Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Honore_Daumier-Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Honore_Daumier-Nadar.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2264297",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2021-04-25 01:56:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Honore Daumier-Nadar",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Author died more than 100 years ago public domain images|CC-PD-Mark|Chin beards|20th-century profile portrait photographs of men, facing right|20th-century black and white portrait photographs of standing men|Photographs of Honoré Daumier by Nadar",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nadar\" class=\"extiw\" title=\"w:en:Nadar\"><span title=\"French photographer and balloonist (1820–1910)\">Nadar</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier\" class=\"extiw\" title=\"en:Honoré Daumier\">en:Honoré Daumier</a> from <a rel=\"nofollow\" class=\"external free\" href=\"http://www.stellaweb.ch/nadar/pg/daumier.htm\">http://www.stellaweb.ch/nadar/pg/daumier.htm</a><sup class=\"noprint Inline-Template\"><span style=\"white-space: nowrap;\">[<span style=\"font-style:italic;\"><span title=\"\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20031223221139/http://www.stellaweb.ch/nadar/pg/daumier.htm\">dead link </a></span></span>]</span></sup></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "25 October 2004 (original upload date)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Originally from <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>; description page is/was <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org/w/index.php?title=Image%3AHonore_Daumier-Nadar.jpg\" href=\"https://en.wikipedia.org/w/index.php?title=Image%3AHonore_Daumier-Nadar.jpg\">here</a>.",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "PD-ART.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 5201590,
+          "ns": 6,
+          "title": "File:Winslow Homer by Sarony.jpeg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 725103,
+              "width": 1129,
+              "height": 1564,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Winslow_Homer_by_Sarony.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2216,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Winslow_Homer_by_Sarony.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2216
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Winslow_Homer_by_Sarony.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_by_Sarony.jpeg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=5201590",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-08-19 19:01:17",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Winslow Homer by Sarony",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|CC-PD-Mark|PD-old missing SDC copyright status|Photographs by Napoleon Sarony|Portraits of Winslow Homer",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Winslow Homer, 19th century photograph",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1880",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Downloaded from <a rel=\"nofollow\" class=\"external free\" href=\"http://entertainment.webshots.com/photo/2097115330040331057HbREhl\">http://entertainment.webshots.com/photo/2097115330040331057HbREhl</a>. <bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons by <a href=\"//commons.wikimedia.org/wiki/User:Howcheng\" class=\"mw-redirect\" title=\"User:Howcheng\">Howcheng</a> using <a href=\"https://iw.toolforge.org/commonshelper/\" class=\"extiw\" title=\"toollabs:commonshelper/\">CommonsHelper</a>.</bdi> - Original uploader was <a href=\"https://en.wikipedia.org/wiki/User:Hephaestos\" class=\"extiw\" title=\"en:User:Hephaestos\">Hephaestos</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Napol%C3%A9on_Sarony\" class=\"extiw\" title=\"w:en:Napoléon Sarony\"><span title=\"American artist (1821-1896)\">Napoleon Sarony</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 8046903,
+          "ns": 6,
+          "title": "File:Claude Monet 1899 Nadar crop.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1826613,
+              "width": 2021,
+              "height": 2694,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/1920px-Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2133,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/1920px-Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2133,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=8046903",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2009-10-12 16:47:12",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Claude Monet 1899 Nadar crop",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Retouched pictures|Author died more than 100 years ago public domain images|Self-published work|PD-self|Files by User:Dsmurat from tr.wikipedia|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Turkish|CC-PD-Mark|Photographs of Claude Monet by Nadar|1899 black and white portrait photographs of men",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Portrait photograph of the French impressionist painter <a href=\"https://en.wikipedia.org/wiki/Claude_Monet\" class=\"extiw\" title=\"en:Claude Monet\">Claude Monet</a> by <a href=\"https://en.wikipedia.org/wiki/Nadar_(photographer)\" class=\"extiw\" title=\"en:Nadar (photographer)\">Nadar</a>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1899",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p><a href=\"//commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar.jpg\" title=\"File:Claude Monet 1899 Nadar.jpg\">Claude Monet 1899 Nadar.jpg</a>\n</p>\n<table class=\"layouttemplate\" lang=\"en\" dir=\"ltr\" style=\"margin:.5em auto;width:100%;background:var(--background-color-neutral-subtle,#f8f8f8);border:2px solid var(--border-color-muted,#EEE);color: inherit;padding:5px\">\n\n<tbody><tr>\n<td style=\"padding:5px\"><div class=\"wpImageAnnotatorControl wpImageAnnotatorOff\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Applications-graphics.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Applications-graphics.svg/60px-Applications-graphics.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"45\" height=\"45\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Applications-graphics.svg/120px-Applications-graphics.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></a></span></div>\n</td>\n<td style=\"width:100%\">This  is a <i><b><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Image_editing\" class=\"extiw\" title=\"en:Image editing\"><span lang=\"en\" dir=\"ltr\">retouched picture</span></a></span></b></i>, which means that it has been digitally altered from its original version. Modifications: <i>Resim kırpıldı, renk ve parlaklık ayarı yapıldı</i>. The original can be viewed here: <b><a href=\"//commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar.jpg\" title=\"File:Claude Monet 1899 Nadar.jpg\">Claude Monet 1899 Nadar.jpg</a>: <span class=\"mw-image-border\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Claude_Monet_1899_Nadar.jpg/20px-Claude_Monet_1899_Nadar.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"16\" class=\"mw-file-element\" data-file-width=\"2021\" data-file-height=\"3285\"></a></span></b>. Modifications made by <a href=\"//commons.wikimedia.org/wiki/User:Dsmurat\" title=\"User:Dsmurat\">Dsmurat</a>.\n<p><span class=\"layouttemplateargs\" style=\"display:none;speak:none;\" title=\"template=Retouched+picture 1%3DResim+k%C4%B1rp%C4%B1ld%C4%B1%2C+renk+ve+parlakl%C4%B1k+ayar%C4%B1+yap%C4%B1ld%C4%B1 2%3DClaude+Monet+1899+Nadar.jpg 3%3DDsmurat 4%3D 5%3D\"> </span>\n</p>\n</td></tr></tbody></table>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nadar\" class=\"extiw\" title=\"w:en:Nadar\"><span title=\"French photographer and balloonist (1820–1910)\">Nadar</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 28642446,
+          "ns": 6,
+          "title": "File:Pierre Auguste Renoir, uncropped image.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 36131,
+              "width": 525,
+              "height": 650,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pierre_Auguste_Renoir%2C_uncropped_image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1981,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pierre_Auguste_Renoir%2C_uncropped_image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1981
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pierre_Auguste_Renoir%2C_uncropped_image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pierre_Auguste_Renoir,_uncropped_image.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=28642446",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-02-05 01:03:44",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Pierre Auguste Renoir, uncropped image",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Images with extracted images|PD US expired|PD France|Images from Réunion des musées nationaux|Template Unknown (unspecified)|PD-US missing SDC copyright status|Photographs of Pierre-Auguste Renoir",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Auguste Renoir",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1875<div style=\"display: none;\">date QS:P,+1875-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.photo.rmn.fr/archive/17-574664-2C6NU0AUV70PV.html\">Réunion des musées nationaux</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Unknown<span style=\"display: none;\">Unknown </span> Musée d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 35447762,
+          "ns": 6,
+          "title": "File:John Constable by Daniel Gardner, 1796.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3861792,
+              "width": 2056,
+              "height": 3088,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/John_Constable_by_Daniel_Gardner%2C_1796.JPG/1920px-John_Constable_by_Daniel_Gardner%2C_1796.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2403,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/4/46/John_Constable_by_Daniel_Gardner%2C_1796.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/John_Constable_by_Daniel_Gardner%2C_1796.JPG/1920px-John_Constable_by_Daniel_Gardner%2C_1796.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2403,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/46/John_Constable_by_Daniel_Gardner%2C_1796.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/John_Constable_by_Daniel_Gardner%2C_1796.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:John_Constable_by_Daniel_Gardner,_1796.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=35447762",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-09-17 22:37:15",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "John Constable by Daniel Gardner, 1796",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Canon EOS 450D|John Constable|Self-published work|Media needing category review as of 2 July 2015|Portrait paintings by Daniel Gardner",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "John Constable by Daniel Gardner, 1796",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2014-09-17 16:09:26",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Stephencdickson\" title=\"User:Stephencdickson\">Stephencdickson</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 69552767,
+          "ns": 6,
+          "title": "File:John Singer Sargent 1903.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 266832,
+              "width": 608,
+              "height": 810,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/John_Singer_Sargent_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2132,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/John_Singer_Sargent_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2132
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/John_Singer_Sargent_1903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_1903.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69552767",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-06-11 12:46:35",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "John Singer Sargent 1903",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Photographs by J. E. Purdy|Extracted images|Media licensed by Getty Images|PD-old-80-expired|Items with copyright claims|CC-PD-Mark|PD-old missing SDC copyright status|Photographs of John Singer Sargent",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "John Singer Sargent",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1903",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "one or more <b>third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof</b>. This may be due to recognition of the \"<a href=\"https://en.wikipedia.org/wiki/sweat_of_the_brow\" class=\"extiw\" title=\"w:sweat of the brow\">sweat of the brow</a>\" doctrine, allowing works to be eligible for protection through skill and labour, and not purely by originality as is the case in the United States (where this website is hosted). These claims may or may not be valid in all jurisdictions.\nAs such, use of this image in the jurisdiction of the claimant or other countries <i>may</i> be regarded as <b>copyright infringement</b>. Please see <a href=\"//commons.wikimedia.org/wiki/Commons:When_to_use_the_PD-Art_tag\" title=\"Commons:When to use the PD-Art tag\">Commons:When to use the PD-Art tag</a> for more information.",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:James_E._Purdy\" class=\"extiw\" title=\"w:en:James E. Purdy\"><span title=\"American photographer (1858–1933)\">James E. Purdy</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 75684809,
+          "ns": 6,
+          "title": "File:Gustave Courbet, photograph Atelier Nadar, c. 1860s.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1603651,
+              "width": 1405,
+              "height": 2079,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gustave_Courbet%2C_photograph_Atelier_Nadar%2C_c._1860s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2368,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gustave_Courbet%2C_photograph_Atelier_Nadar%2C_c._1860s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2368
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gustave_Courbet%2C_photograph_Atelier_Nadar%2C_c._1860s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gustave_Courbet,_photograph_Atelier_Nadar,_c._1860s.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=75684809",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-01-08 13:54:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Gustave Courbet, photograph Atelier Nadar, c. 1860s",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Author died more than 100 years ago public domain images|CC-PD-Mark|Files from Gallica|19th-century portrait photographs of men at half length|1860s portrait photographs of men|Black and white portrait photographs of painters|Photographs of Gustave Courbet by Nadar",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nadar\" class=\"extiw\" title=\"w:en:Nadar\"><span title=\"French photographer and balloonist (1820–1910)\">Nadar</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nPortrait of <a href=\"https://en.wikipedia.org/wiki/Gustave_Courbet\" class=\"extiw\" title=\"w:Gustave Courbet\">Gustave Courbet</a></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1860s<div style=\"display: none;\">date QS:P571,+1860-00-00T00:00:00Z/8</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "This file comes from <a rel=\"nofollow\" class=\"external text\" href=\"https://gallica.bnf.fr/\">Gallica Digital Library</a> and is available under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://gallica.bnf.fr/ark:/12148/btv1b53050548w\">btv1b53050548w</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 79745808,
+          "ns": 6,
+          "title": "File:Edgar Degas self portrait 1855FXD.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 84972,
+              "width": 454,
+              "height": 572,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Edgar_Degas_self_portrait_1855FXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2016,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Edgar_Degas_self_portrait_1855FXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2016
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Edgar_Degas_self_portrait_1855FXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_self_portrait_1855FXD.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79745808",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-06-16 19:15:13",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">Self-portrait</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Portrait de l'artiste (RF 2649) by Edgar Degas|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Pages with complex technique templates|Derivative versions|Self-portraits in France|CC-PD-Mark|Artworks with accession number from Wikidata|1855 portrait paintings from France|1855 oil on canvas paintings in France|19th-century oil portraits of sitting men at half length|19th-century self-portrait paintings of men from France|19th-century three-quarter view portrait paintings of men, facing right and looking at viewer|Portrait paintings of sitting men with right arm resting on table|Portrait paintings of sitting men with left hand resting on table|19th-century portrait paintings in the Musée d'Orsay|1855 portrait paintings of men|Images from the-athenaeum.org|Artworks digital representation of 2D work|Impressionist portraits of men",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Edgar_Degas\" class=\"extiw\" title=\"w:en:Edgar Degas\"><span title=\"French Impressionist artist (1834–1917)\">Edgar Degas</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Courtesy of the Musée d'Orsay, Paris.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1854 / 1855 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3630723#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Edgar_Degas_self_portrait_1855.jpeg\" title=\"File:Edgar Degas self portrait 1855.jpeg\">Edgar Degas self portrait 1855.jpeg</a>: <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Edgar_Degas_self_portrait_1855.jpeg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Edgar_Degas_self_portrait_1855.jpeg/120px-Edgar_Degas_self_portrait_1855.jpeg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"151\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Edgar_Degas_self_portrait_1855.jpeg/250px-Edgar_Degas_self_portrait_1855.jpeg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"456\" data-file-height=\"574\"></a></span><br>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 83098779,
+          "ns": 6,
+          "title": "File:Édouard Manet, en buste, de face - Nadar.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 25379548,
+              "width": 4701,
+              "height": 6253,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg/1920px-%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2128,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg/3840px-%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg/1920px-%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2128,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg/3840px-%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet,_en_buste,_de_face_-_Nadar.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=83098779",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-01-16 17:03:23",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Édouard Manet, en buste, de face - Nadar",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|Featured pictures on Wikipedia, English|Information field template with formatting|Featured pictures on Wikipedia, Persian|Photographs of Édouard Manet by Nadar|CC-PD-Mark|Adam Cuerden's restorations|Featured pictures of people of France|Files from Gallica|19th-century portrait photographs of men at bust length|Sepia portrait photographs of men|Featured photographs in the public domain|PD-old missing SDC copyright status|Featured historical portrait photographs",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Close-up photograph of artist <a href=\"https://en.wikipedia.org/wiki/%C3%89douard_Manet\" class=\"extiw\" title=\"en:Édouard Manet\">Édouard Manet</a>.  39,6 x 29,8 cm,  enlargement by <a href=\"https://en.wikipedia.org/wiki/Paul_Nadar\" class=\"extiw\" title=\"en:Paul Nadar\">Paul Nadar</a> of his father's original.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "before 1870<div style=\"display: none;\">date QS:P,+1870-00-00T00:00:00Z/7,P1326,+1870-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "This file comes from <a rel=\"nofollow\" class=\"external text\" href=\"https://gallica.bnf.fr/\">Gallica Digital Library</a> and is available under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://gallica.bnf.fr/ark:/12148/btv1b10535676j/f1\">btv1b10535676j/f1</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Nadar\" class=\"extiw\" title=\"w:en:Nadar\"><span title=\"French photographer and balloonist (1820–1910)\">Nadar</span></a></bdi> / <bdi><a href=\"https://en.wikipedia.org/wiki/User:Adam_Cuerden\" class=\"extiw\" title=\"en:User:Adam Cuerden\">Adam Cuerden</a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 199840456,
+          "ns": 6,
+          "title": "File:James A. McNeill Whistler, half-length portrait LCCN2002736830 (detail).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 456466,
+              "width": 1799,
+              "height": 2556,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/09/James_A._McNeill_Whistler%2C_half-length_portrait_LCCN2002736830_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2273,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/James_A._McNeill_Whistler%2C_half-length_portrait_LCCN2002736830_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2273
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/James_A._McNeill_Whistler%2C_half-length_portrait_LCCN2002736830_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:James_A._McNeill_Whistler,_half-length_portrait_LCCN2002736830_(detail).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=199840456",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-09-20 04:25:15",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "James A. McNeill Whistler, half-length portrait LCCN2002736830 (detail)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Images from the Library of Congress|Images uploaded by Fæ|PD-old-100-expired|Extracted images|CC-PD-Mark|Miscellaneous Items in High Demand, PPOC, Library of Congress|PD-old missing SDC copyright status|Photographs of James McNeill Whistler",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<i>Title:</i> James A. McNeill Whistler, half-length portrait\n<i>Abstract/medium:</i> 1 photographic print.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1885",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://lccn.loc.gov/2002736830\">https://lccn.loc.gov/2002736830</a></li>\n<li><i>Image download:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://cdn.loc.gov/service/pnp/ds/04700/04746v.jpg\">https://cdn.loc.gov/service/pnp/ds/04700/04746v.jpg</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2002736830/\">https://www.loc.gov/pictures/item/2002736830/</a></li></ul>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/ds.04746\">ds.04746</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "21b9d2ff3331f45e95f3d7841d0ca66c0231d729d2e7195d4f6950293176d07f"
+}

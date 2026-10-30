@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Great+Wave",
+  "retrievedAt": "2026-10-30T01:46:38.111Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 6097,
+    "objectIDs": [
+      261941,
+      833974,
+      411136,
+      39799
+    ]
+  },
+  "payloadSha256": "c3a20562e28bc8d4a329811b54059758885bf820d0d32a599fae349941d07526"
+}

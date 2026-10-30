@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Feline+Head+Moche",
+  "retrievedAt": "2026-10-30T00:51:09.141Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 115.517365,
+        "id": 100829,
+        "title": "Magnolias on Light Blue Velvet Cloth",
+        "main_reference_number": "1983.791",
+        "date_display": "1885–95",
+        "is_public_domain": true,
+        "artist_title": "Martin Johnson Heade",
+        "image_id": "0729fbba-51e3-a2d7-6d4d-61c2be62af3f"
+      },
+      {
+        "_score": 111.21629,
+        "id": 152747,
+        "title": "York Harbor, Coast of Maine",
+        "main_reference_number": "1999.291",
+        "date_display": "1877",
+        "is_public_domain": true,
+        "artist_title": "Martin Johnson Heade",
+        "image_id": "3192ae4d-ffca-fe91-af12-2ca681f43e13"
+      },
+      {
+        "_score": 90.09405,
+        "id": 8746,
+        "title": "Abstract Portrait Vessel of a Ruler with Painted Face Resting on Feet",
+        "main_reference_number": "1958.564",
+        "date_display": "100 BCE–500 CE",
+        "is_public_domain": true,
+        "artist_title": "Moche",
+        "image_id": "6545873f-56c1-7192-7332-0c1f3fc50b87"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "e811344dc178f903b80aac6854aa82e598f306e3b13e375d5ce20383d671b61d"
+}

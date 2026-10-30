@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Caf%C3%A9_Terrace_at_Night/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:42:02.536Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13240
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 39681
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15043
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 11342
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9271
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9595
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13614
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13389
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15837
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10297
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9768
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Café_Terrace_at_Night",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10823
+      }
+    ]
+  },
+  "payloadSha256": "47188ee5e01107077cadb589451bbb07c1fcaf0317e698a9079585c559246935"
+}

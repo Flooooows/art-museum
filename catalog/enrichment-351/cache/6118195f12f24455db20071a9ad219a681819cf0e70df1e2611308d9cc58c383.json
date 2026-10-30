@@ -1,0 +1,515 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=La+Femme+au+chapeau%7CLa+Desserte+rouge%7CLe+Bonheur+de+vivre%7CJazz+%28Matisse%29%7CLe+Pont+de+Charing+Cross%7CL%27Estaque%7CComposition+VIII%7CJaune-rouge-bleu%7CPlusieurs+cercles%7CComposition+VII%7CComposition+avec+rouge%2C+bleu+et+jaune%7CBroadway+Boogie+Woogie%7CVictory+Boogie+Woogie%7CCarr%C3%A9+noir+sur+fond+blanc%7CCarr%C3%A9+blanc+sur+fond+blanc%7CComposition+supr%C3%A9matiste%7CLes+Dix+Plus+Grands%7CLe+Cygne+%28Hilma+af+Klint%29%7CAltarpiece+no+1%7CLa+Machine+%C3%A0+gazouiller%7CSenecio+%28Klee%29%7CCh%C3%A2teau+et+soleil%7CLa+Tour+Eiffel%7CFormes+circulaires%2C+Soleil+no+2%7CPrismes+%C3%A9lectriques%7CBal+Bullier%7CLa+Ville+%28L%C3%A9ger%29%7CLes+Disques%7CL%27Oiseau+dans+l%27espace%7CLe+Baiser+%28Br%C3%A2ncu%C8%99i%29",
+  "retrievedAt": "2026-10-30T01:42:25.908Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "L'Oiseau dans l'espace",
+          "to": "Oiseau dans l'espace"
+        },
+        {
+          "from": "Victory Boogie Woogie",
+          "to": "Victory Boogie-Woogie"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Les Disques",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Disques",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Disques&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Disques"
+        },
+        {
+          "ns": 0,
+          "title": "La Ville (Léger)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Ville_(L%C3%A9ger)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Ville_(L%C3%A9ger)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Ville_(L%C3%A9ger)"
+        },
+        {
+          "ns": 0,
+          "title": "Formes circulaires, Soleil no 2",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Formes_circulaires,_Soleil_no_2",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Formes_circulaires,_Soleil_no_2&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Formes_circulaires,_Soleil_no_2"
+        },
+        {
+          "ns": 0,
+          "title": "Château et soleil",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_et_soleil",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Ch%C3%A2teau_et_soleil&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_et_soleil"
+        },
+        {
+          "ns": 0,
+          "title": "Senecio (Klee)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Senecio_(Klee)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Senecio_(Klee)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Senecio_(Klee)"
+        },
+        {
+          "ns": 0,
+          "title": "Altarpiece no 1",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Altarpiece_no_1",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Altarpiece_no_1&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Altarpiece_no_1"
+        },
+        {
+          "ns": 0,
+          "title": "Le Cygne (Hilma af Klint)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Cygne_(Hilma_af_Klint)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Cygne_(Hilma_af_Klint)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Cygne_(Hilma_af_Klint)"
+        },
+        {
+          "ns": 0,
+          "title": "Les Dix Plus Grands",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Dix_Plus_Grands",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Dix_Plus_Grands&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Dix_Plus_Grands"
+        },
+        {
+          "ns": 0,
+          "title": "Composition suprématiste",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Composition_supr%C3%A9matiste",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Composition_supr%C3%A9matiste&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Composition_supr%C3%A9matiste"
+        },
+        {
+          "ns": 0,
+          "title": "Broadway Boogie Woogie",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Broadway_Boogie_Woogie",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Broadway_Boogie_Woogie&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Broadway_Boogie_Woogie"
+        },
+        {
+          "ns": 0,
+          "title": "Composition avec rouge, bleu et jaune",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Composition_avec_rouge,_bleu_et_jaune",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Composition_avec_rouge,_bleu_et_jaune&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Composition_avec_rouge,_bleu_et_jaune"
+        },
+        {
+          "ns": 0,
+          "title": "Plusieurs cercles",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Plusieurs_cercles",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Plusieurs_cercles&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Plusieurs_cercles"
+        },
+        {
+          "ns": 0,
+          "title": "Le Pont de Charing Cross",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Pont_de_Charing_Cross",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Pont_de_Charing_Cross&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Pont_de_Charing_Cross"
+        },
+        {
+          "ns": 0,
+          "title": "Le Bonheur de vivre",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Bonheur_de_vivre",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Bonheur_de_vivre&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Bonheur_de_vivre"
+        },
+        {
+          "pageid": 265213,
+          "ns": 0,
+          "title": "L'Estaque",
+          "pageprops": {
+            "page_image_free": "L'Estaque_depuis_le_port.jpg",
+            "wikibase_item": "Q1229951"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:26Z",
+          "lastrevid": 239962371,
+          "length": 95319,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Estaque",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Estaque&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Estaque"
+        },
+        {
+          "pageid": 545384,
+          "ns": 0,
+          "title": "Carré blanc sur fond blanc",
+          "pageprops": {
+            "defaultsort": "Carre blanc sur fond blanc",
+            "displaytitle": "<i>Carré blanc sur fond blanc</i>",
+            "page_image_free": "White_on_White_(Malevich,_1918).png",
+            "wikibase_item": "Q579455"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:09Z",
+          "lastrevid": 233338800,
+          "length": 4722,
+          "fullurl": "https://fr.wikipedia.org/wiki/Carr%C3%A9_blanc_sur_fond_blanc",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Carr%C3%A9_blanc_sur_fond_blanc&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Carr%C3%A9_blanc_sur_fond_blanc"
+        },
+        {
+          "pageid": 1662824,
+          "ns": 0,
+          "title": "La Tour Eiffel",
+          "pageprops": {
+            "defaultsort": "Tour Eiffel",
+            "displaytitle": "<i>La Tour Eiffel</i>",
+            "wikibase_item": "Q3824641"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:34Z",
+          "lastrevid": 236885058,
+          "length": 2022,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Tour_Eiffel",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Tour_Eiffel&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Tour_Eiffel"
+        },
+        {
+          "pageid": 2178339,
+          "ns": 0,
+          "title": "La Desserte rouge",
+          "pageprops": {
+            "defaultsort": "Desserte rouge, La",
+            "displaytitle": "<i>La Desserte rouge</i>",
+            "page_image_free": "La_Desserte_rouge,_par_Henri_Matisse.jpg",
+            "wikibase_item": "Q921429"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:09Z",
+          "lastrevid": 240239722,
+          "length": 4750,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Desserte_rouge",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Desserte_rouge&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Desserte_rouge"
+        },
+        {
+          "pageid": 2488988,
+          "ns": 0,
+          "title": "Carré noir sur fond blanc",
+          "pageprops": {
+            "displaytitle": "<i>Carré noir sur fond blanc</i>",
+            "page_image_free": "Чёрный_супрематический_квадрат._1915._ГТГ.png",
+            "wikibase_item": "Q1170315"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:18Z",
+          "lastrevid": 227621425,
+          "length": 5621,
+          "fullurl": "https://fr.wikipedia.org/wiki/Carr%C3%A9_noir_sur_fond_blanc",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Carr%C3%A9_noir_sur_fond_blanc&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Carr%C3%A9_noir_sur_fond_blanc"
+        },
+        {
+          "pageid": 3196379,
+          "ns": 0,
+          "title": "Bal Bullier",
+          "pageprops": {
+            "wikibase_item": "Q2880366"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:12Z",
+          "lastrevid": 238649256,
+          "length": 12068,
+          "fullurl": "https://fr.wikipedia.org/wiki/Bal_Bullier",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Bal_Bullier&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Bal_Bullier"
+        },
+        {
+          "pageid": 5171916,
+          "ns": 0,
+          "title": "Victory Boogie-Woogie",
+          "pageprops": {
+            "displaytitle": "<i>Victory Boogie-Woogie</i>",
+            "page_image_free": "Piet_Mondriaan_Victory_Boogie_Woogie.jpg",
+            "wikibase_item": "Q1248830"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:21Z",
+          "lastrevid": 213715030,
+          "length": 2703,
+          "fullurl": "https://fr.wikipedia.org/wiki/Victory_Boogie-Woogie",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Victory_Boogie-Woogie&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Victory_Boogie-Woogie"
+        },
+        {
+          "pageid": 5751605,
+          "ns": 0,
+          "title": "La Machine à gazouiller",
+          "pageprops": {
+            "defaultsort": "Machine à gazouiller, La",
+            "displaytitle": "<i>La Machine à gazouiller</i>",
+            "page_image_free": "Die_Zwitscher-Maschine_(Twittering_Machine),_1922_-_Paul_Klee.jpg",
+            "wikibase_item": "Q3210239"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:56:21Z",
+          "lastrevid": 233985453,
+          "length": 5192,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Machine_%C3%A0_gazouiller",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Machine_%C3%A0_gazouiller&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Machine_%C3%A0_gazouiller"
+        },
+        {
+          "pageid": 6354426,
+          "ns": 0,
+          "title": "Oiseau dans l'espace",
+          "pageprops": {
+            "defaultsort": "Oiseau Espace",
+            "displaytitle": "<i>Oiseau dans l'espace</i>",
+            "page_image_free": "Bird_in_Space.jpg",
+            "wikibase_item": "Q2381632"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:19Z",
+          "lastrevid": 214529401,
+          "length": 10901,
+          "fullurl": "https://fr.wikipedia.org/wiki/Oiseau_dans_l%27espace",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Oiseau_dans_l%27espace&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Oiseau_dans_l%27espace"
+        },
+        {
+          "pageid": 6355860,
+          "ns": 0,
+          "title": "Le Baiser (Brâncuși)",
+          "pageprops": {
+            "defaultsort": "Baiser, Le",
+            "displaytitle": "<i>Le Baiser</i> (Brâncuși)",
+            "page_image_free": "The_Kiss_LCCN93511527.jpg",
+            "wikibase_item": "Q3220192"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:20Z",
+          "lastrevid": 233445761,
+          "length": 12300,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Baiser_(Br%C3%A2ncu%C8%99i)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Baiser_(Br%C3%A2ncu%C8%99i)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Baiser_(Br%C3%A2ncu%C8%99i)"
+        },
+        {
+          "pageid": 6363237,
+          "ns": 0,
+          "title": "Composition VII",
+          "pageprops": {
+            "defaultsort": "Composition VII",
+            "displaytitle": "<i>Composition VII</i>",
+            "page_image_free": "Composition_VII_-_Wassily_Kandinsky,_GAC.jpg",
+            "wikibase_item": "Q2990634"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:20Z",
+          "lastrevid": 234533822,
+          "length": 9158,
+          "fullurl": "https://fr.wikipedia.org/wiki/Composition_VII",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Composition_VII&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Composition_VII"
+        },
+        {
+          "pageid": 12268664,
+          "ns": 0,
+          "title": "Prismes électriques",
+          "pageprops": {
+            "displaytitle": "<i>Prismes électriques</i>",
+            "wikibase_item": "Q60144838"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:04:08Z",
+          "lastrevid": 218766667,
+          "length": 1510,
+          "fullurl": "https://fr.wikipedia.org/wiki/Prismes_%C3%A9lectriques",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Prismes_%C3%A9lectriques&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Prismes_%C3%A9lectriques"
+        },
+        {
+          "pageid": 12322072,
+          "ns": 0,
+          "title": "Jaune-rouge-bleu",
+          "pageprops": {
+            "displaytitle": "<i>Jaune-rouge-bleu</i>",
+            "page_image_free": "Kandinsky_-_Jaune_Rouge_Bleu.jpg",
+            "wikibase_item": "Q18705525"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:04:12Z",
+          "lastrevid": 231514777,
+          "length": 1701,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jaune-rouge-bleu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jaune-rouge-bleu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jaune-rouge-bleu"
+        },
+        {
+          "pageid": 12350966,
+          "ns": 0,
+          "title": "La Femme au chapeau",
+          "pageprops": {
+            "defaultsort": "Femme au chapeau, La",
+            "displaytitle": "<i>La Femme au chapeau</i>",
+            "wikibase_item": "Q139086595"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:04:14Z",
+          "lastrevid": 234999606,
+          "length": 2436,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Femme_au_chapeau",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Femme_au_chapeau&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Femme_au_chapeau"
+        },
+        {
+          "pageid": 14957799,
+          "ns": 0,
+          "title": "Composition VIII",
+          "pageprops": {
+            "displaytitle": "<i>Composition VIII</i>",
+            "page_image_free": "Vassily_Kandinsky,_1923_-_Composition_8,_huile_sur_toile,_140_cm_x_201_cm,_Musée_Guggenheim,_New_York.jpg",
+            "wikibase_item": "Q19609199"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:07:29Z",
+          "lastrevid": 230201666,
+          "length": 5037,
+          "fullurl": "https://fr.wikipedia.org/wiki/Composition_VIII",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Composition_VIII&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Composition_VIII"
+        },
+        {
+          "pageid": 15678786,
+          "ns": 0,
+          "title": "Jazz (Matisse)",
+          "pageprops": {
+            "displaytitle": "<i>Jazz</i> (Matisse)",
+            "page_image_free": "MatisseJazzVoorlinden.jpg",
+            "wikibase_item": "Q1684457"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:08:31Z",
+          "lastrevid": 240396172,
+          "length": 4728,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jazz_(Matisse)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jazz_(Matisse)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jazz_(Matisse)"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "750ae8fe106721f279bf39e943cace733c207a329c560227c446fd986c240b0d"
+}

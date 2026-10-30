@@ -11,6 +11,8 @@ npm run dev -- --host 0.0.0.0
 
 Ouvrir http://localhost:5173. Pour une version compilée : `npm run build`, puis `npm run preview`.
 
+**Autre PC ou travail en parallèle : [guide de transfert](docs/CHANGER_DE_PC.md)** — installer Git LFS, récupérer les données, transférer les exports privés et reconnecter Firebase/GitHub sans publier de secrets.
+
 ## Fonctionnalités
 
 - Pochette généraliste et six pochettes thématiques gratuites.

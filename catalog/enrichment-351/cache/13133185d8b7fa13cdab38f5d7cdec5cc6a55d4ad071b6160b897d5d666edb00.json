@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Sandro_Botticelli/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:35:08.581Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6478
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6359
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6145
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8249
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6331
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10836
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7050
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7622
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4979
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3989
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4647
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Sandro_Botticelli",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5801
+      }
+    ]
+  },
+  "payloadSha256": "87fe58e5c4f2be5922804e4ab1077da4cbf2da9d5d8d418677741ac32ce29fca"
+}

@@ -1,0 +1,417 @@
+{
+  "provider": "orsay",
+  "url": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/manifest.json",
+  "retrievedAt": "2026-10-30T02:01:14.774Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "@context": [
+      "https://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/manifest.json",
+    "type": "Manifest",
+    "label": {
+      "fr": [
+        "Morisot, Berthe Marie Pauline - Le Berceau - RF 2849"
+      ],
+      "en": [
+        "Morisot, Berthe Marie Pauline - Le Berceau - RF 2849"
+      ]
+    },
+    "homepage": [
+      {
+        "id": "https://www.musee-orsay.fr/fr/oeuvres/1132",
+        "label": {
+          "en": [
+            "View the artwork on the original site"
+          ],
+          "fr": [
+            "Lien vers la notice sur le site d'origine"
+          ]
+        },
+        "type": "Text",
+        "format": "text/html"
+      }
+    ],
+    "requiredStatement": {
+      "label": {
+        "fr": [
+          "Droits d'utilisation et licence"
+        ],
+        "en": [
+          "Rights Description and licence"
+        ]
+      },
+      "value": {
+        "fr": [
+          "https://www.musee-orsay.fr/fr/mentions-legales"
+        ],
+        "en": [
+          "https://www.musee-orsay.fr/en/legal-information"
+        ]
+      }
+    },
+    "provider": [
+      {
+        "id": "https://www.epmo-musees.fr",
+        "type": "Agent",
+        "label": {
+          "fr": [
+            "Etablissement public du Musée d'Orsay et du musée de l'Orangerie - Valerie Giscard d'Estaing"
+          ]
+        },
+        "logo": [
+          {
+            "id": "https://www.epmo-musees.fr/themes/custom/ep/logo.svg",
+            "type": "Image",
+            "format": "image/png",
+            "height": 100,
+            "width": 120
+          }
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "label": {
+          "fr": [
+            "Description"
+          ],
+          "en": [
+            "Description"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Morisot, Berthe Marie Pauline, Le Berceau. huile sur toile. 1872. Achat, 1930 "
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Désignation"
+          ],
+          "en": [
+            "Title"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Le Berceau"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Auteur"
+          ],
+          "en": [
+            "Creator"
+          ]
+        },
+        "value": {
+          "fr": [
+            "'Morisot, Berthe Marie Pauline [Bourges, Cher (18) (France) 1841 - Paris (France) 1895]'"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "N° d'inventaire"
+          ],
+          "en": [
+            "Accession number"
+          ]
+        },
+        "value": {
+          "none": [
+            "RF 2849"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Datation"
+          ],
+          "en": [
+            "Date"
+          ]
+        },
+        "value": {
+          "fr": [
+            "1872"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mode d'acquisition"
+          ],
+          "en": [
+            "Acquisition details"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Achat, 1930"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mesures"
+          ],
+          "en": [
+            "Dimensions"
+          ]
+        },
+        "value": {
+          "fr": [
+            "H. 56 ; L. 46,5 cm. @ avec cadre H. 80 ; L. 71 cm"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Matériaux et techniques"
+          ],
+          "en": [
+            "Materials and techniques"
+          ]
+        },
+        "value": {
+          "fr": [
+            "huile sur toile"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Lieu de conservation"
+          ],
+          "en": [
+            "Current Location"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Collection"
+          ],
+          "en": [
+            "Collection"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      }
+    ],
+    "viewingDirection": "left-to-right",
+    "items": [
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/canvas/canvas-1-",
+        "type": "Canvas",
+        "height": 850,
+        "width": 701,
+        "label": {
+          "fr": [
+            "Le Berceau"
+          ],
+          "en": [
+            "Le Berceau"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© Musee d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "01/07/2013"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1132!207147_j4pdbbnonzxsr/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 701,
+            "height": 850
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/canvas/canvas-1-/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/annotation/anno-1-",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1132!207147_j4pdbbnonzxsr/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 701
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/canvas/canvas-1-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/canvas/canvas-2-15-655887",
+        "type": "Canvas",
+        "height": 850,
+        "width": 709,
+        "label": {
+          "fr": [
+            "Le Berceau"
+          ],
+          "en": [
+            "Le Berceau"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© RMN-Grand Palais (Musee d'Orsay) / Michel Urtado"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "22/12/2015"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1132!151368_o5p4l0hk9z7gz/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 709,
+            "height": 850
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/canvas/canvas-2-15-655887/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/annotation/anno-2-15-655887",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1132!151368_o5p4l0hk9z7gz/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 850,
+                  "width": 709
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1132/canvas/canvas-2-15-655887"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "payloadSha256": "db67478b1aea36530124b7a60dde43c0f4f551831cfff384041b999bf4eaa1aa"
+}

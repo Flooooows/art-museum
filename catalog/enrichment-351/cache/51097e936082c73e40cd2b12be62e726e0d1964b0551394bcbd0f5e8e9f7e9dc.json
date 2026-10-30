@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Climax+Beardsley",
+  "retrievedAt": "2026-10-30T01:46:57.420Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 96,
+    "objectIDs": [
+      679190,
+      679191,
+      753518,
+      753519
+    ]
+  },
+  "payloadSha256": "38ab9da896230eef82e0de7f6bceb41083f6aa3e6eb12d146d72cbfd49d8bac1"
+}

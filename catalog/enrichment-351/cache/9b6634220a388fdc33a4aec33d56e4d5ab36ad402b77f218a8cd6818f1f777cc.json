@@ -1,0 +1,1520 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3APiet+Mondriaan+Victory+Boogie+Woogie.jpg%7CFile%3A%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9+%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82.+1915.+%D0%93%D0%A2%D0%93.png%7CFile%3AWhite+on+White+%28Malevich%2C+1918%29.png%7CFile%3ADie+Zwitscher-Maschine+%28Twittering+Machine%29%2C+1922+-+Paul+Klee.jpg%7CFile%3ALudovic+Vall%C3%A9e+-+Le+jardin+du+bal+Bullier%2C+la+nuit+-+P1883+-+Mus%C3%A9e+Carnavalet.jpg%7CFile%3AEdward+Steichen+-+Brancusi%27s+studio%2C+1920.jpeg%7CFile%3ABird+in+Space.jpg%7CFile%3AThe+Kiss+LCCN93511527.jpg%7CFile%3ARO+GJ+Tg+Jiu+park+featuring+Endless+Column.jpg%7CFile%3AAmedeo+Modigliani+-+Jeanne+H%C3%A9buterne+assise+-+MB-0115+-+Kunsthaus+Z%C3%BCrich.jpg%7CFile%3AMural.+El+hombre+en+el+cruce+de+caminos.+Diego+rivera+%281934%29.JPG%7CFile%3AKatsushika+Hokusai+-+The+Great+Wave+off+the+Coast+of+Kanagawa+LCCN2008660568.jpg%7CFile%3AKatsushika+Hokusai+-+Fine+Wind%2C+Clear+Morning+%28Gaif%C5%AB+kaisei%29+-+Google+Art+Project.jpg%7CFile%3ATako+to+ama+retouched.jpg%7CFile%3AHokusai+The+Dream+of+the+Fisherman%27s+Wife.jpg",
+  "retrievedAt": "2026-10-30T01:47:35.652Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 3342551,
+          "ns": 6,
+          "title": "File:Edward Steichen - Brancusi's studio, 1920.jpeg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 878279,
+              "width": 3000,
+              "height": 3768,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Edward_Steichen_-_Brancusi%27s_studio%2C_1920.jpeg/1920px-Edward_Steichen_-_Brancusi%27s_studio%2C_1920.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2010,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Edward_Steichen_-_Brancusi%27s_studio%2C_1920.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Edward_Steichen_-_Brancusi%27s_studio%2C_1920.jpeg/1920px-Edward_Steichen_-_Brancusi%27s_studio%2C_1920.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2010,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Edward_Steichen_-_Brancusi%27s_studio%2C_1920.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Edward_Steichen_-_Brancusi%27s_studio%2C_1920.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Edward_Steichen_-_Brancusi%27s_studio,_1920.jpeg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3342551",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2008-01-05 14:49:26",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Edward Steichen - Brancusi's studio, 1920",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD US|Ateliers|Sculptures by Constantin Brâncuși|Organic Abstraction|1920 black and white photographs|Photographs by Edward Steichen",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Brancusi's Studio, found at Met Museum, NY<br>Gelatin silver print; 24.4 x 19.4 cm (9 5/8 x 7 5/8 in.)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1920",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.metmuseum.org/works_of_Art/viewOne.asp?dep=19&amp;item=1992%2E5149&amp;viewmode=0&amp;isHighlight=1\">https://www.metmuseum.org/works_of_Art/viewOne.asp?dep=19&amp;item=1992%2E5149&amp;viewmode=0&amp;isHighlight=1</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Edward_Steichen\" class=\"extiw\" title=\"w:en:Edward Steichen\"><span title=\"American photographer, artist and curator (1879-1973)\">Edward Steichen</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "PD",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 12253807,
+          "ns": 6,
+          "title": "File:Hokusai The Dream of the Fisherman's Wife.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 280608,
+              "width": 670,
+              "height": 467,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Hokusai_The_Dream_of_the_Fisherman%27s_Wife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1115,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Hokusai_The_Dream_of_the_Fisherman%27s_Wife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1115
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Hokusai_The_Dream_of_the_Fisherman%27s_Wife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hokusai_The_Dream_of_the_Fisherman%27s_Wife.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12253807",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-12-09 04:07:06",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Hokusai The Dream of the Fisherman's Wife",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Dream of the Fisherman's Wife|PD-old-100-expired|PD-Art (PD-old-auto-expired)|CC-PD-Mark",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<i>Tako to ama</i>, an erotic ukiyo-e by the Japanese artist Hokusai.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1814",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://lordoftheflies.blog64.fc2.com/blog-entry-155.html\">http://lordoftheflies.blog64.fc2.com/blog-entry-155.html</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hokusai\" class=\"extiw\" title=\"w:en:Hokusai\"><span title=\"Japanese artist (1760-1849)\">Katsushika Hokusai</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 12253934,
+          "ns": 6,
+          "title": "File:Tako to ama retouched.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 848109,
+              "width": 1600,
+              "height": 1116,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tako_to_ama_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1116,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tako_to_ama_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1116
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tako_to_ama_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tako_to_ama_retouched.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=12253934",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-09-10 09:19:54",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Tako to ama retouched",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Retouched pictures|The Dream of the Fisherman's Wife|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Formerly featured pictures on Wikipedia, English|CC-PD-Mark|Files with Assessments template missing SDC Commons no value quality assessment|Paintings uploaded by Chris Woodrich",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<i>Tako to ama</i>, an erotic ukiyo-e by the Japanese artist Hokusai. Translation by James Heaton and Toyoshima Mizuho, ‘Erotic Expression in Shunga‘, Kyoto Journal 18, 1991:\n<p>LARGE OCTOPUS: My wish comes true at last, this day of days; finally I have you in my grasp! Your “bobo” is ripe and full, how wonderful! Superior to all others! To suck and suck and suck some more. After we do it masterfully, I’ll guide you to the Dragon Palace of the Sea God and envelop you. “Zuu sufu sufu chyu chyu chyu tsu zuu fufufuuu…”\n</p><p>MAIDEN: You hateful octopus! Your sucking at the mouth of my womb makes me gasp for breath! Aah! yes… it’s…there!!! With the sucker, the sucker!! Inside, squiggle, squiggle, oooh! Oooh, good, oooh good! There, there! Theeeeere! Goood! Whew! Aah! Good, good, aaaaaaaaaah! Not yet! Until now it was I that men called an octopus! An octopus! Ooh! Whew! How are you able…!? Ooh! “yoyoyooh, saa… hicha hicha gucha gucha, yuchyuu chyu guzu guzu suu suuu….”\n</p><p>LARGE OCTOPUS: All eight limbs to interwine with!! How do you like it this way? Ah, look! The inside has swollen, moistened by the warm waters of lust. “Nura nura doku doku doku…”\n</p><p>MAIDEN: Yes, it tingles now; soon there will be no sensation at all left in my hips. Ooooooh! Boundaries and borders gone! I’ve vanished….!!!!!!\n</p>\nSMALL OCTOPUS: After daddy finishes, I too want to rub and rub my suckers at the ridge of your furry place until you disappear and then I’ll suck some more. “chyu chyu..”",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1814",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://picasaweb.google.com/lh/photo/IqaZK0BxaIlKtTVWZJc0ew\">http://picasaweb.google.com/lh/photo/IqaZK0BxaIlKtTVWZJc0ew</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hokusai\" class=\"extiw\" title=\"w:en:Hokusai\"><span title=\"Japanese artist (1760-1849)\">Katsushika Hokusai</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 14940877,
+          "ns": 6,
+          "title": "File:Чёрный супрематический квадрат. 1915. ГТГ.png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2068226,
+              "width": 1196,
+              "height": 1199,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1604,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1604
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82._1915._%D0%93%D0%A2%D0%93.png",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=14940877",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-02-24 06:50:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Black Square <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1170315#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">label QS:Len,\"Black Square\"</div><div style=\"display: none;\">label QS:Lde,\"Schwarzes Quadrat\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-Art (PD-Russia-expired)|Artworks with Wikidata item|Black Square (Malevich, 1915)|PD-Art missing SDC copyright status|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Kazimir_Malevich\" class=\"extiw\" title=\"w:en:Kazimir Malevich\"><span title=\"Russian avant-garde artist of Polish ancestry. Founder of the Suprematist movement (1879–1935)\">Kazimir Malevich</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1915 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1170315#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.tretyakovgallery.ru/\">Tretyakov Gallery</a>, <a rel=\"nofollow\" class=\"external text\" href=\"https://my.tretyakov.ru/app/masterpiece/8403\">My Tretyakov</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 14943560,
+          "ns": 6,
+          "title": "File:White on White (Malevich, 1918).png",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3621278,
+              "width": 2000,
+              "height": 2000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/White_on_White_%28Malevich%2C_1918%29.png/1920px-White_on_White_%28Malevich%2C_1918%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1600,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/4/4c/White_on_White_%28Malevich%2C_1918%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/White_on_White_%28Malevich%2C_1918%29.png/1920px-White_on_White_%28Malevich%2C_1918%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1600,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/4c/White_on_White_%28Malevich%2C_1918%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/White_on_White_%28Malevich%2C_1918%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:White_on_White_(Malevich,_1918).png",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=14943560",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-12-19 23:55:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Suprematist Composition: White on White <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q579455#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">label QS:Lru,\"Белое на белом\"</div><div style=\"display: none;\">label QS:Lde,\"Suprematistische Komposition: Weiß auf Weiß\"</div><div style=\"display: none;\">label QS:Len,\"Suprematist Composition: White on White\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "White on White|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|PD-old-80-expired|CC-PD-Mark|Artworks digital representation of 2D work|1918 paintings by Kazimir Malevich",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Kazimir_Malevich\" class=\"extiw\" title=\"w:en:Kazimir Malevich\"><span title=\"Russian avant-garde artist of Polish ancestry. Founder of the Suprematist movement (1879–1935)\">Kazimir Malevich</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1918<div style=\"display: none;\">date QS:P571,+1918-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.moma.org/collection/works/80385?locale=en\">MoMA</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 16101517,
+          "ns": 6,
+          "title": "File:Die Zwitscher-Maschine (Twittering Machine), 1922 - Paul Klee.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 763760,
+              "width": 994,
+              "height": 1350,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Die_Zwitscher-Maschine_%28Twittering_Machine%29%2C_1922_-_Paul_Klee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2173,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Die_Zwitscher-Maschine_%28Twittering_Machine%29%2C_1922_-_Paul_Klee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2173
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Die_Zwitscher-Maschine_%28Twittering_Machine%29%2C_1922_-_Paul_Klee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Die_Zwitscher-Maschine_(Twittering_Machine),_1922_-_Paul_Klee.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16101517",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-08-14 19:00:19",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Twittering Machine <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3210239#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The Twittering Machine <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3210239#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The Twittering Machine <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3210239#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lsl,\"Ščebetajoči stroj\"</div><div style=\"display: none;\">label QS:Lfr,\"La Machine à gazouiller\"</div><div style=\"display: none;\">label QS:Lca,\"La màquina del gorgueig\"</div><div style=\"display: none;\">label QS:Lzh,\"鸣啭机\"</div><div style=\"display: none;\">label QS:Lde,\"Die Zwitscher-Maschine\"</div><div style=\"display: none;\">label QS:Lcs,\"Cvrlikací stroj\"</div><div style=\"display: none;\">label QS:Lfa,\"دستگاه جیک‌جیک\"</div><div style=\"display: none;\">label QS:Lda,\"Kvidrende maskine\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Twittering Machine by Paul Klee|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|PD-old-80-expired|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks with Wikidata item missing genre|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Paul_Klee\" class=\"extiw\" title=\"w:en:Paul Klee\"><span title=\"German-Swiss artist (1879–1940)\">Paul Klee</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Watercolor and ink; oil transfer on paper with <a href=\"https://en.wikipedia.org/wiki/Gouache\" class=\"extiw\" title=\"wikipedia:Gouache\">gouache</a> and ink borders on cardboard. Group of birds shackled to a wire attached to a hand crank.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1922<div style=\"display: none;\">date QS:P571,+1922-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Image hosted at &lt;<a rel=\"nofollow\" class=\"external free\" href=\"http://www.waggish.org/2010/paul-klee-twittering-machine/\">http://www.waggish.org/2010/paul-klee-twittering-machine/</a>&gt;",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 21385192,
+          "ns": 6,
+          "title": "File:Mural. El hombre en el cruce de caminos. Diego rivera (1934).JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 13890271,
+              "width": 4752,
+              "height": 3168,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG/1920px-Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1067,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG/3840px-Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG/1920px-Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1067,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG/3840px-Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_%281934%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mural._El_hombre_en_el_cruce_de_caminos._Diego_rivera_(1934).JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21385192",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-12-19 16:34:30",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Mural. El hombre en el cruce de caminos. Diego rivera (1934)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "El hombre controlador del universo|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Mural que se encuentra en el vestíbulo del Palacio de Bellas Artes, México Df.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2012-07-29 11:31:23",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:AAP86&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:AAP86 (page does not exist)\">AAP86</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22655682,
+          "ns": 6,
+          "title": "File:Katsushika Hokusai - Fine Wind, Clear Morning (Gaifū kaisei) - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5833940,
+              "width": 5803,
+              "height": 3918,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/1920px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1080,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/3840px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/1920px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1080,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg/3840px-Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Katsushika_Hokusai_-_Fine_Wind%2C_Clear_Morning_%28Gaif%C5%AB_kaisei%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Fine_Wind,_Clear_Morning_(Gaif%C5%AB_kaisei)_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22655682",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-11-12 21:22:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Fine Wind, Clear Morning (Gaifū kaisei)</i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Fine Wind, Clear Morning (Gaifū kaisei)\"</div><div style=\"display: none;\">label QS:Len,\"Fine Wind, Clear Morning (Gaifū kaisei)\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "South Wind, Clear Sky|Prints in the Indianapolis Museum of Art|Google Art Project works in Indianapolis Museum of Art|PD-old-100-expired|Unsupported object|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Art of Japan in the Indianapolis Museum of Art|Google Art Project works by Katsushika Hokusai|Artworks with Wikidata item missing medium|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Files from Google Arts & Culture|Artworks with digital representation of different depicts",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hokusai\" class=\"extiw\" title=\"w:en:Hokusai\"><span title=\"Japanese artist (1760-1849)\">Katsushika Hokusai</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://www.wikidata.org/wiki/Q10539254\" class=\"extiw\" title=\"d:Q10539254\">Red Fuji</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3565037#P180\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "about 1800-1849",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/iwHKYC1Qfk9NCg\">iwHKYC1Qfk9NCg at Google Cultural Institute</a> maximum zoom level",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 37614350,
+          "ns": 6,
+          "title": "File:Piet Mondriaan Victory Boogie Woogie.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 13191652,
+              "width": 4724,
+              "height": 4724,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Piet_Mondriaan_Victory_Boogie_Woogie.jpg/1920px-Piet_Mondriaan_Victory_Boogie_Woogie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1600,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Piet_Mondriaan_Victory_Boogie_Woogie.jpg/3840px-Piet_Mondriaan_Victory_Boogie_Woogie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Piet_Mondriaan_Victory_Boogie_Woogie.jpg/1920px-Piet_Mondriaan_Victory_Boogie_Woogie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1600,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Piet_Mondriaan_Victory_Boogie_Woogie.jpg/3840px-Piet_Mondriaan_Victory_Boogie_Woogie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Piet_Mondriaan_Victory_Boogie_Woogie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan_Victory_Boogie_Woogie.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37614350",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-01-03 14:51:35",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">Victory Boogie Woogie</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Victory Boogie Woogie|Works copyrighted in the U.S.|PD-Art (PD-old-70)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Image overwrites by Jan Arkesteijn for independent review|Artworks digital representation of unknown type of work|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Piet_Mondrian\" class=\"extiw\" title=\"w:en:Piet Mondrian\"><span title=\"Dutch painter (1872–1944)\">Piet Mondrian</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1944<div style=\"display: none;\">date QS:P571,+1944-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.gemeentemuseum.nl/collection/item/4444\">Gemeentemuseum Den Haag</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 50878317,
+          "ns": 6,
+          "title": "File:RO GJ Tg Jiu park featuring Endless Column.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 375374,
+              "width": 968,
+              "height": 1448,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/59/RO_GJ_Tg_Jiu_park_featuring_Endless_Column.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2393,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/RO_GJ_Tg_Jiu_park_featuring_Endless_Column.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2393
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/RO_GJ_Tg_Jiu_park_featuring_Endless_Column.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:RO_GJ_Tg_Jiu_park_featuring_Endless_Column.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=50878317",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-08-25 09:13:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "RO GJ Tg Jiu park featuring Endless Column",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-user|The Endless Column|Romania photographs taken on 2012-08-31",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Park in Târgu Jiu featuring the Endless Column by Constantin Brâncuși",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2012-08-31",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//ro.wikipedia.org\" href=\"https://ro.wikipedia.org\">ro.wikipedia</a></span> to Commons.</bdi>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Cristian-Mihail Miehs --<a href=\"https://ro.wikipedia.org/wiki/Utilizator:Miehs\" class=\"extiw\" title=\"ro:Utilizator:Miehs\">Miehs</a> (<a href=\"https://ro.wikipedia.org/wiki/Discu%C8%9Bie_utilizator:Miehs\" class=\"extiw\" title=\"ro:Discuție utilizator:Miehs\">discuție</a>) 13 ianuarie 2014 15:21 (EET)",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "Released into the public domain (by the author); the sculpture is copyrighted but <a href=\"//commons.wikimedia.org/wiki/Commons:De_minimis\" title=\"Commons:De minimis\">not the whole subject of the photo</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 68152053,
+          "ns": 6,
+          "title": "File:The Kiss LCCN93511527.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 175100,
+              "width": 1146,
+              "height": 1536,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/The_Kiss_LCCN93511527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2145,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/The_Kiss_LCCN93511527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2145
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/The_Kiss_LCCN93511527.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Kiss_LCCN93511527.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=68152053",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-11-17 08:37:53",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "The Kiss LCCN93511527",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Images from the Library of Congress|1908 sculptures|Plaster sculptures|PD-old-70-expired|Images uploaded by Fæ|The Kiss (Brâncuși sculpture)|CC-PD-Mark|1913 photographs of the United States|Miscellaneous Items in High Demand, PPOC, Library of Congress|PD-old missing SDC copyright status|Armory Show works",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<i>Title:</i> The Kiss\n<i>Abstract/medium:</i> 1 photographic print.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1913",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://lccn.loc.gov/93511527\">https://lccn.loc.gov/93511527</a></li>\n<li><i>Image download:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://cdn.loc.gov/service/pnp/cph/3b30000/3b39000/3b39500/3b39596r.jpg\">https://cdn.loc.gov/service/pnp/cph/3b30000/3b39000/3b39500/3b39596r.jpg</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/93511527/\">https://www.loc.gov/pictures/item/93511527/</a></li></ul>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Brancusi, Constantin, 1876-1957, artist",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/cph.3b39596\">cph.3b39596</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 101365645,
+          "ns": 6,
+          "title": "File:Ludovic Vallée - Le jardin du bal Bullier, la nuit - P1883 - Musée Carnavalet.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2691710,
+              "width": 4950,
+              "height": 3225,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg/1920px-Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1042,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg/3840px-Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg/1920px-Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1042,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg/3840px-Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier%2C_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Ludovic_Vall%C3%A9e_-_Le_jardin_du_bal_Bullier,_la_nuit_-_P1883_-_Mus%C3%A9e_Carnavalet.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=101365645",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2021-03-13 01:05:11",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">French:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"fr\"><i>Le jardin du bal Bullier, la nuit <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q104373593#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,fr:\"Le jardin du bal Bullier, la nuit <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q104373593#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lfr,\"Le jardin du bal Bullier, la nuit <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q104373593#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Bal Bullier|Ludovic Vallée|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|PD-old-80-expired|1902 in Paris|CC-PD-Mark|Artworks with accession number from Wikidata|Images from Paris Musées|Paintings in Musée Carnavalet|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q3266176\" class=\"extiw\" title=\"d:Q3266176\"><span title=\"French painter (1864-1939)\">Ludovic Vallée</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1902 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q104373593#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/le-jardin-du-bal-bullier-la-nuit\">Paris Musées</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg\" class=\"mw-file-description\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 145416832,
+          "ns": 6,
+          "title": "File:Bird in Space.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3320828,
+              "width": 1776,
+              "height": 2500,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Bird_in_Space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2252,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Bird_in_Space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2252
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Bird_in_Space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bird_in_Space.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145416832",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-02-16 16:54:35",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Bird in Space",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD US expired|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|Works by Constantin Brâncuși",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "39.953405",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-75.164294",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "The image displays a work in the \"Bird in Space\" series by Constantin Brâncuși, characterized by a smooth, elongated form and reflective golden surface.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2012-08-21 14:12:16",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/posk/7876811322/\">https://www.flickr.com/photos/posk/7876811322/</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/posk/\">Art Poskanzer</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "Public domain works must be out of copyright in both the United States and in the source country of the work in order to be hosted on the Commons. If the work is not a U.S. work, the file <b>must</b> have an additional <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags\" title=\"Commons:Copyright tags\">copyright tag</a> indicating the copyright status in the source country.<br><b>Note:</b> This tag should <i>not</i> be used for sound recordings.<span style=\"display:none;\"><span class=\"licensetpl_short\">PD-1923</span><span class=\"licensetpl_long\"><a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">Public domain</a> in the United States</span><span class=\"licensetpl_link\">//commons.wikimedia.org/wiki/File:Bird_in_Space.jpg</span></span>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 153623879,
+          "ns": 6,
+          "title": "File:Katsushika Hokusai - The Great Wave off the Coast of Kanagawa LCCN2008660568.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 35307246,
+              "width": 8561,
+              "height": 6037,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg/1920px-Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1128,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg/3840px-Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg/1920px-Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1128,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg/3840px-Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=153623879",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-10-06 20:40:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Katsushika Hokusai - The Great Wave off the Coast of Kanagawa LCCN2008660568",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Images from the Library of Congress|The Great Wave off Kanagawa by Katsushika Hokusai|PD-old-100-expired|Files uploaded by Yann Forget|PD-Art (PD-old-100-expired)|CC-PD-Mark|Japanese fine prints, pre-1915|PD-Art missing SDC copyright status|PD-old missing SDC copyright status",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "<i>Title:</i> Kanagawa oki nami ura\n<i>Abstract/medium:</i> 1 print : woodcut, color.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1826",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://lccn.loc.gov/2008660568\">https://lccn.loc.gov/2008660568</a></li>\n<li><i>Image download:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://cdn.loc.gov/service/pnp/jpd/02000/02018v.jpg\">https://cdn.loc.gov/service/pnp/jpd/02000/02018v.jpg</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2008660568/\">https://www.loc.gov/pictures/item/2008660568/</a></li></ul>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Katsushika, Hokusai, 1760-1849, artist",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/jpd.02018\">jpd.02018</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 157445344,
+          "ns": 6,
+          "title": "File:Amedeo Modigliani - Jeanne Hébuterne assise - MB-0115 - Kunsthaus Zürich.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 196370,
+              "width": 769,
+              "height": 1200,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amedeo_Modigliani_-_Jeanne_H%C3%A9buterne_assise_-_MB-0115_-_Kunsthaus_Z%C3%BCrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2497,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amedeo_Modigliani_-_Jeanne_H%C3%A9buterne_assise_-_MB-0115_-_Kunsthaus_Z%C3%BCrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2497
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amedeo_Modigliani_-_Jeanne_H%C3%A9buterne_assise_-_MB-0115_-_Kunsthaus_Z%C3%BCrich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Amedeo_Modigliani_-_Jeanne_H%C3%A9buterne_assise_-_MB-0115_-_Kunsthaus_Z%C3%BCrich.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=157445344",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-01-02 10:06:59",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">German:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"de\"><i>Jeanne Hébuterne assise <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q131585223#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,de:\"Jeanne Hébuterne assise <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q131585223#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lde,\"Jeanne Hébuterne assise <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q131585223#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lfr,\"Jeanne Hébuterne assise\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks with Wikidata item missing genre|Artworks digital representation of 2D work|Portrait paintings of Jeanne Hébuterne by Amedeo Modigliani|Paintings by Amedeo Modigliani in the Kunsthaus Zürich",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Amedeo_Modigliani\" class=\"extiw\" title=\"w:en:Amedeo Modigliani\"><span title=\"Italian painter and sculptor (1884–1920)\">Amedeo Modigliani</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1918 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q131585223#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://collection.kunsthaus.ch/en/collection/item/763966/\">Kunsthaus Zürich</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg\" class=\"mw-file-description\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "751ec47d6bf8c40e6ac91e4de98d395893dfdf0ca577f48f0aa30f49cc3e8027"
+}

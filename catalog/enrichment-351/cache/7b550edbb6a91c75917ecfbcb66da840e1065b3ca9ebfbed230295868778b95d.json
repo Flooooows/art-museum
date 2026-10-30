@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Raphael/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:35:03.523Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 53259
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 47300
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 42569
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 46547
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 41950
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 51988
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 68512
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 57043
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 47217
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 35463
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 37645
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Raphael",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 41566
+      }
+    ]
+  },
+  "payloadSha256": "3a8de5dd1e25c39164a85e6396c278cc1b8f5501a02de4d30b906c07282f583e"
+}

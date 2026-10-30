@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=At+the+Moulin+Rouge",
+  "retrievedAt": "2026-10-30T00:47:50.149Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 3998.0261,
+        "id": 61128,
+        "title": "At the Moulin Rouge",
+        "main_reference_number": "1928.610",
+        "date_display": "1892–95",
+        "is_public_domain": true,
+        "artist_title": "Henri de Toulouse-Lautrec",
+        "image_id": "defb4004-b500-218d-3d9b-9a02423f097d"
+      },
+      {
+        "_score": 2456.4905,
+        "id": 7690,
+        "title": "The Englishman at the Moulin Rouge",
+        "main_reference_number": "1931.67",
+        "date_display": "1892",
+        "is_public_domain": true,
+        "artist_title": "Henri de Toulouse-Lautrec",
+        "image_id": "b885f685-4032-a52b-6a7b-d1e5f215a3c6"
+      },
+      {
+        "_score": 1970.3584,
+        "id": 35751,
+        "title": "A Gala Evening at the Moulin Rouge",
+        "main_reference_number": "1927.893",
+        "date_display": "1893",
+        "is_public_domain": true,
+        "artist_title": "Henri de Toulouse-Lautrec",
+        "image_id": "b3e42174-8b15-1d16-6d94-7fe88c7ed92c"
+      },
+      {
+        "_score": 1958.9001,
+        "id": 109236,
+        "title": "Dance at the Moulin Rouge",
+        "main_reference_number": "1947.695",
+        "date_display": "1897",
+        "is_public_domain": true,
+        "artist_title": "Henri de Toulouse-Lautrec",
+        "image_id": "1d3339c3-e229-5db6-d2ed-f3df18d2fdac"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "35c8c5afad0e1dc43c6650d5a7cf51953ef91fe2f4d794d21e7d8a6614b013fe"
+}
