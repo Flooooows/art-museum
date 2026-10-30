@@ -40,6 +40,8 @@ Ouvrir **`/review.html`** après `npm run dev` pour examiner les 100 œuvres act
 
 **Première utilisation : [guide pas à pas de l’atelier](docs/UTILISER_ATELIER.md)** — démarrer le site, choisir les raretés, comprendre la sauvegarde automatique, exporter et reprendre ses décisions.
 
+**Atelier partagé en ligne : https://art-museum-8fdd8-atelier.web.app** — chaque personne conserve ses propres choix dans son navigateur puis transmet son export JSON. Le site principal reste distinct ; aucune décision n’est envoyée automatiquement sur Firebase.
+
 ## Limites de cette version
 
 La progression est enregistrée **uniquement dans ce navigateur**. L’export est nécessaire pour la transférer ou la protéger contre l’effacement des données locales. Les comptes synchronisés, paiements, abonnements et échanges multijoueurs ne sont pas implémentés ni simulés.

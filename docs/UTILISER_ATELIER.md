@@ -4,6 +4,16 @@ L’atelier permet de consulter **1 000 œuvres**, de comparer la proposition de
 
 ## 1. Ouvrir l’atelier
 
+### Utiliser le site partagé (sans installation)
+
+Ouvrez **https://art-museum-8fdd8-atelier.web.app** et transmettez ce même lien à votre amie. L’atelier est hébergé sur un site Firebase Hosting dédié, distinct du site principal. Il est public, sans inscription et sans base de données de décisions partagée.
+
+Chacune travaille dans son propre navigateur. Votre amie choisit ses raretés, clique sur **« Exporter mes choix »**, puis vous envoie le JSON téléchargé (par courriel ou messagerie, par exemple). Aucun envoi n’est automatique. Elle peut exporter plusieurs fois et reprendre plus tard à la même adresse.
+
+**Avant d’importer son fichier dans votre navigateur, exportez vos propres choix.** L’import peut remplacer vos décisions en conflit après confirmation. Pour conserver les deux revues séparées, consultez celle de votre amie dans un autre profil de navigateur, ou comparez leurs exports CSV.
+
+Si vous avez commencé sur `localhost`, exportez d’abord le JSON local puis importez-le sur cette adresse : les deux adresses ne partagent pas la même sauvegarde. Ce site ne nécessite pas les étapes d’installation ci-dessous.
+
 ### Si le projet est déjà lancé
 
 Ouvrez **http://localhost:5173/review.html**. Si le terminal indique un autre port, remplacez `5173` par celui-ci. La page `/` est le jeu ; `/review.html` est l’atelier.
