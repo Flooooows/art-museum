@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/The_Third_of_May_1808/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:46:04.572Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17352
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17672
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15997
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 19585
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17103
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18655
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18931
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 20701
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15296
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12777
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12767
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Third_of_May_1808",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 14263
+      }
+    ]
+  },
+  "payloadSha256": "e07e6bcd29a9f475d99ca05a90f8b37b080e76f6f80690f3c5687b694463025d"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Hans_Holbein_the_Younger/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:33:06.007Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 22193
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 23239
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18278
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17932
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15893
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17297
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15615
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18789
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 14965
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13680
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18191
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Hans_Holbein_the_Younger",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17981
+      }
+    ]
+  },
+  "payloadSha256": "12ef0b5607b533a87ff135745e4c40e36c23be8e028bc95e2d5636f9e20e648a"
+}

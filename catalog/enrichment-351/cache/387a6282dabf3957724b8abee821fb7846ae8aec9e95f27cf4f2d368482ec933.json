@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=Otani+Oniji+Sharaku",
+  "retrievedAt": "2026-10-30T01:47:20.631Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 9,
+    "objectIDs": [
+      37358,
+      37363,
+      56014,
+      56010
+    ]
+  },
+  "payloadSha256": "f49450879c4b29830b2fda15f3eba6e4614668efdd314b42cf7cdc00f57e47a3"
+}

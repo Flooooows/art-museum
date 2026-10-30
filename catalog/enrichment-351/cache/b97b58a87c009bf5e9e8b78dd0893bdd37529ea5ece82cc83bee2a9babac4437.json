@@ -1,0 +1,558 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Le+Bassin+aux+nymph%C3%A9as%2C+harmonie+verte%7CLe+Pont+japonais+%28Monet%29%7CLes+Coquelicots%7CLes+Meules%7CCath%C3%A9drales+de+Rouen+%28s%C3%A9rie+de+Monet%29%7CLes+Nymph%C3%A9as%7CLe+Bal+du+moulin+de+la+Galette%7CLe+D%C3%A9jeuner+des+canotiers%7CLa+Loge+%28Renoir%29%7CLes+Grandes+Baigneuses+%28Renoir%29%7CLa+Classe+de+danse%7CL%27%C3%89toile+%28Degas%29%7CL%27Absinthe%7CLa+Petite+Danseuse+de+quatorze+ans%7CLe+Berceau+%28Morisot%29%7CJour+d%27%C3%A9t%C3%A9%7CLe+Bain+de+l%27enfant%7CDans+la+loge+%28Cassatt%29%7CBoulevard+Montmartre%2C+effet+de+nuit%7CLa+C%C3%B4te+des+B%C5%93ufs+%C3%A0+l%27Hermitage%7CInondation+%C3%A0+Port-Marly%7CUn+dimanche+apr%C3%A8s-midi+%C3%A0+l%27%C3%8Ele+de+la+Grande+Jatte%7CUne+baignade+%C3%A0+Asni%C3%A8res%7CLe+Port+de+Saint-Tropez%7CLa+Nuit+%C3%A9toil%C3%A9e%7CLes+Tournesols%7CLa+Chambre+de+Van+Gogh+%C3%A0+Arles%7CTerrasse+du+caf%C3%A9+le+soir%7CLa+Nuit+%C3%A9toil%C3%A9e+sur+le+Rh%C3%B4ne%7CLes+Iris",
+  "retrievedAt": "2026-10-30T01:42:23.820Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "La Nuit étoilée",
+          "to": "Nuit étoilée"
+        },
+        {
+          "from": "Un dimanche après-midi à l'Île de la Grande Jatte",
+          "to": "Un dimanche après-midi à l'île de la Grande Jatte"
+        },
+        {
+          "from": "La Classe de danse",
+          "to": "La Classe de danse (Degas, Paris)"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Les Iris",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Iris",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Iris&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Iris"
+        },
+        {
+          "ns": 0,
+          "title": "La Nuit étoilée sur le Rhône",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Nuit_%C3%A9toil%C3%A9e_sur_le_Rh%C3%B4ne",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Nuit_%C3%A9toil%C3%A9e_sur_le_Rh%C3%B4ne&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Nuit_%C3%A9toil%C3%A9e_sur_le_Rh%C3%B4ne"
+        },
+        {
+          "ns": 0,
+          "title": "Inondation à Port-Marly",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Inondation_%C3%A0_Port-Marly",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Inondation_%C3%A0_Port-Marly&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Inondation_%C3%A0_Port-Marly"
+        },
+        {
+          "ns": 0,
+          "title": "La Côte des Bœufs à l'Hermitage",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/La_C%C3%B4te_des_B%C5%93ufs_%C3%A0_l%27Hermitage",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_C%C3%B4te_des_B%C5%93ufs_%C3%A0_l%27Hermitage&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_C%C3%B4te_des_B%C5%93ufs_%C3%A0_l%27Hermitage"
+        },
+        {
+          "ns": 0,
+          "title": "Boulevard Montmartre, effet de nuit",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Boulevard_Montmartre,_effet_de_nuit",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Boulevard_Montmartre,_effet_de_nuit&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Boulevard_Montmartre,_effet_de_nuit"
+        },
+        {
+          "ns": 0,
+          "title": "Dans la loge (Cassatt)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Dans_la_loge_(Cassatt)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Dans_la_loge_(Cassatt)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Dans_la_loge_(Cassatt)"
+        },
+        {
+          "ns": 0,
+          "title": "Le Berceau (Morisot)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Berceau_(Morisot)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Berceau_(Morisot)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Berceau_(Morisot)"
+        },
+        {
+          "ns": 0,
+          "title": "L'Étoile (Degas)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27%C3%89toile_(Degas)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27%C3%89toile_(Degas)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27%C3%89toile_(Degas)"
+        },
+        {
+          "ns": 0,
+          "title": "Le Bal du moulin de la Galette",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Bal_du_moulin_de_la_Galette",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Bal_du_moulin_de_la_Galette&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Bal_du_moulin_de_la_Galette"
+        },
+        {
+          "ns": 0,
+          "title": "Cathédrales de Rouen (série de Monet)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Cath%C3%A9drales_de_Rouen_(s%C3%A9rie_de_Monet)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Cath%C3%A9drales_de_Rouen_(s%C3%A9rie_de_Monet)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Cath%C3%A9drales_de_Rouen_(s%C3%A9rie_de_Monet)"
+        },
+        {
+          "ns": 0,
+          "title": "Le Pont japonais (Monet)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Pont_japonais_(Monet)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Pont_japonais_(Monet)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Pont_japonais_(Monet)"
+        },
+        {
+          "pageid": 186624,
+          "ns": 0,
+          "title": "La Chambre de Van Gogh à Arles",
+          "pageprops": {
+            "defaultsort": "Chambre de Van Gogh a Arles, La",
+            "displaytitle": "<i>La Chambre de Van Gogh à Arles</i>",
+            "page_image_free": "Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q724377"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:14Z",
+          "lastrevid": 237487702,
+          "length": 10321,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Chambre_de_Van_Gogh_%C3%A0_Arles",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Chambre_de_Van_Gogh_%C3%A0_Arles&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Chambre_de_Van_Gogh_%C3%A0_Arles"
+        },
+        {
+          "pageid": 189744,
+          "ns": 0,
+          "title": "Un dimanche après-midi à l'île de la Grande Jatte",
+          "pageprops": {
+            "displaytitle": "<i>Un dimanche après-midi à l'île de la Grande Jatte</i>",
+            "page_image_free": "A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg",
+            "wikibase_item": "Q1044742"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:14Z",
+          "lastrevid": 240795615,
+          "length": 10499,
+          "fullurl": "https://fr.wikipedia.org/wiki/Un_dimanche_apr%C3%A8s-midi_%C3%A0_l%27%C3%AEle_de_la_Grande_Jatte",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Un_dimanche_apr%C3%A8s-midi_%C3%A0_l%27%C3%AEle_de_la_Grande_Jatte&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Un_dimanche_apr%C3%A8s-midi_%C3%A0_l%27%C3%AEle_de_la_Grande_Jatte"
+        },
+        {
+          "pageid": 324501,
+          "ns": 0,
+          "title": "Les Tournesols",
+          "pageprops": {
+            "defaultsort": "Tournesols, Les",
+            "displaytitle": "<i>Les Tournesols</i>",
+            "page_image_free": "Vincent_Willem_van_Gogh_127.jpg",
+            "wikibase_item": "Q157541"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:36Z",
+          "lastrevid": 240449577,
+          "length": 23918,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Tournesols",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Tournesols&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Tournesols"
+        },
+        {
+          "pageid": 509366,
+          "ns": 0,
+          "title": "Terrasse du café le soir",
+          "pageprops": {
+            "defaultsort": "Terrasse du cafe le soir",
+            "displaytitle": "<i>Terrasse du café le soir</i>",
+            "page_image_free": "Van_Gogh_-_Terrace_of_a_Café_at_Night_(Place_du_Forum)_1888.jpg",
+            "wikibase_item": "Q1025704"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:04Z",
+          "lastrevid": 237766204,
+          "length": 5305,
+          "fullurl": "https://fr.wikipedia.org/wiki/Terrasse_du_caf%C3%A9_le_soir",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Terrasse_du_caf%C3%A9_le_soir&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Terrasse_du_caf%C3%A9_le_soir"
+        },
+        {
+          "pageid": 1090913,
+          "ns": 0,
+          "title": "Les Grandes Baigneuses (Renoir)",
+          "pageprops": {
+            "defaultsort": "Grandes Baigneuses, Les",
+            "displaytitle": "<i>Les Grandes Baigneuses</i> (Renoir)",
+            "page_image_free": "Pierre-Auguste_Renoir,_French_-_The_Large_Bathers_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q2501284"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:28Z",
+          "lastrevid": 235884984,
+          "length": 5646,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Grandes_Baigneuses_(Renoir)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Grandes_Baigneuses_(Renoir)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Grandes_Baigneuses_(Renoir)"
+        },
+        {
+          "pageid": 1182717,
+          "ns": 0,
+          "title": "Une baignade à Asnières",
+          "pageprops": {
+            "displaytitle": "<i>Une baignade à Asnières</i>",
+            "page_image_free": "Baigneurs_a_Asnieres.jpg",
+            "wikibase_item": "Q1090837"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:41Z",
+          "lastrevid": 232816254,
+          "length": 4920,
+          "fullurl": "https://fr.wikipedia.org/wiki/Une_baignade_%C3%A0_Asni%C3%A8res",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Une_baignade_%C3%A0_Asni%C3%A8res&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Une_baignade_%C3%A0_Asni%C3%A8res"
+        },
+        {
+          "pageid": 1790170,
+          "ns": 0,
+          "title": "Les Nymphéas",
+          "pageprops": {
+            "defaultsort": "Nympheas (Claude Monet), Les",
+            "displaytitle": "<i>Les Nymphéas</i>",
+            "page_image_free": "Le_Bassin_aux_nymphéas_(1917-1919)_Claude_Monet_(Wildenstein_revised_cat._raisonné).jpg",
+            "wikibase_item": "Q1189907"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:45Z",
+          "lastrevid": 240448661,
+          "length": 145228,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Nymph%C3%A9as",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Nymph%C3%A9as&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Nymph%C3%A9as"
+        },
+        {
+          "pageid": 2663834,
+          "ns": 0,
+          "title": "L'Absinthe",
+          "pageprops": {
+            "defaultsort": "Absinthe, L'",
+            "displaytitle": "<i>L'Absinthe</i>",
+            "page_image_free": "Edgar_Degas_-_In_a_Café_-_Google_Art_Project_2.jpg",
+            "wikibase_item": "Q1239950"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:21Z",
+          "lastrevid": 235526800,
+          "length": 9123,
+          "fullurl": "https://fr.wikipedia.org/wiki/L%27Absinthe",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=L%27Absinthe&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/L%27Absinthe"
+        },
+        {
+          "pageid": 2969078,
+          "ns": 0,
+          "title": "Le Bassin aux nymphéas, harmonie verte",
+          "pageprops": {
+            "defaultsort": "Bassin aux Nympheas harmonie verte, Le",
+            "displaytitle": "<i>Le Bassin aux nymphéas, harmonie verte</i>",
+            "page_image_free": "Claude_Monet-Waterlilies.jpg",
+            "wikibase_item": "Q3220338"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:52Z",
+          "lastrevid": 234876750,
+          "length": 4489,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Bassin_aux_nymph%C3%A9as,_harmonie_verte",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Bassin_aux_nymph%C3%A9as,_harmonie_verte&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Bassin_aux_nymph%C3%A9as,_harmonie_verte"
+        },
+        {
+          "pageid": 5225484,
+          "ns": 0,
+          "title": "Le Déjeuner des canotiers",
+          "pageprops": {
+            "defaultsort": "Dejeuner des canotiers, Le",
+            "displaytitle": "<i>Le Déjeuner des canotiers</i>",
+            "page_image_free": "Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q1167907"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:27Z",
+          "lastrevid": 237519047,
+          "length": 10845,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_D%C3%A9jeuner_des_canotiers",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_D%C3%A9jeuner_des_canotiers&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_D%C3%A9jeuner_des_canotiers"
+        },
+        {
+          "pageid": 5245965,
+          "ns": 0,
+          "title": "La Petite Danseuse de quatorze ans",
+          "pageprops": {
+            "defaultsort": "Petite danseuse de quatorze ans, La",
+            "displaytitle": "<i>La Petite Danseuse de quatorze ans</i>",
+            "page_image_free": "Danseuse2_degas_Musee_Orsay.jpg",
+            "wikibase_item": "Q2734209"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:29Z",
+          "lastrevid": 237098502,
+          "length": 12609,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Petite_Danseuse_de_quatorze_ans",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Petite_Danseuse_de_quatorze_ans&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Petite_Danseuse_de_quatorze_ans"
+        },
+        {
+          "pageid": 5804698,
+          "ns": 0,
+          "title": "Les Meules",
+          "pageprops": {
+            "defaultsort": "Meules (Monet), Serie des",
+            "displaytitle": "<i>Les Meules</i>",
+            "page_image_free": "Wheatstacks_(End_of_Summer),_1890-91_(190_Kb);_Oil_on_canvas,_60_x_100_cm_(23_5-8_x_39_3-8_in),_The_Art_Institute_of_Chicago.jpg",
+            "wikibase_item": "Q557000"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:56:25Z",
+          "lastrevid": 238143926,
+          "length": 87349,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Meules",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Meules&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Meules"
+        },
+        {
+          "pageid": 6554138,
+          "ns": 0,
+          "title": "Les Coquelicots",
+          "pageprops": {
+            "defaultsort": "Coquelicots, Les",
+            "displaytitle": "<i>Les Coquelicots</i>",
+            "page_image_free": "Claude_Monet_-_Poppy_Field_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q3231771"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:40Z",
+          "lastrevid": 235355277,
+          "length": 7154,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Coquelicots",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Coquelicots&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Coquelicots"
+        },
+        {
+          "pageid": 6736219,
+          "ns": 0,
+          "title": "La Loge (Renoir)",
+          "pageprops": {
+            "defaultsort": "Loge, La",
+            "displaytitle": "<i>La Loge</i> (Renoir)",
+            "page_image_free": "La_Loge_Pierre-Auguste_Renoir_1874.jpg",
+            "wikibase_item": "Q74339"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:52Z",
+          "lastrevid": 240605365,
+          "length": 3242,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Loge_(Renoir)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Loge_(Renoir)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Loge_(Renoir)"
+        },
+        {
+          "pageid": 8273053,
+          "ns": 0,
+          "title": "La Classe de danse (Degas, Paris)",
+          "pageprops": {
+            "defaultsort": "Classe de danse",
+            "displaytitle": "<i>La Classe de danse</i> (Degas, Paris)",
+            "page_image_free": "Edgar_Degas_-_La_Classe_de_danse.jpg",
+            "wikibase_item": "Q3821820"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:41Z",
+          "lastrevid": 237097879,
+          "length": 4126,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Classe_de_danse_(Degas,_Paris)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Classe_de_danse_(Degas,_Paris)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Classe_de_danse_(Degas,_Paris)"
+        },
+        {
+          "pageid": 11450877,
+          "ns": 0,
+          "title": "Le Port de Saint-Tropez",
+          "pageprops": {
+            "defaultsort": "Port de Saint-Tropez",
+            "displaytitle": "<i>Le Port de Saint-Tropez</i>",
+            "page_image_free": "The_Port_of_Saint-Tropez_2_Albert_Marquet_(1905).jpg",
+            "wikibase_item": "Q47467040"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:03:07Z",
+          "lastrevid": 238022407,
+          "length": 939,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Port_de_Saint-Tropez",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Port_de_Saint-Tropez&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Port_de_Saint-Tropez"
+        },
+        {
+          "pageid": 13438315,
+          "ns": 0,
+          "title": "Le Bain de l'enfant",
+          "pageprops": {
+            "defaultsort": "Bain de l'enfant",
+            "displaytitle": "<i>Le Bain de l'enfant</i>",
+            "page_image_free": "Mary_Cassatt_-_The_Child's_Bath_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q3172226"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:05:44Z",
+          "lastrevid": 240611545,
+          "length": 4185,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Bain_de_l%27enfant",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Bain_de_l%27enfant&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Bain_de_l%27enfant"
+        },
+        {
+          "pageid": 13596243,
+          "ns": 0,
+          "title": "Nuit étoilée",
+          "pageprops": {
+            "defaultsort": "Nuit étoilée",
+            "disambiguation": "",
+            "displaytitle": "<i>Nuit étoilée</i>",
+            "page_image_free": "Nuit_étoilée.gif",
+            "wikibase_item": "Q13580227"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:05:56Z",
+          "lastrevid": 239436374,
+          "length": 2012,
+          "fullurl": "https://fr.wikipedia.org/wiki/Nuit_%C3%A9toil%C3%A9e",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Nuit_%C3%A9toil%C3%A9e&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Nuit_%C3%A9toil%C3%A9e"
+        },
+        {
+          "pageid": 15132248,
+          "ns": 0,
+          "title": "Jour d'été",
+          "pageprops": {
+            "displaytitle": "<i>Jour d'été</i>",
+            "page_image_free": "Berthe_Morisot_-_Jour_d'été,_1879.jpg",
+            "wikibase_item": "Q14942039"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:07:43Z",
+          "lastrevid": 240349824,
+          "length": 7374,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jour_d%27%C3%A9t%C3%A9",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jour_d%27%C3%A9t%C3%A9&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jour_d%27%C3%A9t%C3%A9"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "3ffabc91ea4834ce00b96c7d4fec864c97ed48e31e85fc743afa031f8dcca35f"
+}

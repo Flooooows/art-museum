@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Jour_d'%C3%A9t%C3%A9/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:22:14.183Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 220
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 205
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 207
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 201
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 189
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 303
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 195
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 209
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 174
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 121
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 82
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jour_d'été",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 140
+      }
+    ]
+  },
+  "payloadSha256": "da994a532d2ba1982e9793c6f8c9246cdc97c0ee73d69e931a0878a737da9b3b"
+}

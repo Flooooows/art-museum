@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Portrait_de_Baldassare_Castiglione/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:34:07.752Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 480
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 387
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 343
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 453
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 616
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 535
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 455
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 382
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 252
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 255
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 278
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Portrait_de_Baldassare_Castiglione",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 329
+      }
+    ]
+  },
+  "payloadSha256": "db9612195b3c4714e39efe23b29fd48cc54a699603f7766a6fa4a92ab1db634a"
+}

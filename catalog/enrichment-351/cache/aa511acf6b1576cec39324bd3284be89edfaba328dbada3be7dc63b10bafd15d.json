@@ -1,0 +1,98 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/261941",
+  "retrievedAt": "2026-10-30T01:46:39.250Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 261941,
+    "isHighlight": true,
+    "accessionNumber": "1976.646",
+    "accessionYear": "1976",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ph/original/DP223650.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ph/web-large/DP223650.jpg",
+    "additionalImages": [
+      "https://images.metmuseum.org/CRDImages/ph/original/DT1167.jpg"
+    ],
+    "constituents": [
+      {
+        "constituentID": 55136,
+        "role": "Artist",
+        "name": "Gustave Le Gray",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500000537",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q982549",
+        "gender": ""
+      }
+    ],
+    "department": "Photographs",
+    "objectName": "Photograph",
+    "title": "[The Great Wave, Sète]",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Gustave Le Gray",
+    "artistDisplayBio": "French, 1820–1884",
+    "artistSuffix": "",
+    "artistAlphaSort": "Le Gray, Gustave",
+    "artistNationality": "French",
+    "artistBeginDate": "1820",
+    "artistEndDate": "1884",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q982549",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500000537",
+    "objectDate": "1857",
+    "objectBeginDate": 1857,
+    "objectEndDate": 1857,
+    "medium": "Albumen silver print from glass negative",
+    "dimensions": "33.7 x 41.4 cm (13 1/4 x 16 5/16 in.)",
+    "measurements": [
+      {
+        "elementName": "Overall",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 33.7,
+          "Width": 41.4
+        }
+      }
+    ],
+    "creditLine": "Gift of John Goldsmith Phillips, 1976",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Photographs",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2026-09-03T04:58:55.723Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/261941",
+    "tags": [
+      {
+        "term": "Seascapes",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300117546",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q158607"
+      },
+      {
+        "term": "Waves",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300343616",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q165848"
+      }
+    ],
+    "objectWikidata_URL": "https://www.wikidata.org/wiki/Q3209564",
+    "isTimelineWork": true,
+    "GalleryNumber": "852"
+  },
+  "payloadSha256": "f37554dda67b299f01fa63b1369e9f4d341fb73ceeca336e249762bcdbdba9cb"
+}

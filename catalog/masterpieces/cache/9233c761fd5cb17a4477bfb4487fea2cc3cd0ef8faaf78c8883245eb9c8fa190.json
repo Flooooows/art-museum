@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Saint+George+Killing+the+Dragon+Martorell",
+  "retrievedAt": "2026-10-30T00:48:05.373Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 234.76558,
+        "id": 15468,
+        "title": "Saint George and the Dragon",
+        "main_reference_number": "1933.786",
+        "date_display": "1434–35",
+        "is_public_domain": true,
+        "artist_title": "Bernat Martorell",
+        "image_id": "8a0e4ac9-43ea-bc3e-884b-ee27f8a10501"
+      },
+      {
+        "_score": 179.06595,
+        "id": 3687,
+        "title": "St. George Killing the Dragon",
+        "main_reference_number": "1956.811",
+        "date_display": "15th century",
+        "is_public_domain": true,
+        "artist_title": "Master B with Two Crossed Daggers",
+        "image_id": "754066c0-cda2-d591-5dc7-a8c6ed97f0e5"
+      },
+      {
+        "_score": 145.78638,
+        "id": 4190,
+        "title": "St. George on Horseback, Killing the Dragon",
+        "main_reference_number": "1956.978",
+        "date_display": "n.d.",
+        "is_public_domain": true,
+        "artist_title": "Master Allaert Claesz",
+        "image_id": "9af25bf1-213d-e2f9-2b30-a1ebf13f277d"
+      },
+      {
+        "_score": 140.64679,
+        "id": 21394,
+        "title": "Saint George and the Dragon",
+        "main_reference_number": "1935.145",
+        "date_display": "1542",
+        "is_public_domain": true,
+        "artist_title": "Enea Vico",
+        "image_id": "f1aab371-ce5a-dae4-a7c4-6330fba69c0f"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "03d537c7d607089a1886b3c1b4b1610eeae51715e3b88a2ea2997802f3460e16"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Vue_de_Tol%C3%A8de/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:37:10.474Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 309
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 345
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 332
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 271
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 262
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 330
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 257
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 316
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 274
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 168
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 209
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Vue_de_Tolède",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 267
+      }
+    ]
+  },
+  "payloadSha256": "a1c75ed26b7de2d71798bc0942a11c7570f49360cdbebfd9f50919c5681710f3"
+}

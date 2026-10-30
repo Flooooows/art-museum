@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Olympia_(Manet)/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:45:09.024Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12905
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12243
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10972
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12753
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 11675
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15242
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13503
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12715
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9974
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10372
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10860
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Olympia_(Manet)",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10835
+      }
+    ]
+  },
+  "payloadSha256": "eab565fe72d293e9e095955e35b6edc72f02ec4a3106c223e9362143f52e98ec"
+}

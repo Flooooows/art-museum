@@ -1,0 +1,600 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Autoportrait+%C3%A0+l%27oreille+band%C3%A9e%7CChamp+de+bl%C3%A9+avec+cypr%C3%A8s%7CLes+Mangeurs+de+pommes+de+terre%7CAmandier+en+fleurs%7CLe+Caf%C3%A9+de+nuit%7CLes+Joueurs+de+cartes%7CMontagne+Sainte-Victoire+%28C%C3%A9zanne%29%7CLes+Grandes+Baigneuses+%28C%C3%A9zanne%29%7CNature+morte+avec+pommes+et+oranges%7CD%27o%C3%B9+venons-nous+%3F+Que+sommes-nous+%3F+O%C3%B9+allons-nous+%3F%7CLe+Christ+jaune%7CFemmes+de+Tahiti%7CAu+Moulin-Rouge%7CMoulin-Rouge+-+La+Goulue%7CLa+Boh%C3%A9mienne+endormie%7CLe+R%C3%AAve+%28Rousseau%29%7CLe+Lion+ayant+faim+se+jette+sur+l%27antilope%7CRue+de+Paris%2C+temps+de+pluie%7CLes+Raboteurs+de+parquet%7CLe+Cri%7CMadone+%28Munch%29%7CLa+Danse+de+la+vie%7CLe+Baiser+%28Klimt%29%7CPortrait+d%27Ad%C3%A8le+Bloch-Bauer+I%7CJudith+et+Holopherne+%28Klimt%29%7CL%27Arbre+de+vie%7CLa+Mort+et+la+Jeune+Fille%7CAutoportrait+%C3%A0+la+lanterne+chinoise%7CLa+Danse+%28Matisse%29%7CLa+Musique+%28Matisse%29",
+  "retrievedAt": "2026-10-30T01:42:24.811Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "L'Arbre de vie",
+          "to": "Arbre de vie (homonymie)"
+        },
+        {
+          "from": "La Danse (Matisse)",
+          "to": "La Danse"
+        },
+        {
+          "from": "La Musique (Matisse)",
+          "to": "La Musique"
+        },
+        {
+          "from": "Les Raboteurs de parquet",
+          "to": "Raboteurs de parquet"
+        },
+        {
+          "from": "Les Grandes Baigneuses (Cézanne)",
+          "to": "Les Grandes Baigneuses"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Autoportrait à la lanterne chinoise",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Autoportrait_%C3%A0_la_lanterne_chinoise",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Autoportrait_%C3%A0_la_lanterne_chinoise&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Autoportrait_%C3%A0_la_lanterne_chinoise"
+        },
+        {
+          "ns": 0,
+          "title": "La Mort et la Jeune Fille",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Mort_et_la_Jeune_Fille",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Mort_et_la_Jeune_Fille&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Mort_et_la_Jeune_Fille"
+        },
+        {
+          "ns": 0,
+          "title": "Portrait d'Adèle Bloch-Bauer I",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Portrait_d%27Ad%C3%A8le_Bloch-Bauer_I",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Portrait_d%27Ad%C3%A8le_Bloch-Bauer_I&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Portrait_d%27Ad%C3%A8le_Bloch-Bauer_I"
+        },
+        {
+          "ns": 0,
+          "title": "Madone (Munch)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Madone_(Munch)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Madone_(Munch)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Madone_(Munch)"
+        },
+        {
+          "ns": 0,
+          "title": "Le Lion ayant faim se jette sur l'antilope",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Lion_ayant_faim_se_jette_sur_l%27antilope",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Lion_ayant_faim_se_jette_sur_l%27antilope&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Lion_ayant_faim_se_jette_sur_l%27antilope"
+        },
+        {
+          "ns": 0,
+          "title": "Nature morte avec pommes et oranges",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Nature_morte_avec_pommes_et_oranges",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Nature_morte_avec_pommes_et_oranges&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Nature_morte_avec_pommes_et_oranges"
+        },
+        {
+          "pageid": 109929,
+          "ns": 0,
+          "title": "Le Cri",
+          "pageprops": {
+            "defaultsort": "Cri, Le",
+            "displaytitle": "<i>Le Cri</i>",
+            "page_image_free": "Edvard_Munch_-_The_Scream.jpg",
+            "wikibase_item": "Q471379"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:02Z",
+          "lastrevid": 240306410,
+          "length": 26712,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Cri",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Cri&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Cri"
+        },
+        {
+          "pageid": 491623,
+          "ns": 0,
+          "title": "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?",
+          "pageprops": {
+            "defaultsort": "Dou venons-nous",
+            "displaytitle": "<i>D'où venons-nous ? Que sommes-nous ? Où allons-nous ?</i>",
+            "page_image_free": "Gauguin_-_Where_Do_We_Come_From?_What_Are_We?_Where_Are_We_Going?_(1897-98).jpg",
+            "wikibase_item": "Q890678"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:02Z",
+          "lastrevid": 240550594,
+          "length": 10876,
+          "fullurl": "https://fr.wikipedia.org/wiki/D%27o%C3%B9_venons-nous_%3F_Que_sommes-nous_%3F_O%C3%B9_allons-nous_%3F",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=D%27o%C3%B9_venons-nous_%3F_Que_sommes-nous_%3F_O%C3%B9_allons-nous_%3F&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/D%27o%C3%B9_venons-nous_%3F_Que_sommes-nous_%3F_O%C3%B9_allons-nous_%3F"
+        },
+        {
+          "pageid": 639500,
+          "ns": 0,
+          "title": "Moulin-Rouge - La Goulue",
+          "pageprops": {
+            "displaytitle": "<i>Moulin-Rouge - La Goulue</i>",
+            "page_image_free": "Henri_de_Toulouse-Lautrec_049.jpg",
+            "wikibase_item": "Q17026577"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:21Z",
+          "lastrevid": 235908260,
+          "length": 18165,
+          "fullurl": "https://fr.wikipedia.org/wiki/Moulin-Rouge_-_La_Goulue",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Moulin-Rouge_-_La_Goulue&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Moulin-Rouge_-_La_Goulue"
+        },
+        {
+          "pageid": 1443685,
+          "ns": 0,
+          "title": "Les Mangeurs de pommes de terre",
+          "pageprops": {
+            "defaultsort": "Mangeurs de pommes de terre, les",
+            "displaytitle": "<i>Les Mangeurs de pommes de terre</i>",
+            "page_image_free": "De_aardappeleters_-_s0005V1962_-_Van_Gogh_Museum.jpg",
+            "wikibase_item": "Q154469"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:17Z",
+          "lastrevid": 237507641,
+          "length": 26583,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Mangeurs_de_pommes_de_terre",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Mangeurs_de_pommes_de_terre&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Mangeurs_de_pommes_de_terre"
+        },
+        {
+          "pageid": 2022856,
+          "ns": 0,
+          "title": "Le Café de nuit",
+          "pageprops": {
+            "defaultsort": "Cafe de nuit, Le",
+            "displaytitle": "<i>Le Café de nuit</i>",
+            "page_image_free": "Van_Gogh_-_The_Night_Café_(1888).jpg",
+            "wikibase_item": "Q674846"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-30T01:19:56Z",
+          "lastrevid": 240843993,
+          "length": 8299,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Caf%C3%A9_de_nuit",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Caf%C3%A9_de_nuit&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Caf%C3%A9_de_nuit"
+        },
+        {
+          "pageid": 2659576,
+          "ns": 0,
+          "title": "Amandier en fleurs",
+          "pageprops": {
+            "displaytitle": "<i>Amandier en fleurs</i>",
+            "page_image_free": "Vincent_van_Gogh_-_Almond_blossom_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q1432536"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:21Z",
+          "lastrevid": 233851623,
+          "length": 9833,
+          "fullurl": "https://fr.wikipedia.org/wiki/Amandier_en_fleurs",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Amandier_en_fleurs&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Amandier_en_fleurs"
+        },
+        {
+          "pageid": 3946960,
+          "ns": 0,
+          "title": "Le Rêve (Rousseau)",
+          "pageprops": {
+            "defaultsort": "Rêve",
+            "displaytitle": "<i>Le Rêve</i> (Rousseau)",
+            "page_image_free": "WLA_moma_Henri_Rousseau_The_Dream.jpg",
+            "wikibase_item": "Q548141"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:53:18Z",
+          "lastrevid": 235482694,
+          "length": 3552,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_R%C3%AAve_(Rousseau)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_R%C3%AAve_(Rousseau)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_R%C3%AAve_(Rousseau)"
+        },
+        {
+          "pageid": 4025661,
+          "ns": 0,
+          "title": "La Danse",
+          "pageprops": {
+            "defaultsort": "Danse",
+            "disambiguation": "",
+            "displaytitle": "<i>La Danse</i>",
+            "wikibase_item": "Q3208127"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:26:58Z",
+          "lastrevid": 215240252,
+          "length": 735,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Danse",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Danse&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Danse"
+        },
+        {
+          "pageid": 4592737,
+          "ns": 0,
+          "title": "La Bohémienne endormie",
+          "pageprops": {
+            "defaultsort": "Bohemienne endormie, La",
+            "displaytitle": "<i>La Bohémienne endormie</i>",
+            "page_image_free": "La_Bohémienne_endormie.jpg",
+            "wikibase_item": "Q1219263"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:16Z",
+          "lastrevid": 240181811,
+          "length": 5975,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Boh%C3%A9mienne_endormie",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Boh%C3%A9mienne_endormie&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Boh%C3%A9mienne_endormie"
+        },
+        {
+          "pageid": 4817553,
+          "ns": 0,
+          "title": "Arbre de vie (homonymie)",
+          "pageprops": {
+            "disambiguation": "",
+            "wikibase_item": "Q1578069"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-04T14:03:52Z",
+          "lastrevid": 234053350,
+          "length": 2024,
+          "fullurl": "https://fr.wikipedia.org/wiki/Arbre_de_vie_(homonymie)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Arbre_de_vie_(homonymie)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Arbre_de_vie_(homonymie)"
+        },
+        {
+          "pageid": 5233723,
+          "ns": 0,
+          "title": "Femmes de Tahiti",
+          "pageprops": {
+            "displaytitle": "<i>Femmes de Tahiti</i>",
+            "page_image_free": "Paul_Gauguin_056.jpg",
+            "wikibase_item": "Q930535"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:28Z",
+          "lastrevid": 205256186,
+          "length": 4024,
+          "fullurl": "https://fr.wikipedia.org/wiki/Femmes_de_Tahiti",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Femmes_de_Tahiti&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Femmes_de_Tahiti"
+        },
+        {
+          "pageid": 5240554,
+          "ns": 0,
+          "title": "Raboteurs de parquet",
+          "pageprops": {
+            "defaultsort": "Raboteurs de parquet, Les",
+            "displaytitle": "<i>Raboteurs de parquet</i>",
+            "page_image_free": "Gustave_Caillebotte_-_The_Floor_Planers_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q1766454"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:28Z",
+          "lastrevid": 239373367,
+          "length": 10431,
+          "fullurl": "https://fr.wikipedia.org/wiki/Raboteurs_de_parquet",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Raboteurs_de_parquet&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Raboteurs_de_parquet"
+        },
+        {
+          "pageid": 5249159,
+          "ns": 0,
+          "title": "Rue de Paris, temps de pluie",
+          "pageprops": {
+            "displaytitle": "<i>Rue de Paris, temps de pluie</i>",
+            "page_image_free": "Caillebotte_Rue_de_Paris.jpg",
+            "wikibase_item": "Q1452762"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:29Z",
+          "lastrevid": 236427603,
+          "length": 10873,
+          "fullurl": "https://fr.wikipedia.org/wiki/Rue_de_Paris,_temps_de_pluie",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Rue_de_Paris,_temps_de_pluie&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Rue_de_Paris,_temps_de_pluie"
+        },
+        {
+          "pageid": 5250452,
+          "ns": 0,
+          "title": "Le Baiser (Klimt)",
+          "pageprops": {
+            "defaultsort": "Baiser, Le",
+            "displaytitle": "<i>Le Baiser</i> (Klimt)",
+            "page_image_free": "The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+            "wikibase_item": "Q698487"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:29Z",
+          "lastrevid": 238148882,
+          "length": 9685,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Baiser_(Klimt)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Baiser_(Klimt)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Baiser_(Klimt)"
+        },
+        {
+          "pageid": 5633374,
+          "ns": 0,
+          "title": "Champ de blé avec cyprès",
+          "pageprops": {
+            "displaytitle": "<i>Champ de blé avec cyprès</i>",
+            "page_image_free": "Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_(National_Gallery_version).jpg",
+            "wikibase_item": "Q2271805"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:56:09Z",
+          "lastrevid": 232924582,
+          "length": 3031,
+          "fullurl": "https://fr.wikipedia.org/wiki/Champ_de_bl%C3%A9_avec_cypr%C3%A8s",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Champ_de_bl%C3%A9_avec_cypr%C3%A8s&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Champ_de_bl%C3%A9_avec_cypr%C3%A8s"
+        },
+        {
+          "pageid": 6355394,
+          "ns": 0,
+          "title": "Montagne Sainte-Victoire (Cézanne)",
+          "pageprops": {
+            "defaultsort": "Montagne Sainte-Victoire Cezanne",
+            "wikibase_item": "Q3494409"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:20Z",
+          "lastrevid": 229369055,
+          "length": 7777,
+          "fullurl": "https://fr.wikipedia.org/wiki/Montagne_Sainte-Victoire_(C%C3%A9zanne)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Montagne_Sainte-Victoire_(C%C3%A9zanne)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Montagne_Sainte-Victoire_(C%C3%A9zanne)"
+        },
+        {
+          "pageid": 6362660,
+          "ns": 0,
+          "title": "Judith et Holopherne (Klimt)",
+          "pageprops": {
+            "defaultsort": "Judith Holopherne",
+            "displaytitle": "<i>Judith et Holopherne</i> (Klimt)",
+            "page_image_free": "Gustav_Klimt_039.jpg",
+            "wikibase_item": "Q2324643"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:20Z",
+          "lastrevid": 232696493,
+          "length": 11869,
+          "fullurl": "https://fr.wikipedia.org/wiki/Judith_et_Holopherne_(Klimt)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Judith_et_Holopherne_(Klimt)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Judith_et_Holopherne_(Klimt)"
+        },
+        {
+          "pageid": 6362722,
+          "ns": 0,
+          "title": "Les Grandes Baigneuses",
+          "pageprops": {
+            "defaultsort": "Grandes baigneuses",
+            "disambiguation": "",
+            "displaytitle": "<i>Les Grandes Baigneuses</i>",
+            "wikibase_item": "Q3233013"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-09-11T11:27:10Z",
+          "lastrevid": 234379793,
+          "length": 496,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Grandes_Baigneuses",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Grandes_Baigneuses&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Grandes_Baigneuses"
+        },
+        {
+          "pageid": 6364644,
+          "ns": 0,
+          "title": "La Danse de la vie",
+          "pageprops": {
+            "defaultsort": "Danse de la vie",
+            "displaytitle": "<i>La Danse de la vie</i>",
+            "page_image_free": "Edvard_Munch_-_The_dance_of_life_(1899-1900).jpg",
+            "wikibase_item": "Q3208135"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:20Z",
+          "lastrevid": 235292148,
+          "length": 7913,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Danse_de_la_vie",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Danse_de_la_vie&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Danse_de_la_vie"
+        },
+        {
+          "pageid": 6773289,
+          "ns": 0,
+          "title": "Le Christ jaune",
+          "pageprops": {
+            "defaultsort": "Christ jaune",
+            "displaytitle": "<i>Le Christ jaune</i>",
+            "page_image_free": "Paul_Gauguin_-_The_Yellow_Christ_(Le_Christ_jaune)_1889.jpg",
+            "wikibase_item": "Q500951"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:57:56Z",
+          "lastrevid": 240527445,
+          "length": 2243,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Christ_jaune",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Christ_jaune&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Christ_jaune"
+        },
+        {
+          "pageid": 7809978,
+          "ns": 0,
+          "title": "Les Joueurs de cartes",
+          "pageprops": {
+            "defaultsort": "Joueurs de carte, les",
+            "disambiguation": "",
+            "wikibase_item": "Q16060517"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:14Z",
+          "lastrevid": 191598222,
+          "length": 683,
+          "fullurl": "https://fr.wikipedia.org/wiki/Les_Joueurs_de_cartes",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Les_Joueurs_de_cartes&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Les_Joueurs_de_cartes"
+        },
+        {
+          "pageid": 8269840,
+          "ns": 0,
+          "title": "Au Moulin-Rouge",
+          "pageprops": {
+            "displaytitle": "<i>Au Moulin-Rouge</i>",
+            "page_image_free": "Lautrec_at_the_moulin_rouge_1892.jpg",
+            "wikibase_item": "Q3607521"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:59:41Z",
+          "lastrevid": 228084051,
+          "length": 14050,
+          "fullurl": "https://fr.wikipedia.org/wiki/Au_Moulin-Rouge",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Au_Moulin-Rouge&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Au_Moulin-Rouge"
+        },
+        {
+          "pageid": 9329549,
+          "ns": 0,
+          "title": "La Musique",
+          "pageprops": {
+            "defaultsort": "Musique, La",
+            "disambiguation": "",
+            "wikibase_item": "Q26693535"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-08-14T11:21:47Z",
+          "lastrevid": 230093900,
+          "length": 1150,
+          "fullurl": "https://fr.wikipedia.org/wiki/La_Musique",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=La_Musique&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/La_Musique"
+        },
+        {
+          "pageid": 14996870,
+          "ns": 0,
+          "title": "Autoportrait à l'oreille bandée",
+          "pageprops": {
+            "displaytitle": "<i>Autoportrait à l'oreille bandée</i>",
+            "page_image_free": "Self-Portrait_with_a_Bandaged_Ear_-_Vincent_van_Gogh.jpg",
+            "wikibase_item": "Q19363211"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:07:31Z",
+          "lastrevid": 240056941,
+          "length": 4787,
+          "fullurl": "https://fr.wikipedia.org/wiki/Autoportrait_%C3%A0_l%27oreille_band%C3%A9e",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Autoportrait_%C3%A0_l%27oreille_band%C3%A9e&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Autoportrait_%C3%A0_l%27oreille_band%C3%A9e"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "901c7fb55b5c1739e480be27d5d4d6d463d9da68a9c73cc1fe48545cb5f39de8"
+}

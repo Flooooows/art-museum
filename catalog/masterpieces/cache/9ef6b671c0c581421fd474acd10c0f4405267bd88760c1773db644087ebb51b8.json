@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=The+Poet%27s+Garden+Van+Gogh",
+  "retrievedAt": "2026-10-30T00:48:13.001Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 216.76968,
+        "id": 28560,
+        "title": "The Bedroom",
+        "main_reference_number": "1926.417",
+        "date_display": "1889",
+        "is_public_domain": true,
+        "artist_title": "Vincent van Gogh",
+        "image_id": "6644829f-f292-c5c4-a73c-0356a6fdbf0d"
+      },
+      {
+        "_score": 208.77026,
+        "id": 80607,
+        "title": "Self-Portrait",
+        "main_reference_number": "1954.326",
+        "date_display": "1887",
+        "is_public_domain": true,
+        "artist_title": "Vincent van Gogh",
+        "image_id": "47c5bcb8-62ef-e5d7-55e7-f5121f409a30"
+      },
+      {
+        "_score": 197.34258,
+        "id": 14586,
+        "title": "The Poet's Garden",
+        "main_reference_number": "1933.433",
+        "date_display": "1888",
+        "is_public_domain": true,
+        "artist_title": "Vincent van Gogh",
+        "image_id": "fa5aaa98-8095-07d6-3b7d-3dfccc518191"
+      },
+      {
+        "_score": 178.81378,
+        "id": 28862,
+        "title": "A Peasant Woman Digging in Front of Her Cottage",
+        "main_reference_number": "1968.92",
+        "date_display": "c. 1885",
+        "is_public_domain": true,
+        "artist_title": "Vincent van Gogh",
+        "image_id": "1d3a275d-45dd-6026-b6ed-d7d8df417a3d"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "663aab00296b19c3fda8226aac9d9887a3decf84431774d3f7a22c739336c3d1"
+}

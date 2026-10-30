@@ -1,0 +1,1641 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3AMona+Lisa%2C+by+Leonardo+da+Vinci%2C+from+C2RMF+retouched.jpg%7CFile%3ALeonardo+da+Vinci+%281452-1519%29+-+The+Last+Supper+%281495-1498%29.jpg%7CFile%3ALady+with+an+Ermine+-+Leonardo+da+Vinci+-+Google+Art+Project.jpg%7CFile%3ALeonardo+Da+Vinci+-+Vergine+delle+Rocce+%28Louvre%29.jpg%7CFile%3ALa+Belle+Ferroni%C3%A8re+-+Google+Arts.jpg%7CFile%3AAccademia+-+St+John+the+Baptist+by+Titian+Cat314.jpg%7CFile%3AMeister+von+Gracanica+%28I%29+001.jpg%7CFile%3AAnnunciation+%28Leonardo%29+%28cropped%29.jpg%7CFile%3ABotticelli+-+Venus+and+Mars2.jpeg%7CFile%3AThe+Creation+of+Adam+perspective+fix.jpg%7CFile%3AAltarraum+mit+J%C3%BCngstem+Gericht.jpg%7CFile%3ALast+Judgement+%28Michelangelo%29.jpg%7CFile%3AMichelangelo%27s+Pieta+5450+cropncleaned+edit.jpg%7CFile%3AThe+Piet%C3%A0+by+Michelangelo+%2848135182552%29.jpg%7CFile%3A%27David%27+by+Michelangelo+Fir+JBU004.jpg",
+  "retrievedAt": "2026-10-30T01:46:09.747Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 24759,
+          "ns": 6,
+          "title": "File:Leonardo da Vinci (1452-1519) - The Last Supper (1495-1498).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 23766563,
+              "width": 5076,
+              "height": 2645,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/1920px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 834,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/3840px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/1920px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 834,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/3840px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=24759",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-07-28 07:13:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">The Last Supper\n<div style=\"display: none;\">label QS:Les,\"La Última Cena\"</div>\n<div style=\"display: none;\">label QS:Lhu,\"Az utolsó vacsora\"</div>\n<div style=\"display: none;\">label QS:Lel,\"Ο Μυστικός Δείπνος\"</div>\n<div style=\"display: none;\">label QS:Lit,\"L’ultima cena\"</div>\n<div style=\"display: none;\">label QS:Lru,\"Тайная вечеря\"</div>\n<div style=\"display: none;\">label QS:Lvi,\"Bữa tối cuối cùng\"</div>\n<div style=\"display: none;\">label QS:Lde,\"Das letzte Abendmahl\"</div>\n<div style=\"display: none;\">label QS:Lpt,\"A Última Ceia\"</div>\n<div style=\"display: none;\">label QS:Luk,\"Таємна вечеря\"</div>\n<div style=\"display: none;\">label QS:Lhy,\"Խորհրդավոր ընթրիք\"</div>\n<div style=\"display: none;\">label QS:Lnl,\"Het laatste avondmaal\"</div>\n<div style=\"display: none;\">label QS:Lda,\"Den sidste nadver\"</div>\n<div style=\"display: none;\">label QS:Lro,\"Cina cea de taină\"</div>\n<div style=\"display: none;\">label QS:Lja,\"最後の晩餐\"</div>\n<div style=\"display: none;\">label QS:Lsu,\"Viimeinen ehtoollinen\"</div>\n<div style=\"display: none;\">label QS:Lsl,\"Zadnja večerja\"</div>\n<div style=\"display: none;\">label QS:Lsv,\"Nattvarden\"</div>\n<div style=\"display: none;\">label QS:Lpl,\"Ostatnia Wieczerza\"</div>\n<div style=\"display: none;\">label QS:Lhe,\"הסעודה האחרונה\"</div>\n<div style=\"display: none;\">label QS:Lla,\"Cena Novissima\"</div>\n<div style=\"display: none;\">label QS:Lfr,\"La Cène\"</div>\n<div style=\"display: none;\">label QS:Lmk,\"Тајната вечера\"</div>\n<div style=\"display: none;\">label QS:Lko,\"최후의 만찬\"</div>\n<div style=\"display: none;\">label QS:Len,\"The Last Supper\"</div>\n<div style=\"display: none;\">label QS:Lar,\"العشاء الأخير\"</div>\n<div style=\"display: none;\">label QS:Lcs,\"Poslední večeře\"</div>\n<div style=\"display: none;\">label QS:Leo,\"La Lasta Vespermanĝo\"</div></div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Last Supper by Leonardo da Vinci|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Images with extracted images|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|CC-PD-Mark|Artworks digital representation of unknown type of work|Files with Assessments template missing SDC Commons no value quality assessment|Artworks with digital representation of different depicts|Template Unknown (source)|Artworks digital representation of both 2D and 3D work|Featured pictures on Wikipedia, Arabic",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "45.466667",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "9.170833",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://en.wikipedia.org/wiki/en:Last_Supper\" class=\"extiw\" title=\"w:en:Last Supper\"><span title=\"episode in the Christian gospels\">Last Supper</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q128910#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "from 1495 until 1498<div style=\"display: none;\">date QS:P571,+1495-00-00T00:00:00Z/8,P580,+1495-00-00T00:00:00Z/9,P582,+1498-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Unknown source<span style=\"display: none;\">Unknown source</span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 155391,
+          "ns": 6,
+          "title": "File:Meister von Gracanica (I) 001.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 441678,
+              "width": 2024,
+              "height": 2415,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Meister_von_Gracanica_%28I%29_001.jpg/1920px-Meister_von_Gracanica_%28I%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1909,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/3/38/Meister_von_Gracanica_%28I%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Meister_von_Gracanica_%28I%29_001.jpg/1920px-Meister_von_Gracanica_%28I%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1909,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/38/Meister_von_Gracanica_%28I%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Meister_von_Gracanica_%28I%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Meister_von_Gracanica_(I)_001.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=155391",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2005-05-20 05:35:34",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Fresken in der Kirche von Gracanica, Szene: Hl. Johannes der Täufer",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-Art (Yorck Project)|Paintings without Wikidata item|Yorck Project paintings missing SDC digital representation of|Frescos in the Gračanica Monastery|John the Baptist in melote|Orthodox frescos of John the Baptist",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<div class=\"fn value\">\nMeister von Gracanica (I)</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1235<div style=\"display: none;\">date QS:P571,+1235-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<cite class=\"book\" style=\"font-style:normal\">The Yorck Project (2002)      <i> 10.000 Meisterwerke der Malerei</i> (DVD-ROM), distributed by <a href=\"//commons.wikimedia.org/wiki/Commons:10,000_paintings_from_Directmedia\" title=\"Commons:10,000 paintings from Directmedia\">DIRECTMEDIA</a> Publishing GmbH.  <small><span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/ISBN\" class=\"extiw\" title=\"en:ISBN\"><span lang=\"en\" dir=\"ltr\">ISBN</span></a></span>:  <a href=\"//commons.wikimedia.org/wiki/Special:BookSources/3936122202\" title=\"Special:BookSources/3936122202\">3936122202</a>. </small></cite>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<a class=\"external autonumber\" data-mw-original-href=\"http://mail.wikipedia.org/pipermail/wikide-l/2005-April/012195.html\" href=\"https://mail.wikipedia.org/pipermail/wikide-l/2005-April/012195.html\">[1]</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 3653602,
+          "ns": 6,
+          "title": "File:Michelangelo's Pieta 5450 cropncleaned edit.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 642603,
+              "width": 1584,
+              "height": 1660,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1677,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1677
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3653602",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-09-24 13:44:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Michelangelo's Pieta 5450 cropncleaned edit",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Featured pictures of the Vatican City|GFDL|Retouched pictures|License migration redundant|Self-published work|Featured pictures on Wikipedia, English|Artworks with Wikidata item|Featured pictures on Wikipedia, Azeri|Featured pictures on Wikipedia, Croatian|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Vietnamese|Pietà of the Saint Peter's Basilica by Michelangelo Buonarroti|Featured pictures of Christian statues|Artworks main subject type unknown type of work|Artworks main subject 3D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.902222",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.453333",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Pietà (1498–1499), by Michaelangelo. St. Peter's Basilica, Vatican City <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Edited version of (cloned object out of background) <a href=\"//commons.wikimedia.org/wiki/File:Michelangelo%27s_Pieta_5450_cropncleaned.jpg\" title=\"File:Michelangelo's Pieta 5450 cropncleaned.jpg\">Image:Michelangelo's Pieta 5450 cropncleaned.jpg</a>)",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Glimz\" title=\"User:Glimz\">Stanislav Traykov</a>",
+                  "source": "commons-desc-page"
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.5",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.5",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.5",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.5",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 15442524,
+          "ns": 6,
+          "title": "File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 94310471,
+              "width": 7479,
+              "height": 11146,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1920px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2384,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1920px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2384,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15442524",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-08-18 17:33:23",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Polish:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"pl\"><i>Mona Lisa <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q12418#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Mona Lisa</i></div></div><div style=\"display: none;\">title QS:P1476,pl:\"Mona Lisa <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q12418#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lpl,\"Mona Lisa <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q12418#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lrsk,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lszl,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lis,\"Móna Lísa\"</div><div style=\"display: none;\">label QS:Lks,\"مونا لیزا\"</div><div style=\"display: none;\">label QS:Lms,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lps,\"مونالیزا\"</div><div style=\"display: none;\">label QS:Ltr,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lur,\"مونا لیزہ\"</div><div style=\"display: none;\">label QS:Lsk,\"Mona Líza\"</div><div style=\"display: none;\">label QS:Luk,\"Мона Ліза\"</div><div style=\"display: none;\">label QS:Lzh-cn,\"蒙娜丽莎\"</div><div style=\"display: none;\">label QS:Luz,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Las,\"মনালিছা\"</div><div style=\"display: none;\">label QS:Lmk,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lbs,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lfr,\"La Joconde\"</div><div style=\"display: none;\">label QS:Lhr,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lcbk-zam,\"Monalisa\"</div><div style=\"display: none;\">label QS:Lmr,\"मोनालिसा\"</div><div style=\"display: none;\">label QS:Lglk,\"ژؤکؤند\"</div><div style=\"display: none;\">label QS:Lor,\"ମୋନା ଲିସା\"</div><div style=\"display: none;\">label QS:Lsr,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lzu,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Llb,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lnb,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Laz,\"Mona Liza\"</div><div style=\"display: none;\">label QS:Lhif,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lgor,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lar,\"موناليزا\"</div><div style=\"display: none;\">label QS:Lbr,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lmy,\"မိုနာလီဆာ\"</div><div style=\"display: none;\">label QS:Lyue,\"蒙娜麗莎\"</div><div style=\"display: none;\">label QS:Last,\"La Gioconda\"</div><div style=\"display: none;\">label QS:Lca,\"La Gioconda\"</div><div style=\"display: none;\">label QS:Lba,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lcy,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lga,\"An Mona Lisa\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lzh,\"蒙娜丽莎\"</div><div style=\"display: none;\">label QS:Lda,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lka,\"მონა ლიზა\"</div><div style=\"display: none;\">label QS:Lja,\"モナ・リザ\"</div><div style=\"display: none;\">label QS:Lha,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Larz,\"موناليزا\"</div><div style=\"display: none;\">label QS:Lsi,\"මොනාලිසා\"</div><div style=\"display: none;\">label QS:Lla,\"Iucunda\"</div><div style=\"display: none;\">label QS:Lhi,\"मॉना लिसा\"</div><div style=\"display: none;\">label QS:Lwuu,\"蒙娜丽莎\"</div><div style=\"display: none;\">label QS:Lpa,\"ਮੋਨਾ ਲੀਜ਼ਾ\"</div><div style=\"display: none;\">label QS:Lhyw,\"Լիզա տէլ Ճոքոնտօ\"</div><div style=\"display: none;\">label QS:Lli,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lta,\"மோனா லிசா\"</div><div style=\"display: none;\">label QS:Lbe-tarask,\"Мона Ліза\"</div><div style=\"display: none;\">label QS:Lscn,\"Gioconda\"</div><div style=\"display: none;\">label QS:Lth,\"โมนาลิซา\"</div><div style=\"display: none;\">label QS:Lsh,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lrue,\"Мона Ліза\"</div><div style=\"display: none;\">label QS:Lvec,\"Ła Joconda\"</div><div style=\"display: none;\">label QS:Lrki,\"မိုနာလီဆာ\"</div><div style=\"display: none;\">label QS:Lco,\"Giuconda\"</div><div style=\"display: none;\">label QS:Lbcl,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lpcm,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lro,\"Gioconda\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"蒙娜麗莎\"</div><div style=\"display: none;\">label QS:Lso,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lsv,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lig,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"蒙娜麗莎\"</div><div style=\"display: none;\">label QS:Llo,\"ລາໂຊກົງ\"</div><div style=\"display: none;\">label QS:Lko,\"모나리자\"</div><div style=\"display: none;\">label QS:Lfo,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Leo,\"La Gioconda\"</div><div style=\"display: none;\">label QS:Lan,\"A Gioconda\"</div><div style=\"display: none;\">label QS:Lbn,\"মোনা লিসা\"</div><div style=\"display: none;\">label QS:Ljv,\"Monalisa\"</div><div style=\"display: none;\">label QS:Lcv,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lgcr,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lyi,\"מאנא ליסע\"</div><div style=\"display: none;\">label QS:Lvi,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Llv,\"Mona Liza\"</div><div style=\"display: none;\">label QS:Lilo,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lsco,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lmn,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lnan,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lkn,\"ಮೋನ ಲೀಸ\"</div><div style=\"display: none;\">label QS:Lckb,\"مۆنالیزا\"</div><div style=\"display: none;\">label QS:Len,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lhu,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lam,\"ሞና ሊዛ\"</div><div style=\"display: none;\">label QS:Lbo,\"མོ་ན་ལི་ས།\"</div><div style=\"display: none;\">label QS:Leu,\"Gioconda\"</div><div style=\"display: none;\">label QS:Lel,\"Μόνα Λίζα\"</div><div style=\"display: none;\">label QS:Lfrr,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lru,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lszy,\"Mong-na-li-sa\"</div><div style=\"display: none;\">label QS:Lmai,\"मोना लिजा\"</div><div style=\"display: none;\">label QS:Lzh-sg,\"蒙娜丽莎\"</div><div style=\"display: none;\">label QS:Lbe,\"Мона Ліза\"</div><div style=\"display: none;\">label QS:Lhy,\"Մոնա Լիզա\"</div><div style=\"display: none;\">label QS:Laf,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lku,\"Mona Lîza\"</div><div style=\"display: none;\">label QS:Lne,\"मोना लिजा\"</div><div style=\"display: none;\">label QS:Lzh-my,\"蒙娜丽莎\"</div><div style=\"display: none;\">label QS:Lnl,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lwar,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lie,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lhe,\"מונה ליזה\"</div><div style=\"display: none;\">label QS:Ltt,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lkab,\"Monna Liza\"</div><div style=\"display: none;\">label QS:Lkm,\"ម៉ូណាលីសា\"</div><div style=\"display: none;\">label QS:Lte,\"మోనాలిసా\"</div><div style=\"display: none;\">label QS:Lpnb,\"مونا لیزا\"</div><div style=\"display: none;\">label QS:Lkaa,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lfa,\"مونالیزا\"</div><div style=\"display: none;\">label QS:Lbg,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lit,\"La Gioconda\"</div><div style=\"display: none;\">label QS:Lksh,\"Mona Lisa (Beld)\"</div><div style=\"display: none;\">label QS:Loc,\"La Joconda\"</div><div style=\"display: none;\">label QS:Lht,\"La Joconde\"</div><div style=\"display: none;\">label QS:Lzh-mo,\"蒙娜麗莎\"</div><div style=\"display: none;\">label QS:Lid,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lpt,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lnn,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lsu,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Les,\"La Gioconda\"</div><div style=\"display: none;\">label QS:Lkk,\"Мона Лиза\"</div><div style=\"display: none;\">label QS:Lsr-el,\"Mona Liza\"</div><div style=\"display: none;\">label QS:Lmt,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Let,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lbjn,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Llt,\"Mona Liza\"</div><div style=\"display: none;\">label QS:Lsl,\"Mona Liza\"</div><div style=\"display: none;\">label QS:Ltl,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lcs,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Ltw,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lsw,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lml,\"മോണാലിസ\"</div><div style=\"display: none;\">label QS:Lzh-tw,\"蒙娜麗莎\"</div><div style=\"display: none;\">label QS:Lsq,\"Mona Liza\"</div><div style=\"display: none;\">label QS:Lsat,\"ᱢᱚᱱᱟᱞᱤᱥᱟ\"</div><div style=\"display: none;\">label QS:Lsd,\"مونا ليزا\"</div><div style=\"display: none;\">label QS:Lfy,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lgl,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lfi,\"Mona Lisa\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"蒙娜丽莎\"</div><div style=\"display: none;\">label QS:Lde,\"Mona Lisa\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Mona Lisa|PD-user|Images with annotations|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|Large images|Featured pictures on Wikipedia, Azeri|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|High-resolution images from C2RMF|CC-PD-Mark|Artworks with accession number from Wikidata|On OSM|Featured pictures of the Musée du Louvre|Featured pictures of paintings by Leonardo da Vinci|Files with coordinates missing SDC location of creation (48° N, 2° E)|Featured pictures in the public domain|Artworks digital representation of 2D work|Artworks with digital representation of different depicts|Featured pictures on Wikipedia, Arabic|Files with Assessments template missing SDC Commons valued image assessment|Pictures of the Year/2011 (finalist)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|valued|potd|poty",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.860100",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.335400",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1503 and 1506<div style=\"display: none;\">date QS:P,+1503-00-00T00:00:00Z/8,P1319,+1503-00-00T00:00:00Z/9,P1326,+1506-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q12418#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Cropped and relevelled from <a href=\"//commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF.jpg\" title=\"File:Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg\">File:Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg</a>. Originally C2RMF: <a rel=\"nofollow\" class=\"external text\" href=\"http://web.archive.org/web/20120524155855/http://www.technologies.c2rmf.fr/imaging/showcase\">Galerie de tableaux en très haute définition</a>: <a rel=\"nofollow\" class=\"external text\" href=\"http://www.technologies.c2rmf.fr/iipimage/showcase/zoom/cop29\">image page</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 16143987,
+          "ns": 6,
+          "title": "File:Last Judgement (Michelangelo).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 7382807,
+              "width": 3991,
+              "height": 4395,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Last_Judgement_%28Michelangelo%29.jpg/1920px-Last_Judgement_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1762,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Last_Judgement_%28Michelangelo%29.jpg/3840px-Last_Judgement_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Last_Judgement_%28Michelangelo%29.jpg/1920px-Last_Judgement_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1762,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Last_Judgement_%28Michelangelo%29.jpg/3840px-Last_Judgement_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Last_Judgement_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Last_Judgement_(Michelangelo).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16143987",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-11-21 12:14:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Last Judgment (Fresco, Sistine Chapel Altar Wall) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The Last Judgment (Fresco, Sistine Chapel Altar Wall) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The Last Judgment (Fresco, Sistine Chapel Altar Wall) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"El Juicio Final\"</div><div style=\"display: none;\">label QS:Lyue,\"末日審判 (畫)\"</div><div style=\"display: none;\">label QS:Lam,\"የፍርድ ቀን\"</div><div style=\"display: none;\">label QS:Lca,\"Judici Final de la capella Sixtina\"</div><div style=\"display: none;\">label QS:Lde,\"Das Jüngste Gericht\"</div><div style=\"display: none;\">label QS:Lbe,\"Страшны суд, Мікеланджэла\"</div><div style=\"display: none;\">label QS:Lfa,\"قضاوت نهایی (میکل آنژ)\"</div><div style=\"display: none;\">label QS:Lbg,\"Страшният съд\"</div><div style=\"display: none;\">label QS:Lda,\"Den dommedag\"</div><div style=\"display: none;\">label QS:Lro,\"Judecata de Apoi\"</div><div style=\"display: none;\">label QS:Lja,\"最後の審判\"</div><div style=\"display: none;\">label QS:Lko,\"최후의 심판\"</div><div style=\"display: none;\">label QS:Lsk,\"Posledný súd\"</div><div style=\"display: none;\">label QS:Lcs,\"Poslední soud\"</div><div style=\"display: none;\">label QS:Lhe,\"יום הדין האחרון\"</div><div style=\"display: none;\">label QS:Lla,\"Extremum Iudicium\"</div><div style=\"display: none;\">label QS:Lka,\"განკითხვის დღე\"</div><div style=\"display: none;\">label QS:Lio,\"La Lasta Judiko\"</div><div style=\"display: none;\">label QS:Lfi,\"Viimeinen tuomio\"</div><div style=\"display: none;\">label QS:Lhyw,\"Վերջին դատաստանը\"</div><div style=\"display: none;\">label QS:Leo,\"La Lasta Juĝo\"</div><div style=\"display: none;\">label QS:Lta,\"கடைசித் தீர்ப்பு\"</div><div style=\"display: none;\">label QS:Lit,\"Giudizio universale\"</div><div style=\"display: none;\">label QS:Lzh,\"最后的审判\"</div><div style=\"display: none;\">label QS:Lfr,\"Le Jugement dernier\"</div><div style=\"display: none;\">label QS:Lcy,\"Y Farn Olaf\"</div><div style=\"display: none;\">label QS:Lhr,\"Posljednji sud (Michelangelo)\"</div><div style=\"display: none;\">label QS:Lmk,\"Страшниот суд\"</div><div style=\"display: none;\">label QS:Laz,\"Qiyamət günü\"</div><div style=\"display: none;\">label QS:Ltr,\"The Last Judgment\"</div><div style=\"display: none;\">label QS:Lsu,\"Viimeinen tuomio\"</div><div style=\"display: none;\">label QS:Lsr,\"Страшни суд (Микеланђело)\"</div><div style=\"display: none;\">label QS:Lvi,\"Sự phán xét cuối cùng\"</div><div style=\"display: none;\">label QS:Lmt,\"Il-Ġudizzju Universali\"</div><div style=\"display: none;\">label QS:Llv,\"Pastarā tiesa (Mikelandželo)\"</div><div style=\"display: none;\">label QS:Lpt,\"Juízo Final\"</div><div style=\"display: none;\">label QS:Llt,\"Paskutinis teismas\"</div><div style=\"display: none;\">label QS:Lsl,\"Poslednja sodba\"</div><div style=\"display: none;\">label QS:Lth,\"การตัดสินครั้งสุดท้าย\"</div><div style=\"display: none;\">label QS:Lhy,\"Ահեղ դատաստան\"</div><div style=\"display: none;\">label QS:Lga,\"An Breithiúnas Deireanach\"</div><div style=\"display: none;\">label QS:Lid,\"Pengadilan Terakhir\"</div><div style=\"display: none;\">label QS:Lpl,\"Sąd Ostateczny\"</div><div style=\"display: none;\">label QS:Lnb,\"Dommedag\"</div><div style=\"display: none;\">label QS:Lnl,\"Het laatste oordeel\"</div><div style=\"display: none;\">label QS:Lsv,\"Yttersta domen\"</div><div style=\"display: none;\">label QS:Lpa,\"ਅੰਤਮ ਨਿਆਂ\"</div><div style=\"display: none;\">label QS:Lru,\"Страшный суд\"</div><div style=\"display: none;\">label QS:Luk,\"Страшний суд\"</div><div style=\"display: none;\">label QS:Lgl,\"Xuízo Final\"</div><div style=\"display: none;\">label QS:Lar,\"الحساب الأخير\"</div><div style=\"display: none;\">label QS:Lwuu,\"最后个审判 (壁画)\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Sistine Chapel - Last Judgment|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|CC-PD-Mark|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of unknown type of work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.902800",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.454200",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Michelangelo\" class=\"extiw\" title=\"w:en:Michelangelo\"><span title=\"Italian artist and architect (1475-1564)\">Michelangelo</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://en.wikipedia.org/wiki/en:Last_Judgment\" class=\"extiw\" title=\"w:en:Last Judgment\"><span title=\"eschatological concept in Zoroastrianism and the Abrahamic religions about a judgment of human beings during end times\">Day of Judgment</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P180\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1536 and 1541<div style=\"display: none;\">date QS:P,+1550-00-00T00:00:00Z/7,P1319,+1536-00-00T00:00:00Z/9,P1326,+1541-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span><br><a href=\"https://en.wikipedia.org/wiki/en:Mannerism\" class=\"extiw\" title=\"w:en:Mannerism\"><span title=\"style of European art\">Mannerism</span></a> (1520 / 1525–1600) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P2348\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "See below.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 32430178,
+          "ns": 6,
+          "title": "File:Leonardo Da Vinci - Vergine delle Rocce (Louvre).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 7057896,
+              "width": 3460,
+              "height": 5487,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg/1920px-Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2537,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg/1920px-Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2537,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Leonardo_Da_Vinci_-_Vergine_delle_Rocce_%28Louvre%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Leonardo_Da_Vinci_-_Vergine_delle_Rocce_(Louvre).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=32430178",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-04-27 21:59:02",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<p>Virgin of the Rocks\n</p>\n<div style=\"display: none;\">label QS:Lit,\"Vergine delle Rocce\"</div>\n<div style=\"display: none;\">label QS:Lfr,\"La Vierge aux rochers\"</div>\n<div style=\"display: none;\">label QS:Leu,\"Arroketako Ama Birjina\"</div>\n<div style=\"display: none;\">label QS:Lel,\"Παναγία των Βράχων\"</div>\n<div style=\"display: none;\">label QS:Lzh,\"岩间圣母\"</div>\n<div style=\"display: none;\">label QS:Lca,\"La Verge de les Roques\"</div>\n<div style=\"display: none;\">label QS:Luk,\"Мадонна в скелях\"</div>\n<div style=\"display: none;\">label QS:Lde,\"Felsgrottenmadonna\"</div>\n<div style=\"display: none;\">label QS:Lpt,\"Virgem das Rochas\"</div>\n<div style=\"display: none;\">label QS:Lth,\"พระแม่มารีแห่งภูผา\"</div>\n<div style=\"display: none;\">label QS:Lfa,\"بانوی صخره‌ها\"</div>\n<div style=\"display: none;\">label QS:Laf,\"Madonna van die Rotse\"</div>\n<div style=\"display: none;\">label QS:Lsv,\"Madonnan i grottan\"</div>\n<div style=\"display: none;\">label QS:Lro,\"Fecioara între stânci\"</div>\n<div style=\"display: none;\">label QS:Lja,\"岩窟の聖母\"</div>\n<div style=\"display: none;\">label QS:Lsk,\"Madona v skalách\"</div>\n<div style=\"display: none;\">label QS:Lru,\"Мадонна в скалах\"</div>\n<div style=\"display: none;\">label QS:Lno,\"Madonna i grotten\"</div>\n<div style=\"display: none;\">label QS:Lpl,\"Madonna w grocie\"</div>\n<div style=\"display: none;\">label QS:Lhe,\"המדונה בין הסלעים\"</div>\n<div style=\"display: none;\">label QS:Lla,\"Virgo rupium\"</div>\n<div style=\"display: none;\">label QS:Lnl,\"Maagd op de rotsen\"</div>\n<div style=\"display: none;\">label QS:Les,\"La Virgen de las Rocas\"</div>\n<div style=\"display: none;\">label QS:Lfi,\"Luolamadonna\"</div>\n<div style=\"display: none;\">label QS:Len,\"Virgin of the Rocks\"</div>\n<div style=\"display: none;\">label QS:Lcs,\"Madona ve skalách\"</div>\n<div style=\"display: none;\">label QS:Lbr,\"Gwerc'hez ar C'herreg\"</div>\n<div style=\"display: none;\">label QS:Lbs,\"Bogorodica na stijenama\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Virgin of the Rocks - Leonardo da Vinci - Louvre INV 777|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Base Joconde|CC-PD-Mark|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of unknown type of work|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://www.wikidata.org/wiki/Q9309699\" class=\"extiw\" title=\"d:Q9309699\"><span title=\"artistic depiction of Mary with her child Jesus\">Madonna and Child</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q11935346#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1483 and 1486<div style=\"display: none;\">date QS:P571,+1483-00-00T00:00:00Z/8,P1319,+1483-00-00T00:00:00Z/9,P1326,+1486-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://en.gallerix.ru/storeroom/991555443/N/1612438096/\">gallerix.ru</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 56633971,
+          "ns": 6,
+          "title": "File:'David' by Michelangelo Fir JBU004.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 8097483,
+              "width": 3260,
+              "height": 4890,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/1920px-%27David%27_by_Michelangelo_Fir_JBU004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2400,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/1920px-%27David%27_by_Michelangelo_Fir_JBU004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2400,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:%27David%27_by_Michelangelo_Fir_JBU004.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=56633971",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-02-26 17:53:26",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "'David' by Michelangelo Fir JBU004",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Files with coordinates missing SDC location of creation|David by Michelangelo Buonarroti (front view) - without base",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "43.776692",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "11.259342",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "David by Michelangelo, Florence, Galleria dell'Accademia, 1501-1504",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2016-07-28 12:38:59",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:J%C3%B6rg_Bittner_Unna\" title=\"User:Jörg Bittner Unna\">Jörg Bittner Unna</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 57571379,
+          "ns": 6,
+          "title": "File:Accademia - St John the Baptist by Titian Cat314.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 14568071,
+              "width": 4319,
+              "height": 6413,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg/1920px-Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2376,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg/3840px-Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg/1920px-Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2376,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg/3840px-Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Accademia_-_St_John_the_Baptist_by_Titian_Cat314.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=57571379",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-03-31 05:27:50",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Italian:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>San Giovanni Battista <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q7401482#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Saint John the Baptist</i></div></div><div style=\"display: none;\">title QS:P1476,it:\"San Giovanni Battista <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q7401482#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"San Giovanni Battista <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q7401482#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"San Juan Bautista\"</div><div style=\"display: none;\">label QS:Lfr,\"Saint Jean-Baptiste au désert\"</div><div style=\"display: none;\">label QS:Lde,\"Der heilige Johannes der Täufer\"</div><div style=\"display: none;\">label QS:Len-gb,\"Saint John the Baptist\"</div><div style=\"display: none;\">label QS:Lfa,\"سن ژان باتیست\"</div><div style=\"display: none;\">label QS:Lzh,\"施洗者約翰\"</div><div style=\"display: none;\">label QS:Lro,\"Sfântul Ioan Botezătorul\"</div><div style=\"display: none;\">label QS:Lja,\"洗礼者聖ヨハネ\"</div><div style=\"display: none;\">label QS:Lid,\"Yohanes pembaptis\"</div><div style=\"display: none;\">label QS:Lpl,\"Św. Jan Chrzciciel\"</div><div style=\"display: none;\">label QS:Lnl,\"De heilige Johannes de Doper\"</div><div style=\"display: none;\">label QS:Ltr,\"Vaftizci Yahya\"</div><div style=\"display: none;\">label QS:Lhi,\"संत जॉन द बैपटिस्ट\"</div><div style=\"display: none;\">label QS:Lel,\"Άγιος Ιωάννης ο Βαπτιστής\"</div><div style=\"display: none;\">label QS:Len,\"Saint John the Baptist\"</div><div style=\"display: none;\">label QS:Lmk,\"Свети Јован Крстител\"</div><div style=\"display: none;\">label QS:Lru,\"Святой Иоанн Креститель\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Images by Archaeodontosaurus Venice Accademia|Files with coordinates missing SDC location of creation|November 2016 in Venice|Italy photographs taken on 2016-11-04|Saint John the Baptist by Titian (Gallerie dell'Accademia Cat.314)|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "45.431220",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.328300",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Titian\" class=\"extiw\" title=\"w:en:Titian\"><span title=\"Italian painter (c.1490–1576)\">Titian</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://www.wikidata.org/wiki/Q66481349\" class=\"extiw\" title=\"d:Q66481349\"><span title=\"biblical episode and artistic theme\">John the Baptist in the wilderness</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q7401482#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between circa 1540 and circa 1542<div style=\"display: none;\">date QS:P,+1540-00-00T00:00:00Z/8,P1319,+1540-00-00T00:00:00Z/9,P1326,+1542-00-00T00:00:00Z/9,P1480,Q5727902</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q7401482#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\">Self-photographed</span> by <a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>. Taken on 4 November 2016.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 63606836,
+          "ns": 6,
+          "title": "File:Altarraum mit Jüngstem Gericht.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 17932699,
+              "width": 6720,
+              "height": 4480,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Altarraum_mit_J%C3%BCngstem_Gericht.jpg/1920px-Altarraum_mit_J%C3%BCngstem_Gericht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1067,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Altarraum_mit_J%C3%BCngstem_Gericht.jpg/3840px-Altarraum_mit_J%C3%BCngstem_Gericht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Altarraum_mit_J%C3%BCngstem_Gericht.jpg/1920px-Altarraum_mit_J%C3%BCngstem_Gericht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1067,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Altarraum_mit_J%C3%BCngstem_Gericht.jpg/3840px-Altarraum_mit_J%C3%BCngstem_Gericht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Altarraum_mit_J%C3%BCngstem_Gericht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Altarraum_mit_J%C3%BCngstem_Gericht.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63606836",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-10-25 18:52:43",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Altarraum mit Jüngstem Gericht",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Sistine Chapel - Last Judgment|Self-published work|Taken by Burkhard Muecke|SZ Rom 10/2017 Sixtinische Kapelle",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Das Jüngste Gericht in der Sixtinischen Kapelle, nach der Restaurierung",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2017-10-18 20:23:54",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pimpinellus\" title=\"User:Pimpinellus\">Burkhard Mücke</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 76613573,
+          "ns": 6,
+          "title": "File:Annunciation (Leonardo) (cropped).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 11135682,
+              "width": 4917,
+              "height": 2186,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Annunciation_%28Leonardo%29_%28cropped%29.jpg/1920px-Annunciation_%28Leonardo%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 711,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Annunciation_%28Leonardo%29_%28cropped%29.jpg/3840px-Annunciation_%28Leonardo%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Annunciation_%28Leonardo%29_%28cropped%29.jpg/1920px-Annunciation_%28Leonardo%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 711,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Annunciation_%28Leonardo%29_%28cropped%29.jpg/3840px-Annunciation_%28Leonardo%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Annunciation_%28Leonardo%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Annunciation_(Leonardo)_(cropped).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=76613573",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-02-16 10:54:47",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Annunciation</i></div></div><div style=\"display: none;\">label QS:Les,\"Anunciación\"</div><div style=\"display: none;\">label QS:Lhu,\"Angyali üdvözlet\"</div><div style=\"display: none;\">label QS:Lca,\"L'Anunciació\"</div><div style=\"display: none;\">label QS:Lcy,\"Cyfarchiad Mair\"</div><div style=\"display: none;\">label QS:Lbe,\"Дабравешчанне\"</div><div style=\"display: none;\">label QS:Lfa,\"بشارت (اثر لئوناردو داوینچی)\"</div><div style=\"display: none;\">label QS:Lbg,\"Благовещение\"</div><div style=\"display: none;\">label QS:Lda,\"Bebudelsen\"</div><div style=\"display: none;\">label QS:Ltr,\"Meryem'e Müjde\"</div><div style=\"display: none;\">label QS:Lja,\"受胎告知\"</div><div style=\"display: none;\">label QS:Lsk,\"Zvestovanie\"</div><div style=\"display: none;\">label QS:Lhe,\"הבשורה\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"聖母領報\"</div><div style=\"display: none;\">label QS:Lko,\"수태고지\"</div><div style=\"display: none;\">label QS:Lhyw,\"Աւետում\"</div><div style=\"display: none;\">label QS:Lcs,\"Zvěstování\"</div><div style=\"display: none;\">label QS:Lit,\"Annunciazione\"</div><div style=\"display: none;\">label QS:Lfr,\"L'Annonciation de San Martino\"</div><div style=\"display: none;\">label QS:Lpt,\"A Anunciação\"</div><div style=\"display: none;\">label QS:Lmk,\"Благовештение\"</div><div style=\"display: none;\">label QS:Lde,\"Verkündigung\"</div><div style=\"display: none;\">label QS:Lhy,\"Ավետում\"</div><div style=\"display: none;\">label QS:Lsl,\"Oznanjenje\"</div><div style=\"display: none;\">label QS:Lgl,\"Anunciación\"</div><div style=\"display: none;\">label QS:Larz,\"لوحه البشاره\"</div><div style=\"display: none;\">label QS:Luk,\"Благовіщення (Леонардо да Вінчі)\"</div><div style=\"display: none;\">label QS:Lth,\"แม่พระรับสาร\"</div><div style=\"display: none;\">label QS:Lpl,\"Zwiastowanie\"</div><div style=\"display: none;\">label QS:Lnl,\"De Annunciatie\"</div><div style=\"display: none;\">label QS:Laz,\"Müjdə (da Vinçi)\"</div><div style=\"display: none;\">label QS:Lzh-tw,\"聖母領報\"</div><div style=\"display: none;\">label QS:Lsv,\"Bebådelsen\"</div><div style=\"display: none;\">label QS:Lru,\"Благовещение\"</div><div style=\"display: none;\">label QS:Lro,\"Buna Vestire\"</div><div style=\"display: none;\">label QS:Len,\"Annunciation\"</div><div style=\"display: none;\">label QS:Lar,\"لوحة البشارة\"</div><div style=\"display: none;\">label QS:Lel,\"Ο Ευαγγελισμός της Θεοτόκου (Ντα Βίντσι)\"</div><div style=\"display: none;\">label QS:Lzh,\"聖母領報\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Nikon D5200|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Extracted images|CC-PD-Mark|Artworks with accession number from Wikidata|Annunciation by Leonardo da Vinci (Uffizi, 1618)|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://en.wikipedia.org/wiki/en:Annunciation\" class=\"extiw\" title=\"w:en:Annunciation\"><span title=\"announcement of the birth of Jesus to Mary\">Annunciation</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1217213#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1472",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> <a href=\"//commons.wikimedia.org/wiki/User:Livioandronico2013\" title=\"User:Livioandronico2013\">Livioandronico2013</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 79417962,
+          "ns": 6,
+          "title": "File:The Creation of Adam perspective fix.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3967861,
+              "width": 3572,
+              "height": 1663,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The_Creation_of_Adam_perspective_fix.jpg/1920px-The_Creation_of_Adam_perspective_fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 745,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/2/29/The_Creation_of_Adam_perspective_fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The_Creation_of_Adam_perspective_fix.jpg/1920px-The_Creation_of_Adam_perspective_fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 745,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/2/29/The_Creation_of_Adam_perspective_fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/The_Creation_of_Adam_perspective_fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Creation_of_Adam_perspective_fix.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79417962",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-06-02 12:08:25",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Creation of Adam</i></div></div><div style=\"display: none;\">label QS:Les,\"La creación de Adán\"</div><div style=\"display: none;\">label QS:Lyue,\"創造亞當\"</div><div style=\"display: none;\">label QS:Lhu,\"Ádám teremtése\"</div><div style=\"display: none;\">label QS:Leu,\"Adamen sorrera\"</div><div style=\"display: none;\">label QS:Lfi,\"Aadamin luominen\"</div><div style=\"display: none;\">label QS:Lru,\"Сотворение Адама\"</div><div style=\"display: none;\">label QS:Luz,\"Odam Atoning yaratilishi\"</div><div style=\"display: none;\">label QS:Lde,\"Die Erschaffung Adams\"</div><div style=\"display: none;\">label QS:Lsv,\"Adams skapelse\"</div><div style=\"display: none;\">label QS:Lbe,\"Стварэнне Адама\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Стварање Адама\"</div><div style=\"display: none;\">label QS:Lzh,\"創造亞當\"</div><div style=\"display: none;\">label QS:Lda,\"Adams skabelse\"</div><div style=\"display: none;\">label QS:Ltr,\"Adem'in Yaratılışı\"</div><div style=\"display: none;\">label QS:Lja,\"アダムの創造\"</div><div style=\"display: none;\">label QS:Len,\"The Creation of Adam\"</div><div style=\"display: none;\">label QS:Lfa,\"آفرینش آدم\"</div><div style=\"display: none;\">label QS:Larz,\"خلق ادم (لوحه)\"</div><div style=\"display: none;\">label QS:Lur,\"تخلیق آدم\"</div><div style=\"display: none;\">label QS:Lhe,\"בריאת האדם\"</div><div style=\"display: none;\">label QS:Lbg,\"Сътворението на Адам\"</div><div style=\"display: none;\">label QS:Lhr,\"Stvaranje Adama\"</div><div style=\"display: none;\">label QS:Lhi,\"द क्रिएशन ऑफ आदम\"</div><div style=\"display: none;\">label QS:Lsh,\"Stvaranje Adama\"</div><div style=\"display: none;\">label QS:Lko,\"아담의 창조\"</div><div style=\"display: none;\">label QS:Lkk,\"Адамның жаратылуы (фреска)\"</div><div style=\"display: none;\">label QS:Leo,\"La Kreado de Adamo\"</div><div style=\"display: none;\">label QS:Lcs,\"Stvoření Adama\"</div><div style=\"display: none;\">label QS:Lta,\"ஆதாமின் உருவாக்கம்\"</div><div style=\"display: none;\">label QS:Lit,\"Creazione di Adamo\"</div><div style=\"display: none;\">label QS:Lbn,\"আদমের সৃষ্টি\"</div><div style=\"display: none;\">label QS:Lfr,\"La Création d'Adam\"</div><div style=\"display: none;\">label QS:Lnb,\"Skapelsen\"</div><div style=\"display: none;\">label QS:Lbe-tarask,\"Стварэньне Адама\"</div><div style=\"display: none;\">label QS:Luk,\"Створення Адама\"</div><div style=\"display: none;\">label QS:Lid,\"Penciptaan Adam\"</div><div style=\"display: none;\">label QS:Lca,\"La creació d'Adam\"</div><div style=\"display: none;\">label QS:Lhy,\"Ադամի արարումը\"</div><div style=\"display: none;\">label QS:Lsk,\"Stvorenie Adama\"</div><div style=\"display: none;\">label QS:Lvi,\"Sự tạo dựng Adam\"</div><div style=\"display: none;\">label QS:Lsr,\"Стварање Адама\"</div><div style=\"display: none;\">label QS:Llv,\"Ādama radīšana\"</div><div style=\"display: none;\">label QS:Laf,\"Skepping van Adam\"</div><div style=\"display: none;\">label QS:Llt,\"Adomo sutvėrimas\"</div><div style=\"display: none;\">label QS:Lsl,\"Stvarjenje Adama\"</div><div style=\"display: none;\">label QS:Lpt,\"A Criação de Adão\"</div><div style=\"display: none;\">label QS:Lmk,\"Создавањето на Адам\"</div><div style=\"display: none;\">label QS:Lka,\"ადამის შექმნა\"</div><div style=\"display: none;\">label QS:Lth,\"พระเจ้าสร้างอาดัม\"</div><div style=\"display: none;\">label QS:Lpl,\"Stworzenie Adama\"</div><div style=\"display: none;\">label QS:Lml,\"ആദാമിന്റെ സൃഷ്ടി\"</div><div style=\"display: none;\">label QS:Lnl,\"De schepping van Adam\"</div><div style=\"display: none;\">label QS:Lwar,\"An Pagkahimo kan Adan\"</div><div style=\"display: none;\">label QS:Let,\"Aadama loomine\"</div><div style=\"display: none;\">label QS:Laz,\"Adəmin yaradılışı\"</div><div style=\"display: none;\">label QS:Lro,\"Facerea lui Adam\"</div><div style=\"display: none;\">label QS:Lgl,\"A creación do home\"</div><div style=\"display: none;\">label QS:Lar,\"خلق آدم\"</div><div style=\"display: none;\">label QS:Lel,\"Η Δημιουργία του Αδάμ\"</div><div style=\"display: none;\">label QS:Lpa,\"ਆਦਮ ਦੀ ਸਿਰਜਨਾ\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Retouched pictures|Sistine Chapel ceiling - Creation of Adam|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Images with extracted images|Extracted images|CC-PD-Mark|Artworks digital representation of unknown type of work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.902778",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.454167",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Michelangelo\" class=\"extiw\" title=\"w:en:Michelangelo\"><span title=\"Italian artist and architect (1475-1564)\">Michelangelo</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nThis edit attempts to adjust the perspective caused by the camera lens and the ceiling gradient. The original photo is not perfectly parallel to the depth of the ceiling, which is why the bottom left could not be cropped. This edit tries to simulate what the painting would show if laid on a flat surface. Adam's head is notably more accurate after these changes. Without a laser mapping of the surface, a truly accurate reproduction is impossible.</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1511<div style=\"display: none;\">date QS:P571,+1511-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Michelangelo. This edit attempts to adjust the perspective caused by the camera lens and the ceiling gradient. The original photo is not perfectly parallel to the depth of the ceiling, which is why the bottom left could not be cropped. This edit tries to simulate what the painting would show if laid on a flat surface. Adam's head is notably more accurate after these changes. Without a laser mapping of the surface, a truly accurate reproduction is impossible.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 82525062,
+          "ns": 6,
+          "title": "File:The Pietà by Michelangelo (48135182552).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 6324582,
+              "width": 4009,
+              "height": 2667,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg/1920px-The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1064,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg/3840px-The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg/1920px-The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1064,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg/3840px-The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Piet%C3%A0_by_Michelangelo_(48135182552).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=82525062",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-09-25 12:55:11",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Pietà</i></div></div><div style=\"display: none;\">label QS:Les,\"La Piedad\"</div><div style=\"display: none;\">label QS:Len-gb,\"Pietà\"</div><div style=\"display: none;\">label QS:Lbg,\"Пиета\"</div><div style=\"display: none;\">label QS:Ltr,\"Pietà vaticana\"</div><div style=\"display: none;\">label QS:Lsv,\"Pietà\"</div><div style=\"display: none;\">label QS:Luk,\"П'єта\"</div><div style=\"display: none;\">label QS:Lko,\"피에타\"</div><div style=\"display: none;\">label QS:Lkk,\"Ватикандық Пьета\"</div><div style=\"display: none;\">label QS:Leo,\"Pietato\"</div><div style=\"display: none;\">label QS:Lcs,\"Pieta (Michelangelo)\"</div><div style=\"display: none;\">label QS:Lbs,\"Pietà\"</div><div style=\"display: none;\">label QS:Lbn,\"পিয়েতা\"</div><div style=\"display: none;\">label QS:Lfr,\"La Pietà\"</div><div style=\"display: none;\">label QS:Lhr,\"Pietà\"</div><div style=\"display: none;\">label QS:Lvi,\"Đức Mẹ sầu bi\"</div><div style=\"display: none;\">label QS:Llv,\"Pieta\"</div><div style=\"display: none;\">label QS:Lzu,\"Pietà\"</div><div style=\"display: none;\">label QS:Lpt-br,\"Pietà\"</div><div style=\"display: none;\">label QS:Lsco,\"Pietà\"</div><div style=\"display: none;\">label QS:Lnn,\"Pietà\"</div><div style=\"display: none;\">label QS:Lnb,\"Pietà\"</div><div style=\"display: none;\">label QS:Laz,\"Pyeta\"</div><div style=\"display: none;\">label QS:Lckb,\"پێتا\"</div><div style=\"display: none;\">label QS:Len,\"Pietà\"</div><div style=\"display: none;\">label QS:Lar,\"تمثال بيتتا\"</div><div style=\"display: none;\">label QS:Lyue,\"哀悼基督\"</div><div style=\"display: none;\">label QS:Lhu,\"Pietà\"</div><div style=\"display: none;\">label QS:Lam,\"ሐዘን\"</div><div style=\"display: none;\">label QS:Leu,\"Vatikanoko Pietà\"</div><div style=\"display: none;\">label QS:Lru,\"Пьета\"</div><div style=\"display: none;\">label QS:Lde,\"Römische Pietà\"</div><div style=\"display: none;\">label QS:Lga,\"Pietà (Michelangelo)\"</div><div style=\"display: none;\">label QS:Lhy,\"Պիետա\"</div><div style=\"display: none;\">label QS:Lzh,\"哀悼基督 (米开朗琪罗)\"</div><div style=\"display: none;\">label QS:Lda,\"Pietà\"</div><div style=\"display: none;\">label QS:Lne,\"माइकलएन्जेलोको पिएटा\"</div><div style=\"display: none;\">label QS:Lja,\"ピエタ\"</div><div style=\"display: none;\">label QS:Lhe,\"פייטה\"</div><div style=\"display: none;\">label QS:Lla,\"Pietas\"</div><div style=\"display: none;\">label QS:Lfi,\"Pietà\"</div><div style=\"display: none;\">label QS:Lhyw,\"Փիեթա՛\"</div><div style=\"display: none;\">label QS:Lta,\"தாயும் சேயும்\"</div><div style=\"display: none;\">label QS:Lit,\"Pietà vaticana\"</div><div style=\"display: none;\">label QS:Let,\"Pietà\"</div><div style=\"display: none;\">label QS:Lka,\"პიეტა (მიქელანჯელო)\"</div><div style=\"display: none;\">label QS:Lpt,\"Pietà\"</div><div style=\"display: none;\">label QS:Lmt,\"Pietà\"</div><div style=\"display: none;\">label QS:Lbe-tarask,\"П’ета\"</div><div style=\"display: none;\">label QS:Llt,\"Pieta\"</div><div style=\"display: none;\">label QS:Lsl,\"Pietà\"</div><div style=\"display: none;\">label QS:Lid,\"Patung Pieta\"</div><div style=\"display: none;\">label QS:Lfa,\"ترحم\"</div><div style=\"display: none;\">label QS:Lro,\"Pietà\"</div><div style=\"display: none;\">label QS:Lth,\"ปีเอตะ\"</div><div style=\"display: none;\">label QS:Lpl,\"Pietà watykańska\"</div><div style=\"display: none;\">label QS:Lml,\"പ്യേത്താ\"</div><div style=\"display: none;\">label QS:Lnl,\"Pietà van Michelangelo\"</div><div style=\"display: none;\">label QS:Lca,\"Pietat\"</div><div style=\"display: none;\">label QS:Lcy,\"Pietà\"</div><div style=\"display: none;\">label QS:Lcv,\"Пьета (Микеланджело)\"</div><div style=\"display: none;\">label QS:Lsk,\"Pieta\"</div><div style=\"display: none;\">label QS:Lgl,\"Piedade\"</div><div style=\"display: none;\">label QS:Lmk,\"Пиета\"</div><div style=\"display: none;\">label QS:Lel,\"Πιετά του Μιχαήλ Άγγελου\"</div><div style=\"display: none;\">label QS:Lvec,\"Pietà vaticana\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Artworks with Wikidata item|Artworks with Wikidata item missing author|Flickr images reviewed by FlickreviewR 2|Pietà of the Saint Peter's Basilica by Michelangelo Buonarroti|Artworks main subject type unknown type of work|Artworks main subject 3D work|Uploads by Netha Hussain|Photos by Torbjorn Toby Jorgensen|Photos by Torbjorn Toby Jorgensen uploaded by Netha Hussain",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.902222",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.453333",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Michelangelo\" class=\"extiw\" title=\"w:en:Michelangelo\"><span title=\"Italian artist and architect (1475-1564)\">Michelangelo</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nThe Pietà by Michelangelo</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1498 and 1499<div style=\"display: none;\">date QS:P571,+1498-00-00T00:00:00Z/8,P1319,+1498-00-00T00:00:00Z/9,P1326,+1499-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/tobyjorgensen/48135182552/\">The Pietà by Michelangelo</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 90564951,
+          "ns": 6,
+          "title": "File:Lady with an Ermine - Leonardo da Vinci - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 107119245,
+              "width": 30894,
+              "height": 41545,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/1920px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2152,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/3840px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/1920px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2152,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/3840px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90564951",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-05-23 09:56:39",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">The Lady with an Ermine (Portrait of Cecilia Gallerani).</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Lady with an Ermine|Portal Poland|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Featured pictures on Wikipedia, Persian|Pages with complex technique templates|CC-PD-Mark|Featured pictures of Kraków|Featured pictures of women|Google Art Project paintings|Oil and tempera on panel|Featured pictures of paintings by Leonardo da Vinci|PD-Art missing SDC copyright status|Featured pictures in the public domain|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Files from Google Arts & Culture|Featured pictures from the Google Art Project|Google Art Project works by Leonardo da Vinci|Google Art Project works in National Museum Kraków",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1490<div style=\"display: none;\">date QS:P571,+1490-00-00T00:00:00Z/9,P1480,Q5727902</div> <b>Alternate:</b> 1483-1490",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://artsandculture.google.com/asset/lady-with-an-ermine/HwHUpggDy_HxNQ?hl=fr\">https://artsandculture.google.com/asset/lady-with-an-ermine/HwHUpggDy_HxNQ?hl=fr</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 91856868,
+          "ns": 6,
+          "title": "File:La Belle Ferronière - Google Arts.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1753111,
+              "width": 2758,
+              "height": 4000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg/1920px-La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2321,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/4/4d/La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg/1920px-La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2321,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/4/4d/La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_Belle_Ferroni%C3%A8re_-_Google_Arts.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=91856868",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-07-03 15:57:18",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">French:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"fr\"><i>Portrait de femme, dit à tort La Belle Ferronnière <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q656434#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>La Belle Ferronnière</i></div></div><div style=\"display: none;\">title QS:P1476,fr:\"Portrait de femme, dit à tort La Belle Ferronnière <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q656434#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lfr,\"Portrait de femme, dit à tort La Belle Ferronnière <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q656434#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"La Belle Ferronière\"</div><div style=\"display: none;\">label QS:Lru,\"Прекрасная Ферроньера\"</div><div style=\"display: none;\">label QS:Lde,\"Porträt einer Dame\"</div><div style=\"display: none;\">label QS:Lbe,\"Прыгожая Фераньера\"</div><div style=\"display: none;\">label QS:Lhy,\"Չքնաղ Ֆերոնիերան\"</div><div style=\"display: none;\">label QS:Lzh,\"美麗的費隆妮葉夫人\"</div><div style=\"display: none;\">label QS:Lda,\"La Belle Ferronnière\"</div><div style=\"display: none;\">label QS:Lro,\"Frumoasa fierăriță\"</div><div style=\"display: none;\">label QS:Lja,\"ミラノの貴婦人の肖像\"</div><div style=\"display: none;\">label QS:Lsk,\"La Belle Ferronière\"</div><div style=\"display: none;\">label QS:Luk,\"Прекрасна Ферроньєра\"</div><div style=\"display: none;\">label QS:Luz,\"La Belle Ferronnière portreti\"</div><div style=\"display: none;\">label QS:Leo,\"La belle ferronière\"</div><div style=\"display: none;\">label QS:Lit,\"Belle Ferronnière\"</div><div style=\"display: none;\">label QS:Lvi,\"La Belle Ferronnière\"</div><div style=\"display: none;\">label QS:Llv,\"La belle ferronnière\"</div><div style=\"display: none;\">label QS:Larz,\"حداد جميل (لوحه)\"</div><div style=\"display: none;\">label QS:Lel,\"La Belle Ferronnière\"</div><div style=\"display: none;\">label QS:Lsl,\"La belle ferronnière\"</div><div style=\"display: none;\">label QS:Lka,\"ლა ბელ ფერონიერი\"</div><div style=\"display: none;\">label QS:Lpl,\"La Belle Ferronière\"</div><div style=\"display: none;\">label QS:Lpt,\"La Belle Ferronière\"</div><div style=\"display: none;\">label QS:Ltr,\"La Belle Ferronnière\"</div><div style=\"display: none;\">label QS:Lnan,\"La belle ferronnière\"</div><div style=\"display: none;\">label QS:Lml,\"ലാ ബെല്ലെ ഫെറോന്നിയർ\"</div><div style=\"display: none;\">label QS:Lnl,\"Portret van een dame\"</div><div style=\"display: none;\">label QS:Lhe,\"לה בלה פרונירה\"</div><div style=\"display: none;\">label QS:Lca,\"La Belle Ferronière\"</div><div style=\"display: none;\">label QS:Lsv,\"Porträtt av en kvinna\"</div><div style=\"display: none;\">label QS:Lnb,\"La Belle Ferronière\"</div><div style=\"display: none;\">label QS:Len,\"La Belle Ferronnière\"</div><div style=\"display: none;\">label QS:Lar,\"حداد جميل\"</div><div style=\"display: none;\">label QS:Lbr,\"La Belle Ferronnière\"</div><div style=\"display: none;\">label QS:Lcs,\"La Belle Ferronière\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Portrait of a Woman - Leonardo da Vinci - Louvre INV 778|PD Old|Artworks with Wikidata item|Artworks with known accession number|Files, uploaded by Shakko from various sources|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks missing digital representation of for 2D work|Artworks with SDC link missing|Google Art Project works by Leonardo da Vinci",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1495",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://artsandculture.google.com/asset/portrait-of-an-unknown-woman-incorrectly-known-as-la-belle-ferronniere-leonardo-da-vinci-1452-1519-paris-mus%C3%A9e-du-louvre/tQGQxYg52tKHTg?hl=en\">https://artsandculture.google.com/asset/portrait-of-an-unknown-woman-incorrectly-known-as-la-belle-ferronniere-leonardo-da-vinci-1452-1519-paris-mus%C3%A9e-du-louvre/tQGQxYg52tKHTg?hl=en</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 202035842,
+          "ns": 6,
+          "title": "File:Botticelli - Venus and Mars2.jpeg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 4869959,
+              "width": 7000,
+              "height": 2791,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Botticelli_-_Venus_and_Mars2.jpeg/1920px-Botticelli_-_Venus_and_Mars2.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 638,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Botticelli_-_Venus_and_Mars2.jpeg/3840px-Botticelli_-_Venus_and_Mars2.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Botticelli_-_Venus_and_Mars2.jpeg/1920px-Botticelli_-_Venus_and_Mars2.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 638,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Botticelli_-_Venus_and_Mars2.jpeg/3840px-Botticelli_-_Venus_and_Mars2.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Botticelli_-_Venus_and_Mars2.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Botticelli_-_Venus_and_Mars2.jpeg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=202035842",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-10-19 22:13:25",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Venus and Mars <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2293953#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Venus and Mars <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2293953#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Venus and Mars <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2293953#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Venus y Marte\"</div><div style=\"display: none;\">label QS:Lhu,\"Vénusz és Mars\"</div><div style=\"display: none;\">label QS:Lca,\"Venus i Mart\"</div><div style=\"display: none;\">label QS:Lcy,\"Gwener a Mawrth\"</div><div style=\"display: none;\">label QS:Lsq,\"Venusi dhe Marsi\"</div><div style=\"display: none;\">label QS:Lfa,\"ونوس و مارس (بوتیچلی)\"</div><div style=\"display: none;\">label QS:Lzh,\"维纳斯与战神\"</div><div style=\"display: none;\">label QS:Ltr,\"Venüs ve Mars\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"維納斯與戰神\"</div><div style=\"display: none;\">label QS:Lsk,\"Venuša a Mars\"</div><div style=\"display: none;\">label QS:Lhe,\"מרס וונוס (בוטיצ'לי)\"</div><div style=\"display: none;\">label QS:Lla,\"Venus et Mars (Botticelli)\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"維納斯與戰神\"</div><div style=\"display: none;\">label QS:Lfi,\"Venus ja Mars\"</div><div style=\"display: none;\">label QS:Leo,\"Venuso kaj Marso\"</div><div style=\"display: none;\">label QS:Lit,\"Venere e Marte\"</div><div style=\"display: none;\">label QS:Lfr,\"Vénus et Mars\"</div><div style=\"display: none;\">label QS:Lpt,\"Vênus e Marte\"</div><div style=\"display: none;\">label QS:Lsl,\"Venera in Mars (Botticelli)\"</div><div style=\"display: none;\">label QS:Lro,\"Venus și Marte\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"维纳斯与战神\"</div><div style=\"display: none;\">label QS:Lsv,\"Venus och Mars\"</div><div style=\"display: none;\">label QS:Lde,\"Venus und Mars\"</div><div style=\"display: none;\">label QS:Lpl,\"Wenus i Mars\"</div><div style=\"display: none;\">label QS:Luk,\"Венера і Марс (Боттічеллі)\"</div><div style=\"display: none;\">label QS:Lnl,\"Venus en Mars\"</div><div style=\"display: none;\">label QS:Lja,\"ヴィーナスとマルス (ボッティチェッリ)\"</div><div style=\"display: none;\">label QS:Lru,\"Венера и Марс\"</div><div style=\"display: none;\">label QS:Lka,\"ვენერა და მარსი\"</div><div style=\"display: none;\">label QS:Larz,\"فينوس ومارس\"</div><div style=\"display: none;\">label QS:Lhy,\"Վեներան և Մարսը\"</div><div style=\"display: none;\">label QS:Lar,\"فينوس ومارس\"</div><div style=\"display: none;\">label QS:Lbr,\"Venere e Marte\"</div><div style=\"display: none;\">label QS:Lcs,\"Venuše a Mars\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Venus and Mars (Botticelli)|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks missing digital representation of for 2D work|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks with SDC link missing|Paintings in the National Gallery, London - Room 62|Images from the National Gallery, London",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Sandro_Botticelli\" class=\"extiw\" title=\"w:en:Sandro Botticelli\"><span title=\"Italian painter (1445–1510)\">Sandro Botticelli</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nVenus, the goddess of love, looks over at her lover Mars. She is alert and dignified, while he – the god of war – is utterly lost in sleep. He doesn‘t even notice the chubby satyr (half child, half goat) blowing a conch shell in his ear.</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1485",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.nationalgallery.org.uk/paintings/sandro-botticelli-venus-and-mars\">National Gallery, UK</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"clear:both; margin:0.5em auto; background-color: var(--background-color-interactive, #f0f0f0); color: inherit; border: 2px solid var(--border-color-subtle, #e0e0e0); width:100%;\" class=\"layouttemplate\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td>\n<div class=\"center\">This is a faithful photographic reproduction of a two-dimensional, <a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">public domain</a> work of art. The work of art itself is in the public domain for the following reason:</div>\n<div dir=\"auto\">\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span></div>\n<div class=\"center\">The official position taken by the Wikimedia Foundation is that \"<i>faithful reproductions of two-dimensional public domain works of art are public domain</i>\".<br><b>This photographic reproduction is therefore also considered to be in the public domain in the United States.</b> In other jurisdictions, re-use of this content may be restricted; <b>see <a href=\"//commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs\" title=\"Commons:Reuse of PD-Art photographs\">Reuse of PD-Art photographs</a> for details.</b></div> \n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "2278d37c9d632f65a3b79526bfcc94f15253b68cd7141b5966fc2ebf3da16b9b"
+}

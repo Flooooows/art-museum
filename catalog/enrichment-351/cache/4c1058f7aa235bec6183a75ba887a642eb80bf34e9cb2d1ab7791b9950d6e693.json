@@ -1,0 +1,417 @@
+{
+  "provider": "orsay",
+  "url": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/manifest.json",
+  "retrievedAt": "2026-10-30T02:01:06.671Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "@context": [
+      "https://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/manifest.json",
+    "type": "Manifest",
+    "label": {
+      "fr": [
+        "Monet, Claude - Le Bassin aux nympheas, harmonie verte - RF 2004"
+      ],
+      "en": [
+        "Monet, Claude - Le Bassin aux nympheas, harmonie verte - RF 2004"
+      ]
+    },
+    "homepage": [
+      {
+        "id": "https://www.musee-orsay.fr/fr/oeuvres/1175",
+        "label": {
+          "en": [
+            "View the artwork on the original site"
+          ],
+          "fr": [
+            "Lien vers la notice sur le site d'origine"
+          ]
+        },
+        "type": "Text",
+        "format": "text/html"
+      }
+    ],
+    "requiredStatement": {
+      "label": {
+        "fr": [
+          "Droits d'utilisation et licence"
+        ],
+        "en": [
+          "Rights Description and licence"
+        ]
+      },
+      "value": {
+        "fr": [
+          "https://www.musee-orsay.fr/fr/mentions-legales"
+        ],
+        "en": [
+          "https://www.musee-orsay.fr/en/legal-information"
+        ]
+      }
+    },
+    "provider": [
+      {
+        "id": "https://www.epmo-musees.fr",
+        "type": "Agent",
+        "label": {
+          "fr": [
+            "Etablissement public du Musée d'Orsay et du musée de l'Orangerie - Valerie Giscard d'Estaing"
+          ]
+        },
+        "logo": [
+          {
+            "id": "https://www.epmo-musees.fr/themes/custom/ep/logo.svg",
+            "type": "Image",
+            "format": "image/png",
+            "height": 100,
+            "width": 120
+          }
+        ]
+      }
+    ],
+    "metadata": [
+      {
+        "label": {
+          "fr": [
+            "Description"
+          ],
+          "en": [
+            "Description"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Monet, Claude, Le Bassin aux nympheas, harmonie verte. huile sur toile. 1899. Legs comte Isaac de Camondo, 1911 "
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Désignation"
+          ],
+          "en": [
+            "Title"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Le Bassin aux nympheas, harmonie verte"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Auteur"
+          ],
+          "en": [
+            "Creator"
+          ]
+        },
+        "value": {
+          "fr": [
+            "'Monet, Claude [Paris (France) 1840 - Giverny, Eure (27) (France) 1926]'"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "N° d'inventaire"
+          ],
+          "en": [
+            "Accession number"
+          ]
+        },
+        "value": {
+          "none": [
+            "RF 2004"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Datation"
+          ],
+          "en": [
+            "Date"
+          ]
+        },
+        "value": {
+          "fr": [
+            "1899"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mode d'acquisition"
+          ],
+          "en": [
+            "Acquisition details"
+          ]
+        },
+        "value": {
+          "fr": [
+            "Legs comte Isaac de Camondo, 1911"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Mesures"
+          ],
+          "en": [
+            "Dimensions"
+          ]
+        },
+        "value": {
+          "fr": [
+            "H. 89,5 ; L. 92,5 cm. @ avec cadre H. 100 ; L. 103,5 cm"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Matériaux et techniques"
+          ],
+          "en": [
+            "Materials and techniques"
+          ]
+        },
+        "value": {
+          "fr": [
+            "huile sur toile"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Lieu de conservation"
+          ],
+          "en": [
+            "Current Location"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      },
+      {
+        "label": {
+          "fr": [
+            "Collection"
+          ],
+          "en": [
+            "Collection"
+          ]
+        },
+        "value": {
+          "fr": [
+            "musee d'Orsay"
+          ]
+        }
+      }
+    ],
+    "viewingDirection": "left-to-right",
+    "items": [
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/canvas/canvas-1-17-622579",
+        "type": "Canvas",
+        "height": 829,
+        "width": 850,
+        "label": {
+          "fr": [
+            "Le Bassin aux nympheas, harmonie verte"
+          ],
+          "en": [
+            "Le Bassin aux nympheas, harmonie verte"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© GrandPalaisRmn (musee d'Orsay) / Stephane Marechalle"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "24/07/2017"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                ""
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1175!153647_z1aictqrkbu74/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 850,
+            "height": 829
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/canvas/canvas-1-17-622579/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/annotation/anno-1-17-622579",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1175!153647_z1aictqrkbu74/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 829,
+                  "width": 850
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/canvas/canvas-1-17-622579"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/canvas/canvas-2-17-622579",
+        "type": "Canvas",
+        "height": 829,
+        "width": 850,
+        "label": {
+          "fr": [
+            "Le Bassin aux nympheas, harmonie verte"
+          ],
+          "en": [
+            "Le Bassin aux nympheas, harmonie verte"
+          ]
+        },
+        "metadata": [
+          {
+            "label": {
+              "fr": [
+                "Droits de l'image"
+              ],
+              "en": [
+                "Copyrights"
+              ]
+            },
+            "value": {
+              "fr": [
+                "© RMN-Grand Palais (Musee d'Orsay) / Stephane Marechalle"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Date de prise de vue"
+              ],
+              "en": [
+                "Capture date"
+              ]
+            },
+            "value": {
+              "fr": [
+                "24/07/2017"
+              ]
+            }
+          },
+          {
+            "label": {
+              "fr": [
+                "Type de prise de vue"
+              ],
+              "en": [
+                "Capture type"
+              ]
+            },
+            "value": {
+              "fr": [
+                "Avec cadre"
+              ]
+            }
+          }
+        ],
+        "thumbnail": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1175!547222_t1ajjzon540io/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/png",
+            "width": 850,
+            "height": 829
+          }
+        ],
+        "items": [
+          {
+            "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/canvas/canvas-2-17-622579/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/annotation/anno-2-17-622579",
+                "protocol": "https://iiif.io/api/image",
+                "profile": "level2",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.musee-orsay.fr/Scaler/IIIF/3/objects!1175!547222_t1ajjzon540io/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 829,
+                  "width": 850
+                },
+                "target": "https://iiif.musee-orsay.fr/Manifester/IIIF/3/objects!1175/canvas/canvas-2-17-622579"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "payloadSha256": "1e98423bf59d9cf74bbbf922ff187424ede800832456f7b2db1e01a2793682a0"
+}

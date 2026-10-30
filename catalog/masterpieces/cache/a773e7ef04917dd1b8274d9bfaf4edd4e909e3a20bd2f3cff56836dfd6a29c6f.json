@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Sky+above+Clouds+O%27Keeffe",
+  "retrievedAt": "2026-10-30T00:51:12.375Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 234.88492,
+        "id": 100858,
+        "title": "Sky above Clouds IV",
+        "main_reference_number": "1983.821",
+        "date_display": "1965",
+        "artist_title": "Georgia O'Keeffe",
+        "image_id": "ace9f8d4-eac7-e5f7-50b2-6a77f7029c9b",
+        "is_public_domain": false
+      },
+      {
+        "_score": 126.94956,
+        "id": 61428,
+        "title": "Cow's Skull with Calico Roses",
+        "main_reference_number": "1947.712",
+        "date_display": "1931",
+        "artist_title": "Georgia O'Keeffe",
+        "image_id": "9ae64560-a416-ec19-851a-c76c5ca3c64f",
+        "is_public_domain": false
+      },
+      {
+        "_score": 122.525955,
+        "id": 24306,
+        "title": "Blue and Green Music",
+        "main_reference_number": "1969.835",
+        "date_display": "1919–21",
+        "artist_title": "Georgia O'Keeffe",
+        "image_id": "3ee54063-9d78-ee86-0103-b477d988a93f",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "2bd2c8ad59cda044246da0577e7fdad64ea41a4a446c7790ccb3f3f56dbce32b"
+}

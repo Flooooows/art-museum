@@ -1,0 +1,1387 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata&prop=imageinfo&redirects=1&titles=File%3AJohannes+Vermeer+-+View+of+Delft+-+92+-+Mauritshuis.jpg%7CFile%3ASandro+Botticelli+-+La+Primavera+-+Google+Art+Project.jpg%7CFile%3AV%C3%A9nus+de+Milo+-+Mus%C3%A9e+du+Louvre+AGER+LL+299+%3B+N+527+%3B+Ma+399.jpg%7CFile%3AVictoire+de+Samothrace+-+Musee+du+Louvre+-+20190812.jpg%7CFile%3ALa+victoire+de+Samothrace+au+Louvre.jpg%7CFile%3AEdouard+Manet+-+Olympia+-+Google+Art+Project+3.jpg%7CFile%3AJohn+Constable+-+The+Hay+Wain+%281821%29.jpg%7CFile%3AVan+Eyck+-+Arnolfini+Portrait.jpg%7CFile%3AMagritte+treachery.jpg%7CFile%3ANighthawks+by+Edward+Hopper+1942.jpg%7CFile%3ARodin+-+Le+Baiser+06.jpg%7CFile%3A13602+El-beso-2.jpg%7CFile%3AUn+bar+aux+Folies-Berg%C3%A8re+d%27E.+Manet+%28Fondation+Vuitton%2C+Paris%29+%2833539037428%29.jpg%7CFile%3AEl+Tres+de+Mayo%2C+by+Francisco+de+Goya%2C+from+Prado+in+Google+Earth.jpg%7CFile%3AFrancisco+de+Goya+y+Lucientes+-+Los+fusilamientos+del+tres+de+mayo+-+1814.jpg",
+  "retrievedAt": "2026-10-30T00:41:24.909Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 11343084,
+          "ns": 6,
+          "title": "File:Van Eyck - Arnolfini Portrait.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11343084",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-02-13 15:09:01",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Arnolfini Portrait <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q220859#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The Arnolfini Portrait <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q220859#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The Arnolfini Portrait <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q220859#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Retrato de Arnolfini y su esposa\"</div><div style=\"display: none;\">label QS:Lhu,\"Arnolfini házaspár\"</div><div style=\"display: none;\">label QS:Leu,\"Arnolfini senar-emazteen erretratua\"</div><div style=\"display: none;\">label QS:Lru,\"Портрет четы Арнольфини\"</div><div style=\"display: none;\">label QS:Lde-ch,\"Arnolfini-Hochzeit\"</div><div style=\"display: none;\">label QS:Lde,\"Arnolfini-Porträt\"</div><div style=\"display: none;\">label QS:Len-gb,\"Arnolfini Portrait\"</div><div style=\"display: none;\">label QS:Lhy,\"Ադոլֆինի ամուսնական զույգի դիմանկար\"</div><div style=\"display: none;\">label QS:Lzh,\"阿尔诺非尼夫妇\"</div><div style=\"display: none;\">label QS:Lda,\"Arnolfinis bryllup\"</div><div style=\"display: none;\">label QS:Lka,\"არნოლფინების ოჯახის პორტრეტი\"</div><div style=\"display: none;\">label QS:Lja,\"アルノルフィーニ夫妻像\"</div><div style=\"display: none;\">label QS:Lsv,\"Makarna Arnolfinis trolovning\"</div><div style=\"display: none;\">label QS:Lhe,\"נישואי הזוג ארנולפיני\"</div><div style=\"display: none;\">label QS:Lla,\"Coniuges Arnolfini\"</div><div style=\"display: none;\">label QS:Lfi,\"Giovanni Arnolfini ja hänen vaimonsa\"</div><div style=\"display: none;\">label QS:Leo,\"La geedzoj Arnolfini\"</div><div style=\"display: none;\">label QS:Lit,\"Ritratto dei coniugi Arnolfini\"</div><div style=\"display: none;\">label QS:Lfr,\"Les Époux Arnolfini\"</div><div style=\"display: none;\">label QS:Lhr,\"Portret Arnolfinijevih\"</div><div style=\"display: none;\">label QS:Lmk,\"Портрет на Арнолфиниеви\"</div><div style=\"display: none;\">label QS:Larz,\"بورتريه ارنولفينى\"</div><div style=\"display: none;\">label QS:Lfa,\"پرتره آرنولفینی\"</div><div style=\"display: none;\">label QS:Lpt,\"O Casal Arnolfini\"</div><div style=\"display: none;\">label QS:Lvi,\"Chân dung Arnolfini\"</div><div style=\"display: none;\">label QS:Laz,\"Arnolfini cütlüyünün portreti\"</div><div style=\"display: none;\">label QS:Lko,\"아르놀피니 부부의 초상\"</div><div style=\"display: none;\">label QS:Len-ca,\"Arnolfini Portrait\"</div><div style=\"display: none;\">label QS:Lsr,\"Портрет Арнолфинијевих\"</div><div style=\"display: none;\">label QS:Lsl,\"Portret Arnolfinijev\"</div><div style=\"display: none;\">label QS:Lth,\"ภาพเหมือนอาร์นอลฟีนี\"</div><div style=\"display: none;\">label QS:Lpt-br,\"O Casal Arnolfini\"</div><div style=\"display: none;\">label QS:Lsh,\"Portret Arnolfinijevih\"</div><div style=\"display: none;\">label QS:Lid,\"Potret Arnolfini\"</div><div style=\"display: none;\">label QS:Lpl,\"Portret małżonków Arnolfinich\"</div><div style=\"display: none;\">label QS:Lnb,\"Arnolfinis bryllup\"</div><div style=\"display: none;\">label QS:Lnl,\"Portret van Giovanni Arnolfini en zijn vrouw\"</div><div style=\"display: none;\">label QS:Luk,\"Портрет подружжя Арнольфіні\"</div><div style=\"display: none;\">label QS:Lsk,\"Manželia Arnolfiniovci\"</div><div style=\"display: none;\">label QS:Lca,\"El matrimoni Arnolfini\"</div><div style=\"display: none;\">label QS:Ltr,\"Arnolfini'nin Evlenmesi\"</div><div style=\"display: none;\">label QS:Lgl,\"O matrimonio Arnolfini\"</div><div style=\"display: none;\">label QS:Lar,\"بورتريه أرنولفيني\"</div><div style=\"display: none;\">label QS:Lel,\"Ο γάμος των Αρνολφίνι\"</div><div style=\"display: none;\">label QS:Lcs,\"Svatba manželů Arnolfiniových\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Images with annotations|The Arnolfini Portrait by Jan van Eyck|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Turkish|CC-PD-Mark|Portraits from Norbert Schneider. The Art of the Portrait|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Files with Assessments template missing SDC Commons no value quality assessment|Paintings in the National Gallery, London - Room 52|Images from the National Gallery, London|Paintings of Hennins",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jan_van_Eyck\" class=\"extiw\" title=\"w:en:Jan van Eyck\"><span title=\"Flemish painter (c.1390–1441)\">Jan van Eyck</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1434 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q220859#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait\">Web site of National Gallery, London</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 13521644,
+          "ns": 6,
+          "title": "File:Sandro Botticelli - La Primavera - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=13521644",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-02-20 20:58:30",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Italian:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>La Primavera</i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>La Primavera (Spring)</i></div></div><div style=\"display: none;\">title QS:P1476,it:\"La Primavera\"</div><div style=\"display: none;\">label QS:Lit,\"La Primavera\"</div><div style=\"display: none;\">label QS:Len,\"La Primavera (Spring)\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Primavera by Sandro Botticelli|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Google Art Project works by Sandro Botticelli|Google Art Project works in Uffizi Gallery|Artworks digital representation of 2D work|Files from Google Arts & Culture",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Sandro_Botticelli\" class=\"extiw\" title=\"w:en:Sandro Botticelli\"><span title=\"Italian painter (1445–1510)\">Sandro Botticelli</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1480 and 1485<div style=\"display: none;\">date QS:P,+1480-00-00T00:00:00Z/8,P1319,+1480-00-00T00:00:00Z/9,P1326,+1485-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q549847#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span><br><a href=\"https://www.wikidata.org/wiki/Q1472236\" class=\"extiw\" title=\"d:Q1472236\"><span title=\"art movement\">Early Renaissance</span></a> (1420s<div style=\"display: none;\">date QS:P,+1420-00-00T00:00:00Z/8</div>–1500) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q549847#P2348\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/yQER9P-WIU2k9A\">yQER9P-WIU2k9A</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 15476172,
+          "ns": 6,
+          "title": "File:Francisco de Goya y Lucientes - Los fusilamientos del tres de mayo - 1814.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Francisco_de_Goya_y_Lucientes_-_Los_fusilamientos_del_tres_de_mayo_-_1814.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Francisco_de_Goya_y_Lucientes_-_Los_fusilamientos_del_tres_de_mayo_-_1814.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15476172",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-11-24 06:12:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Third of May, 1808 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1091086#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">label QS:Les,\"El Tres de Mayo\"</div><div style=\"display: none;\">label QS:Lfr,\"Le trois mai\"</div><div style=\"display: none;\">label QS:Len,\"<a href=\"https://en.wikipedia.org/wiki/The_Third_of_May_1808\" class=\"extiw\" title=\"w:The Third of May 1808\">The Third of May</a>\"</div><div style=\"display: none;\">label QS:Lit,\"Il 3 maggio 1808\"</div><div style=\"display: none;\">label QS:Lde,\"Erschießung der Aufständischen am 3. Mai 1808 in Madrid\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Superseded|Author died more than 100 years ago public domain images|PD-Art (Yorck Project)|Artworks with Wikidata item|Artworks with known accession number|El tres de mayo de 1808 en Madrid|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "40.413806",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-3.691917",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Francisco_Goya\" class=\"extiw\" title=\"w:en:Francisco Goya\"><span title=\"Spanish painter and printmaker (1746–1828)\">Francisco Goya</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1814<div style=\"display: none;\">date QS:P571,+1814-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://www.museodelprado.es/coleccion/galeria-on-line/galeria-on-line/obra/el-3-de-mayo-de-1808-en-madrid-los-fusilamientos-en-la-montana-del-principe-pio\">[1]</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<a class=\"external autonumber\" data-mw-original-href=\"http://mail.wikipedia.org/pipermail/wikide-l/2005-April/012195.html\" href=\"https://mail.wikipedia.org/pipermail/wikide-l/2005-April/012195.html\">[2]</a>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22615690,
+          "ns": 6,
+          "title": "File:El Tres de Mayo, by Francisco de Goya, from Prado in Google Earth.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_in_Google_Earth.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22615690",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-11-10 07:52:18",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Spanish:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"es\"><i>El Tres de Mayo.</i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Third of May</i></div></div><div style=\"display: none;\">title QS:P1476,es:\"El Tres de Mayo.\"</div><div style=\"display: none;\">label QS:Les,\"El Tres de Mayo.\"</div><div style=\"display: none;\">label QS:Lfr,\"Le trois mai\"</div><div style=\"display: none;\">label QS:Len,\"The Third of May\"</div><div style=\"display: none;\">label QS:Lit,\"Il 3 maggio 1808\"</div><div style=\"display: none;\">label QS:Lde,\"Erschießung der Aufständischen am 3. Mai 1808 in Madrid\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Files with derivative versions|El tres de mayo de 1808 en Madrid|Prado in Google Earth|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "40.413806",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-3.691917",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Francisco_Goya\" class=\"extiw\" title=\"w:en:Francisco Goya\"><span title=\"Spanish painter and printmaker (1746–1828)\">Francisco Goya</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "In 1814",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "The Prado in Google Earth:  <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150525230020/http://www.google.com/intl/en/landing/prado/\">Home page</a> 7<sup>th</sup> level of zoom, JPEG compression quality: Photoshop 8.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 23737568,
+          "ns": 6,
+          "title": "File:Edouard Manet - Olympia - Google Art Project 3.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=23737568",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2022-05-10 14:34:30",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\nOlympia</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Olympia (Édouard Manet)|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Turkish|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work|Files with Assessments template missing SDC Commons no value quality assessment",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:%C3%89douard_Manet\" class=\"extiw\" title=\"w:en:Édouard Manet\"><span title=\"French painter (1832–1883)\">Édouard Manet</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nThis is a derivative work based on the Google Art Project image (see gallery below). The flesh tone has been warmed.</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1863<div style=\"display: none;\">date QS:P571,+1863-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Google Art Project: <a rel=\"nofollow\" class=\"external text\" href=\"http://www.googleartproject.com/\">Home</a> - <a rel=\"nofollow\" class=\"external text\" href=\"http://www.googleartproject.com/es/collection/musee-dorsay-paris/artwork/olympia-edouard-manet/486053/\">pic</a> Maximum resolution. Colours edited by uploader",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 25899486,
+          "ns": 6,
+          "title": "File:Nighthawks by Edward Hopper 1942.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nighthawks_by_Edward_Hopper_1942.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=25899486",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-05-04 18:20:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<i>Nighthawks</i></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Nighthawks (Edward Hopper)|Featured pictures on Wikipedia, English|Artworks with Wikidata item|Artworks with known accession number|PD-Art (PD-old-auto-1964)|Picture of week on the Czech Wikipedia|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Turkish|Objects with inscriptions (language unspecified)|Artworks with accession number from Wikidata|PD-old-50-1964|Featured pictures of paintings from the United States|Featured pictures in the public domain|Artworks digital representation of 2D work|Pictures of the Year/2020 (finalist)|Featured pictures that survived DR|Featured pictures of buildings in the United States|Featured pictures of paintings in Chicago",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|poty",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Edward_Hopper\" class=\"extiw\" title=\"w:en:Edward Hopper\"><span title=\"American realist painter and printmaker (1882-1967)\">Edward Hopper</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<i>Nighthawks</i> by Edward Hopper, 1942",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "21 January 1942<div style=\"display: none;\">date QS:P571,+1942-01-21T00:00:00Z/11</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.artic.edu/aic/collections/artwork/111628\">http://www.artic.edu/aic/collections/artwork/111628</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<p>From <a rel=\"nofollow\" class=\"external text\" href=\"http://www.artic.edu/aic/collections/exhibitions/Ryerson/CopyrightLaw/6\">\"Copyright Law: Publishing Art and the Public Domain\"</a> on the Art Institute of Chicago website:\n</p>\n<dl><dd>\"These publications illustrate more artworks that are now in the public domain in the United States because the artists did not file copyright renewal applications within the one-year renewal window at the end of the 28 years following the first publication. All of these artists died fewer than 70 years ago, so these artworks are potentially protected by copyright in countries that calculate copyright protection based on the life of the artist.</dd>\n<dd>*<a href=\"https://en.wikipedia.org/wiki/Edward_Hopper\" class=\"extiw\" title=\"w:Edward Hopper\">Edward Hopper</a>, <i>Nighthawks</i>, 1942. From: The Art Institute of Chicago, Fifty-third Annual Exhibition of American Paintings and Sculpture. Chicago: 1942.</dd>\n<dd>*<a href=\"https://en.wikipedia.org/wiki/Salvador_Dali\" class=\"extiw\" title=\"w:Salvador Dali\">Salvador Dali</a>, <i>Inventions of the Monsters</i>, 1937. From: James Thrall Soby, Salvador Dali. New York: Museum of Modern Art, 1946.</dd>\n<dd>*<a href=\"https://en.wikipedia.org/wiki/Ivan_Albright\" class=\"extiw\" title=\"w:Ivan Albright\">Ivan Albright</a>, <i>Heavy the Oar to Him Who is Tired, Heavy the Coat, Heavy the Sea</i>, 1929. From: WFMT Chicago Fine Arts Guide. Chicago: November 1960.\"</dd></dl>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 29779372,
+          "ns": 6,
+          "title": "File:John Constable - The Hay Wain (1821).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/John_Constable_-_The_Hay_Wain_%281821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:John_Constable_-_The_Hay_Wain_(1821).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=29779372",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-11-22 20:39:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">The Hay Wain</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Hay Wain|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks digital representation of 2D work|Artworks with digital representation of different depicts",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:John_Constable\" class=\"extiw\" title=\"w:en:John Constable\"><span title=\"English painter (1776-1837)\">John Constable</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1821<div style=\"display: none;\">date QS:P571,+1821-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://en.gallerix.ru/album/National-Gallery-London-4/pic/glrx-1082704135\">National Gallery, London via gallerix.ru</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 49380699,
+          "ns": 6,
+          "title": "File:13602 El-beso-2.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/13602_El-beso-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:13602_El-beso-2.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=49380699",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-06-11 14:12:08",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "The Kiss",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD US|Author died more than 100 years ago public domain images|Artworks with Wikidata item|CC-PD-Mark|Images donated by Museo Soumaya|Sculptures by Auguste Rodin in the Museo Soumaya|Artworks main subject 3D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Auguste_Rodin\" class=\"extiw\" title=\"w:en:Auguste Rodin\"><span title=\"French sculptor (1840–1917)\">Auguste Rodin</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1889<div style=\"display: none;\">date QS:P571,+1889-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Museo Soumaya",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "This image might not be in the public domain outside of the United States; this especially applies in the countries and areas that do not apply the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a> for US works, such as Canada, Mainland China (not Hong Kong or Macao), Germany, Mexico, and Switzerland. The creator and year of publication are essential information and must be provided. See <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Public_domain\" class=\"extiw\" title=\"w:Wikipedia:Public domain\">Wikipedia:Public domain</a> and <a href=\"https://en.wikipedia.org/wiki/Wikipedia:Copyrights\" class=\"extiw\" title=\"w:Wikipedia:Copyrights\">Wikipedia:Copyrights</a> for more details.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 81325360,
+          "ns": 6,
+          "title": "File:Victoire de Samothrace - Musee du Louvre - 20190812.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81325360",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-04-02 11:58:15",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Victoire de Samothrace - Musee du Louvre - 20190812",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|Self-published work|Artworks with Wikidata item|Artworks with known accession number|Artworks with accession number from Wikidata|Artworks main subject 3D work|Front left views of the Nike of Samothrace",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.860028",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.336694",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Victory of Samothrace",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2018-12-08",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Shonagon\" title=\"User:Shonagon\">Shonagon</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 83676367,
+          "ns": 6,
+          "title": "File:Un bar aux Folies-Bergère d'E. Manet (Fondation Vuitton, Paris) (33539037428).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Un_bar_aux_Folies-Berg%C3%A8re_d%27E._Manet_%28Fondation_Vuitton%2C_Paris%29_%2833539037428%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Un_bar_aux_Folies-Berg%C3%A8re_d%27E._Manet_(Fondation_Vuitton,_Paris)_(33539037428).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=83676367",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-11-05 07:09:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">French:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"fr\"><i>Un bar aux Folies Bergère <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1245354#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>A Bar at the Folies-Bergère</i></div></div><div style=\"display: none;\">title QS:P1476,fr:\"Un bar aux Folies Bergère <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1245354#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lfr,\"Un bar aux Folies Bergère <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1245354#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Un bar del Folies Bergère\"</div><div style=\"display: none;\">label QS:Lhu,\"A Folies Bergère bárja\"</div><div style=\"display: none;\">label QS:Leu,\"Folies Bergèreko taberna\"</div><div style=\"display: none;\">label QS:Lru,\"Бар в «Фоли-Бержер»\"</div><div style=\"display: none;\">label QS:Lde,\"Bar in den Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lhy,\"Բար Ֆոլի Բերժերում\"</div><div style=\"display: none;\">label QS:Lzh,\"女神游乐厅的吧台\"</div><div style=\"display: none;\">label QS:Lda,\"En bar i Folies-Bergère\"</div><div style=\"display: none;\">label QS:Ltr,\"Folies-Bergère'de Bir Bar\"</div><div style=\"display: none;\">label QS:Lja,\"フォリー・ベルジェールのバー\"</div><div style=\"display: none;\">label QS:Lsv,\"En bar i Folies Bergère\"</div><div style=\"display: none;\">label QS:Lhe,\"הבר בפולי ברז'ר\"</div><div style=\"display: none;\">label QS:Lig,\"A Bar at the Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"女神遊樂廳的吧台\"</div><div style=\"display: none;\">label QS:Lko,\"폴리베르제르의 바\"</div><div style=\"display: none;\">label QS:Leo,\"Drinkejo ĉe Folies Bergère\"</div><div style=\"display: none;\">label QS:Lit,\"Il bar delle Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lhr,\"Bar u Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lcs,\"Bar ve Folies Bergère\"</div><div style=\"display: none;\">label QS:Lla,\"Taberna apud Folies Bergère\"</div><div style=\"display: none;\">label QS:Larz,\"حانه فى فوليس بيرجير\"</div><div style=\"display: none;\">label QS:Len,\"A Bar at the Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lff,\"A Bar at the Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Бар у Фоли Бержеру\"</div><div style=\"display: none;\">label QS:Llv,\"Bārs Foliberžērā\"</div><div style=\"display: none;\">label QS:Lro,\"Un bar la Folies Bergère\"</div><div style=\"display: none;\">label QS:Llt,\"Foli Beržer baras\"</div><div style=\"display: none;\">label QS:Lsl,\"Bar v Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lsr,\"Бар у Фоли Бержеру\"</div><div style=\"display: none;\">label QS:Lid,\"A Bar at the Folies-Bergère\"</div><div style=\"display: none;\">label QS:Laz,\"Folies-Bergèredə bar\"</div><div style=\"display: none;\">label QS:Lmn,\"Фоли-Бердже дэх баар\"</div><div style=\"display: none;\">label QS:Lpl,\"Bar w Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lnl,\"Een bar in de Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lsh,\"Bar u Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lca,\"El bar del Folies Bergère\"</div><div style=\"display: none;\">label QS:Lfa,\"بار فولی برژه\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"女神遊樂廳的吧台\"</div><div style=\"display: none;\">label QS:Lpt,\"Um Bar em Folies-Bergère\"</div><div style=\"display: none;\">label QS:Lgl,\"Un bar aux Folies Bergère\"</div><div style=\"display: none;\">label QS:Luk,\"Бар «Фолі-Бержер»\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"女神游乐厅的吧台\"</div><div style=\"display: none;\">label QS:Lmk,\"Бар во Фоли-Бержер (Мане)\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "A Bar at the Folies-Bergère by Manet|Artworks with Wikidata item|Artworks with known accession number|Artworks with accession number from Wikidata|Artworks with Wikidata item missing author|Photographs by Jean-Pierre Dalbéra|Flickr images reviewed by FlickreviewR 2|Files with coordinates missing SDC location of creation (48° N, 2° E)|Artworks digital representation of 2D work|Artworks with digital representation of different depicts|The Courtauld Collection. A Vision for Impressionism",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.876605",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.263559",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:%C3%89douard_Manet\" class=\"extiw\" title=\"w:en:Édouard Manet\"><span title=\"French painter (1832–1883)\">Édouard Manet</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<p><b>Un bar aux Folies-Bergère</b>\nOeuvre d'Édouard Manet (1832-1883)\n1882\nHuile sur toile\nThe Courtauld Gallery, Londres (Samuel Courtauld Trust)\nDon de Courtauld, 1932\n</p><p>Le tableau de Manet est un des fleurons de la collection Courtauld. C'est le dernier tableau de l'artiste qui était très malade quand il l'a peint. Il est nostalgique comme le visage de la jeune femme. Peut-être l'artiste a-t-il voulu montrer qu'il ne s'agissait que de souvenirs ?\n</p><p><i>L'exposition présente la collection de l'industriel et mécène anglais Samuel Courtauld, l'une des plus significatives collections de peintres impressionnistes, rassemblés pour la première fois à Paris depuis 60 ans.</i>\nExtrait du site de l'exposition \"La Collection Courtauld. Le parti de l'Impressionnisme\" à la Fondation Vuitton, Paris jusqu'au 17/06/2019\n&lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"https://www.fondationlouisvuitton.fr/fr/expositions/exposition/la-collection-courtauld-le-parti-de-l-impressionnisme.html\">https://www.fondationlouisvuitton.fr/fr/expositions/exposition/la-collection-courtauld-le-parti-de-l-impressionnisme.html</a>\" rel=\"noreferrer nofollow\"&gt;www.fondationlouisvuitton.fr/fr/expositions/exposition/la...&lt;/a&gt;\n</p>\n\"The Courtauld Collection. A Vision for Impressionism\", from 20 February to 17 June 2019, Fondation Louis Vuitton, Paris, France.</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1882 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1245354#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dalbera/33539037428/\">Un bar aux Folies-Bergère d'E. Manet (Fondation Vuitton, Paris)</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 86344311,
+          "ns": 6,
+          "title": "File:Johannes Vermeer - View of Delft - 92 - Mauritshuis.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Johannes_Vermeer_-_View_of_Delft_-_92_-_Mauritshuis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_View_of_Delft_-_92_-_Mauritshuis.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=86344311",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-01-27 07:02:28",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>View of Delft <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q523974#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"View of Delft <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q523974#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"View of Delft <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q523974#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Vista de Delft\"</div><div style=\"display: none;\">label QS:Lhu,\"Delft látképe\"</div><div style=\"display: none;\">label QS:Lms,\"Pemandangan Delft\"</div><div style=\"display: none;\">label QS:Lde,\"Ansicht von Delft\"</div><div style=\"display: none;\">label QS:Lhy,\"Դելֆտի տեսարան\"</div><div style=\"display: none;\">label QS:Lbg,\"Изглед от Делфт\"</div><div style=\"display: none;\">label QS:Lda,\"Udsigt over Delft\"</div><div style=\"display: none;\">label QS:Lro,\"Vedere din Delft\"</div><div style=\"display: none;\">label QS:Lja,\"デルフト眺望\"</div><div style=\"display: none;\">label QS:Lsv,\"Vy över Delft\"</div><div style=\"display: none;\">label QS:Luk,\"Краєвид Делфта\"</div><div style=\"display: none;\">label QS:Lavk,\"Wiks va Delft (trutca ke Vermeer)\"</div><div style=\"display: none;\">label QS:Lko,\"델프트 풍경\"</div><div style=\"display: none;\">label QS:Leo,\"Panoramo de Delft\"</div><div style=\"display: none;\">label QS:Lit,\"Veduta di Delft\"</div><div style=\"display: none;\">label QS:Lfr,\"Vue de Delft\"</div><div style=\"display: none;\">label QS:Lhr,\"Pogled na Delft\"</div><div style=\"display: none;\">label QS:Lmk,\"Поглед на Делфт\"</div><div style=\"display: none;\">label QS:Lhe,\"נוף העיר דלפט\"</div><div style=\"display: none;\">label QS:Lpt,\"Vista de Delft\"</div><div style=\"display: none;\">label QS:Larz,\"منظر ديلفت\"</div><div style=\"display: none;\">label QS:Llv,\"Delftas skats\"</div><div style=\"display: none;\">label QS:Los,\"Делфты уынд\"</div><div style=\"display: none;\">label QS:Lru,\"Вид Делфта\"</div><div style=\"display: none;\">label QS:Lsl,\"Pogled na Delft\"</div><div style=\"display: none;\">label QS:Lfa,\"چشم‌انداز دلفت\"</div><div style=\"display: none;\">label QS:Ltr,\"Delft Manzarası\"</div><div style=\"display: none;\">label QS:Lnb,\"«Utsikt over Delft»\"</div><div style=\"display: none;\">label QS:Laz,\"Delft mənzərəsi (rəsm əsəri)\"</div><div style=\"display: none;\">label QS:Lpl,\"Widok Delftu\"</div><div style=\"display: none;\">label QS:Lml,\"വ്യൂ ഓഫ് ഡെൽഫ്റ്റ്\"</div><div style=\"display: none;\">label QS:Lsh,\"Pogled na Delft\"</div><div style=\"display: none;\">label QS:Lnl,\"Gezicht op Delft\"</div><div style=\"display: none;\">label QS:Lca,\"Vista de Delft\"</div><div style=\"display: none;\">label QS:Lzh,\"台夫特風景\"</div><div style=\"display: none;\">label QS:Lpnb,\"ڈیلفٹ دا وکھالہ\"</div><div style=\"display: none;\">label QS:Lgl,\"Vista de Delft\"</div><div style=\"display: none;\">label QS:Lar,\"منظر ديلفت\"</div><div style=\"display: none;\">label QS:Lbr,\"Gwel eus Delft\"</div><div style=\"display: none;\">label QS:Lcs,\"Pohled na Delft\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "View of Delft by Johannes Vermeer|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "52.004167",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "4.361111",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johannes_Vermeer\" class=\"extiw\" title=\"w:en:Johannes Vermeer\"><span title=\"Dutch painter (1632–1675)\">Johannes Vermeer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between circa 1660 and circa 1661<div style=\"display: none;\">date QS:P,+1660-00-00T00:00:00Z/8,P1319,+1660-00-00T00:00:00Z/9,P1326,+1661-00-00T00:00:00Z/9,P1480,Q5727902</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q523974#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span><br><a href=\"https://en.wikipedia.org/wiki/en:Baroque\" class=\"extiw\" title=\"w:en:Baroque\"><span title=\"cultural movement, starting around 1600\">Baroque</span></a> (late 16<sup>th</sup> century<div style=\"display: none;\">date QS:P,+1550-00-00T00:00:00Z/7,P4241,Q40719766</div>–1750s<div style=\"display: none;\">date QS:P,+1750-00-00T00:00:00Z/8</div>) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q523974#P2348\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.mauritshuis.nl/nl-nl/verdiep/de-collectie/kunstwerken/gezicht-op-delft-92/\">Mauritshuis</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg\" class=\"mw-file-description\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 89538327,
+          "ns": 6,
+          "title": "File:Rodin - Le Baiser 06.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Rodin_-_Le_Baiser_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rodin_-_Le_Baiser_06.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=89538327",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-04-27 15:52:10",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Rodin - Le Baiser 06",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|Self-published work|Base Joconde|CC-PD-Mark|Le Baiser by Auguste Rodin (Musée Rodin)|Photographs by Tylwyth Eldar - Perpignan|Rodin - Maillol face à face",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Le Baiser de Rodin, vers 1881-1882. Plâtre patiné, Musée de Rodin, Paris (Numéro d'inventaire : S.02834 et <a href=\"https://en.wikipedia.org/wiki/Joconde\" class=\"extiw\" title=\"en:Joconde\">Joconde database</a>:  entry  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.pop.culture.gouv.fr/notice/joconde/000SC008792\">000SC008792</a>). Modèle présentant l'état original du groupe. Présent lors de l'exposition temporaire du Musée Hyacinthe Rigaud \"Rodin - Maillol Face à face\" de 2019.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2019-10-27 15:26:14",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Tylwyth_Eldar\" title=\"User:Tylwyth Eldar\">Tylwyth Eldar</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1917, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 129249571,
+          "ns": 6,
+          "title": "File:La victoire de Samothrace au Louvre.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/La_victoire_de_Samothrace_au_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_victoire_de_Samothrace_au_Louvre.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129249571",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-03-03 22:40:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "La victoire de Samothrace au Louvre",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Large images|Flickr images reviewed by FlickreviewR 2|Front views of the Nike of Samothrace|Images by Le Commissaire",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Credits to <b>Mickaël Schauli</b> / Wikimedia Commons",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-03-03 12:25:59",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/197878255@N08/52723499521/\">https://www.flickr.com/photos/197878255@N08/52723499521/</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "mickaelschauli",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 145514697,
+          "ns": 6,
+          "title": "File:Vénus de Milo - Musée du Louvre AGER LL 299 ; N 527 ; Ma 399.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145514697",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-02-19 12:34:15",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Vénus de Milo - Musée du Louvre AGER LL 299 ; N 527 ; Ma 399",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|Self-published work|Artworks with Wikidata item|Artworks with known accession number|Front views of the Venus de Milo|Pages with complex technique templates|Template Unknown (author)|Artworks with accession number from Wikidata|Artworks main subject 3D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.859945",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.337288",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Ancient Greek marble statue of the goddess Aphrodite <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2024-02-15",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Shonagon\" title=\"User:Shonagon\">Shonagon</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 171513750,
+          "ns": 6,
+          "title": "File:Magritte treachery.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Magritte_treachery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Magritte_treachery.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=171513750",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-08-04 02:27:09",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Magritte treachery",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "La Trahison des images|PD Old auto: no death date|Self-published work|Artworks with Wikidata item|Artworks with known accession number|PD US expired|Artworks with accession number from Wikidata|Artworks with Wikidata item redundant artist|Artworks missing digital representation of for 2D work|Artworks with Wikidata item missing genre|Artworks with SDC link missing|Deletion requests May 2026",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "DateTimeOriginal": {
+                  "value": "2017-04-14",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Caterpillar84\" title=\"User:Caterpillar84\">Caterpillar84</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "Public domain works must be out of copyright in both the United States and in the source country of the work in order to be hosted on the Commons. If the work is not a U.S. work, the file <b>must</b> have an additional <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags\" title=\"Commons:Copyright tags\">copyright tag</a> indicating the copyright status in the source country.<br><b>Note:</b> This tag should <i>not</i> be used for sound recordings.<span style=\"display:none;\"><span class=\"licensetpl_short\">PD-1923</span><span class=\"licensetpl_long\"><a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">Public domain</a> in the United States</span><span class=\"licensetpl_link\">//commons.wikimedia.org/wiki/File:Magritte_treachery.jpg</span></span>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "4539bd154eea7650e44f9f17e31ab4f955b9e6836c1dd8ef64439a089e60bccf"
+}

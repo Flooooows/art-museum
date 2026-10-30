@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/La_Boh%C3%A9mienne_endormie/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:21:08.860Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 399
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 380
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 337
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2329
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 367
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 704
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1030
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 844
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 554
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 401
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 358
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "La_Bohémienne_endormie",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 304
+      }
+    ]
+  },
+  "payloadSha256": "f3d83da5d6969843b613539d097d53235203c10540a7c2e9db76539485994851"
+}

@@ -1,0 +1,119 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/12127",
+  "retrievedAt": "2026-10-30T01:46:16.426Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 12127,
+    "isHighlight": true,
+    "accessionNumber": "16.53",
+    "accessionYear": "1916",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-29006-001.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-29006-001.jpg",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 162377,
+        "role": "Artist",
+        "name": "John Singer Sargent",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500023972",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q155626",
+        "gender": ""
+      }
+    ],
+    "department": "The American Wing",
+    "objectName": "Painting",
+    "title": "Madame X (Virginie Amélie Avegno Gautreau)",
+    "culture": "American",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "John Singer Sargent",
+    "artistDisplayBio": "American, Florence 1856–1925 London",
+    "artistSuffix": "",
+    "artistAlphaSort": "Sargent, John Singer",
+    "artistNationality": "American",
+    "artistBeginDate": "1856",
+    "artistEndDate": "1925",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q155626",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500023972",
+    "objectDate": "1883–84",
+    "objectBeginDate": 1883,
+    "objectEndDate": 1884,
+    "medium": "Oil on canvas",
+    "dimensions": "82 1/8 × 43 1/4 in. (208.6 × 109.9 cm)\r\nFramed: 95 3/4 × 56 5/8 × 5 in. (243.2 × 143.8 × 12.7 cm)",
+    "measurements": [
+      {
+        "elementName": "Framed",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Depth": 12.7,
+          "Height": 243.2,
+          "Width": 143.8
+        }
+      },
+      {
+        "elementName": "Overall",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 208.6,
+          "Width": 109.9
+        }
+      },
+      {
+        "elementName": "Glazing",
+        "elementDescription": "when needed",
+        "elementMeasurements": {
+          "Height": 209.55042,
+          "Thickness": 0.6,
+          "Width": 110.64897
+        }
+      }
+    ],
+    "creditLine": "Arthur Hoppock Hearn Fund, 1916",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2026-07-23T04:54:57.013Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/12127",
+    "tags": [
+      {
+        "term": "Portraits",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+      },
+      {
+        "term": "Profiles",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300123319",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q4382010"
+      },
+      {
+        "term": "Women",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+      }
+    ],
+    "objectWikidata_URL": "https://www.wikidata.org/wiki/Q2664039",
+    "isTimelineWork": true,
+    "GalleryNumber": "771"
+  },
+  "payloadSha256": "c8147928a5643e66bfd55432929b1dbbedeb07fa61168532ed6147c3bfc14e7c"
+}

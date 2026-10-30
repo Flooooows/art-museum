@@ -1,0 +1,628 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Jean-Auguste-Dominique+Ingres%7CGustave+Courbet%7CJean-Fran%C3%A7ois+Millet%7CHonor%C3%A9+Daumier%7C%C3%89douard+Manet%7CWinslow+Homer%7CThomas+Eakins%7CJohn+Singer+Sargent%7CJames+McNeill+Whistler%7CClaude+Monet%7CPierre-Auguste+Renoir%7CEdgar+Degas%7CBerthe+Morisot%7CMary+Cassatt%7CCamille+Pissarro%7CAlfred+Sisley%7CGeorges+Seurat%7CPaul+Signac%7CVincent+van+Gogh%7CPaul+C%C3%A9zanne%7CPaul+Gauguin%7CHenri+de+Toulouse-Lautrec%7CHenri+Rousseau%7CGustave+Caillebotte%7CEdvard+Munch%7CGustav+Klimt%7CEgon+Schiele%7CHenri+Matisse%7CAndr%C3%A9+Derain%7CVassily+Kandinsky",
+  "retrievedAt": "2026-10-30T01:43:50.805Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Pierre-Auguste Renoir",
+          "to": "Auguste Renoir"
+        },
+        {
+          "from": "James McNeill Whistler",
+          "to": "James Abbott McNeill Whistler"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 5359,
+          "ns": 0,
+          "title": "Paul Cézanne",
+          "pageprops": {
+            "defaultsort": "Cezanne, Paul",
+            "page_image_free": "Paul_Cézanne_O.I..jpg",
+            "wikibase_item": "Q35548"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:46Z",
+          "lastrevid": 239969416,
+          "length": 119934,
+          "fullurl": "https://fr.wikipedia.org/wiki/Paul_C%C3%A9zanne",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Paul_C%C3%A9zanne&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Paul_C%C3%A9zanne"
+        },
+        {
+          "pageid": 5364,
+          "ns": 0,
+          "title": "Claude Monet",
+          "pageprops": {
+            "defaultsort": "Monet, Claude",
+            "page_image_free": "Claude_Monet_1899_Nadar_crop.jpg",
+            "wikibase_item": "Q296"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:46Z",
+          "lastrevid": 240818442,
+          "length": 170145,
+          "fullurl": "https://fr.wikipedia.org/wiki/Claude_Monet",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Claude_Monet&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Claude_Monet"
+        },
+        {
+          "pageid": 10825,
+          "ns": 0,
+          "title": "Edgar Degas",
+          "pageprops": {
+            "defaultsort": "Degas, Edgar",
+            "page_image_free": "Edgar_Degas_(1834-1917).jpg",
+            "wikibase_item": "Q46373"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:48Z",
+          "lastrevid": 240038306,
+          "length": 96496,
+          "fullurl": "https://fr.wikipedia.org/wiki/Edgar_Degas",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Edgar_Degas&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Edgar_Degas"
+        },
+        {
+          "pageid": 16709,
+          "ns": 0,
+          "title": "Berthe Morisot",
+          "pageprops": {
+            "defaultsort": "Morisot, Berthe",
+            "page_image_free": "Morisot_berthe_photo.jpg",
+            "wikibase_item": "Q105320"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:49Z",
+          "lastrevid": 240774928,
+          "length": 143558,
+          "fullurl": "https://fr.wikipedia.org/wiki/Berthe_Morisot",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Berthe_Morisot&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Berthe_Morisot"
+        },
+        {
+          "pageid": 16922,
+          "ns": 0,
+          "title": "Gustave Caillebotte",
+          "pageprops": {
+            "defaultsort": "Caillebotte, Gustave",
+            "page_image_free": "Gustave_Caillebotte_photo_c1878.jpg",
+            "wikibase_item": "Q295144"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:49Z",
+          "lastrevid": 240305428,
+          "length": 78118,
+          "fullurl": "https://fr.wikipedia.org/wiki/Gustave_Caillebotte",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Gustave_Caillebotte&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Gustave_Caillebotte"
+        },
+        {
+          "pageid": 18243,
+          "ns": 0,
+          "title": "Jean-Auguste-Dominique Ingres",
+          "pageprops": {
+            "defaultsort": "Ingres, Jean-Auguste-Dominique",
+            "page_image_free": "Ingres,_Self-portrait.jpg",
+            "wikibase_item": "Q23380"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:50Z",
+          "lastrevid": 240658822,
+          "length": 86916,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jean-Auguste-Dominique_Ingres",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jean-Auguste-Dominique_Ingres&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jean-Auguste-Dominique_Ingres"
+        },
+        {
+          "pageid": 20395,
+          "ns": 0,
+          "title": "Vincent van Gogh",
+          "pageprops": {
+            "defaultsort": "Gogh, Vincent van",
+            "page_image_free": "Self-Portrait_with_a_Straw_Hat_(obverse-_The_Potato_Peeler)_MET_ep67.187.70A.R.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q5582"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:50Z",
+          "lastrevid": 240818567,
+          "length": 157365,
+          "fullurl": "https://fr.wikipedia.org/wiki/Vincent_van_Gogh",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Vincent_van_Gogh&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Vincent_van_Gogh"
+        },
+        {
+          "pageid": 34056,
+          "ns": 0,
+          "title": "Camille Pissarro",
+          "pageprops": {
+            "defaultsort": "Pissarro, Camille",
+            "page_image_free": "Pissarro-portrait.jpg",
+            "wikibase_item": "Q134741"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:05Z",
+          "lastrevid": 240777236,
+          "length": 138029,
+          "fullurl": "https://fr.wikipedia.org/wiki/Camille_Pissarro",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Camille_Pissarro&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Camille_Pissarro"
+        },
+        {
+          "pageid": 37235,
+          "ns": 0,
+          "title": "Henri de Toulouse-Lautrec",
+          "pageprops": {
+            "defaultsort": "Toulouse-Lautrec, Henri de",
+            "page_image_free": "Henri_de_Toulouse-Lautrec.png",
+            "wikibase_item": "Q82445"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:52Z",
+          "lastrevid": 240288233,
+          "length": 57672,
+          "fullurl": "https://fr.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Henri_de_Toulouse-Lautrec&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec"
+        },
+        {
+          "pageid": 40131,
+          "ns": 0,
+          "title": "Vassily Kandinsky",
+          "pageprops": {
+            "defaultsort": "Kandinsky, Vassily",
+            "page_image_free": "Wassily_kandinsky.jpg",
+            "wikibase_item": "Q61064"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:52Z",
+          "lastrevid": 240465050,
+          "length": 78790,
+          "fullurl": "https://fr.wikipedia.org/wiki/Vassily_Kandinsky",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Vassily_Kandinsky&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Vassily_Kandinsky"
+        },
+        {
+          "pageid": 61553,
+          "ns": 0,
+          "title": "Jean-François Millet",
+          "pageprops": {
+            "defaultsort": "Millet, Jean-François",
+            "page_image_free": "Jean-FrancoisMillet(Nadar).jpg",
+            "wikibase_item": "Q148458"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:55Z",
+          "lastrevid": 240103171,
+          "length": 36234,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jean-Fran%C3%A7ois_Millet&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet"
+        },
+        {
+          "pageid": 66789,
+          "ns": 0,
+          "title": "Georges Seurat",
+          "pageprops": {
+            "defaultsort": "Seurat, Georges",
+            "page_image_free": "Georges_Seurat_1888.jpg",
+            "wikibase_item": "Q34013"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:56Z",
+          "lastrevid": 239869331,
+          "length": 66313,
+          "fullurl": "https://fr.wikipedia.org/wiki/Georges_Seurat",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Georges_Seurat&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Georges_Seurat"
+        },
+        {
+          "pageid": 67060,
+          "ns": 0,
+          "title": "Henri Matisse",
+          "pageprops": {
+            "defaultsort": "Matisse, Henri",
+            "page_image_free": "Portrait_of_Henri_Matisse_1933_May_20.jpg",
+            "wikibase_item": "Q5589"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:56Z",
+          "lastrevid": 240164403,
+          "length": 105500,
+          "fullurl": "https://fr.wikipedia.org/wiki/Henri_Matisse",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Henri_Matisse&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Henri_Matisse"
+        },
+        {
+          "pageid": 67733,
+          "ns": 0,
+          "title": "Auguste Renoir",
+          "pageprops": {
+            "defaultsort": "Renoir, Auguste",
+            "page_image_free": "Pierre_Auguste_Renoir,_uncropped_image.jpg",
+            "wikibase_item": "Q39931"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:56Z",
+          "lastrevid": 240565518,
+          "length": 100523,
+          "fullurl": "https://fr.wikipedia.org/wiki/Auguste_Renoir",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Auguste_Renoir&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Auguste_Renoir"
+        },
+        {
+          "pageid": 69728,
+          "ns": 0,
+          "title": "Honoré Daumier",
+          "pageprops": {
+            "defaultsort": "Daumier, Honoré",
+            "page_image_free": "Honore_Daumier-Nadar.jpg",
+            "wikibase_item": "Q187506"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:57Z",
+          "lastrevid": 240522906,
+          "length": 50023,
+          "fullurl": "https://fr.wikipedia.org/wiki/Honor%C3%A9_Daumier",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Honor%C3%A9_Daumier&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Honor%C3%A9_Daumier"
+        },
+        {
+          "pageid": 72147,
+          "ns": 0,
+          "title": "Édouard Manet",
+          "pageprops": {
+            "defaultsort": "Manet, Édouard",
+            "page_image_free": "Édouard_Manet,_en_buste,_de_face_-_Nadar.jpg",
+            "wikibase_item": "Q40599"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:57Z",
+          "lastrevid": 240833751,
+          "length": 169685,
+          "fullurl": "https://fr.wikipedia.org/wiki/%C3%89douard_Manet",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=%C3%89douard_Manet&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/%C3%89douard_Manet"
+        },
+        {
+          "pageid": 80013,
+          "ns": 0,
+          "title": "Gustav Klimt",
+          "pageprops": {
+            "defaultsort": "Klimt, Gustav",
+            "page_image_free": "Klimt.jpg",
+            "wikibase_item": "Q34661"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:58Z",
+          "lastrevid": 240215314,
+          "length": 59146,
+          "fullurl": "https://fr.wikipedia.org/wiki/Gustav_Klimt",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Gustav_Klimt&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Gustav_Klimt"
+        },
+        {
+          "pageid": 104297,
+          "ns": 0,
+          "title": "Henri Rousseau",
+          "pageprops": {
+            "defaultsort": "Rousseau, Henri",
+            "page_image_free": "Douanier_Rousseau_Dornac.jpg",
+            "wikibase_item": "Q156386"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:01Z",
+          "lastrevid": 240706335,
+          "length": 44278,
+          "fullurl": "https://fr.wikipedia.org/wiki/Henri_Rousseau",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Henri_Rousseau&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Henri_Rousseau"
+        },
+        {
+          "pageid": 128605,
+          "ns": 0,
+          "title": "Alfred Sisley",
+          "pageprops": {
+            "defaultsort": "Sisley, Alfred",
+            "page_image_free": "Alfred_Sisley_photo_full.jpg",
+            "wikibase_item": "Q175130"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:05Z",
+          "lastrevid": 240825211,
+          "length": 72932,
+          "fullurl": "https://fr.wikipedia.org/wiki/Alfred_Sisley",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Alfred_Sisley&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Alfred_Sisley"
+        },
+        {
+          "pageid": 144232,
+          "ns": 0,
+          "title": "Paul Signac",
+          "pageprops": {
+            "defaultsort": "Signac, Paul",
+            "page_image_free": "Paul_Signac_1923.jpg",
+            "wikibase_item": "Q151573"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:07Z",
+          "lastrevid": 240779285,
+          "length": 120659,
+          "fullurl": "https://fr.wikipedia.org/wiki/Paul_Signac",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Paul_Signac&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Paul_Signac"
+        },
+        {
+          "pageid": 148898,
+          "ns": 0,
+          "title": "John Singer Sargent",
+          "pageprops": {
+            "defaultsort": "Sargent, John Singer",
+            "page_image_free": "John_Singer_Sargent_1903.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase_item": "Q155626"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:08Z",
+          "lastrevid": 240538889,
+          "length": 57129,
+          "fullurl": "https://fr.wikipedia.org/wiki/John_Singer_Sargent",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=John_Singer_Sargent&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/John_Singer_Sargent"
+        },
+        {
+          "pageid": 201208,
+          "ns": 0,
+          "title": "Thomas Eakins",
+          "pageprops": {
+            "defaultsort": "Eakins, Thomas",
+            "page_image_free": "Eakins_selfportrait.jpg",
+            "wikibase_item": "Q214905"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:16Z",
+          "lastrevid": 239227199,
+          "length": 22054,
+          "fullurl": "https://fr.wikipedia.org/wiki/Thomas_Eakins",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Thomas_Eakins&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Thomas_Eakins"
+        },
+        {
+          "pageid": 255401,
+          "ns": 0,
+          "title": "Egon Schiele",
+          "pageprops": {
+            "defaultsort": "Schiele, Egon",
+            "page_image_free": "Egon_Schiele_by_Trcka_1914b.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q44032"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:25Z",
+          "lastrevid": 237183577,
+          "length": 175512,
+          "fullurl": "https://fr.wikipedia.org/wiki/Egon_Schiele",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Egon_Schiele&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Egon_Schiele"
+        },
+        {
+          "pageid": 267150,
+          "ns": 0,
+          "title": "Winslow Homer",
+          "pageprops": {
+            "defaultsort": "Homer, Winslow",
+            "page_image_free": "Winslow_Homer_by_Sarony.jpeg",
+            "wikibase_item": "Q344838"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:26Z",
+          "lastrevid": 239373404,
+          "length": 28820,
+          "fullurl": "https://fr.wikipedia.org/wiki/Winslow_Homer",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Winslow_Homer&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Winslow_Homer"
+        },
+        {
+          "pageid": 336466,
+          "ns": 0,
+          "title": "André Derain",
+          "pageprops": {
+            "defaultsort": "Derain, André",
+            "page_image_free": "André_Derain_1928.jpg",
+            "wikibase_item": "Q156272"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:39Z",
+          "lastrevid": 240735847,
+          "length": 166757,
+          "fullurl": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Derain",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Andr%C3%A9_Derain&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Derain"
+        },
+        {
+          "pageid": 470985,
+          "ns": 0,
+          "title": "Mary Cassatt",
+          "pageprops": {
+            "defaultsort": "Cassatt, Mary",
+            "page_image_free": "Mary_Cassatt_1910.jpg",
+            "wikibase_item": "Q173223"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:59Z",
+          "lastrevid": 240818593,
+          "length": 42653,
+          "fullurl": "https://fr.wikipedia.org/wiki/Mary_Cassatt",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Mary_Cassatt&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Mary_Cassatt"
+        },
+        {
+          "pageid": 1478797,
+          "ns": 0,
+          "title": "Edvard Munch",
+          "pageprops": {
+            "defaultsort": "Munch, Edvard",
+            "page_image_free": "Edvard_Munch_1933-2.jpg",
+            "wikibase_item": "Q41406"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:50:20Z",
+          "lastrevid": 239322105,
+          "length": 45770,
+          "fullurl": "https://fr.wikipedia.org/wiki/Edvard_Munch",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Edvard_Munch&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Edvard_Munch"
+        },
+        {
+          "pageid": 2483062,
+          "ns": 0,
+          "title": "James Abbott McNeill Whistler",
+          "pageprops": {
+            "defaultsort": "Whistler, James Abbott Mcneill",
+            "page_image_free": "Whistler_Selbstporträt.jpg",
+            "wikibase_item": "Q203643"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:18Z",
+          "lastrevid": 239240766,
+          "length": 52829,
+          "fullurl": "https://fr.wikipedia.org/wiki/James_Abbott_McNeill_Whistler",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=James_Abbott_McNeill_Whistler&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/James_Abbott_McNeill_Whistler"
+        },
+        {
+          "pageid": 3243665,
+          "ns": 0,
+          "title": "Gustave Courbet",
+          "pageprops": {
+            "defaultsort": "Courbet, Gustave",
+            "page_image_free": "Gustave_Courbet_by_Nadar_1860s.png",
+            "wikibase_item": "Q34618"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:16Z",
+          "lastrevid": 239993074,
+          "length": 175740,
+          "fullurl": "https://fr.wikipedia.org/wiki/Gustave_Courbet",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Gustave_Courbet&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Gustave_Courbet"
+        },
+        {
+          "pageid": 3713970,
+          "ns": 0,
+          "title": "Paul Gauguin",
+          "pageprops": {
+            "defaultsort": "Gauguin, Paul",
+            "page_image_free": "Paul_Gauguin_111.jpg",
+            "wikibase_item": "Q37693"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:52:56Z",
+          "lastrevid": 240697544,
+          "length": 82276,
+          "fullurl": "https://fr.wikipedia.org/wiki/Paul_Gauguin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Paul_Gauguin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Paul_Gauguin"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "f9689d196c6aa8313339806754f70c47e9c7fa6994f7d501cac1e16081dbb21f"
+}

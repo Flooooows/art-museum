@@ -1,0 +1,50 @@
+{
+  "status": "deployed_and_verified",
+  "verifiedOn": "2026-10-30",
+  "authority": "Demande explicite de l’utilisateur de publier l’enrichissement sur masterpieces.html après la préparation initiale sans déploiement.",
+  "project": "art-museum-8fdd8",
+  "site": "art-museum-8fdd8-atelier",
+  "url": "https://art-museum-8fdd8-atelier.web.app/masterpieces.html",
+  "previousLotUrl": "https://art-museum-8fdd8-atelier.web.app/masterpieces.html?lot=initial",
+  "hostingFiles": 220,
+  "catalogs": [
+    {
+      "path": "review-data/catalog.json",
+      "version": "review-1000-b069bbaeeecc561d",
+      "works": 1000,
+      "sha256": "c39fe57cb4353b4d624a204f6ed78329859e9d1df76275098597196bd13b9451"
+    },
+    {
+      "path": "masterpieces-data/catalog.json",
+      "version": "masterpieces-818ec04f3f8db6b3",
+      "works": 25,
+      "sha256": "5f0032c74cb86c08d90f1cc5c371382d0d36a5430d1c88ad5dd7b046a4c9dc2f"
+    },
+    {
+      "path": "enrichment-351-data/catalog.json",
+      "version": "masterpieces-9c6020dde274cede",
+      "works": 78,
+      "sha256": "c7c1a23061b32e18cac6ca1c65b188e0050be97521eddbaf82e28d713b03e356"
+    }
+  ],
+  "verification": {
+    "catalogsHttpStatus": 200,
+    "catalogsMatchLocalBytes": true,
+    "catalogsCacheControl": "no-cache",
+    "defaultLotCards": 78,
+    "previousLotCards": 25,
+    "decodedNewImages": 78,
+    "brokenNewImages": 0,
+    "storageKeysIsolated": true,
+    "priorChoicesRestoredAfterSwitch": true,
+    "newChoicesPersistAfterReload": true,
+    "exportImportWithoutDuplicateEvents": true,
+    "mobileHorizontalOverflow": false,
+    "testChoicesRestoredToOriginalState": true,
+    "testsPassed": 93
+  },
+  "gameDeployment": "not_performed",
+  "gameCardsEconomyAndProbabilities": "unchanged",
+  "reviewSelectionActivatesGameCards": false,
+  "limits": "Publication de la revue uniquement. Les choix restent locaux au navigateur. Aucune synchronisation, migration des anciennes décisions ou garantie juridique mondiale ajoutée. Les comptes de tests ne sont pas des décisions humaines réelles."
+}

@@ -98,7 +98,7 @@ function initialStorage(catalog: ReviewCatalog) {
   }
 }
 
-function ArtworkCard({
+export function ArtworkCard({
   work,
   decision,
   onDecide,
@@ -477,6 +477,7 @@ function Workspace({ catalog }: { catalog: ReviewCatalog }) {
           <span>MUSE</span>
         </a>
         <span className="header-section">Atelier des raretés</span>
+        <a href="/masterpieces.html">Nouvelles candidates</a>
         <div className="header-actions">
           <button
             className="icon-button"

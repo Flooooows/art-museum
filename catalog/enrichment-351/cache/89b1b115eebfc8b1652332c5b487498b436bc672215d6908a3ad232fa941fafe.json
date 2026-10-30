@@ -1,0 +1,16 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=Snap+the+Whip+Winslow+Homer",
+  "retrievedAt": "2026-10-30T01:46:09.654Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 3,
+    "objectIDs": [
+      11140,
+      349160,
+      17053
+    ]
+  },
+  "payloadSha256": "e9ceca5477373e861dcc67fa0ce9924f94d17997e01f854cc6a3834325e5b3c0"
+}

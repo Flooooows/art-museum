@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Antonio_Canova/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:34:12.837Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5238
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6108
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5032
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5773
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7336
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5030
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4791
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4933
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4373
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4335
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4347
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Antonio_Canova",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4494
+      }
+    ]
+  },
+  "payloadSha256": "d60e45319de86d3df8ece467206500a337c8a8bf36492907de1b7cedbd70d1dd"
+}

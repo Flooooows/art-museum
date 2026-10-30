@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Arrival+of+the+Normandy+Train+Gare+Saint-Lazare",
+  "retrievedAt": "2026-10-30T00:47:55.376Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 9538.845,
+        "id": 16571,
+        "title": "Arrival of the Normandy Train, Gare Saint-Lazare",
+        "main_reference_number": "1933.1158",
+        "date_display": "1877",
+        "is_public_domain": true,
+        "artist_title": "Claude Monet",
+        "image_id": "0f1cc0e0-e42e-be16-3f71-2022da38cb93"
+      },
+      {
+        "_score": 157.07103,
+        "id": 109330,
+        "title": "Little Harbor in Normandy",
+        "main_reference_number": "1970.98",
+        "date_display": "spring 1909",
+        "artist_title": "Georges Braque",
+        "image_id": "f521e7ef-2732-88b0-30e1-24353308c297",
+        "is_public_domain": false
+      },
+      {
+        "_score": 154.43748,
+        "id": 897,
+        "title": "Pasture in Normandy",
+        "main_reference_number": "1894.1069",
+        "date_display": "1852",
+        "is_public_domain": true,
+        "artist_title": "Constant Troyon",
+        "image_id": "5ae91cbf-66c5-cf9b-f355-629e458cb063"
+      },
+      {
+        "_score": 80.90283,
+        "id": 72881,
+        "title": "Pasture in Normandy",
+        "main_reference_number": "1950.1516",
+        "date_display": "c. 1870–71",
+        "is_public_domain": true,
+        "artist_title": "Jean François Millet",
+        "image_id": "65e4fc9b-ea5b-be9b-7449-47ca3d245300"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "cde4057f8e565214787dac88073abfe796c4a810613e8efd76e571f8728511d0"
+}

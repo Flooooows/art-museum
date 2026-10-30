@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=The+Fountain+of+Vaucluse",
+  "retrievedAt": "2026-10-30T00:51:12.971Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 139.35667,
+        "id": 57051,
+        "title": "The Fountains",
+        "main_reference_number": "1900.385",
+        "date_display": "1787–88",
+        "is_public_domain": true,
+        "artist_title": "Hubert Robert",
+        "image_id": "62fd0e14-d7fe-0d01-ab00-1eed84b4f294"
+      },
+      {
+        "_score": 119.08953,
+        "id": 69780,
+        "title": "The Fountain, Villa Torlonia, Frascati, Italy",
+        "main_reference_number": "1914.57",
+        "date_display": "1907",
+        "is_public_domain": true,
+        "artist_title": "John Singer Sargent",
+        "image_id": "3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08"
+      },
+      {
+        "_score": 105.01834,
+        "id": 209942,
+        "title": "The Fountain at Grottaferrata",
+        "main_reference_number": "2011.123",
+        "date_display": "1832",
+        "is_public_domain": true,
+        "artist_title": "Adrian Ludwig (Ludwig) Richter",
+        "image_id": "2bc1afcc-112b-fefa-85aa-8eefde432b56"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "04664d471b3abb09f320ac95c77c4990118b00a12e9aac0087030157847f59ba"
+}

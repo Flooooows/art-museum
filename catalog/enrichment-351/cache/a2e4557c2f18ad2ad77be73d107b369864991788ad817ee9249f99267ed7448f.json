@@ -1,0 +1,107 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/368613",
+  "retrievedAt": "2026-10-30T01:47:07.604Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 368613,
+    "isHighlight": false,
+    "accessionNumber": "49.97.356",
+    "accessionYear": "1949",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP820355.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP820355.jpg",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 162645,
+        "role": "Artist",
+        "name": "Engraved by Enea Vico",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500011571",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q3725198",
+        "gender": ""
+      },
+      {
+        "constituentID": 161857,
+        "role": "Artist",
+        "name": "Copy in reverse after Albrecht Dürer",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115493",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5580",
+        "gender": ""
+      },
+      {
+        "constituentID": 92053,
+        "role": "Publisher",
+        "name": "Published by Antonio Salamanca",
+        "constituentULAN_URL": "(not assigned)",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5700294",
+        "gender": ""
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Print",
+    "title": "Rhinoceros",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "Engraved by",
+    "artistDisplayName": "Enea Vico",
+    "artistDisplayBio": "Italian, Parma 1523–1567 Ferrara",
+    "artistSuffix": "",
+    "artistAlphaSort": "Vico, Enea",
+    "artistNationality": "Italian",
+    "artistBeginDate": "1523",
+    "artistEndDate": "1567",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q3725198",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500011571",
+    "objectDate": "1542 (date changed to 1548)",
+    "objectBeginDate": 1542,
+    "objectEndDate": 1542,
+    "medium": "Engraving",
+    "dimensions": "sheet: 10 1/4 x 14 5/16 in. (26 x 36.3 cm) trimmed just outside platemark",
+    "measurements": [
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 26,
+          "Width": 36.3
+        }
+      }
+    ],
+    "creditLine": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Prints",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2026-01-22T04:58:11.04Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/368613",
+    "tags": [
+      {
+        "term": "Rhinoceros",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300250315",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q34718"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "3b9b370b18b916a8914e5758d6dfcfde76bfe580fb937a03887d040b8a4fb25e"
+}

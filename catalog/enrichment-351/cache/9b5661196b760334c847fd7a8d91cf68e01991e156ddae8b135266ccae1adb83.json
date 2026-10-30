@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Des_glaneuses/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:22:02.360Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3720
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3463
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2893
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3267
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2472
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3099
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2575
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2670
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1894
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1253
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1589
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Des_glaneuses",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3727
+      }
+    ]
+  },
+  "payloadSha256": "c470b7341b11be3ca8c052f5583c7d5ab72579f0652907551608d3253c08636c"
+}

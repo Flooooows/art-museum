@@ -1,0 +1,88 @@
+{
+  "provider": "wikimedia",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Acanthus+%28ornament%29%7CHill+House+chair%7CRaphael%7CCaravaggio",
+  "retrievedAt": "2026-10-30T01:52:44.482Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Hill House chair",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Hill_House_chair",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Hill_House_chair&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Hill_House_chair"
+        },
+        {
+          "pageid": 7018,
+          "ns": 0,
+          "title": "Caravaggio",
+          "pageprops": {
+            "defaultsort": "Caravaggio",
+            "page_image_free": "Bild-Ottavio_Leoni,_Caravaggio.jpg",
+            "wikibase-shortdesc": "Italian painter (1571–1610)",
+            "wikibase_item": "Q42207"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-30T01:29:52Z",
+          "lastrevid": 1381586551,
+          "length": 109305,
+          "fullurl": "https://en.wikipedia.org/wiki/Caravaggio",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Caravaggio&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Caravaggio"
+        },
+        {
+          "pageid": 44525,
+          "ns": 0,
+          "title": "Raphael",
+          "pageprops": {
+            "page_image_free": "Raffaello_Sanzio.jpg",
+            "wikibase-shortdesc": "Italian painter and architect (1483–1520)",
+            "wikibase_item": "Q5597"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-30T01:29:53Z",
+          "lastrevid": 1370412674,
+          "length": 70474,
+          "fullurl": "https://en.wikipedia.org/wiki/Raphael",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Raphael&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Raphael"
+        },
+        {
+          "pageid": 3416422,
+          "ns": 0,
+          "title": "Acanthus (ornament)",
+          "pageprops": {
+            "page_image_free": "Composite_capital1.jpg",
+            "wikibase-shortdesc": "Ornamental motif",
+            "wikibase_item": "Q415908"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:22:41Z",
+          "lastrevid": 1376177127,
+          "length": 18674,
+          "fullurl": "https://en.wikipedia.org/wiki/Acanthus_(ornament)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Acanthus_(ornament)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Acanthus_(ornament)"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "ea6dd77f3d84621712ef5b7710649955a510cf8ab3704bdce0e16cc594650093"
+}

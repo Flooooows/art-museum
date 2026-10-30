@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Bathers+by+a+River+Matisse",
+  "retrievedAt": "2026-10-30T00:48:14.325Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 201.08266,
+        "id": 79307,
+        "title": "Bathers by a River",
+        "main_reference_number": "1953.158",
+        "date_display": "1909–10, 1913, and 1916–17",
+        "artist_title": "Henri Matisse",
+        "image_id": "419ddce3-c90b-3d0c-43b3-73683a87bf98",
+        "is_public_domain": false
+      },
+      {
+        "_score": 97.67167,
+        "id": 52660,
+        "title": "The River",
+        "main_reference_number": "1945.6",
+        "date_display": "1942",
+        "artist_title": "O. Louis Guglielmi",
+        "image_id": "6503a528-7691-65bf-d1b9-0af69edb17a1",
+        "is_public_domain": false
+      },
+      {
+        "_score": 85.966835,
+        "id": 27984,
+        "title": "Woman before an Aquarium",
+        "main_reference_number": "1926.220",
+        "date_display": "1921–23",
+        "is_public_domain": true,
+        "artist_title": "Henri Matisse",
+        "image_id": "d0e36029-27fc-bf4e-357a-55cfbaf7bdfd"
+      },
+      {
+        "_score": 84.02398,
+        "id": 2816,
+        "title": "Interior at Nice",
+        "main_reference_number": "1956.339",
+        "date_display": "1919 or 1920",
+        "artist_title": "Henri Matisse",
+        "image_id": "2193cdda-2691-2802-0776-145dee77f7ea",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "8750ad6d7428ac859001369fdcd4959b8e6c886e119d89e01433ed1d7fb4fab7"
+}

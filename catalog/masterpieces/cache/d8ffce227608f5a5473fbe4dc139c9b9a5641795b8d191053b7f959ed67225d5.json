@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Portrait+of+a+Man+with+a+Medallion+Botticelli",
+  "retrievedAt": "2026-10-30T00:48:06.586Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 139.32545,
+        "id": 80530,
+        "title": "Virgin and Child with an Angel",
+        "main_reference_number": "1954.283",
+        "date_display": "1475–85",
+        "is_public_domain": true,
+        "artist_title": "Sandro Botticelli",
+        "image_id": "b59cc3e9-a7c0-5aa1-1a22-bb472bb2e6d4"
+      },
+      {
+        "_score": 122.94392,
+        "id": 80526,
+        "title": "Virgin and Child with Two Angels",
+        "main_reference_number": "1954.282",
+        "date_display": "1485–95",
+        "is_public_domain": true,
+        "artist_title": "Sandro Botticelli",
+        "image_id": "eb49ab17-f2d9-275a-ee71-e8f0016b34aa"
+      },
+      {
+        "_score": 114.18925,
+        "id": 864,
+        "title": "Portrait of a Man with a Pink",
+        "main_reference_number": "1894.1025",
+        "date_display": "1500–10",
+        "is_public_domain": true,
+        "artist_title": "Quentin Massys",
+        "image_id": "f731615e-ee25-f8e5-b957-69635e1e2d60"
+      },
+      {
+        "_score": 111.327255,
+        "id": 15708,
+        "title": "Portrait of a Man with Gray Hair",
+        "main_reference_number": "1962.961",
+        "date_display": "1810–20",
+        "is_public_domain": true,
+        "artist_title": "Sir Henry Raeburn",
+        "image_id": "51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "e5438621b8f0e239eb8dd5284de255fa07d7f2f0482ec8c52035db8fc57e85f0"
+}

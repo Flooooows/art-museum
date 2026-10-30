@@ -1,0 +1,1683 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3ATokaido53+Hara.jpg%7CFile%3ANDL-DC+1302328-Utagawa+Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg%7CFile%3APieter+brueghel+the+younger+winter+landscape.jpg%7CFile%3AAlongtheriver+QingMing.jpg%7CFile%3AV%C3%A9nus+de+Milo+-+Mus%C3%A9e+du+Louvre+AGER+LL+299+%3B+N+527+%3B+Ma+399.jpg%7CFile%3AVictoire+de+Samothrace+-+Musee+du+Louvre+-+20190812.jpg%7CFile%3ALa+victoire+de+Samothrace+au+Louvre.jpg%7CFile%3ADiscobolus+in+National+Roman+Museum+Palazzo+Massimo+alle+Terme.JPG%7CFile%3ALaoco%C3%B6n+and+his+sons+group.jpg%7CFile%3AStatue-Augustus.jpg%7CFile%3AAugustus+of+Prima+Porta+%28inv.+2290%29.jpg%7CFile%3AEquestrian+statue+of+Marcus+Aurelius+%28Rome%29.jpg%7CFile%3A02+2020+Grecia+photo+Paolo+Villa+FO190024+%28Museo+archeologico+di+Olimpia+-+Statua+Ermes+con+Dioniso+Bambino+scolpita+da+Prassitele%2C+Arte+pre+Ellenistica%2C+senza+gimp%29-edit.jpg%7CFile%3ANofretete+Neues+Museum.jpg%7CFile%3AWikimedia+2016+-21+%28cropped%29.jpg",
+  "retrievedAt": "2026-10-30T01:47:42.118Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 388210,
+          "ns": 6,
+          "title": "File:Statue-Augustus.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 504121,
+              "width": 1500,
+              "height": 2250,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Statue-Augustus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2400,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Statue-Augustus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2400
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Statue-Augustus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=388210",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-10-21 15:46:37",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Statue-Augustus",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|Taken with Canon EOS 400D|Paludamentum|Taken with Canon EF 70-300mm F4-5.6 IS USM|License migration completed|Vatican City photographs taken on 2007-10-20|Artworks with Wikidata item|Artworks with known accession number|PD US expired|Augustus of Prima Porta, inv. 2290|Files with derivative versions|Pages with complex technique templates|Template Unknown (artist)|Artworks with accession number from Wikidata|Artworks with Wikidata item missing medium|Files with coordinates missing SDC location of creation|Artworks with Wikidata item missing genre|Artworks main subject 3D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.906460",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.454350",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "front view<br>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "20 October 2007 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Till.niermann\" title=\"User:Till.niermann\">Till Niermann</a>",
+                  "source": "commons-desc-page"
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 549198,
+          "ns": 6,
+          "title": "File:Tokaido53 Hara.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1252626,
+              "width": 3292,
+              "height": 2200,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Tokaido53_Hara.jpg/1920px-Tokaido53_Hara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1069,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/8/80/Tokaido53_Hara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Tokaido53_Hara.jpg/1920px-Tokaido53_Hara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1069,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/80/Tokaido53_Hara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Tokaido53_Hara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tokaido53_Hara.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=549198",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2006-02-03 11:33:22",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Tokaido53 Hara",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Hara (The Fifty-three Stations of the Tōkaidō)|Artworks without Wikidata item|PD-old-100-expired|PD-Art (PD-old-100-expired)|Unknown date|CC-PD-Mark|PD-Art missing SDC copyright status|PD-old missing SDC copyright status",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hiroshige\" class=\"extiw\" title=\"w:en:Hiroshige\"><span title=\"Japanese ukiyo-e artist (1797–1858)\">Utagawa Hiroshige</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n\"Tokaido-53tugi Hara\",ukiyo-e by Hiroshige Utagawa.</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "Unknown date",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external autonumber\" href=\"http://visipix.com/index_hidden.htm\">[1]</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 4490842,
+          "ns": 6,
+          "title": "File:Alongtheriver QingMing.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 19320386,
+              "width": 38414,
+              "height": 1800,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Alongtheriver_QingMing.jpg/1920px-Alongtheriver_QingMing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 75,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Alongtheriver_QingMing.jpg/3840px-Alongtheriver_QingMing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Alongtheriver_QingMing.jpg/1920px-Alongtheriver_QingMing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 75,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Alongtheriver_QingMing.jpg/3840px-Alongtheriver_QingMing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Alongtheriver_QingMing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alongtheriver_QingMing.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=4490842",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2014-08-27 07:27:05",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Along_the_River_During_the_Qingming_Festival\" class=\"extiw\" title=\"en:Along the River During the Qingming Festival\">Along the River During the Qingming Festival</a>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Along the River During the Qingming Festival|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Featured pictures on Wikipedia, Chinese|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of unknown type of work|Files with Assessments template missing SDC Commons no value quality assessment",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Zhang_Zeduan\" class=\"extiw\" title=\"w:en:Zhang Zeduan\"><span title=\"Chinese painter of the Song Dynasty (1085-1145)\">Zhang Zeduan</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "12th century, Song Dynasty",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Baidu_Tieba\" class=\"extiw\" title=\"en:Baidu Tieba\">Baidu Tieba</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 8433730,
+          "ns": 6,
+          "title": "File:Nofretete Neues Museum.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 364729,
+              "width": 1282,
+              "height": 1877,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Nofretete_Neues_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2343,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Nofretete_Neues_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2343
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Nofretete_Neues_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=8433730",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-06-14 18:44:20",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Nofretete Neues Museum",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Nefertiti Bust|GFDL|License migration redundant|Self-published work|Featured pictures on Wikipedia, English|Featured pictures of Berlin|Featured pictures on Wikipedia, German|Files with derivative versions|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Turkish|Featured pictures on Wikipedia, Vietnamese|Featured pictures of ancient Egypt|Objects with black background|Files with coordinates missing SDC location of creation|Statues photographed in 2009|Featured pictures on Wikipedia, Arabic|Assessment tagged pages marked as POTY candidates|Files with Assessments template missing SDC Commons valued image assessment",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality|featured|valued|potd|poty",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "52.520570",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "13.397760",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Picture of the <a href=\"https://en.wikipedia.org/wiki/en:Nefertiti_bust\" class=\"extiw\" title=\"w:en:Nefertiti bust\">Nefertiti bust</a> in <a href=\"https://en.wikipedia.org/wiki/en:Neues_Museum\" class=\"extiw\" title=\"w:en:Neues Museum\">Neues Museum</a>, Berlin.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2009-11-08 14:47",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Xenon_77\" title=\"User:Xenon 77\">Philip Pikart</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 38682321,
+          "ns": 6,
+          "title": "File:Discobolus in National Roman Museum Palazzo Massimo alle Terme.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5380947,
+              "width": 3235,
+              "height": 5409,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG/1920px-Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2675,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG/1920px-Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2675,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=38682321",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-03-19 17:25:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Discobolus in National Roman Museum Palazzo Massimo alle Terme",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-published work|Artworks with Wikidata item|Artworks with known accession number|Discobolus Lancelotti (Palazzo Massimo)|Roman copies after Greek originals in Italy|Featured pictures on Wikipedia, Persian|Artworks with accession number from Wikidata|Artworks digital representation of unknown type of work|Artworks digital representation of 3D work|Postprocessed by User:Hubertl",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "DateTimeOriginal": {
+                  "value": "2015-03-01 14:01:51",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Livioandronico2013\" title=\"User:Livioandronico2013\">Livioandronico2013</a>",
+                  "source": "commons-desc-page"
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 81325360,
+          "ns": 6,
+          "title": "File:Victoire de Samothrace - Musee du Louvre - 20190812.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5032452,
+              "width": 3616,
+              "height": 4800,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg/1920px-Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2124,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg/1920px-Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2124,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81325360",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-04-02 11:58:15",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Victoire de Samothrace - Musee du Louvre - 20190812",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|Self-published work|Artworks with Wikidata item|Artworks with known accession number|Artworks with accession number from Wikidata|Artworks main subject 3D work|Front left views of the Nike of Samothrace",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.860028",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.336694",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Victory of Samothrace",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2018-12-08",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Shonagon\" title=\"User:Shonagon\">Shonagon</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 84218509,
+          "ns": 6,
+          "title": "File:Pieter brueghel the younger winter landscape.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 9597529,
+              "width": 3200,
+              "height": 2295,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Pieter_brueghel_the_younger_winter_landscape.jpg/1920px-Pieter_brueghel_the_younger_winter_landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1148,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pieter_brueghel_the_younger_winter_landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Pieter_brueghel_the_younger_winter_landscape.jpg/1920px-Pieter_brueghel_the_younger_winter_landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1148,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pieter_brueghel_the_younger_winter_landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Pieter_brueghel_the_younger_winter_landscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pieter_brueghel_the_younger_winter_landscape.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=84218509",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-11-21 22:22:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Winter landscape <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q123138672#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Winter landscape <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q123138672#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Winter landscape <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q123138672#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Uploaded with pattypan|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Sold at Christie's|CC-PD-Mark|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|PD-art-old-100-expired missing SDC copyright status|Winter by Pieter Breughel the Younger|Christie's Old master evening sale, 3 Dec 2019",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pieter_Brueghel_the_Younger\" class=\"extiw\" title=\"w:en:Pieter Brueghel the Younger\"><span title=\"Flemish painter (1564–1638)\">Pieter Brueghel the Younger</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://www.wikidata.org/wiki/Q3373687\" class=\"extiw\" title=\"d:Q3373687\"><span title=\"artistic theme\">winter landscape</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q123138672#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1612 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q123138672#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Christie%27s\" class=\"extiw\" title=\"en:Christie's\">Christie's</a>, LotFinder:  entry  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.christies.com/LotFinder/lot_details.aspx?intObjectID=6238422\">6238422</a> (sale 17292, lot 19, London, 3 December 2019)",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 109860614,
+          "ns": 6,
+          "title": "File:NDL-DC 1302328-Utagawa Hiroshige-一立斎広重一世一代江戸百景-crd.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1740335,
+              "width": 2517,
+              "height": 3837,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/NDL-DC_1302328-Utagawa_Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg/1920px-NDL-DC_1302328-Utagawa_Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2439,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/d/d6/NDL-DC_1302328-Utagawa_Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/NDL-DC_1302328-Utagawa_Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg/1920px-NDL-DC_1302328-Utagawa_Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2439,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/d/d6/NDL-DC_1302328-Utagawa_Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/NDL-DC_1302328-Utagawa_Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:NDL-DC_1302328-Utagawa_Hiroshige-%E4%B8%80%E7%AB%8B%E6%96%8E%E5%BA%83%E9%87%8D%E4%B8%80%E4%B8%96%E4%B8%80%E4%BB%A3%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF-crd.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=109860614",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2021-09-09 10:09:16",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n一立斎広重一世一代江戸百景</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "One Hundred Famous Views of Edo|Uploaded with pattypan|Artworks without Wikidata item|PD-Art (PD-Japan)|Artworks with known accession number|Images from NDL digital collection|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|NDL-DC 1304658 Meisho Edo 100 kei",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hiroshige\" class=\"extiw\" title=\"w:en:Hiroshige\"><span title=\"Japanese ukiyo-e artist (1797–1858)\">Utagawa Hiroshige</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "from the picture album \"Meisho Edo 100 kei\" by Utagawa Hiroshige",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/National_Diet_Library\" class=\"extiw\" title=\"en:National Diet Library\">National Diet Library</a> Digital Collections: Persistent ID <a rel=\"nofollow\" class=\"external text\" href=\"http://dl.ndl.go.jp/info:ndljp/pid/1302328\">1302328</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "According to Japanese <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20181002142928/http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&amp;openerCode=1\">Copyright Law (June 1, 2018 grant)</a> the copyright on this work has expired and is as such <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b>. According to articles 51, 52, 53 and 57 of the copyright laws of Japan, under the jurisdiction of the Government of Japan works enter the public domain 50 years after the death of the creator (there being multiple creators, the creator who dies last) or 50 years after publication for anonymous or pseudonymous authors or for works whose copyright holder is an organization.<br>\n<p><small><b>Note:</b> <b>The enforcement of the revised Copyright Act on December 30, 2018 extended the copyright term of works whose copyright was valid on that day to 70 years. Do not use this template for works of the copyright holders who died after 1967.</b></small>\n</p>\n<small>Use <a href=\"//commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto\" title=\"Template:PD-Japan-oldphoto\"><span style=\"font-family:monospace,monospace;\">{{PD-Japan-oldphoto}}</span></a> for photos published before December 31, 1956, and <a href=\"//commons.wikimedia.org/wiki/Template:PD-Japan-film\" title=\"Template:PD-Japan-film\"><span style=\"font-family:monospace,monospace;\">{{PD-Japan-film}}</span></a> for films produced prior to 1953. Public domain works must be out of copyright in both the United States and in the source country of the work in order to be hosted on the Commons. The file must have an additional <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags#Non-U.S._works\" title=\"Commons:Copyright tags\">copyright tag</a> indicating the copyright status in the United States. See also <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Japan\" title=\"Commons:Copyright rules by territory/Japan\">Copyright rules by territory</a>.</small>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 126312456,
+          "ns": 6,
+          "title": "File:Equestrian statue of Marcus Aurelius (Rome).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 40947025,
+              "width": 4872,
+              "height": 8844,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg/1920px-Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2904,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg/3840px-Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg/1920px-Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2904,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg/3840px-Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Equestrian_statue_of_Marcus_Aurelius_%28Rome%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Equestrian_statue_of_Marcus_Aurelius_(Rome).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=126312456",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2022-12-04 20:28:50",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Equestrian statue of Marcus Aurelius (Rome)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Equestrian statue of Marcus Aurelius (Rome)|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Equestrian statue of Marcus Aurelius (Rome)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2022-12-04 16:45:44",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Merulana\" title=\"User:Merulana\">Merulana</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 128032559,
+          "ns": 6,
+          "title": "File:Wikimedia 2016 -21 (cropped).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3767456,
+              "width": 1584,
+              "height": 2113,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Wikimedia_2016_-21_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 2134,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Wikimedia_2016_-21_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2134
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Wikimedia_2016_-21_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Wikimedia_2016_-21_(cropped).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128032559",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-12-06 04:51:16",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Wikimedia 2016 -21 (cropped)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Funerary mask of Tutankhamun|Media lacking a description|Self-published work|Extracted images|Images from Wiki Loves Monuments 2016|Uploaded via Campaign:wlm-eg|Images from Wiki Loves Monuments 2016 in Egypt|Images from Wiki Loves Monuments missing SDC depicts|Images from Wiki Loves Monuments missing SDC location of creation",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "DateTimeOriginal": {
+                  "value": "2015-12-23 12:57:32",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wael_Mostafa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wael Mostafa (page does not exist)\">Wael Mostafa</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 129249571,
+          "ns": 6,
+          "title": "File:La victoire de Samothrace au Louvre.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 24557961,
+              "width": 4000,
+              "height": 6016,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/La_victoire_de_Samothrace_au_Louvre.jpg/1920px-La_victoire_de_Samothrace_au_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2406,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/La_victoire_de_Samothrace_au_Louvre.jpg/3840px-La_victoire_de_Samothrace_au_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/La_victoire_de_Samothrace_au_Louvre.jpg/1920px-La_victoire_de_Samothrace_au_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2406,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/La_victoire_de_Samothrace_au_Louvre.jpg/3840px-La_victoire_de_Samothrace_au_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/La_victoire_de_Samothrace_au_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_victoire_de_Samothrace_au_Louvre.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129249571",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-03-03 22:40:21",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "La victoire de Samothrace au Louvre",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Large images|Flickr images reviewed by FlickreviewR 2|Front views of the Nike of Samothrace|Images by Le Commissaire",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Credits to <b>Mickaël Schauli</b> / Wikimedia Commons",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-03-03 12:25:59",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/197878255@N08/52723499521/\">https://www.flickr.com/photos/197878255@N08/52723499521/</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "mickaelschauli",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 2.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 2.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-2.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 129823838,
+          "ns": 6,
+          "title": "File:Augustus of Prima Porta (inv. 2290).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 7146201,
+              "width": 2813,
+              "height": 4500,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Augustus_of_Prima_Porta_%28inv._2290%29.jpg/1920px-Augustus_of_Prima_Porta_%28inv._2290%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2560,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Augustus_of_Prima_Porta_%28inv._2290%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Augustus_of_Prima_Porta_%28inv._2290%29.jpg/1920px-Augustus_of_Prima_Porta_%28inv._2290%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2560,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Augustus_of_Prima_Porta_%28inv._2290%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Augustus_of_Prima_Porta_%28inv._2290%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Augustus_of_Prima_Porta_(inv._2290).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=129823838",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-03-21 13:33:36",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Augustus of Prima Porta (inv. 2290)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Paludamentum|Self-published work|Artworks with Wikidata item|Artworks with known accession number|Augustus of Prima Porta, inv. 2290|Pages with complex technique templates|Template Unknown (author)|Artworks with accession number from Wikidata|Artworks with Wikidata item missing medium|Files with coordinates missing SDC location of creation|Artworks with Wikidata item missing genre|Artworks main subject 3D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.906460",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.454350",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "front view<br>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "17-3-2023",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Macesito\" title=\"User:Macesito\">Joel Bellviure</a>",
+                  "source": "commons-desc-page"
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 145514697,
+          "ns": 6,
+          "title": "File:Vénus de Milo - Musée du Louvre AGER LL 299 ; N 527 ; Ma 399.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 15624559,
+              "width": 6124,
+              "height": 10349,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/1920px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2704,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/3840px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/1920px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2704,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/3840px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145514697",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-02-19 12:34:15",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Vénus de Milo - Musée du Louvre AGER LL 299 ; N 527 ; Ma 399",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|Self-published work|Artworks with Wikidata item|Artworks with known accession number|Front views of the Venus de Milo|Pages with complex technique templates|Template Unknown (author)|Artworks with accession number from Wikidata|Artworks main subject 3D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "48.859945",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "2.337288",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Ancient Greek marble statue of the goddess Aphrodite <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2024-02-15",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Shonagon\" title=\"User:Shonagon\">Shonagon</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 145566250,
+          "ns": 6,
+          "title": "File:Laocoön and his sons group.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 57222275,
+              "width": 8744,
+              "height": 9502,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/1920px-Laoco%C3%B6n_and_his_sons_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1739,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/3840px-Laoco%C3%B6n_and_his_sons_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/1920px-Laoco%C3%B6n_and_his_sons_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1739,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/3840px-Laoco%C3%B6n_and_his_sons_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=145566250",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-02-19 22:43:27",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Laocoön and his sons group",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Laocoon group|CC-Zero|Retouched pictures|Self-published work|Featured pictures on Wikipedia, English|Artworks with Wikidata item|Artworks with known accession number|Featured pictures by User:Wilfredor|Featured pictures of Rome|Featured pictures on Wikipedia, Spanish|Artworks with accession number from Wikidata|February 2024 in Rome|Featured pictures supported by Wikimedia Canada|Featured photographs in the public domain|Media created with Nikon Z7ii provided by the Quebec WikiClub|Artworks main subject type unknown type of work|Artworks main subject 3D work|Sculptures by Wilfredor|Rome photographs taken on 2024-02-10|Images from Roma Project",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality|featured|valued|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.892053",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.500311",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Laocoön and his sons group <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2024-02-10 07:07:43",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q115464159\" class=\"extiw\" title=\"d:Q115464159\"><span title=\"developer analyst and photographer from Venezuela\">Wilfredor</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 177355958,
+          "ns": 6,
+          "title": "File:02 2020 Grecia photo Paolo Villa FO190024 (Museo archeologico di Olimpia - Statua Ermes con Dioniso Bambino scolpita da Prassitele, Arte pre Ellenistica, senza gimp)-edit.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 9441977,
+              "width": 2439,
+              "height": 4924,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/02_2020_Grecia_photo_Paolo_Villa_FO190024_%28Museo_archeologico_di_Olimpia_-_Statua_Ermes_con_Dioniso_Bambino_scolpita_da_Prassitele%2C_Arte_pre_Ellenistica%2C_senza_gimp%29-edit.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 3230,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/f/f6/02_2020_Grecia_photo_Paolo_Villa_FO190024_%28Museo_archeologico_di_Olimpia_-_Statua_Ermes_con_Dioniso_Bambino_scolpita_da_Prassitele%2C_Arte_pre_Ellenistica%2C_senza_gimp%29-edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/02_2020_Grecia_photo_Paolo_Villa_FO190024_%28Museo_archeologico_di_Olimpia_-_Statua_Ermes_con_Dioniso_Bambino_scolpita_da_Prassitele%2C_Arte_pre_Ellenistica%2C_senza_gimp%29-edit.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 3230,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/f6/02_2020_Grecia_photo_Paolo_Villa_FO190024_%28Museo_archeologico_di_Olimpia_-_Statua_Ermes_con_Dioniso_Bambino_scolpita_da_Prassitele%2C_Arte_pre_Ellenistica%2C_senza_gimp%29-edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/02_2020_Grecia_photo_Paolo_Villa_FO190024_%28Museo_archeologico_di_Olimpia_-_Statua_Ermes_con_Dioniso_Bambino_scolpita_da_Prassitele%2C_Arte_pre_Ellenistica%2C_senza_gimp%29-edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:02_2020_Grecia_photo_Paolo_Villa_FO190024_(Museo_archeologico_di_Olimpia_-_Statua_Ermes_con_Dioniso_Bambino_scolpita_da_Prassitele,_Arte_pre_Ellenistica,_senza_gimp)-edit.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=177355958",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-10-25 17:29:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "02 2020 Grecia photo Paolo Villa FO190024 (Museo archeologico di Olimpia - Statua Ermes con Dioniso Bambino scolpita da Prassitele, Arte pre Ellenistica, senza gimp)-edit",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Artworks with Wikidata item|Artworks missing main subject for 3D work|Artworks with Wikidata item missing genre|Artworks with SDC link missing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "37.643790",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "21.629830",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Praxiteles, Hermes bearing the child Dionysos, Archaeological Museum, Olympia <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:02_2020_Grecia_photo_Paolo_Villa_FO190024_(Museo_archeologico_di_Olimpia_-_Statua_Ermes_con_Dioniso_Bambino_scolpita_da_Prassitele,_Arte_pre_Ellenistica,_senza_gimp)-edit.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2020-02",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>, Wikimedia Commons",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Vuvueffino\" class=\"mw-redirect\" title=\"User:Vuvueffino\">Paolo Villa</a>, edited by <a href=\"//commons.wikimedia.org/wiki/User:MenkinAlRire\" title=\"User:MenkinAlRire\">MenkinAlRire</a>",
+                  "source": "commons-desc-page"
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "eb111ae75ce033192d6aee40495c7d8898b0c826d252111641955ed6b9bbdd82"
+}

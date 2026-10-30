@@ -118,15 +118,15 @@ Le CSV sert à lire et comparer les résultats. **Il ne se réimporte pas dans l
 
 ## 9. En cas de problème
 
-| Situation | Que faire ? |
-|---|---|
-| Mes choix semblent avoir disparu | Vérifiez l’adresse, le port, le navigateur et le profil utilisés. Importez votre dernier JSON si nécessaire. |
-| Le stockage est indisponible | Les nouveaux choix restent dans la session, mais ne sont pas garantis après fermeture. Exportez le JSON avant de quitter. |
+| Situation                                             | Que faire ?                                                                                                                                                                                     |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mes choix semblent avoir disparu                      | Vérifiez l’adresse, le port, le navigateur et le profil utilisés. Importez votre dernier JSON si nécessaire.                                                                                    |
+| Le stockage est indisponible                          | Les nouveaux choix restent dans la session, mais ne sont pas garantis après fermeture. Exportez le JSON avant de quitter.                                                                       |
 | Une ancienne sauvegarde est incompatible ou illisible | Ne l’effacez pas. Utilisez « Récupérer l’ancienne sauvegarde » si proposé et exportez aussi les choix de la session. Ne confirmez son remplacement qu’après avoir conservé les fichiers utiles. |
-| La sauvegarde a changé dans un autre onglet | Exportez les choix de cet onglet avant de recharger. Travaillez de préférence dans un seul onglet ; une reprise d’écriture demande confirmation. |
-| Le catalogue ne se charge pas | Vérifiez que le serveur est lancé et l’adresse correcte, puis cliquez sur « Réessayer ». Si les fichiers manquent, consultez le guide technique ci-dessous. |
-| Une reproduction manque | Vérifiez la connexion Internet ou ouvrez la notice du musée depuis la fiche. Le score et les choix restent disponibles. |
-| L’import est refusé | Utilisez un JSON exporté par cet atelier, de version compatible, sans l’éditer manuellement. Un CSV ou une sauvegarde du jeu n’est pas compatible. |
+| La sauvegarde a changé dans un autre onglet           | Exportez les choix de cet onglet avant de recharger. Travaillez de préférence dans un seul onglet ; une reprise d’écriture demande confirmation.                                                |
+| Le catalogue ne se charge pas                         | Vérifiez que le serveur est lancé et l’adresse correcte, puis cliquez sur « Réessayer ». Si les fichiers manquent, consultez le guide technique ci-dessous.                                     |
+| Une reproduction manque                               | Vérifiez la connexion Internet ou ouvrez la notice du musée depuis la fiche. Le score et les choix restent disponibles.                                                                         |
+| L’import est refusé                                   | Utilisez un JSON exporté par cet atelier, de version compatible, sans l’éditer manuellement. Un CSV ou une sauvegarde du jeu n’est pas compatible.                                              |
 
 ## 10. Lorsque la revue est terminée
 
@@ -135,3 +135,17 @@ Exportez une dernière fois le **JSON** et, si utile, le **CSV**. Vous pouvez tr
 **Même avec 1 000 décisions, aucune migration n’est déclenchée.** L’intégration de vos raretés dans le jeu reste une opération séparée nécessitant votre validation explicite.
 
 Pour les sources, les limites du lot et les commandes de collecte/calcul, consultez le [guide technique de l’atelier](../catalog/review-1000/README.md). Les 900 nouvelles images sont servies par Cleveland et nécessitent Internet ; il n’est pas nécessaire de relancer une collecte pour utiliser les données déjà fournies.
+
+# Nouvelles candidates : revue séparée
+
+La page [Nouvelles candidates](https://art-museum-8fdd8-atelier.web.app/masterpieces.html) ouvre désormais l’**enrichissement de 78 nouvelles œuvres** issu de l’audit des 351 entrées. Le lien **Premier lot · 25 œuvres** retrouve la revue précédente à [`masterpieces.html?lot=initial`](https://art-museum-8fdd8-atelier.web.app/masterpieces.html?lot=initial), issue d’un examen de 64 objets exacts. Les deux lots restent séparés pour conserver leurs exports et décisions. Le lien vers les candidates est aussi disponible dans l’en-tête de l’atelier.
+
+Cette page ne remplace pas le catalogue de 1 000 œuvres : ses identifiants, sa version et ses décisions restent inchangés. L’export de référence fourni comporte **722 décisions et 278 œuvres non revues** ; il n’est ni embarqué dans le site ni appliqué automatiquement au jeu.
+
+Pour chaque nouvelle œuvre, choisir une rareté et, séparément, **Retenir / Écarter / Reporter / Réexaminer**. Rien n’est précoché. « Retenir » signifie seulement retenir pour une future validation, jamais ajouter immédiatement une carte au jeu. Le panneau « Droits & historique » conserve les changements, y compris l’annulation d’une rareté.
+
+Les choix sont locaux : `muse:masterpieces-review:v1` pour le premier lot et `muse:enrichment-351-review:v1` pour les 78 nouvelles œuvres, tous deux distincts de `muse:rarity-review:v1`. Exporter avant de changer de navigateur ou d’appareil. Les JSON des candidates portent le format `muse-masterpieces-review`, mais des versions de catalogue différentes : importer chaque export dans son propre lot, sans le confondre avec celui du millier. L’import demande confirmation et fusionne les historiques ; l’événement le plus récent par date l’emporte. Une sauvegarde incompatible n’est pas écrasée : utiliser l’export des choix en mémoire.
+
+Dans le premier lot, le carnet en bas de page donne aussi 39 autres notices : **22 sans droits d’image établis**, donc sans vignette, et **17 admissibles mais différées**. Le nouveau lot n’embarque que ses 78 objets préparés ; les autres lignes et réserves sont dans `enrichment-351-report.md`. Les scores V2 restent des propositions avec données manquantes et confiance explicites, pas des validations de notoriété. Les droits documentés ne constituent pas un avis juridique mondial. Voir aussi [le guide du lot 351](REVIEW_351.md).
+
+Recherche et prévisualisation : `masterpieces-candidates.md`, `masterpieces-candidates.json`, `masterpieces-import-preview.json`, `masterpieces-rights-review.md`. Régénération hors réseau : `npm run masterpieces:build`, puis `npm run masterpieces:images` pour vérifier/réutiliser les reproductions approuvées. Publication de l’atelier seulement : `npm run deploy:atelier`. Il n’existe aucune commande d’activation automatique de ces œuvres dans le jeu.

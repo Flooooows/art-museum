@@ -1,0 +1,533 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=M%C3%A9sopotamie%2C+auteur+inconnu%7CMoyen+%C3%82ge%2C+auteur+inconnu%7CCambodge+ancien%2C+auteur+inconnu%7CChine+ancienne%2C+auteur+inconnu%7CJapon+ancien%2C+auteur+inconnu%7CInde+ancienne%2C+auteur+inconnu%7CCivilisation+maya%2C+auteur+inconnu%7CCivilisation+azt%C3%A8que%2C+auteur+inconnu%7CCivilisation+olm%C3%A8que%2C+auteur+inconnu%7CCulture+mochica%2C+auteur+inconnu%7CCulture+inca%2C+auteur+inconnu%7CAuguste+Rodin%7CCamille+Claudel%7CFrederic+Leighton%7CNic%C3%A9phore+Ni%C3%A9pce%7CLouis+Daguerre%7CWilliam+Henry+Fox+Talbot%7CJulia+Margaret+Cameron%7CEadweard+Muybridge%7C%C3%89tienne-Jules+Marey%7CAlfred+Stieglitz%7CEug%C3%A8ne+Atget%7CLewis+Hine%7CAlphonse+Mucha%7CJules+Ch%C3%A9ret%7CAubrey+Beardsley%7CWilliam+Morris%7C%C3%89mile+Gall%C3%A9%7CLouis+Comfort+Tiffany%7CHector+Guimard",
+  "retrievedAt": "2026-10-30T01:44:03.532Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Alphonse Mucha",
+          "to": "Alfons Mucha"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Culture inca, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Culture_inca,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Culture_inca,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Culture_inca,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Culture mochica, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Culture_mochica,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Culture_mochica,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Culture_mochica,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Civilisation olmèque, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Civilisation_olm%C3%A8que,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Civilisation_olm%C3%A8que,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Civilisation_olm%C3%A8que,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Civilisation aztèque, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Civilisation_azt%C3%A8que,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Civilisation_azt%C3%A8que,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Civilisation_azt%C3%A8que,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Civilisation maya, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Civilisation_maya,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Civilisation_maya,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Civilisation_maya,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Inde ancienne, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Inde_ancienne,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Inde_ancienne,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Inde_ancienne,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Japon ancien, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Japon_ancien,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Japon_ancien,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Japon_ancien,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Chine ancienne, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Chine_ancienne,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Chine_ancienne,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Chine_ancienne,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Cambodge ancien, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Cambodge_ancien,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Cambodge_ancien,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Cambodge_ancien,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Moyen Âge, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Moyen_%C3%82ge,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Moyen_%C3%82ge,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Moyen_%C3%82ge,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Mésopotamie, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/M%C3%A9sopotamie,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=M%C3%A9sopotamie,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/M%C3%A9sopotamie,_auteur_inconnu"
+        },
+        {
+          "pageid": 4842,
+          "ns": 0,
+          "title": "William Morris",
+          "pageprops": {
+            "defaultsort": "Morris, William",
+            "page_image_free": "Wmmorris3248.jpg",
+            "wikibase_item": "Q182589"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:46Z",
+          "lastrevid": 240178128,
+          "length": 41243,
+          "fullurl": "https://fr.wikipedia.org/wiki/William_Morris",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=William_Morris&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/William_Morris"
+        },
+        {
+          "pageid": 33876,
+          "ns": 0,
+          "title": "Émile Gallé",
+          "pageprops": {
+            "defaultsort": "Gallé, Émile",
+            "page_image_free": "Émile_Gallé.jpg",
+            "wikibase_item": "Q275085"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:52Z",
+          "lastrevid": 240793041,
+          "length": 59220,
+          "fullurl": "https://fr.wikipedia.org/wiki/%C3%89mile_Gall%C3%A9",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=%C3%89mile_Gall%C3%A9&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/%C3%89mile_Gall%C3%A9"
+        },
+        {
+          "pageid": 35799,
+          "ns": 0,
+          "title": "Hector Guimard",
+          "pageprops": {
+            "defaultsort": "Guimard, Hector",
+            "page_image_free": "Adeline_and_Hector_Guimard.jpg",
+            "wikibase_item": "Q316422"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:52Z",
+          "lastrevid": 240281913,
+          "length": 53129,
+          "fullurl": "https://fr.wikipedia.org/wiki/Hector_Guimard",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Hector_Guimard&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Hector_Guimard"
+        },
+        {
+          "pageid": 45053,
+          "ns": 0,
+          "title": "Eugène Atget",
+          "pageprops": {
+            "defaultsort": "Atget, Eugène",
+            "page_image_free": "BNF_-_Portrait_d'Eugène_Atget_-_1890_-_001.jpg",
+            "wikibase_item": "Q322030"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:53Z",
+          "lastrevid": 239658286,
+          "length": 24509,
+          "fullurl": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Atget",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Eug%C3%A8ne_Atget&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Atget"
+        },
+        {
+          "pageid": 51123,
+          "ns": 0,
+          "title": "Auguste Rodin",
+          "pageprops": {
+            "defaultsort": "Rodin, Auguste",
+            "page_image_free": "Auguste_Rodin_fotografato_da_Nadar_nel_1891.jpg",
+            "wikibase_item": "Q30755"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:54Z",
+          "lastrevid": 240329072,
+          "length": 134472,
+          "fullurl": "https://fr.wikipedia.org/wiki/Auguste_Rodin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Auguste_Rodin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Auguste_Rodin"
+        },
+        {
+          "pageid": 51125,
+          "ns": 0,
+          "title": "Nicéphore Niépce",
+          "pageprops": {
+            "defaultsort": "Niepce, Nicéphore",
+            "page_image_free": "Posthumous_portrait_of_Nicéphore_Niépce.png",
+            "wikibase_item": "Q188342"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:54Z",
+          "lastrevid": 240543665,
+          "length": 26014,
+          "fullurl": "https://fr.wikipedia.org/wiki/Nic%C3%A9phore_Ni%C3%A9pce",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Nic%C3%A9phore_Ni%C3%A9pce&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Nic%C3%A9phore_Ni%C3%A9pce"
+        },
+        {
+          "pageid": 51126,
+          "ns": 0,
+          "title": "Camille Claudel",
+          "pageprops": {
+            "defaultsort": "Claudel, Camille",
+            "page_image_free": "Camille_nette.jpg",
+            "wikibase_item": "Q120582"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:54Z",
+          "lastrevid": 240742123,
+          "length": 120103,
+          "fullurl": "https://fr.wikipedia.org/wiki/Camille_Claudel",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Camille_Claudel&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Camille_Claudel"
+        },
+        {
+          "pageid": 77642,
+          "ns": 0,
+          "title": "Alfons Mucha",
+          "pageprops": {
+            "defaultsort": "Mucha, Alfons",
+            "page_image_free": "Alfons_Mucha_1901.jpg",
+            "wikibase_item": "Q146691"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:57Z",
+          "lastrevid": 240443640,
+          "length": 27739,
+          "fullurl": "https://fr.wikipedia.org/wiki/Alfons_Mucha",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Alfons_Mucha&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Alfons_Mucha"
+        },
+        {
+          "pageid": 79045,
+          "ns": 0,
+          "title": "Louis Comfort Tiffany",
+          "pageprops": {
+            "defaultsort": "Tiffany, Louis Comfort",
+            "page_image_free": "Louis_Comfort_Tiffany_c._1908.jpg",
+            "wikibase_item": "Q312950"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:58Z",
+          "lastrevid": 240286843,
+          "length": 48984,
+          "fullurl": "https://fr.wikipedia.org/wiki/Louis_Comfort_Tiffany",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Louis_Comfort_Tiffany&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Louis_Comfort_Tiffany"
+        },
+        {
+          "pageid": 112759,
+          "ns": 0,
+          "title": "Louis Daguerre",
+          "pageprops": {
+            "defaultsort": "Daguerre, Louis",
+            "page_image_free": "Jean-Babtiste_Sabarier-Blot_L.J.M.Daguerre.1844.JPG",
+            "wikibase_item": "Q131405"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:03Z",
+          "lastrevid": 229364013,
+          "length": 22719,
+          "fullurl": "https://fr.wikipedia.org/wiki/Louis_Daguerre",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Louis_Daguerre&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Louis_Daguerre"
+        },
+        {
+          "pageid": 117534,
+          "ns": 0,
+          "title": "Aubrey Beardsley",
+          "pageprops": {
+            "defaultsort": "Beardsley, Aubrey",
+            "page_image_free": "Aubrey_Beardsley_by_Frederick_Hollyer,_1893_(cropped).jpg",
+            "wikibase_item": "Q272566"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:03Z",
+          "lastrevid": 240722201,
+          "length": 19859,
+          "fullurl": "https://fr.wikipedia.org/wiki/Aubrey_Beardsley",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Aubrey_Beardsley&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Aubrey_Beardsley"
+        },
+        {
+          "pageid": 155095,
+          "ns": 0,
+          "title": "Alfred Stieglitz",
+          "pageprops": {
+            "defaultsort": "Stieglitz, Alfred",
+            "page_image_free": "Alfred_Stieglitz.jpg",
+            "wikibase_item": "Q313055"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:09Z",
+          "lastrevid": 240745894,
+          "length": 47777,
+          "fullurl": "https://fr.wikipedia.org/wiki/Alfred_Stieglitz",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Alfred_Stieglitz&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Alfred_Stieglitz"
+        },
+        {
+          "pageid": 188326,
+          "ns": 0,
+          "title": "Eadweard Muybridge",
+          "pageprops": {
+            "defaultsort": "Muybridge, Eadweard",
+            "page_image_free": "Muybridge-2.jpg",
+            "wikibase_item": "Q190568"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:14Z",
+          "lastrevid": 239679311,
+          "length": 21840,
+          "fullurl": "https://fr.wikipedia.org/wiki/Eadweard_Muybridge",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Eadweard_Muybridge&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Eadweard_Muybridge"
+        },
+        {
+          "pageid": 391172,
+          "ns": 0,
+          "title": "Étienne-Jules Marey",
+          "pageprops": {
+            "defaultsort": "Marey, Etienne-Jules",
+            "page_image_free": "Étienne_Jules_Marey_by_Nadar.jpg",
+            "wikibase_item": "Q289217"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:48Z",
+          "lastrevid": 236555937,
+          "length": 69139,
+          "fullurl": "https://fr.wikipedia.org/wiki/%C3%89tienne-Jules_Marey",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=%C3%89tienne-Jules_Marey&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/%C3%89tienne-Jules_Marey"
+        },
+        {
+          "pageid": 408755,
+          "ns": 0,
+          "title": "William Henry Fox Talbot",
+          "pageprops": {
+            "defaultsort": "Talbot, William Henry Fox",
+            "page_image_free": "Talbot_by_Claudet.jpg",
+            "wikibase_item": "Q299565"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:51Z",
+          "lastrevid": 240056293,
+          "length": 12691,
+          "fullurl": "https://fr.wikipedia.org/wiki/William_Henry_Fox_Talbot",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=William_Henry_Fox_Talbot&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/William_Henry_Fox_Talbot"
+        },
+        {
+          "pageid": 418916,
+          "ns": 0,
+          "title": "Julia Margaret Cameron",
+          "pageprops": {
+            "defaultsort": "Cameron, Julia Margaret",
+            "page_image_free": "Julia_Margaret_Cameron_MET_DP114480_(cropped).jpg",
+            "wikibase_item": "Q230120"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:52Z",
+          "lastrevid": 239956748,
+          "length": 29619,
+          "fullurl": "https://fr.wikipedia.org/wiki/Julia_Margaret_Cameron",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Julia_Margaret_Cameron&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Julia_Margaret_Cameron"
+        },
+        {
+          "pageid": 515450,
+          "ns": 0,
+          "title": "Frederic Leighton",
+          "pageprops": {
+            "defaultsort": "Leighton, Frederic",
+            "page_image_free": "Lord_Frederic_Leighton.jpg",
+            "wikibase_item": "Q160252"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:05Z",
+          "lastrevid": 239846032,
+          "length": 7924,
+          "fullurl": "https://fr.wikipedia.org/wiki/Frederic_Leighton",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Frederic_Leighton&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Frederic_Leighton"
+        },
+        {
+          "pageid": 552573,
+          "ns": 0,
+          "title": "Lewis Hine",
+          "pageprops": {
+            "defaultsort": "Hine, Lewis Wikes",
+            "page_image_free": "Lewis_Hine_selfportrait.jpg",
+            "wikibase_item": "Q347194"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:09Z",
+          "lastrevid": 233321665,
+          "length": 15625,
+          "fullurl": "https://fr.wikipedia.org/wiki/Lewis_Hine",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Lewis_Hine&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Lewis_Hine"
+        },
+        {
+          "pageid": 639604,
+          "ns": 0,
+          "title": "Jules Chéret",
+          "pageprops": {
+            "defaultsort": "Chéret, Jules",
+            "page_image_free": "Chéret,_Jules,_Nadar,_Gallica.jpg",
+            "wikibase_item": "Q610202"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:21Z",
+          "lastrevid": 238594014,
+          "length": 19543,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jules_Ch%C3%A9ret",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jules_Ch%C3%A9ret&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jules_Ch%C3%A9ret"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "7d4eabb77efc5ad894eee9fd38f980597c5a1fdd89765cf95048f363e338ee3d"
+}

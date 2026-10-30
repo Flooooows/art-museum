@@ -1,0 +1,1309 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata&prop=imageinfo&redirects=1&titles=File%3AEdvard+Munch%2C+1893%2C+The+Scream%2C+oil%2C+tempera+and+pastel+on+cardboard%2C+91+x+73+cm%2C+National+Gallery+of+Norway.jpg%7CFile%3ALas+Meninas%2C+by+Diego+Vel%C3%A1zquez%2C+from+Prado+in+Google+Earth.jpg%7CFile%3ALa+Libert%C3%A9+guidant+le+peuple+-+Eug%C3%A8ne+Delacroix+-+Mus%C3%A9e+du+Louvre+Peintures+RF+129+-+apr%C3%A8s+restauration+2024.jpg%7CFile%3ADa+Vinci+Vitruve+Luc+Viatour.jpg%7CFile%3AThe+Creation+of+Adam+perspective+fix.jpg%7CFile%3AA+Sunday+on+La+Grande+Jatte%2C+Georges+Seurat%2C+1884.jpg%7CFile%3AJEAN+LOUIS+TH%C3%89ODORE+G%C3%89RICAULT+-+La+Balsa+de+la+Medusa+%28Museo+del+Louvre%2C+1818-19%29.jpg%7CFile%3ALa+ronda+de+noche%2C+por+Rembrandt+van+Rijn.jpg%7CFile%3AGrant+Wood+-+American+Gothic+%281930%29.jpg%7CFile%3AThe+Garden+of+Earthly+Delights+by+Bosch+High+Resolution+2.jpg%7CFile%3ALady+with+an+Ermine+-+Leonardo+da+Vinci+-+Google+Art+Project.jpg%7CFile%3AJohannes+Vermeer+-+Het+melkmeisje+-+Google+Art+Project.jpg%7CFile%3AAltarraum+mit+J%C3%BCngstem+Gericht.jpg%7CFile%3ALast+Judgement+%28Michelangelo%29.jpg%7CFile%3A1665+Girl+with+a+Pearl+Earring.jpg",
+  "retrievedAt": "2026-10-30T00:41:23.684Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 2738140,
+          "ns": 6,
+          "title": "File:Da Vinci Vitruve Luc Viatour.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2738140",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2010-09-14 05:45:57",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Vitruvian Man</i></div></div><div style=\"display: none;\">label QS:Les,\"Hombre de Vitruvio\"</div><div style=\"display: none;\">label QS:Lis,\"Vitrúvíski maðurinn\"</div><div style=\"display: none;\">label QS:Lms,\"L'uomo vitruviano\"</div><div style=\"display: none;\">label QS:Len-gb,\"Vitruvian Man\"</div><div style=\"display: none;\">label QS:Lbg,\"Витрувиански човек\"</div><div style=\"display: none;\">label QS:Lro,\"Omul Vitruvian\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"維特魯威人\"</div><div style=\"display: none;\">label QS:Lsk,\"Vitruviánsky muž\"</div><div style=\"display: none;\">label QS:Luk,\"Вітрувіанська людина\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"維特魯威人\"</div><div style=\"display: none;\">label QS:Lzh-cn,\"维特鲁威人\"</div><div style=\"display: none;\">label QS:Lko,\"비트루비우스적 인간\"</div><div style=\"display: none;\">label QS:Las,\"ৱিত্ৰুৱীয় মানুহ\"</div><div style=\"display: none;\">label QS:Leo,\"Vitruvia homo\"</div><div style=\"display: none;\">label QS:Lmk,\"Витрувиев човек\"</div><div style=\"display: none;\">label QS:Lbs,\"Vitruvijanski čovjek\"</div><div style=\"display: none;\">label QS:Lsyl,\"ꠅꠤꠔ꠆ꠞꠥꠅꠤꠅ ꠝꠣꠘꠥꠡ\"</div><div style=\"display: none;\">label QS:Lbn,\"ভিত্রুভিয়ানো মানব\"</div><div style=\"display: none;\">label QS:Lfr,\"Homme de Vitruve\"</div><div style=\"display: none;\">label QS:Lhr,\"Vitruvijev čovjek\"</div><div style=\"display: none;\">label QS:Lvi,\"Người Vitruvius\"</div><div style=\"display: none;\">label QS:Llv,\"Vitrūvija cilvēks\"</div><div style=\"display: none;\">label QS:Laf,\"Vitruviaanse Man\"</div><div style=\"display: none;\">label QS:Lsr,\"Витрувијев човек\"</div><div style=\"display: none;\">label QS:Lzu,\"The Vitruvian Man\"</div><div style=\"display: none;\">label QS:Lzh-sg,\"维特鲁威人\"</div><div style=\"display: none;\">label QS:Lnb,\"Den vitruviske mann\"</div><div style=\"display: none;\">label QS:Laz,\"Vitruvius insanı\"</div><div style=\"display: none;\">label QS:Len,\"Vitruvian Man\"</div><div style=\"display: none;\">label QS:Lar,\"الرجل الفيتروفي\"</div><div style=\"display: none;\">label QS:Lhu,\"Vitruvius-tanulmány\"</div><div style=\"display: none;\">label QS:Lgu,\"da vinci\"</div><div style=\"display: none;\">label QS:Leu,\"Vitruvioren gizona\"</div><div style=\"display: none;\">label QS:Last,\"Home de Vitruvio\"</div><div style=\"display: none;\">label QS:Lca,\"Home de Vitruvi\"</div><div style=\"display: none;\">label QS:Lde,\"Vitruvianischer Mensch\"</div><div style=\"display: none;\">label QS:Lbe,\"Вітрувіянскі чалавек\"</div><div style=\"display: none;\">label QS:Lhy,\"Վիտրուվիանյան մարդ\"</div><div style=\"display: none;\">label QS:Lzh,\"维特鲁威人\"</div><div style=\"display: none;\">label QS:Lda,\"Homo Vitruvianus\"</div><div style=\"display: none;\">label QS:Lka,\"ვიტრუვიანელი ადამიანი\"</div><div style=\"display: none;\">label QS:Lja,\"ウィトルウィウス的人体図\"</div><div style=\"display: none;\">label QS:Lhe,\"האדם הוויטרובי\"</div><div style=\"display: none;\">label QS:Lla,\"Homo Vitruvianus\"</div><div style=\"display: none;\">label QS:Lhi,\"विट्रुवियन मैन\"</div><div style=\"display: none;\">label QS:Lwuu,\"维特鲁威人\"</div><div style=\"display: none;\">label QS:Lfi,\"Vitruviuksen mies\"</div><div style=\"display: none;\">label QS:Lhyw,\"Վիդրովանեան մարդ\"</div><div style=\"display: none;\">label QS:Lta,\"விட்ருவியன் மனிதன்\"</div><div style=\"display: none;\">label QS:Lit,\"Uomo vitruviano\"</div><div style=\"display: none;\">label QS:Lsq,\"Njeriu Vitruvian\"</div><div style=\"display: none;\">label QS:Lel,\"Άνθρωπος του Βιτρούβιου\"</div><div style=\"display: none;\">label QS:Lid,\"Manusia Vitruvian\"</div><div style=\"display: none;\">label QS:Loc,\"Òme de Vitruvi\"</div><div style=\"display: none;\">label QS:Lru,\"Витрувианский человек\"</div><div style=\"display: none;\">label QS:Ltr,\"Vitruvius Adamı\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Витрувијев човек\"</div><div style=\"display: none;\">label QS:Lsr-el,\"Vitruvijev čovek\"</div><div style=\"display: none;\">label QS:Lcy,\"Dyn Vitruvius\"</div><div style=\"display: none;\">label QS:Lzh-tw,\"維特魯威人\"</div><div style=\"display: none;\">label QS:Lsco,\"Vitruvian Man\"</div><div style=\"display: none;\">label QS:Llt,\"Vitruvijaus žmogus\"</div><div style=\"display: none;\">label QS:Lsl,\"Vitruvijev človek\"</div><div style=\"display: none;\">label QS:Ltl,\"Lalaking Vitruvio\"</div><div style=\"display: none;\">label QS:Lsv,\"Vitruvianske mannen\"</div><div style=\"display: none;\">label QS:Lth,\"วิทรูเวียนแมน\"</div><div style=\"display: none;\">label QS:Lwar,\"Tawotawo ni Vitruvio\"</div><div style=\"display: none;\">label QS:Lpl,\"Człowiek witruwiański\"</div><div style=\"display: none;\">label QS:Lml,\"വിട്രൂവിയൻ മാൻ\"</div><div style=\"display: none;\">label QS:Lnl,\"Vitruviusman\"</div><div style=\"display: none;\">label QS:Lary,\"الراجل لڤيتروڤي (ليوناردو دا ڤينشي)\"</div><div style=\"display: none;\">label QS:Lfa,\"مرد ویتروین\"</div><div style=\"display: none;\">label QS:Lpt,\"Homem Vitruviano\"</div><div style=\"display: none;\">label QS:Lsh,\"Vitruvijev čovjek\"</div><div style=\"display: none;\">label QS:Lgl,\"O home de Vitruvio\"</div><div style=\"display: none;\">label QS:Lcs,\"Vitruviánský muž\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"维特鲁威人\"</div><div style=\"display: none;\">label QS:Lcv,\"Витрувий этемӗ\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Nikon D80|Vitruvian Man by Leonardo da Vinci|Images with annotations|Vector version available|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|Picture of week on the Czech Wikipedia|Files with derivative versions|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Turkish|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Featured pictures on Wikipedia, Bengali|Artworks with Wikidata item missing medium|Artworks with Wikidata item missing genre|Featured pictures in the public domain|Artworks digital representation of unknown type of work|Artworks digital representation of 2D work|Photographs by Luc Viatour",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|valued|potd|poty",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<i><a href=\"https://en.wikipedia.org/wiki/Vitruvian_Man\" class=\"extiw\" title=\"w:Vitruvian Man\">Vitruvian Man</a></i></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1492<div style=\"display: none;\">date QS:P571,+1492-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<p>Leonardo Da Vinci - Photo from <a rel=\"nofollow\" class=\"external text\" href=\"http://www.lucnix.be\">www.lucnix.be</a>. 2007-09-08 (photograph). Photograpy: \n</p>\n<table style=\"margin: 1.5em auto; width:60%; background-color:#CCCCCC; border:2px solid #aaaaaa; padding:1px;\" cellspacing=\"10\">\n\n\n<tbody><tr>\n<td align=\"center\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Lviatour.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Lviatour.jpg/120px-Lviatour.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"80\" height=\"69\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Lviatour.jpg/250px-Lviatour.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"899\" data-file-height=\"773\"></a></span>\n</td>\n<td><b><i>This image</i> is the work of <i><a href=\"//commons.wikimedia.org/wiki/User:Lviatour\" title=\"User:Lviatour\">Luc Viatour</a></i></b>\n<p>Please credit it with: <b>Luc Viatour / <a rel=\"nofollow\" class=\"external free\" href=\"https://Lucnix.be\">https://Lucnix.be</a></b> in the immediate vicinity of the image. A link to my website <a rel=\"nofollow\" class=\"external free\" href=\"https://lucnix.be\">https://lucnix.be</a> is much appreciated but not mandatory.\n</p><p>An email to\n<span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span>\n<a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Lviatour\" title=\"Special:EmailUser/Lviatour\">Viatour Luc</a> would be appreciated too.\n</p><p>Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain.\nIf you would like special permission to use, license, or purchase the image please contact me <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span><a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/Lviatour\" title=\"Special:EmailUser/Lviatour\">Viatour Luc</a> to negotiate terms.\n</p><p>More free pictures in my <a rel=\"nofollow\" class=\"external text\" href=\"https://lucnix.be\">personal gallery</a>\n</p>\n</td></tr></tbody></table> [Note: this is in the public domain, despite the photographer's contradictory claim. Any use is permissible, and no credit to the photographer is necessary.]\n<ul><li>Nikon case D80 optical Sigma 17-70mm F2,8/4,5 Macro</li></ul>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "For more information, see <a href=\"//commons.wikimedia.org/wiki/Help:SVG\" title=\"Help:SVG\">Help:SVG</a>.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 9939078,
+          "ns": 6,
+          "title": "File:The Garden of Earthly Delights by Bosch High Resolution 2.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution_2.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=9939078",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-06-08 06:51:56",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Garden of Earthly Delights <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q321303#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The Garden of Earthly Delights <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q321303#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The Garden of Earthly Delights <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q321303#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"El jardín de las delicias\"</div><div style=\"display: none;\">label QS:Lhu,\"Gyönyörök kertje\"</div><div style=\"display: none;\">label QS:Leu,\"Atseginen baratzea\"</div><div style=\"display: none;\">label QS:Last,\"El xardín de les delicies\"</div><div style=\"display: none;\">label QS:Lru,\"Сад земных наслаждений\"</div><div style=\"display: none;\">label QS:Lde,\"Der Garten der Lüste\"</div><div style=\"display: none;\">label QS:Lbe,\"Сад зямных асалодаў\"</div><div style=\"display: none;\">label QS:Lfa,\"باغ لذت دنیوی\"</div><div style=\"display: none;\">label QS:Lbg,\"Градината на земните удоволствия\"</div><div style=\"display: none;\">label QS:Lda,\"Lysternes have\"</div><div style=\"display: none;\">label QS:Ltr,\"Zevk Bahçesi\"</div><div style=\"display: none;\">label QS:Lja,\"快楽の園\"</div><div style=\"display: none;\">label QS:Lhe,\"גן התענוגות הארציים\"</div><div style=\"display: none;\">label QS:Lel,\"Ο κήπος των επίγειων απολαύσεων\"</div><div style=\"display: none;\">label QS:Lsv,\"Lustarnas trädgård\"</div><div style=\"display: none;\">label QS:Lka,\"ტკბობის ბაღი\"</div><div style=\"display: none;\">label QS:Luk,\"Сад земних насолод\"</div><div style=\"display: none;\">label QS:Lla,\"Libidinum horti\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"人間樂園\"</div><div style=\"display: none;\">label QS:Lzh-cn,\"人间乐园\"</div><div style=\"display: none;\">label QS:Lfi,\"Maallisten ilojen puutarha\"</div><div style=\"display: none;\">label QS:Lca,\"El jardí de les delícies\"</div><div style=\"display: none;\">label QS:Leo,\"La ĝardeno de la delicoj\"</div><div style=\"display: none;\">label QS:Lhr,\"Vrt naslade\"</div><div style=\"display: none;\">label QS:Lit,\"Trittico del Giardino delle delizie\"</div><div style=\"display: none;\">label QS:Lmk,\"Градина на земските наслади\"</div><div style=\"display: none;\">label QS:Lfr,\"Le Jardin des délices\"</div><div style=\"display: none;\">label QS:Larz,\"حديقه المباهج الارضيه\"</div><div style=\"display: none;\">label QS:Let,\"Maiste naudingute aed\"</div><div style=\"display: none;\">label QS:Lsh,\"Vrt naslade\"</div><div style=\"display: none;\">label QS:Lgd,\"An Garradh Thlachdan Talmhaidh\"</div><div style=\"display: none;\">label QS:Lzh-tw,\"人間樂園\"</div><div style=\"display: none;\">label QS:Lko,\"세속적인 쾌락의 정원\"</div><div style=\"display: none;\">label QS:Lvi,\"Khu vườn lạc thú trần tục\"</div><div style=\"display: none;\">label QS:Lpt,\"O Jardim das Delícias Terrenas\"</div><div style=\"display: none;\">label QS:Lzh,\"人間樂園\"</div><div style=\"display: none;\">label QS:Llv,\"Pasaulīgo baudu dārzs\"</div><div style=\"display: none;\">label QS:Laf,\"Tuin van Wellus\"</div><div style=\"display: none;\">label QS:Lsr,\"Врт уживања\"</div><div style=\"display: none;\">label QS:Lsl,\"Vrt zemeljskih naslad\"</div><div style=\"display: none;\">label QS:Laz,\"Dünyəvi zövqlər bağı\"</div><div style=\"display: none;\">label QS:Lhy,\"Հաճույքների պարտեզը\"</div><div style=\"display: none;\">label QS:Lzh-sg,\"人间乐园\"</div><div style=\"display: none;\">label QS:Lid,\"Taman Kenikmatan Duniawi\"</div><div style=\"display: none;\">label QS:Lpl,\"Ogród ziemskich rozkoszy\"</div><div style=\"display: none;\">label QS:Lnb,\"Lystenes hage\"</div><div style=\"display: none;\">label QS:Lnl,\"De tuin der lusten\"</div><div style=\"display: none;\">label QS:Lcy,\"Gardd y Pleserau Daearol\"</div><div style=\"display: none;\">label QS:Lro,\"Grădina deliciilor\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"人間樂園\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"人间乐园\"</div><div style=\"display: none;\">label QS:Lgl,\"O xardín das delicias\"</div><div style=\"display: none;\">label QS:Lar,\"حديقة المباهج الأرضية\"</div><div style=\"display: none;\">label QS:Lbr,\"Liorzh ar plijadurezhioù\"</div><div style=\"display: none;\">label QS:Lcs,\"Zahrada pozemských rozkoší\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Garden of Earthly Delights|Retouched pictures|Images with annotations|Pages with non-numeric formatnum arguments|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Files with derivative versions|Unknown date|Prado in Google Earth|Images with 10+ annotations|Image annotation reference files|CC-PD-Mark|Artworks with accession number from Wikidata|1995 in 's-Hertogenbosch|Artworks with group Wikidata item|Artworks digital representation of 2D work|Artworks digital representation of both 2D and 3D work|Files uploaded by Surajr7",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hieronymus_Bosch\" class=\"extiw\" title=\"w:en:Hieronymus Bosch\"><span title=\"painters in art (1450–1516)\">Hieronymus Bosch</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1490 and 1500<div style=\"display: none;\">date QS:P,+1500-00-00T00:00:00Z/6,P1319,+1490-00-00T00:00:00Z/9,P1326,+1500-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q321303#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Google Earth's Prado exhibition <a rel=\"nofollow\" class=\"external free\" href=\"http://www.google.com/intl/en/landing/prado/\">http://www.google.com/intl/en/landing/prado/</a>. Screen scraping and stitching by <a href=\"//commons.wikimedia.org/wiki/User:AxelBoldt\" title=\"User:AxelBoldt\">AxelBoldt</a>. (Please let me know if you find any stitching artifacts.)",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 11500785,
+          "ns": 6,
+          "title": "File:A Sunday on La Grande Jatte, Georges Seurat, 1884.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=11500785",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-04-28 21:22:01",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>A Sunday on La Grande Jatte -- 1884 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1044742#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">label QS:Lfr,\"Un dimanche après-midi à l'Île de la Grande Jatte\"</div><div style=\"display: none;\">label QS:Len,\"A Sunday on La Grande Jatte\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Un dimanche après-midi à l'Île de la Grande Jatte|Gigapixel images from the Google Art Project|PD-old-100-expired|Featured pictures by others nominated by Yann Forget|Featured pictures on Wikipedia, English|Files uploaded by Yann Forget|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Georges_Seurat\" class=\"extiw\" title=\"w:en:Georges Seurat\"><span title=\"French painter (1859-1891)\">Georges Seurat</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1884 and 1886<div style=\"display: none;\">date QS:P571,+1884-00-00T00:00:00Z/8,P1319,+1884-00-00T00:00:00Z/9,P1326,+1886-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.bostonglobe.com/arts/theater-dance/2016/09/01/huntington-two-georges-one-sondheim/OR1D4DPM8GsME67aXEjWiP/story.html\">https://www.bostonglobe.com/arts/theater-dance/2016/09/01/huntington-two-georges-one-sondheim/OR1D4DPM8GsME67aXEjWiP/story.html</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 13408941,
+          "ns": 6,
+          "title": "File:Johannes Vermeer - Het melkmeisje - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=13408941",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-02-19 10:32:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Arabic:  <div style=\"display:inline-block\" dir=\"rtl\" lang=\"ar\">ساقية الحليب <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q167605#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Milkmaid</i></div></div><div style=\"display: none;\">title QS:P1476,ar:\"ساقية الحليب <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q167605#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lar,\"ساقية الحليب <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q167605#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"La lechera\"</div><div style=\"display: none;\">label QS:Lhu,\"Tejet öntő nő\"</div><div style=\"display: none;\">label QS:Leu,\"Esneduna (margolana)\"</div><div style=\"display: none;\">label QS:Lca,\"La lletera\"</div><div style=\"display: none;\">label QS:Lde,\"Dienstmagd mit Milchkrug\"</div><div style=\"display: none;\">label QS:Lhy,\"Կաթնավաճառուհին\"</div><div style=\"display: none;\">label QS:Lzh,\"倒牛奶的女僕\"</div><div style=\"display: none;\">label QS:Lda,\"Mælkepigen\"</div><div style=\"display: none;\">label QS:Ltr,\"Süt Boşaltan Kadın\"</div><div style=\"display: none;\">label QS:Lja,\"牛乳を注ぐ女\"</div><div style=\"display: none;\">label QS:Lsv,\"Kökspiga som häller upp mjölk\"</div><div style=\"display: none;\">label QS:Luk,\"Молочниця\"</div><div style=\"display: none;\">label QS:Ltt,\"Сөт савучысы\"</div><div style=\"display: none;\">label QS:Lio,\"Het melkmeisje\"</div><div style=\"display: none;\">label QS:Lfi,\"Maitotyttö\"</div><div style=\"display: none;\">label QS:Leo,\"La Laktistino\"</div><div style=\"display: none;\">label QS:Lary,\"مولات لحليب\"</div><div style=\"display: none;\">label QS:Lit,\"Lattaia\"</div><div style=\"display: none;\">label QS:Lfr,\"La Laitière\"</div><div style=\"display: none;\">label QS:Lko,\"우유 짜는 여인\"</div><div style=\"display: none;\">label QS:Lhr,\"Mljekarica\"</div><div style=\"display: none;\">label QS:Lbr,\"Plac'h al laezh\"</div><div style=\"display: none;\">label QS:Lbg,\"Млекарката\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Млекарица\"</div><div style=\"display: none;\">label QS:Lavk,\"Ayikya dem vrodak (trutca ke Vermeer)\"</div><div style=\"display: none;\">label QS:Lmk,\"Млекарка\"</div><div style=\"display: none;\">label QS:Lpt,\"A Leiteira\"</div><div style=\"display: none;\">label QS:Lmt,\"Qaddejja tferra' l-ħalib\"</div><div style=\"display: none;\">label QS:Llv,\"Kalpone ar piena krūzi\"</div><div style=\"display: none;\">label QS:Lvi,\"Cô gái vắt sữa\"</div><div style=\"display: none;\">label QS:Lsr,\"Млекарица (Вермер)\"</div><div style=\"display: none;\">label QS:Lsl,\"Mlekarica (Vermeer)\"</div><div style=\"display: none;\">label QS:Lsh,\"Mljekarica\"</div><div style=\"display: none;\">label QS:Lml,\"ദി മിൽക്ക്മെയ്ഡ് (വെർമീർ)\"</div><div style=\"display: none;\">label QS:Lhe,\"מוזגת החלב\"</div><div style=\"display: none;\">label QS:Lfa,\"زن شیردوش\"</div><div style=\"display: none;\">label QS:Lpl,\"Mleczarka\"</div><div style=\"display: none;\">label QS:Lnb,\"«Melkepiken»\"</div><div style=\"display: none;\">label QS:Lnl,\"Het melkmeisje\"</div><div style=\"display: none;\">label QS:Lru,\"Молочница\"</div><div style=\"display: none;\">label QS:Luz,\"Sut sotuvchi\"</div><div style=\"display: none;\">label QS:Lpnb,\"دودن\"</div><div style=\"display: none;\">label QS:Lps,\"شودې ایشونکي انجلﺉ\"</div><div style=\"display: none;\">label QS:Len,\"The Milkmaid\"</div><div style=\"display: none;\">label QS:Larz,\"خادمه الحليب\"</div><div style=\"display: none;\">label QS:Lel,\"Η Γαλατού\"</div><div style=\"display: none;\">label QS:Lcs,\"Dojička\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Milkmaid by Johannes Vermeer|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Featured pictures on Wikipedia, Spanish|CC-PD-Mark|Google Art Project works by Johannes Vermeer|Artworks digital representation of 2D work|Files from Google Arts & Culture|Files with Assessments template missing SDC Commons no value quality assessment|Featured pictures on Wikipedia, Arabic|Google Art Project works in Rijksmuseum",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johannes_Vermeer\" class=\"extiw\" title=\"w:en:Johannes Vermeer\"><span title=\"Dutch painter (1632–1675)\">Johannes Vermeer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1660<div style=\"display: none;\">date QS:P571,+1660-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/9.\">AHrw. Z3. Av6. Zhjg 9. AHrw. Z3. Av6. Zhjg</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 16143987,
+          "ns": 6,
+          "title": "File:Last Judgement (Michelangelo).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Last_Judgement_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Last_Judgement_(Michelangelo).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16143987",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2015-11-21 12:14:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Last Judgment (Fresco, Sistine Chapel Altar Wall) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The Last Judgment (Fresco, Sistine Chapel Altar Wall) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The Last Judgment (Fresco, Sistine Chapel Altar Wall) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"El Juicio Final\"</div><div style=\"display: none;\">label QS:Lyue,\"末日審判 (畫)\"</div><div style=\"display: none;\">label QS:Lam,\"የፍርድ ቀን\"</div><div style=\"display: none;\">label QS:Lca,\"Judici Final de la capella Sixtina\"</div><div style=\"display: none;\">label QS:Lde,\"Das Jüngste Gericht\"</div><div style=\"display: none;\">label QS:Lbe,\"Страшны суд, Мікеланджэла\"</div><div style=\"display: none;\">label QS:Lfa,\"قضاوت نهایی (میکل آنژ)\"</div><div style=\"display: none;\">label QS:Lbg,\"Страшният съд\"</div><div style=\"display: none;\">label QS:Lda,\"Den dommedag\"</div><div style=\"display: none;\">label QS:Lro,\"Judecata de Apoi\"</div><div style=\"display: none;\">label QS:Lja,\"最後の審判\"</div><div style=\"display: none;\">label QS:Lko,\"최후의 심판\"</div><div style=\"display: none;\">label QS:Lsk,\"Posledný súd\"</div><div style=\"display: none;\">label QS:Lcs,\"Poslední soud\"</div><div style=\"display: none;\">label QS:Lhe,\"יום הדין האחרון\"</div><div style=\"display: none;\">label QS:Lla,\"Extremum Iudicium\"</div><div style=\"display: none;\">label QS:Lka,\"განკითხვის დღე\"</div><div style=\"display: none;\">label QS:Lio,\"La Lasta Judiko\"</div><div style=\"display: none;\">label QS:Lfi,\"Viimeinen tuomio\"</div><div style=\"display: none;\">label QS:Lhyw,\"Վերջին դատաստանը\"</div><div style=\"display: none;\">label QS:Leo,\"La Lasta Juĝo\"</div><div style=\"display: none;\">label QS:Lta,\"கடைசித் தீர்ப்பு\"</div><div style=\"display: none;\">label QS:Lit,\"Giudizio universale\"</div><div style=\"display: none;\">label QS:Lzh,\"最后的审判\"</div><div style=\"display: none;\">label QS:Lfr,\"Le Jugement dernier\"</div><div style=\"display: none;\">label QS:Lcy,\"Y Farn Olaf\"</div><div style=\"display: none;\">label QS:Lhr,\"Posljednji sud (Michelangelo)\"</div><div style=\"display: none;\">label QS:Lmk,\"Страшниот суд\"</div><div style=\"display: none;\">label QS:Laz,\"Qiyamət günü\"</div><div style=\"display: none;\">label QS:Ltr,\"The Last Judgment\"</div><div style=\"display: none;\">label QS:Lsu,\"Viimeinen tuomio\"</div><div style=\"display: none;\">label QS:Lsr,\"Страшни суд (Микеланђело)\"</div><div style=\"display: none;\">label QS:Lvi,\"Sự phán xét cuối cùng\"</div><div style=\"display: none;\">label QS:Lmt,\"Il-Ġudizzju Universali\"</div><div style=\"display: none;\">label QS:Llv,\"Pastarā tiesa (Mikelandželo)\"</div><div style=\"display: none;\">label QS:Lpt,\"Juízo Final\"</div><div style=\"display: none;\">label QS:Llt,\"Paskutinis teismas\"</div><div style=\"display: none;\">label QS:Lsl,\"Poslednja sodba\"</div><div style=\"display: none;\">label QS:Lth,\"การตัดสินครั้งสุดท้าย\"</div><div style=\"display: none;\">label QS:Lhy,\"Ահեղ դատաստան\"</div><div style=\"display: none;\">label QS:Lga,\"An Breithiúnas Deireanach\"</div><div style=\"display: none;\">label QS:Lid,\"Pengadilan Terakhir\"</div><div style=\"display: none;\">label QS:Lpl,\"Sąd Ostateczny\"</div><div style=\"display: none;\">label QS:Lnb,\"Dommedag\"</div><div style=\"display: none;\">label QS:Lnl,\"Het laatste oordeel\"</div><div style=\"display: none;\">label QS:Lsv,\"Yttersta domen\"</div><div style=\"display: none;\">label QS:Lpa,\"ਅੰਤਮ ਨਿਆਂ\"</div><div style=\"display: none;\">label QS:Lru,\"Страшный суд\"</div><div style=\"display: none;\">label QS:Luk,\"Страшний суд\"</div><div style=\"display: none;\">label QS:Lgl,\"Xuízo Final\"</div><div style=\"display: none;\">label QS:Lar,\"الحساب الأخير\"</div><div style=\"display: none;\">label QS:Lwuu,\"最后个审判 (壁画)\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Sistine Chapel - Last Judgment|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|CC-PD-Mark|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of unknown type of work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.902800",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.454200",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Michelangelo\" class=\"extiw\" title=\"w:en:Michelangelo\"><span title=\"Italian artist and architect (1475-1564)\">Michelangelo</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://en.wikipedia.org/wiki/en:Last_Judgment\" class=\"extiw\" title=\"w:en:Last Judgment\"><span title=\"eschatological concept in Zoroastrianism and the Abrahamic religions about a judgment of human beings during end times\">Day of Judgment</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P180\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1536 and 1541<div style=\"display: none;\">date QS:P,+1550-00-00T00:00:00Z/7,P1319,+1536-00-00T00:00:00Z/9,P1326,+1541-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span><br><a href=\"https://en.wikipedia.org/wiki/en:Mannerism\" class=\"extiw\" title=\"w:en:Mannerism\"><span title=\"style of European art\">Mannerism</span></a> (1520 / 1525–1600) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q567861#P2348\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "See below.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 17456087,
+          "ns": 6,
+          "title": "File:JEAN LOUIS THÉODORE GÉRICAULT - La Balsa de la Medusa (Museo del Louvre, 1818-19).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=17456087",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-11-28 12:48:59",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Raft of the Medusa <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q212616#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The Raft of the Medusa <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q212616#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The Raft of the Medusa <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q212616#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"La balsa de la Medusa\"</div><div style=\"display: none;\">label QS:Lyue,\"美杜莎之筏\"</div><div style=\"display: none;\">label QS:Lhu,\"A Medúza tutaja\"</div><div style=\"display: none;\">label QS:Lfi,\"Medusan lautta\"</div><div style=\"display: none;\">label QS:Leu,\"Méduse ontziaren almadia\"</div><div style=\"display: none;\">label QS:Lbr,\"Le Radeau de la Méduse\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"梅杜萨之筏\"</div><div style=\"display: none;\">label QS:Lca,\"El rai de la Medusa\"</div><div style=\"display: none;\">label QS:Lde-ch,\"Das Floss der Medusa\"</div><div style=\"display: none;\">label QS:Lde,\"Das Floß der Medusa\"</div><div style=\"display: none;\">label QS:Lqug,\"medusa pug andana\"</div><div style=\"display: none;\">label QS:Lbe,\"Плыт «Медузы»\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Сплав Медузе\"</div><div style=\"display: none;\">label QS:Lbg,\"Потъването на „Медуза“\"</div><div style=\"display: none;\">label QS:Lda,\"Medusas Tømmerflåde\"</div><div style=\"display: none;\">label QS:Lro,\"Pluta Meduzei\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"梅杜薩之筏\"</div><div style=\"display: none;\">label QS:Lmk,\"Сплавот на Медуза\"</div><div style=\"display: none;\">label QS:Lzh,\"梅杜薩之筏\"</div><div style=\"display: none;\">label QS:Lsv,\"Medusas flotte\"</div><div style=\"display: none;\">label QS:Lfa,\"کلک مدوسا\"</div><div style=\"display: none;\">label QS:Lhe,\"רפסודת המדוזה\"</div><div style=\"display: none;\">label QS:Lla,\"Ratis Medusae\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"梅杜薩之筏\"</div><div style=\"display: none;\">label QS:Lzh-cn,\"梅杜萨之筏\"</div><div style=\"display: none;\">label QS:Lko,\"메두사호의 뗏목\"</div><div style=\"display: none;\">label QS:Lhy,\"Մեդուզա լաստ\"</div><div style=\"display: none;\">label QS:Leo,\"La floso de la Meduzo\"</div><div style=\"display: none;\">label QS:Larz,\"طوافه قنديل البحر\"</div><div style=\"display: none;\">label QS:Lit,\"La zattera della Medusa\"</div><div style=\"display: none;\">label QS:Laz,\"Meduza salı\"</div><div style=\"display: none;\">label QS:Lfr,\"Le Radeau de la Méduse\"</div><div style=\"display: none;\">label QS:Lcs,\"Vor Medúzy\"</div><div style=\"display: none;\">label QS:Lhr,\"Splav Meduze\"</div><div style=\"display: none;\">label QS:Lnn,\"Medusas flåte\"</div><div style=\"display: none;\">label QS:Ltr,\"Medusa'nın Salı\"</div><div style=\"display: none;\">label QS:Luk,\"Пліт Медузи\"</div><div style=\"display: none;\">label QS:Llfn,\"La balsa de Medusa\"</div><div style=\"display: none;\">label QS:Lsr,\"Сплав Медузе\"</div><div style=\"display: none;\">label QS:Lvi,\"Chiếc bè của chiến thuyền Méduse\"</div><div style=\"display: none;\">label QS:Lmt,\"Iċ-Ċattra ta' Medusa\"</div><div style=\"display: none;\">label QS:Llv,\"Medūzas plosts\"</div><div style=\"display: none;\">label QS:Lbjn,\"The Raft of the Medusa\"</div><div style=\"display: none;\">label QS:Llt,\"Medūzos plaustas\"</div><div style=\"display: none;\">label QS:Lsl,\"Splav Meduze\"</div><div style=\"display: none;\">label QS:Ltl,\"The Raft of the Medusa\"</div><div style=\"display: none;\">label QS:Lpt,\"A Balsa da Medusa\"</div><div style=\"display: none;\">label QS:Lzh-sg,\"梅杜萨之筏\"</div><div style=\"display: none;\">label QS:Lid,\"The Raft of the Medusa\"</div><div style=\"display: none;\">label QS:Lpl,\"Tratwa Meduzy\"</div><div style=\"display: none;\">label QS:Lnb,\"«Medusas flåte»\"</div><div style=\"display: none;\">label QS:Lzh-tw,\"梅杜薩之筏\"</div><div style=\"display: none;\">label QS:Lga,\"Rafta an Meadúsa\"</div><div style=\"display: none;\">label QS:Lnl,\"Het vlot van de Medusa\"</div><div style=\"display: none;\">label QS:Lsh,\"Splav Meduze\"</div><div style=\"display: none;\">label QS:Lru,\"Плот «Медузы»\"</div><div style=\"display: none;\">label QS:Lgl,\"A Balsa da Medusa\"</div><div style=\"display: none;\">label QS:Lar,\"طوافة قنديل البحر\"</div><div style=\"display: none;\">label QS:Lel,\"Η Σχεδία της Μέδουσας\"</div><div style=\"display: none;\">label QS:Lja,\"メデューズ号の筏\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Raft of the Medusa|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|Featured pictures on Wikipedia, Hebrew|CC-PD-Mark|Artworks with accession number from Wikidata|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|PD-art-old-100-expired missing SDC copyright status|Files with Assessments template missing SDC Commons no value quality assessment|Template Unknown (source)|Bitumen in art",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Th%C3%A9odore_G%C3%A9ricault\" class=\"extiw\" title=\"w:en:Théodore Géricault\"><span title=\"French painter (1791–1824)\">Théodore Géricault</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1819 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q212616#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Unknown source<span style=\"display: none;\">Unknown source</span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22600614,
+          "ns": 6,
+          "title": "File:Las Meninas, by Diego Velázquez, from Prado in Google Earth.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22600614",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-11-09 03:20:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Spanish:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"es\"><i>Las Meninas</i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Maids of Honour</i></div></div><div style=\"display: none;\">title QS:P1476,es:\"Las Meninas\"</div><div style=\"display: none;\">label QS:Les,\"Las Meninas\"</div><div style=\"display: none;\">label QS:Lsk,\"Dvorné dámy\"</div><div style=\"display: none;\">label QS:Lcs,\"Dvorní dámy\"</div><div style=\"display: none;\">label QS:Lfr,\"Les Ménines\"</div><div style=\"display: none;\">label QS:Lsr,\"Лас менинас\"</div><div style=\"display: none;\">label QS:Lzh,\"宮女\"</div><div style=\"display: none;\">label QS:Lko,\"시녀들\"</div><div style=\"display: none;\">label QS:Llv,\"Galminieces\"</div><div style=\"display: none;\">label QS:Len,\"The Maids of Honour\"</div><div style=\"display: none;\">label QS:Lru,\"Менины\"</div><div style=\"display: none;\">label QS:Lde,\"Die Hoffräulein\"</div><div style=\"display: none;\">label QS:Lpl,\"Panny dworskie\"</div><div style=\"display: none;\">label QS:Lja,\"ラス・メニーナス\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Las Meninas|Images with annotations|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Files with derivative versions|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Turkish|Prado in Google Earth|CC-PD-Mark|Artworks with accession number from Wikidata|Portraits from Norbert Schneider. The Art of the Portrait|Files with coordinates missing SDC location of creation|Featured pictures in the public domain|Featured pictures of paintings by Diego Velázquez|Artworks digital representation of 2D work|Featured pictures of paintings in Madrid",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "40.413800",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-3.692000",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Diego_Vel%C3%A1zquez\" class=\"extiw\" title=\"w:en:Diego Velázquez\"><span title=\"Spanish painter (1599–1660)\">Diego Velázquez</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1656 and 1657<div style=\"display: none;\">date QS:P571,+1656-00-00T00:00:00Z/8,P1319,+1656-00-00T00:00:00Z/9,P1326,+1657-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "The Prado in Google Earth:  <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150525230020/http://www.google.com/intl/en/landing/prado/\">Home page</a> 7<sup>th</sup> level of zoom, JPEG compression quality: Photoshop 8.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 55017931,
+          "ns": 6,
+          "title": "File:1665 Girl with a Pearl Earring.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/1665_Girl_with_a_Pearl_Earring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=55017931",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-01-14 12:42:59",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Dutch:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"nl\"><i>Meisje met de parel <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q185372#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Girl with a Pearl Earring</i></div></div><div style=\"display: none;\">title QS:P1476,nl:\"Meisje met de parel <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q185372#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lnl,\"Meisje met de parel <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q185372#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"La joven de la perla\"</div><div style=\"display: none;\">label QS:Lis,\"Stúlka með perlueyrnalokk\"</div><div style=\"display: none;\">label QS:Lps,\"د مرغلرې غوږوالۍ لرونکې نجلۍ\"</div><div style=\"display: none;\">label QS:Lbg,\"Момичето с перлената обица\"</div><div style=\"display: none;\">label QS:Lro,\"Fata cu turban\"</div><div style=\"display: none;\">label QS:Lur,\"موتی کی بالی والی لڑکی (مصوری)\"</div><div style=\"display: none;\">label QS:Lsv,\"Flicka med pärlörhänge\"</div><div style=\"display: none;\">label QS:Luk,\"Дівчина з перловою сережкою\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"戴珍珠耳環的少女\"</div><div style=\"display: none;\">label QS:Lzh-cn,\"戴珍珠耳环的少女\"</div><div style=\"display: none;\">label QS:Lko,\"진주 귀고리를 한 소녀\"</div><div style=\"display: none;\">label QS:Lkk,\"Інжу сырғалы қыз\"</div><div style=\"display: none;\">label QS:Leo,\"Junulino kun perla orelringo\"</div><div style=\"display: none;\">label QS:Lcs,\"Dívka s perlou\"</div><div style=\"display: none;\">label QS:Lbs,\"Djevojka sa bisernom naušnicom\"</div><div style=\"display: none;\">label QS:Lbn,\"হেট মেইশে মেট ড্য পারেল\"</div><div style=\"display: none;\">label QS:Lfr,\"La Jeune Fille à la perle\"</div><div style=\"display: none;\">label QS:Lhr,\"Djevojka s bisernom naušnicom\"</div><div style=\"display: none;\">label QS:Lvi,\"Cô gái đeo hoa tai ngọc trai\"</div><div style=\"display: none;\">label QS:Llv,\"Meitene ar pērļu auskaru\"</div><div style=\"display: none;\">label QS:Laf,\"Die meisie met die pêrel\"</div><div style=\"display: none;\">label QS:Lsr,\"Девојка са бисерном минђушом\"</div><div style=\"display: none;\">label QS:Lpt-br,\"Moça com o Brinco de Pérola\"</div><div style=\"display: none;\">label QS:Lzh-sg,\"戴珍珠耳环的少女\"</div><div style=\"display: none;\">label QS:Llb,\"Meedche mat der Pärel\"</div><div style=\"display: none;\">label QS:Lnan,\"Koà Chin-chu Hīⁿ-kau ê Siàu-lú\"</div><div style=\"display: none;\">label QS:Lnb,\"«Pike med perleøredobb»\"</div><div style=\"display: none;\">label QS:Laz,\"Mirvari tanalı qız\"</div><div style=\"display: none;\">label QS:Len,\"Girl with a Pearl Earring\"</div><div style=\"display: none;\">label QS:Lar,\"فتاة ترتدي قرطًا من اللؤلؤ\"</div><div style=\"display: none;\">label QS:Lbr,\"Plac'h he ferlezenn\"</div><div style=\"display: none;\">label QS:Lmy,\"ပုလဲနားဆွဲနဲ့ မိန်းကလေး\"</div><div style=\"display: none;\">label QS:Lhu,\"Leány gyöngy fülbevalóval\"</div><div style=\"display: none;\">label QS:Leu,\"Neska perlarekin\"</div><div style=\"display: none;\">label QS:Last,\"La moza de la perlla\"</div><div style=\"display: none;\">label QS:Lru,\"Девушка с жемчужной серёжкой\"</div><div style=\"display: none;\">label QS:Lde,\"Das Mädchen mit dem Perlenohrgehänge\"</div><div style=\"display: none;\">label QS:Lga,\"Meisje met de parel\"</div><div style=\"display: none;\">label QS:Lfa,\"دختری با گوشواره مروارید\"</div><div style=\"display: none;\">label QS:Lzh,\"戴珍珠耳環的少女\"</div><div style=\"display: none;\">label QS:Lda,\"Pige med perleørering\"</div><div style=\"display: none;\">label QS:Lka,\"გოგონა მარგალიტის საყურით\"</div><div style=\"display: none;\">label QS:Lja,\"真珠の耳飾りの少女\"</div><div style=\"display: none;\">label QS:Lrki,\"ပုလဲနားဆွဲနန့် မိမ\"</div><div style=\"display: none;\">label QS:Larz,\"فتاه ترتدى قرطا من اللؤلؤ\"</div><div style=\"display: none;\">label QS:Lel,\"Το κορίτσι με το μαργαριταρένιο σκουλαρίκι\"</div><div style=\"display: none;\">label QS:Lhe,\"נערה עם עגיל פנינה\"</div><div style=\"display: none;\">label QS:Ltt,\"Энҗе алкалы кыз\"</div><div style=\"display: none;\">label QS:Lte,\"గర్ల్ విత్ ఎ పెర్ల్ ఇయర్రింగ్\"</div><div style=\"display: none;\">label QS:Lhi,\"गर्ल विथ अ पर्ल इअर रिंग\"</div><div style=\"display: none;\">label QS:Lwuu,\"戴珍珠耳环个少女\"</div><div style=\"display: none;\">label QS:Lfi,\"Turbaanipäinen tyttö\"</div><div style=\"display: none;\">label QS:Luz,\"Marvarid sirg'ali qiz\"</div><div style=\"display: none;\">label QS:Lcv,\"Ĕнчĕ хăлха çаккиллĕ хĕр (ӳкерчĕк)\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"戴珍珠耳環的少女\"</div><div style=\"display: none;\">label QS:Lta,\"முத்துத் தோட்டுடனான சிறுமி\"</div><div style=\"display: none;\">label QS:Lit,\"Ragazza con l'orecchino di perla\"</div><div style=\"display: none;\">label QS:Lbe,\"Дзяўчына з жамчужнай завушніцай\"</div><div style=\"display: none;\">label QS:Lary,\"بنت لابسة زواڭة د اللويز\"</div><div style=\"display: none;\">label QS:Lavk,\"Sardikya dem mard (trutca ke Vermeer)\"</div><div style=\"display: none;\">label QS:Lbe-tarask,\"Дзяўчына з пэрлінавай завушніцай\"</div><div style=\"display: none;\">label QS:Lth,\"สาวใส่ต่างหูมุก\"</div><div style=\"display: none;\">label QS:Ltw,\"Abaayewa / Ɔbaa a ɔhyɛ Pearl asomadeɛ\"</div><div style=\"display: none;\">label QS:Lpnb,\"موتی چمکے نال کڑی\"</div><div style=\"display: none;\">label QS:Let,\"Tütarlaps pärlkõrvarõngaga\"</div><div style=\"display: none;\">label QS:Lca,\"La noia de la perla\"</div><div style=\"display: none;\">label QS:Lpt,\"Rapariga com o Brinco de Pérola\"</div><div style=\"display: none;\">label QS:Lsr-el,\"Devojka sa bisernom minđušom\"</div><div style=\"display: none;\">label QS:Lmt,\"Tfajla bl-imsielet tal-ġawhar\"</div><div style=\"display: none;\">label QS:Lsi,\"මුතු අරුංගලය පැළඳි යුවතිය\"</div><div style=\"display: none;\">label QS:Lbjn,\"Gadis lawan Bonel-bonel Mutiara\"</div><div style=\"display: none;\">label QS:Llt,\"Mergina su perlo auskaru\"</div><div style=\"display: none;\">label QS:Lsl,\"Dekle z bisernim uhanom\"</div><div style=\"display: none;\">label QS:Ltl,\"Dalagitang may Hikaw na Perlas\"</div><div style=\"display: none;\">label QS:Lpa,\"ਗਰਲ ਵਿਦ ਅ ਪਰਲ ਈਅਰ ਰਿੰਗ\"</div><div style=\"display: none;\">label QS:Lhy,\"Մարգարտե ականջօղով աղջիկը\"</div><div style=\"display: none;\">label QS:Lid,\"Gadis dengan Anting-Anting Mutiara\"</div><div style=\"display: none;\">label QS:Lpl,\"Dziewczyna z perłą\"</div><div style=\"display: none;\">label QS:Lml,\"ഗേൾ വിത് എ പേൾ ഈയർറിങ്\"</div><div style=\"display: none;\">label QS:Lzh-tw,\"戴珍珠耳環的少女\"</div><div style=\"display: none;\">label QS:Lio,\"Meisje met de parel\"</div><div style=\"display: none;\">label QS:Ltr,\"İnci Küpeli Kız\"</div><div style=\"display: none;\">label QS:Lsh,\"Djevojka s bisernom naušnicom\"</div><div style=\"display: none;\">label QS:Lmk,\"Девојка со бисерна обетка\"</div><div style=\"display: none;\">label QS:Lgl,\"A rapaza da perla\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"戴珍珠耳环的少女\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Девојка са бисерном минђушом\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Girl with a Pearl Earring by Johannes Vermeer|Images with annotations|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Files with derivative versions|CC-PD-Mark|Objects with inscriptions (language unspecified)|Artworks with accession number from Wikidata|Featured pictures of paintings from the Netherlands|Featured pictures in the public domain|Artworks digital representation of 2D work|Featured pictures on Wikipedia, Arabic|Pictures of the Year/2021 (finalist)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|poty|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "52.080389",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "4.314306",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johannes_Vermeer\" class=\"extiw\" title=\"w:en:Johannes Vermeer\"><span title=\"Dutch painter (1632–1675)\">Johannes Vermeer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Megapixel <i><a href=\"https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring\" class=\"extiw\" title=\"w:Girl with a Pearl Earring\">Girl with a Pearl Earring</a></i> by Johannes Vermeer.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1665",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.mauritshuis.nl/\">https://www.mauritshuis.nl/</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 63606836,
+          "ns": 6,
+          "title": "File:Altarraum mit Jüngstem Gericht.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Altarraum_mit_J%C3%BCngstem_Gericht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Altarraum_mit_J%C3%BCngstem_Gericht.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=63606836",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-10-25 18:52:43",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Altarraum mit Jüngstem Gericht",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Sistine Chapel - Last Judgment|Self-published work|Taken by Burkhard Muecke|SZ Rom 10/2017 Sixtinische Kapelle",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Das Jüngste Gericht in der Sixtinischen Kapelle, nach der Restaurierung",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2017-10-18 20:23:54",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Pimpinellus\" title=\"User:Pimpinellus\">Burkhard Mücke</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 69541493,
+          "ns": 6,
+          "title": "File:Edvard Munch, 1893, The Scream, oil, tempera and pastel on cardboard, 91 x 73 cm, National Gallery of Norway.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=69541493",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-01-08 23:01:39",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">German:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"de\"><i>Der Schrei der Natur</i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The scream of nature</i></div></div><div style=\"display: none;\">title QS:P1476,de:\"Der Schrei der Natur\"</div><div style=\"display: none;\">label QS:Lde,\"Der Schrei der Natur\"</div><div style=\"display: none;\">label QS:Les,\"El grito\"</div><div style=\"display: none;\">label QS:Lno,\"Skrik\"</div><div style=\"display: none;\">label QS:Lfr,\"Le cri\"</div><div style=\"display: none;\">label QS:Len,\"The scream of nature\"</div><div style=\"display: none;\">label QS:Lar,\"صرخة الطبيعة\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Scream - Edvard Munch, 1893 - (Nasjonalmuseet)|Featured pictures on Wikipedia, English|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|PD-old-80-expired|Pages with complex technique templates|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work|Files with Assessments template missing SDC Commons no value quality assessment|Artworks with digital representation of different depicts",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "59.916200",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "10.737500",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Edvard_Munch\" class=\"extiw\" title=\"w:en:Edvard Munch\"><span title=\"Norwegian painter (1863–1944)\">Edvard Munch</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1893 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q18891156#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939\">National Museum of Art, Architecture and Design</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg\" class=\"mw-file-description\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 79417962,
+          "ns": 6,
+          "title": "File:The Creation of Adam perspective fix.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/The_Creation_of_Adam_perspective_fix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Creation_of_Adam_perspective_fix.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79417962",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-06-02 12:08:25",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Creation of Adam</i></div></div><div style=\"display: none;\">label QS:Les,\"La creación de Adán\"</div><div style=\"display: none;\">label QS:Lyue,\"創造亞當\"</div><div style=\"display: none;\">label QS:Lhu,\"Ádám teremtése\"</div><div style=\"display: none;\">label QS:Leu,\"Adamen sorrera\"</div><div style=\"display: none;\">label QS:Lfi,\"Aadamin luominen\"</div><div style=\"display: none;\">label QS:Lru,\"Сотворение Адама\"</div><div style=\"display: none;\">label QS:Luz,\"Odam Atoning yaratilishi\"</div><div style=\"display: none;\">label QS:Lde,\"Die Erschaffung Adams\"</div><div style=\"display: none;\">label QS:Lsv,\"Adams skapelse\"</div><div style=\"display: none;\">label QS:Lbe,\"Стварэнне Адама\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Стварање Адама\"</div><div style=\"display: none;\">label QS:Lzh,\"創造亞當\"</div><div style=\"display: none;\">label QS:Lda,\"Adams skabelse\"</div><div style=\"display: none;\">label QS:Ltr,\"Adem'in Yaratılışı\"</div><div style=\"display: none;\">label QS:Lja,\"アダムの創造\"</div><div style=\"display: none;\">label QS:Len,\"The Creation of Adam\"</div><div style=\"display: none;\">label QS:Lfa,\"آفرینش آدم\"</div><div style=\"display: none;\">label QS:Larz,\"خلق ادم (لوحه)\"</div><div style=\"display: none;\">label QS:Lur,\"تخلیق آدم\"</div><div style=\"display: none;\">label QS:Lhe,\"בריאת האדם\"</div><div style=\"display: none;\">label QS:Lbg,\"Сътворението на Адам\"</div><div style=\"display: none;\">label QS:Lhr,\"Stvaranje Adama\"</div><div style=\"display: none;\">label QS:Lhi,\"द क्रिएशन ऑफ आदम\"</div><div style=\"display: none;\">label QS:Lsh,\"Stvaranje Adama\"</div><div style=\"display: none;\">label QS:Lko,\"아담의 창조\"</div><div style=\"display: none;\">label QS:Lkk,\"Адамның жаратылуы (фреска)\"</div><div style=\"display: none;\">label QS:Leo,\"La Kreado de Adamo\"</div><div style=\"display: none;\">label QS:Lcs,\"Stvoření Adama\"</div><div style=\"display: none;\">label QS:Lta,\"ஆதாமின் உருவாக்கம்\"</div><div style=\"display: none;\">label QS:Lit,\"Creazione di Adamo\"</div><div style=\"display: none;\">label QS:Lbn,\"আদমের সৃষ্টি\"</div><div style=\"display: none;\">label QS:Lfr,\"La Création d'Adam\"</div><div style=\"display: none;\">label QS:Lnb,\"Skapelsen\"</div><div style=\"display: none;\">label QS:Lbe-tarask,\"Стварэньне Адама\"</div><div style=\"display: none;\">label QS:Luk,\"Створення Адама\"</div><div style=\"display: none;\">label QS:Lid,\"Penciptaan Adam\"</div><div style=\"display: none;\">label QS:Lca,\"La creació d'Adam\"</div><div style=\"display: none;\">label QS:Lhy,\"Ադամի արարումը\"</div><div style=\"display: none;\">label QS:Lsk,\"Stvorenie Adama\"</div><div style=\"display: none;\">label QS:Lvi,\"Sự tạo dựng Adam\"</div><div style=\"display: none;\">label QS:Lsr,\"Стварање Адама\"</div><div style=\"display: none;\">label QS:Llv,\"Ādama radīšana\"</div><div style=\"display: none;\">label QS:Laf,\"Skepping van Adam\"</div><div style=\"display: none;\">label QS:Llt,\"Adomo sutvėrimas\"</div><div style=\"display: none;\">label QS:Lsl,\"Stvarjenje Adama\"</div><div style=\"display: none;\">label QS:Lpt,\"A Criação de Adão\"</div><div style=\"display: none;\">label QS:Lmk,\"Создавањето на Адам\"</div><div style=\"display: none;\">label QS:Lka,\"ადამის შექმნა\"</div><div style=\"display: none;\">label QS:Lth,\"พระเจ้าสร้างอาดัม\"</div><div style=\"display: none;\">label QS:Lpl,\"Stworzenie Adama\"</div><div style=\"display: none;\">label QS:Lml,\"ആദാമിന്റെ സൃഷ്ടി\"</div><div style=\"display: none;\">label QS:Lnl,\"De schepping van Adam\"</div><div style=\"display: none;\">label QS:Lwar,\"An Pagkahimo kan Adan\"</div><div style=\"display: none;\">label QS:Let,\"Aadama loomine\"</div><div style=\"display: none;\">label QS:Laz,\"Adəmin yaradılışı\"</div><div style=\"display: none;\">label QS:Lro,\"Facerea lui Adam\"</div><div style=\"display: none;\">label QS:Lgl,\"A creación do home\"</div><div style=\"display: none;\">label QS:Lar,\"خلق آدم\"</div><div style=\"display: none;\">label QS:Lel,\"Η Δημιουργία του Αδάμ\"</div><div style=\"display: none;\">label QS:Lpa,\"ਆਦਮ ਦੀ ਸਿਰਜਨਾ\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Retouched pictures|Sistine Chapel ceiling - Creation of Adam|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Images with extracted images|Extracted images|CC-PD-Mark|Artworks digital representation of unknown type of work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.902778",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.454167",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Michelangelo\" class=\"extiw\" title=\"w:en:Michelangelo\"><span title=\"Italian artist and architect (1475-1564)\">Michelangelo</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nThis edit attempts to adjust the perspective caused by the camera lens and the ceiling gradient. The original photo is not perfectly parallel to the depth of the ceiling, which is why the bottom left could not be cropped. This edit tries to simulate what the painting would show if laid on a flat surface. Adam's head is notably more accurate after these changes. Without a laser mapping of the surface, a truly accurate reproduction is impossible.</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1511<div style=\"display: none;\">date QS:P571,+1511-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Michelangelo. This edit attempts to adjust the perspective caused by the camera lens and the ceiling gradient. The original photo is not perfectly parallel to the depth of the ceiling, which is why the bottom left could not be cropped. This edit tries to simulate what the painting would show if laid on a flat surface. Adam's head is notably more accurate after these changes. Without a laser mapping of the surface, a truly accurate reproduction is impossible.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 79710878,
+          "ns": 6,
+          "title": "File:La ronda de noche, por Rembrandt van Rijn.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=79710878",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-06-15 08:57:33",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Dutch:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"nl\"><i>Officieren en andere schutters van wijk II in Amsterdam, onder leiding van kapitein Frans Banninck Cocq en luitenant Willem van Ruytenburch, bekend als ‘De Nachtwacht’ <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q219831#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Night Watch</i></div></div><div style=\"display: none;\">title QS:P1476,nl:\"Officieren en andere schutters van wijk II in Amsterdam, onder leiding van kapitein Frans Banninck Cocq en luitenant Willem van Ruytenburch, bekend als ‘De Nachtwacht’ <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q219831#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lnl,\"Officieren en andere schutters van wijk II in Amsterdam, onder leiding van kapitein Frans Banninck Cocq en luitenant Willem van Ruytenburch, bekend als ‘De Nachtwacht’ <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q219831#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"La ronda de noche\"</div><div style=\"display: none;\">label QS:Lis,\"Næturverðirnir\"</div><div style=\"display: none;\">label QS:Len-gb,\"The Night Watch\"</div><div style=\"display: none;\">label QS:Lbg,\"Нощна стража\"</div><div style=\"display: none;\">label QS:Lro,\"Rondul de noapte\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"夜巡\"</div><div style=\"display: none;\">label QS:Lsv,\"Nattvakten\"</div><div style=\"display: none;\">label QS:Luk,\"Нічна варта\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"夜巡\"</div><div style=\"display: none;\">label QS:Lzh-cn,\"夜巡\"</div><div style=\"display: none;\">label QS:Lko,\"야경\"</div><div style=\"display: none;\">label QS:Leo,\"La noktaj gardistoj\"</div><div style=\"display: none;\">label QS:Lmk,\"Ноќна стража\"</div><div style=\"display: none;\">label QS:Lbs,\"Noćna straža\"</div><div style=\"display: none;\">label QS:Lfr,\"La Ronde de nuit\"</div><div style=\"display: none;\">label QS:Lcv,\"Çĕрлехи хурал\"</div><div style=\"display: none;\">label QS:Lvi,\"Gác đêm\"</div><div style=\"display: none;\">label QS:Laf,\"Die Nagwag\"</div><div style=\"display: none;\">label QS:Lsr,\"Ноћна стража\"</div><div style=\"display: none;\">label QS:Lpt-br,\"A Ronda Noturna\"</div><div style=\"display: none;\">label QS:Lzh-sg,\"夜巡\"</div><div style=\"display: none;\">label QS:Lnn,\"Nattevakten\"</div><div style=\"display: none;\">label QS:Lnb,\"«Nattevakten»\"</div><div style=\"display: none;\">label QS:Laz,\"Gecə gözətçisi\"</div><div style=\"display: none;\">label QS:Len,\"The Night Watch\"</div><div style=\"display: none;\">label QS:Lar,\"دورية الليل\"</div><div style=\"display: none;\">label QS:Lyue,\"夜巡\"</div><div style=\"display: none;\">label QS:Lhu,\"Éjjeli őrjárat\"</div><div style=\"display: none;\">label QS:Leu,\"Gaueko erronda\"</div><div style=\"display: none;\">label QS:Last,\"La ronda de nueche\"</div><div style=\"display: none;\">label QS:Lca,\"La ronda de nit\"</div><div style=\"display: none;\">label QS:Lcy,\"Yr Wylfa Nos\"</div><div style=\"display: none;\">label QS:Lga,\"An Tráth Faire na hOíche\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Ноћна стража\"</div><div style=\"display: none;\">label QS:Lzh,\"夜巡\"</div><div style=\"display: none;\">label QS:Lda,\"Nattevagten\"</div><div style=\"display: none;\">label QS:Lja,\"夜警\"</div><div style=\"display: none;\">label QS:Larz,\"دوريه الليل\"</div><div style=\"display: none;\">label QS:Lhe,\"משמר הלילה\"</div><div style=\"display: none;\">label QS:Ltt,\"Төнге күзәтү\"</div><div style=\"display: none;\">label QS:Lwuu,\"夜巡\"</div><div style=\"display: none;\">label QS:Lfi,\"Yövartio\"</div><div style=\"display: none;\">label QS:Lta,\"இரவுக் காவல்\"</div><div style=\"display: none;\">label QS:Lit,\"Ronda di notte\"</div><div style=\"display: none;\">label QS:Lsco,\"The Nicht Watch\"</div><div style=\"display: none;\">label QS:Lbe-tarask,\"Начная варта\"</div><div style=\"display: none;\">label QS:Lel,\"Νυχτερινή περίπολος\"</div><div style=\"display: none;\">label QS:Ltt-cyrl,\"Төнге күзәтү\"</div><div style=\"display: none;\">label QS:Lla,\"Vigiliae nocturnae\"</div><div style=\"display: none;\">label QS:Lhr,\"Noćna straža\"</div><div style=\"display: none;\">label QS:Lsk,\"Nočná hliadka\"</div><div style=\"display: none;\">label QS:Lbe,\"Начны дазор\"</div><div style=\"display: none;\">label QS:Lpt,\"A Ronda Nocturna\"</div><div style=\"display: none;\">label QS:Ltr,\"Gece Devriyesi\"</div><div style=\"display: none;\">label QS:Lhy,\"Գիշերային պարեկ\"</div><div style=\"display: none;\">label QS:Lsh,\"Noćna straža\"</div><div style=\"display: none;\">label QS:Llt,\"Nakties sargyba\"</div><div style=\"display: none;\">label QS:Lsl,\"Nočna straža\"</div><div style=\"display: none;\">label QS:Lfa,\"نگهبان شب\"</div><div style=\"display: none;\">label QS:Lid,\"De Nachtwacht\"</div><div style=\"display: none;\">label QS:Lth,\"การเฝ้ายามกลางคืน\"</div><div style=\"display: none;\">label QS:Lwar,\"Magbarantay ha Gab-i\"</div><div style=\"display: none;\">label QS:Lpl,\"Kompania Fransa Banninga Cocqa i Willema van Ruytenburcha\"</div><div style=\"display: none;\">label QS:Lru,\"Ночной дозор\"</div><div style=\"display: none;\">label QS:Lzh-tw,\"夜巡\"</div><div style=\"display: none;\">label QS:Lde,\"Die Nachtwache\"</div><div style=\"display: none;\">label QS:Lno,\"Nattevakten\"</div><div style=\"display: none;\">label QS:Lio,\"Nachtwacht\"</div><div style=\"display: none;\">label QS:Lgl,\"A rolda nocturna\"</div><div style=\"display: none;\">label QS:Lcs,\"Noční hlídka\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"夜巡\"</div><div style=\"display: none;\">label QS:Let,\"Öine vahtkond\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-auto-expired)|Objects with inscriptions in Latin needing translation|Artworks with Wikidata item|Artworks with known accession number|Objects with inscriptions in Dutch needing translation|Images with extracted images|Large images|CC-PD-Mark|The Night Watch by Rembrandt|Featured pictures in the public domain|Featured pictures of paintings by Rembrandt|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Rembrandt\" class=\"extiw\" title=\"w:en:Rembrandt\"><span title=\"Dutch painter and printmaker (1606–1669)\">Rembrandt</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1642 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q219831#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.rijksmuseum.nl/en/collection/SK-C-5\">https://www.rijksmuseum.nl/en/collection/SK-C-5</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 90564951,
+          "ns": 6,
+          "title": "File:Lady with an Ermine - Leonardo da Vinci - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90564951",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2020-05-23 09:56:39",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">The Lady with an Ermine (Portrait of Cecilia Gallerani).</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Lady with an Ermine|Portal Poland|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Featured pictures on Wikipedia, Persian|Pages with complex technique templates|CC-PD-Mark|Featured pictures of Kraków|Featured pictures of women|Google Art Project paintings|Oil and tempera on panel|Featured pictures of paintings by Leonardo da Vinci|PD-Art missing SDC copyright status|Featured pictures in the public domain|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Files from Google Arts & Culture|Featured pictures from the Google Art Project|Google Art Project works by Leonardo da Vinci|Google Art Project works in National Museum Kraków",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Leonardo_da_Vinci\" class=\"extiw\" title=\"w:en:Leonardo da Vinci\"><span title=\"Italian Renaissance polymath (1452−1519)\">Leonardo da Vinci</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1490<div style=\"display: none;\">date QS:P571,+1490-00-00T00:00:00Z/9,P1480,Q5727902</div> <b>Alternate:</b> 1483-1490",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://artsandculture.google.com/asset/lady-with-an-ermine/HwHUpggDy_HxNQ?hl=fr\">https://artsandculture.google.com/asset/lady-with-an-ermine/HwHUpggDy_HxNQ?hl=fr</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 133414280,
+          "ns": 6,
+          "title": "File:Grant Wood - American Gothic (1930).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Grant_Wood_-_American_Gothic_%281930%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic_(1930).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133414280",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-06-21 18:52:40",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><i>American Gothic</i></div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "American Gothic (Grant Wood)|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|PD-old-80-expired|CC-PD-Mark|Objects with inscriptions (language unspecified)|Artworks with Wikidata item missing genre|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Grant_Wood\" class=\"extiw\" title=\"w:en:Grant Wood\"><span title=\"American painter (1891–1942)\">Grant Wood</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1930<div style=\"display: none;\">date QS:P571,+1930-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Art_Institute_of_Chicago\" class=\"extiw\" title=\"w:en:Art Institute of Chicago\"><span title=\"art museum and school in Chicago, United States\">Art Institute of Chicago</span></a>:  online database:  entry  <a rel=\"nofollow\" class=\"external text\" href=\"https://www.artic.edu/artworks/6565?search_id=1\">6565</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 147987667,
+          "ns": 6,
+          "title": "File:La Liberté guidant le peuple - Eugène Delacroix - Musée du Louvre Peintures RF 129 - après restauration 2024.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=147987667",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2024-05-04 11:13:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">French:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"fr\"><i>Le 28 juillet 1830. La Liberté guidant le peuple <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q29530#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Liberty Leading the People</i></div></div><div style=\"display: none;\">title QS:P1476,fr:\"Le 28 juillet 1830. La Liberté guidant le peuple <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q29530#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lfr,\"Le 28 juillet 1830. La Liberté guidant le peuple <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q29530#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"La Libertad guiando al pueblo\"</div><div style=\"display: none;\">label QS:Lis,\"Frelsið leiðir fólkið\"</div><div style=\"display: none;\">label QS:Lms,\"Kebebasan Memimpin Rakyat\"</div><div style=\"display: none;\">label QS:Len-gb,\"Liberty Leading the People\"</div><div style=\"display: none;\">label QS:Lbg,\"Свободата води народа\"</div><div style=\"display: none;\">label QS:Lpcd,\"El Libertè dgidant ch' peupe\"</div><div style=\"display: none;\">label QS:Lro,\"Libertatea conducând poporul\"</div><div style=\"display: none;\">label QS:Lur,\"لوگوں کی قیادت کرتی آزادی\"</div><div style=\"display: none;\">label QS:Lsk,\"Sloboda vedie ľud na barikády\"</div><div style=\"display: none;\">label QS:Loc,\"La Libertat guidant lo pòble\"</div><div style=\"display: none;\">label QS:Lko,\"민중을 이끄는 자유의 여신\"</div><div style=\"display: none;\">label QS:Leo,\"Libereco gvidanta la popolon\"</div><div style=\"display: none;\">label QS:Lcs,\"Svoboda vede lid na barikády\"</div><div style=\"display: none;\">label QS:Lbn,\"লিবার্টি লিডিং দ্যা পিপল\"</div><div style=\"display: none;\">label QS:Lhr,\"Sloboda vodi narod\"</div><div style=\"display: none;\">label QS:Lvi,\"Nữ thần Tự do dẫn dắt nhân dân\"</div><div style=\"display: none;\">label QS:Llv,\"Brīvība uz barikādēm\"</div><div style=\"display: none;\">label QS:Lsr,\"Слобода предводи народ\"</div><div style=\"display: none;\">label QS:Lnn,\"La Liberté guidant le peuple\"</div><div style=\"display: none;\">label QS:Lnb,\"La Liberté guidant le peuple\"</div><div style=\"display: none;\">label QS:Laz,\"Azadlığa aparan xalq\"</div><div style=\"display: none;\">label QS:Lckb,\"ئازادی گەل بەرەو پێش دەبات\"</div><div style=\"display: none;\">label QS:Len,\"Liberty Leading the People\"</div><div style=\"display: none;\">label QS:Lar,\"الحرية تقود الشعب\"</div><div style=\"display: none;\">label QS:Lbr,\"La liberté guidant le peuple\"</div><div style=\"display: none;\">label QS:Lyue,\"自由領導人民\"</div><div style=\"display: none;\">label QS:Lhu,\"A Szabadság vezeti a népet\"</div><div style=\"display: none;\">label QS:Lam,\"ሕዝቡን የመራች ነፃነት\"</div><div style=\"display: none;\">label QS:Leu,\"Askatasuna herria gidatzen\"</div><div style=\"display: none;\">label QS:Last,\"La llibertá emponiendo al pueblu\"</div><div style=\"display: none;\">label QS:Lca,\"La llibertat guiant el poble\"</div><div style=\"display: none;\">label QS:Lde,\"Die Freiheit führt das Volk\"</div><div style=\"display: none;\">label QS:Lce,\"Халкъан коьртехь йолу бакъо\"</div><div style=\"display: none;\">label QS:Lsq,\"Liria në barrikada\"</div><div style=\"display: none;\">label QS:Lhy,\"Ժողովրդին առաջնորդող Ազատությւնը\"</div><div style=\"display: none;\">label QS:Lzh,\"自由引导人民\"</div><div style=\"display: none;\">label QS:Lda,\"Friheden fører folket på barrikaderne\"</div><div style=\"display: none;\">label QS:Lja,\"民衆を導く自由の女神\"</div><div style=\"display: none;\">label QS:Larz,\"الحريه تقود الشعب\"</div><div style=\"display: none;\">label QS:Lhe,\"החירות מובילה את העם\"</div><div style=\"display: none;\">label QS:Lla,\"Libertas populum ducens\"</div><div style=\"display: none;\">label QS:Lwuu,\"自由领民\"</div><div style=\"display: none;\">label QS:Lfi,\"Vapaus johtaa kansaa\"</div><div style=\"display: none;\">label QS:Lhyw,\"Ազատութիւնը ժողովուրդը կ՛առաջնորդէ\"</div><div style=\"display: none;\">label QS:Llfn,\"Libria gidante la popla\"</div><div style=\"display: none;\">label QS:Lit,\"La Libertà che guida il popolo\"</div><div style=\"display: none;\">label QS:Lht,\"Libète k ap dirije pèp la\"</div><div style=\"display: none;\">label QS:Let,\"Vabadus viib rahva barrikaadidele\"</div><div style=\"display: none;\">label QS:Lnan,\"Chū-iû Lú-sîn ín-léng jîn-bîn\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"自由引导人民\"</div><div style=\"display: none;\">label QS:Lru,\"Свобода, ведущая народ\"</div><div style=\"display: none;\">label QS:Lmk,\"Слободата како го води народот\"</div><div style=\"display: none;\">label QS:Luk,\"Свобода, що веде народ\"</div><div style=\"display: none;\">label QS:Lpt,\"A Liberdade Guiando o Povo\"</div><div style=\"display: none;\">label QS:Lga,\"La Liberté guidant le peuple\"</div><div style=\"display: none;\">label QS:Lbe,\"Свабода, якая вядзе народ\"</div><div style=\"display: none;\">label QS:Lcy,\"Rhyddid yn arwain y Bobl\"</div><div style=\"display: none;\">label QS:Llt,\"Laisvė barikadose\"</div><div style=\"display: none;\">label QS:Lsl,\"Svoboda vodi ljudstvo\"</div><div style=\"display: none;\">label QS:Lsh,\"Sloboda vodi narod\"</div><div style=\"display: none;\">label QS:Lceb,\"Liberty Leading the People\"</div><div style=\"display: none;\">label QS:Lid,\"Liberty Memimpin Rakyat\"</div><div style=\"display: none;\">label QS:Lth,\"เสรีภาพนำทางประชาชน\"</div><div style=\"display: none;\">label QS:Lpl,\"Wolność wiodąca lud na barykady\"</div><div style=\"display: none;\">label QS:Ltr,\"Halka Yol Gösteren Özgürlük\"</div><div style=\"display: none;\">label QS:Lnl,\"De Vrijheid leidt het volk\"</div><div style=\"display: none;\">label QS:Lfa,\"آزادی هدایت‌گر مردم\"</div><div style=\"display: none;\">label QS:Lsv,\"Friheten på barrikaderna\"</div><div style=\"display: none;\">label QS:Lpnb,\"ازادی لوکاں نوں راہ دسن والی\"</div><div style=\"display: none;\">label QS:Ltt,\"Халыкны әйдәүче Азатлык\"</div><div style=\"display: none;\">label QS:Lgl,\"A liberdade guiando o pobo\"</div><div style=\"display: none;\">label QS:Lel,\"Η Ελευθερία οδηγεί το Λαό\"</div><div style=\"display: none;\">label QS:Lcv,\"Халăха йыхравлакан ирĕклĕх\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "La Liberté guidant le peuple (RF 129) by Eugène Delacroix|Images with annotations|PD-old-100-expired|Unknown inscription type|Taken with Fujifilm GFX100S|Featured pictures by others nominated by Yann Forget|Featured pictures on Wikipedia, English|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|F-number f/4|Images with extracted images|Large images|CC-PD-Mark|Artworks with accession number from Wikidata|Featured pictures of the Musée du Louvre|Artworks main subject 2D work|Lens focal length 83 mm|Taken with Fujinon GF 45-100mm F4 R LM OIS WR",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Eug%C3%A8ne_Delacroix\" class=\"extiw\" title=\"w:en:Eugène Delacroix\"><span title=\"French painter (1798–1863)\">Eugène Delacroix</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between October 1830 and December 1830<div style=\"display: none;\">date QS:P,+1830-00-00T00:00:00Z/9,P1319,+1830-10-00T00:00:00Z/10,P1326,+1830-12-00T00:00:00Z/10</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q29530#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span><br><a href=\"https://en.wikipedia.org/wiki/en:Romanticism\" class=\"extiw\" title=\"w:en:Romanticism\"><span title=\"artistic, literary, musical, and intellectual movement\">Romanticism</span></a> (second half of 18<sup>th</sup> century<div style=\"display: none;\">date QS:P,+1750-00-00T00:00:00Z/7,P4241,Q40719707</div>–first half of 19<sup>th</sup> century<div style=\"display: none;\">date QS:P,+1850-00-00T00:00:00Z/7,P4241,Q40719687</div>) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q29530#P2348\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "photo <a href=\"//commons.wikimedia.org/wiki/User:Shonagon\" title=\"User:Shonagon\">Shonagon</a> 2024-05-02",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "306f39364bd0e587ab7a00e9d26edd8735b75b9577fcf9d354b3dd9f4e9a90b3"
+}

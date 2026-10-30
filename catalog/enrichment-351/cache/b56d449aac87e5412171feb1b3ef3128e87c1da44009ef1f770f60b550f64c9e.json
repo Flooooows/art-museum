@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Third-Class+Carriage+Daumier",
+  "retrievedAt": "2026-10-30T01:46:19.841Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 4,
+    "objectIDs": [
+      436095,
+      754251,
+      259975,
+      757699
+    ]
+  },
+  "payloadSha256": "f032fb1d9dc84ebc7cb5d626eb883db71d0dc18d151a82e4f9a2151d0953cb3f"
+}

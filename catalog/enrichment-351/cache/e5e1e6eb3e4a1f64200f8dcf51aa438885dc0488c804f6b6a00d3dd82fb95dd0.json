@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Rhinoceros+Durer",
+  "retrievedAt": "2026-10-30T01:47:03.113Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 953,
+    "objectIDs": [
+      356497,
+      388409,
+      388482,
+      368613
+    ]
+  },
+  "payloadSha256": "4c8aa09accb9dc236041e60a47e25bce35a30ba17091fd3fb9e6a5f3c960b13d"
+}

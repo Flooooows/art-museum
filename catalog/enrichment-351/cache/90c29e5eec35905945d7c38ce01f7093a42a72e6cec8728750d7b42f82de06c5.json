@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Edvard_Munch/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:32:09.194Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5629
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6589
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5486
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5885
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5057
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6360
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5969
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6900
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5252
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8592
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5744
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Edvard_Munch",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5222
+      }
+    ]
+  },
+  "payloadSha256": "bcaa36898b810748b89b991d760f97f563c0974b730e4aaa5d82a412865e6d67"
+}

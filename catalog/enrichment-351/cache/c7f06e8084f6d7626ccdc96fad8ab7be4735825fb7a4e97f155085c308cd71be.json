@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=Iris+Yatsuhashi+Korin",
+  "retrievedAt": "2026-10-30T01:46:43.749Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 4,
+    "objectIDs": [
+      39664,
+      45364,
+      813665,
+      889225
+    ]
+  },
+  "payloadSha256": "3bedd3e99ae401c6281e3b2f4385c126ff5f9392b359ee6878b9a7184d769a3a"
+}

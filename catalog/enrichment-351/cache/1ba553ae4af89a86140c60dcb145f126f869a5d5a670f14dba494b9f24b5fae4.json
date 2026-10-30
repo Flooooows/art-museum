@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Jean-Fran%C3%A7ois_Millet/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:22:10.783Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4202
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3589
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3150
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3601
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2868
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3587
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3403
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3452
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2536
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2664
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3057
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-François_Millet",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3690
+      }
+    ]
+  },
+  "payloadSha256": "57884f88d96febf66cf96e4b9e82500176fbab7995c03d948451b8a1681b3e41"
+}

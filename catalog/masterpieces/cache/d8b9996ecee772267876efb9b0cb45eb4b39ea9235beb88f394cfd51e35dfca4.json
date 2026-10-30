@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Pair+of+Six+Panel+Screens+Birds+Flowers",
+  "retrievedAt": "2026-10-30T00:51:02.146Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 143.9119,
+        "id": 127643,
+        "title": "Flowering Cherry and Autumn Maples with Poem Slips",
+        "main_reference_number": "1977.156-157",
+        "date_display": "1654/81",
+        "is_public_domain": true,
+        "artist_title": "Tosa Mitsuoki",
+        "image_id": "86e919b9-d366-b3ca-d26f-4c16880474a3"
+      },
+      {
+        "_score": 130.78996,
+        "id": 7634,
+        "title": "Landscape of the Four Seasons",
+        "main_reference_number": "1958.167-168",
+        "date_display": "About 1560",
+        "is_public_domain": true,
+        "artist_title": "Sesson Shukei",
+        "image_id": "58d58cdf-ed3d-c641-1910-504ae64b8ce8"
+      },
+      {
+        "_score": 121.61371,
+        "id": 198910,
+        "title": "Bamboo",
+        "main_reference_number": "1967.378-1967.379",
+        "date_display": "early 19th century",
+        "is_public_domain": true,
+        "artist_title": "Kishi Ganku",
+        "image_id": "5a67db8d-0902-2d04-adc8-f67bf99a3529"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "c3cc67edc77d3d3acbb1032934417833d93108a092385a6a8079edce16d4c7f1"
+}

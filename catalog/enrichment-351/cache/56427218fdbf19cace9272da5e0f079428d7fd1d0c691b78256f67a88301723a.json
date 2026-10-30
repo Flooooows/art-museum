@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Dance+Class+Degas",
+  "retrievedAt": "2026-10-30T01:46:31.888Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 51,
+    "objectIDs": [
+      438817,
+      436141,
+      333807,
+      436132
+    ]
+  },
+  "payloadSha256": "d0c5e5a8a951ee448335cfc11d30aa5e8a2ce85d6d8caace8af59b38975a651e"
+}

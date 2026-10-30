@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Portrait_of_Madame_X/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:28:07.572Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 32092
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 19029
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15514
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17135
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 16259
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17379
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 14256
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 75834
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 14911
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 14475
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17383
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Portrait_of_Madame_X",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15846
+      }
+    ]
+  },
+  "payloadSha256": "2a55792afbb3759631e8acc5be0f3f753ed9972d68180226c90187eaba719010"
+}

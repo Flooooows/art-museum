@@ -1,0 +1,613 @@
+{
+  "provider": "wikimedia",
+  "url": "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=The+Descent+from+the+Cross+%28Rubens%29%7CThe+Three+Graces+%28Rubens%29%7CStill+Life+with+Lemons%2C+Oranges+and+a+Rose%7CDiana+Leaving+her+Bath%7CMarie+Antoinette+with+a+Rose%7CThe+Death+of+Socrates%7CVenus+Victrix+%28Canova%29%7CThe+Sleep+of+Reason+Produces+Monsters%7CThe+Burning+of+the+Houses+of+Lords+and+Commons%7CSalisbury+Cathedral+from+the+Meadows%7CThe+Turkish+Bath%7CThe+Wave+%28Courbet%29%7CThe+Fifer%7CThe+Balcony+%28Manet%29%7CSnap+the+Whip%7CWhistler%27s+Mother%7CWoman+with+a+Parasol+%E2%80%93+Madame+Monet+and+Her+Son%7CGare+Saint-Lazare+%28Monet+series%29%7CWater+Lilies+and+Japanese+Bridge%7CRouen+Cathedral+%28Monet+series%29%7CBal+du+moulin+de+la+Galette%7CL%27%C3%89toile+%28Degas%29%7CThe+Cradle+%28painting%29%7CIn+the+Loge%7CBoulevard+Montmartre+at+Night%7CThe+C%C3%B4te+des+B%C5%93ufs+at+L%27Hermitage%7CFlood+at+Port-Marly%7CThe+Port+of+Saint-Tropez%7CThe+Starry+Night%7CStarry+Night+Over+the+Rh%C3%B4ne",
+  "retrievedAt": "2026-10-30T01:52:25.637Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "The Cradle (painting)",
+          "to": "The Cradle (Morisot)"
+        },
+        {
+          "from": "The Three Graces (Rubens)",
+          "to": "The Three Graces",
+          "tofragment": "Paintings"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "The Port of Saint-Tropez",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/The_Port_of_Saint-Tropez",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Port_of_Saint-Tropez&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Port_of_Saint-Tropez"
+        },
+        {
+          "ns": 0,
+          "title": "Flood at Port-Marly",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Flood_at_Port-Marly",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Flood_at_Port-Marly&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Flood_at_Port-Marly"
+        },
+        {
+          "ns": 0,
+          "title": "The Côte des Bœufs at L'Hermitage",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/The_C%C3%B4te_des_B%C5%93ufs_at_L%27Hermitage",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_C%C3%B4te_des_B%C5%93ufs_at_L%27Hermitage&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_C%C3%B4te_des_B%C5%93ufs_at_L%27Hermitage"
+        },
+        {
+          "ns": 0,
+          "title": "Boulevard Montmartre at Night",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Boulevard_Montmartre_at_Night",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Boulevard_Montmartre_at_Night&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Boulevard_Montmartre_at_Night"
+        },
+        {
+          "ns": 0,
+          "title": "L'Étoile (Degas)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/L%27%C3%89toile_(Degas)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=L%27%C3%89toile_(Degas)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/L%27%C3%89toile_(Degas)"
+        },
+        {
+          "ns": 0,
+          "title": "Water Lilies and Japanese Bridge",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Water_Lilies_and_Japanese_Bridge",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Water_Lilies_and_Japanese_Bridge&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Water_Lilies_and_Japanese_Bridge"
+        },
+        {
+          "ns": 0,
+          "title": "Diana Leaving her Bath",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://en.wikipedia.org/wiki/Diana_Leaving_her_Bath",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Diana_Leaving_her_Bath&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Diana_Leaving_her_Bath"
+        },
+        {
+          "pageid": 225516,
+          "ns": 0,
+          "title": "Whistler's Mother",
+          "pageprops": {
+            "defaultsort": "Whistler's Mother",
+            "displaytitle": "<i>Whistler's Mother</i>",
+            "page_image_free": "Whistlers_Mother_high_res.jpg",
+            "wikibase-shortdesc": "1871 painting by James McNeill Whistler",
+            "wikibase_item": "Q687182"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T23:22:07Z",
+          "lastrevid": 1379400454,
+          "length": 20319,
+          "fullurl": "https://en.wikipedia.org/wiki/Whistler%27s_Mother",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Whistler%27s_Mother&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Whistler%27s_Mother"
+        },
+        {
+          "pageid": 418843,
+          "ns": 0,
+          "title": "The Three Graces",
+          "pageprops": {
+            "defaultsort": "Three Graces, The",
+            "disambiguation": "",
+            "expectshortpage": "",
+            "toc": "",
+            "wikibase-shortdesc": "Topics referred to by the same term",
+            "wikibase_item": "Q3998064"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-24T11:30:41Z",
+          "lastrevid": 1274543838,
+          "length": 2496,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Three_Graces",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Three_Graces&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Three_Graces"
+        },
+        {
+          "pageid": 1115370,
+          "ns": 0,
+          "title": "The Starry Night",
+          "pageprops": {
+            "defaultsort": "Starry Night, The",
+            "displaytitle": "<i>The Starry Night</i>",
+            "page_image_free": "Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "1889 painting by Vincent van Gogh",
+            "wikibase_item": "Q45585"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T21:02:00Z",
+          "lastrevid": 1382696005,
+          "length": 48479,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Starry_Night",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Starry_Night&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Starry_Night"
+        },
+        {
+          "pageid": 1629184,
+          "ns": 0,
+          "title": "Bal du moulin de la Galette",
+          "pageprops": {
+            "defaultsort": "Bal du moulin de la Galette",
+            "displaytitle": "<i>Bal du moulin de la Galette</i>",
+            "page_image_free": "Renoir,_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette,_1876.jpg",
+            "wikibase-shortdesc": "Painting by Pierre-Auguste Renoir",
+            "wikibase_item": "Q683274"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T12:58:30Z",
+          "lastrevid": 1361244146,
+          "length": 9008,
+          "fullurl": "https://en.wikipedia.org/wiki/Bal_du_moulin_de_la_Galette",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Bal_du_moulin_de_la_Galette&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Bal_du_moulin_de_la_Galette"
+        },
+        {
+          "pageid": 1878689,
+          "ns": 0,
+          "title": "Starry Night Over the Rhône",
+          "pageprops": {
+            "defaultsort": "Starry Night Over The Rhone",
+            "displaytitle": "<i>Starry Night Over the Rhône</i>",
+            "page_image_free": "Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "1888 painting by Vincent van Gogh",
+            "wikibase_item": "Q1464531"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:19:54Z",
+          "lastrevid": 1380848830,
+          "length": 9627,
+          "fullurl": "https://en.wikipedia.org/wiki/Starry_Night_Over_the_Rh%C3%B4ne",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Starry_Night_Over_the_Rh%C3%B4ne&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Starry_Night_Over_the_Rh%C3%B4ne"
+        },
+        {
+          "pageid": 4102304,
+          "ns": 0,
+          "title": "Salisbury Cathedral from the Meadows",
+          "pageprops": {
+            "defaultsort": "Salisbury Cathedral From The Meadows",
+            "displaytitle": "<i>Salisbury Cathedral from the Meadows</i>",
+            "page_image_free": "Constable_Salisbury_meadows.jpg",
+            "wikibase-shortdesc": "Painting by John Constable",
+            "wikibase_item": "Q398126"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:23:39Z",
+          "lastrevid": 1365576114,
+          "length": 7053,
+          "fullurl": "https://en.wikipedia.org/wiki/Salisbury_Cathedral_from_the_Meadows",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Salisbury_Cathedral_from_the_Meadows&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Salisbury_Cathedral_from_the_Meadows"
+        },
+        {
+          "pageid": 7108397,
+          "ns": 0,
+          "title": "Venus Victrix (Canova)",
+          "pageprops": {
+            "displaytitle": "<i>Venus Victrix</i> (Canova)",
+            "page_image_free": "Paolina_Borghese_(Canova).jpg",
+            "wikibase-shortdesc": "Neo-Classical portrait sculpture of Pauline Bonaparte by Antonio Canova",
+            "wikibase_item": "Q1093113"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:27:48Z",
+          "lastrevid": 1305675314,
+          "length": 6259,
+          "fullurl": "https://en.wikipedia.org/wiki/Venus_Victrix_(Canova)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Venus_Victrix_(Canova)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Venus_Victrix_(Canova)"
+        },
+        {
+          "pageid": 9363634,
+          "ns": 0,
+          "title": "Rouen Cathedral (Monet series)",
+          "pageprops": {
+            "defaultsort": "Rouen Cathedral",
+            "displaytitle": "<i>Rouen Cathedral</i> (Monet series)",
+            "page_image_free": "RouenCathedral_Monet_1894.jpg",
+            "wikibase-shortdesc": "1892–1894 series of paintings by Claude Monet",
+            "wikibase_item": "Q637414"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:29:50Z",
+          "lastrevid": 1373947222,
+          "length": 13565,
+          "fullurl": "https://en.wikipedia.org/wiki/Rouen_Cathedral_(Monet_series)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Rouen_Cathedral_(Monet_series)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Rouen_Cathedral_(Monet_series)"
+        },
+        {
+          "pageid": 17582998,
+          "ns": 0,
+          "title": "The Sleep of Reason Produces Monsters",
+          "pageprops": {
+            "defaultsort": "Sleep of the Reason Produces Monsters, The",
+            "displaytitle": "<i>The Sleep of Reason Produces Monsters</i>",
+            "page_image_free": "Francisco_José_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_(No._43),_from_Los_Caprichos_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "Print by Francisco Goya",
+            "wikibase_item": "Q671237"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:36:45Z",
+          "lastrevid": 1368188035,
+          "length": 19427,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Sleep_of_Reason_Produces_Monsters",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Sleep_of_Reason_Produces_Monsters&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Sleep_of_Reason_Produces_Monsters"
+        },
+        {
+          "pageid": 17977209,
+          "ns": 0,
+          "title": "The Death of Socrates",
+          "pageprops": {
+            "defaultsort": "Death Of Socrates, The",
+            "displaytitle": "<i>The Death of Socrates</i>",
+            "page_image_free": "David_-_The_Death_of_Socrates.jpg",
+            "wikibase-shortdesc": "1787 painting by Jacques-Louis David",
+            "wikibase_item": "Q1752990"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-28T20:29:18Z",
+          "lastrevid": 1365320768,
+          "length": 15805,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Death_of_Socrates",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Death_of_Socrates&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Death_of_Socrates"
+        },
+        {
+          "pageid": 21704106,
+          "ns": 0,
+          "title": "The Turkish Bath",
+          "pageprops": {
+            "defaultsort": "Turkish Bath, The",
+            "displaytitle": "<i>The Turkish Bath</i>",
+            "page_image_free": "Le_Bain_Turc,_by_Jean_Auguste_Dominique_Ingres,_from_C2RMFFXD.jpg",
+            "wikibase-shortdesc": "Painting by Jean-Auguste-Dominique Ingres",
+            "wikibase_item": "Q2027662"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:40:07Z",
+          "lastrevid": 1368309684,
+          "length": 19947,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Turkish_Bath",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Turkish_Bath&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Turkish_Bath"
+        },
+        {
+          "pageid": 25668784,
+          "ns": 0,
+          "title": "The Fifer",
+          "pageprops": {
+            "defaultsort": "Fifer",
+            "displaytitle": "<i>The Fifer</i>",
+            "page_image_free": "Manet,_Edouard_-_Young_Flautist,_or_The_Fifer,_1866_(2).jpg",
+            "wikibase-shortdesc": "1866 painting by Édouard Manet",
+            "wikibase_item": "Q26250"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:43:57Z",
+          "lastrevid": 1364297833,
+          "length": 5789,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Fifer",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Fifer&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Fifer"
+        },
+        {
+          "pageid": 31194985,
+          "ns": 0,
+          "title": "The Balcony (Manet)",
+          "pageprops": {
+            "defaultsort": "Balcony, The",
+            "displaytitle": "<i>The Balcony</i> (Manet)",
+            "page_image_free": "Edouard_Manet_-_The_Balcony_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "Painting by Édouard Manet",
+            "wikibase_item": "Q775407"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:48:01Z",
+          "lastrevid": 1361420991,
+          "length": 14452,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Balcony_(Manet)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Balcony_(Manet)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Balcony_(Manet)"
+        },
+        {
+          "pageid": 35571056,
+          "ns": 0,
+          "title": "Still Life with Lemons, Oranges and a Rose",
+          "pageprops": {
+            "displaytitle": "<i>Still Life with Lemons, Oranges and a Rose</i>",
+            "page_image_free": "Francisco_de_Zurbarán_-_Still_Life_with_Lemons,_Oranges_and_a_Rose.jpg",
+            "wikibase-shortdesc": "1633 painting by Francisco de Zurbarán",
+            "wikibase_item": "Q7617092"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:51:01Z",
+          "lastrevid": 1366943115,
+          "length": 4126,
+          "fullurl": "https://en.wikipedia.org/wiki/Still_Life_with_Lemons,_Oranges_and_a_Rose",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Still_Life_with_Lemons,_Oranges_and_a_Rose&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Still_Life_with_Lemons,_Oranges_and_a_Rose"
+        },
+        {
+          "pageid": 36132017,
+          "ns": 0,
+          "title": "The Burning of the Houses of Lords and Commons",
+          "pageprops": {
+            "defaultsort": "Burning of the Houses of Lords and Commons, The",
+            "displaytitle": "<i>The Burning of the Houses of Lords and Commons</i>",
+            "page_image_free": "Joseph_Mallord_William_Turner,_English_-_The_Burning_of_the_Houses_of_Lords_and_Commons,_October_16,_1834_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "Painting by J. M. W. Turner",
+            "wikibase_item": "Q80974590"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:51:27Z",
+          "lastrevid": 1363150449,
+          "length": 6765,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Burning_of_the_Houses_of_Lords_and_Commons",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Burning_of_the_Houses_of_Lords_and_Commons&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Burning_of_the_Houses_of_Lords_and_Commons"
+        },
+        {
+          "pageid": 36523340,
+          "ns": 0,
+          "title": "In the Loge",
+          "pageprops": {
+            "defaultsort": "In The Loge",
+            "displaytitle": "<i>In the Loge</i>",
+            "page_image_free": "Mary_Stevenson_Cassatt_-_In_the_Loge_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "1878 painting by Mary Cassatt",
+            "wikibase_item": "Q14915747"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:51:47Z",
+          "lastrevid": 1361274994,
+          "length": 8867,
+          "fullurl": "https://en.wikipedia.org/wiki/In_the_Loge",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=In_the_Loge&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/In_the_Loge"
+        },
+        {
+          "pageid": 43391146,
+          "ns": 0,
+          "title": "Snap the Whip",
+          "pageprops": {
+            "displaytitle": "<i>Snap the Whip</i>",
+            "page_image_free": "Winslow_Homer_-_Snap_the_Whip_(Butler_Institute_of_American_Art).jpg",
+            "wikibase-shortdesc": "Painting by Winslow Homer",
+            "wikibase_item": "Q18209719"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:56:31Z",
+          "lastrevid": 1361379633,
+          "length": 3812,
+          "fullurl": "https://en.wikipedia.org/wiki/Snap_the_Whip",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Snap_the_Whip&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Snap_the_Whip"
+        },
+        {
+          "pageid": 43524556,
+          "ns": 0,
+          "title": "Woman with a Parasol – Madame Monet and Her Son",
+          "pageprops": {
+            "defaultsort": "Woman with a Parasol - Madame Monet and Her Son",
+            "displaytitle": "<i>Woman with a Parasol – Madame Monet and Her Son</i>",
+            "page_image_free": "Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "1875 painting by Claude Monet",
+            "wikibase_item": "Q2395218"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T19:56:38Z",
+          "lastrevid": 1361325964,
+          "length": 6568,
+          "fullurl": "https://en.wikipedia.org/wiki/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Woman_with_a_Parasol_%E2%80%93_Madame_Monet_and_Her_Son"
+        },
+        {
+          "pageid": 57940816,
+          "ns": 0,
+          "title": "The Wave (Courbet)",
+          "pageprops": {
+            "defaultsort": "Wave",
+            "displaytitle": "<i>The Wave</i> (Courbet)",
+            "page_image_free": "La_Vague_(Gustave_Courbet_-_Musée_des_beaux-arts_de_Lyon).jpg",
+            "wikibase-shortdesc": "Series of paintings by Gustave Courbet",
+            "wikibase_item": "Q19969388"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T17:15:34Z",
+          "lastrevid": 1375716715,
+          "length": 3649,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Wave_(Courbet)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Wave_(Courbet)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Wave_(Courbet)"
+        },
+        {
+          "pageid": 61600088,
+          "ns": 0,
+          "title": "Gare Saint-Lazare (Monet series)",
+          "pageprops": {
+            "displaytitle": "<i>Gare Saint-Lazare</i> (Monet series)",
+            "page_image_free": "La_Gare_Saint-Lazare_-_Claude_Monet.jpg",
+            "wikibase-shortdesc": "Series of oil paintings by Claude Monet",
+            "wikibase_item": "Q49985736"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:06:58Z",
+          "lastrevid": 1373486699,
+          "length": 14553,
+          "fullurl": "https://en.wikipedia.org/wiki/Gare_Saint-Lazare_(Monet_series)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Gare_Saint-Lazare_(Monet_series)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Gare_Saint-Lazare_(Monet_series)"
+        },
+        {
+          "pageid": 65138084,
+          "ns": 0,
+          "title": "The Descent from the Cross (Rubens)",
+          "pageprops": {
+            "defaultsort": "Descent from the Cross (Rubens)",
+            "displaytitle": "<i>The Descent from the Cross</i> (Rubens)",
+            "expectshortpage": "",
+            "wikibase-shortdesc": "Index of articles associated with the same name",
+            "wikibase_item": "Q98713538"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:08:50Z",
+          "lastrevid": 1037396540,
+          "length": 840,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Descent_from_the_Cross_(Rubens)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Descent_from_the_Cross_(Rubens)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Descent_from_the_Cross_(Rubens)"
+        },
+        {
+          "pageid": 67741289,
+          "ns": 0,
+          "title": "Marie Antoinette with a Rose",
+          "pageprops": {
+            "defaultsort": "Marie Antoinette With A Rose",
+            "displaytitle": "<i>Marie Antoinette with a Rose</i>",
+            "page_image_free": "Louise_Elisabeth_Vigée-Lebrun_-_Marie-Antoinette_dit_«_à_la_Rose_»_-_Google_Art_Project.jpg",
+            "wikibase-shortdesc": "Painting by Élisabeth Vigée Le Brun",
+            "wikibase_item": "Q3937618"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:10:10Z",
+          "lastrevid": 1332484711,
+          "length": 5157,
+          "fullurl": "https://en.wikipedia.org/wiki/Marie_Antoinette_with_a_Rose",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=Marie_Antoinette_with_a_Rose&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/Marie_Antoinette_with_a_Rose"
+        },
+        {
+          "pageid": 70295832,
+          "ns": 0,
+          "title": "The Cradle (Morisot)",
+          "pageprops": {
+            "defaultsort": "Cradle, The",
+            "displaytitle": "<i>The Cradle</i> (Morisot)",
+            "page_image_free": "Berthe_Morisot_008.jpg",
+            "wikibase-shortdesc": "Painting by Berthe Morisot",
+            "wikibase_item": "Q5966403"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "en",
+          "pagelanguagehtmlcode": "en",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-26T20:11:27Z",
+          "lastrevid": 1361423811,
+          "length": 3917,
+          "fullurl": "https://en.wikipedia.org/wiki/The_Cradle_(Morisot)",
+          "editurl": "https://en.wikipedia.org/w/index.php?title=The_Cradle_(Morisot)&action=edit",
+          "canonicalurl": "https://en.wikipedia.org/wiki/The_Cradle_(Morisot)"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "6295696cca98a478e68e311645e97410acd148a8dcbcaa48c9d8297496541cce"
+}

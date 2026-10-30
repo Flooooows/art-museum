@@ -1,0 +1,632 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Le+Greco%7CAndrea+Mantegna%7CPaolo+Uccello%7CFra+Angelico%7CPiero+della+Francesca%7CRogier+van+der+Weyden%7CPetrus+Christus%7CGiuseppe+Arcimboldo%7CCaravage%7CArtemisia+Gentileschi%7CRembrandt%7CJohannes+Vermeer%7CDiego+Vel%C3%A1zquez%7CPeter+Paul+Rubens%7CNicolas+Poussin%7CGeorges+de+La+Tour%7CFrancisco+de+Zurbar%C3%A1n%7CJean-Honor%C3%A9+Fragonard%7CJean-Antoine+Watteau%7CFran%C3%A7ois+Boucher%7CJean+Sim%C3%A9on+Chardin%7C%C3%89lisabeth+Vig%C3%A9e+Le+Brun%7CJacques-Louis+David%7CAntonio+Canova%7CFrancisco+de+Goya%7CEug%C3%A8ne+Delacroix%7CTh%C3%A9odore+G%C3%A9ricault%7CCaspar+David+Friedrich%7CJ.+M.+W.+Turner%7CJohn+Constable",
+  "retrievedAt": "2026-10-30T01:43:44.474Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Jean-Antoine Watteau",
+          "to": "Antoine Watteau"
+        },
+        {
+          "from": "Diego Velázquez",
+          "to": "Diego Vélasquez"
+        },
+        {
+          "from": "Peter Paul Rubens",
+          "to": "Pierre Paul Rubens"
+        },
+        {
+          "from": "J. M. W. Turner",
+          "to": "William Turner"
+        }
+      ],
+      "pages": [
+        {
+          "pageid": 10884,
+          "ns": 0,
+          "title": "Diego Vélasquez",
+          "pageprops": {
+            "defaultsort": "Velasquez, Diego",
+            "page_image_free": "Diego_Velázquez_Autorretrato_45_x_38_cm_-_Colección_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q297"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:48Z",
+          "lastrevid": 239907304,
+          "length": 165119,
+          "fullurl": "https://fr.wikipedia.org/wiki/Diego_V%C3%A9lasquez",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Diego_V%C3%A9lasquez&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Diego_V%C3%A9lasquez"
+        },
+        {
+          "pageid": 19270,
+          "ns": 0,
+          "title": "Rembrandt",
+          "pageprops": {
+            "page_image_free": "Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q5598"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:50Z",
+          "lastrevid": 239162391,
+          "length": 240849,
+          "fullurl": "https://fr.wikipedia.org/wiki/Rembrandt",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Rembrandt&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Rembrandt"
+        },
+        {
+          "pageid": 19795,
+          "ns": 0,
+          "title": "Johannes Vermeer",
+          "pageprops": {
+            "defaultsort": "Vermeer, Johannes",
+            "page_image_free": "Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+            "wikibase_item": "Q41264"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:50Z",
+          "lastrevid": 240801097,
+          "length": 161112,
+          "fullurl": "https://fr.wikipedia.org/wiki/Johannes_Vermeer",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Johannes_Vermeer&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Johannes_Vermeer"
+        },
+        {
+          "pageid": 42328,
+          "ns": 0,
+          "title": "Eugène Delacroix",
+          "pageprops": {
+            "defaultsort": "Delacroix, Eugene",
+            "page_image_free": "Félix_Nadar_1820-1910_portraits_Eugène_Delacroix.jpg",
+            "wikibase_item": "Q33477"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:53Z",
+          "lastrevid": 240103111,
+          "length": 178088,
+          "fullurl": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Eug%C3%A8ne_Delacroix&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix"
+        },
+        {
+          "pageid": 45814,
+          "ns": 0,
+          "title": "Giuseppe Arcimboldo",
+          "pageprops": {
+            "defaultsort": "Arcimboldo, Giuseppe",
+            "page_image_free": "Giuseppe_Arcimboldo.jpg",
+            "wikibase_item": "Q7751"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:53Z",
+          "lastrevid": 237687056,
+          "length": 41105,
+          "fullurl": "https://fr.wikipedia.org/wiki/Giuseppe_Arcimboldo",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Giuseppe_Arcimboldo&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Giuseppe_Arcimboldo"
+        },
+        {
+          "pageid": 49789,
+          "ns": 0,
+          "title": "Antoine Watteau",
+          "pageprops": {
+            "defaultsort": "Watteau, Antoine",
+            "page_image_free": "(Treviso)_The_painter_Antoine_Watteau_by_Rosalba_Carriera_-_Museo_civico_di_Santa_Caterina.jpg",
+            "wikibase_item": "Q183221"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:54Z",
+          "lastrevid": 232568440,
+          "length": 46413,
+          "fullurl": "https://fr.wikipedia.org/wiki/Antoine_Watteau",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Antoine_Watteau&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Antoine_Watteau"
+        },
+        {
+          "pageid": 58788,
+          "ns": 0,
+          "title": "Pierre Paul Rubens",
+          "pageprops": {
+            "defaultsort": "Rubens, Pierre Paul",
+            "page_image_free": "Peter_Paul_Rubens_-_Self-portrait_-_RH.S.180_-_Rubenshuis_(after_restoration).jpg",
+            "wikibase_item": "Q5599"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:55Z",
+          "lastrevid": 240771167,
+          "length": 72073,
+          "fullurl": "https://fr.wikipedia.org/wiki/Pierre_Paul_Rubens",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Pierre_Paul_Rubens&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Pierre_Paul_Rubens"
+        },
+        {
+          "pageid": 67338,
+          "ns": 0,
+          "title": "Nicolas Poussin",
+          "pageprops": {
+            "defaultsort": "Poussin, Nicolas",
+            "page_image_free": "Nicolas_Poussin_078.jpg",
+            "wikibase_item": "Q41554"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:56Z",
+          "lastrevid": 240775957,
+          "length": 68271,
+          "fullurl": "https://fr.wikipedia.org/wiki/Nicolas_Poussin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Nicolas_Poussin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Nicolas_Poussin"
+        },
+        {
+          "pageid": 74607,
+          "ns": 0,
+          "title": "John Constable",
+          "pageprops": {
+            "defaultsort": "Constable, John",
+            "page_image_free": "ConstableSelfPortrait.png",
+            "wikibase_item": "Q159297"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:57Z",
+          "lastrevid": 239834334,
+          "length": 24027,
+          "fullurl": "https://fr.wikipedia.org/wiki/John_Constable",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=John_Constable&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/John_Constable"
+        },
+        {
+          "pageid": 87784,
+          "ns": 0,
+          "title": "Georges de La Tour",
+          "pageprops": {
+            "defaultsort": "Latour, Georges de",
+            "page_image_free": "Saint_Joseph_charpentier_(La_Tour).jpg",
+            "wikibase_item": "Q203371"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:59Z",
+          "lastrevid": 239549624,
+          "length": 69143,
+          "fullurl": "https://fr.wikipedia.org/wiki/Georges_de_La_Tour",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Georges_de_La_Tour&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Georges_de_La_Tour"
+        },
+        {
+          "pageid": 112537,
+          "ns": 0,
+          "title": "Jacques-Louis David",
+          "pageprops": {
+            "defaultsort": "David, Jacques-Louis",
+            "page_image_free": "David_Autoportrait-1794_-_restauration_2025.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase_item": "Q83155"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:03Z",
+          "lastrevid": 240510229,
+          "length": 194180,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jacques-Louis_David",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jacques-Louis_David&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jacques-Louis_David"
+        },
+        {
+          "pageid": 123925,
+          "ns": 0,
+          "title": "Théodore Géricault",
+          "pageprops": {
+            "defaultsort": "Géricault, Théodore",
+            "page_image_free": "Horace_Vernet,_Jean-Louis-André-Théodore_Gericault,_probably_1822_or_1823,_1998.84,_MET.jpg",
+            "wikibase_item": "Q184212"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:04Z",
+          "lastrevid": 240287415,
+          "length": 82545,
+          "fullurl": "https://fr.wikipedia.org/wiki/Th%C3%A9odore_G%C3%A9ricault",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Th%C3%A9odore_G%C3%A9ricault&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Th%C3%A9odore_G%C3%A9ricault"
+        },
+        {
+          "pageid": 126333,
+          "ns": 0,
+          "title": "Jean-Honoré Fragonard",
+          "pageprops": {
+            "defaultsort": "Fragonard, Jean-Honoré",
+            "page_image_free": "Jean-Honoré_Fragonard_-_Self-portrait_with_smiling_face.jpg",
+            "wikibase_item": "Q127171"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:04Z",
+          "lastrevid": 240279357,
+          "length": 47535,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jean-Honor%C3%A9_Fragonard",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jean-Honor%C3%A9_Fragonard&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jean-Honor%C3%A9_Fragonard"
+        },
+        {
+          "pageid": 126390,
+          "ns": 0,
+          "title": "Élisabeth Vigée Le Brun",
+          "pageprops": {
+            "defaultsort": "Vigée Le Brun, Élisabeth",
+            "page_image_free": "Lebrun,_Self-portrait.jpg",
+            "wikibase_item": "Q213163"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:04Z",
+          "lastrevid": 240433646,
+          "length": 63341,
+          "fullurl": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Vig%C3%A9e_Le_Brun",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=%C3%89lisabeth_Vig%C3%A9e_Le_Brun&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Vig%C3%A9e_Le_Brun"
+        },
+        {
+          "pageid": 139802,
+          "ns": 0,
+          "title": "Le Greco",
+          "pageprops": {
+            "defaultsort": "Greco, El",
+            "page_image_free": "El_Greco_-_Portrait_of_a_Man_-_WGA10554.jpg",
+            "wikibase_item": "Q301"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:06Z",
+          "lastrevid": 240797332,
+          "length": 83149,
+          "fullurl": "https://fr.wikipedia.org/wiki/Le_Greco",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Le_Greco&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Le_Greco"
+        },
+        {
+          "pageid": 147877,
+          "ns": 0,
+          "title": "Piero della Francesca",
+          "pageprops": {
+            "page_image_free": "Piero_della_Francesca_The_Resurrection_detail_VlRan.jpg",
+            "wikibase_item": "Q5822"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:07Z",
+          "lastrevid": 237893329,
+          "length": 84969,
+          "fullurl": "https://fr.wikipedia.org/wiki/Piero_della_Francesca",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Piero_della_Francesca&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Piero_della_Francesca"
+        },
+        {
+          "pageid": 148489,
+          "ns": 0,
+          "title": "Antonio Canova",
+          "pageprops": {
+            "defaultsort": "Canova, Antonio",
+            "page_image_free": "Antonio_Canova_Selfportrait_1792.jpg",
+            "wikibase_item": "Q5547"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:08Z",
+          "lastrevid": 239251654,
+          "length": 21705,
+          "fullurl": "https://fr.wikipedia.org/wiki/Antonio_Canova",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Antonio_Canova&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Antonio_Canova"
+        },
+        {
+          "pageid": 148892,
+          "ns": 0,
+          "title": "Fra Angelico",
+          "pageprops": {
+            "defaultsort": "Angelico, Fra",
+            "page_image_free": "Fra_Angelico_portrait.jpg",
+            "wikibase_item": "Q5664"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:08Z",
+          "lastrevid": 234991399,
+          "length": 68793,
+          "fullurl": "https://fr.wikipedia.org/wiki/Fra_Angelico",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Fra_Angelico&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Fra_Angelico"
+        },
+        {
+          "pageid": 155747,
+          "ns": 0,
+          "title": "Francisco de Zurbarán",
+          "pageprops": {
+            "defaultsort": "Zurbaran, Francisco de",
+            "page_image_free": "Francisco_de_Zurbarán_autoportrait.jpg",
+            "wikibase_item": "Q209615"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:09Z",
+          "lastrevid": 240542039,
+          "length": 61763,
+          "fullurl": "https://fr.wikipedia.org/wiki/Francisco_de_Zurbar%C3%A1n",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Francisco_de_Zurbar%C3%A1n&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Francisco_de_Zurbar%C3%A1n"
+        },
+        {
+          "pageid": 174810,
+          "ns": 0,
+          "title": "Caspar David Friedrich",
+          "pageprops": {
+            "defaultsort": "Friedrich, Caspar",
+            "page_image_free": "Gerhard_von_Kügelgen_portrait_of_Friedrich.jpg",
+            "wikibase_item": "Q104884"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 239186096,
+          "length": 26669,
+          "fullurl": "https://fr.wikipedia.org/wiki/Caspar_David_Friedrich",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Caspar_David_Friedrich&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Caspar_David_Friedrich"
+        },
+        {
+          "pageid": 177902,
+          "ns": 0,
+          "title": "William Turner",
+          "pageprops": {
+            "defaultsort": "Turner, William",
+            "page_image_free": "Joseph_Mallord_William_Turner_auto-retrato.jpg",
+            "wikibase_item": "Q159758"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:12Z",
+          "lastrevid": 237968353,
+          "length": 70196,
+          "fullurl": "https://fr.wikipedia.org/wiki/William_Turner",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=William_Turner&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/William_Turner"
+        },
+        {
+          "pageid": 181972,
+          "ns": 0,
+          "title": "Artemisia Gentileschi",
+          "pageprops": {
+            "defaultsort": "Gentileschi, Artemisia",
+            "page_image_free": "Self-portrait_as_the_Allegory_of_Painting_(La_Pittura)_-_Artemisia_Gentileschi.jpg",
+            "wikibase_item": "Q212657"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:13Z",
+          "lastrevid": 240338543,
+          "length": 63742,
+          "fullurl": "https://fr.wikipedia.org/wiki/Artemisia_Gentileschi",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Artemisia_Gentileschi&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Artemisia_Gentileschi"
+        },
+        {
+          "pageid": 196752,
+          "ns": 0,
+          "title": "Rogier van der Weyden",
+          "pageprops": {
+            "defaultsort": "Weyden, Rogier van der",
+            "page_image_free": "Rogier_van_der_Weyden_by_Jan_Wierix,_1572.jpg",
+            "wikibase_item": "Q68631"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:16Z",
+          "lastrevid": 240563518,
+          "length": 34085,
+          "fullurl": "https://fr.wikipedia.org/wiki/Rogier_van_der_Weyden",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Rogier_van_der_Weyden&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Rogier_van_der_Weyden"
+        },
+        {
+          "pageid": 224470,
+          "ns": 0,
+          "title": "Paolo Uccello",
+          "pageprops": {
+            "defaultsort": "Uccello, Paolo",
+            "page_image_free": "Cinq_maîtres_de_la_Renaissance_florentine_-_Uccello_(Louvre).jpg",
+            "wikibase_item": "Q192488"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:20Z",
+          "lastrevid": 236716734,
+          "length": 11080,
+          "fullurl": "https://fr.wikipedia.org/wiki/Paolo_Uccello",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Paolo_Uccello&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Paolo_Uccello"
+        },
+        {
+          "pageid": 388943,
+          "ns": 0,
+          "title": "Caravage",
+          "pageprops": {
+            "disambiguation": "",
+            "wikibase_item": "Q2937893"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2025-07-06T02:42:17Z",
+          "lastrevid": 227042162,
+          "length": 847,
+          "fullurl": "https://fr.wikipedia.org/wiki/Caravage",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Caravage&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Caravage"
+        },
+        {
+          "pageid": 445245,
+          "ns": 0,
+          "title": "Petrus Christus",
+          "pageprops": {
+            "defaultsort": "Christus, Petrus",
+            "page_image_free": "Petrus_Christus_-_Portrait_of_a_Young_Woman_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q312616"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:56Z",
+          "lastrevid": 229585214,
+          "length": 18917,
+          "fullurl": "https://fr.wikipedia.org/wiki/Petrus_Christus",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Petrus_Christus&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Petrus_Christus"
+        },
+        {
+          "pageid": 446579,
+          "ns": 0,
+          "title": "Jean Siméon Chardin",
+          "pageprops": {
+            "defaultsort": "Chardin, Jean Siméon",
+            "page_image_free": "Chardin_pastel_selfportrait.jpg",
+            "wikibase_item": "Q207447"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:56Z",
+          "lastrevid": 239984154,
+          "length": 65090,
+          "fullurl": "https://fr.wikipedia.org/wiki/Jean_Sim%C3%A9on_Chardin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Jean_Sim%C3%A9on_Chardin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Jean_Sim%C3%A9on_Chardin"
+        },
+        {
+          "pageid": 623775,
+          "ns": 0,
+          "title": "Andrea Mantegna",
+          "pageprops": {
+            "defaultsort": "Mantegna, Andrea",
+            "page_image_free": "Mantegna_Bronze_Bust_San_Andrea_Mantua.png",
+            "wikibase_item": "Q5681"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:18Z",
+          "lastrevid": 240482357,
+          "length": 71076,
+          "fullurl": "https://fr.wikipedia.org/wiki/Andrea_Mantegna",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Andrea_Mantegna&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Andrea_Mantegna"
+        },
+        {
+          "pageid": 2689216,
+          "ns": 0,
+          "title": "François Boucher",
+          "pageprops": {
+            "defaultsort": "Boucher, François",
+            "page_image_free": "Boucher_par_Gustav_Lundberg_1741.jpg",
+            "wikibase_item": "Q180932"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:23Z",
+          "lastrevid": 240107547,
+          "length": 75215,
+          "fullurl": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Boucher",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Boucher&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Boucher"
+        },
+        {
+          "pageid": 2869515,
+          "ns": 0,
+          "title": "Francisco de Goya",
+          "pageprops": {
+            "defaultsort": "Goya, Francisco de",
+            "page_image_free": "(Castres)_Autoportrait_aux_lunettes,_Francisco_de_Goya_y_Lucientes,_Musée_Goya.jpg",
+            "wikibase_item": "Q5432"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:42Z",
+          "lastrevid": 240137827,
+          "length": 232031,
+          "fullurl": "https://fr.wikipedia.org/wiki/Francisco_de_Goya",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Francisco_de_Goya&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Francisco_de_Goya"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "19e4d64be8ba5ec9d07853b3b5f2764017c99eb6f894c8f4c65ab9423f55e198"
+}

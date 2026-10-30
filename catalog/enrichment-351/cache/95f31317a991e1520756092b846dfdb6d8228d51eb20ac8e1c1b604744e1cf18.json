@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=Storm+below+the+Summit+Hokusai",
+  "retrievedAt": "2026-10-30T01:47:08.747Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 6,
+    "objectIDs": [
+      36492,
+      36490,
+      57006,
+      56229
+    ]
+  },
+  "payloadSha256": "571b5d6fd658a417f72aa028210cd76c7367445ed9f112d4eb6e65e653f5308d"
+}

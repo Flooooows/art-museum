@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Un_bar_aux_Folies_Berg%C3%A8re/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:22:00.669Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1525
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1882
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1560
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1741
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1879
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3366
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1798
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1603
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1170
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1042
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 949
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Un_bar_aux_Folies_Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1641
+      }
+    ]
+  },
+  "payloadSha256": "df91a0467906ff22cb6ee7d1744f3a54710a1e6267a121e5e0e9b590cb129ea4"
+}

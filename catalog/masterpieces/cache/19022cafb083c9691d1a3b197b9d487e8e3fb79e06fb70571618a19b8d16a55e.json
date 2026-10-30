@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/The_Old_Guitarist/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:42:06.148Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13890
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10929
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10756
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 11251
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10016
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10969
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 11874
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 11159
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7994
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7037
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8013
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Old_Guitarist",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8691
+      }
+    ]
+  },
+  "payloadSha256": "07d78d41e2e0b3863035917eea151b24a76ed35c0437989a0c0c7ecf88addae8"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Antoine_Watteau/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:24:07.803Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2481
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2455
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2132
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2534
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2449
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3121
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2642
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2447
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1960
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1752
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1835
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Antoine_Watteau",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2219
+      }
+    ]
+  },
+  "payloadSha256": "28854fea1326fb12dfa81e97dea653fe4ca3aa487edfbc4d60225ea3140149e0"
+}

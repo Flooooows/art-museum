@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Open+Door+Talbot",
+  "retrievedAt": "2026-10-30T01:47:26.280Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 2090,
+    "objectIDs": [
+      283068,
+      289167,
+      486013,
+      826862
+    ]
+  },
+  "payloadSha256": "196a3de549b156c6d52668745a38bde4e5edec17fb4692c449313c31be30f663"
+}

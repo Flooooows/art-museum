@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/L'Absinthe/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:21:14.081Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3137
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4539
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3080
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3194
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3042
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3477
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3482
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3359
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2811
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3017
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3511
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "L'Absinthe",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3524
+      }
+    ]
+  },
+  "payloadSha256": "afaf70202a0763d1631fbd932945b0264bf452ad1eea8ce5775314ce17b7154b"
+}

@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Jean-Auguste-Dominique_Ingres/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:27:00.494Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4706
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5944
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5524
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5552
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4670
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10869
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4449
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4738
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3835
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 3520
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4386
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Jean-Auguste-Dominique_Ingres",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 4300
+      }
+    ]
+  },
+  "payloadSha256": "eae9ef33e3842e644f0e621f1e4b799cf920dcf847aa139f42db0bab359bdee3"
+}

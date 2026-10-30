@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Irises_(painting)/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:26:10.467Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7704
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7928
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7195
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7763
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6916
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7454
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 8174
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9386
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7531
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6481
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7142
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Irises_(painting)",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6451
+      }
+    ]
+  },
+  "payloadSha256": "b1885b4227f0d92ced12c6fdea0bade62687ab38c966785cc8052ef8aa0ad5bc"
+}

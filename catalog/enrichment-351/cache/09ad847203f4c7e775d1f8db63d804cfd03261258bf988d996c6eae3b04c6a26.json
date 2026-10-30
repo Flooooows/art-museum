@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=Madame+X+Sargent",
+  "retrievedAt": "2026-10-30T01:46:14.172Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 19,
+    "objectIDs": [
+      12330,
+      12127,
+      12328,
+      12329
+    ]
+  },
+  "payloadSha256": "b089e449363433cd33d0967278fa31cea9a8cd557c97920f9168f0f45e072b57"
+}

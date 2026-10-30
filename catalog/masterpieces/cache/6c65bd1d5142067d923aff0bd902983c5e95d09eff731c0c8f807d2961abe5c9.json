@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=American+Gothic",
+  "retrievedAt": "2026-10-30T00:47:52.766Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 3396.1467,
+        "id": 6565,
+        "title": "American Gothic",
+        "main_reference_number": "1930.934",
+        "date_display": "1930",
+        "artist_title": "Grant Wood",
+        "image_id": "b272df73-a965-ac37-4172-be4e99483637",
+        "is_public_domain": false
+      },
+      {
+        "_score": 1519.6874,
+        "id": 223426,
+        "title": "American Gothic",
+        "main_reference_number": "2014.1154",
+        "date_display": "1978",
+        "artist_title": "Elizabeth Layton",
+        "image_id": "361d48f0-9220-e823-4943-338cd07a8017",
+        "is_public_domain": false
+      },
+      {
+        "_score": 1241.8795,
+        "id": 137096,
+        "title": "American Gothic '93",
+        "main_reference_number": "1995.145.5",
+        "date_display": "1993",
+        "artist_title": "David E. Yox",
+        "image_id": "4af756a5-0a4b-bf41-8144-39957403f168",
+        "is_public_domain": false
+      },
+      {
+        "_score": 1106.8845,
+        "id": 127123,
+        "title": "American Gothic",
+        "main_reference_number": "1943.1896",
+        "date_display": "1937",
+        "artist_title": "Lawrence Edward Kupferman",
+        "image_id": "299963ae-7937-d8d6-590b-7a200ed5549f",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "8977cf3ca485a2a7bf6cebe170e6ff41d1cbe309559d7b4fb03dce42ebae066c"
+}

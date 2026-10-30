@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=The+Old+Guitarist",
+  "retrievedAt": "2026-10-30T00:47:51.465Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 3868.8677,
+        "id": 28067,
+        "title": "The Old Guitarist",
+        "main_reference_number": "1926.253",
+        "date_display": "late 1903–early 1904",
+        "artist_title": "Pablo Picasso",
+        "image_id": "4e7f3081-179a-af18-8abd-7908a7ae8c4e",
+        "is_public_domain": false
+      },
+      {
+        "_score": 1863.4508,
+        "id": 131299,
+        "title": "The Old Guitarist, from The Blue Guitar",
+        "main_reference_number": "1978.23.2",
+        "date_display": "1976–77",
+        "artist_title": "David Hockney",
+        "image_id": "86395f37-0617-a999-99eb-d3902aa3dec6",
+        "is_public_domain": false
+      },
+      {
+        "_score": 92.31355,
+        "id": 57048,
+        "title": "The Old Temple",
+        "main_reference_number": "1900.382",
+        "date_display": "1787/88",
+        "is_public_domain": true,
+        "artist_title": "Hubert Robert",
+        "image_id": "00fdacbb-872a-1091-3272-39967374ec07"
+      },
+      {
+        "_score": 83.95526,
+        "id": 189596,
+        "title": "Twin Figures (Ere Ibeji)",
+        "main_reference_number": "1982.1513-14",
+        "date_display": "Early/mid–20th century",
+        "artist_title": "Yoruba",
+        "image_id": "8ade0c0d-456e-be6f-60ec-2d23f9c14eab",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "904e167e76ea95c76a471c38f1cd00a0e48f58b558e75c18fa4ee387bb8d763d"
+}

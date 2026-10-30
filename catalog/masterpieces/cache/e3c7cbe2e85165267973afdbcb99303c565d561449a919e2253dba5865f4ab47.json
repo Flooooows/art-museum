@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/A_Bar_at_the_Folies-Berg%C3%A8re/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:46:03.379Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 11622
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10939
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10050
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12648
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 11350
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12092
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 30157
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18874
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9665
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10936
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13714
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "A_Bar_at_the_Folies-Bergère",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 10160
+      }
+    ]
+  },
+  "payloadSha256": "da0d70e71c666c2aac0867a4ba3b708f01ce14e55f14516e00987932ec1f1ce3"
+}

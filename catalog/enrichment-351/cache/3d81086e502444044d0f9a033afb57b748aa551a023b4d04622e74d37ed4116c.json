@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Autoportrait_au_chapeau_de_paille/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:24:12.877Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 430
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 431
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 362
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 391
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 247
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 414
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 381
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 436
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 272
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 122
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 152
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Autoportrait_au_chapeau_de_paille",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 469
+      }
+    ]
+  },
+  "payloadSha256": "13be1c09d039dc45a307eb3684313eba51f52ada89bdde841d253c3fe213e63b"
+}

@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=View+of+Toledo+El+Greco",
+  "retrievedAt": "2026-10-30T01:45:57.471Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 7,
+    "objectIDs": [
+      436575,
+      436576,
+      436573,
+      436571
+    ]
+  },
+  "payloadSha256": "1e763748a85b8ec3ced471a6e633f5db32a265f8f07d8e77b778bf37b37f6670"
+}

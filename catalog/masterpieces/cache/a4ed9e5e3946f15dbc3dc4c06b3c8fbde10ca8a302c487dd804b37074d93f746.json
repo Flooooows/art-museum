@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Liberty_Leading_the_People/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:44:01.827Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 25504
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 24518
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 21603
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 23420
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 21073
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 23448
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 21278
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 23876
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18659
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 18494
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 16835
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Liberty_Leading_the_People",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 19102
+      }
+    ]
+  },
+  "payloadSha256": "9a4d351ffcc1a700480bb921022ac4e91f335ace785ff3882d4b48a5f1f2fe96"
+}

@@ -1,0 +1,99 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/388409",
+  "retrievedAt": "2026-10-30T01:47:05.355Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 388409,
+    "isHighlight": false,
+    "accessionNumber": "22.10.8",
+    "accessionYear": "1922",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP816483.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP816483.jpg",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 161857,
+        "role": "Artist",
+        "name": "Albrecht Dürer",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115493",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q5580",
+        "gender": ""
+      },
+      {
+        "constituentID": 35053,
+        "role": "Publisher",
+        "name": "Willem Jansz Blaeu",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500175604",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q520327",
+        "gender": ""
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Print",
+    "title": "The Rhinoceros",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Albrecht Dürer",
+    "artistDisplayBio": "German, Nuremberg 1471–1528 Nuremberg",
+    "artistSuffix": "",
+    "artistAlphaSort": "Dürer, Albrecht",
+    "artistNationality": "German",
+    "artistBeginDate": "1471",
+    "artistEndDate": "1528",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q5580",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115493",
+    "objectDate": "after 1620",
+    "objectBeginDate": 1620,
+    "objectEndDate": 1620,
+    "medium": "Chiaroscuro woodcut with tone block in printed in light olive green",
+    "dimensions": "sheet: 8 7/16 x 11 13/16 in. (21.4 x 30 cm)",
+    "measurements": [
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 21.431293,
+          "Width": 30.00381
+        }
+      }
+    ],
+    "creditLine": "Rogers Fund, 1921",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Prints",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-03-06T04:54:30Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/388409",
+    "tags": [
+      {
+        "term": "Rhinoceros",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300250315",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q34718"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "2938ca76ba6ccb09e21dc350932ce81dd33c341463035c0359b4f750d9c92461"
+}

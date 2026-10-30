@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/The_Garden_of_Earthly_Delights/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:44:10.102Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 58502
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 49961
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 50751
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 61618
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 50474
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 55481
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 56258
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 53613
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 46758
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 40698
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 45934
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Garden_of_Earthly_Delights",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 64202
+      }
+    ]
+  },
+  "payloadSha256": "512cb35683230e921df4ddf413d13a29eff61ad5751589375ce1fc143b46bd8d"
+}

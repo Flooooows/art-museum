@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Headdress+Baga",
+  "retrievedAt": "2026-10-30T00:51:04.084Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 137.61479,
+        "id": 5567,
+        "title": "Female Headdress (Nimba, D'mba, or Yamban)",
+        "main_reference_number": "1957.160",
+        "date_display": "Mid 19th-early 20th century",
+        "artist_title": "Baga",
+        "image_id": "7d6a33f1-c17d-220a-815d-bdd787f0f5ed",
+        "is_public_domain": false
+      },
+      {
+        "_score": 127.95939,
+        "id": 146940,
+        "title": "Helmet Mask (Banda or Kumbaduba)",
+        "main_reference_number": "1997.360",
+        "date_display": "Mid–20th century",
+        "artist_title": "Baga",
+        "image_id": "5e57f6ba-42d9-f0cb-056c-cd491aff6098",
+        "is_public_domain": false
+      },
+      {
+        "_score": 108.11085,
+        "id": 109828,
+        "title": "Shrine Figure (a-Tshol, Elëk, or ma-Tshol)",
+        "main_reference_number": "1962.474",
+        "date_display": "Late 19th or early 20th century",
+        "artist_title": "Baga",
+        "image_id": "9a4eebc2-629e-6795-4636-7260ea04f683",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "962841b209847e81a8d018a6f1008789fd041f3fe525963ad1bdf379c0da4c5d"
+}

@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Bodhisattva+Avalokiteshvara",
+  "retrievedAt": "2026-10-30T00:51:00.116Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 1915.6317,
+        "id": 58541,
+        "title": "Bodhisattva Avalokiteshvara",
+        "main_reference_number": "1979.617",
+        "date_display": "Angkor period, late 12th–early 13th century",
+        "is_public_domain": true,
+        "artist_title": "Khmer",
+        "image_id": "58f90769-d83f-1895-73be-fe9d28367d0f"
+      },
+      {
+        "_score": 1908.0153,
+        "id": 47163,
+        "title": "Bodhisattva Avalokiteshvara",
+        "main_reference_number": "1974.234",
+        "date_display": "11th/12th century",
+        "is_public_domain": true,
+        "image_id": "7917edee-b89e-3e8a-4ab7-08d16c2719aa",
+        "artist_title": null
+      },
+      {
+        "_score": 1880.1372,
+        "id": 11512,
+        "title": "Bodhisattva Avalokiteshvara",
+        "main_reference_number": "1924.48",
+        "date_display": "Angkor period,  late 12th–early 13th century",
+        "is_public_domain": true,
+        "artist_title": "Khmer",
+        "image_id": "59fe97c3-8af8-a9ee-07b5-e5679d05c3e2"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "ae9b1af05f09b2f04b45f9bb52b974f4aedcc20a91b823069bb64e44f13f7d59"
+}

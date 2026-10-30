@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/L'Homme_au_turban_rouge/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:27:12.407Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 822
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 741
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 634
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 691
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 545
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 668
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 531
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 632
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 352
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 240
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 281
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "L'Homme_au_turban_rouge",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 514
+      }
+    ]
+  },
+  "payloadSha256": "fed43e454604fe251b3f006827705c61202bc0c5c7633a642ac26bf3211d08c3"
+}

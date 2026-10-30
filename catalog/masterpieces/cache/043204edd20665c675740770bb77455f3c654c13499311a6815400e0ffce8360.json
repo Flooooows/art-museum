@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=The+Rock+Peter+Blume",
+  "retrievedAt": "2026-10-30T00:51:16.111Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 213.13133,
+        "id": 56682,
+        "title": "The Rock",
+        "main_reference_number": "1956.338",
+        "date_display": "1944–48",
+        "artist_title": "Peter Blume",
+        "image_id": "2843f22e-8ef1-2cd5-b53e-6712cd664e9a",
+        "is_public_domain": false
+      },
+      {
+        "_score": 166.21394,
+        "id": 153498,
+        "title": "Buoy",
+        "main_reference_number": "2003.432",
+        "date_display": "1941",
+        "artist_title": "Peter Blume",
+        "image_id": "0814b40d-9680-05ba-ea4e-9ac32226f257",
+        "is_public_domain": false
+      },
+      {
+        "_score": 143.66696,
+        "id": 11092,
+        "title": "Two Sketches of a Nude Woman",
+        "main_reference_number": "1959.535",
+        "date_display": "1959",
+        "artist_title": "Peter Blume",
+        "image_id": "f62436ce-99b1-b632-83df-59b5953f69fd",
+        "is_public_domain": false
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "a5f9a32659c65808d08321c11b76badee0d401aa2bbf2af03d502730b62a4c42"
+}

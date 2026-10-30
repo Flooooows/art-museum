@@ -1,0 +1,108 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/12330",
+  "retrievedAt": "2026-10-30T01:46:15.300Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 12330,
+    "isHighlight": false,
+    "accessionNumber": "1970.47",
+    "accessionYear": "1970",
+    "isPublicDomain": false,
+    "primaryImage": "",
+    "primaryImageSmall": "",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 162377,
+        "role": "Artist",
+        "name": "John Singer Sargent",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500023972",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q155626",
+        "gender": ""
+      }
+    ],
+    "department": "The American Wing",
+    "objectName": "Drawing",
+    "title": "Virginia Amélie Avegno Gautreau, Study for \"Madame X\"",
+    "culture": "American",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "John Singer Sargent",
+    "artistDisplayBio": "American, Florence 1856–1925 London",
+    "artistSuffix": "",
+    "artistAlphaSort": "Sargent, John Singer",
+    "artistNationality": "American",
+    "artistBeginDate": "1856",
+    "artistEndDate": "1925",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q155626",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500023972",
+    "objectDate": "1883–84",
+    "objectBeginDate": 1883,
+    "objectEndDate": 1884,
+    "medium": "Graphite on off-white wove paper",
+    "dimensions": "9 3/4 × 13 3/16 in. (24.8 × 33.5 cm)\r\nMat: 14 1/4 × 19 1/4 in. (36.2 × 48.9 cm)",
+    "measurements": [
+      {
+        "elementName": "Framed",
+        "elementDescription": "standard exhibition frame",
+        "elementMeasurements": {
+          "Depth": 2.8575,
+          "Height": 41.3,
+          "Width": 54
+        }
+      },
+      {
+        "elementName": "Overall",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 24.765,
+          "Width": 33.5
+        }
+      },
+      {
+        "elementName": "Mat",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 36.195072,
+          "Width": 48.8951
+        }
+      }
+    ],
+    "creditLine": "Purchase, Charles and Anita Blatt Gift, John Wilmerding Gift and Rogers Fund, 1970",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2026-07-23T04:54:57.013Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/12330",
+    "tags": [
+      {
+        "term": "Women",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+      }
+    ],
+    "objectWikidata_URL": "https://www.wikidata.org/wiki/Q20178019",
+    "isTimelineWork": true,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "f764f39a64cea72013d28114582b47e93057587e000b26c28400d1156950feeb"
+}

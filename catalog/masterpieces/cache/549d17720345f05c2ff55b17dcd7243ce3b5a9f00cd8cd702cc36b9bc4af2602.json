@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Statuette+of+Osiris",
+  "retrievedAt": "2026-10-30T00:51:08.534Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 3330.4546,
+        "id": 617,
+        "title": "Statuette of Osiris",
+        "main_reference_number": "1892.130",
+        "date_display": "Late Period, Dynasty 26 or later, 664–332 BCE",
+        "is_public_domain": true,
+        "artist_title": "Ancient Egyptian",
+        "image_id": "16b0b094-c2a2-94df-fe8b-b67241c9c808"
+      },
+      {
+        "_score": 2353.678,
+        "id": 120298,
+        "title": "Statuette of Osiris-Iah",
+        "main_reference_number": "1894.259",
+        "date_display": "Late Period, Dynasty 26–30, about 664–332 BCE",
+        "is_public_domain": true,
+        "artist_title": "Ancient Egyptian",
+        "image_id": "f9d0a9c2-50e2-0881-3a3b-271f877dd29d"
+      },
+      {
+        "_score": 2262.3535,
+        "id": 120360,
+        "title": "Statuette of Osiris",
+        "main_reference_number": "1910.244",
+        "date_display": "Late Period, Dynasty 26 (664–525 BCE)",
+        "is_public_domain": true,
+        "artist_title": "Ancient Egyptian",
+        "image_id": "18d61501-4180-4f43-8914-0b4ae006be8e"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "97db723d5c12f8a6d1b4e74feeeb309fbcb1b934e1088b39fe015a56279b4b4e"
+}

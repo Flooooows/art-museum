@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/The_Potato_Eaters/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:23:04.263Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7366
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6830
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6440
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7984
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6418
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7131
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7015
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6882
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6256
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5231
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5597
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "The_Potato_Eaters",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6053
+      }
+    ]
+  },
+  "payloadSha256": "e192194de09a8ad53a5fd60f8677887f46dcad3c710b0bafd4fa995567768a24"
+}

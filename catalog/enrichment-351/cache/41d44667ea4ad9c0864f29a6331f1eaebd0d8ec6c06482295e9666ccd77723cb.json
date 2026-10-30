@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Gulf+Stream+Winslow+Homer",
+  "retrievedAt": "2026-10-30T01:46:04.016Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 6,
+    "objectIDs": [
+      11122,
+      705238,
+      11131,
+      11120
+    ]
+  },
+  "payloadSha256": "3f27da18715be064400069a27b5a6ef8facdf5c50c79feee4470c16eeef2e3f7"
+}

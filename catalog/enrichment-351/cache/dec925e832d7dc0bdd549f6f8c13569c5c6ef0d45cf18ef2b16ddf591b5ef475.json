@@ -1,0 +1,576 @@
+{
+  "provider": "wikimedia",
+  "url": "https://fr.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&inprop=url&prop=pageprops%7Cinfo&redirects=1&titles=Piet+Mondrian%7CKazimir+Malevitch%7CHilma+af+Klint%7CPaul+Klee%7CRobert+Delaunay%7CSonia+Delaunay%7CFernand+L%C3%A9ger%7CConstantin+Brancusi%7CAmedeo+Modigliani%7CCha%C3%AFm+Soutine%7CFrida+Kahlo%7CDiego+Rivera%7CKatsushika+Hokusai%7CUtagawa+Hiroshige%7CKitagawa+Utamaro%7CT%C5%8Dsh%C5%ABsai+Sharaku%7COgata+K%C5%8Drin%7CSessh%C5%AB+T%C5%8Dy%C5%8D%7CAnonyme%2C+Chine%7CGu+Kaizhi+%28attribu%C3%A9%29%7CFan+Kuan%7CGuo+Xi%7CZhang+Zeduan+%28attribu%C3%A9%29%7CMa+Yuan%7CShen+Zhou%7CQiu+Ying%7CAnonyme%2C+Inde+moghole%7CGr%C3%A8ce+antique%2C+auteur+inconnu%7CRome+antique%2C+auteur+inconnu%7C%C3%89gypte+antique%2C+auteur+inconnu",
+  "retrievedAt": "2026-10-30T01:43:57.188Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "redirects": [
+        {
+          "from": "Utagawa Hiroshige",
+          "to": "Hiroshige"
+        },
+        {
+          "from": "Kitagawa Utamaro",
+          "to": "Utamaro"
+        },
+        {
+          "from": "Constantin Brancusi",
+          "to": "Constantin Brâncuși"
+        },
+        {
+          "from": "Kazimir Malevitch",
+          "to": "Kasimir Malevitch"
+        },
+        {
+          "from": "Katsushika Hokusai",
+          "to": "Hokusai"
+        },
+        {
+          "from": "Sesshū Tōyō",
+          "to": "Sesshū"
+        }
+      ],
+      "pages": [
+        {
+          "ns": 0,
+          "title": "Égypte antique, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/%C3%89gypte_antique,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=%C3%89gypte_antique,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/%C3%89gypte_antique,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Rome antique, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Rome_antique,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Rome_antique,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Rome_antique,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Grèce antique, auteur inconnu",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Gr%C3%A8ce_antique,_auteur_inconnu",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Gr%C3%A8ce_antique,_auteur_inconnu&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Gr%C3%A8ce_antique,_auteur_inconnu"
+        },
+        {
+          "ns": 0,
+          "title": "Anonyme, Inde moghole",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Anonyme,_Inde_moghole",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Anonyme,_Inde_moghole&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Anonyme,_Inde_moghole"
+        },
+        {
+          "ns": 0,
+          "title": "Zhang Zeduan (attribué)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Zhang_Zeduan_(attribu%C3%A9)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Zhang_Zeduan_(attribu%C3%A9)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Zhang_Zeduan_(attribu%C3%A9)"
+        },
+        {
+          "ns": 0,
+          "title": "Gu Kaizhi (attribué)",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Gu_Kaizhi_(attribu%C3%A9)",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Gu_Kaizhi_(attribu%C3%A9)&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Gu_Kaizhi_(attribu%C3%A9)"
+        },
+        {
+          "ns": 0,
+          "title": "Anonyme, Chine",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/Anonyme,_Chine",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Anonyme,_Chine&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Anonyme,_Chine"
+        },
+        {
+          "ns": 0,
+          "title": "Tōshūsai Sharaku",
+          "missing": true,
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "fullurl": "https://fr.wikipedia.org/wiki/T%C5%8Dsh%C5%ABsai_Sharaku",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=T%C5%8Dsh%C5%ABsai_Sharaku&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/T%C5%8Dsh%C5%ABsai_Sharaku"
+        },
+        {
+          "pageid": 17328,
+          "ns": 0,
+          "title": "Hokusai",
+          "pageprops": {
+            "page_image_free": "Hokusai_portrait.jpg",
+            "wikibase_item": "Q5586"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:49Z",
+          "lastrevid": 240831638,
+          "length": 51892,
+          "fullurl": "https://fr.wikipedia.org/wiki/Hokusai",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Hokusai&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Hokusai"
+        },
+        {
+          "pageid": 37668,
+          "ns": 0,
+          "title": "Piet Mondrian",
+          "pageprops": {
+            "defaultsort": "Mondrian, Piet",
+            "page_image_free": "Piet_Mondrian_2.jpg",
+            "wikibase_item": "Q151803"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:52Z",
+          "lastrevid": 240180035,
+          "length": 50484,
+          "fullurl": "https://fr.wikipedia.org/wiki/Piet_Mondrian",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Piet_Mondrian&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Piet_Mondrian"
+        },
+        {
+          "pageid": 71978,
+          "ns": 0,
+          "title": "Paul Klee",
+          "pageprops": {
+            "defaultsort": "Klee, Paul",
+            "page_image_free": "Paul_Klee_1911.jpg",
+            "wikibase_item": "Q44007"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:46:57Z",
+          "lastrevid": 238173443,
+          "length": 91563,
+          "fullurl": "https://fr.wikipedia.org/wiki/Paul_Klee",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Paul_Klee&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Paul_Klee"
+        },
+        {
+          "pageid": 125471,
+          "ns": 0,
+          "title": "Diego Rivera",
+          "pageprops": {
+            "defaultsort": "Rivera, Diego",
+            "page_image_free": "Diego_Rivera_-_Google_Art_Project_(cropped).jpg",
+            "wikibase_item": "Q171128"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:04Z",
+          "lastrevid": 239907679,
+          "length": 26240,
+          "fullurl": "https://fr.wikipedia.org/wiki/Diego_Rivera",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Diego_Rivera&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Diego_Rivera"
+        },
+        {
+          "pageid": 125490,
+          "ns": 0,
+          "title": "Amedeo Modigliani",
+          "pageprops": {
+            "defaultsort": "Modigliani, Amedeo",
+            "page_image_free": "Amedeo_Modigliani_1918_restored.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q120993"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:04Z",
+          "lastrevid": 240617431,
+          "length": 194243,
+          "fullurl": "https://fr.wikipedia.org/wiki/Amedeo_Modigliani",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Amedeo_Modigliani&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Amedeo_Modigliani"
+        },
+        {
+          "pageid": 127287,
+          "ns": 0,
+          "title": "Constantin Brâncuși",
+          "pageprops": {
+            "defaultsort": "Brancusi, Constantin",
+            "page_image_free": "Edward_Steichen_-_Brancusi.jpg",
+            "wikibase_item": "Q153048"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:05Z",
+          "lastrevid": 240504010,
+          "length": 39962,
+          "fullurl": "https://fr.wikipedia.org/wiki/Constantin_Br%C3%A2ncu%C8%99i",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Constantin_Br%C3%A2ncu%C8%99i&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Constantin_Br%C3%A2ncu%C8%99i"
+        },
+        {
+          "pageid": 155555,
+          "ns": 0,
+          "title": "Robert Delaunay",
+          "pageprops": {
+            "defaultsort": "Delaunay, Robert",
+            "page_image_free": "Robert_Delaunay,_Autoportrait_1905-1906.jpg",
+            "wikibase-badge-Q17437798": "",
+            "wikibase_item": "Q33978"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:09Z",
+          "lastrevid": 240578165,
+          "length": 62746,
+          "fullurl": "https://fr.wikipedia.org/wiki/Robert_Delaunay",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Robert_Delaunay&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Robert_Delaunay"
+        },
+        {
+          "pageid": 189862,
+          "ns": 0,
+          "title": "Hiroshige",
+          "pageprops": {
+            "page_image_free": "Memorial_Portrait_of_Hiroshige,_by_Kunisada.jpg",
+            "wikibase_item": "Q200798"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:14Z",
+          "lastrevid": 240147944,
+          "length": 62569,
+          "fullurl": "https://fr.wikipedia.org/wiki/Hiroshige",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Hiroshige&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Hiroshige"
+        },
+        {
+          "pageid": 314893,
+          "ns": 0,
+          "title": "Utamaro",
+          "pageprops": {
+            "page_image_free": "Kitagawa_Utamaro_portrait_(cropped).jpg",
+            "wikibase_item": "Q272045"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:34Z",
+          "lastrevid": 239099895,
+          "length": 40449,
+          "fullurl": "https://fr.wikipedia.org/wiki/Utamaro",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Utamaro&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Utamaro"
+        },
+        {
+          "pageid": 414154,
+          "ns": 0,
+          "title": "Sonia Delaunay",
+          "pageprops": {
+            "defaultsort": "Delaunay, Sonia",
+            "page_image_free": "Sonia_Delaunay_portrait_photograph.jpg",
+            "wikibase_item": "Q232972"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:47:52Z",
+          "lastrevid": 240440416,
+          "length": 104672,
+          "fullurl": "https://fr.wikipedia.org/wiki/Sonia_Delaunay",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Sonia_Delaunay&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Sonia_Delaunay"
+        },
+        {
+          "pageid": 484122,
+          "ns": 0,
+          "title": "Chaïm Soutine",
+          "pageprops": {
+            "defaultsort": "Soutine, Chaïm",
+            "page_image_free": "Amedeo_Modigliani_036.jpg",
+            "wikibase-badge-Q17437796": "",
+            "wikibase_item": "Q160141"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:01Z",
+          "lastrevid": 240788066,
+          "length": 202039,
+          "fullurl": "https://fr.wikipedia.org/wiki/Cha%C3%AFm_Soutine",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Cha%C3%AFm_Soutine&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Cha%C3%AFm_Soutine"
+        },
+        {
+          "pageid": 641108,
+          "ns": 0,
+          "title": "Sesshū",
+          "pageprops": {
+            "defaultsort": "Sesshu, Toyo",
+            "page_image_free": "Sesshu_-_Haboku-Sansui.jpg",
+            "wikibase_item": "Q48514"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:21Z",
+          "lastrevid": 228297354,
+          "length": 7979,
+          "fullurl": "https://fr.wikipedia.org/wiki/Sessh%C5%AB",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Sessh%C5%AB&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Sessh%C5%AB"
+        },
+        {
+          "pageid": 642402,
+          "ns": 0,
+          "title": "Fernand Léger",
+          "pageprops": {
+            "defaultsort": "Leger, Fernand",
+            "page_image_free": "Fernand_Léger.jpg",
+            "wikibase_item": "Q157183"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:48:21Z",
+          "lastrevid": 240199418,
+          "length": 35244,
+          "fullurl": "https://fr.wikipedia.org/wiki/Fernand_L%C3%A9ger",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Fernand_L%C3%A9ger&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Fernand_L%C3%A9ger"
+        },
+        {
+          "pageid": 1112141,
+          "ns": 0,
+          "title": "Kasimir Malevitch",
+          "pageprops": {
+            "defaultsort": "Malevitch, Kasimir",
+            "page_image_free": "Casimir_Malevich_photo.jpg",
+            "wikibase_item": "Q130777"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:49:31Z",
+          "lastrevid": 240321655,
+          "length": 33307,
+          "fullurl": "https://fr.wikipedia.org/wiki/Kasimir_Malevitch",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Kasimir_Malevitch&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Kasimir_Malevitch"
+        },
+        {
+          "pageid": 2038038,
+          "ns": 0,
+          "title": "Frida Kahlo",
+          "pageprops": {
+            "defaultsort": "Kahlo, Frida",
+            "page_image_free": "Frida_Kahlo,_by_Guillermo_Kahlo.jpg",
+            "wikibase_item": "Q5588"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:06Z",
+          "lastrevid": 240758277,
+          "length": 69970,
+          "fullurl": "https://fr.wikipedia.org/wiki/Frida_Kahlo",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Frida_Kahlo&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Frida_Kahlo"
+        },
+        {
+          "pageid": 2802135,
+          "ns": 0,
+          "title": "Hilma af Klint",
+          "pageprops": {
+            "defaultsort": "Klint, Hilma af",
+            "page_image_free": "Hilma-af-Klint-uncropped.jpg",
+            "wikibase_item": "Q436267"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:51:36Z",
+          "lastrevid": 240212989,
+          "length": 38239,
+          "fullurl": "https://fr.wikipedia.org/wiki/Hilma_af_Klint",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Hilma_af_Klint&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Hilma_af_Klint"
+        },
+        {
+          "pageid": 4659313,
+          "ns": 0,
+          "title": "Ogata Kōrin",
+          "pageprops": {
+            "defaultsort": "Ogata Korin",
+            "page_image_free": "Ogata_Korin_-_Red_And_White_Plum_Trees_(National_Treasure).jpg",
+            "wikibase_item": "Q952938"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:54:22Z",
+          "lastrevid": 237048433,
+          "length": 16346,
+          "fullurl": "https://fr.wikipedia.org/wiki/Ogata_K%C5%8Drin",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Ogata_K%C5%8Drin&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Ogata_K%C5%8Drin"
+        },
+        {
+          "pageid": 5030461,
+          "ns": 0,
+          "title": "Fan Kuan",
+          "pageprops": {
+            "defaultsort": "Fan Kuan",
+            "page_image_free": "Fan_Kuan_-_Travelers_Among_Mountains_and_Streams_-_Google_Art_Project.jpg",
+            "wikibase_item": "Q1278559"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:06Z",
+          "lastrevid": 188834049,
+          "length": 3941,
+          "fullurl": "https://fr.wikipedia.org/wiki/Fan_Kuan",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Fan_Kuan&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Fan_Kuan"
+        },
+        {
+          "pageid": 5030505,
+          "ns": 0,
+          "title": "Guo Xi",
+          "pageprops": {
+            "defaultsort": "Guo Xi",
+            "page_image_free": "Guo_Xi_-_Early_Spring_(large).jpg",
+            "wikibase_item": "Q536645"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:06Z",
+          "lastrevid": 234202156,
+          "length": 40296,
+          "fullurl": "https://fr.wikipedia.org/wiki/Guo_Xi",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Guo_Xi&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Guo_Xi"
+        },
+        {
+          "pageid": 5409933,
+          "ns": 0,
+          "title": "Ma Yuan",
+          "pageprops": {
+            "defaultsort": "Ma Yuan",
+            "wikibase_item": "Q433603"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:44Z",
+          "lastrevid": 236901533,
+          "length": 17869,
+          "fullurl": "https://fr.wikipedia.org/wiki/Ma_Yuan",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Ma_Yuan&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Ma_Yuan"
+        },
+        {
+          "pageid": 5418359,
+          "ns": 0,
+          "title": "Shen Zhou",
+          "pageprops": {
+            "defaultsort": "Shen Zhou",
+            "page_image_free": "Shen_Zhou_at_age_80.Palace_Museum_Beijing.jpg",
+            "wikibase_item": "Q558863"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:55:45Z",
+          "lastrevid": 239698791,
+          "length": 25206,
+          "fullurl": "https://fr.wikipedia.org/wiki/Shen_Zhou",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Shen_Zhou&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Shen_Zhou"
+        },
+        {
+          "pageid": 5971526,
+          "ns": 0,
+          "title": "Qiu Ying",
+          "pageprops": {
+            "defaultsort": "Qiu Ying",
+            "page_image_free": "Цю_Ин._Два_интеллектуала_под_банановым_деревом_Тайбэй_Гугун.jpg",
+            "wikibase_item": "Q769372"
+          },
+          "contentmodel": "wikitext",
+          "pagelanguage": "fr",
+          "pagelanguagehtmlcode": "fr",
+          "pagelanguagedir": "ltr",
+          "touched": "2026-10-29T20:56:46Z",
+          "lastrevid": 240712894,
+          "length": 24480,
+          "fullurl": "https://fr.wikipedia.org/wiki/Qiu_Ying",
+          "editurl": "https://fr.wikipedia.org/w/index.php?title=Qiu_Ying&action=edit",
+          "canonicalurl": "https://fr.wikipedia.org/wiki/Qiu_Ying"
+        }
+      ]
+    }
+  },
+  "payloadSha256": "dd9640057a36bcae25065367861e9d6406db72fa7ae62d24ed3fc126edec7284"
+}

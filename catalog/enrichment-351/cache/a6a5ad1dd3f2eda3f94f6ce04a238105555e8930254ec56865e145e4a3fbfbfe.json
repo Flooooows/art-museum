@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Gustave_Caillebotte/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:28:14.345Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 9459
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 7015
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5752
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6961
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5922
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6540
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6918
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6989
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 5811
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6008
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6303
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Gustave_Caillebotte",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 6288
+      }
+    ]
+  },
+  "payloadSha256": "de453b9eace2976958da1bec51b4e59451cde9dafe086583392da3897bf4d73b"
+}

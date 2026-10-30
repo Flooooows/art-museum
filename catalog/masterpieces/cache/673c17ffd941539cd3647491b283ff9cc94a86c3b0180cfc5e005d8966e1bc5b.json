@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Mummy+Case+Paankhenamun",
+  "retrievedAt": "2026-10-30T00:51:07.839Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 87.02897,
+        "id": 136740,
+        "title": "Funerary Mask",
+        "main_reference_number": "1910.220",
+        "date_display": "Late Ptolemaic Period-early Roman Period, 1st century BCE",
+        "is_public_domain": true,
+        "artist_title": "Ancient Egyptian",
+        "image_id": "6ff83986-8938-20c2-c0c3-82f34ae0035f"
+      },
+      {
+        "_score": 85.194855,
+        "id": 64312,
+        "title": "Funerary Mask",
+        "main_reference_number": "1910.221",
+        "date_display": "Late Ptolemaic Period-early Roman Period, 1st century BCE",
+        "is_public_domain": true,
+        "artist_title": "Ancient Egyptian",
+        "image_id": "82f922f7-33cd-fb48-91ca-8aa050786a56"
+      },
+      {
+        "_score": 79.51794,
+        "id": 64339,
+        "title": "Coffin and Mummy of Paankhaenamun",
+        "main_reference_number": "1910.238",
+        "date_display": "Third Intermediate Period, Dynasty 22, reign of Osorkon I (about 924–889 BCE)",
+        "is_public_domain": true,
+        "artist_title": "Ancient Egyptian",
+        "image_id": "93270aaf-16a5-1604-c6c8-0f3c003eb7a1"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "b33d00ccbce502f9360641f1c0531639cebd347818894048adae28765f412b80"
+}

@@ -1,0 +1,1527 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3ABosch+-+Haywain+Triptych+central+panel+%28%27The+Hay+Wagon%27%29.jpg%7CFile%3ABosch+-+Haywain+Triptych+right+panel+%28%27Hell%27%29.jpg%7CFile%3APieter+Bruegel+the+Elder+-+The+Tower+of+Babel+%28Vienna%29+-+Google+Art+Project+-+edited.jpg%7CFile%3APieter+Bruegel+the+Elder+-+The+Tower+of+Babel+%28Rotterdam%29+-+Google+Art+Project+-+edited.jpg%7CFile%3APieter+Brueghel+the+Elder+-+The+Dutch+Proverbs+-+Google+Art+Project.jpg%7CFile%3APieter+Bruegel+%28der+%C3%84ltere%29+%28ca.+1525+-+1569%29+-+Die+niederl%C3%A4ndischen+Sprichw%C3%B6rter+-+1720+-+Gem%C3%A4ldegalerie.jpg%7CFile%3APieter+Bruegel+the+Elder+-+Peasant+Wedding+-+Google+Art+Project.jpg%7CFile%3AAlbrecht+D%C3%BCrer+-+Praying+Hands%2C+1508+-+Google+Art+Project.jpg%7CFile%3AAlbrecht+D%C3%BCrer+-+Melencolia+I+-+Google+Art+Project+%28427760%29.jpg%7CFile%3AAlbrecht+D%C3%BCrer%2C+The+Rhinoceros%2C+1515%2C+NGA+47903.jpg%7CFile%3AHans+Holbein+the+Younger+-+The+Ambassadors+-+Google+Art+Project.jpg%7CFile%3AEl+Greco+-+The+Burial+of+the+Count+of+Orgaz.JPG%7CFile%3AEl+Greco+View+of+Toledo.jpg%7CFile%3AEl+caballero+de+la+mano+en+el+pecho%2C+by+El+Greco%2C+from+Prado+in+Google+Earth.jpg%7CFile%3AHolbein+%E2%80%94+Dead+Christ.jpg",
+  "retrievedAt": "2026-10-30T01:46:22.611Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 661612,
+          "ns": 6,
+          "title": "File:El Greco View of Toledo.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2961616,
+              "width": 3436,
+              "height": 3878,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/El_Greco_View_of_Toledo.jpg/1920px-El_Greco_View_of_Toledo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1806,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/0/02/El_Greco_View_of_Toledo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/El_Greco_View_of_Toledo.jpg/1920px-El_Greco_View_of_Toledo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1806,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/02/El_Greco_View_of_Toledo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/El_Greco_View_of_Toledo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_Greco_View_of_Toledo.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=661612",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-03-28 09:45:48",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>View of Toledo <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q883994#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">label QS:Les,\"Vista de Toledo\"</div><div style=\"display: none;\">label QS:Lfr,\"Vue de Tolède\"</div><div style=\"display: none;\">label QS:Len,\"View of Toledo\"</div><div style=\"display: none;\">label QS:Lru,\"Вид Толедо\"</div><div style=\"display: none;\">label QS:Lde,\"Ansicht von Toledo\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "View of Toledo by El Greco (Metropolitan Museum of Art)|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Files, uploaded by Shakko from various sources|CC-PD-Mark|Artworks digital representation of 2D work|Template Unknown (source)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:El_Greco\" class=\"extiw\" title=\"w:en:El Greco\"><span title=\"Greek artist, painter, sculptor and architect (1541–1614)\">El Greco</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between circa 1596 and circa 1600<div style=\"display: none;\">date QS:P571,+1500-00-00T00:00:00Z/6,P1319,+1596-00-00T00:00:00Z/9,P1326,+1600-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Unknown source<span style=\"display: none;\">Unknown source</span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 1170096,
+          "ns": 6,
+          "title": "File:El Greco - The Burial of the Count of Orgaz.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1380374,
+              "width": 1316,
+              "height": 1612,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1960,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1960
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1170096",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-01-07 05:57:54",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Spanish:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"es\"><i>El entierro del Conde de Orgaz <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q94802#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Burial of the Count of Orgaz</i></div></div><div style=\"display: none;\">label QS:Les,\"<a href=\"https://es.wikipedia.org/wiki/El_entierro_del_conde_de_Orgaz\" class=\"extiw\" title=\"es:El entierro del conde de Orgaz\">El entierro del conde de Orgaz</a>\"</div><div style=\"display: none;\">label QS:Lfr,\"L'Enterrement du comte d'Orgaz\"</div><div style=\"display: none;\">label QS:Lhr,\"Pogreb grofa Orgaze\"</div><div style=\"display: none;\">label QS:Len,\"The Burial of the Count of Orgaz\"</div><div style=\"display: none;\">label QS:Leu,\"Orgazeko kondearen ehorzketa\"</div><div style=\"display: none;\">label QS:Lca,\"L'enterrament del comte d'Orgaz\"</div><div style=\"display: none;\">label QS:Lde,\"Begräbnis des Grafen von Orgaz\"</div><div style=\"display: none;\">label QS:Lja,\"オルガス伯の埋葬\"</div><div style=\"display: none;\">label QS:Lit,\"Sepoltura del conte di Orgaz\"</div><div style=\"display: none;\">label QS:Lpt,\"O Enterro do Conde de Orgaz\"</div><div style=\"display: none;\">label QS:Lru,\"Погребение графа Оргаса\"</div><div style=\"display: none;\">label QS:Lpl,\"Pogrzeb hrabiego Orgaza\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Burial of the Count of Orgaz|Images with annotations|PD-old-100-expired|Artworks with Wikidata item|Files with derivative versions|CC-PD-Mark|Artworks digital representation of 2D work|Template Unknown (other)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:El_Greco\" class=\"extiw\" title=\"w:en:El Greco\"><span title=\"Greek artist, painter, sculptor and architect (1541–1614)\">El Greco</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<i>The Burial of the Lord of Orgaz</i> (<i>El entierro del señor de Orgaz</i>), better known as <i><a href=\"https://en.wikipedia.org/wiki/The_Burial_of_the_Count_of_Orgaz\" class=\"extiw\" title=\"en:The Burial of the Count of Orgaz\">The Burial of the Count of Orgaz</a></i> (<i>El entierro del conde de Orgaz</i>) is an <a href=\"https://en.wikipedia.org/wiki/Oil_painting\" class=\"extiw\" title=\"en:Oil painting\">oil painting on canvas</a> in the <a href=\"https://en.wikipedia.org/wiki/Mannerism\" class=\"extiw\" title=\"en:Mannerism\">Mannerist style</a> by <a href=\"https://en.wikipedia.org/wiki/El_Greco\" class=\"extiw\" title=\"en:El Greco\">El Greco</a>, painted between 1586 and 1588. It was commissioned for the <a href=\"https://en.wikipedia.org/wiki/Church_of_Santo_Tom%C3%A9,_Toledo\" class=\"extiw\" title=\"en:Church of Santo Tomé, Toledo\">Church of Santo Tomé in Toledo</a>, Spain, where it remains today, and is considered one of the painter's greatest masterpieces. The painting depicts the miracle in which, according to tradition, <a href=\"https://en.wikipedia.org/wiki/Saint_Stephen\" class=\"extiw\" title=\"en:Saint Stephen\">Saint Stephen</a> and <a href=\"https://en.wikipedia.org/wiki/Augustine_of_Hippo\" class=\"extiw\" title=\"en:Augustine of Hippo\">Saint Augustine of Hippo</a> descended from heaven to personally bury <a href=\"https://en.wikipedia.org/wiki/Gonzalo_Ruiz_de_Toledo\" class=\"extiw\" title=\"en:Gonzalo Ruiz de Toledo\">Gonzalo Ruiz de Toledo</a>, lord of the town of <a href=\"https://en.wikipedia.org/wiki/Orgaz\" class=\"extiw\" title=\"en:Orgaz\">Orgaz</a>, who died in 1323 (or, according to other sources, in 1312), in the Church of Santo Tomé, as a reward for his exemplary life of devotion, humility, and charitable works. El Greco accepted the commission to paint the work in 1586, more than two and a half centuries after the events it depicts.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1586 and 1588<div style=\"display: none;\">date QS:P571,+1586-00-00T00:00:00Z/8,P1319,+1586-00-00T00:00:00Z/9,P1326,+1588-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Unknown photographer<span style=\"display: none;\">Unknown photographer</span>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 13352840,
+          "ns": 6,
+          "title": "File:Pieter Brueghel the Elder - The Dutch Proverbs - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 18918563,
+              "width": 5649,
+              "height": 4000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg/1920px-Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1133,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg/3840px-Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg/1920px-Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1133,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg/3840px-Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=13352840",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-02-18 03:38:29",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Netherlandish Proverbs (The Blue Cloak) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q533619#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Netherlandish Proverbs (The Blue Cloak) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q533619#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Netherlandish Proverbs (The Blue Cloak) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q533619#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Los proverbios flamencos\"</div><div style=\"display: none;\">label QS:Lyue,\"尼德蘭諺語\"</div><div style=\"display: none;\">label QS:Lhu,\"Flamand közmondások\"</div><div style=\"display: none;\">label QS:Leu,\"Esaera zahar flandestarrak\"</div><div style=\"display: none;\">label QS:Lms,\"Peribahasa Belanda\"</div><div style=\"display: none;\">label QS:Lde,\"Die niederländischen Sprichwörter\"</div><div style=\"display: none;\">label QS:Lbe,\"Фламандскія прыказкі\"</div><div style=\"display: none;\">label QS:Lhy,\"Ֆլամանդական ասացվածքներ\"</div><div style=\"display: none;\">label QS:Lzh,\"尼德兰箴言\"</div><div style=\"display: none;\">label QS:Lda,\"Nederlandske Ordsprog\"</div><div style=\"display: none;\">label QS:Ltr,\"Felemenk Atasözleri\"</div><div style=\"display: none;\">label QS:Lja,\"ネーデルラントの諺\"</div><div style=\"display: none;\">label QS:Lsv,\"Nederländska ordspråk\"</div><div style=\"display: none;\">label QS:Luk,\"Нідерландські прислів'я\"</div><div style=\"display: none;\">label QS:Lfi,\"Flaamilaisia sananlaskuja\"</div><div style=\"display: none;\">label QS:Leo,\"Nederlandlingvaj Proverboj\"</div><div style=\"display: none;\">label QS:Lit,\"Proverbi fiamminghi\"</div><div style=\"display: none;\">label QS:Lfr,\"Les Proverbes flamands\"</div><div style=\"display: none;\">label QS:Let,\"Madalmaade vanasõnad\"</div><div style=\"display: none;\">label QS:Lvi,\"Tục ngữ Hà Lan\"</div><div style=\"display: none;\">label QS:Lhe,\"הפתגמים ההולנדיים\"</div><div style=\"display: none;\">label QS:Llv,\"Nīderlandiešu sakāmvārdi\"</div><div style=\"display: none;\">label QS:Lel,\"Παροιμίες των Κάτω Χωρών\"</div><div style=\"display: none;\">label QS:Lsr,\"Холандске пословице\"</div><div style=\"display: none;\">label QS:Lsl,\"Nizozemski pregovori\"</div><div style=\"display: none;\">label QS:Lcs,\"Nizozemská přísloví\"</div><div style=\"display: none;\">label QS:Larz,\"الامثال الهولنديه (لوحه)\"</div><div style=\"display: none;\">label QS:Lro,\"Proverbe neerlandeze\"</div><div style=\"display: none;\">label QS:Lfa,\"ضرب‌المثل‌های هلندی\"</div><div style=\"display: none;\">label QS:Lpl,\"Przysłowia niderlandzkie\"</div><div style=\"display: none;\">label QS:Lru,\"Фламандские пословицы\"</div><div style=\"display: none;\">label QS:Lnl,\"Nederlandse Spreekwoorden\"</div><div style=\"display: none;\">label QS:Laz,\"Niderland atalar sözləri (tablo)\"</div><div style=\"display: none;\">label QS:Lko,\"네덜란드 속담\"</div><div style=\"display: none;\">label QS:Lbg,\"Нидерландски пословици\"</div><div style=\"display: none;\">label QS:Lca,\"Proverbis neerlandesos\"</div><div style=\"display: none;\">label QS:Lpt,\"Provérbios Neerlandeses\"</div><div style=\"display: none;\">label QS:Lar,\"أمثال هولندية\"</div><div style=\"display: none;\">label QS:Lbr,\"Krennlavaroù flamank\"</div><div style=\"display: none;\">label QS:Lmk,\"Фламански поговорки\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "1559 paintings in Germany|Netherlandish Proverbs (Bruegel the Elder)|Images with annotations|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|Featured pictures on Wikipedia, Turkish|Images with 10+ annotations|CC-PD-Mark|Artworks with accession number from Wikidata|Google Art Project works by Pieter Bruegel the Elder|Featured pictures of paintings from the Netherlands|Google Art Project works in Gemäldegalerie, Staatliche Museen zu Berlin|Artworks main subject 2D work|PD-Art missing SDC copyright status|Featured pictures in the public domain|PD-old missing SDC copyright status|Files from Google Arts & Culture|Pictures of the Year/2011 (finalist)|Featured pictures from the Google Art Project",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|potd|poty",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pieter_Bruegel_the_Elder\" class=\"extiw\" title=\"w:en:Pieter Bruegel the Elder\"><span title=\"Flemish painter (1526–1569)\">Pieter Brueghel the Elder</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1559 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q533619#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/WwG8mD89xbELbQ\">WwG8mD89xbELbQ</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"clear:both; margin:0.5em auto; background-color: var(--background-color-interactive, #f0f0f0); color: inherit; border: 2px solid var(--border-color-subtle, #e0e0e0); width:100%;\" class=\"layouttemplate\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td>\n<div class=\"center\">This is a faithful photographic reproduction of a two-dimensional, <a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">public domain</a> work of art. The work of art itself is in the public domain for the following reason:</div>\n<div dir=\"auto\">\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span></div>\n<div class=\"center\">The official position taken by the Wikimedia Foundation is that \"<i>faithful reproductions of two-dimensional public domain works of art are public domain</i>\".<br><b>This photographic reproduction is therefore also considered to be in the public domain in the United States.</b> In other jurisdictions, re-use of this content may be restricted; <b>see <a href=\"//commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs\" title=\"Commons:Reuse of PD-Art photographs\">Reuse of PD-Art photographs</a> for details.</b></div> \n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 15195953,
+          "ns": 6,
+          "title": "File:El caballero de la mano en el pecho, by El Greco, from Prado in Google Earth.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 94441293,
+              "width": 12673,
+              "height": 16238,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg/1920px-El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2050,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg/3840px-El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg/1920px-El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2050,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg/3840px-El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/El_caballero_de_la_mano_en_el_pecho%2C_by_El_Greco%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_caballero_de_la_mano_en_el_pecho,_by_El_Greco,_from_Prado_in_Google_Earth.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15195953",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-05-13 20:09:44",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Spanish:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"es\"><i><a href=\"https://es.wikipedia.org/wiki/El_caballero_de_la_mano_en_el_pecho\" class=\"extiw\" title=\"es:El caballero de la mano en el pecho\">El caballero de la mano en el pecho</a></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Nobleman with his Hand on his Chest</i></div></div><div style=\"display: none;\">title QS:P1476,es:\"<a href=\"https://es.wikipedia.org/wiki/El_caballero_de_la_mano_en_el_pecho\" class=\"extiw\" title=\"es:El caballero de la mano en el pecho\">El caballero de la mano en el pecho</a>\"</div><div style=\"display: none;\">label QS:Les,\"<a href=\"https://es.wikipedia.org/wiki/El_caballero_de_la_mano_en_el_pecho\" class=\"extiw\" title=\"es:El caballero de la mano en el pecho\">El caballero de la mano en el pecho</a>\"</div><div style=\"display: none;\">label QS:Lde,\"Bildnis eines Edelmannes mit der Hand auf der Brust\"</div><div style=\"display: none;\">label QS:Lpl,\"Portret szlachcica\"</div><div style=\"display: none;\">label QS:Len,\"The Nobleman with his Hand on his Chest\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Nobleman with his Hand on his Chest (El Greco)|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Prado in Google Earth|CC-PD-Mark|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:El_Greco\" class=\"extiw\" title=\"w:en:El Greco\"><span title=\"Greek artist, painter, sculptor and architect (1541–1614)\">El Greco</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Esta obra, titulada <i><b><a href=\"https://es.wikipedia.org/wiki/El_caballero_de_la_mano_en_el_pecho\" class=\"extiw\" title=\"es:El caballero de la mano en el pecho\">El caballero de la mano en el pecho</a></b></i>, fue pintada hacia 1580 y posiblemente sea el más famoso retrato ejecutado por <a href=\"//commons.wikimedia.org/wiki/El_Greco\" title=\"El Greco\">El Greco</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1580<div style=\"display: none;\">date QS:P571,+1580-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "The Prado in Google Earth:  <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150525230020/http://www.google.com/intl/en/landing/prado/\">Home page</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"clear:both; margin:0.5em auto; background-color: var(--background-color-interactive, #f0f0f0); color: inherit; border: 2px solid var(--border-color-subtle, #e0e0e0); width:100%;\" class=\"layouttemplate\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td>\n<div class=\"center\">This is a faithful photographic reproduction of a two-dimensional, <a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">public domain</a> work of art. The work of art itself is in the public domain for the following reason:</div>\n<div dir=\"auto\">\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span></div>\n<div class=\"center\">The official position taken by the Wikimedia Foundation is that \"<i>faithful reproductions of two-dimensional public domain works of art are public domain</i>\".<br><b>This photographic reproduction is therefore also considered to be in the public domain in the United States.</b> In other jurisdictions, re-use of this content may be restricted; <b>see <a href=\"//commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs\" title=\"Commons:Reuse of PD-Art photographs\">Reuse of PD-Art photographs</a> for details.</b></div> \n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 21792217,
+          "ns": 6,
+          "title": "File:Albrecht Dürer - Praying Hands, 1508 - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 4836102,
+              "width": 2680,
+              "height": 3900,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg/1920px-Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2328,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg/1920px-Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2328,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Albrecht_D%C3%BCrer_-_Praying_Hands%2C_1508_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Praying_Hands,_1508_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21792217",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-10-07 02:05:28",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Praying Hands</i></div></div><div style=\"display: none;\">label QS:Lde,\"Betende Hände\"</div><div style=\"display: none;\">label QS:Len,\"Praying Hands\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Betende Hände (Dürer)|Google Art Project works in Albertina, Vienna|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|Pages with complex technique templates|CC-PD-Mark|Google Art Project works by Albrecht Dürer|Artworks digital representation of unknown type of work|Artworks digital representation of 2D work|Artworks digital representation of both 2D and 3D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Albrecht_D%C3%BCrer\" class=\"extiw\" title=\"w:en:Albrecht Dürer\"><span title=\"German painter, printmaker, mathematician, and theorist (1471-1528)\">Albrecht Dürer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\ndetail study for the \"<a href=\"https://en.wikipedia.org/wiki/en:Heller_Altarpiece\" class=\"extiw\" title=\"w:en:Heller Altarpiece\"><span title=\"altarpiece painted by Albrecht Dürer, Matthias Grünewald and Jobst Harrich\">Heller Altarpiece</span></a>\"</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1508<div style=\"display: none;\">date QS:P571,+1508-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://artsandculture.google.com/asset/gwGj6BUX8D5Kug\">Google Arts &amp; Culture</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 21997263,
+          "ns": 6,
+          "title": "File:Albrecht Dürer - Melencolia I - Google Art Project (427760).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 17930186,
+              "width": 4918,
+              "height": 6257,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg/1920px-Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2036,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg/3840px-Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg/1920px-Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2036,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg/3840px-Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28427760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_(427760).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=21997263",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-10-10 08:19:53",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Melencolia I <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1362177#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Melencolia I <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1362177#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Melencolia I <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1362177#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Melancolía I\"</div><div style=\"display: none;\">label QS:Lca,\"Malenconia I\"</div><div style=\"display: none;\">label QS:Lde,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Lhy,\"Մելանխոլիա I\"</div><div style=\"display: none;\">label QS:Lzh,\"忧郁 I\"</div><div style=\"display: none;\">label QS:Lda,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Lro,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Lja,\"メランコリア I\"</div><div style=\"display: none;\">label QS:Lsv,\"Melankolien\"</div><div style=\"display: none;\">label QS:Lhe,\"מלנכוליה\"</div><div style=\"display: none;\">label QS:Lla,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"梅倫科利亞一世\"</div><div style=\"display: none;\">label QS:Lzh-cn,\"梅伦科利亚一世\"</div><div style=\"display: none;\">label QS:Lfi,\"Melankolia I\"</div><div style=\"display: none;\">label QS:Leo,\"Melankolio I\"</div><div style=\"display: none;\">label QS:Lit,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Lfr,\"Melencolia\"</div><div style=\"display: none;\">label QS:Lhr,\"Melenkolija I\"</div><div style=\"display: none;\">label QS:Lvi,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Ltr,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Lsl,\"Melancholia I\"</div><div style=\"display: none;\">label QS:Lmk,\"Меланхолија I\"</div><div style=\"display: none;\">label QS:Lpt-br,\"Melancolia I\"</div><div style=\"display: none;\">label QS:Lko,\"멜랑콜리아 I\"</div><div style=\"display: none;\">label QS:Let,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Lpl,\"Melancholia I\"</div><div style=\"display: none;\">label QS:Lnb,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Lnl,\"Melencolia I\"</div><div style=\"display: none;\">label QS:Laz,\"Melanxoliya I\"</div><div style=\"display: none;\">label QS:Lfa,\"ملانکولیا ۱\"</div><div style=\"display: none;\">label QS:Luk,\"Меланхолія\"</div><div style=\"display: none;\">label QS:Lru,\"Меланхолия\"</div><div style=\"display: none;\">label QS:Lpt,\"Melancolia I\"</div><div style=\"display: none;\">label QS:Lar,\"سوداوية 1 (ملنخوليا)\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"梅伦科利亚一世\"</div><div style=\"display: none;\">label QS:Lcs,\"Melancholie I\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Melencolia I by Albrecht Dürer|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Pages with complex technique templates|CC-PD-Mark|Google Art Project works by Albrecht Dürer|Artworks digital representation of unknown type of work|Files from Google Arts & Culture|Prints in the National Gallery of Victoria|Google Art Project works in National Gallery of Victoria",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Albrecht_D%C3%BCrer\" class=\"extiw\" title=\"w:en:Albrecht Dürer\"><span title=\"German painter, printmaker, mathematician, and theorist (1471-1528)\">Albrecht Dürer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1514 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1362177#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/YgF7QxaxiYRojg\">YgF7QxaxiYRojg</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22003812,
+          "ns": 6,
+          "title": "File:Pieter Bruegel the Elder - Peasant Wedding - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 11283022,
+              "width": 7681,
+              "height": 5311,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg/1920px-Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1106,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg/3840px-Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg/1920px-Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1106,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg/3840px-Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Peasant_Wedding_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22003812",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-10-10 17:28:49",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">German:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"de\"><i>Bauernhochzeit <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q603751#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Peasant Wedding</i></div></div><div style=\"display: none;\">title QS:P1476,de:\"Bauernhochzeit <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q603751#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lde,\"Bauernhochzeit <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q603751#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"La boda campesina\"</div><div style=\"display: none;\">label QS:Lhu,\"Parasztlakodalom\"</div><div style=\"display: none;\">label QS:Leu,\"Nekazarien ezkontza\"</div><div style=\"display: none;\">label QS:Lru,\"Крестьянская свадьба\"</div><div style=\"display: none;\">label QS:Lbe,\"Сялянскае вяселле\"</div><div style=\"display: none;\">label QS:Lfa,\"عروسی روستایی\"</div><div style=\"display: none;\">label QS:Lzh,\"农民婚礼\"</div><div style=\"display: none;\">label QS:Lda,\"De Boerenbruiloft\"</div><div style=\"display: none;\">label QS:Ltr,\"Köy Düğünü\"</div><div style=\"display: none;\">label QS:Lja,\"農民の婚宴\"</div><div style=\"display: none;\">label QS:Lsv,\"Bondbröllop\"</div><div style=\"display: none;\">label QS:Lhe,\"חתונה כפרית\"</div><div style=\"display: none;\">label QS:Lko,\"농부의 결혼식\"</div><div style=\"display: none;\">label QS:Leo,\"La Kampara Geedziĝo\"</div><div style=\"display: none;\">label QS:Lit,\"Banchetto nuziale\"</div><div style=\"display: none;\">label QS:Lfr,\"Le Repas de noce\"</div><div style=\"display: none;\">label QS:Let,\"Talupoja pulm\"</div><div style=\"display: none;\">label QS:Lpt,\"A Boda Camponesa\"</div><div style=\"display: none;\">label QS:Llv,\"Zemnieku kāzas\"</div><div style=\"display: none;\">label QS:Lsl,\"Kmečka poroka\"</div><div style=\"display: none;\">label QS:Lpl,\"Chłopskie wesele\"</div><div style=\"display: none;\">label QS:Lth,\"งานแต่งงานของชาวนา\"</div><div style=\"display: none;\">label QS:Lnn,\"De Boerenbruiloft\"</div><div style=\"display: none;\">label QS:Lnb,\"De Boerenbruiloft\"</div><div style=\"display: none;\">label QS:Lnl,\"De Boerenbruiloft\"</div><div style=\"display: none;\">label QS:Lel,\"Χωριάτικος γάμος\"</div><div style=\"display: none;\">label QS:Lhy,\"Գյուղական հարսանիք\"</div><div style=\"display: none;\">label QS:Larz,\"عرس الفلاحين\"</div><div style=\"display: none;\">label QS:Lca,\"La boda camperola\"</div><div style=\"display: none;\">label QS:Len,\"The Peasant Wedding\"</div><div style=\"display: none;\">label QS:Lar,\"حفل زفاف الفلاحين\"</div><div style=\"display: none;\">label QS:Lbr,\"Eured kouerien\"</div><div style=\"display: none;\">label QS:Luk,\"Селянське весілля (Брейгель)\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Peasant Wedding by Pieter Bruegel (I)|Paintings in the collection of the Archduke Leopold Wilhelm of Austria|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Google Art Project works by Pieter Bruegel the Elder|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Files from Google Arts & Culture|Google Art Project works in Kunsthistorisches Museum Vienna (Museum of Fine Arts)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pieter_Bruegel_the_Elder\" class=\"extiw\" title=\"w:en:Pieter Bruegel the Elder\"><span title=\"Flemish painter (1526–1569)\">Pieter Brueghel the Elder</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1568",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/hgGvote2WI8P3w\">hgGvote2WI8P3w</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22179117,
+          "ns": 6,
+          "title": "File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project - edited.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 212671142,
+              "width": 30000,
+              "height": 21952,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg/1920px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1171,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg/3840px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg/1920px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1171,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg/3840px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22179117",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-10-19 00:50:01",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><a href=\"https://en.wikipedia.org/wiki/Tower_of_Babel\" class=\"extiw\" title=\"en:Tower of Babel\">The Tower of Babel</a></div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Tower of Babel by Pieter Bruegel the Elder (Vienna)|Noach (parsha)|Images with annotations|Gigapixel images from the Google Art Project|PD-old-100-expired|Featured pictures by others nominated by Yann Forget|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Featured pictures of Vienna|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Spanish|CC-PD-Mark|Google Art Project works by Pieter Bruegel the Elder|Featured pictures of paintings from the Netherlands|Google Art Project paintings|Featured pictures in the public domain|Featured pictures of Christian paintings|Artworks digital representation of 2D work|Files from Google Arts & Culture|Featured pictures on Wikipedia, Arabic|Files with Assessments template missing SDC Commons valued image assessment|Featured pictures from the Google Art Project|Pictures of the Year/2015 (finalist)|Google Art Project works in Kunsthistorisches Museum Vienna (Museum of Fine Arts)",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|valued|poty",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pieter_Bruegel_the_Elder\" class=\"extiw\" title=\"w:en:Pieter Bruegel the Elder\"><span title=\"Flemish painter (1526–1569)\">Pieter Brueghel the Elder</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://en.wikipedia.org/wiki/en:Tower_of_Babel\" class=\"extiw\" title=\"w:en:Tower of Babel\"><span title=\"biblical pericope about hubris and the origin of languages\">Tower of Babel</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q15293656#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1563<div style=\"display: none;\">date QS:P571,+1563-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Levels adjusted from <a href=\"//commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg\" title=\"File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project.jpg\">File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg</a>, originally from Google Art Project.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22354806,
+          "ns": 6,
+          "title": "File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 226102411,
+              "width": 30000,
+              "height": 29560,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1920px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1577,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/3840px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/1920px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1577,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/3840px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22354806",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-10-25 03:56:24",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Spanish:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"es\"><i>Los Embajadores <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1212937#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Ambassadors</i></div></div><div style=\"display: none;\">title QS:P1476,es:\"Los Embajadores <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1212937#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Los Embajadores <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1212937#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lhu,\"A nagykövetek (ifjabb Holbein festménye)\"</div><div style=\"display: none;\">label QS:Leu,\"Enbaxadoreak\"</div><div style=\"display: none;\">label QS:Lca,\"Els ambaixadors\"</div><div style=\"display: none;\">label QS:Lde-ch,\"Die Gesandten\"</div><div style=\"display: none;\">label QS:Lde,\"Die Gesandten\"</div><div style=\"display: none;\">label QS:Len-gb,\"The Ambassadors\"</div><div style=\"display: none;\">label QS:Lfa,\"سفیران\"</div><div style=\"display: none;\">label QS:Lbg,\"Посланиците\"</div><div style=\"display: none;\">label QS:Lda,\"Ambassadørerne\"</div><div style=\"display: none;\">label QS:Ltr,\"Elçiler\"</div><div style=\"display: none;\">label QS:Lja,\"大使たち\"</div><div style=\"display: none;\">label QS:Larz,\"السفراء\"</div><div style=\"display: none;\">label QS:Lhe,\"השגרירים\"</div><div style=\"display: none;\">label QS:Lfi,\"Suurlähettiläät\"</div><div style=\"display: none;\">label QS:Len-ca,\"The Ambassadors\"</div><div style=\"display: none;\">label QS:Lit,\"Ambasciatori\"</div><div style=\"display: none;\">label QS:Lko,\"대사들\"</div><div style=\"display: none;\">label QS:Lfr,\"Les Ambassadeurs\"</div><div style=\"display: none;\">label QS:Lsv,\"Ambassadörerna\"</div><div style=\"display: none;\">label QS:Lcv,\"Элчĕсем\"</div><div style=\"display: none;\">label QS:Lno,\"Ambassadørene\"</div><div style=\"display: none;\">label QS:Lsk,\"Veľvyslanci\"</div><div style=\"display: none;\">label QS:Lzh,\"出訪英國宮廷的法國大使\"</div><div style=\"display: none;\">label QS:Lvi,\"Đại sứ\"</div><div style=\"display: none;\">label QS:Lro,\"Ambasadorii\"</div><div style=\"display: none;\">label QS:Lpt,\"Os Embaixadores\"</div><div style=\"display: none;\">label QS:Leo,\"La Ambasadoroj\"</div><div style=\"display: none;\">label QS:Llv,\"Sūtņi (glezna)\"</div><div style=\"display: none;\">label QS:Laz,\"Səfirlər (Holbein)\"</div><div style=\"display: none;\">label QS:Luk,\"Посланці\"</div><div style=\"display: none;\">label QS:Lzu,\"The Ambassadors (Holbein)\"</div><div style=\"display: none;\">label QS:Lnn,\"Ambassadørane\"</div><div style=\"display: none;\">label QS:Lpt-br,\"Os Embaixadores\"</div><div style=\"display: none;\">label QS:Lsl,\"Ambasadorja\"</div><div style=\"display: none;\">label QS:Lth,\"ราชทูต\"</div><div style=\"display: none;\">label QS:Lpl,\"Ambasadorowie\"</div><div style=\"display: none;\">label QS:Lnb,\"Ambassadørene\"</div><div style=\"display: none;\">label QS:Lnl,\"De ambassadeurs\"</div><div style=\"display: none;\">label QS:Lmk,\"Амбасадори\"</div><div style=\"display: none;\">label QS:Lcy,\"Y Llysgenhadon\"</div><div style=\"display: none;\">label QS:Lhy,\"Դեսպանները\"</div><div style=\"display: none;\">label QS:Lru,\"Послы\"</div><div style=\"display: none;\">label QS:Len,\"The Ambassadors\"</div><div style=\"display: none;\">label QS:Lar,\"السفراء (هولباين)\"</div><div style=\"display: none;\">label QS:Lel,\"Οι πρεσβευτές\"</div><div style=\"display: none;\">label QS:Lcs,\"Vyslanci\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Ambassadors (Holbein)|Images with annotations|Pages with non-numeric formatnum arguments|Gigapixel images from the Google Art Project|Oriental carpets in Renaissance painting|PD-old-100-expired|Paintings in the National Gallery, London - Room 4|Featured pictures on Wikipedia, English|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|Large images|Featured pictures on Wikipedia, Spanish|CC-PD-Mark|Artworks with accession number from Wikidata|Google Art Project works by Hans Holbein (II)|Google Art Project works in The National Gallery, London|Featured pictures of paintings by Hans Holbein the Younger|Featured pictures in the public domain|Featured pictures of paintings in London|Artworks digital representation of 2D work|Files from Google Arts & Culture|Featured pictures from the Google Art Project",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hans_Holbein_the_Younger\" class=\"extiw\" title=\"w:en:Hans Holbein the Younger\"><span title=\"German artist and printmaker (1497–1543)\">Hans Holbein the Younger</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/Jean_de_Dinteville\" class=\"extiw\" title=\"w:Jean de Dinteville\">Jean de Dinteville</a>, French Ambassador to the court of <a href=\"//commons.wikimedia.org/wiki/Henry_VIII_of_England\" title=\"Henry VIII of England\">Henry VIII of England</a>, and <a href=\"https://en.wikipedia.org/wiki/Georges_de_Selve\" class=\"extiw\" title=\"w:Georges de Selve\">Georges de Selve</a>, Bishop of Lavaur. The painting is famous for containing, in the foreground, at the bottom, a spectacular anamorphic, which, from an oblique point of view, is revealed to be a human skull.  An Armenian carpet, a vishapagorg rug from Central Anatolia, is on the table.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1533 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1212937#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/bQEWbLB26MG1LA\">bQEWbLB26MG1LA</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 73862138,
+          "ns": 6,
+          "title": "File:Pieter Bruegel the Elder - The Tower of Babel (Rotterdam) - Google Art Project - edited.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 19295320,
+              "width": 4943,
+              "height": 3959,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg/1920px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1281,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg/3840px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg/1920px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1281,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg/3840px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Rotterdam%29_-_Google_Art_Project_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Rotterdam)_-_Google_Art_Project_-_edited.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=73862138",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-10-25 12:53:20",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The building of the tower of Babel (Genesis 11:3-5) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q15295671#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The building of the tower of Babel (Genesis 11:3-5) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q15295671#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The building of the tower of Babel (Genesis 11:3-5) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q15295671#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Torre di Babele\"</div><div style=\"display: none;\">label QS:Lja,\"バベルの塔 (ブリューゲル、1568年)\"</div><div style=\"display: none;\">label QS:Lfr,\"La Tour de Babel\"</div><div style=\"display: none;\">label QS:Lhe,\"מגדל בבל הקטן\"</div><div style=\"display: none;\">label QS:Lnn,\"Babels tårn\"</div><div style=\"display: none;\">label QS:Lnb,\"Babels tårn\"</div><div style=\"display: none;\">label QS:Lnl,\"De Toren van Babel\"</div><div style=\"display: none;\">label QS:Llv,\"\"Mazais\" Bābeles tornis\"</div><div style=\"display: none;\">label QS:Lcy,\"Tŵr Babel\"</div><div style=\"display: none;\">label QS:Len-gb,\"The Tower of Babel\"</div><div style=\"display: none;\">label QS:Lhy,\"Բաբելոնյան աշտարակ\"</div><div style=\"display: none;\">label QS:Lde,\"Kleiner Turmbau zu Babel\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Tower of Babel by Pieter Bruegel the Elder (Rotterdam)|PD-old-100-expired|Files uploaded by Yann Forget|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Pages with complex technique templates|CC-PD-Mark|Objects with inscriptions (language unspecified)|Artworks with accession number from Wikidata|Google Art Project works by Pieter Bruegel the Elder|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pieter_Bruegel_the_Elder\" class=\"extiw\" title=\"w:en:Pieter Bruegel the Elder\"><span title=\"Flemish painter (1526–1569)\">Pieter Brueghel the Elder</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nBruegel painted three versions of the <i>Tower of Babel</i>. This \"Little\" version (60 cm × 74.5 cm) is kept in the <a href=\"//commons.wikimedia.org/wiki/Museum_Boijmans_Van_Beuningen\" title=\"Museum Boijmans Van Beuningen\">Museum Boijmans Van Beuningen</a> in Rotterdam, the second \"Great\" version, in the <a href=\"//commons.wikimedia.org/wiki/Kunsthistorisches_Museum\" title=\"Kunsthistorisches Museum\">Kunsthistorisches Museum</a> in Vienna (see <a href=\"//commons.wikimedia.org/wiki/Category:The_Tower_of_Babel_by_Pieter_Bruegel_the_Elder\" title=\"Category:The Tower of Babel by Pieter Bruegel the Elder\">Category:The Tower of Babel by Pieter Bruegel the Elder</a>), while the location of the third version (a miniature on ivory) is unknown.</div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1568",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Levels adjusted from <a href=\"//commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg\" title=\"File:Pieter Bruegel the Elder - The Tower of Babel (Vienna) - Google Art Project.jpg\">File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg</a>, originally from Google Art Project.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 81702571,
+          "ns": 6,
+          "title": "File:Albrecht Dürer, The Rhinoceros, 1515, NGA 47903.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 11084480,
+              "width": 4000,
+              "height": 3141,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg/1920px-Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1256,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg/3840px-Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg/1920px-Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1256,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg/3840px-Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Albrecht_D%C3%BCrer%2C_The_Rhinoceros%2C_1515%2C_NGA_47903.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_The_Rhinoceros,_1515,_NGA_47903.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=81702571",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-08-29 18:32:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Latin:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"la\"><i>Rhinocerus <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q748518#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Rhinoceros</i></div></div><div style=\"display: none;\">title QS:P1476,la:\"Rhinocerus <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q748518#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lla,\"Rhinocerus <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q748518#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Rinoceronte\"</div><div style=\"display: none;\">label QS:Lhu,\"Rinocérosz\"</div><div style=\"display: none;\">label QS:Lru,\"Носорог\"</div><div style=\"display: none;\">label QS:Lde,\"Rhinocerus\"</div><div style=\"display: none;\">label QS:Lfa,\"کرگدن دورر\"</div><div style=\"display: none;\">label QS:Lzh,\"丟勒的犀牛\"</div><div style=\"display: none;\">label QS:Lda,\"Næsehornet\"</div><div style=\"display: none;\">label QS:Lro,\"Rinocerul lui Dürer\"</div><div style=\"display: none;\">label QS:Lzh-hk,\"丟勒的犀牛\"</div><div style=\"display: none;\">label QS:Lsv,\"Noshörning\"</div><div style=\"display: none;\">label QS:Lhe,\"הקרנף של דירר\"</div><div style=\"display: none;\">label QS:Lzh-hant,\"丟勒的犀牛\"</div><div style=\"display: none;\">label QS:Lhi,\"गैंडा\"</div><div style=\"display: none;\">label QS:Lko,\"뒤러의 코뿔소\"</div><div style=\"display: none;\">label QS:Leo,\"Rinocero de Dürer\"</div><div style=\"display: none;\">label QS:Lta,\"டியூரரின் காண்டாமிருகம்\"</div><div style=\"display: none;\">label QS:Lit,\"Rinoceronte di Dürer\"</div><div style=\"display: none;\">label QS:Lfr,\"Rhinocéros\"</div><div style=\"display: none;\">label QS:Larz,\"لوحة وحيد القرن\"</div><div style=\"display: none;\">label QS:Lel,\"Ρινόκερος\"</div><div style=\"display: none;\">label QS:Lpt,\"Rinoceronte\"</div><div style=\"display: none;\">label QS:Lwuu,\"丢勒个犀牛\"</div><div style=\"display: none;\">label QS:Lgl,\"Rinoceronte de Dürer\"</div><div style=\"display: none;\">label QS:Lhy,\"Ռնգեղջյուր\"</div><div style=\"display: none;\">label QS:Lsr,\"Direrov Nosorog\"</div><div style=\"display: none;\">label QS:Lsl,\"Dürerjev nosorog\"</div><div style=\"display: none;\">label QS:Ltl,\"Rhinoceros ni Dürer\"</div><div style=\"display: none;\">label QS:Lpt-br,\"Rinoceronte\"</div><div style=\"display: none;\">label QS:Lca,\"Rinoceront de Dürer\"</div><div style=\"display: none;\">label QS:Lpl,\"Nosorożec Dürera\"</div><div style=\"display: none;\">label QS:Lvi,\"Rhinocerus\"</div><div style=\"display: none;\">label QS:Lnl,\"Rhinocerus\"</div><div style=\"display: none;\">label QS:Lja,\"犀\"</div><div style=\"display: none;\">label QS:Luk,\"Носоріг\"</div><div style=\"display: none;\">label QS:Ltr,\"Gergedan\"</div><div style=\"display: none;\">label QS:Lfi,\"Sarvikuono\"</div><div style=\"display: none;\">label QS:Len,\"The Rhinoceros\"</div><div style=\"display: none;\">label QS:Lar,\"لوحة وحيد القرن\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"丢勒的犀牛\"</div><div style=\"display: none;\">label QS:Lsr-ec,\"Direrov Nosorog\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|Dürer's Rhinoceros|Uploaded with pattypan|Artworks with Wikidata item|Artworks with known accession number|Images from the National Gallery of Art|Artworks with Wikidata item redundant artist|Artworks digital representation of 2D work|Woodcuts by Albrecht Dürer in the National Gallery of Art",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Albrecht_D%C3%BCrer\" class=\"extiw\" title=\"w:en:Albrecht Dürer\"><span title=\"German painter, printmaker, mathematician, and theorist (1471-1528)\">Albrecht Dürer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1512 and 1515<div style=\"display: none;\">date QS:P,+1512-00-00T00:00:00Z/8,P1319,+1512-00-00T00:00:00Z/9,P1326,+1515-00-00T00:00:00Z/9</div> / 1515 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q748518#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "This file was donated to Wikimedia Commons as part of a project by the <a href=\"//commons.wikimedia.org/wiki/Commons:NGA\" title=\"Commons:NGA\">National Gallery of Art</a>. Please see the Gallery's <a rel=\"nofollow\" class=\"external text\" href=\"https://images.nga.gov/en/page/openaccess.html\">Open Access Policy</a>.",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border:var(--border-subtle, 2px solid #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"en\">\n<tbody><tr>\n<td style=\"width:90px;\" rowspan=\"2\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"Creative Commons\"><img alt=\"Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/40px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/60px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"CC-Zero\"><img alt=\"CC-Zero\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/40px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/60px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\n</td>\n<td>This file is made available under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/zero/1.0/deed.en\">CC0 1.0 Universal Public Domain Dedication</a>.\n</td></tr>\n<tr style=\"text-align:left;\">\n<td>The person who associated a work with this deed has dedicated the work to the <a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a> by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.\n<p><span class=\"licensetpl_link\" style=\"display:none;\">http://creativecommons.org/publicdomain/zero/1.0/deed.en</span><span class=\"licensetpl_short\" style=\"display:none;\">CC0</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Zero, Public Domain Dedication</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>\n</p>\n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 164522752,
+          "ns": 6,
+          "title": "File:Pieter Bruegel (der Ältere) (ca. 1525 - 1569) - Die niederländischen Sprichwörter - 1720 - Gemäldegalerie.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 12647645,
+              "width": 4000,
+              "height": 2854,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg/1920px-Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1142,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg/3840px-Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg/1920px-Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1142,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg/3840px-Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Pieter_Bruegel_%28der_%C3%84ltere%29_%28ca._1525_-_1569%29_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_(der_%C3%84ltere)_(ca._1525_-_1569)_-_Die_niederl%C3%A4ndischen_Sprichw%C3%B6rter_-_1720_-_Gem%C3%A4ldegalerie.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=164522752",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-05-01 21:03:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Netherlandish Proverbs (The Blue Cloak) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q533619#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Netherlandish Proverbs (The Blue Cloak) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q533619#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Netherlandish Proverbs (The Blue Cloak) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q533619#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Los proverbios flamencos\"</div><div style=\"display: none;\">label QS:Lyue,\"尼德蘭諺語\"</div><div style=\"display: none;\">label QS:Lhu,\"Flamand közmondások\"</div><div style=\"display: none;\">label QS:Leu,\"Esaera zahar flandestarrak\"</div><div style=\"display: none;\">label QS:Lms,\"Peribahasa Belanda\"</div><div style=\"display: none;\">label QS:Lde,\"Die niederländischen Sprichwörter\"</div><div style=\"display: none;\">label QS:Lbe,\"Фламандскія прыказкі\"</div><div style=\"display: none;\">label QS:Lhy,\"Ֆլամանդական ասացվածքներ\"</div><div style=\"display: none;\">label QS:Lzh,\"尼德兰箴言\"</div><div style=\"display: none;\">label QS:Lda,\"Nederlandske Ordsprog\"</div><div style=\"display: none;\">label QS:Ltr,\"Felemenk Atasözleri\"</div><div style=\"display: none;\">label QS:Lja,\"ネーデルラントの諺\"</div><div style=\"display: none;\">label QS:Lsv,\"Nederländska ordspråk\"</div><div style=\"display: none;\">label QS:Luk,\"Нідерландські прислів'я\"</div><div style=\"display: none;\">label QS:Lfi,\"Flaamilaisia sananlaskuja\"</div><div style=\"display: none;\">label QS:Leo,\"Nederlandlingvaj Proverboj\"</div><div style=\"display: none;\">label QS:Lit,\"Proverbi fiamminghi\"</div><div style=\"display: none;\">label QS:Lfr,\"Les Proverbes flamands\"</div><div style=\"display: none;\">label QS:Let,\"Madalmaade vanasõnad\"</div><div style=\"display: none;\">label QS:Lvi,\"Tục ngữ Hà Lan\"</div><div style=\"display: none;\">label QS:Lhe,\"הפתגמים ההולנדיים\"</div><div style=\"display: none;\">label QS:Llv,\"Nīderlandiešu sakāmvārdi\"</div><div style=\"display: none;\">label QS:Lel,\"Παροιμίες των Κάτω Χωρών\"</div><div style=\"display: none;\">label QS:Lsr,\"Холандске пословице\"</div><div style=\"display: none;\">label QS:Lsl,\"Nizozemski pregovori\"</div><div style=\"display: none;\">label QS:Lcs,\"Nizozemská přísloví\"</div><div style=\"display: none;\">label QS:Larz,\"الامثال الهولنديه (لوحه)\"</div><div style=\"display: none;\">label QS:Lro,\"Proverbe neerlandeze\"</div><div style=\"display: none;\">label QS:Lfa,\"ضرب‌المثل‌های هلندی\"</div><div style=\"display: none;\">label QS:Lpl,\"Przysłowia niderlandzkie\"</div><div style=\"display: none;\">label QS:Lru,\"Фламандские пословицы\"</div><div style=\"display: none;\">label QS:Lnl,\"Nederlandse Spreekwoorden\"</div><div style=\"display: none;\">label QS:Laz,\"Niderland atalar sözləri (tablo)\"</div><div style=\"display: none;\">label QS:Lko,\"네덜란드 속담\"</div><div style=\"display: none;\">label QS:Lbg,\"Нидерландски пословици\"</div><div style=\"display: none;\">label QS:Lca,\"Proverbis neerlandesos\"</div><div style=\"display: none;\">label QS:Lpt,\"Provérbios Neerlandeses\"</div><div style=\"display: none;\">label QS:Lar,\"أمثال هولندية\"</div><div style=\"display: none;\">label QS:Lbr,\"Krennlavaroù flamank\"</div><div style=\"display: none;\">label QS:Lmk,\"Фламански поговорки\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Netherlandish Proverbs (Bruegel the Elder)|Paintings by Pieter Bruegel (I)|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work|Images by the Gemäldegalerie (Berlin)|Paintings in the Gemäldegalerie, Berlin - Room 7",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pieter_Bruegel_the_Elder\" class=\"extiw\" title=\"w:en:Pieter Bruegel the Elder\"><span title=\"Flemish painter (1526–1569)\">Pieter Brueghel the Elder</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1559 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q533619#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://id.smb.museum/object/867614/die-niederlandischen-sprichworter\">Staatliche Museen zu Berlin</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:OOjs_UI_icon_edit-ltr-progressive.svg\" class=\"mw-file-description\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 166931065,
+          "ns": 6,
+          "title": "File:Holbein — Dead Christ.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2614059,
+              "width": 4944,
+              "height": 739,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Holbein_%E2%80%94_Dead_Christ.jpg/1920px-Holbein_%E2%80%94_Dead_Christ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 239,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Holbein_%E2%80%94_Dead_Christ.jpg/3840px-Holbein_%E2%80%94_Dead_Christ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Holbein_%E2%80%94_Dead_Christ.jpg/1920px-Holbein_%E2%80%94_Dead_Christ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 239,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Holbein_%E2%80%94_Dead_Christ.jpg/3840px-Holbein_%E2%80%94_Dead_Christ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Holbein_%E2%80%94_Dead_Christ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Holbein_%E2%80%94_Dead_Christ.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=166931065",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-06-06 00:44:26",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Holbein — Dead Christ",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|The Body of the Dead Christ in the Tomb (Holbein der Jüngere)|Self-published work|Artworks with Wikidata item|Artworks with known accession number|Artworks with accession number from Wikidata|Artworks missing digital representation of for 2D work|Artworks with SDC link missing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Holbein — Dead Christ <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Holbein_%E2%80%94_Dead_Christ.jpg#ooui-php-4\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2023-12-15",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Gsimonov\" title=\"User:Gsimonov\">Gsimonov</a>",
+                  "source": "commons-desc-page"
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 202047642,
+          "ns": 6,
+          "title": "File:Bosch - Haywain Triptych right panel ('Hell').jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 34777513,
+              "width": 7190,
+              "height": 21034,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg/1920px-Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 4681,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg/3840px-Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg/1920px-Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 4681,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg/3840px-Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bosch_-_Haywain_Triptych_right_panel_%28%27Hell%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bosch_-_Haywain_Triptych_right_panel_(%27Hell%27).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=202047642",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-10-20 07:10:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Dutch:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"nl\"><i>De hooiwagen <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2213811#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Haywain Triptych</i></div></div><div style=\"display: none;\">title QS:P1476,nl:\"De hooiwagen <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2213811#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lnl,\"De hooiwagen <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2213811#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Trittico del Carro di fieno\"</div><div style=\"display: none;\">label QS:Lhu,\"Szénásszekér triptichon\"</div><div style=\"display: none;\">label QS:Lbg,\"Кола със сено (Йеронимус Бош)\"</div><div style=\"display: none;\">label QS:Lmk,\"Кола сено\"</div><div style=\"display: none;\">label QS:Leu,\"Belar-gurdia (Jeronimo Bosch)\"</div><div style=\"display: none;\">label QS:Lka,\"თივის გადატანა\"</div><div style=\"display: none;\">label QS:Lcs,\"Fůra sena\"</div><div style=\"display: none;\">label QS:Lru,\"Воз сена\"</div><div style=\"display: none;\">label QS:Les,\"El carro de heno\"</div><div style=\"display: none;\">label QS:Lde,\"Heuwagen-Triptychon\"</div><div style=\"display: none;\">label QS:Lpt,\"O carro de feno\"</div><div style=\"display: none;\">label QS:Lca,\"El carro de fenc\"</div><div style=\"display: none;\">label QS:Llv,\"Siena vezums\"</div><div style=\"display: none;\">label QS:Lzh,\"乾草車三聯畫\"</div><div style=\"display: none;\">label QS:Lda,\"Høvognen\"</div><div style=\"display: none;\">label QS:Ltr,\"Haywain Üçkanatlısı\"</div><div style=\"display: none;\">label QS:Lja,\"乾草車の三連祭壇画\"</div><div style=\"display: none;\">label QS:Lsl,\"Triptih Seneni voz\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"干草车\"</div><div style=\"display: none;\">label QS:Lsv,\"Höskrindan\"</div><div style=\"display: none;\">label QS:Lpl,\"Wóz z sianem\"</div><div style=\"display: none;\">label QS:Luk,\"Віз сіна\"</div><div style=\"display: none;\">label QS:Laz,\"Saman arabası\"</div><div style=\"display: none;\">label QS:Lfr,\"Le Chariot de foin\"</div><div style=\"display: none;\">label QS:Lro,\"Carul cu fân\"</div><div style=\"display: none;\">label QS:Lko,\"건초 수레 삼면화\"</div><div style=\"display: none;\">label QS:Len,\"The Haywain Triptych\"</div><div style=\"display: none;\">label QS:Lbr,\"Ar c'harrad foenn\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|The Haywain Triptych (Prado), right wing|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks with group Wikidata item|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks with SDC link missing|PD-art-old-100-expired missing SDC copyright status|Files uploaded by Surajr7",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hieronymus_Bosch\" class=\"extiw\" title=\"w:en:Hieronymus Bosch\"><span title=\"painters in art (1450–1516)\">Hieronymus Bosch</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "from 1512 until 1515<div style=\"display: none;\">date QS:P,+1512-00-00T00:00:00Z/8,P580,+1512-00-00T00:00:00Z/9,P582,+1515-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2213811#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://boschproject.org/#/artworks/The_Haywain_Prado\">Bosch Project</a> <a href=\"//commons.wikimedia.org/wiki/File:Bosch_-_Haywain_Triptych_(1512-1515).jpg\" title=\"File:Bosch - Haywain Triptych (1512-1515).jpg\">File:Bosch - Haywain Triptych (1512-1515).jpg</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 202047654,
+          "ns": 6,
+          "title": "File:Bosch - Haywain Triptych central panel ('The Hay Wagon').jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 95221181,
+              "width": 15572,
+              "height": 21034,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg/1920px-Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2161,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg/3840px-Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg/1920px-Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2161,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg/3840px-Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bosch_-_Haywain_Triptych_central_panel_%28%27The_Hay_Wagon%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bosch_-_Haywain_Triptych_central_panel_(%27The_Hay_Wagon%27).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=202047654",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2026-10-20 07:11:33",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Dutch:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"nl\"><i>De hooiwagen <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2213811#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Haywain Triptych</i></div></div><div style=\"display: none;\">title QS:P1476,nl:\"De hooiwagen <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2213811#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lnl,\"De hooiwagen <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2213811#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Trittico del Carro di fieno\"</div><div style=\"display: none;\">label QS:Lhu,\"Szénásszekér triptichon\"</div><div style=\"display: none;\">label QS:Lbg,\"Кола със сено (Йеронимус Бош)\"</div><div style=\"display: none;\">label QS:Lmk,\"Кола сено\"</div><div style=\"display: none;\">label QS:Leu,\"Belar-gurdia (Jeronimo Bosch)\"</div><div style=\"display: none;\">label QS:Lka,\"თივის გადატანა\"</div><div style=\"display: none;\">label QS:Lcs,\"Fůra sena\"</div><div style=\"display: none;\">label QS:Lru,\"Воз сена\"</div><div style=\"display: none;\">label QS:Les,\"El carro de heno\"</div><div style=\"display: none;\">label QS:Lde,\"Heuwagen-Triptychon\"</div><div style=\"display: none;\">label QS:Lpt,\"O carro de feno\"</div><div style=\"display: none;\">label QS:Lca,\"El carro de fenc\"</div><div style=\"display: none;\">label QS:Llv,\"Siena vezums\"</div><div style=\"display: none;\">label QS:Lzh,\"乾草車三聯畫\"</div><div style=\"display: none;\">label QS:Lda,\"Høvognen\"</div><div style=\"display: none;\">label QS:Ltr,\"Haywain Üçkanatlısı\"</div><div style=\"display: none;\">label QS:Lja,\"乾草車の三連祭壇画\"</div><div style=\"display: none;\">label QS:Lsl,\"Triptih Seneni voz\"</div><div style=\"display: none;\">label QS:Lzh-hans,\"干草车\"</div><div style=\"display: none;\">label QS:Lsv,\"Höskrindan\"</div><div style=\"display: none;\">label QS:Lpl,\"Wóz z sianem\"</div><div style=\"display: none;\">label QS:Luk,\"Віз сіна\"</div><div style=\"display: none;\">label QS:Laz,\"Saman arabası\"</div><div style=\"display: none;\">label QS:Lfr,\"Le Chariot de foin\"</div><div style=\"display: none;\">label QS:Lro,\"Carul cu fân\"</div><div style=\"display: none;\">label QS:Lko,\"건초 수레 삼면화\"</div><div style=\"display: none;\">label QS:Len,\"The Haywain Triptych\"</div><div style=\"display: none;\">label QS:Lbr,\"Ar c'harrad foenn\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "PD-old-100-expired|PD-Art (PD-old-100-expired)|The Haywain Triptych (Prado), central panel|Artworks with Wikidata item|Artworks with known accession number|Large images|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks with group Wikidata item|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|PD-art-old-100-expired missing SDC copyright status|Artworks main subject both 2D and 3D work|Files uploaded by Surajr7",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Hieronymus_Bosch\" class=\"extiw\" title=\"w:en:Hieronymus Bosch\"><span title=\"painters in art (1450–1516)\">Hieronymus Bosch</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "from 1512 until 1515<div style=\"display: none;\">date QS:P,+1512-00-00T00:00:00Z/8,P580,+1512-00-00T00:00:00Z/9,P582,+1515-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2213811#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://boschproject.org/#/artworks/The_Haywain_Prado\">Bosch Project</a> <a href=\"//commons.wikimedia.org/wiki/File:Bosch_-_Haywain_Triptych_(1512-1515).jpg\" title=\"File:Bosch - Haywain Triptych (1512-1515).jpg\">File:Bosch - Haywain Triptych (1512-1515).jpg</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "218484f4e29cf59ef8dc4eefb3a2916d7caa497e8425f2a7961b451e60b10dd5"
+}

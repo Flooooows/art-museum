@@ -1,0 +1,1594 @@
+{
+  "provider": "wikimedia",
+  "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&iiprop=url%7Cextmetadata%7Csize&iiurlwidth=1600&prop=imageinfo&redirects=1&titles=File%3AEl+Descendimiento%2C+by+Rogier+van+der+Weyden%2C+from+Prado+in+Google+Earth.jpg%7CFile%3AJudith+Beheading+Holofernes+-+Caravaggio.jpg%7CFile%3AArtemisia+Gentileschi+-+Giuditta+decapita+Oloferne+-+Google+Art+Project-Adjust.jpg%7CFile%3AJudith+Beheading+Holofernes.jpg%7CFile%3ASusanna+and+the+Elders+%281610%29%2C+Artemisia+GentileschiFXD.jpg%7CFile%3ASelf-portrait+as+the+Allegory+of+Painting+%28La+Pittura%29+-+Artemisia+Gentileschi.jpg%7CFile%3ASelf-Portrait+as+the+Allegory+of+Painting+%28La+Pittura%29+-+Artemisia+Gentileschi.jpg%7CFile%3ARembrandt+Harmensz+van+Rijn+-+Return+of+the+Prodigal+Son+-+Google+Art+Project.jpg%7CFile%3ARembrandt+-+De+Staalmeesters-+het+college+van+staalmeesters+%28waardijns%29+van+het+Amsterdamse+lakenbereidersgilde+-+Google+Art+Project.jpg%7CFile%3ALa+Dentelli%C3%A8re.jpg%7CFile%3AJohannes+Vermeer+-+The+lacemaker+%28c.1669-1671%29.jpg%7CFile%3AVel%C3%A1zquez+-+El+Triunfo+de+Baco+o+Los+Borrachos+%28Museo+del+Prado%2C+1628-29%29.jpg%7CFile%3AFrancisco+de+Zurbar%C3%A1n+-+Still-life+with+Lemons%2C+Oranges+and+Rose+-+WGA26062.jpg%7CFile%3ALouise+Elisabeth+Vig%C3%A9e-Lebrun+-+Marie-Antoinette+dit+%C2%AB+%C3%A0+la+Rose+%C2%BB+-+Google+Art+Project.jpg%7CFile%3AThe+Death+of+Socrates+MET+DP-13139-001.jpg",
+  "retrievedAt": "2026-10-30T01:53:31.512Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "batchcomplete": true,
+    "query": {
+      "pages": [
+        {
+          "pageid": 10289009,
+          "ns": 6,
+          "title": "File:Johannes Vermeer - The lacemaker (c.1669-1671).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2299275,
+              "width": 1596,
+              "height": 1830,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1835,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1835
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Johannes_Vermeer_-_The_lacemaker_%28c.1669-1671%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_The_lacemaker_(c.1669-1671).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=10289009",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-06-06 09:26:51",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<i>The lacemaker</i>.</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Lacemaker by Johannes Vermeer|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Base Joconde|CC-PD-Mark|Uploads by Jan Arkesteijn with EXIF claim of Public Domain Mark|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johannes_Vermeer\" class=\"extiw\" title=\"w:en:Johannes Vermeer\"><span title=\"Dutch painter (1632–1675)\">Johannes Vermeer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1669-1671",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Musée du Louvre",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 13398897,
+          "ns": 6,
+          "title": "File:Louise Elisabeth Vigée-Lebrun - Marie-Antoinette dit « à la Rose » - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 10978652,
+              "width": 3894,
+              "height": 4728,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg/1920px-Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1943,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg/3840px-Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg/1920px-Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1943,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg/3840px-Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=13398897",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-02-19 07:26:47",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">French:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"fr\"><i>Marie-Antoinette dit « à la Rose » <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3937618#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Marie Antoinette with a Rose</i></div></div><div style=\"display: none;\">title QS:P1476,fr:\"Marie-Antoinette dit « à la Rose » <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3937618#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lfr,\"Marie-Antoinette dit « à la Rose » <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3937618#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"María Antonieta con una rosa\"</div><div style=\"display: none;\">label QS:Lca,\"Marie Antoinette with a Rose\"</div><div style=\"display: none;\">label QS:Lde,\"Marie Antoinette mit einer Rose\"</div><div style=\"display: none;\">label QS:Lpt,\"Maria Antonieta com uma Rosa\"</div><div style=\"display: none;\">label QS:Lda,\"Marie Antoinette med en rose\"</div><div style=\"display: none;\">label QS:Lja,\"バラを持つマリー・アントワネット\"</div><div style=\"display: none;\">label QS:Lit,\"Ritratto di Maria Antonietta con la rosa\"</div><div style=\"display: none;\">label QS:Luk,\"Марія-Антуанетта з трояндою\"</div><div style=\"display: none;\">label QS:Lnl,\"Marie Antoinette with a Rose\"</div><div style=\"display: none;\">label QS:Lcy,\"Marie Antoinette a babi\"</div><div style=\"display: none;\">label QS:Lhi,\"गुलाब के साथ मेरी एंटोइनेट\"</div><div style=\"display: none;\">label QS:Lru,\"Портрет Марии-Антуанетты с розой\"</div><div style=\"display: none;\">label QS:Len,\"Marie Antoinette with a Rose\"</div><div style=\"display: none;\">label QS:Lhe,\"מארי אנטואנט עם ורד\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Marie Antoinette with the Rose (Élisabeth Vigée-Lebrun - Versailles)|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Base Joconde|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work|Files from Google Arts & Culture|Google Art Project works in Palace of Versailles|Google Art Project works by Élisabeth Vigée-Lebrun",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:%C3%89lisabeth_Vig%C3%A9e_Le_Brun\" class=\"extiw\" title=\"w:en:Élisabeth Vigée Le Brun\"><span title=\"French portrait painter (1755–1842)\">Élisabeth Louise Vigée Le Brun</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1783<div style=\"display: none;\">date QS:P571,+1783-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/qwHgKqLoAQb9FQ\">qwHgKqLoAQb9FQ</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 13411875,
+          "ns": 6,
+          "title": "File:Rembrandt - De Staalmeesters- het college van staalmeesters (waardijns) van het Amsterdamse lakenbereidersgilde - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 13272962,
+              "width": 5918,
+              "height": 4000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg/1920px-Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1081,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg/3840px-Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg/1920px-Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1081,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg/3840px-Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_%28waardijns%29_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_De_Staalmeesters-_het_college_van_staalmeesters_(waardijns)_van_het_Amsterdamse_lakenbereidersgilde_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=13411875",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-02-19 11:17:17",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<i>The Syndics of the Amsterdam Drapers' Guild, known as the <a href=\"https://en.wikipedia.org/wiki/Syndics_of_the_Drapers%27_Guild\" class=\"extiw\" title=\"en:Syndics of the Drapers' Guild\">‘Sampling Officials’</a></i></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Oriental carpets in Renaissance painting|PD-old-100-expired|PD-Art (PD-old-100-expired)|Objects with inscriptions in Latin needing translation|Artworks with Wikidata item|Artworks with known accession number|Images with extracted images|CC-PD-Mark|Portrait paintings with table carpets|Google Art Project works by Rembrandt|The Sampling Officials by Rembrandt|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Files from Google Arts & Culture|Google Art Project works in Rijksmuseum",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Rembrandt\" class=\"extiw\" title=\"w:en:Rembrandt\"><span title=\"Dutch painter and printmaker (1606–1669)\">Rembrandt</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "De Staalmeesters: het college van staalmeesters (waardijns) van het Amsterdamse lakenbereidersgilde, bijeen rond een tafel waarop een Perzisch kleed ligt, op tafel het opengeslagen stalenboek. Voorgesteld zijn (van links naar rechts): Jacob van Loon (1595-1674), Volckert Jansz (1605/10-81), Willem van Doeyenburg (ca. 1616-87), de knecht Frans Hendricksz Bel (1629-1701), Aernout van der Mye (ca. 1625-81) en Jochem de Neve (1629-81). Rechts boven de haard een schilderij met een brandend baken.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1662 <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1170480#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/ZgHt6DZhk-6SVw\">ZgHt6DZhk-6SVw</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 15466896,
+          "ns": 6,
+          "title": "File:Francisco de Zurbarán - Still-life with Lemons, Oranges and Rose - WGA26062.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 85903,
+              "width": 1263,
+              "height": 700,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Francisco_de_Zurbar%C3%A1n_-_Still-life_with_Lemons%2C_Oranges_and_Rose_-_WGA26062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 887,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Francisco_de_Zurbar%C3%A1n_-_Still-life_with_Lemons%2C_Oranges_and_Rose_-_WGA26062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 887
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Francisco_de_Zurbar%C3%A1n_-_Still-life_with_Lemons%2C_Oranges_and_Rose_-_WGA26062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Francisco_de_Zurbar%C3%A1n_-_Still-life_with_Lemons,_Oranges_and_Rose_-_WGA26062.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15466896",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-06-10 10:54:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\nStill-life with Lemons, Oranges and Rose</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Images from Web Gallery of Art|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|WGA form: painting|Artworks with accession number from Wikidata|Still Life with Lemons, Oranges and a Rose|Artworks digital representation of 2D work|WGA time period: 1601-1650|WGA School: Spanish|WGA type: still-life",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Francisco_de_Zurbar%C3%A1n\" class=\"extiw\" title=\"w:en:Francisco de Zurbarán\"><span title=\"Spanish painter (1598–1664)\">Francisco de Zurbarán</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://en.wikipedia.org/wiki/en:Immaculate_Conception\" class=\"extiw\" title=\"w:en:Immaculate Conception\"><span title=\"teaching that Mary was conceived free from original sin\">Immaculate Conception of Mary</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q7617092#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1633<div style=\"display: none;\">date QS:P571,+1633-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Web_Gallery_of_Art\" class=\"extiw\" title=\"w:en:Web Gallery of Art\"><span title=\"virtual art gallery for European fine art created before 1900\">Web Gallery of Art</span></a>:  <span typeof=\"mw:File\"><a href=\"http://www.wga.hu/art/z/zurbaran/1/stillife.jpg\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/20px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Inkscape.svg/40px-Inkscape.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"60\" data-file-height=\"60\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wga.hu/art/z/zurbaran/1/stillife.jpg\">Image</a> <span typeof=\"mw:File\"><a href=\"http://www.wga.hu/html/z/zurbaran/1/stillife.html\" rel=\"nofollow\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"20\" height=\"20\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"620\" data-file-height=\"620\"></a></span> <a rel=\"nofollow\" class=\"external text\" href=\"http://www.wga.hu/html/z/zurbaran/1/stillife.html\">Info about artwork</a><div style=\"display: none;\">wga QS:P11807,\"z/zurbaran/1/stillife\"</div>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table cellspacing=\"8\" cellpadding=\"0\" style=\"clear:both; margin:0.5em auto; background-color: var(--background-color-interactive, #f0f0f0); color: inherit; border: 2px solid var(--border-color-subtle, #e0e0e0); width:100%;\" class=\"layouttemplate\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td>\n<div class=\"center\">This is a faithful photographic reproduction of a two-dimensional, <a href=\"//commons.wikimedia.org/wiki/Public_domain\" class=\"mw-redirect\" title=\"Public domain\">public domain</a> work of art. The work of art itself is in the public domain for the following reason:</div>\n<div dir=\"auto\">\n<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>The author died in 1664, so this work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 100 years or fewer</b>.\n</p>\n<hr>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in the <a href=\"https://en.wikipedia.org/wiki/United_States\" class=\"extiw\" title=\"en:United States\">United States</a> because it was <a href=\"//commons.wikimedia.org/wiki/Commons:Publication\" title=\"Commons:Publication\">published</a> (or registered with the <a href=\"https://en.wikipedia.org/wiki/United_States_Copyright_Office\" class=\"extiw\" title=\"en:United States Copyright Office\">U.S. Copyright Office</a>) before January 1, 1931.\n</p>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span></div>\n<div class=\"center\">The official position taken by the Wikimedia Foundation is that \"<i>faithful reproductions of two-dimensional public domain works of art are public domain</i>\".<br><b>This photographic reproduction is therefore also considered to be in the public domain in the United States.</b> In other jurisdictions, re-use of this content may be restricted; <b>see <a href=\"//commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs\" title=\"Commons:Reuse of PD-Art photographs\">Reuse of PD-Art photographs</a> for details.</b></div> \n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 15587745,
+          "ns": 6,
+          "title": "File:Velázquez - El Triunfo de Baco o Los Borrachos (Museo del Prado, 1628-29).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 2119475,
+              "width": 1900,
+              "height": 1386,
+              "thumburl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vel%C3%A1zquez_-_El_Triunfo_de_Baco_o_Los_Borrachos_%28Museo_del_Prado%2C_1628-29%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "thumbwidth": 1600,
+              "thumbheight": 1167,
+              "thumbattribs": {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vel%C3%A1zquez_-_El_Triunfo_de_Baco_o_Los_Borrachos_%28Museo_del_Prado%2C_1628-29%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1167
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Vel%C3%A1zquez_-_El_Triunfo_de_Baco_o_Los_Borrachos_%28Museo_del_Prado%2C_1628-29%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Vel%C3%A1zquez_-_El_Triunfo_de_Baco_o_Los_Borrachos_(Museo_del_Prado,_1628-29).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15587745",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-03-26 09:30:46",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Triumph of Bacchus <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q123935#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">label QS:Les,\"<a href=\"https://es.wikipedia.org/wiki/El_triunfo_de_Baco_(Vel%C3%A1zquez)\" class=\"extiw\" title=\"es:El triunfo de Baco (Velázquez)\">El triunfo de Baco o Los Borrachos</a>\"</div><div style=\"display: none;\">label QS:Lca,\"<a href=\"https://ca.wikipedia.org/wiki/El_triomf_de_Bacus\" class=\"extiw\" title=\"ca:El triomf de Bacus\">El triomf de Bacus</a>\"</div><div style=\"display: none;\">label QS:Leo,\"<a href=\"https://eo.wikipedia.org/wiki/La_Ebriuloj\" class=\"extiw\" title=\"eo:La Ebriuloj\">La Ebriuloj</a>\"</div><div style=\"display: none;\">label QS:Lfr,\"<a href=\"https://fr.wikipedia.org/wiki/Le_Triomphe_de_Bacchus_(V%C3%A9lasquez)\" class=\"extiw\" title=\"fr:Le Triomphe de Bacchus (Vélasquez)\">Le Triomphe de Bacchus</a>\"</div><div style=\"display: none;\">label QS:Lhr,\"<a href=\"https://hr.wikipedia.org/wiki/Bakhov_trijumf\" class=\"extiw\" title=\"hr:Bakhov trijumf\">Bakhov trijumf</a>\"</div><div style=\"display: none;\">label QS:Lpt,\"<a href=\"https://pt.wikipedia.org/wiki/O_Triunfo_de_Baco\" class=\"extiw\" title=\"pt:O Triunfo de Baco\">O Triunfo de Baco</a>\"</div><div style=\"display: none;\">label QS:Lpl,\"<a href=\"https://pl.wikipedia.org/wiki/Triumf_Bachusa\" class=\"extiw\" title=\"pl:Triumf Bachusa\">Triumf Bachusa</a>\"</div><div style=\"display: none;\">label QS:Len,\"<a href=\"https://en.wikipedia.org/wiki/The_Triumph_of_Bacchus\" class=\"extiw\" title=\"en:The Triumph of Bacchus\">The Triumph of Bacchus</a>\"</div><div style=\"display: none;\">label QS:Lit,\"<a href=\"https://it.wikipedia.org/wiki/Trionfo_di_Bacco_(Vel%C3%A1zquez)\" class=\"extiw\" title=\"it:Trionfo di Bacco (Velázquez)\">Trionfo di Bacco (Velázquez)</a>\"</div><div style=\"display: none;\">label QS:Lbr,\"<a href=\"https://br.wikipedia.org/wiki/Los_borrachos_o_el_triunfo_de_Baco\" class=\"extiw\" title=\"br:Los borrachos o el triunfo de Baco\">Los borrachos o el triunfo de Baco</a>\"</div><div style=\"display: none;\">label QS:Lgl,\"<a href=\"https://gl.wikipedia.org/wiki/O_triunfo_de_Baco\" class=\"extiw\" title=\"gl:O triunfo de Baco\">O triunfo de Baco</a>\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "The Triumph of Bacchus by Velazquez|Taken with Hasselblad H3D-39|PD-old-100-expired|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Ceramic jars for wine in Spain|Ceramic jugs for wine in Spain|Files with coordinates missing SDC location of creation|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|PD-art-old-100-expired missing SDC copyright status",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "40.413800",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-3.692000",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Diego_Vel%C3%A1zquez\" class=\"extiw\" title=\"w:en:Diego Velázquez\"><span title=\"Spanish painter (1599–1660)\">Diego Velázquez</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "La obra, titulada <i><b><a href=\"https://es.wikipedia.org/wiki/El_triunfo_de_Baco_(Vel%C3%A1zquez)\" class=\"extiw\" title=\"es:El triunfo de Baco (Velázquez)\">El triunfo de Baco</a></b></i> o <i><b><a href=\"https://es.wikipedia.org/wiki/El_triunfo_de_Baco_(Vel%C3%A1zquez)\" class=\"extiw\" title=\"es:El triunfo de Baco (Velázquez)\">Los Borrachos</a></b></i>, es una de las obras mitológicas más conocidas del pintor sevillano <a href=\"//commons.wikimedia.org/wiki/Diego_Vel%C3%A1zquez\" title=\"Diego Velázquez\">Diego Velázquez</a>.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1628 and 1629<div style=\"display: none;\">date QS:P,+1628-00-00T00:00:00Z/8,P1319,+1628-00-00T00:00:00Z/9,P1326,+1629-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q123935#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "See below.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 16313642,
+          "ns": 6,
+          "title": "File:Artemisia Gentileschi - Giuditta decapita Oloferne - Google Art Project-Adjust.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5386421,
+              "width": 2685,
+              "height": 3301,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg/1920px-Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1967,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/5/50/Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg/1920px-Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1967,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/50/Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=16313642",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2011-09-03 07:15:39",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Italian:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i><i><b><a href=\"https://it.wikipedia.org/wiki/Giuditta_che_decapita_Oloferne_(Artemisia_Gentileschi_Firenze)\" class=\"extiw\" title=\"it:Giuditta che decapita Oloferne (Artemisia Gentileschi Firenze)\">Giuditta che decapita Oloferne</a></b></i></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i><i>Judith Beheading Holofernes</i></i></div></div><div style=\"display: none;\">title QS:P1476,it:\"<i><b><a href=\"https://it.wikipedia.org/wiki/Giuditta_che_decapita_Oloferne_(Artemisia_Gentileschi_Firenze)\" class=\"extiw\" title=\"it:Giuditta che decapita Oloferne (Artemisia Gentileschi Firenze)\">Giuditta che decapita Oloferne</a></b></i>\"</div><div style=\"display: none;\">label QS:Lit,\"<i><b><a href=\"https://it.wikipedia.org/wiki/Giuditta_che_decapita_Oloferne_(Artemisia_Gentileschi_Firenze)\" class=\"extiw\" title=\"it:Giuditta che decapita Oloferne (Artemisia Gentileschi Firenze)\">Giuditta che decapita Oloferne</a></b></i>\"</div><div style=\"display: none;\">label QS:Les,\"<i><a href=\"https://es.wikipedia.org/wiki/Judit_decapitando_a_Holofernes_(Gentileschi,_Florencia)\" class=\"extiw\" title=\"es:Judit decapitando a Holofernes (Gentileschi, Florencia)\">Judit decapitando a Holofernes</a></i>\"</div><div style=\"display: none;\">label QS:Lfr,\"<i>Judith décapitant Holopherne</i>\"</div><div style=\"display: none;\">label QS:Lde,\"<i><a href=\"https://de.wikipedia.org/wiki/Judith_und_Holofernes_(Artemisia_Gentileschi)\" class=\"extiw\" title=\"de:Judith und Holofernes (Artemisia Gentileschi)\">Judith enthauptet Holofernes</a>\"</i></div><div style=\"display: none;\"><i>label QS:Lnl,\"</i>Judith onthoofdt Holofernes<i>\"</i></div><div style=\"display: none;\"><i>label QS:Len,\"</i>Judith Beheading Holofernes<i>\"</i></div><div style=\"display: none;\"><i>label QS:Lru,\"</i>Юдифь, обезглавливающая Олоферна<i>\"</i></div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "17th-century religious paintings in Italy|1610s paintings from Italy|Judith beheading Holofernes (Florence) by Artemisia Gentileschi|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Google Art Project works in Uffizi Gallery|1610s oil on canvas paintings in Italy|Artworks digital representation of 2D work|Chiaroscuro religious paintings|Google Art Project works by Artemisia Gentileschi",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Artemisia_Gentileschi\" class=\"extiw\" title=\"w:en:Artemisia Gentileschi\"><span title=\"Italian Baroque painter (1593-1651)\">Artemisia Gentileschi</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Two women pin down a man on a bed. With one hand, Judith holds his head; with the other, she slices his throat with a long sword. The intensity of the scene is highlighted by the dripping blood soaking the white bed sheets and the man's eyes wide open — conscious, but helpless.\nArtemisia is more a champion of strong women rather than a woman obsessed with violence and revenge.",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "from 1614 until 1620<div style=\"display: none;\">date QS:P571,+1650-00-00T00:00:00Z/7,P580,+1614-00-00T00:00:00Z/9,P582,+1620-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "Originally from Google Cultural Institute (<a rel=\"nofollow\" class=\"external text\" href=\"http://www.google.com/culturalinstitute/asset-viewer/oQF3gDEYNkutBA\">image page</a>), edited for levels",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22353933,
+          "ns": 6,
+          "title": "File:Rembrandt Harmensz van Rijn - Return of the Prodigal Son - Google Art Project.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 262356403,
+              "width": 22991,
+              "height": 30000,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/1920px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2088,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/3840px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/1920px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2088,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/3840px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22353933",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-10-25 02:55:42",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\">The Return of the Prodigal Son\n<div style=\"display: none;\">label QS:Lit,\"Ritorno del figliol prodigo\"</div>\n<div style=\"display: none;\">label QS:Lfr,\"Le Retour du fils prodigue\"</div>\n<div style=\"display: none;\">label QS:Let,\"Kadunud poja tagasitulek\"</div>\n<div style=\"display: none;\">label QS:Lpl,\"Powrót syna marnotrawnego\"</div>\n<div style=\"display: none;\">label QS:Lhe,\"שובו של הבן האובד\"</div>\n<div style=\"display: none;\">label QS:Lnl,\"De terugkeer van de verloren zoon\"</div>\n<div style=\"display: none;\">label QS:Lru,\"Возвращение блудного сына\"</div>\n<div style=\"display: none;\">label QS:Lde,\"Die Rückkehr des verlorenen Sohnes\"</div>\n<div style=\"display: none;\">label QS:Len,\"The Return of the Prodigal Son\"</div>\n<div style=\"display: none;\">label QS:Luk,\"Повернення блудного сина\"</div>\n<div style=\"display: none;\">label QS:Lmk,\"Враќањето на блудниот син\"</div>\n<div style=\"display: none;\">label QS:Les,\"El retorno del hijo pródigo\"</div></div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Return of the Prodigal Son by Rembrandt|Gigapixel images from the Google Art Project|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-auto-expired)|Objects with inscriptions in Latin needing translation|Artworks with Wikidata item|Artworks with known accession number|Large images|CC-PD-Mark|Featured pictures in the public domain|Featured pictures of Christian paintings|Featured pictures of paintings by Rembrandt|Artworks digital representation of 2D work|Files from Google Arts & Culture|Artworks with digital representation of different main subject|Featured pictures from the Google Art Project",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|valued|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "59.941670",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "30.315860",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Rembrandt\" class=\"extiw\" title=\"w:en:Rembrandt\"><span title=\"Dutch painter and printmaker (1606–1669)\">Rembrandt</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://www.wikidata.org/wiki/Q65477437\" class=\"extiw\" title=\"d:Q65477437\"><span title=\"artistic Biblical theme of the prodigal son returning home and being welcomed by his father\">Return of the Prodigal Son</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q512755#P180\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1668<div style=\"display: none;\">date QS:P571,+1668-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/5QFIEhic3owZ-A\">5QFIEhic3owZ-A</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 22617245,
+          "ns": 6,
+          "title": "File:El Descendimiento, by Rogier van der Weyden, from Prado in Google Earth.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 207859312,
+              "width": 30000,
+              "height": 23277,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg/1920px-El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1241,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg/3840px-El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg/1920px-El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1241,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg/3840px-El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/El_Descendimiento%2C_by_Rogier_van_der_Weyden%2C_from_Prado_in_Google_Earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:El_Descendimiento,_by_Rogier_van_der_Weyden,_from_Prado_in_Google_Earth.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=22617245",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-11-10 11:06:34",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Spanish:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"es\"><i>El Descendimiento</i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i><i>The Descent from the Cross</i></i></div></div><div style=\"display: none;\">title QS:P1476,es:\"El Descendimiento\"</div><div style=\"display: none;\">label QS:Les,\"El Descendimiento\"</div><div style=\"display: none;\">label QS:Lru,\"<i>Снятие с креста</i>\"</div><div style=\"display: none;\">label QS:Lde,\"<i>Kreuzabnahme Christi</i>\"</div><div style=\"display: none;\">label QS:Lno,\"<i>Nedtagelsen fra korset</i>\"</div><div style=\"display: none;\">label QS:Leo,\"<i>Malsupreniro de la kruco</i>\"</div><div style=\"display: none;\">label QS:Lca,\"<i>El davallament de la Creu</i>\"</div><div style=\"display: none;\">label QS:Lfr,\"<i>La Descente de Croix</i>\"</div><div style=\"display: none;\">label QS:Lpt,\"<i>A descida da cruz</i>\"</div><div style=\"display: none;\">label QS:Lit,\"<i>Deposizione</i>\"</div><div style=\"display: none;\">label QS:Lpl,\"<i>Zdjęcie z krzyża</i>\"</div><div style=\"display: none;\">label QS:Lnl,\"<i>Kruisafneming</i>\"</div><div style=\"display: none;\">label QS:Lhr,\"<i>Skidanje s križa</i>\"</div><div style=\"display: none;\">label QS:Len,\"<i>The Descent from the Cross</i>\"</div><div style=\"display: none;\">label QS:Lgl,\"<i>Descendemento da cruz</i>\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Descent from the Cross by Rogier van der Weyden (Prado)|Images with annotations|Pages with non-numeric formatnum arguments|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|Prado in Google Earth|CC-PD-Mark|Artworks with accession number from Wikidata|Files with coordinates missing SDC location of creation|Featured pictures of paintings from the Netherlands|Featured pictures in the public domain|Featured pictures of Christian paintings|Featured pictures of Jesus Christ|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "featured|potd",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "40.413889",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "-3.692222",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Rogier_van_der_Weyden\" class=\"extiw\" title=\"w:en:Rogier van der Weyden\"><span title=\"early Netherlandish painter (c. 1399–1464)\">Rogier van der Weyden</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://en.wikipedia.org/wiki/en:Descent_from_the_Cross\" class=\"extiw\" title=\"w:en:Descent from the Cross\"><span title=\"representation in art of Christ being taken from the cross\">Descent from the Cross</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q568847#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1435 and 1438<div style=\"display: none;\">date QS:P571,+1435-00-00T00:00:00Z/8,P1319,+1435-00-00T00:00:00Z/9,P1326,+1438-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "The Prado in Google Earth:  <a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20150525230020/http://www.google.com/intl/en/landing/prado/\">Home page</a> 7<sup>th</sup> level of zoom, JPEG compression quality: Photoshop 9.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 37146117,
+          "ns": 6,
+          "title": "File:Self-portrait as the Allegory of Painting (La Pittura) - Artemisia Gentileschi.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 6162237,
+              "width": 3767,
+              "height": 5088,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/1920px-Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2161,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/1920px-Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2161,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Self-portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Self-portrait_as_the_Allegory_of_Painting_(La_Pittura)_-_Artemisia_Gentileschi.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=37146117",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2025-03-21 06:05:19",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><a href=\"https://en.wikipedia.org/wiki/en:Self-Portrait_as_the_Allegory_of_Painting\" class=\"extiw\" title=\"w:en:Self-Portrait as the Allegory of Painting\"><span title=\"painting by Artemisia Gentileschi\">Self-Portrait as the Allegory of Painting</span></a></div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-Portrait as the Allegory of Painting (Artemisia Gentileschi - Royal Collection)|PD-old-100-expired|Featured pictures on Wikipedia, English|PD-Art (PD-old-100-expired)|Artworks with Wikidata item|Artworks with known accession number|Paintings with signatures|CC-PD-Mark|PD-Art missing SDC copyright status|PD-old missing SDC copyright status|Artworks digital representation of 2D work|Paintings uploaded by Chris Woodrich",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "valued",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Artemisia_Gentileschi\" class=\"extiw\" title=\"w:en:Artemisia Gentileschi\"><span title=\"Italian Baroque painter (1593-1651)\">Artemisia Gentileschi</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\nDepicted person:  <a href=\"https://en.wikipedia.org/wiki/en:Artemisia_Gentileschi\" class=\"extiw\" title=\"w:en:Artemisia Gentileschi\"><span title=\"Italian Baroque painter (1593-1651)\">Artemisia Gentileschi</span></a></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1638 and 1639<div style=\"display: none;\">date QS:P571,+1638-00-00T00:00:00Z/8,P1319,+1638-00-00T00:00:00Z/9,P1326,+1639-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/culturalinstitute/asset-viewer/self-portrait-as-the-allegory-of-painting-la-pittura/fAHok0QVLkyJXQ?projectId=art-project\">Google Cultural Institute</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 53740226,
+          "ns": 6,
+          "title": "File:La Dentellière.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 5858611,
+              "width": 1995,
+              "height": 2500,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_Dentelli%C3%A8re.jpg/1920px-La_Dentelli%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2005,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_Dentelli%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_Dentelli%C3%A8re.jpg/1920px-La_Dentelli%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2005,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_Dentelli%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_Dentelli%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:La_Dentelli%C3%A8re.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=53740226",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2016-12-03 14:44:54",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>The Lacemaker <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1216387#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"The Lacemaker <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1216387#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"The Lacemaker <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q1216387#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"La encajera\"</div><div style=\"display: none;\">label QS:Lfr,\"La Dentellière\"</div><div style=\"display: none;\">label QS:Lhr,\"Čipkarica\"</div><div style=\"display: none;\">label QS:Leu,\"Parpailagilea (margolana)\"</div><div style=\"display: none;\">label QS:Lru,\"Кружевница\"</div><div style=\"display: none;\">label QS:Lca,\"La puntaire\"</div><div style=\"display: none;\">label QS:Lde,\"Die Spitzenklöpplerin\"</div><div style=\"display: none;\">label QS:Lpt,\"A Rendeira\"</div><div style=\"display: none;\">label QS:Lbr,\"An dantelezherez\"</div><div style=\"display: none;\">label QS:Lhy,\"Ժանեկագործուհին\"</div><div style=\"display: none;\">label QS:Lko,\"레이스 뜨는 여인\"</div><div style=\"display: none;\">label QS:Lpnb,\"لیس بنان والی\"</div><div style=\"display: none;\">label QS:Lja,\"レースを編む女\"</div><div style=\"display: none;\">label QS:Lit,\"Merlettaia\"</div><div style=\"display: none;\">label QS:Lhe,\"יוצרת התחרה (ורמיר)\"</div><div style=\"display: none;\">label QS:Lsv,\"Knypplerskan\"</div><div style=\"display: none;\">label QS:Lpl,\"Koronczarka (obraz Vermeera)\"</div><div style=\"display: none;\">label QS:Lml,\"ദി ലേസ്മേക്കർ (വെർമീർ)\"</div><div style=\"display: none;\">label QS:Lnl,\"De kantwerkster\"</div><div style=\"display: none;\">label QS:Larz,\"صانع الجفن\"</div><div style=\"display: none;\">label QS:Lavk,\"Fidesikya (trutca ke Vermeer)\"</div><div style=\"display: none;\">label QS:Lfi,\"Pitsiä nypläävä nainen\"</div><div style=\"display: none;\">label QS:Lhu,\"A csipkeverő nő\"</div><div style=\"display: none;\">label QS:Lar,\"صانعة المخرمات (لوحة)\"</div><div style=\"display: none;\">label QS:Lmk,\"Тантеларка\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Ricoh GXR A12|The Lacemaker by Johannes Vermeer|Self-published work|Artworks with Wikidata item|Artworks with known accession number|Artworks with accession number from Wikidata|Artworks with Wikidata item missing author|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Johannes_Vermeer\" class=\"extiw\" title=\"w:en:Johannes Vermeer\"><span title=\"Dutch painter (1632–1675)\">Johannes Vermeer</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<i>La Dentellière</i></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "between 1669 and 1671<div style=\"display: none;\">date QS:P571,+1650-00-00T00:00:00Z/7,P1319,+1669-00-00T00:00:00Z/9,P1326,+1671-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 65099308,
+          "ns": 6,
+          "title": "File:The Death of Socrates MET DP-13139-001.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 1833927,
+              "width": 4000,
+              "height": 2663,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/The_Death_of_Socrates_MET_DP-13139-001.jpg/1920px-The_Death_of_Socrates_MET_DP-13139-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1065,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/The_Death_of_Socrates_MET_DP-13139-001.jpg/3840px-The_Death_of_Socrates_MET_DP-13139-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/The_Death_of_Socrates_MET_DP-13139-001.jpg/1920px-The_Death_of_Socrates_MET_DP-13139-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1065,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/The_Death_of_Socrates_MET_DP-13139-001.jpg/3840px-The_Death_of_Socrates_MET_DP-13139-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Death_of_Socrates_MET_DP-13139-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:The_Death_of_Socrates_MET_DP-13139-001.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=65099308",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2017-12-29 06:23:45",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\nThe Death of Socrates</div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "CC-Zero|The Death of Socrates (Jacques-Louis David)|Artworks with Wikidata item|Artworks with known accession number|Images from Metropolitan Museum of Art|GWToolset Batch Upload|Artworks digital representation of 2D work|Artworks with digital representation of different depicts",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Jacques-Louis_David\" class=\"extiw\" title=\"w:en:Jacques-Louis David\"><span title=\"French painter (1748–1825)\">Jacques-Louis David</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<dl><dt>Painting; Paintings</dt></dl></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1787<div style=\"display: none;\">date QS:P571,+1787-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "This file was donated to Wikimedia Commons as part of a project by the <a href=\"//commons.wikimedia.org/wiki/Commons:Met\" title=\"Commons:Met\">Metropolitan Museum of Art</a>. See the <a rel=\"nofollow\" class=\"external text\" href=\"https://metmuseum.org/about-the-met/policies-and-documents/image-resources\">Image and Data Resources Open Access Policy</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<table style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; background-color:var(--background-color-neutral-subtle, #f8f9fa); border:var(--border-subtle, 2px solid #c8ccd1); padding: 0; border-spacing: 8px; color:var(--color-base, #202122);\" dir=\"ltr\" class=\"layouttemplate licensetpl\" lang=\"en\">\n<tbody><tr>\n<td style=\"width:90px;\" rowspan=\"2\"><span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"Creative Commons\"><img alt=\"Creative Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/40px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/60px-Cc.logo.circle.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span> <span class=\"skin-invert\" typeof=\"mw:File\"><span title=\"CC-Zero\"><img alt=\"CC-Zero\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/40px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Cc-zero.svg/60px-Cc-zero.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></span></span>\n</td>\n<td>This file is made available under the <a href=\"https://en.wikipedia.org/wiki/en:Creative_Commons\" class=\"extiw\" title=\"w:en:Creative Commons\">Creative Commons</a> <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/zero/1.0/deed.en\">CC0 1.0 Universal Public Domain Dedication</a>.\n</td></tr>\n<tr style=\"text-align:left;\">\n<td>The person who associated a work with this deed has dedicated the work to the <a href=\"https://en.wikipedia.org/wiki/en:public_domain\" class=\"extiw\" title=\"w:en:public domain\">public domain</a> by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.\n<p><span class=\"licensetpl_link\" style=\"display:none;\">http://creativecommons.org/publicdomain/zero/1.0/deed.en</span><span class=\"licensetpl_short\" style=\"display:none;\">CC0</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Zero, Public Domain Dedication</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>\n</p>\n</td></tr></tbody></table>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Zero, Public Domain Dedication",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 70052157,
+          "ns": 6,
+          "title": "File:Judith Beheading Holofernes - Caravaggio.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 10373061,
+              "width": 3998,
+              "height": 2951,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Judith_Beheading_Holofernes_-_Caravaggio.jpg/1920px-Judith_Beheading_Holofernes_-_Caravaggio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1181,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Judith_Beheading_Holofernes_-_Caravaggio.jpg/3840px-Judith_Beheading_Holofernes_-_Caravaggio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Judith_Beheading_Holofernes_-_Caravaggio.jpg/1920px-Judith_Beheading_Holofernes_-_Caravaggio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1181,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Judith_Beheading_Holofernes_-_Caravaggio.jpg/3840px-Judith_Beheading_Holofernes_-_Caravaggio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Judith_Beheading_Holofernes_-_Caravaggio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Judith_Beheading_Holofernes_-_Caravaggio.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=70052157",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2018-07-01 15:34:04",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Italian:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i>Giuditta e Oloferne <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2470123#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Judith Beheading Holofernes</i></div></div><div style=\"display: none;\">title QS:P1476,it:\"Giuditta e Oloferne <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2470123#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Lit,\"Giuditta e Oloferne <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q2470123#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Judit decapitando a Holofernes\"</div><div style=\"display: none;\">label QS:Leu,\"Judith eta Holofernes\"</div><div style=\"display: none;\">label QS:Lca,\"Judit decapitant Holofernes\"</div><div style=\"display: none;\">label QS:Lde,\"Judith enthauptet Holofernes\"</div><div style=\"display: none;\">label QS:Llmo,\"Sgiuditta e Oloferen\"</div><div style=\"display: none;\">label QS:Lhy,\"Հուդիթ և Հողոփեռնես\"</div><div style=\"display: none;\">label QS:Lzh,\"猶迪割下赫羅弗尼斯的頭顱\"</div><div style=\"display: none;\">label QS:Ltr,\"Holofernes'in Boynunun Yudit Tarafından Vurulması\"</div><div style=\"display: none;\">label QS:Lja,\"ホロフェルネスの首を斬るユーディット\"</div><div style=\"display: none;\">label QS:Larz,\"جوديث بقطع هولوفرنيس\"</div><div style=\"display: none;\">label QS:Lhe,\"יהודית והולופרנס\"</div><div style=\"display: none;\">label QS:Lavk,\"Giuditta is Oloferne (trutca ke Caravaggio)\"</div><div style=\"display: none;\">label QS:Lfi,\"Judit leikkaa Holoferneen pään irti\"</div><div style=\"display: none;\">label QS:Leo,\"Judit Senkapiganta Holofernon\"</div><div style=\"display: none;\">label QS:Lfr,\"Judith décapitant Holopherne\"</div><div style=\"display: none;\">label QS:Lhr,\"Judita odrubljuje glavu Holofernu\"</div><div style=\"display: none;\">label QS:Lpt,\"Judite decapitando Holofernes\"</div><div style=\"display: none;\">label QS:Lsl,\"Judita obglavi Holoferna\"</div><div style=\"display: none;\">label QS:Lmk,\"Јудита го обезглавува Холоферн (Караваџо)\"</div><div style=\"display: none;\">label QS:Lth,\"ยูดิธตัดศีรษะโฮโลเฟอร์เนส (การาวัจโจ)\"</div><div style=\"display: none;\">label QS:Lpl,\"Judyta odcinająca głowę Holofernesowi\"</div><div style=\"display: none;\">label QS:Luk,\"Юдита й Олоферн\"</div><div style=\"display: none;\">label QS:Lnl,\"Judith onthoofdt Holofernes\"</div><div style=\"display: none;\">label QS:Lru,\"Юдифь, обезглавливающая Олоферна\"</div><div style=\"display: none;\">label QS:Lfa,\"جودیت سر بریدن هولوفرنس (کاراواجو)\"</div><div style=\"display: none;\">label QS:Lsv,\"Judit och Holofernes\"</div><div style=\"display: none;\">label QS:Lsh,\"Judita odrubljuje glavu Holofernu\"</div><div style=\"display: none;\">label QS:Len,\"Judith Beheading Holofernes\"</div><div style=\"display: none;\">label QS:Lar,\"يهوديت تقطع رأس هولوفيرنوس (كارافاجيو)\"</div><div style=\"display: none;\">label QS:Lbr,\"Judit ha Holofern\"</div><div style=\"display: none;\">label QS:Lcs,\"Judita a Holofernes\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Judith beheading Holofernes by Caravaggio|Self-published work|Artworks with Wikidata item|Artworks with known accession number|Italian MiBAC disclaimer warning|Pages with complex technique templates|Artworks with accession number from Wikidata|Artworks with Wikidata item missing author|Artworks digital representation of 2D work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "quality",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "GPSLatitude": {
+                  "value": "41.903514",
+                  "source": "commons-desc-page"
+                },
+                "GPSLongitude": {
+                  "value": "12.490208",
+                  "source": "commons-desc-page"
+                },
+                "GPSMapDatum": {
+                  "value": "WGS-84",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Caravaggio\" class=\"extiw\" title=\"w:en:Caravaggio\"><span title=\"Italian painter (1571–1610)\">Caravaggio</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Judith Beheading Holofernes - Caravaggio",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1599",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "ita-mibac",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 78391814,
+          "ns": 6,
+          "title": "File:Susanna and the Elders (1610), Artemisia GentileschiFXD.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 3469447,
+              "width": 4092,
+              "height": 5814,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg/1920px-Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2273,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg/3840px-Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg/1920px-Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2273,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg/3840px-Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Susanna_and_the_Elders_%281610%29%2C_Artemisia_GentileschiFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Susanna_and_the_Elders_(1610),_Artemisia_GentileschiFXD.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=78391814",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2019-04-27 19:29:53",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-size:0.9em;display:inline-block;\">Italian:  <div style=\"display:inline-block\" dir=\"ltr\" lang=\"it\"><i><i><b><a href=\"https://it.wikipedia.org/wiki/Susanna_e_i_vecchioni_(Artemisia_Gentileschi_Pommersfelden)\" class=\"extiw\" title=\"it:Susanna e i vecchioni (Artemisia Gentileschi Pommersfelden)\">Susanna e i vecchioni</a></b></i></i></div></div><br><div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i><i>Susanna and the Elders</i></i></div></div><div style=\"display: none;\">title QS:P1476,it:\"<i><b><a href=\"https://it.wikipedia.org/wiki/Susanna_e_i_vecchioni_(Artemisia_Gentileschi_Pommersfelden)\" class=\"extiw\" title=\"it:Susanna e i vecchioni (Artemisia Gentileschi Pommersfelden)\">Susanna e i vecchioni</a></b></i>\"</div><div style=\"display: none;\">label QS:Lit,\"<i><b><a href=\"https://it.wikipedia.org/wiki/Susanna_e_i_vecchioni_(Artemisia_Gentileschi_Pommersfelden)\" class=\"extiw\" title=\"it:Susanna e i vecchioni (Artemisia Gentileschi Pommersfelden)\">Susanna e i vecchioni</a></b></i>\"</div><div style=\"display: none;\">label QS:Les,\"<i><a href=\"https://es.wikipedia.org/wiki/Susana_y_los_viejos_(Gentileschi,_Pommersfelden)\" class=\"extiw\" title=\"es:Susana y los viejos (Gentileschi, Pommersfelden)\">Susana y los viejos</a></i>\"</div><div style=\"display: none;\">label QS:Lde,\"<i>Susanna und die Ältesten</i>\"</div><div style=\"display: none;\">label QS:Lru,\"<i>Сусанна и старцы</i>\"</div><div style=\"display: none;\">label QS:Lnl,\"<i><a href=\"https://nl.wikipedia.org/wiki/Susanna_en_de_oudsten_(Artemisia_Gentileschi)\" class=\"extiw\" title=\"nl:Susanna en de oudsten (Artemisia Gentileschi)\">Susanna en de oudsten</a></i>\"</div><div style=\"display: none;\">label QS:Lfr,\"<i>Suzanne et les vieillards</i>\"</div><div style=\"display: none;\">label QS:Len,\"<i>Susanna and the Elders</i>\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Susanna and the Elders by Artemisia Gentileschi, Schloss Weißenstein|Images from Web Gallery of Art|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Derivative versions|CC-PD-Mark|WGA form: painting|Artworks digital representation of 2D work|WGA type: mythological|WGA time period: 1601-1650|WGA School: Italian",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Artemisia_Gentileschi\" class=\"extiw\" title=\"w:en:Artemisia Gentileschi\"><span title=\"Italian Baroque painter (1593-1651)\">Artemisia Gentileschi</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "<div class=\"description\">\n<a href=\"https://www.wikidata.org/wiki/Q16930210\" class=\"extiw\" title=\"d:Q16930210\"><span title=\"episode in the Additions to Daniel\">Susanna and the Elders</span></a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3978274#P921\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></div>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "circa 1610<div style=\"display: none;\">date QS:P571,+1610-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "This file was derived from:  <a href=\"//commons.wikimedia.org/wiki/File:Susanna_and_the_Elders_(1610),_Artemisia_Gentileschi.jpg\" title=\"File:Susanna and the Elders (1610), Artemisia Gentileschi.jpg\">Susanna and the Elders (1610), Artemisia Gentileschi.jpg</a>: <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Susanna_and_the_Elders_(1610),_Artemisia_Gentileschi.jpg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Susanna_and_the_Elders_%281610%29%2C_Artemisia_Gentileschi.jpg/120px-Susanna_and_the_Elders_%281610%29%2C_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"120\" height=\"170\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Susanna_and_the_Elders_%281610%29%2C_Artemisia_Gentileschi.jpg/250px-Susanna_and_the_Elders_%281610%29%2C_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"4092\" data-file-height=\"5814\"></a></span><br>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 107558563,
+          "ns": 6,
+          "title": "File:Self-Portrait as the Allegory of Painting (La Pittura) - Artemisia Gentileschi.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 373220977,
+              "width": 34035,
+              "height": 44945,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/1920px-Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 2113,
+              "responsiveUrls": {
+                "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/3840px-Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/1920px-Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 2113,
+                "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg/3840px-Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Self-Portrait_as_the_Allegory_of_Painting_%28La_Pittura%29_-_Artemisia_Gentileschi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Self-Portrait_as_the_Allegory_of_Painting_(La_Pittura)_-_Artemisia_Gentileschi.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=107558563",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2021-07-14 21:22:52",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "<div class=\"fn\">\n<div style=\"font-weight:bold;display:inline-block;\"><div style=\"display:inline-block\" dir=\"ltr\" lang=\"en\"><i>Self-Portrait as the Allegory of Painting (La Pittura) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3630745#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></i></div></div><div style=\"display: none;\">title QS:P1476,en:\"Self-Portrait as the Allegory of Painting (La Pittura) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3630745#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Len,\"Self-Portrait as the Allegory of Painting (La Pittura) <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q3630745#P1476\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>\"</div><div style=\"display: none;\">label QS:Les,\"Autorretrato como alegoría de la pintura\"</div><div style=\"display: none;\">label QS:Lfr,\"Autoportrait en allégorie de la Peinture\"</div><div style=\"display: none;\">label QS:Lms,\"Potret Sendiri sebagai Alegori Lukisan\"</div><div style=\"display: none;\">label QS:Lde,\"Selbstporträt als Allegorie der Malerei\"</div><div style=\"display: none;\">label QS:Lff,\"Self-Portrait as the Allegory of Painting\"</div><div style=\"display: none;\">label QS:Lfa,\"خودنگاره به مثابه تمثیل نقاشی\"</div><div style=\"display: none;\">label QS:Lsl,\"Avtoportret kot alegorija slikarstva\"</div><div style=\"display: none;\">label QS:Lja,\"絵画の寓意としての自画像\"</div><div style=\"display: none;\">label QS:Lpt-br,\"Autorretrato como alegoria da pintura\"</div><div style=\"display: none;\">label QS:Lpt,\"Autorretrato como alegoria da pintura\"</div><div style=\"display: none;\">label QS:Larz,\"الصوره الذاتيه باعتبارها رمزيه للرسم\"</div><div style=\"display: none;\">label QS:Lpl,\"Autoportret jako alegoria malarstwa\"</div><div style=\"display: none;\">label QS:Lhe,\"דיוקן עצמי כאלגוריה של הציור\"</div><div style=\"display: none;\">label QS:Lnl,\"Zelfportret als allegorie van de schilderkunst\"</div><div style=\"display: none;\">label QS:Lsv,\"Självporträtt med allegori över måleriet\"</div><div style=\"display: none;\">label QS:Lavk,\"Mivdelt ton purda va lingeropa (trutca ke Gentileschi)\"</div><div style=\"display: none;\">label QS:Lit,\"Autoritratto come allegoria della Pittura\"</div><div style=\"display: none;\">label QS:Lca,\"Autoretrat com a al·legoria de la pintura\"</div><div style=\"display: none;\">label QS:Lru,\"Автопортрет в образе аллегории Живописи\"</div></div>",
+                  "source": "commons-desc-page"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Self-Portrait as the Allegory of Painting (Artemisia Gentileschi - Royal Collection)|PD-old-100-expired|PD-Art (PD-old-auto-expired)|Artworks with Wikidata item|Artworks with known accession number|Large images|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks digital representation of 2D work|Files from Google Arts & Culture|Artworks with digital representation of different depicts",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Artist": {
+                  "value": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Artemisia_Gentileschi\" class=\"extiw\" title=\"w:en:Artemisia Gentileschi\"><span title=\"Italian Baroque painter (1593-1651)\">Artemisia Gentileschi</span></a></bdi>",
+                  "source": "commons-desc-page"
+                },
+                "ImageDescription": {
+                  "value": "Autoportrait en allégorie de la peinture",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "1638<div style=\"display: none;\">date QS:P571,+1638-00-00T00:00:00Z/9</div>",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a href=\"https://en.wikipedia.org/wiki/en:Google_Arts_%26_Culture\" class=\"extiw\" title=\"w:en:Google Arts &amp; Culture\"><span title=\"app and website exploring partner museums\">Google Arts &amp; Culture</span></a>  — <a rel=\"nofollow\" class=\"external text\" href=\"//www.google.com/culturalinstitute/asset-viewer/self-portrait-as-the-allegory-of-painting-la-pittura-artemisia-gentileschi/wwENmp3dXLo4kg\">self-portrait-as-the-allegory-of-painting-la-pittura-artemisia-gentileschi/wwENmp3dXLo4kg</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        },
+        {
+          "pageid": 128118231,
+          "ns": 6,
+          "title": "File:Judith Beheading Holofernes.jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "size": 10770011,
+              "width": 3727,
+              "height": 4116,
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Judith_Beheading_Holofernes.jpg/1920px-Judith_Beheading_Holofernes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1600,
+              "thumbheight": 1767,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/8/83/Judith_Beheading_Holofernes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Judith_Beheading_Holofernes.jpg/1920px-Judith_Beheading_Holofernes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1600,
+                "height": 1767,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/83/Judith_Beheading_Holofernes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Judith_Beheading_Holofernes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Judith_Beheading_Holofernes.jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=128118231",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2023-01-26 09:28:58",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Judith Beheading Holofernes",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Judith beheading Holofernes (Florence) by Artemisia Gentileschi|License review needed|PD Old|Artworks with Wikidata item|Artworks with known accession number|CC-PD-Mark|Artworks with accession number from Wikidata|Artworks missing digital representation of for 2D work|Artworks with SDC link missing",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "\"तुम पृथ्वी की सब नारियों में धन्य हो। धन्य है हमारा प्रभु-ईश्वर, स्वर्ग तथा पृथ्वी का सृष्टिकर्ता! उसी ने हमारे शत्रुओं के नेता का सिर काटने में तुम्हें सफलता दी है।\" जूडिथ 13:4-5",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2015-01-07 09:40:15",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/mazanto/47058274682\">https://www.flickr.com/photos/mazanto/47058274682</a>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "Artemisia Gentileschi",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "\"IMG_4203C Artemisia Gentileschi. 1593-1653. Rome. Judith décapitant Holopherne. Judith beheading Holofernes vers 1620 . Florence. Galerie des Offices. L'oeuvre fut un temps attribué au Caravage. The work was once attributed to Caravaggio.\" by jean louis mazieres is licensed under CC BY-NC-SA 2.0.",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "AuthorCount": {
+                  "value": 2,
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Public domain",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "false",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Copyrighted": {
+                  "value": "False",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "pd",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "payloadSha256": "688b66f60511a5eff9638d8ed9f57f850df7dd06bb35d26d7bcdae77ea49a5b2"
+}

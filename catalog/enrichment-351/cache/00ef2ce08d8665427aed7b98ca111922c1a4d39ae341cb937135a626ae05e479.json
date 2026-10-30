@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/La_belle_jardini%C3%A8re/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:27:05.584Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1213
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1216
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1724
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2808
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2123
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2198
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2033
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 2007
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1645
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1262
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1209
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "La_belle_jardinière",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1153
+      }
+    ]
+  },
+  "payloadSha256": "7944e931dedfdba0b506326c23e24dabd510fd77ca676acc809d44fdcb46dfbb"
+}

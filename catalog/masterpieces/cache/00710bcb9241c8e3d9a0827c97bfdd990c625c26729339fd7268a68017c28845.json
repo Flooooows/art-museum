@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Impression%2C_Sunrise/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T00:41:28.813Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 16907
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17311
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 14390
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17440
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 15259
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 17690
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 16744
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 16458
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 12462
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13159
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 13454
+      },
+      {
+        "project": "en.wikipedia",
+        "article": "Impression,_Sunrise",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 16618
+      }
+    ]
+  },
+  "payloadSha256": "38cc7b64efa200ad02a4391c41dfc02b3496b4f4498f186498bb712bd156d3f0"
+}

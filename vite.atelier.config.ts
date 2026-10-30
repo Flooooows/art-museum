@@ -6,6 +6,6 @@ export default defineConfig({
   publicDir: false,
   build: {
     outDir: "dist-atelier",
-    rollupOptions: { input: "review.html" },
+    rollupOptions: { input: ["review.html", "masterpieces.html"] },
   },
 });

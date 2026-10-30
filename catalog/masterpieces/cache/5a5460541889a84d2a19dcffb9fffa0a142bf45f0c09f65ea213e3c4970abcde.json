@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=The+Banquet+of+Cleopatra+Tiepolo",
+  "retrievedAt": "2026-10-30T00:48:10.438Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 176.32962,
+        "id": 118718,
+        "title": "The Banquet",
+        "main_reference_number": "2018.295",
+        "date_display": "1958",
+        "artist_title": "René Magritte",
+        "image_id": "d2c459c3-c6cf-551b-fd27-5a2854b9fa81",
+        "is_public_domain": false
+      },
+      {
+        "_score": 114.25925,
+        "id": 21670,
+        "title": "Chinese Beauties at a Banquet",
+        "main_reference_number": "1925.2316",
+        "date_display": "1788/90",
+        "is_public_domain": true,
+        "artist_title": "Kitagawa Utamaro",
+        "image_id": "c6125132-d24f-60b7-1ba1-518dd17a8296"
+      },
+      {
+        "_score": 101.75549,
+        "id": 193320,
+        "title": "Africa Restored (Cheryl as Cleopatra)",
+        "main_reference_number": "2008.87",
+        "date_display": "2003-ongoing",
+        "artist_title": "Kerry James Marshall",
+        "image_id": "3b92784e-0194-e892-c621-2084ed6facbc",
+        "is_public_domain": false
+      },
+      {
+        "_score": 92.00248,
+        "id": 82562,
+        "title": "Death of Cleopatra",
+        "main_reference_number": "1922.1024",
+        "date_display": "c. 1540",
+        "is_public_domain": true,
+        "artist_title": "Follower of Daniela da Volterra",
+        "image_id": "3cc8311a-44c5-999b-ba8a-45b19e0ca373"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "b32b0fc14c9edc488e3a8e6f1e95269b0eff9f021df32472fb41a1f56d4104bc"
+}

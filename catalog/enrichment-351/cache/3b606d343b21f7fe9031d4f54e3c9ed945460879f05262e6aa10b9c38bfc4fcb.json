@@ -1,0 +1,120 @@
+{
+  "provider": "wikimedia",
+  "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Iris_(Van_Gogh)/monthly/2025100100/2026093000",
+  "retrievedAt": "2026-10-30T02:26:12.164Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "items": [
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2025100100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 808
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2025110100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 962
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2025120100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 850
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026010100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 855
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026020100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 738
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026030100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 820
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026040100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1036
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026050100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 1117
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026060100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 733
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026070100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 546
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026080100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 599
+      },
+      {
+        "project": "fr.wikipedia",
+        "article": "Iris_(Van_Gogh)",
+        "granularity": "monthly",
+        "timestamp": "2026090100",
+        "access": "all-access",
+        "agent": "user",
+        "views": 705
+      }
+    ]
+  },
+  "payloadSha256": "49c6bb0d7ae62387607bb0b2a4c0aeb91856018d0eb7d3dc03ab398136e20c31"
+}

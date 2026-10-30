@@ -1,0 +1,125 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/754251",
+  "retrievedAt": "2026-10-30T01:46:22.301Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "objectID": 754251,
+    "isHighlight": false,
+    "accessionNumber": "Ref.Daumier.1",
+    "accessionYear": "",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP877307.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/dp/web-large/DP877307.jpg",
+    "additionalImages": [],
+    "constituents": [
+      {
+        "constituentID": 161808,
+        "role": "Artist",
+        "name": "Honoré Daumier",
+        "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500117998",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q187506",
+        "gender": ""
+      },
+      {
+        "constituentID": 75784,
+        "role": "Printer",
+        "name": "Destouches",
+        "constituentULAN_URL": "",
+        "constituentWikidata_URL": "",
+        "gender": ""
+      },
+      {
+        "constituentID": 99046,
+        "role": "Publisher",
+        "name": "Aaron Martinet",
+        "constituentULAN_URL": "(not assigned)",
+        "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q29909060",
+        "gender": ""
+      }
+    ],
+    "department": "Drawings and Prints",
+    "objectName": "Print",
+    "title": "Mr. PRUDHOMME: Long live the third class compartments..., from 'On the train,' published in Le Charivari, August 30, 1864",
+    "culture": "",
+    "period": "",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "'On the train' (En chemin de fer)",
+    "artistRole": "Artist",
+    "artistPrefix": "",
+    "artistDisplayName": "Honoré Daumier",
+    "artistDisplayBio": "French, Marseilles 1808–1879 Valmondois",
+    "artistSuffix": "",
+    "artistAlphaSort": "Daumier, Honoré",
+    "artistNationality": "French",
+    "artistBeginDate": "1808",
+    "artistEndDate": "1879",
+    "artistGender": "",
+    "artistWikidata_URL": "https://www.wikidata.org/wiki/Q187506",
+    "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500117998",
+    "objectDate": "August 30, 1864",
+    "objectBeginDate": 1864,
+    "objectEndDate": 1864,
+    "medium": "Lithograph on newsprint; third state of three (Delteil)",
+    "dimensions": "Image: 8 13/16 × 9 1/8 in. (22.4 × 23.1 cm)\r\nSheet: 11 9/16 × 10 13/16 in. (29.3 × 27.5 cm)",
+    "measurements": [
+      {
+        "elementName": "Sheet",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 29.3,
+          "Width": 27.5
+        }
+      },
+      {
+        "elementName": "Image",
+        "elementDescription": null,
+        "elementMeasurements": {
+          "Height": 22.4,
+          "Width": 23.1
+        }
+      }
+    ],
+    "creditLine": "",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Prints",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2025-03-06T04:54:30Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/754251",
+    "tags": [
+      {
+        "term": "Satire",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300055934",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q128758"
+      },
+      {
+        "term": "Men",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+      },
+      {
+        "term": "Trains",
+        "AAT_URL": "http://vocab.getty.edu/page/aat/300212738",
+        "Wikidata_URL": "https://www.wikidata.org/wiki/Q870"
+      }
+    ],
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": ""
+  },
+  "payloadSha256": "24918c1ccf78d1622b31fc16f88eb04eb6a958e4176bd919a515631217904ae4"
+}

@@ -1,0 +1,17 @@
+{
+  "provider": "met",
+  "url": "https://collectionapi.metmuseum.org/public/collection/v1.1/search?hasImages=true&limit=4&q=The+Peacock+Skirt+Beardsley",
+  "retrievedAt": "2026-10-30T01:46:49.431Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "total": 66,
+    "objectIDs": [
+      340842,
+      65361,
+      157810,
+      50939
+    ]
+  },
+  "payloadSha256": "6b9938652e8e678a0d32756afaf85d0859e2706fa229e9a05149fb0cec6bfacd"
+}

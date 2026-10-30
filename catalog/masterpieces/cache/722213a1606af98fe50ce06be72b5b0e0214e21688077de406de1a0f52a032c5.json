@@ -1,0 +1,72 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=4&q=Nighthawks",
+  "retrievedAt": "2026-10-30T00:47:54.066Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 4,
+      "offset": 0,
+      "total_pages": 33293,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 155.26251,
+        "id": 111628,
+        "title": "Nighthawks",
+        "main_reference_number": "1942.51",
+        "date_display": "1942",
+        "artist_title": "Edward Hopper",
+        "image_id": "831a05de-d3f6-f4fa-a460-23008dd58dda",
+        "is_public_domain": false
+      },
+      {
+        "_score": 80.08535,
+        "id": 118165,
+        "title": "Nighthawks",
+        "main_reference_number": "1991.1259",
+        "date_display": "1985",
+        "artist_title": "Peter de Lory",
+        "image_id": "1510e4f3-ffcf-ee16-1aec-2b9a7b35a03c",
+        "is_public_domain": false
+      },
+      {
+        "_score": 0.00002319839,
+        "id": 11,
+        "title": "Self-Portrait",
+        "main_reference_number": "1887.234",
+        "date_display": "1878",
+        "is_public_domain": true,
+        "artist_title": "Walter Shirlaw",
+        "image_id": "7b7a6f39-1cd8-ea2f-9811-18b0e23edac0"
+      },
+      {
+        "_score": 0.000022739563,
+        "id": 111,
+        "title": "Martin Vanden Bogaert Desjardins",
+        "main_reference_number": "1888.59",
+        "date_display": "n.d.",
+        "is_public_domain": true,
+        "artist_title": "Gérard Edelinck",
+        "image_id": "13bb7117-5115-b409-1dbb-1d9c1d70a5c9"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "4d724ec85364838fa13bd442748af7759824eb0da642a3651d1d5e433552b0b6"
+}

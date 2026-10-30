@@ -1,0 +1,62 @@
+{
+  "provider": "artic",
+  "url": "https://api.artic.edu/api/v1/artworks/search?fields=id%2Ctitle%2Cartist_title%2Cdate_display%2Cis_public_domain%2Cimage_id%2Cmain_reference_number&limit=3&q=Shiva+Lord+Dance",
+  "retrievedAt": "2026-10-30T00:50:59.416Z",
+  "httpStatus": 200,
+  "status": "available",
+  "payload": {
+    "preference": null,
+    "pagination": {
+      "total": 133169,
+      "limit": 3,
+      "offset": 0,
+      "total_pages": 44390,
+      "current_page": 1
+    },
+    "data": [
+      {
+        "_score": 1007.46985,
+        "id": 24548,
+        "title": "Shiva as Lord of the Dance (Nataraja)",
+        "main_reference_number": "1965.1130",
+        "date_display": "Chola period, about 10th/11th century",
+        "is_public_domain": true,
+        "image_id": "cf50f037-5fb2-e197-0e56-3ae701edb3e2",
+        "artist_title": null
+      },
+      {
+        "_score": 111.71422,
+        "id": 65865,
+        "title": "Dancing God Shiva (Natesha)",
+        "main_reference_number": "1986.1288",
+        "date_display": "10th/11th century",
+        "is_public_domain": true,
+        "image_id": "36a11d1c-ec17-ce45-3871-cc7ae54c58ce",
+        "artist_title": null
+      },
+      {
+        "_score": 77.85786,
+        "id": 158,
+        "title": "Pelike (Storage Jar)",
+        "main_reference_number": "1889.12",
+        "date_display": "about 510-500 BCE",
+        "is_public_domain": true,
+        "artist_title": "Ancient Greek",
+        "image_id": "48d485ec-6102-b7ec-062c-8b351055ca5f"
+      }
+    ],
+    "info": {
+      "license_text": "The `description` field in this response is licensed under a Creative Commons Attribution 4.0 Generic License (CC-By) and the Terms and Conditions of artic.edu. All other data in this response is licensed under a Creative Commons Zero (CC0) 1.0 designation and the Terms and Conditions of artic.edu.",
+      "license_links": [
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://www.artic.edu/terms"
+      ],
+      "version": "1.16"
+    },
+    "config": {
+      "iiif_url": "https://www.artic.edu/iiif/2",
+      "website_url": "https://www.artic.edu"
+    }
+  },
+  "payloadSha256": "bdeeca3e60da7702bf9562fa1036feba30e2073900a58803bf1cbe0282d1e50b"
+}
