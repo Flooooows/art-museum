@@ -105,13 +105,15 @@ test("jeu — stock, inventaire, favoris et musée survivent au nouveau format d
   assert.deepEqual(before.counts, { "mona-lisa": 2 });
 });
 
-test("jeu — les 90 cadres actifs reprennent les finitions humaines et le gabarit sûr", async () => {
-  assert.equal(Object.keys(labFrames).length, 90);
+test("jeu — seuls les cadres approuvés restent actifs, les autres cartes sont sans cadre", async () => {
+  assert.equal(Object.keys(labFrames).length, 25);
   for (const art of artworks) {
     const f = cardFrameFor(art);
     assert.notEqual(f.family, "prehistoire");
     assert.equal(f.level, art.rarity);
     assert.equal(art.rarity, art.humanRarity!.level);
+    assert.equal(Boolean(f.asset), Boolean(labFrames[f.key]));
+    if (!labFrames[f.key]) assert.equal(f.asset, null);
   }
   for (const f of Object.values(labFrames)) {
     const bytes = await readFile(

@@ -42,6 +42,8 @@ const decisions: { value: FeedbackDecision; label: string }[] = [
   { value: "approved", label: "Approuvé" },
   { value: "changes", label: "À revoir" },
 ];
+// Reserved revision for an intentionally absent frame, not an image fingerprint.
+const unframedRevision = "0".repeat(64);
 
 function OpinionFields({
   title,
@@ -95,8 +97,8 @@ function OpinionFields({
       {opinion.revision && opinion.revision !== revision && (
         <div className="frame-opinion__outdated">
           <p>
-            Cet avis concerne une ancienne version du cadre. Vérifie le nouveau
-            visuel avant de le reconfirmer.
+            Cet avis concerne une ancienne version. Vérifie l’affichage actuel
+            de cette catégorie avant de le reconfirmer.
           </p>
           <button
             type="button"
@@ -151,7 +153,8 @@ export default function FrameFeedbackPanel({
         family,
         finish,
         patch,
-        finish === null ? frame.sourceSha256 : frame.outputSha256,
+        (finish === null ? frame?.sourceSha256 : frame?.outputSha256) ??
+          unframedRevision,
       ),
     );
   }
@@ -210,6 +213,12 @@ export default function FrameFeedbackPanel({
         <div>
           <p className="lab-eyebrow">Tes retours pour la prochaine version</p>
           <h3 id="frame-feedback-title">Avis · {frameFamilyLabels[family]}</h3>
+          {!labFrames[`${family}-argent`] && (
+            <p>
+              Cadre retiré : cette catégorie est affichée sans cadre. Tes
+              anciens avis restent conservés.
+            </p>
+          )}
           <p>
             Évalue le style et ses cinq finitions, avec un seul commentaire
             global pour cette catégorie. « À revoir » signifie que tu
@@ -225,7 +234,9 @@ export default function FrameFeedbackPanel({
         title="Style général de la catégorie"
         globalComment
         value={entry?.style}
-        revision={labFrames[`${family}-argent`].sourceSha256}
+        revision={
+          labFrames[`${family}-argent`]?.sourceSha256 ?? unframedRevision
+        }
         onChange={(patch) => change(null, patch)}
       />
       <div className="frame-feedback__finishes">
@@ -234,7 +245,10 @@ export default function FrameFeedbackPanel({
             key={`${family}-${r.finish}`}
             title={`${r.name} · ${r.material}`}
             value={entry?.finishes[r.finish]}
-            revision={labFrames[`${family}-${r.finish}`].outputSha256}
+            revision={
+              labFrames[`${family}-${r.finish}`]?.outputSha256 ??
+              unframedRevision
+            }
             onChange={(patch) => change(r.finish, patch)}
           />
         ))}

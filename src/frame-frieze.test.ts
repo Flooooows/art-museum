@@ -7,9 +7,9 @@ import { preservedFrameFamilies } from "./card-lab/prestigeSpecs";
 import { rarities } from "./data";
 const sha = (b: Buffer) => createHash("sha256").update(b).digest("hex");
 
-test("frises — treize masters distincts et inventaires thématiques, palette sans motifs comme seule entrée", async () => {
+test("archives textuelles des frises — inventaires et provenance conservés sans leurs assets supprimés", async () => {
   const active = JSON.parse(
-    await readFile("src/card-lab/assets/refined-frames.json", "utf8"),
+    await readFile("catalog/card-lab/frieze-frames/provenance.json", "utf8"),
   );
   const previous = JSON.parse(
     await readFile(
@@ -49,10 +49,7 @@ test("frises — treize masters distincts et inventaires thématiques, palette s
     assert.deepEqual(source.motifs, spec.motifs);
     assert.equal(source.imageJob, spec.job);
     assert.deepEqual(source.generationReferences, active.generationReferences);
-    assert.equal(
-      sha(await readFile(source.rawSourceFile)),
-      source.rawSourceSha256,
-    );
+    assert.match(source.rawSourceSha256, /^[a-f0-9]{64}$/);
     sources.add(source.rawSourceSha256);
   }
   assert.equal(sources.size, 13);

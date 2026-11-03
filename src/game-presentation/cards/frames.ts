@@ -33,6 +33,6 @@ export function cardFrameFor(
 ) {
   const choice = frameChoiceFor(art),
     frame = labFrames[choice.key];
-  if (!frame) throw Error(`Cadre publié manquant : ${choice.key}`);
-  return { ...frame, reason: choice.reason };
+  // Removed families remain visible without a frame or a thematic substitution.
+  return { ...choice, level: art.rarity, asset: frame ?? null };
 }

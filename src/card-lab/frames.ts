@@ -33,6 +33,6 @@ export function cardFrameFor(
 ) {
   const choice = frameChoiceFor(art),
     frame = labFrames[choice.key];
-  if (!frame) throw Error(`Cadre de laboratoire manquant : ${choice.key}`);
-  return { ...frame, reason: choice.reason };
+  // A removed theme stays unframed; never substitute an unrelated approved one.
+  return { ...choice, level: art.rarity, asset: frame ?? null };
 }

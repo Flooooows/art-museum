@@ -5,7 +5,7 @@ Projet Firebase dédié demandé par l’utilisateur, nommé **muse-lab**. L’i
 ## Accès
 
 - [Accueil du laboratoire](https://muse-lab-6f2d.web.app/).
-- [Cartes et cadres](https://muse-lab-6f2d.web.app/card-lab.html) : 21 exemples et 95 variantes, dont cinq Paléolithique archivées ; masques stricts, décors détaillés et bandeau de rareté commun.
+- [Cartes et cadres](https://muse-lab-6f2d.web.app/card-lab.html) : 21 exemples, 30 variantes dans les six familles validées ; les autres cartes restent visibles sans cadre. Paléolithique reste non affecté.
 - [Sept boosters](https://muse-lab-6f2d.web.app/booster-lab.html) : une collection universelle et six regroupements spécialisés.
 - [Ouverture](https://muse-lab-6f2d.web.app/opening-lab.html) : carte par carte ou planche, sélecteur de rareté maximale, ambiance lapis exceptionnelle, sept pochettes, trois rythmes et mouvements réduits.
 
@@ -44,7 +44,8 @@ Les préparateurs d’images restent manuels ; ils ne relancent aucune générat
 
 ## Guides des essais
 
-- [Frises figuratives par thème](ESSAIS_CADRES_FRISES_V7.md) : dernière version publiée ; motifs concrets espacés, couleurs et détail des références, six familles approuvées inchangées.
+- [Nettoyage : six familles validées uniquement](NETTOYAGE_CADRES_VALIDES.md) : état actuel ; suppression de toutes les versions non validées, cartes concernées sans cadre et avis conservés.
+- [Frises figuratives par thème](ESSAIS_CADRES_FRISES_V7.md) : ancien essai ; les assets non validés ont depuis été supprimés.
 - [Arts décoratifs comme référence de détail et de couleur](ESSAIS_CADRES_ARTS_DECORATIFS_V6.md) : essai précédent archivé, remplacé par les frises figuratives.
 - [Profils sobres inspirés d’encadrements réels](ESSAIS_CADRES_MUSEAUX.md) : version publiée ; outils et objets décoratifs retirés, matériaux et passe-partout discrets, six familles validées inchangées.
 - [Cadres refaits selon leurs thèmes](ESSAIS_CADRES_THEMATIQUES.md) : version publiée, treize langages de matière distincts au lieu d’un décor floral commun ; six familles validées inchangées. Pages et treize cadres lapis vérifiés en ligne.
@@ -55,7 +56,7 @@ Les préparateurs d’images restent manuels ; ils ne relancent aucune générat
 - [Sept visuels de pochettes et regroupements](ESSAIS_BOOSTERS.md).
 - [Ouverture une par une et ambiances par rareté](ESSAIS_OUVERTURE.md).
 
-Les captures historiques des essais restent conservées ; une ancienne mention « local » ou « non publié » y décrit l’état au moment de la capture, pas une publication dans le jeu.
+Les anciens guides et registres JSON restent des documents historiques. Les images des essais de cadres non validés ont été supprimées : leurs anciens liens peuvent donc ne plus être disponibles. Une mention historique « publié » ne décrit pas l’état actuel.
 
 ## Première publication et contrôles
 

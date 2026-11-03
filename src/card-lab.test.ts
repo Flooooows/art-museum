@@ -2,7 +2,6 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
-import sharp from "sharp";
 import { sampleCases } from "./card-lab/samples";
 import { byId, rarities } from "./data";
 
@@ -23,7 +22,7 @@ test("carton musée — vingt et un cas réels, cinq raretés, formats et textes
   for (const id of ["cma-136510", "mona-lisa", "45434", "cma-137128"])
     assert.ok(sampleCases.some((s) => s.id === id));
 });
-test("carton musée — référence intacte et cadre sans œuvre ni texte incrusté", async () => {
+test("carton musée — référence utilisateur intacte après suppression du prototype non validé", async () => {
   const root = "src/card-lab/assets";
   const provenance = JSON.parse(
     await readFile(`${root}/provenance.json`, "utf8"),
@@ -35,27 +34,9 @@ test("carton musée — référence intacte et cadre sans œuvre ni texte incrus
     sha(await readFile("scripts/card-lab/prepare.ts")),
     provenance.preparationScriptSha256,
   );
-  const bytes = await readFile(`${root}/${provenance.frame.file}`);
-  assert.equal(sha(bytes), provenance.frame.sha256);
-  const meta = await sharp(bytes).metadata();
-  assert.equal(meta.width, 1024);
-  assert.equal(meta.height, 1536);
-  assert.ok(meta.hasAlpha);
-  const r = provenance.frame.clearedRectangle;
-  const center = await sharp(bytes)
-    .extract({
-      left: r.left,
-      top: r.top,
-      width: r.right - r.left,
-      height: r.bottom - r.top,
-    })
-    .ensureAlpha()
-    .raw()
-    .toBuffer();
-  assert.ok(
-    center.every((value) => value === 0),
-    "Aucune trace de l’image ni des textes de la référence dans la zone utile.",
-  );
+  await assert.rejects(readFile(`${root}/${provenance.frame.file}`), {
+    code: "ENOENT",
+  });
 });
 test("carton musée — le laboratoire reste séparé du jeu et de ses données persistées", async () => {
   const vite = await readFile("vite.config.ts", "utf8");

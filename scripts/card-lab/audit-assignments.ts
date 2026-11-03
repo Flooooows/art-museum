@@ -1,11 +1,10 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { artworks } from "../../src/data";
-import { cardFrameFor } from "../../src/card-lab/frames";
+import { cardFrameFor, labFrames } from "../../src/card-lab/frames";
 import {
   activeFrameFamilies,
   frameFamilies,
   frameFamilyLabels,
-  generatedFrameFamilies,
 } from "../../src/card-lab/frameRules";
 
 const assignments = artworks.map((art) => {
@@ -18,6 +17,7 @@ const assignments = artworks.map((art) => {
     family: frame.family,
     key: frame.key,
     reason: frame.reason,
+    hasFrame: Boolean(frame.asset),
   };
 });
 const report = {
@@ -25,8 +25,11 @@ const report = {
   works: assignments.length,
   registeredFamilies: frameFamilies.length,
   activeFamilies: activeFrameFamilies.length,
-  generatedBases: generatedFrameFamilies.length,
-  variants: frameFamilies.length * 5,
+  availableFrameFamilies: [
+    ...new Set(Object.values(labFrames).map((f) => f.family)),
+  ],
+  variants: Object.keys(labFrames).length,
+  unframedWorks: assignments.filter((a) => !a.hasFrame).length,
   archivedFamilies: ["prehistoire"],
   counts: Object.fromEntries(
     frameFamilies.map((f) => [

@@ -8,10 +8,10 @@ import { cardFrameFor, labFrames, commonCardAperture } from "./frames";
 import {
   frameFamilies,
   activeFrameFamilies,
-  generatedFrameFamilies,
   frameFamilyLabels,
   type FrameFamily,
 } from "./frameRules";
+import { preservedFrameFamilies } from "./prestigeSpecs";
 import { frameImage, frameWindowImage } from "./frameImages";
 import reference from "../../docs/Carton musée des Nymphéas.png";
 import "./styles.css";
@@ -103,7 +103,7 @@ function CardLab() {
         <section className="lab-intro">
           <div>
             <p className="lab-eyebrow">
-              Essai 09 · Des motifs qui racontent leur thème
+              Cadres validés · Six familles conservées
             </p>
             <h1>
               Le cadre fait
@@ -117,10 +117,9 @@ function CardLab() {
           </div>
           <aside className="lab-intent">
             <p>
-              <strong>{sampleCases.length} vraies cartes.</strong>{" "}
-              {generatedFrameFamilies.length} bases par type et une nouvelle
-              série Japon retravaillées. Cinq finitions : fer, cuivre, argent,
-              or et lapis-lazuli.
+              <strong>{sampleCases.length} vraies cartes.</strong> Six familles
+              de cadres validées. Les autres cartes restent visibles sans cadre.
+              Cinq finitions : fer, cuivre, argent, or et lapis-lazuli.
             </p>
             <p>
               Le décor suit le type, le thème ou l’origine documentée. Sa
@@ -137,12 +136,10 @@ function CardLab() {
               occidental, Abstraction géométrique et Paléolithique.
             </p>
             <p>
-              Les couleurs et le niveau de détail prennent exemple sur les Arts
-              décoratifs. Comme en Égypte et au Paléolithique, les motifs
-              évoquent directement le thème : appareils photo, poteries, métiers
-              à tisser, bustes, livres ou grues japonaises. Ces scènes sont
-              gravées dans les frises, jamais utilisées pour construire le
-              contour du cadre.
+              Toutes les versions non validées ont été retirées du projet. Une
+              carte dont le cadre a été supprimé s’affiche sans cadre, sans
+              emprunter le décor d’une autre famille. Tes avis restent
+              conservés.
             </p>
             <details>
               <summary>Voir ta référence des Nymphéas</summary>
@@ -214,6 +211,7 @@ function CardLab() {
                   <small title={cardFrameFor(sample.art).reason}>
                     {frameFamilyLabels[cardFrameFor(sample.art).family]} ·{" "}
                     {rarities[sample.art.rarity].material}
+                    {!cardFrameFor(sample.art).asset && " · sans cadre"}
                   </small>
                 </span>
               </p>
@@ -250,18 +248,16 @@ function CardLab() {
         >
           <div className="lab-frame-catalog__heading">
             <div>
-              <p className="lab-eyebrow">Bases neutres et décors conservés</p>
+              <p className="lab-eyebrow">Décors validés et thèmes sans cadre</p>
               <h2 id="frame-catalog-title">
-                {frameFamilies.length} décors × {rarities.length} finitions
+                {preservedFrameFamilies.length} décors conservés ×{" "}
+                {rarities.length} finitions
               </h2>
               <p>
                 Comparaison des cadres seuls. Ce nuancier ne change pas la
-                rareté des œuvres. {activeFrameFamilies.length} familles
-                utilisables, une archivée. Les treize nouvelles familles portent
-                des motifs figuratifs propres à leur thème, espacés dans une
-                frise droite. Les finitions associent métal en relief et fonds
-                colorés ; le lapis conserve le master bleu et or. Les six décors
-                approuvés sont inchangés.
+                rareté des œuvres. Les six décors approuvés sont inchangés. Les
+                autres thèmes sont présentés sans cadre ; aucun asset de leurs
+                anciennes versions n’est chargé.
               </p>
             </div>
             <label>
@@ -289,6 +285,20 @@ function CardLab() {
             {rarities.map((r) => {
               const frame = labFrames[`${swatchFamily}-${r.finish}`],
                 a = commonCardAperture;
+              if (!frame)
+                return (
+                  <figure
+                    className="lab-frame-swatch"
+                    key={`${swatchFamily}-${r.finish}`}
+                  >
+                    <div className="lab-frame-swatch__card lab-frame-swatch__card--unframed">
+                      <p>Sans cadre · {frameFamilyLabels[swatchFamily]}</p>
+                    </div>
+                    <figcaption>
+                      {r.name} · {r.material} · sans cadre
+                    </figcaption>
+                  </figure>
+                );
               return (
                 <figure
                   className="lab-frame-swatch"
@@ -341,11 +351,9 @@ function CardLab() {
             recadrées, les titres et artistes ne sont pas tronqués.
           </p>
           <p>
-            Treize frises figuratives propres à leur thème et leurs finitions
-            côtoient les six décors approuvés conservés. Chaque ouverture est
-            mesurée pour placer l’image et tous les textes à l’intérieur, sans
-            aplatissement. Les sources, les images des œuvres et leurs données
-            restent intactes.
+            Seuls les six décors validés et leurs masques sont conservés. Les
+            cartes des autres thèmes restent consultables sans cadre. Les images
+            des œuvres, leurs données et les avis ne sont pas supprimés.
           </p>
         </footer>
       </main>

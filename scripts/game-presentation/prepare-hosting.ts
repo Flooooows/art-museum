@@ -49,7 +49,7 @@ await writeFile(
         source:
           "Présentation validée dans MUSE Lab 3b5f3172d4865a5a, copiée et isolée dans src/game-presentation/.",
         frames:
-          "90 variantes affectables ; anciens décors fournis conservés, douze bases neutres détaillées et série Japon générées. Dérivés natifs sans perte avec masques stricts.",
+          "25 variantes affectables des familles explicitement approuvées, inchangées avec masques stricts. Les autres thèmes sont affichés sans cadre ; leurs assets ont été supprimés.",
         boosters:
           "Sept illustrations synthétiques générées distinctes ; textes de pochette ajoutés dans l’interface.",
         model: "openai/gpt-image-2 pour les nouveaux visuels générés.",
