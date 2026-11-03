@@ -3,6 +3,13 @@
   "generatedAt": "2026-10-29T02:49:02Z",
   "title": "Design System: MUSE",
   "extensions": {
+    "projectLayout": {
+      "mockups": "references/mockups/",
+      "historicalReviews": "docs/archive/reviews/",
+      "currentSurface": ".impeccable/surface.md",
+      "cleanupReport": "docs/TRI_PROJET.md",
+      "note": "Les anciens chemins des bilans narratifs sont historiques ; utiliser ces emplacements courants sans réécrire les preuves datées."
+    },
     "colorMeta": {
       "paper": { "role": "neutral", "displayName": "Papier" },
       "paper-low": { "role": "neutral", "displayName": "Papier de contenant" },
@@ -88,7 +95,7 @@
       "caption": { "displayName": "Annotation", "purpose": "Space, 0.8125rem / 13px, interligne 1.55 : rareté, possession et notes. La micro-impression décorative des emballages n’est pas une échelle d’interface." },
       "pack-option-tablet": { "displayName": "Choix thématique tablette", "purpose": "Titre des choix à ≤1100px, avant la variante téléphone." },
       "pack-option-phone": { "displayName": "Choix thématique téléphone", "purpose": "Titre des rangées portrait + titre à ≤600px ; également taille des titres de doublons sur téléphone, avec leur interligne propre." },
-      "pack-option": { "displayName": "Choix thématique", "purpose": "Titre des quatre boutons directs sur bureau ; les titres de doublons partagent cette taille avec un interligne de 1.3." },
+      "pack-option": { "displayName": "Choix thématique", "purpose": "Titre des six boutons directs sur bureau ; les titres de doublons partagent cette taille avec un interligne de 1.3." },
       "discovery-title": { "displayName": "Titre de découverte", "purpose": "Nom de l’œuvre révélée dans le dialogue ; taille aussi utilisée par les états vides sur téléphone." },
       "compact-section": { "displayName": "Section compacte", "purpose": "Sections Pochettes, Marché et Profil et titre du dialogue sur téléphone ; chaque composition conserve son interligne CSS." },
       "profile-section": { "displayName": "Section de profil", "purpose": "Sections de profil et états vides sur bureau ; identité du profil sur téléphone." },

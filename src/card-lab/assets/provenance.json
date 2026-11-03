@@ -1,0 +1,30 @@
+{
+  "source": "docs/Carton musée des Nymphéas.png",
+  "sourceSha256": "e202ca7b3ff669016171dbd1b599ec6ba0859e99b054cb6890daec63988f1a08",
+  "usage": "Prototype local à partir de la référence fournie par l’utilisateur ; aucune nouvelle licence attribuée.",
+  "frame": {
+    "file": "carton-frame.png",
+    "sha256": "d9a7ed506f9bfc36024814acd4aade1d03137f89eaa16abe13ea871cafddf96b",
+    "width": 1024,
+    "height": 1536,
+    "clearedRectangle": {
+      "left": 123,
+      "top": 142,
+      "right": 903,
+      "bottom": 1340
+    },
+    "method": "Seule la bordure extérieure est conservée. Pixels RGBA intérieurs remis à zéro : aucune œuvre ni information incrustée."
+  },
+  "texture": {
+    "file": "carton-velvet.webp",
+    "sha256": "c32d92af89d6ee80856c36a490171e8840f9dd023b985cf05d05f887001476ff",
+    "extractedRectangle": {
+      "left": 400,
+      "top": 154,
+      "width": 450,
+      "height": 174
+    },
+    "method": "Zone de velours vide de la référence, sans œuvre ni texte."
+  },
+  "preparationScriptSha256": "446d2abe5eb494cab88972a514c41b7b35659f8d47bd8a7f66997d3cd345dd6c"
+}

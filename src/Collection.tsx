@@ -15,7 +15,11 @@ import {
 } from "lucide-react";
 import {
   artworks,
-  catalogs,
+  visibleCatalogs,
+  typeCatalogs,
+  themeCatalogs,
+  getCatalog,
+  catalogCover,
   rarities,
   families,
   artworkInCatalog,
@@ -29,6 +33,8 @@ import {
   type CollectionState,
 } from "./collection";
 import { ArtworkCard, Button } from "./components";
+import { paginationPages } from "./pagination";
+import { packTitle } from "./packSelection";
 
 export default function Collection({
   state,
@@ -51,6 +57,7 @@ export default function Collection({
   const [query, setQuery] = useState("");
   const [rarity, setRarity] = useState("all");
   const [catalog, setCatalog] = useState("all");
+  const [theme, setTheme] = useState("all");
   const [family, setFamily] = useState("all");
   const [possession, setPossession] = useState("all");
   const [sort, setSort] = useState("rarity");
@@ -67,7 +74,7 @@ export default function Collection({
   }, [searchFocus]);
   useEffect(() => {
     setPage(1);
-  }, [query, rarity, catalog, family, possession, view, sort]);
+  }, [query, rarity, catalog, theme, family, possession, view, sort]);
   const unique = uniqueCount(state);
   const collectionPercent = Math.round((unique / artworks.length) * 100);
   const normalize = (value: string) =>
@@ -84,12 +91,13 @@ export default function Collection({
         (view !== "museum" || state.exhibited.includes(art.id)) &&
         (rarity === "all" || art.rarity === Number(rarity)) &&
         artworkInCatalog(art, catalog) &&
+        artworkInCatalog(art, theme) &&
         (family === "all" || art.familyId === family) &&
         (possession === "all" ||
           (possession === "owned" && owned) ||
           (possession === "missing" && !owned) ||
           (possession === "duplicates" && state.counts[art.id] > 1)) &&
-        normalize(`${art.title} ${art.artist} ${art.date}`).includes(
+        normalize(`${art.title} ${art.artist} ${art.date} ${art.id}`).includes(
           normalize(query.trim()),
         )
       );
@@ -107,6 +115,7 @@ export default function Collection({
     setQuery("");
     setRarity("all");
     setCatalog("all");
+    setTheme("all");
     setFamily("all");
     setPossession("all");
   };
@@ -114,6 +123,7 @@ export default function Collection({
     query ||
     rarity !== "all" ||
     catalog !== "all" ||
+    theme !== "all" ||
     family !== "all" ||
     possession !== "all";
   return (
@@ -175,39 +185,51 @@ export default function Collection({
           <section className="sidebar-panel">
             <h2>
               <BookOpen size={17} />
-              Mes séries & complétion<span>{catalogs.length}</span>
+              Mes séries & complétion<span>{visibleCatalogs.length}</span>
             </h2>
             <button
-              className={`sidebar-all ${catalog === "all" ? "selected" : ""}`}
-              onClick={() => setCatalog("all")}
+              className={`sidebar-all ${catalog === "all" && theme === "all" ? "selected" : ""}`}
+              onClick={() => {
+                setCatalog("all");
+                setTheme("all");
+              }}
             >
               Tous les catalogues
               <ArrowRight size={13} />
             </button>
-            {catalogs.map((cat) => (
-              <button
-                className={`sidebar-catalog ${catalog === cat.id ? "selected" : ""}`}
-                key={cat.id}
-                onClick={() => {
-                  setCatalog(cat.id);
-                  setFamily("all");
-                }}
-              >
-                <img src={`/assets/${cat.image}.jpg`} alt="" />
-                <div>
-                  <div>
-                    <strong>{cat.title}</strong>
-                    <span>
-                      {catalogProgress(state, cat.id)}/{catalogSize(cat.id)}
-                    </span>
-                  </div>
-                  <progress
-                    max={catalogSize(cat.id)}
-                    value={catalogProgress(state, cat.id)}
-                    aria-label={cat.title}
-                  />
-                </div>
-              </button>
+            {[
+              { title: "Types d’œuvres", items: typeCatalogs },
+              { title: "Thèmes", items: themeCatalogs },
+            ].map((group) => (
+              <div key={group.title} className="catalog-group">
+                <h3>{group.title}</h3>
+                {group.items.map((cat) => (
+                  <button
+                    className={`sidebar-catalog ${catalog === cat.id || theme === cat.id ? "selected" : ""}`}
+                    key={cat.id}
+                    onClick={() => {
+                      if (cat.kind === "theme") setTheme(cat.id);
+                      else setCatalog(cat.id);
+                      setFamily("all");
+                    }}
+                  >
+                    <img src={catalogCover(cat)} alt="" />
+                    <div>
+                      <div>
+                        <strong>{cat.title}</strong>
+                        <span>
+                          {catalogProgress(state, cat.id)}/{catalogSize(cat.id)}
+                        </span>
+                      </div>
+                      <progress
+                        max={catalogSize(cat.id)}
+                        value={catalogProgress(state, cat.id)}
+                        aria-label={cat.title}
+                      />
+                    </div>
+                  </button>
+                ))}
+              </div>
             ))}
           </section>
           <section className="sidebar-panel family-panel">
@@ -249,12 +271,7 @@ export default function Collection({
             </h2>
             {state.latest ? (
               <>
-                <p>
-                  {state.latest.catalog === "all"
-                    ? "Écho de Silence"
-                    : catalogs.find((cat) => cat.id === state.latest?.catalog)
-                        ?.title}
-                </p>
+                <p>{packTitle(state.latest.catalog)}</p>
                 <span>
                   {new Intl.DateTimeFormat("fr-FR", {
                     dateStyle: "medium",
@@ -338,8 +355,8 @@ export default function Collection({
               <input
                 ref={searchRef}
                 type="search"
-                placeholder="Rechercher une œuvre, un artiste…"
-                aria-label="Rechercher une œuvre ou un artiste"
+                placeholder="Rechercher une œuvre, un artiste, un identifiant…"
+                aria-label="Rechercher une œuvre, un artiste ou un identifiant"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
               />
@@ -357,6 +374,42 @@ export default function Collection({
                 <option value="duplicates">Exemplaires supplémentaires</option>
               </select>
             </label>
+          </div>
+          <div className="taxonomy-filters" aria-label="Types et thèmes">
+            <label>
+              Type d’œuvre
+              <select
+                aria-label="Type d’œuvre"
+                value={catalog}
+                onChange={(e) => setCatalog(e.target.value)}
+              >
+                <option value="all">Tous les types</option>
+                {typeCatalogs.map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.title} ({catalogSize(c.id)})
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label>
+              Thème
+              <select
+                aria-label="Thème"
+                value={theme}
+                onChange={(e) => setTheme(e.target.value)}
+              >
+                <option value="all">Tous les thèmes</option>
+                {themeCatalogs.map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.title} ({catalogSize(c.id)})
+                  </option>
+                ))}
+              </select>
+            </label>
+            <p>
+              Un type principal par carte. Les thèmes peuvent se recouper ;
+              combinez les deux filtres.
+            </p>
           </div>
           <div className="rarity-filters" aria-label="Filtrer par rareté">
             <button
@@ -404,16 +457,24 @@ export default function Collection({
               className="catalog-overview"
               aria-label="Vue d’ensemble des catalogues"
             >
-              {catalogs.map((item) => (
+              {visibleCatalogs.map((item) => (
                 <button
                   key={item.id}
                   className="catalog-album"
-                  onClick={() => setCatalog(item.id)}
+                  onClick={() =>
+                    item.kind === "theme"
+                      ? setTheme(item.id)
+                      : setCatalog(item.id)
+                  }
                 >
-                  <img src={`/assets/${item.image}.jpg`} alt="" />
+                  <img src={catalogCover(item)} alt="" />
                   <div>
                     <h2>{item.title}</h2>
-                    <p>{item.family}</p>
+                    <p>
+                      {item.kind === "type"
+                        ? "Type d’œuvre"
+                        : "Thème secondaire"}
+                    </p>
                     <progress
                       value={catalogProgress(state, item.id)}
                       max={catalogSize(item.id)}
@@ -509,17 +570,23 @@ export default function Collection({
               >
                 <ChevronLeft size={15} />
               </button>
-              {Array.from({ length: pageCount }, (_, i) => (
-                <button
-                  key={i}
-                  className={currentPage === i + 1 ? "active" : ""}
-                  aria-label={`Page ${i + 1}`}
-                  aria-current={currentPage === i + 1 ? "page" : undefined}
-                  onClick={() => setPage(i + 1)}
-                >
-                  {i + 1}
-                </button>
-              ))}
+              {paginationPages(currentPage, pageCount).map((number, i) =>
+                number === null ? (
+                  <span key={`gap-${i}`} aria-hidden="true">
+                    …
+                  </span>
+                ) : (
+                  <button
+                    key={number}
+                    className={currentPage === number ? "active" : ""}
+                    aria-label={`Page ${number}`}
+                    aria-current={currentPage === number ? "page" : undefined}
+                    onClick={() => setPage(number)}
+                  >
+                    {number}
+                  </button>
+                ),
+              )}
               <button
                 className="icon-button"
                 aria-label="Page suivante"

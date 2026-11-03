@@ -1,0 +1,140 @@
+{
+  "change": "Cartes compactes dans les boosters et la collection ; les cinq cartes révélées restent sur une seule ligne, avec défilement horizontal sur écran étroit ; sauvegardes et lab inchangés.",
+  "cards": {
+    "format": "compact",
+    "referenceWidth": 320,
+    "minWidth": 200,
+    "maxWidth": 260,
+    "favoriteTarget": 44,
+    "completeTitlesAndArtists": true,
+    "wholeArtworkImages": true
+  },
+  "opening": {
+    "singleRow": true,
+    "fiveCardsFitAt1440": true,
+    "horizontalScrollingOnSmallScreens": true,
+    "keyboardAccessToFirstAndLastCards": true
+  },
+  "collection": {
+    "compact": true,
+    "paginationUnchanged": true
+  },
+  "tests": {
+    "total": 178,
+    "passed": 178,
+    "failed": 0
+  },
+  "cardLayouts": {
+    "cases": 4044,
+    "widths": [
+      200,
+      220,
+      240,
+      260
+    ],
+    "issues": [],
+    "details": "compact-cards.json"
+  },
+  "browsers": {
+    "compiled": {
+      "configurations": 9,
+      "accessibilityStates": 24,
+      "errors": [],
+      "violations": 0
+    },
+    "live": {
+      "configurations": 7,
+      "accessibilityStates": 16,
+      "errors": [],
+      "violations": 0
+    }
+  },
+  "publication": {
+    "projectId": "muse-collection-6f2d",
+    "origin": "https://muse-collection-6f2d.web.app",
+    "version": "adae71ece203ed57",
+    "releaseTime": "2026-11-02T20:54:28.030Z",
+    "previousVersion": "b256155a8d780c8e",
+    "sourceLabVersion": "3b5f3172d4865a5a",
+    "change": "Cartes compactes dans les boosters et la collection ; les cinq cartes révélées restent sur une seule ligne, avec défilement horizontal sur écran étroit ; sauvegardes et lab inchangés.",
+    "expectedFiles": 1136,
+    "checkedFiles": 1136,
+    "verification": {
+      "method": "Tous les fichiers publiés téléchargés et vérifiés par SHA-256 contre le build local.",
+      "byteVerifiedFiles": 1136,
+      "downloadedBytes": 232496478,
+      "retriedFiles": 0
+    },
+    "failures": [],
+    "headers": [
+      {
+        "path": "/",
+        "status": 200,
+        "cache": "no-cache"
+      },
+      {
+        "path": "/index.html",
+        "status": 200,
+        "cache": "no-cache"
+      }
+    ],
+    "excluded": [
+      {
+        "path": "/review.html",
+        "status": 404
+      },
+      {
+        "path": "/masterpieces.html",
+        "status": 404
+      },
+      {
+        "path": "/card-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/opening-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/booster-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/muse-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/assets/collections/beaux-arts-lapis-lazuli.png",
+        "status": 404
+      },
+      {
+        "path": "/src/card-lab/assets/generated-sources/peinture-detail-v2.png",
+        "status": 404
+      },
+      {
+        "path": "/tests/browser/game-presentation.html",
+        "status": 404
+      }
+    ],
+    "labIsolation": {
+      "projectId": "muse-lab-6f2d",
+      "beforeVersion": "3b5f3172d4865a5a",
+      "afterVersion": "3b5f3172d4865a5a",
+      "sameRelease": true
+    },
+    "storage": {
+      "key": "muse-collection-v1",
+      "version": 1,
+      "legacyThreeCardResultsSupported": true,
+      "reset": false
+    }
+  },
+  "labUnchanged": true,
+  "inventoryAndRaritiesUnchanged": true,
+  "previews": [
+    "booster-ordinateur.png",
+    "booster-mobile.png",
+    "collection-ordinateur.png",
+    "collection-mobile.png"
+  ]
+}

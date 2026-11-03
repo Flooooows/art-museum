@@ -1,0 +1,126 @@
+{
+  "tests": 161,
+  "typecheck": "passed",
+  "build": "passed",
+  "browser": {
+    "origin": "https://muse-lab-6f2d.web.app",
+    "cases": [
+      {
+        "width": 1440,
+        "theme": "light",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 1440,
+        "theme": "dark",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 768,
+        "theme": "light",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 768,
+        "theme": "dark",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 320,
+        "theme": "light",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 320,
+        "theme": "dark",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      }
+    ],
+    "errors": []
+  },
+  "accessibility": [
+    {
+      "width": 1440,
+      "path": "/booster-lab.html",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/booster-lab.html",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/booster-lab.html",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/booster-lab.html",
+      "theme": "dark",
+      "violations": []
+    }
+  ],
+  "scope": "Projet MUSE Lab distinct du jeu. Aucune acquisition ni écriture de sauvegarde."
+}

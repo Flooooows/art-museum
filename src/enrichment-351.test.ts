@@ -4,6 +4,7 @@ import { readFile, readdir } from "node:fs/promises";
 import sharp from "sharp";
 import { sha256 } from "../scripts/rarity-v2/http";
 import { createScorer } from "../scripts/masterpieces/score";
+import { readHistoricalFile, readProjectFile } from "../scripts/project-files";
 import {
   STORAGE_KEY,
   decisionsFor,
@@ -16,7 +17,8 @@ import {
 import { REVIEW_STORAGE_KEY } from "./review/model";
 import { candidateBatch, ENRICHMENT_STORAGE_KEY } from "./masterpieces/batches";
 
-const json = async (file: string) => JSON.parse(await readFile(file, "utf8"));
+const json = async (file: string) =>
+  JSON.parse(await readProjectFile(file, "utf8"));
 const report = await json("enrichment-351-results.json");
 const catalog = parseCandidateCatalog(
   await json("public/enrichment-351-data/catalog.json"),
@@ -64,7 +66,11 @@ test("351 — empreintes des entrées, décisions, cartes et V2 préservées", a
     report.implementationHashes,
   ]) {
     for (const [file, expected] of Object.entries(hashes))
-      assert.equal(sha256(await readFile(file)), expected, file);
+      assert.equal(
+        sha256(await readHistoricalFile(file, expected)),
+        expected,
+        file,
+      );
   }
   assert.equal(
     report.protectedInputs.manualDecisionsSha256,
@@ -221,7 +227,7 @@ test("351 — V2 reproductible sans bonus éditorial, scopes d’audiences disti
 });
 
 test("351 — exports isolés et aucun choix imposé dans l’historique", async () => {
-  const entry = await readFile("src/enrichment-351/main.tsx", "utf8");
+  const entry = await readFile("src/masterpieces/batches.ts", "utf8");
   const key = entry.match(/muse:enrichment-351-review:v1/)![0];
   assert.notEqual(key, STORAGE_KEY);
   assert.notEqual(key, REVIEW_STORAGE_KEY);

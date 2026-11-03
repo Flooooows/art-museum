@@ -20,11 +20,13 @@ Ouvrez **http://localhost:5173/review.html**. Si le terminal indique un autre po
 
 ### Installer le projet depuis GitHub
 
-Il faut Git, Node.js (version 22.12 ou plus récente ; Node 24 convient) et npm. Dans un terminal :
+Il faut Git, **Git LFS**, **Node.js 24** et npm. La procédure de référence, y compris sauvegardes privées et reconnexion des comptes, est le [guide de changement de PC](CHANGER_DE_PC.md). Dans un terminal :
 
 ```sh
 git clone https://github.com/Flooooows/art-museum.git
 cd art-museum
+git lfs install
+git lfs pull
 npm ci
 npm run dev -- --host 0.0.0.0
 ```
@@ -66,6 +68,14 @@ Une seule rareté peut être sélectionnée par œuvre. Le compteur **« œuvres
 - **À examiner** : les cartes sans décision.
 - **Décidées** : les cartes avec une décision.
 - **Écarts avec l’algo** : vos choix différents de la rareté conseillée.
+
+### Voir combien de cartes vous avez classées dans chaque rareté
+
+Le panneau **« Mes raretés finales »** affiche vos cinq compteurs personnels : Esquisse, Étude, Composition, Œuvre et Pièce maîtresse. Il utilise votre **choix final actuel**, jamais la proposition de l’algorithme. Modifier une rareté déplace une carte d’un compteur à l’autre ; annuler un choix la remet parmi les cartes sans rareté. L’import et le rechargement retrouvent les mêmes totaux sauvegardés, sans compter plusieurs fois un historique. Si le stockage est indisponible, les compteurs suivent les choix en mémoire : exportez-les avant de fermer la page, comme indiqué par l’avertissement de sauvegarde.
+
+Cliquez sur un compteur pour filtrer les cartes de cette rareté. **« Cartes examinées »** montre celles qui ont une rareté finale ; **« Sans rareté finale »** montre celles qui n’en ont pas encore. Les autres filtres (recherche, famille, proposition de l’algo, état de revue ou sélection) restent actifs.
+
+Les compteurs portent sur **toutes les cartes du lot**, toutes pages et tous filtres confondus : ils ne sont pas limités aux 24 cartes affichées. Chaque lot possède ses propres totaux, sans fusionner le millier, les 78 candidates et les 25 cartes initiales. Dans les lots de candidates, le statut **« Retenir »** ne crée pas une rareté : seuls les choix de rareté sont comptés, indépendamment de la sélection artistique. Les notices non illustrées, sans choix de rareté possible, restent hors de ces compteurs.
 
 La liste affiche **24 cartes par page**. Utilisez les flèches ou le sélecteur de page en bas. Après un changement de page au clavier, le focus revient vers les nouveaux résultats.
 
@@ -146,6 +156,6 @@ Pour chaque nouvelle œuvre, choisir une rareté et, séparément, **Retenir / �
 
 Les choix sont locaux : `muse:masterpieces-review:v1` pour le premier lot et `muse:enrichment-351-review:v1` pour les 78 nouvelles œuvres, tous deux distincts de `muse:rarity-review:v1`. Exporter avant de changer de navigateur ou d’appareil. Les JSON des candidates portent le format `muse-masterpieces-review`, mais des versions de catalogue différentes : importer chaque export dans son propre lot, sans le confondre avec celui du millier. L’import demande confirmation et fusionne les historiques ; l’événement le plus récent par date l’emporte. Une sauvegarde incompatible n’est pas écrasée : utiliser l’export des choix en mémoire.
 
-Dans le premier lot, le carnet en bas de page donne aussi 39 autres notices : **22 sans droits d’image établis**, donc sans vignette, et **17 admissibles mais différées**. Le nouveau lot n’embarque que ses 78 objets préparés ; les autres lignes et réserves sont dans `enrichment-351-report.md`. Les scores V2 restent des propositions avec données manquantes et confiance explicites, pas des validations de notoriété. Les droits documentés ne constituent pas un avis juridique mondial. Voir aussi [le guide du lot 351](REVIEW_351.md).
+Dans le premier lot, le carnet en bas de page donne aussi 39 autres notices : **22 sans droits d’image établis**, donc sans vignette, et **17 admissibles mais différées**. Le nouveau lot n’embarque que ses 78 objets préparés ; les autres lignes et réserves sont dans [le rapport des 351 entrées](../catalog/enrichment-351/reports/REPORT.md). Les scores V2 restent des propositions avec données manquantes et confiance explicites, pas des validations de notoriété. Les droits documentés ne constituent pas un avis juridique mondial. Voir aussi [le guide du lot 351](REVIEW_351.md).
 
-Recherche et prévisualisation : `masterpieces-candidates.md`, `masterpieces-candidates.json`, `masterpieces-import-preview.json`, `masterpieces-rights-review.md`. Régénération hors réseau : `npm run masterpieces:build`, puis `npm run masterpieces:images` pour vérifier/réutiliser les reproductions approuvées. Publication de l’atelier seulement : `npm run deploy:atelier`. Il n’existe aucune commande d’activation automatique de ces œuvres dans le jeu.
+Recherche et prévisualisation du premier lot : `catalog/masterpieces/reports/` (`candidates.md`, `candidates.json`, `import-preview.json`, `rights-review.md`). Régénération hors réseau, uniquement pour une reconstruction éditoriale voulue : `npm run masterpieces:build`, puis `npm run masterpieces:images` pour vérifier/réutiliser les reproductions approuvées. Ces commandes ne sont pas nécessaires pour consulter l'atelier. Publication de l’atelier seulement : `npm run deploy:atelier`. Il n’existe aucune commande d’activation automatique de ces œuvres dans le jeu.

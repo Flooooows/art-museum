@@ -1,0 +1,916 @@
+{
+  "tests": 161,
+  "typecheck": "passed",
+  "build": "passed",
+  "publication": {
+    "projectId": "muse-lab-6f2d",
+    "displayName": "muse-lab",
+    "origin": "https://muse-lab-6f2d.web.app",
+    "version": "eef884b836375ac6",
+    "releaseTime": "2026-11-01T18:43:45.594Z",
+    "expectedFiles": 1145,
+    "checkedFiles": 1145,
+    "totalBytes": 175191972,
+    "failures": [],
+    "headers": [
+      {
+        "path": "/",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "path": "/card-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "path": "/booster-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "path": "/opening-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      }
+    ],
+    "gameIsolation": {
+      "projectId": "muse-collection-6f2d",
+      "beforeVersion": "d2169e93bdbfd2bf",
+      "afterVersion": "d2169e93bdbfd2bf",
+      "sameRelease": true
+    }
+  },
+  "local": {
+    "origin": "http://127.0.0.1:4181",
+    "pages": [
+      {
+        "width": 1440,
+        "path": "/",
+        "current": "accueil",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 1440,
+        "path": "/card-lab.html",
+        "current": "cartes",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 1440,
+        "path": "/booster-lab.html",
+        "current": "boosters",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 1440,
+        "path": "/opening-lab.html",
+        "current": "ouverture",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "path": "/",
+        "current": "accueil",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "path": "/card-lab.html",
+        "current": "cartes",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "path": "/booster-lab.html",
+        "current": "boosters",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "path": "/opening-lab.html",
+        "current": "ouverture",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 320,
+        "path": "/",
+        "current": "accueil",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 320,
+        "path": "/card-lab.html",
+        "current": "cartes",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 320,
+        "path": "/booster-lab.html",
+        "current": "boosters",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 320,
+        "path": "/opening-lab.html",
+        "current": "ouverture",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      }
+    ],
+    "cards": [
+      {
+        "width": 1440,
+        "scale": "comfortable",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 1440,
+        "scale": "comfortable",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 1440,
+        "scale": "compact",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 1440,
+        "scale": "compact",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 390,
+        "scale": "comfortable",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 390,
+        "scale": "comfortable",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 390,
+        "scale": "compact",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 390,
+        "scale": "compact",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 320,
+        "scale": "comfortable",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 320,
+        "scale": "comfortable",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 320,
+        "scale": "compact",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 320,
+        "scale": "compact",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      }
+    ],
+    "openings": [
+      {
+        "width": 1440,
+        "group": "universel",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "peintures",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "traits-pages",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "sculptures",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "photographies",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "matieres-objets",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "textiles-interieur",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "universel",
+        "reduced": false,
+        "mood": "Muséale",
+        "skipped": false,
+        "revealed": 5
+      },
+      {
+        "width": 1440,
+        "group": "universel",
+        "reduced": false,
+        "mood": "Éclat doré",
+        "skipped": true,
+        "revealed": 5
+      },
+      {
+        "width": 390,
+        "group": "universel",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "peintures",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "traits-pages",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "sculptures",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "photographies",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "matieres-objets",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "textiles-interieur",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "universel",
+        "reduced": false,
+        "mood": "Muséale",
+        "skipped": false,
+        "revealed": 5
+      },
+      {
+        "width": 390,
+        "group": "universel",
+        "reduced": false,
+        "mood": "Éclat doré",
+        "skipped": true,
+        "revealed": 5
+      }
+    ],
+    "exclusions": [
+      {
+        "path": "/review.html",
+        "status": 404
+      },
+      {
+        "path": "/review-data/catalog.json",
+        "status": 404
+      },
+      {
+        "path": "/assets/collections/japon-fer.png",
+        "status": 404
+      },
+      {
+        "path": "/src/booster-lab/assets/generated-sources/universel-master.png",
+        "status": 404
+      }
+    ],
+    "errors": []
+  },
+  "live": {
+    "origin": "https://muse-lab-6f2d.web.app",
+    "pages": [
+      {
+        "width": 1440,
+        "path": "/",
+        "current": "accueil",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 1440,
+        "path": "/card-lab.html",
+        "current": "cartes",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 1440,
+        "path": "/booster-lab.html",
+        "current": "boosters",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 1440,
+        "path": "/opening-lab.html",
+        "current": "ouverture",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "path": "/",
+        "current": "accueil",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "path": "/card-lab.html",
+        "current": "cartes",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "path": "/booster-lab.html",
+        "current": "boosters",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "path": "/opening-lab.html",
+        "current": "ouverture",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 320,
+        "path": "/",
+        "current": "accueil",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 320,
+        "path": "/card-lab.html",
+        "current": "cartes",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 320,
+        "path": "/booster-lab.html",
+        "current": "boosters",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      },
+      {
+        "width": 320,
+        "path": "/opening-lab.html",
+        "current": "ouverture",
+        "imagesDecoded": true,
+        "navigation": true,
+        "noOverflow": true
+      }
+    ],
+    "cards": [
+      {
+        "width": 1440,
+        "scale": "comfortable",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 1440,
+        "scale": "comfortable",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 1440,
+        "scale": "compact",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 1440,
+        "scale": "compact",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 390,
+        "scale": "comfortable",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 390,
+        "scale": "comfortable",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 390,
+        "scale": "compact",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 390,
+        "scale": "compact",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 320,
+        "scale": "comfortable",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 320,
+        "scale": "comfortable",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 320,
+        "scale": "compact",
+        "theme": "light",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      },
+      {
+        "width": 320,
+        "scale": "compact",
+        "theme": "dark",
+        "count": 21,
+        "imagesWhole": true,
+        "textInside": true
+      }
+    ],
+    "openings": [
+      {
+        "width": 1440,
+        "group": "universel",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "peintures",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "traits-pages",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "sculptures",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "photographies",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "matieres-objets",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "textiles-interieur",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 1440,
+        "group": "universel",
+        "reduced": false,
+        "mood": "Muséale",
+        "skipped": false,
+        "revealed": 5
+      },
+      {
+        "width": 1440,
+        "group": "universel",
+        "reduced": false,
+        "mood": "Éclat doré",
+        "skipped": true,
+        "revealed": 5
+      },
+      {
+        "width": 390,
+        "group": "universel",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "peintures",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "traits-pages",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "sculptures",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "photographies",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "matieres-objets",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "textiles-interieur",
+        "reduced": true,
+        "revealed": 5,
+        "keyboard": true
+      },
+      {
+        "width": 390,
+        "group": "universel",
+        "reduced": false,
+        "mood": "Muséale",
+        "skipped": false,
+        "revealed": 5
+      },
+      {
+        "width": 390,
+        "group": "universel",
+        "reduced": false,
+        "mood": "Éclat doré",
+        "skipped": true,
+        "revealed": 5
+      }
+    ],
+    "exclusions": [
+      {
+        "path": "/review.html",
+        "status": 404
+      },
+      {
+        "path": "/review-data/catalog.json",
+        "status": 404
+      },
+      {
+        "path": "/assets/collections/japon-fer.png",
+        "status": 404
+      },
+      {
+        "path": "/src/booster-lab/assets/generated-sources/universel-master.png",
+        "status": 404
+      }
+    ],
+    "errors": []
+  },
+  "boosters": {
+    "origin": "https://muse-lab-6f2d.web.app",
+    "cases": [
+      {
+        "width": 1440,
+        "theme": "light",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 1440,
+        "theme": "dark",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 768,
+        "theme": "light",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 768,
+        "theme": "dark",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 390,
+        "theme": "light",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 390,
+        "theme": "dark",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 320,
+        "theme": "light",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      },
+      {
+        "width": 320,
+        "theme": "dark",
+        "boosters": 7,
+        "secondaryThemes": 4,
+        "dialogsChecked": 7,
+        "wholeImages": true,
+        "labelsInside": true,
+        "keyboardAndFocus": true,
+        "storageUntouched": true
+      }
+    ],
+    "errors": []
+  },
+  "accessibility": [
+    {
+      "width": 1440,
+      "path": "/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/card-lab.html",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/card-lab.html",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/booster-lab.html",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/booster-lab.html",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "path": "/opening-lab.html",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/card-lab.html",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/card-lab.html",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/booster-lab.html",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/booster-lab.html",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "width": 390,
+      "path": "/opening-lab.html",
+      "theme": "light",
+      "violations": []
+    }
+  ]
+}

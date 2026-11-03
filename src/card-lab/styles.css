@@ -1,0 +1,672 @@
+@font-face {
+  font-family: "Card Playfair";
+  src: url("/assets/playfair-0.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Card Inter";
+  src: url("/assets/inter-0.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f0e8;
+}
+button,
+select {
+  font: inherit;
+}
+button,
+a,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+.card-lab {
+  --lab-paper: #f5f0e8;
+  --lab-ink: #36251f;
+  --lab-muted: #736257;
+  --lab-line: #d7caba;
+  --lab-accent: #561328;
+  background: var(--lab-paper);
+  color: var(--lab-ink);
+  min-height: 100vh;
+}
+.card-lab--dark {
+  --lab-paper: #211419;
+  --lab-ink: #f5eadb;
+  --lab-muted: #c8b5a7;
+  --lab-line: #594149;
+  --lab-accent: #e0c08a;
+}
+.lab-header {
+  max-width: 1520px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 27px 40px;
+  border-bottom: 1px solid var(--lab-line);
+}
+.lab-brand {
+  font:
+    30px Georgia,
+    serif;
+  letter-spacing: 0.05em;
+  color: inherit;
+  text-decoration: none;
+}
+.lab-brand span {
+  display: block;
+  font:
+    10px Arial,
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-top: 6px;
+  color: var(--lab-muted);
+}
+.lab-theme {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 44px;
+  color: inherit;
+  background: transparent;
+  border: 1px solid var(--lab-line);
+  border-radius: 30px;
+  padding: 9px 15px;
+  font-size: 13px;
+}
+.card-lab main {
+  max-width: 1520px;
+  margin: auto;
+  padding: 0 40px 40px;
+}
+.lab-intro {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
+  padding: 62px 0 40px;
+  align-items: center;
+}
+.lab-eyebrow {
+  font:
+    11px Arial,
+    sans-serif;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--lab-muted);
+}
+.lab-intro h1 {
+  font:
+    clamp(48px, 5.5vw, 84px)/0.98 Georgia,
+    serif;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  margin: 20px 0;
+}
+.lab-intro h1 em {
+  font-weight: 400;
+  color: var(--lab-accent);
+}
+.lab-lead {
+  font:
+    19px/1.6 Georgia,
+    serif;
+  max-width: 490px;
+}
+.lab-intent {
+  max-width: 470px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--lab-muted);
+}
+.lab-intent strong {
+  color: var(--lab-ink);
+}
+.lab-intent details {
+  margin-top: 20px;
+}
+.lab-intent summary {
+  cursor: pointer;
+  color: var(--lab-accent);
+}
+.lab-intent img {
+  display: block;
+  max-width: 240px;
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+}
+.lab-toolbar {
+  border-top: 1px solid var(--lab-line);
+  border-bottom: 1px solid var(--lab-line);
+  padding: 20px 0;
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.lab-toolbar strong {
+  display: block;
+  font:
+    22px Georgia,
+    serif;
+}
+.lab-toolbar div > span {
+  display: block;
+  font-size: 12px;
+  color: var(--lab-muted);
+  margin-top: 5px;
+}
+.lab-toolbar label {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.lab-toolbar select {
+  background: var(--lab-paper);
+  color: var(--lab-ink);
+  border: 1px solid var(--lab-line);
+  padding: 10px;
+  border-radius: 4px;
+  max-width: 100%;
+}
+.lab-toolbar p {
+  width: 100%;
+  margin: 0;
+  font-size: 11px;
+  color: var(--lab-muted);
+}
+.lab-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px 28px;
+  padding-top: 32px;
+}
+.lab-sample {
+  min-width: 0;
+}
+.lab-sample__label {
+  display: flex;
+  gap: 10px;
+  min-height: 64px;
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--lab-muted);
+}
+.lab-sample__label > span {
+  font-variant-numeric: tabular-nums;
+  color: var(--lab-accent);
+}
+.lab-sample__label .lab-sample__copy {
+  color: var(--lab-muted);
+}
+.lab-sample__copy small {
+  display: block;
+  font-size: 11px;
+  margin-top: 3px;
+  color: var(--lab-accent);
+}
+.museum-card {
+  position: relative;
+  container-type: inline-size;
+  width: 100%;
+  aspect-ratio: 2/3;
+  isolation: isolate;
+  background: transparent;
+  color: var(--card-accent, #ead3a0);
+  box-shadow: 0 12px 24px #28130726;
+  border-radius: 2.5%;
+}
+.museum-card__velvet {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background: #38101b url("./assets/carton-velvet.webp") center/cover;
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  pointer-events: none;
+}
+.museum-card__frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+  z-index: 3;
+}
+.museum-card__panel {
+  position: absolute;
+  left: var(--card-panel-left);
+  top: var(--card-panel-top);
+  width: var(--card-panel-width);
+  height: var(--card-panel-height);
+  padding: 1% 1.2%;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto auto 44px;
+  gap: 1.2cqw;
+  min-width: 0;
+}
+.museum-card__rarity-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1cqw;
+  min-height: 0;
+  background: var(--card-rarity-surface);
+  color: var(--card-rarity-ink);
+  padding: 1cqw 1.2cqw;
+  border: 1px solid color-mix(in srgb, var(--card-rarity-surface) 75%, white);
+}
+.museum-card__rarity {
+  display: inline-flex;
+  align-items: center;
+  gap: 1cqw;
+  font-size: clamp(10px, 3.3cqw, 14px);
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.museum-card__brand {
+  font:
+    clamp(8px, 2.2cqw, 10px)/1 Georgia,
+    serif;
+  letter-spacing: 0.12em;
+  color: var(--card-accent);
+}
+.museum-card__rarity svg {
+  width: 3.2cqw;
+  height: 3.2cqw;
+  flex: none;
+}
+.museum-card__image {
+  margin: 0;
+  min-height: 0;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.museum-card__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: contain;
+}
+.museum-card__number {
+  text-align: right;
+  font:
+    clamp(9px, 3cqw, 13px)/1 Georgia,
+    serif;
+  color: var(--card-rarity-ink);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.museum-card__caption {
+  min-width: 0;
+}
+.museum-card h2 {
+  margin: 0;
+  font:
+    400 clamp(17px, 6cqw, 28px)/1.08 Georgia,
+    serif;
+  letter-spacing: -0.025em;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+.museum-card--medium h2 {
+  font-size: clamp(13px, 4.6cqw, 21px);
+}
+.museum-card--long h2 {
+  font-size: clamp(10.5px, 3.8cqw, 17px);
+  line-height: 1.13;
+  letter-spacing: -0.012em;
+}
+.museum-card__artist {
+  margin: 1.2cqw 0 0;
+  font:
+    400 clamp(10px, 3.3cqw, 15px)/1.2 Arial,
+    sans-serif;
+  color: color-mix(in srgb, var(--card-accent) 55%, #eeded3);
+  overflow-wrap: anywhere;
+}
+.museum-card__artist--long {
+  font-size: clamp(10px, 3.1cqw, 14px);
+}
+.museum-card--dense h2 {
+  font-size: clamp(10px, 3.55cqw, 16px);
+  line-height: 1.12;
+}
+.museum-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5cqw;
+  min-height: 44px;
+}
+.museum-card__category {
+  min-width: 0;
+  font:
+    clamp(10px, 3.2cqw, 14px)/1.1 Georgia,
+    serif;
+  display: block;
+  color: var(--card-accent);
+  overflow-wrap: anywhere;
+}
+.museum-card__identity {
+  min-width: 0;
+  display: grid;
+  gap: 1cqw;
+}
+.museum-card__favorite {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border-radius: 50%;
+  border: 1px solid #9c6c6c88;
+  background: #80506230;
+  color: var(--card-accent);
+}
+.museum-card__favorite[aria-pressed="true"] {
+  background: var(--card-accent);
+  color: #57192b;
+}
+.museum-card__favorite:focus-visible {
+  outline: 2px solid #fff4d9;
+  outline-offset: 3px;
+}
+.museum-card__open {
+  position: absolute;
+  left: var(--card-panel-left);
+  top: var(--card-panel-top);
+  width: var(--card-panel-width);
+  height: var(--card-panel-height);
+  z-index: 2;
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.museum-card__open:focus-visible {
+  outline: 2px solid #fff4d9;
+  outline-offset: -2px;
+}
+.museum-card__signature {
+  position: absolute;
+  bottom: 4.1%;
+  left: 30%;
+  right: 30%;
+  text-align: center;
+  font:
+    clamp(8px, 3.2cqw, 14px)/1 Georgia,
+    serif;
+  letter-spacing: 0.24em;
+  color: #5a3f1e;
+  z-index: 4;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff5d177;
+}
+.lab-footer {
+  padding: 45px 0 12px;
+  font:
+    13px/1.8 Georgia,
+    serif;
+  color: var(--lab-muted);
+  max-width: 760px;
+}
+.lab-frame-catalog {
+  padding-top: 45px;
+  margin-top: 40px;
+  border-top: 1px solid var(--lab-line);
+}
+.lab-frame-catalog__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+.lab-frame-catalog h2 {
+  font:
+    32px/1.15 "Card Playfair",
+    Georgia,
+    serif;
+  margin: 8px 0;
+}
+.lab-frame-catalog p,
+.lab-frame-catalog label {
+  font-size: 13px;
+  line-height: 1.7;
+}
+.lab-frame-catalog select {
+  display: block;
+  margin-top: 8px;
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid var(--lab-line);
+  background: var(--lab-paper);
+  color: var(--lab-ink);
+  font: inherit;
+}
+.lab-frame-swatches {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 18px;
+}
+.lab-frame-swatch {
+  margin: 0;
+  min-width: 0;
+}
+.lab-frame-swatch__card {
+  position: relative;
+  aspect-ratio: 2/3;
+  background: transparent;
+}
+.lab-frame-swatch img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.lab-frame-swatch__inside {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  padding: 6px;
+  color: var(--swatch-ink);
+}
+.lab-frame-swatch__inside strong {
+  font:
+    24px/1.2 "Card Playfair",
+    Georgia,
+    serif;
+}
+.lab-frame-swatch__inside span {
+  font-size: 11px;
+  line-height: 1.5;
+}
+.lab-frame-swatch figcaption {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--lab-muted);
+  margin-top: 10px;
+}
+@media (max-width: 650px) {
+  .lab-frame-swatches {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 12px;
+  }
+  .lab-frame-swatch__inside strong {
+    font-size: 18px;
+  }
+  .lab-frame-swatch__inside span {
+    font-size: 10px;
+  }
+}
+.card-lab[data-scale="compact"] .lab-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px 22px;
+}
+.lab-details {
+  position: fixed;
+  max-width: 760px;
+  width: calc(100% - 32px);
+  max-height: 90vh;
+  overflow: auto;
+  padding: 36px;
+  border: 1px solid #c7ac7b;
+  border-radius: 5px;
+  background: #fbf5e9;
+  color: #38251e;
+}
+.lab-details::backdrop {
+  background: #1c0c13bc;
+  backdrop-filter: blur(4px);
+}
+.lab-details h2 {
+  font:
+    34px/1.1 Georgia,
+    serif;
+  padding-right: 25px;
+}
+.lab-details p {
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.lab-details__image {
+  display: block;
+  width: 100%;
+  max-height: 52vh;
+  object-fit: contain;
+}
+.lab-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+}
+.lab-details a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #6b2338;
+  margin: 10px 18px 0 0;
+}
+.lab-credit {
+  font-size: 12px;
+  color: #6b594f;
+}
+@media (min-width: 1600px) {
+  .lab-grid {
+    gap: 44px 34px;
+  }
+}
+@media (max-width: 1100px) {
+  .lab-grid,
+  .card-lab[data-scale="compact"] .lab-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .lab-intro {
+    gap: 35px;
+  }
+}
+@media (max-width: 650px) {
+  .lab-header {
+    padding: 20px 18px;
+  }
+  .card-lab main {
+    padding: 0 18px 30px;
+  }
+  .lab-theme span {
+    display: none;
+  }
+  .lab-intro {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 34px 0 25px;
+  }
+  .lab-intro h1 {
+    font-size: 56px;
+  }
+  .lab-intent {
+    font-size: 13px;
+  }
+  .lab-grid,
+  .card-lab[data-scale="compact"] .lab-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 430px;
+    margin-inline: auto;
+  }
+  .card-lab[data-scale="compact"] .lab-grid {
+    max-width: 290px;
+  }
+  .lab-toolbar label {
+    flex-wrap: wrap;
+  }
+  .lab-details {
+    padding: 24px;
+  }
+  .lab-details h2 {
+    font-size: 28px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+.lab-brand,
+.lab-intro h1,
+.lab-lead,
+.lab-toolbar strong,
+.museum-card h2,
+.museum-card__number,
+.museum-card__category,
+.museum-card__signature,
+.lab-footer,
+.lab-details h2 {
+  font-family: "Card Playfair", Georgia, serif;
+}
+.card-lab,
+.museum-card__artist,
+.lab-brand span,
+.lab-eyebrow {
+  font-family: "Card Inter", Arial, sans-serif;
+}

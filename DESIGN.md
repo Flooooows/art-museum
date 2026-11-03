@@ -257,6 +257,8 @@ components:
 
 # Design System: MUSE
 
+Les bilans de livraison ci-dessous restent historiques. Les comptes rendus auparavant sous `.impeccable/review/` sont conservés dans `docs/archive/reviews/` ; le nettoyage CSS et ses vérifications sont décrits dans `docs/TRI_PROJET.md`.
+
 ## Overview
 
 **Creative North Star: "Tactile Editorial Classicism"**
@@ -265,7 +267,7 @@ Le classicisme éditorial tactile de la référence associe la sérénité d’u
 
 Le monde visuel des quatre maquettes reste la référence, pas leur ancienne succession de pages. Les adaptations approuvées associent textes lisibles, navigation supérieure persistante, thème sombre cohérent et quatre destinations distinctes : **Pochettes / Marché / Collection / Profil**. L’accueil allégé mène par la pochette tous styles ; choisir, ouvrir et révéler se déroule dans un même dialogue, sans page atelier ni page révélation. Kyara inspire uniquement la répartition des rôles, jamais la marque, les polices ou la palette MUSE.
 
-La référence utilisateur `stitch_booster_pack_opening_platform/classical_editorial_gilded_tactile/DESIGN.md` reste inchangée. L’ordre effectif de `src/main.tsx` est `src/styles.css`, puis `src/appearance.css` pour les rôles sémantiques et la lisibilité, puis `src/navigation.css` pour les nouvelles compositions, puis **`src/frames.css` en dernier** pour les cadres et encres de rareté. Le CSS exécuté fait autorité sur les anciennes descriptions ; `src/useTheme.ts` et `src/theme.ts` conservent exactement le comportement du thème. Le dernier contrat de `.impeccable/surface.md` précise cette adaptation sans remplacer l’identité.
+La référence utilisateur `references/mockups/classical_editorial_gilded_tactile/DESIGN.md` reste inchangée. L’ordre effectif de `src/main.tsx` est `src/styles.css`, puis `src/appearance.css` pour les rôles sémantiques et la lisibilité, puis `src/navigation.css` pour les nouvelles compositions, puis **`src/frames.css` en dernier** pour les cadres et encres de rareté. Le CSS exécuté fait autorité sur les anciennes descriptions ; `src/useTheme.ts` et `src/theme.ts` conservent exactement le comportement du thème. Le contrat actuel de `.impeccable/surface.md` précise cette adaptation sans remplacer l’identité.
 
 **Key Characteristics:**
 - Papier chaud et hiérarchie éditoriale muséale.
@@ -365,7 +367,7 @@ L’en-tête est **sticky**, `top: 0`, `z-index: 40`, sur un canevas de thème o
 | `max-width: 1200px` | Collection : gouttières de 32 px, œuvres à deux colonnes, rail de 240 px. |
 | `max-width: 1100px` | En-tête à deux rangées (116 px) ; espaces courants à gouttières de 32 px ; vedette au padding `28px 36px`. |
 | `max-width: 950px` | Rail au-dessus de la collection, panneaux latéraux en deux colonnes. |
-| `max-width: 800px` | Quatre univers sur deux colonnes ; vedette au padding 28 px, image 180 × 270 px ; compteurs du profil sur deux colonnes. |
+| `max-width: 800px` | Six univers sur deux colonnes ; vedette au padding 28 px, image 180 × 270 px ; compteurs du profil sur deux colonnes. |
 | `max-width: 650px` | En-tête à gouttières de 16 px ; collection, panneaux latéraux et fiche empilés ; champs répartis en lignes. |
 | `max-width: 600px` | Espaces courants à gouttières de 20 px ; vedette empilée, choix thématiques en rangées portrait + titre ; résultats et œuvres à une colonne ; dialogue compact. |
 | `max-width: 360px` | Espaces courants à gouttières de 16 px ; portraits thématiques plus étroits et navigation à 13 px. |
@@ -398,7 +400,7 @@ Recherche native sur `paper-mid`, encre `text`, filet `border` et rayon de 3 px 
 ### Artwork Cards & Packs
 Carte d’œuvre : surface `card`, contenant de cadre transparent, reproduction entière en `object-fit: contain`, titre serif de 25 px et artiste Space de 14 px. Rareté et possession sont à 13 px, avec retour à la ligne ; ces informations restent hors de l’image et ne sont pas décoratives. Le bouton d’ouverture et le favori sont séparés ; le favori expose son état avec `aria-pressed`. Une œuvre manquante garde son accès à la fiche et son libellé explicite : **seule la reproduction** passe en niveaux de gris et à une opacité de 0.42, jamais le cadre. Les cinq noms sont **Esquisse, Étude, Composition, Œuvre, Pièce maîtresse**, confirmés inchangés par l’utilisateur, pas les anciennes dénominations de la référence.
 
-Les quatre pochettes thématiques combinent texture, filets, reproduction et indices imprimés ; leurs petites inscriptions appartiennent à l’objet illustratif. Chaque choix est un seul bouton nommé, donnant directement accès au dialogue. La vedette tous styles emploie l’image fournie sans surimpression. Les cartes du dialogue passent d’un dos MUSE à la reproduction entière : toucher ou clavier pour révéler, puis accéder à la fiche ; aucune lecture ne dépend du seul survol. Les fonctions de collection et de musée restent inchangées : filtres, tri, pagination, favoris, possession et exposition.
+Les six pochettes thématiques combinent texture, filets, reproduction et indices imprimés ; leurs petites inscriptions appartiennent à l’objet illustratif. Chaque choix est un seul bouton nommé, donnant directement accès au dialogue. La vedette tous styles emploie l’image fournie sans surimpression. Les cartes du dialogue passent d’un dos MUSE à la reproduction entière : toucher ou clavier pour révéler, puis accéder à la fiche ; aucune lecture ne dépend du seul survol. Les fonctions de collection et de musée restent inchangées : filtres, tri, pagination, favoris, possession et exposition.
 
 ### Supplied Frames & Extension
 

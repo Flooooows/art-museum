@@ -1,0 +1,43 @@
+{
+  "projectId": "muse-lab-6f2d",
+  "displayName": "muse-lab",
+  "origin": "https://muse-lab-6f2d.web.app",
+  "version": "eef884b836375ac6",
+  "releaseTime": "2026-11-01T18:43:45.594Z",
+  "expectedFiles": 1145,
+  "checkedFiles": 1145,
+  "totalBytes": 175191972,
+  "failures": [],
+  "headers": [
+    {
+      "path": "/",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/card-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/booster-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/opening-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    }
+  ],
+  "gameIsolation": {
+    "projectId": "muse-collection-6f2d",
+    "beforeVersion": "d2169e93bdbfd2bf",
+    "afterVersion": "d2169e93bdbfd2bf",
+    "sameRelease": true
+  }
+}

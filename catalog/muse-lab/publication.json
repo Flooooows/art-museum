@@ -1,0 +1,51 @@
+{
+  "projectId": "muse-lab-6f2d",
+  "displayName": "muse-lab",
+  "origin": "https://muse-lab-6f2d.web.app",
+  "version": "3b5f3172d4865a5a",
+  "releaseTime": "2026-11-01T23:45:30.241Z",
+  "change": "Masques stricts sans effacement du métal, douze décors enrichis, rendu natif sans perte et bandeau de rareté commun.",
+  "expectedFiles": 1140,
+  "checkedFiles": 1140,
+  "verification": {
+    "method": "Empreintes SHA-256 téléchargées pour tous les fichiers nouveaux ou modifiés ; empreintes héritées de la livraison précédente et statut HTTP contrôlé pour les fichiers inchangés.",
+    "previousVersion": "5d248620a959da51",
+    "byteVerifiedFiles": 101,
+    "unchangedFilesFromVerifiedPreviousManifest": 1039,
+    "downloadedBytes": 78093821,
+    "retriedFiles": 7
+  },
+  "failures": [],
+  "headers": [
+    {
+      "path": "/",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/card-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/booster-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/opening-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    }
+  ],
+  "gameIsolation": {
+    "projectId": "muse-collection-6f2d",
+    "beforeVersion": "d2169e93bdbfd2bf",
+    "afterVersion": "d2169e93bdbfd2bf",
+    "sameRelease": true
+  }
+}

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
   Check,
@@ -6,9 +6,7 @@ import {
   Gift,
   HardDrive,
   Info,
-  Moon,
   Search,
-  Sun,
   Upload,
   X,
 } from "lucide-react";
@@ -31,7 +29,6 @@ import Collection from "./Collection";
 import Market from "./Market";
 import Profile from "./Profile";
 import { navigation, resolvePage, type Page } from "./navigation";
-import { useTheme } from "./useTheme";
 
 function loadCollection() {
   try {
@@ -47,7 +44,6 @@ function loadCollection() {
 }
 
 export default function App() {
-  const { theme, toggleTheme } = useTheme();
   const [boot] = useState(loadCollection);
   const [state, setState] = useState(boot.state);
   const [persistence, setPersistence] = useState(!boot.error);
@@ -59,6 +55,7 @@ export default function App() {
     selected: string;
     revealed: boolean;
   } | null>(null);
+  const openingLock = useRef(false);
   const [detail, setDetail] = useState<Artwork | null>(null);
   const [imported, setImported] = useState<CollectionState | null>(null);
   const [importError, setImportError] = useState("");
@@ -140,8 +137,10 @@ export default function App() {
       window.history.pushState(null, "", `#${next}`);
     setPage(next);
   };
-  const choose = (selected: string) =>
+  const choose = (selected: string) => {
+    openingLock.current = false;
     setOpening({ selected, revealed: false });
+  };
   const countdownMs = Math.max(0, state.rechargedAt + REFILL_MS - now);
   const countdown = `${String(Math.floor(countdownMs / 60000)).padStart(2, "0")}:${String(Math.floor((countdownMs % 60000) / 1000)).padStart(2, "0")}`;
   const toggleFavorite = (id: string) =>
@@ -167,14 +166,18 @@ export default function App() {
     );
   };
   const handleOpen = (quick: boolean) => {
-    if (!opening || opening.revealed) return;
+    if (!opening || opening.revealed || openingLock.current) return false;
+    openingLock.current = true;
     try {
       const draw = openPack(state, opening.selected);
       const next = quick ? revealCards(draw) : draw;
       setState(next);
       setOpening({ ...opening, revealed: true });
+      return true;
     } catch (error) {
+      openingLock.current = false;
       setMessage((error as Error).message);
+      return false;
     }
   };
   const reveal = (index?: number) =>
@@ -266,24 +269,6 @@ export default function App() {
               </span>
             </button>
             <button
-              type="button"
-              className="icon-button theme-toggle"
-              aria-label={
-                theme === "dark"
-                  ? "Activer le thème clair"
-                  : "Activer le thème sombre"
-              }
-              aria-pressed={theme === "dark"}
-              title={
-                theme === "dark"
-                  ? "Passer au thème clair"
-                  : "Passer au thème sombre"
-              }
-              onClick={toggleTheme}
-            >
-              {theme === "dark" ? <Sun size={21} /> : <Moon size={21} />}
-            </button>
-            <button
               className="icon-button search-header"
               aria-label="Rechercher dans la collection"
               onClick={() => {
@@ -344,8 +329,6 @@ export default function App() {
           <Profile
             state={state}
             persistence={persistence}
-            theme={theme}
-            onToggleTheme={toggleTheme}
             onExport={exportCollection}
             onImport={(file) => {
               void importFile(file);

@@ -1,0 +1,65 @@
+.muse-lab-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  padding: 14px max(20px, calc((100vw - 1344px) / 2));
+  background: #eee5d8;
+  color: #39292b;
+  border-bottom: 1px solid #d4c4b4;
+  font:
+    12px/1.5 Arial,
+    sans-serif;
+}
+.muse-lab-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 5px 12px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+.muse-lab-nav a:hover {
+  background: #e3d5c4;
+}
+.muse-lab-nav a[aria-current="page"] {
+  border-bottom-color: #722640;
+  color: #722640;
+}
+.muse-lab-nav a:focus-visible {
+  outline: 2px solid #722640;
+  outline-offset: 2px;
+}
+.muse-lab-nav__brand {
+  gap: 7px;
+  font:
+    18px Georgia,
+    serif;
+  letter-spacing: 0.03em;
+}
+.muse-lab-nav__brand span {
+  font:
+    11px Arial,
+    sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.muse-lab-nav > div {
+  display: flex;
+  gap: 8px;
+}
+@media (max-width: 440px) {
+  .muse-lab-nav {
+    padding: 8px 12px;
+    gap: 4px;
+  }
+  .muse-lab-nav a {
+    padding-inline: 8px;
+    min-height: 40px;
+  }
+  .muse-lab-nav > div {
+    gap: 2px;
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "scope": "MUSE Lab uniquement ; œuvres, raretés, inventaires et sauvegardes conservés.",
+  "catalog": {
+    "artworks": 1011,
+    "sampleCards": 21,
+    "frameVariants": 95,
+    "archivedUnassignedVariants": 5,
+    "detailedMasters": 12
+  },
+  "rendering": {
+    "width": 1024,
+    "height": 1536,
+    "format": "WebP sans perte",
+    "commonAperture": {
+      "left": 19.23828125,
+      "top": 16.666666666666664,
+      "width": 61.5234375,
+      "height": 63.86718750000001
+    },
+    "rarityBand": "Après le titre et l’artiste, juste avant le type et le favori ; aligné entre les cartes.",
+    "fullTitlesAndArtists": true,
+    "wholeArtworkImages": true
+  },
+  "checks": {
+    "typecheck": "passed",
+    "tests": {
+      "total": 169,
+      "passed": 169,
+      "failed": 0
+    },
+    "labBuild": {
+      "passed": true,
+      "files": 1140
+    },
+    "browsers": {
+      "dev": {
+        "origin": "http://127.0.0.1:4180",
+        "configurations": [
+          {
+            "width": 1440,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 195.296875,
+            "bandAlignment": 0.000007618378097706824,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 195.296875,
+            "bandAlignment": 0.000007618378097706824,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 133.3125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 133.3125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 768,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 136.875,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 768,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 136.875,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 768,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 138.625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 768,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 138.625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 150.28125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 150.28125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 106.0625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 106.0625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 320,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 89.4375,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 320,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 89.4375,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 320,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 89.4375,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 320,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 89.4375,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          }
+        ],
+        "errors": [],
+        "details": "dev-browser.json"
+      },
+      "compiled": {
+        "origin": "http://127.0.0.1:4181",
+        "configurations": [
+          {
+            "width": 1440,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 195.296875,
+            "bandAlignment": 0.000007618378097706824,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 195.296875,
+            "bandAlignment": 0.000007618378097706824,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 133.3125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 133.3125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 768,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 136.875,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 768,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 136.875,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 768,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 138.625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 768,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 138.625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 150.28125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 150.28125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 106.0625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 106.0625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 320,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 89.4375,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 320,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 89.4375,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 320,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 89.4375,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 320,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 89.4375,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          }
+        ],
+        "errors": [],
+        "details": "compiled-browser.json"
+      },
+      "live": {
+        "origin": "https://muse-lab-6f2d.web.app",
+        "configurations": [
+          {
+            "width": 1440,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 195.296875,
+            "bandAlignment": 0.000007618378097706824,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 195.296875,
+            "bandAlignment": 0.000007618378097706824,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 133.3125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 1440,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 133.3125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "comfortable",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 150.28125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "comfortable",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 150.28125,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "compact",
+            "theme": "light",
+            "cards": 21,
+            "minImageHeight": 106.0625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          },
+          {
+            "width": 390,
+            "scale": "compact",
+            "theme": "dark",
+            "cards": 21,
+            "minImageHeight": 106.0625,
+            "bandAlignment": 0,
+            "fullTexts": true,
+            "nativeFrames": true,
+            "insideFrame": true,
+            "gameStorageUntouched": true
+          }
+        ],
+        "errors": [],
+        "details": "live-browser.json"
+      }
+    },
+    "swatchVariantsCheckedInDevAndCompiled": 95,
+    "accessibility": {
+      "configurations": 12,
+      "violations": 0,
+      "rules": [
+        "wcag2a",
+        "wcag2aa",
+        "wcag21aa"
+      ],
+      "caveat": "Contrôle automatique, pas une certification.",
+      "details": "accessibility.json"
+    },
+    "masks": {
+      "legacyVariantsAudited": 30,
+      "legacyVariantsWithOverlap": 30,
+      "oldOverlapPixels": 138138,
+      "newOverlapPixels": 0,
+      "newMetalPixelsRemoved": 0,
+      "historicalNonemptyPixelsPreserved": true,
+      "oldSourcesAndVariantsRetained": true,
+      "audit": "../../../catalog/card-lab/refined-frames/mask-audit.json"
+    }
+  },
+  "publication": {
+    "projectId": "muse-lab-6f2d",
+    "displayName": "muse-lab",
+    "origin": "https://muse-lab-6f2d.web.app",
+    "version": "3b5f3172d4865a5a",
+    "releaseTime": "2026-11-01T23:45:30.241Z",
+    "change": "Masques stricts sans effacement du métal, douze décors enrichis, rendu natif sans perte et bandeau de rareté commun.",
+    "expectedFiles": 1140,
+    "checkedFiles": 1140,
+    "verification": {
+      "method": "Empreintes SHA-256 téléchargées pour tous les fichiers nouveaux ou modifiés ; empreintes héritées de la livraison précédente et statut HTTP contrôlé pour les fichiers inchangés.",
+      "previousVersion": "5d248620a959da51",
+      "byteVerifiedFiles": 101,
+      "unchangedFilesFromVerifiedPreviousManifest": 1039,
+      "downloadedBytes": 78093821,
+      "retriedFiles": 7
+    },
+    "failures": [],
+    "headers": [
+      {
+        "path": "/",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "path": "/card-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "path": "/booster-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "path": "/opening-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      }
+    ],
+    "gameIsolation": {
+      "projectId": "muse-collection-6f2d",
+      "beforeVersion": "d2169e93bdbfd2bf",
+      "afterVersion": "d2169e93bdbfd2bf",
+      "sameRelease": true
+    }
+  },
+  "previews": [
+    "joconde-mobile.png",
+    "sculpture-mobile.png",
+    "titre-long-mobile.png",
+    "titre-long-estampe-mobile.png",
+    "manuscrit-mobile.png",
+    "douze-details.png",
+    "planche-21-cartes.png",
+    "page-ordinateur.png"
+  ]
+}

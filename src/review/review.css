@@ -4,6 +4,65 @@
   font-weight: 400;
   font-display: swap;
 }
+.personal-rarity-summary {
+  width: 100%;
+  min-width: 0;
+  padding: 20px;
+  margin-block: 16px 24px;
+  border: 1px solid var(--line);
+  background: var(--inset);
+}
+.personal-rarity-summary h2 {
+  font-family: Playfair, Georgia, serif;
+  font-size: 25px;
+  margin: 0 0 10px;
+}
+.personal-rarity-summary p {
+  color: var(--soft);
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 10px 0;
+}
+.personal-rarity-summary .personal-rarity-total {
+  color: var(--ink);
+  font-weight: 600;
+}
+.personal-rarity-levels {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin-block: 16px;
+}
+.personal-rarity-levels button {
+  flex-direction: column;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.personal-rarity-levels strong {
+  font-size: 24px;
+  font-variant-numeric: tabular-nums;
+}
+.personal-rarity-scope {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.personal-rarity-summary button[aria-pressed="true"] {
+  background: var(--action);
+  color: var(--on-action);
+  border-color: var(--action);
+}
+@media (max-width: 600px) {
+  .personal-rarity-summary {
+    padding: 16px;
+  }
+  .personal-rarity-levels {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .personal-rarity-scope button {
+    width: 100%;
+  }
+}
 @font-face {
   font-family: Inter;
   src: url("/assets/inter-0.woff2") format("woff2");
@@ -950,4 +1009,67 @@ progress::-moz-progress-bar {
     transition: none !important;
     scroll-behavior: auto !important;
   }
+}
+/* EU legal admissibility is not a rarity or an artistic selection. */
+.legal-overview,
+.legal-status {
+  border: 1px solid var(--line, #b6aaa0);
+  padding: 16px;
+  margin-block: 16px;
+  overflow-wrap: anywhere;
+}
+.legal-overview h2 {
+  font-size: 24px;
+  margin: 0 0 12px;
+}
+.legal-overview p,
+.legal-status p,
+.legal-status li,
+.legal-status dd {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.legal-overview select {
+  max-width: 100%;
+  padding: 10px;
+  font: inherit;
+}
+.legal-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-block: 14px;
+}
+.legal-status {
+  margin: 12px 16px;
+  border-left-width: 4px;
+}
+.legal-status code {
+  display: block;
+  font-size: 11px;
+  margin-block: 6px;
+}
+.legal-status summary {
+  cursor: pointer;
+  font-size: 14px;
+  padding-block: 6px;
+}
+.legal-status ul {
+  padding-left: 20px;
+}
+.legal-status dd {
+  margin: 0 0 12px;
+}
+.legal-status dt {
+  font-weight: 600;
+  margin-top: 12px;
+}
+.legal-AUTO_APPROVED_EU {
+  border-left-color: #37865b;
+}
+.legal-REVIEW_REQUIRED {
+  border-left-color: #bd8d35;
+}
+.legal-BLOCKED {
+  border-left-color: #ba4555;
 }

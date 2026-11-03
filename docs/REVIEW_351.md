@@ -14,7 +14,7 @@ Depuis la racine du projet :
 npm run dev -- --host 127.0.0.1
 ```
 
-Ouvrir `http://localhost:5173/review-351.html` (ou le port affiché par Vite). Choisir séparément une rareté finale et un statut **Retenir / Écarter / Reporter / Réexaminer**. Rien n’est précoché. Retenir une œuvre n’active aucune carte et ne publie aucune image.
+Ouvrir `http://localhost:5173/masterpieces.html` (ou le port affiché par Vite). L'ancienne entrée locale `/review-351.html` a été retirée car elle doublonnait cette vue. Choisir séparément une rareté finale et un statut **Retenir / Écarter / Reporter / Réexaminer**. Rien n’est précoché. Retenir une œuvre n’active aucune carte et ne publie aucune image.
 
 Les sources, crédits photographiques et portée territoriale sont dans **Droits & historique**. La proposition V2 expose ses critères, données manquantes et niveau de confiance dans **Données & sources**. Une priorité de recherche « Pièce maîtresse » ne constitue ni un bonus chiffré ni un choix humain déjà enregistré.
 
@@ -22,9 +22,9 @@ Les choix sont conservés dans ce navigateur sous `muse:enrichment-351-review:v1
 
 ## Lire le dossier
 
-- `enrichment-351-report.md` : synthèse et tableau des 351 lignes, nouvelles œuvres, raretés, licences, images haute définition et notices.
-- `enrichment-351-results.json` : résultat par identifiant d’entrée, sources, réserves, droits séparés et calculs détaillés.
-- `enrichment-351-review.json` : prévisualisation de revue, **pas** un import dans le catalogue actif du jeu.
+- `catalog/enrichment-351/reports/REPORT.md` : synthèse et tableau des 351 lignes, nouvelles œuvres, raretés, licences, images haute définition et notices.
+- `catalog/enrichment-351/reports/results.json` : résultat par identifiant d’entrée, sources, réserves, droits séparés et calculs détaillés.
+- `catalog/enrichment-351/reports/review.json` : prévisualisation de revue, **pas** un import dans le catalogue actif du jeu.
 - `catalog/enrichment-351/image-manifest.json` : dimensions, empreintes, crédits et transformations des reproductions locales.
 - `catalog/enrichment-351/approvals.json` : sélections documentaires explicites, corrections et cas exclus.
 
@@ -51,10 +51,10 @@ npm run enrichment:images
 npm run enrichment:build
 npm test
 npx tsc -b
-npm run build:enrichment
+npm run build:atelier
 ```
 
-La commande d’images réutilise les fichiers contrôlés ; elle télécharge uniquement les fichiers approuvés manquants. Le build de validation ne copie pas les données publiques : utiliser Vite en développement pour la revue locale complète. Aucun Hosting ne cible `dist-enrichment-351`. Le build de l’atelier copie explicitement les deux catalogues de candidates et leurs images ; la configuration du site de jeu continue à exclure ce lot. Pour republier uniquement l’atelier après validation : `npm run build:atelier`, puis `npx --yes --package firebase-tools firebase deploy --only hosting --config firebase.json --project art-museum-8fdd8 --non-interactive`. **Ne pas utiliser `deploy:muse` pour cette revue.**
+La commande d’images réutilise les fichiers contrôlés ; elle télécharge uniquement les fichiers approuvés manquants. Les générateurs restent réservés à une reconstruction éditoriale voulue, pas au démarrage ni au tri des fichiers. Le build de l’atelier copie explicitement les deux catalogues de candidates et leurs images ; la configuration du site de jeu continue à exclure ce lot. L'ancien build isolé `build:enrichment` a été retiré : vérifier le paquet complet avec `build:atelier`, puis `preview:atelier`. Pour republier uniquement l’atelier après validation : `npm run deploy:atelier`. **Ne pas utiliser `deploy:muse` pour cette revue.**
 
 Les collecteurs de recherche séparés acceptent `--live` pour les appels API ; `collect-policy.ts` et `collect-official.ts` peuvent récupérer les captures textuelles manquantes. Ils ne constituent pas une validation automatique. Une actualisation de preuves impose de régénérer et de tester le lot ; ne jamais contourner le refus d’un export devenu incompatible.
 

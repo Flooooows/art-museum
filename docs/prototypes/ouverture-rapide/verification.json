@@ -1,0 +1,117 @@
+{
+  "change": "Ouverture simplifiée : rythme rapide, cartes une par une, bouton Tout révéler juste sous les cartes ; réglages retirés, sauvegardes et lab inchangés.",
+  "opening": {
+    "speed": 1.6,
+    "defaultReveal": "sequential",
+    "settingsVisible": false,
+    "revealAllBelowCards": true,
+    "automaticReducedMotion": true
+  },
+  "tests": {
+    "total": 177,
+    "passed": 177,
+    "failed": 0
+  },
+  "browsers": {
+    "dev": {
+      "configurations": 9,
+      "accessibilityStates": 24,
+      "errors": [],
+      "accessibilityViolations": 0
+    },
+    "compiled": {
+      "configurations": 7,
+      "accessibilityStates": 16,
+      "errors": [],
+      "accessibilityViolations": 0
+    },
+    "live": {
+      "configurations": 7,
+      "accessibilityStates": 16,
+      "errors": [],
+      "accessibilityViolations": 0
+    }
+  },
+  "publication": {
+    "projectId": "muse-collection-6f2d",
+    "origin": "https://muse-collection-6f2d.web.app",
+    "version": "b256155a8d780c8e",
+    "releaseTime": "2026-11-02T20:34:46.884Z",
+    "previousVersion": "545b73e7f226d778",
+    "sourceLabVersion": "3b5f3172d4865a5a",
+    "change": "Ouverture simplifiée : rythme rapide, cartes une par une, bouton Tout révéler juste sous les cartes ; réglages retirés, sauvegardes et lab inchangés.",
+    "expectedFiles": 1136,
+    "checkedFiles": 1136,
+    "verification": {
+      "method": "Tous les fichiers publiés téléchargés et vérifiés par SHA-256 contre le build local.",
+      "byteVerifiedFiles": 1136,
+      "downloadedBytes": 232494787,
+      "retriedFiles": 0
+    },
+    "failures": [],
+    "headers": [
+      {
+        "path": "/",
+        "status": 200,
+        "cache": "no-cache"
+      },
+      {
+        "path": "/index.html",
+        "status": 200,
+        "cache": "no-cache"
+      }
+    ],
+    "excluded": [
+      {
+        "path": "/review.html",
+        "status": 404
+      },
+      {
+        "path": "/masterpieces.html",
+        "status": 404
+      },
+      {
+        "path": "/card-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/opening-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/booster-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/muse-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/assets/collections/beaux-arts-lapis-lazuli.png",
+        "status": 404
+      },
+      {
+        "path": "/src/card-lab/assets/generated-sources/peinture-detail-v2.png",
+        "status": 404
+      },
+      {
+        "path": "/tests/browser/game-presentation.html",
+        "status": 404
+      }
+    ],
+    "labIsolation": {
+      "projectId": "muse-lab-6f2d",
+      "beforeVersion": "3b5f3172d4865a5a",
+      "afterVersion": "3b5f3172d4865a5a",
+      "sameRelease": true
+    },
+    "storage": {
+      "key": "muse-collection-v1",
+      "version": 1,
+      "legacyThreeCardResultsSupported": true,
+      "reset": false
+    }
+  },
+  "labUnchanged": true,
+  "inventoryAndRaritiesUnchanged": true
+}

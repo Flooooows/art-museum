@@ -34,11 +34,13 @@ L’ancienne grille active et l’essai Internet à quatre scores complets (`cat
 
 ### Atelier de validation indépendant
 
-L’utilisateur a confirmé un mini-site séparé de 1 000 œuvres au total : les 100 actuelles et 900 nouvelles. `/review.html` affiche les scores et propositions V2 sous les reproductions, avec un seul choix humain de rareté finale, filtres, progression et export/import. Les décisions sont locales au navigateur, dans un stockage distinct du jeu. Les nouvelles familles appartiennent à l’atelier, pas aux pochettes actives. Aucun choix n’est précoché ni activé automatiquement. Les scores historiques sont conservés ; les nouvelles notices sont CC0 de Cleveland, avec estimations et limites explicites. Aucun backend ou déploiement supplémentaire n’est inclus.
+L’atelier indépendant contient 1 000 œuvres au total : les 100 actuelles et 900 nouvelles. `/review.html` affiche les scores et propositions V2 sous les reproductions, avec un choix humain exclusif, filtres, progression et export/import. Deux lots de candidates complètent la revue : 78 œuvres à `/masterpieces.html` et le premier lot de 25 à `?lot=initial`, avec versions et sauvegardes séparées. Aucune décision n’est précochée ni activée automatiquement dans le jeu. Les nouvelles familles appartiennent à la revue, pas aux pochettes actives.
+
+Le jeu est hébergé sur `muse-collection-6f2d.web.app` et l’atelier sur `art-museum-8fdd8-atelier.web.app`. Firebase Hosting ne fournit ici ni comptes ni synchronisation : toutes les collections et décisions restent locales et exportables. Les 900 nouvelles images du millier viennent du CDN Cleveland ; les images du jeu et des lots de candidates sont locales. Voir `docs/ETAT_ACTUEL.md` pour le statut et les limites connus.
 
 ## Brand Commitments
 
-Nom MUSE issu des maquettes. Reproduire la direction visuelle des fichiers dans `stitch_booster_pack_opening_platform/`, en adaptant les textes aux règles du concept.
+Nom MUSE issu des maquettes. Reproduire la direction visuelle des fichiers dans `references/mockups/`, en adaptant les textes aux règles du concept.
 
 Conserver les textes lisibles, les thèmes ivoire et bordeaux profond et l’image `booster.png` fournie par l’utilisateur. Kyara sert de référence pour la séparation des usages des onglets, pas pour remplacer le graphisme MUSE. La structure simplifiée demandée prime sur les anciennes compositions d’accueil et pages d’ouverture.
 
@@ -48,7 +50,7 @@ L’utilisateur a autorisé la génération des cinq cadres Arts décoratifs, r�
 
 ## Evidence on Hand
 
-`concept.md`, quatre maquettes HTML et PNG, et `stitch_booster_pack_opening_platform/classical_editorial_gilded_tactile/DESIGN.md`. Les comptes, paiements, abonnements, bourse et échanges nécessitent un futur backend ; ne pas les présenter comme opérationnels.
+`concept.md`, quatre maquettes HTML et PNG dans `references/mockups/`, et leur `classical_editorial_gilded_tactile/DESIGN.md`. Les comptes, paiements, abonnements, bourse et échanges nécessitent un futur backend ; ne pas les présenter comme opérationnels.
 
 ## Product Principles
 

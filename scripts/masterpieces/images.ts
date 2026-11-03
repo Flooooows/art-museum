@@ -1,4 +1,5 @@
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { writeFile, mkdir } from "node:fs/promises";
+import { readProjectFile as readFile } from "../project-files";
 import sharp from "sharp";
 import { sha256 } from "../rarity-v2/http";
 

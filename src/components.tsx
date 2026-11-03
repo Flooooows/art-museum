@@ -12,21 +12,22 @@ import {
   Diamond,
   Heart,
   Landmark,
-  LockKeyhole,
   Sparkles,
   X,
 } from "lucide-react";
 import {
   type Artwork,
   type Catalog,
-  catalogs,
+  visibleCatalogs,
+  catalogCover,
   getCatalog,
   museumName,
   rarities,
-  ratesForCatalog,
 } from "./data";
 import FramedArtwork from "./FramedArtwork";
 import { CARDS_PER_PACK } from "./packRules";
+import CompactCard from "./game-presentation/cards/CompactCard";
+import { ratesForPack } from "./packSelection";
 
 export function Brand({ small = false }: { small?: boolean }) {
   return (
@@ -97,7 +98,7 @@ export function Rates({
   light?: boolean;
   catalog?: string;
 }) {
-  const rates = ratesForCatalog(catalog);
+  const rates = ratesForPack(catalog);
   return (
     <div className={`rates ${light ? "rates-light" : ""}`}>
       <h3>Probabilités par carte</h3>
@@ -157,13 +158,18 @@ export function Pack({
           <span>
             MUSE ·{" "}
             {catalog
-              ? `VOL. ${catalogs.indexOf(catalog) + 1}`
+              ? visibleCatalogs.includes(catalog)
+                ? `VOL. ${visibleCatalogs.indexOf(catalog) + 1}`
+                : "ARCHIVE"
               : "COLLECTION PRIVÉE"}
           </span>
           <BadgeCheck size={13} />
         </div>
         <div className="pack-center">
-          <img src={`/assets/${catalog?.image || "hero-art"}.jpg`} alt="" />
+          <img
+            src={catalog ? catalogCover(catalog) : "/assets/hero-art.jpg"}
+            alt=""
+          />
           <span className="pack-name">
             {featured ? "MUSE" : catalog?.title}
           </span>
@@ -196,50 +202,19 @@ export function ArtworkCard({
   onFavorite?: () => void;
 }) {
   return (
-    <article
-      className={`artwork-card ${missing ? "artwork-missing" : ""}`}
-      style={{ "--rarity": rarities[art.rarity].color } as CSSProperties}
-    >
-      <button className="artwork-open" onClick={onOpen}>
-        <div className="artwork-mat">
-          <div className="artwork-card-top">
-            <Rarity level={art.rarity} />
-            <span>
-              {missing ? <LockKeyhole size={13} /> : `N° ${artworksIndex(art)}`}
-            </span>
-          </div>
-          <FramedArtwork art={art} missing={missing} />
-          <div className="artwork-index">
-            <span>MUSE</span>
-            <span>
-              {missing
-                ? "À DÉCOUVRIR"
-                : `${count} EXEMPLAIRE${count > 1 ? "S" : ""}`}
-            </span>
-          </div>
-        </div>
-        <h3>{art.title}</h3>
-        <p className="artist-name">{art.artist}</p>
-      </button>
-      <div className="artwork-card-foot">
-        <span>{getCatalog(art.catalog)?.family}</span>
-        {onFavorite && (
-          <button
-            className={`icon-button favorite-button ${favorite ? "is-favorite" : ""}`}
-            onClick={onFavorite}
-            aria-label={`${favorite ? "Retirer" : "Ajouter"} ${art.title} ${favorite ? "des" : "aux"} coups de cœur`}
-            aria-pressed={favorite}
-          >
-            <Heart size={16} fill={favorite ? "currentColor" : "none"} />
-          </button>
-        )}
-      </div>
-    </article>
+    <div data-artwork-id={art.id} className="published-card">
+      <CompactCard
+        art={art}
+        favorite={favorite}
+        missing={missing}
+        onOpen={onOpen}
+        onFavorite={onFavorite}
+      />
+      <p className="published-card__ownership">
+        {missing ? "À découvrir" : `${count} exemplaire${count > 1 ? "s" : ""}`}
+      </p>
+    </div>
   );
-}
-
-function artworksIndex(art: Artwork) {
-  return art.id === "mona-lisa" ? "001" : art.id.slice(-3);
 }
 
 let openModalCount = 0;
@@ -260,12 +235,14 @@ export function Modal({
   const titleId = useId();
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null;
-    ref.current?.showModal();
+    const dialog = ref.current;
+    dialog?.showModal();
     if (openModalCount === 0)
       previousBodyOverflow = document.body.style.overflow;
     openModalCount += 1;
     document.body.style.overflow = "hidden";
     return () => {
+      dialog?.close();
       openModalCount -= 1;
       if (openModalCount === 0)
         document.body.style.overflow = previousBodyOverflow;
@@ -277,7 +254,10 @@ export function Modal({
       ref={ref}
       aria-labelledby={titleId}
       className={`modal ${className}`}
-      onCancel={onClose}
+      onCancel={(event) => {
+        event.preventDefault();
+        onClose();
+      }}
       onClick={(event) => {
         if (event.target === event.currentTarget) onClose();
       }}
@@ -312,7 +292,7 @@ export function ArtworkDetail({
 }) {
   return (
     <Modal title="Dans le détail" className="detail-modal" onClose={onClose}>
-      <div className="detail-grid">
+      <div className="detail-grid" data-artwork-id={art.id}>
         <div className="detail-reproduction">
           <FramedArtwork art={art} eager />
           <span>Reproduction entière · {art.imageCredit}</span>
@@ -329,6 +309,21 @@ export function ArtworkDetail({
           <p>{art.story}</p>
           <dl>
             <div>
+              <dt>Type d’œuvre</dt>
+              <dd>{getCatalog(art.catalog)?.title}</dd>
+            </div>
+            {art.catalogIds.length > 1 && (
+              <div>
+                <dt>Thèmes</dt>
+                <dd>
+                  {art.catalogIds
+                    .filter((id) => id !== art.catalog)
+                    .map((id) => getCatalog(id)?.title)
+                    .join(" · ")}
+                </dd>
+              </div>
+            )}
+            <div>
               <dt>Époque</dt>
               <dd>{art.date}</dd>
             </div>
@@ -344,6 +339,18 @@ export function ArtworkDetail({
               <dt>Conservation</dt>
               <dd>{museumName(art)}</dd>
             </div>
+            {art.inventoryNumber && (
+              <div>
+                <dt>Inventaire du musée</dt>
+                <dd>{art.inventoryNumber}</dd>
+              </div>
+            )}
+            {art.category && (
+              <div>
+                <dt>Catégorie de la notice</dt>
+                <dd>{art.category}</dd>
+              </div>
+            )}
             <div>
               <dt>Dans votre inventaire</dt>
               <dd>
@@ -362,6 +369,46 @@ export function ArtworkDetail({
             <BookOpen size={15} />
             Consulter la notice du musée <ArrowRight size={15} />
           </a>
+          {art.reuseUrl && (
+            <a
+              className="source-link"
+              href={art.reuseUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Droits et réutilisation · {art.reuseLabel}{" "}
+              <ArrowRight size={15} />
+            </a>
+          )}
+          {art.imageSource && (
+            <a
+              className="source-link"
+              href={art.imageSource}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source de la reproduction <ArrowRight size={15} />
+            </a>
+          )}
+          {art.reuseObligations?.length ? (
+            <div className="fine-print">
+              <p>Conditions de réutilisation de cette reproduction :</p>
+              <ul>
+                {art.reuseObligations.map((o) => (
+                  <li key={o}>{o}</li>
+                ))}
+              </ul>
+              <p>Aucun soutien du musée à MUSE n’est suggéré.</p>
+            </div>
+          ) : null}
+          {art.institutionalNote && (
+            <details>
+              <summary>
+                Extrait de la notice du musée · langue d’origine
+              </summary>
+              <p>{art.institutionalNote}</p>
+            </details>
+          )}
           <div className="detail-actions">
             <Button onClick={onFavorite} variant="ghost">
               <Heart size={16} fill={favorite ? "currentColor" : "none"} />
@@ -373,9 +420,11 @@ export function ArtworkDetail({
             </Button>
           </div>
           <p className="fine-print">
-            {art.publicationStatus === "demo"
-              ? "Rareté de démonstration : elle ne mesure ni la qualité artistique ni la valeur marchande. Classement éditorial à valider."
-              : "La rareté reflète une évaluation éditoriale de notoriété, ni la qualité artistique ni la valeur marchande."}
+            {art.rarityOrigin === "manual-review"
+              ? "Rareté finale choisie manuellement pour MUSE. Ce classement ne mesure ni la qualité artistique ni la valeur marchande de l’œuvre."
+              : art.publicationStatus === "demo"
+                ? "Rareté de démonstration : elle ne mesure ni la qualité artistique ni la valeur marchande. Classement éditorial à valider."
+                : "La rareté reflète une évaluation éditoriale de notoriété, ni la qualité artistique ni la valeur marchande."}
           </p>
         </div>
       </div>

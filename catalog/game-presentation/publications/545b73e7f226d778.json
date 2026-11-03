@@ -1,0 +1,80 @@
+{
+  "projectId": "muse-collection-6f2d",
+  "origin": "https://muse-collection-6f2d.web.app",
+  "version": "545b73e7f226d778",
+  "releaseTime": "2026-11-02T00:31:00.367Z",
+  "previousVersion": "d2169e93bdbfd2bf",
+  "sourceLabVersion": "3b5f3172d4865a5a",
+  "change": "Intégration des cartes et cadres détaillés, des sept pochettes et des animations validées ; acquisitions réelles et sauvegardes conservées.",
+  "expectedFiles": 1136,
+  "checkedFiles": 1136,
+  "verification": {
+    "method": "Tous les fichiers publiés téléchargés et vérifiés par SHA-256 contre le build local.",
+    "byteVerifiedFiles": 1136,
+    "downloadedBytes": 232496529,
+    "retriedFiles": 0
+  },
+  "failures": [],
+  "headers": [
+    {
+      "path": "/",
+      "status": 200,
+      "cache": "no-cache"
+    },
+    {
+      "path": "/index.html",
+      "status": 200,
+      "cache": "no-cache"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "/review.html",
+      "status": 404
+    },
+    {
+      "path": "/masterpieces.html",
+      "status": 404
+    },
+    {
+      "path": "/card-lab.html",
+      "status": 404
+    },
+    {
+      "path": "/opening-lab.html",
+      "status": 404
+    },
+    {
+      "path": "/booster-lab.html",
+      "status": 404
+    },
+    {
+      "path": "/muse-lab.html",
+      "status": 404
+    },
+    {
+      "path": "/assets/collections/beaux-arts-lapis-lazuli.png",
+      "status": 404
+    },
+    {
+      "path": "/src/card-lab/assets/generated-sources/peinture-detail-v2.png",
+      "status": 404
+    },
+    {
+      "path": "/tests/browser/game-presentation.html",
+      "status": 404
+    }
+  ],
+  "labIsolation": {
+    "projectId": "muse-lab-6f2d",
+    "beforeVersion": "3b5f3172d4865a5a",
+    "afterVersion": "3b5f3172d4865a5a",
+    "sameRelease": true
+  },
+  "storage": {
+    "key": "muse-collection-v1",
+    "version": 1,
+    "legacyThreeCardResultsSupported": true,
+    "reset": false
+  }
+}

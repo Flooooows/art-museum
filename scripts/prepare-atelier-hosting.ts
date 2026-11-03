@@ -22,6 +22,7 @@ const files = new Set([
   catalogFile,
   candidatesFile,
   enrichmentFile,
+  "legal-eu/report.json",
   ...enrichment.works.map((w) => w.imageUrl.slice(1)),
   ...candidates.works.map((w) => w.imageUrl.slice(1)),
   "favicon.svg",

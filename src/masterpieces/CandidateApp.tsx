@@ -2,7 +2,17 @@ import { useEffect, useRef, useState } from "react";
 import { Landmark, Moon, Sun } from "lucide-react";
 import { ArtworkCard } from "../review/ReviewApp";
 import { REVIEW_RARITIES } from "../review/types";
+import { PersonalRaritySummary } from "../review/PersonalRaritySummary";
+import {
+  matchesPersonalRarity,
+  type PersonalRarityFilter,
+} from "../review/personalRarity";
 import { useTheme } from "../useTheme";
+import {
+  LegalOverview,
+  LegalStatusPanel,
+  useLegalEU,
+} from "../legal-eu/LegalStatus";
 import {
   STORAGE_KEY,
   STATUSES,
@@ -62,6 +72,10 @@ function Workspace({
   options: ReviewOptions;
 }) {
   const [loaded] = useState(() => initial(catalog, options.storageKey));
+  const legal = useLegalEU(catalog, options.catalogUrl.split("/")[1]);
+  const [legalFilter, setLegalFilter] = useState("all");
+  const [personalFilter, setPersonalFilter] =
+    useState<PersonalRarityFilter>("all");
   const [events, setEvents] = useState<ReviewEvent[]>(loaded.events),
     [notice, setNotice] = useState(loaded.notice);
   const [storageBlocked, setStorageBlocked] = useState(loaded.blocked),
@@ -82,6 +96,10 @@ function Workspace({
     const c = metadata.get(w.id)!;
     return (
       (region === "all" || region === c.region) &&
+      matchesPersonalRarity(w.id, rarities, personalFilter) &&
+      (legalFilter === "all" ||
+        (legal.entries.get(w.id)?.decision.status ?? "REVIEW_REQUIRED") ===
+          legalFilter) &&
       (status === "all" ||
         (status === "unreviewed"
           ? !selections[w.id]
@@ -239,6 +257,12 @@ function Workspace({
             </span>
           </div>
         </section>
+        <LegalOverview
+          entries={legal.entries}
+          message={legal.message}
+          filter={legalFilter}
+          onFilter={setLegalFilter}
+        />
         <div
           className={`save-notice${storageBlocked ? " is-warning" : ""}`}
           role="status"
@@ -351,6 +375,12 @@ function Workspace({
               </select>
             </label>
           </div>
+          <PersonalRaritySummary
+            works={catalog.works}
+            decisions={rarities}
+            filter={personalFilter}
+            onFilter={setPersonalFilter}
+          />
           <div className="review-list-heading">
             <h2 id="candidate-list-title">Les œuvres à examiner</h2>
             <span aria-live="polite">
@@ -366,6 +396,7 @@ function Workspace({
                   <ArtworkCard
                     work={w}
                     decision={rarities[w.id]}
+                    legal={legal.entries.get(w.id)}
                     onDecide={(artworkId, level) =>
                       append({ artworkId, kind: "rarity", level })
                     }
@@ -448,6 +479,8 @@ function Workspace({
                   setQuery("");
                   setRegion("all");
                   setStatus("all");
+                  setPersonalFilter("all");
+                  setLegalFilter("all");
                 }}
               >
                 Réinitialiser les filtres
@@ -477,8 +510,15 @@ function Workspace({
               <ul>
                 {catalog.candidates
                   .filter((c) => !c.recommended)
+                  .filter(
+                    (c) =>
+                      legalFilter === "all" ||
+                      (legal.entries.get(c.id)?.decision.status ??
+                        "REVIEW_REQUIRED") === legalFilter,
+                  )
                   .map((c) => (
                     <li key={c.id}>
+                      <LegalStatusPanel entry={legal.entries.get(c.id)} />
                       <a href={c.sourceUrl} target="_blank" rel="noreferrer">
                         {c.title}
                       </a>

@@ -1,35 +1,26 @@
-/* Source art and supplied PNG frames remain separate, without cropping either. */
+/* Frames are retired. Keep the shared image slots, with no overlay, matte or fallback border. */
 .framed-art {
   display: block;
   position: relative;
   isolation: isolate;
   width: 100%;
   aspect-ratio: 2 / 3;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
 }
 .framed-art-window {
   display: block;
   position: absolute;
-  left: var(--frame-left);
-  top: var(--frame-top);
-  width: var(--frame-width);
-  height: var(--frame-height);
-  box-sizing: border-box;
-  padding: 3%;
-  background: var(--mat);
-  z-index: 1;
-}
-.framed-art-matte {
-  position: absolute;
   inset: 0;
-  display: block;
-  background: var(--mat);
-  mask-size: 100% 100%;
-  mask-repeat: no-repeat;
-  mask-position: center;
-  -webkit-mask-size: 100% 100%;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  z-index: 1;
 }
 :root .framed-art .framed-work {
   display: block;
@@ -38,32 +29,10 @@
   min-height: 0;
   max-height: none;
   padding: 0;
+  border: 0;
+  box-shadow: none;
   object-fit: contain;
   background: transparent;
-}
-:root .framed-art .framed-art-overlay {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  max-height: none;
-  object-fit: contain;
-  pointer-events: none;
-  background: transparent;
-  z-index: 2;
-}
-.framed-art-fallback {
-  border: 7px ridge var(--frame-metal);
-  box-shadow: inset 0 0 0 2px var(--image-ground);
-  background: var(--mat);
-}
-.framed-art-fallback::before {
-  content: "";
-  position: absolute;
-  inset: 4%;
-  border: 1px solid var(--frame-metal);
-  pointer-events: none;
 }
 .framed-art-missing .framed-work {
   filter: grayscale(1);
@@ -95,6 +64,16 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  aspect-ratio: auto;
+}
+:root .detail-reproduction .framed-art-window {
+  position: relative;
+  inset: auto;
+  height: auto;
+}
+:root .detail-reproduction .framed-work {
+  height: auto;
+  max-height: 65vh;
 }
 :root .detail-reproduction > span:not(.framed-art) {
   display: block;
