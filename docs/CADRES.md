@@ -1,8 +1,14 @@
 # Cadres actifs et archives
 
-**État actuel du projet : seules les six familles explicitement validées sont conservées.** Le lab dispose de 30 variantes ; la présentation du jeu conserve ses 25 variantes affectables approuvées (Paléolithique reste non affecté). Les autres cartes s’affichent sans cadre, sans substitution de thème. [Nettoyage des assets](NETTOYAGE_CADRES_VALIDES.md).
+**État actuel : 95 variantes intégrées au lab**, avec les treize palettes issues des expériences et les six familles historiques strictement inchangées. La présentation du jeu conserve ses 25 variantes affectables approuvées (Paléolithique reste non affecté) : les autres cartes du jeu sont toujours sans cadre. [Intégration des palettes](INTEGRATION_PALETTES_LAB.md) · [Nettoyage antérieur](NETTOYAGE_CADRES_VALIDES.md).
 
 Les sources, variantes et masques non validés ont été supprimés dans toutes les éditions, ainsi que leurs planches d’essai. Les sources, cinq finitions et masques des six familles approuvées sont inchangés. Les images des œuvres, leurs métadonnées et les avis ne sont pas supprimés. La publication de ce nettoyage vise uniquement le lab ; le jeu en ligne n’est pas redéployé.
+
+## Direction des prochaines générations
+
+L’utilisateur a accepté le style des expériences **Japon et Photographie**, dans leurs cinq raretés. Elles deviennent les références visuelles des prochaines générations : relief sculpté, moulures travaillées, matières cohérentes et composition propre à chaque thème. [Descriptif et méthode courants](GENERATION_CADRES.md) · [Brief réutilisable](../src/card-lab/generationStyle.ts).
+
+Les anciens fichiers `*Specs.ts` restent des archives de provenance, **pas des consignes pour les nouvelles images**. L’utilisateur a ensuite autorisé l’intégration des palettes au lab, sans modifier les six familles historiques ni la copie du jeu. Toute future génération reste locale en l’absence d’une nouvelle demande d’intégration.
 
 ## Historique : retrait avant refonte
 

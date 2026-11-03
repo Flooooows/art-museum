@@ -20,7 +20,7 @@ const sha = (b: Buffer) => createHash("sha256").update(b).digest("hex");
 const approved = (family: string) =>
   (preservedFrameFamilies as readonly string[]).includes(family);
 
-test("cadres — 1011 cartes : raretés inchangées, seuls les thèmes validés reçoivent un asset", () => {
+test("cadres du lab — 1011 cartes couvertes par les palettes intégrées, raretés inchangées", () => {
   const before = JSON.stringify(artworks);
   let framed = 0,
     unframed = 0;
@@ -31,7 +31,7 @@ test("cadres — 1011 cartes : raretés inchangées, seuls les thèmes validés 
     assert.equal(result.key, choice.key);
     assert.equal(result.finish, rarities[art.rarity].finish);
     assert.equal(result.level, art.humanRarity!.level);
-    assert.equal(Boolean(result.asset), approved(choice.family));
+    assert.ok(result.asset);
     if (result.asset) {
       assert.equal(result.asset.key, choice.key);
       framed++;
@@ -40,7 +40,8 @@ test("cadres — 1011 cartes : raretés inchangées, seuls les thèmes validés 
       unframed++;
     }
   }
-  assert.ok(framed > 0 && unframed > 0);
+  assert.equal(framed, artworks.length);
+  assert.equal(unframed, 0);
   assert.equal(JSON.stringify(artworks), before);
   for (const id of [
     "45434",
@@ -50,82 +51,82 @@ test("cadres — 1011 cartes : raretés inchangées, seuls les thèmes validés 
     "cma-130939",
     "cma-105933",
   ])
-    assert.equal(cardFrameFor(byId[id]).asset, null);
+    assert.ok(cardFrameFor(byId[id]).asset);
 });
 
-test("cadres — trente variantes approuvées, sources et masques intacts, fenêtres sûres", async () => {
-  assert.equal(Object.keys(labFrames).length, 30);
+test("cadres — 95 variantes sûres, dont trente variantes historiques strictement inchangées", async () => {
+  assert.equal(Object.keys(labFrames).length, 95);
   const baseline = JSON.parse(
     await readFile("catalog/card-lab/prestige-frames/baseline.json", "utf8"),
   );
   const manifest = JSON.parse(
     await readFile("src/card-lab/assets/refined-frames.json", "utf8"),
   );
-  assert.equal(manifest.edition, "approved-only");
+  assert.equal(manifest.edition, "experiments-v1");
   assert.deepEqual(
     manifest,
     JSON.parse(
       await readFile("catalog/card-lab/refined-frames/provenance.json", "utf8"),
     ),
   );
-  for (const family of preservedFrameFamilies)
-    for (const [level, rarity] of rarities.entries()) {
-      const f = labFrames[`${family}-${rarity.finish}`],
-        old = baseline.frames[f.key];
-      assert.equal(f.level, level);
+  for (const f of Object.values(labFrames)) {
+    const old = baseline.frames[f.key];
+    assert.equal(f.finish, rarities[f.level].finish);
+    if (approved(f.family)) {
       assert.equal(f.outputSha256, old.outputSha256);
       assert.equal(f.windowSha256, old.windowSha256);
-      assert.equal(sha(await readFile(f.sourceFile)), f.sourceSha256);
-      if (f.sourceMaskFile)
-        assert.equal(sha(await readFile(f.sourceMaskFile)), f.sourceMaskSha256);
-      const bytes = await readFile(
-        `src/card-lab/assets/${f.assetDirectory}/${f.file}`,
-      );
-      assert.equal(sha(bytes), f.outputSha256);
-      const maskBytes = await readFile(
-        `src/card-lab/assets/${f.assetDirectory}/${f.windowFile}`,
-      );
-      assert.equal(sha(maskBytes), f.windowSha256);
-      const meta = await sharp(bytes).metadata();
-      assert.equal(meta.width, 1024);
-      assert.equal(meta.height, 1536);
-      assert.ok(meta.hasAlpha);
-      const a = f.aperture,
-        c = commonCardAperture;
-      assert.ok(a.width > 60 && a.height > 60);
-      assert.ok(
-        c.left >= a.left - 1e-8 &&
-          c.top >= a.top - 1e-8 &&
-          c.left + c.width <= a.left + a.width + 1e-8 &&
-          c.top + c.height <= a.top + a.height + 1e-8,
-      );
-      const rect = {
-        left: Math.ceil((a.left * f.width) / 100),
-        top: Math.ceil((a.top * f.height) / 100),
-        width: Math.floor((a.width * f.width) / 100),
-        height: Math.floor((a.height * f.height) / 100),
-      };
-      const alpha = await sharp(bytes)
-        .extract(rect)
-        .ensureAlpha()
-        .extractChannel("alpha")
-        .raw()
-        .toBuffer();
-      assert.ok(
-        alpha.every((v) => v === 0),
-        f.key,
-      );
-      const mask = await sharp(maskBytes)
-        .extract(rect)
-        .ensureAlpha()
-        .extractChannel("alpha")
-        .raw()
-        .toBuffer();
-      assert.ok(
-        mask.every((v) => v === 255),
-        f.key,
-      );
     }
+    assert.equal(sha(await readFile(f.sourceFile)), f.sourceSha256);
+    if (f.sourceMaskFile)
+      assert.equal(sha(await readFile(f.sourceMaskFile)), f.sourceMaskSha256);
+    const bytes = await readFile(
+      `src/card-lab/assets/${f.assetDirectory}/${f.file}`,
+    );
+    assert.equal(sha(bytes), f.outputSha256);
+    const maskBytes = await readFile(
+      `src/card-lab/assets/${f.assetDirectory}/${f.windowFile}`,
+    );
+    assert.equal(sha(maskBytes), f.windowSha256);
+    const meta = await sharp(bytes).metadata();
+    assert.equal(meta.width, 1024);
+    assert.equal(meta.height, 1536);
+    assert.ok(meta.hasAlpha);
+    const a = f.aperture,
+      c = commonCardAperture;
+    assert.ok(a.width > 60 && a.height > 60);
+    assert.ok(
+      c.left >= a.left - 1e-8 &&
+        c.top >= a.top - 1e-8 &&
+        c.left + c.width <= a.left + a.width + 1e-8 &&
+        c.top + c.height <= a.top + a.height + 1e-8,
+    );
+    const rect = {
+      left: Math.ceil((a.left * f.width) / 100),
+      top: Math.ceil((a.top * f.height) / 100),
+      width: Math.floor((a.width * f.width) / 100),
+      height: Math.floor((a.height * f.height) / 100),
+    };
+    const alpha = await sharp(bytes)
+      .extract(rect)
+      .ensureAlpha()
+      .extractChannel("alpha")
+      .raw()
+      .toBuffer();
+    assert.ok(
+      alpha.every((v) => v === 0),
+      f.key,
+    );
+    const mask = await sharp(maskBytes)
+      .extract(rect)
+      .ensureAlpha()
+      .extractChannel("alpha")
+      .raw()
+      .toBuffer();
+    assert.ok(
+      mask.every((v) => v === 255),
+      f.key,
+    );
+  }
 });
 
 test("nettoyage — toutes les images supprimées sont absentes et les six familles sont inchangées", async () => {
@@ -138,6 +139,11 @@ test("nettoyage — toutes les images supprimées sont absentes et les six famil
     await assert.rejects(access(path), { code: "ENOENT" });
   for (const [path, hash] of Object.entries(report.preservedAssets))
     assert.equal(sha(await readFile(path)), hash, path);
+  const integratedFiles = new Set(
+    Object.values(labFrames)
+      .filter((f) => f.assetDirectory === "experiment-frames")
+      .flatMap((f) => [f.file, f.windowFile]),
+  );
   async function inspect(dir: string) {
     for (const entry of await readdir(dir, { withFileTypes: true })) {
       const path = `${dir}/${entry.name}`;
@@ -147,7 +153,9 @@ test("nettoyage — toutes les images supprimées sont absentes et les six famil
         entry.name !== "carton-velvet.webp"
       )
         assert.ok(
-          preservedFrameFamilies.some((f) => entry.name.startsWith(f + "-")),
+          preservedFrameFamilies.some((f) => entry.name.startsWith(f + "-")) ||
+            (dir === "src/card-lab/assets/experiment-frames" &&
+              integratedFiles.has(entry.name)),
           path,
         );
     }

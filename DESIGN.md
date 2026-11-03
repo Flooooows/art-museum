@@ -259,6 +259,8 @@ components:
 
 Les bilans de livraison ci-dessous restent historiques. Les comptes rendus auparavant sous `.impeccable/review/` sont conservés dans `docs/archive/reviews/` ; le nettoyage CSS et ses vérifications sont décrits dans `docs/TRI_PROJET.md`.
 
+**Génération de cadres — direction actuelle.** Pour les nouvelles images, les expériences Japon et Photographie (`src/card-lab/experiments/`) sont les références artistiques acceptées, avec leurs cinq finitions. Le guide [GENERATION_CADRES.md](docs/GENERATION_CADRES.md) et le brief `src/card-lab/generationStyle.ts` font autorité sur les anciennes spécifications de génération décrites dans les historiques. Les motifs et compositions restent propres à chaque thème ; la parenté vient du relief sculpté, des moulures et des matières. Cette validation de style ne vaut pas intégration ou autorisation de publication.
+
 ## Overview
 
 **Creative North Star: "Tactile Editorial Classicism"**
