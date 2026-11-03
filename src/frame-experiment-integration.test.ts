@@ -3,12 +3,17 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import sharp from "sharp";
-import { labFrames } from "./card-lab/frames";
 import { allFrameExperiments } from "./card-lab/experiments/series";
 import { rarities } from "./data";
 const sha = (b: Buffer) => createHash("sha256").update(b).digest("hex");
 
 test("intégration des expériences — 65 variantes aux couleurs et à la géométrie examinées, sans effacement opaque", async () => {
+  const { frames: labFrames } = JSON.parse(
+    await readFile(
+      "catalog/card-lab/progression-frames/previous-edition.json",
+      "utf8",
+    ),
+  );
   for (const { family } of allFrameExperiments) {
     let alpha: Buffer | undefined;
     for (const rarity of rarities) {
@@ -50,7 +55,10 @@ test("intégration des expériences — 65 variantes aux couleurs et à la géom
 
 test("intégration des expériences — provenance exacte, archive antérieure et jeu principal indépendant", async () => {
   const registry = JSON.parse(
-    await readFile("src/card-lab/assets/refined-frames.json", "utf8"),
+    await readFile(
+      "catalog/card-lab/progression-frames/previous-edition.json",
+      "utf8",
+    ),
   );
   assert.equal(registry.edition, "experiments-v1");
   assert.equal(

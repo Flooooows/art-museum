@@ -38,7 +38,7 @@ export const frameGenerationStyle = {
     "Chaque thème invente son rythme, ses articulations et ses accents ; aucune grille de pictogrammes ou frise identique imposée.",
     "Courbes, cartouches, accents centraux et motifs figuratifs sont permis lorsqu’ils servent le thème et la composition.",
     "Équilibre entre détail et respiration ; ni rectangle minimaliste, ni surcharge d’objets ou de bijoux.",
-    "Master lapis bleu minéral et or travaillé ; les autres raretés changent la matière, pas le dessin.",
+    "Les masters de l’essai 01 restent les références de famille ; la progression active de l’essai 02 fait évoluer le dessin et le travail par rareté, pas seulement la matière.",
     "Cadre portrait de face, ouverture centrale généreuse et réellement transparente, extérieur transparent, aucun contenu incrusté.",
   ],
   archivedBriefs: [
@@ -84,5 +84,37 @@ Match the accepted experiments' sculptural workmanship, dimensional relief, fine
 Invent a distinct, cohesive ornamental composition immediately identifiable with the requested theme. Integrate its figurative motifs into the crafted frame, rather than applying an interchangeable grid of icons. Give this theme its own rhythm and decorative character; do not trace another theme's layout or copy its unrelated symbols. Curves and central or corner accents are welcome when they belong to the composition. Keep a real picture-frame structure, not a border assembled from oversized equipment.
 Neither a plain generic rectangle nor an overloaded fantasy prop. One portrait frame only, straight-on front view, approximately 1024x1536, with a generous central opening.
 The entire opening and the outside must have genuine transparent alpha. Do not reproduce any brown, gold, black or hazy fills that may appear in transparent reference previews. No artwork, photograph, background, lettering, title plate, logo, watermark or shadow inside the opening.`,
+  };
+}
+
+/** Current workflow for a rarity-specific independently generated drawing.
+ * A generation is not automatically authorized for integration/publication.
+ */
+export function rarityProgressionRequest(
+  theme: string,
+  themeReference: string,
+  finish: ExperimentalFrameFinish,
+) {
+  if (!theme.trim() || !themeReference.trim())
+    throw Error("Thème et référence visuelle obligatoires.");
+  const stages: Record<ExperimentalFrameFinish, string> = {
+    fer: "LOWEST IRON: raw dark aged material, shallow engraving and restrained low relief, modest molding and simple corners; theme already recognizable with breathing room.",
+    cuivre:
+      "SECOND COPPER: warm patina, small modeled repoussé motifs, more deliberate molding and joins than raw iron, not a royal design tinted brown.",
+    argent:
+      "MIDDLE SILVER: crisp fine chasing, clean precise edges and corners, controlled layered relief and dark incisions, more finesse than copper, less abundance than gold.",
+    dore: "FOURTH GOLD: richer modeled relief, polished layered molding and developed coordinated corners, warm shadows and fine chasing; all-gold, no blue lapis fields.",
+    "lapis-lazuli":
+      "HIGHEST LAPIS/GOLD: precisely bounded mineral-blue inlay and delicate gold, exquisitely resolved thematic details and corners, quiet blue fields; mastery, not piles of larger jewels.",
+  };
+  return {
+    images: [
+      themeReference,
+      "src/card-lab/experiments/japon/essai-02-cinq-raretes.png",
+      "src/card-lab/experiments/verre/essai-02-cinq-raretes.png",
+      `src/card-lab/assets/refined-frames/egypte-${finish}.webp`,
+      `src/card-lab/assets/refined-frames/prehistoire-${finish}.webp`,
+    ],
+    prompt: `Create ONE ${theme.trim()} themed museum FRAME. ${stages[finish]} Image1 supplies theme identity; images2/3 show the approved five-rarity progression; last2 supply material and workmanship only, not unrelated cultural motifs. Independently design this rarity: actual engravings, relief, molding and ornament develop by grade, not recoloring one common master. Maintain family identity, coherent theme-specific composition and generous breathing room, not a fixed grid or oversized objects building the rails. Portrait1024x1536, straight-on, generous empty central opening and exterior genuine transparent alpha. No preview-derived backing/haze, artwork, readable writing, labels, logo, watermark or contact sheet.`,
   };
 }

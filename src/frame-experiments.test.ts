@@ -58,7 +58,7 @@ test("palettes — 19 familles et 95 variantes, intégration limitée au lab", a
   ]) {
     const registry = JSON.parse(await readFile(file, "utf8"));
     const lab = file.startsWith("src/card-lab/");
-    assert.equal(registry.edition, lab ? "experiments-v1" : "approved-only");
+    assert.equal(registry.edition, lab ? "progression-v2" : "approved-only");
     assert.ok(
       lab
         ? Object.keys(registry.frames).length === 95

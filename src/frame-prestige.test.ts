@@ -6,11 +6,16 @@ import {
   preservedFrameFamilies,
   prestigeSpecs,
 } from "./card-lab/prestigeSpecs";
-import { labFrames } from "./card-lab/frames";
 import { rarities } from "./data";
 
 const sha = (b: Buffer) => createHash("sha256").update(b).digest("hex");
 test("prestige — six thèmes approuvés, trente cadres et leurs masques strictement identiques", async () => {
+  const { frames: labFrames } = JSON.parse(
+    await readFile(
+      "catalog/card-lab/progression-frames/previous-edition.json",
+      "utf8",
+    ),
+  );
   const before = JSON.parse(
     await readFile("catalog/card-lab/prestige-frames/baseline.json", "utf8"),
   );

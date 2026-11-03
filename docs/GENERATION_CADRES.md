@@ -1,5 +1,15 @@
 # Direction artistique des prochaines générations de cadres
 
+## Méthode courante : progression de détails par rareté
+
+L’utilisateur a adopté le test Japon et Verre de l’**essai 02**, puis demandé de refaire les **19 thèmes**, y compris les six familles historiques sous forme de nouvelles séries. La méthode courante utilise `rarityProgressionRequest(theme, themeReference, finish)` dans `src/card-lab/generationStyle.ts` : **cinq générations indépendantes**, pas quatre recolorations d’un master commun. Les dessins, gravures, reliefs, coins et parfois la silhouette évoluent avec les matières. [Intégration de la progression](INTEGRATION_PROGRESSION_RARETES.md).
+
+Fer brut gravé → cuivre patiné modelé → argent aux ciselures précises → or aux reliefs et coins développés → lapis aux incrustations finement bordées d’or. Le raffinement ne se mesure pas uniquement au nombre d’objets : précision, contraste, modelé et respiration comptent également. La famille doit rester reconnaissable d’une rareté à l’autre.
+
+Les références courantes sont les planches `experiments/japon/essai-02-cinq-raretes.png`, `experiments/verre/essai-02-cinq-raretes.png`, la référence du thème et les exemples Égypte/Paléolithique de la matière visée. **Tous les premiers essais, originaux historiques et sources brutes sont conservés.** Chaque dessin reçoit son propre masque à l’intégration. L’ancienne règle « alpha/dessin identique entre finitions » ci-dessous décrit seulement l’essai 01.
+
+## Historique conservé : essai 01 et déclinaisons de couleur
+
 ## Références acceptées — consigne actuelle
 
 L’utilisateur a accepté la direction artistique des expériences **Japon et Photographie**, y compris leurs cinq raretés. Pour toute nouvelle génération, **partir de ces images, pas des anciens briefs**.

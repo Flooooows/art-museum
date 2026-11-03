@@ -68,7 +68,10 @@ test("archives textuelles des frises — inventaires et provenance conservés sa
 
 test("frises — les trente variantes approuvées et leurs masques restent identiques", async () => {
   const active = JSON.parse(
-    await readFile("src/card-lab/assets/refined-frames.json", "utf8"),
+    await readFile(
+      "catalog/card-lab/progression-frames/previous-edition.json",
+      "utf8",
+    ),
   );
   const baseline = JSON.parse(
     await readFile("catalog/card-lab/prestige-frames/baseline.json", "utf8"),

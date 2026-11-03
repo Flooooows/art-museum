@@ -1,0 +1,61 @@
+{
+  "family": "verre",
+  "outputs": [
+    {
+      "finish": "fer",
+      "label": "Esquisse · Fer",
+      "file": "src/card-lab/experiments/verre/essai-02-fer.png",
+      "sha256": "c427c88333b9fa3a76070e87027a411a604139915da285035cc78d30a4e4c4f6",
+      "alphaSha256": "782188594e2590c2bc4473017340e109b9c2dd16297e402c1c23059330c9f8a8",
+      "imageJob": "image_1a1bbeeec001z36x3vfpt8Xm1U",
+      "model": "openai/gpt-image-2",
+      "generationReferences": null,
+      "originalReference": "src/card-lab/experiments/verre/essai-01.png"
+    },
+    {
+      "finish": "cuivre",
+      "label": "Étude · Cuivre",
+      "file": "src/card-lab/experiments/verre/essai-02-cuivre.png",
+      "sha256": "1a79bad6fb3a1c2156254988b231891ab0b2d62136062ae4eaba2503e14b4790",
+      "alphaSha256": "4a852039f14facbc37d3df90294f48e7037193adc93d2b809d0ec7c550364b6f",
+      "imageJob": "image_1a1bbedf0001Je5YVAY5uefPEl",
+      "model": "openai/gpt-image-2",
+      "generationReferences": null,
+      "originalReference": "src/card-lab/experiments/verre/essai-01.png"
+    },
+    {
+      "finish": "argent",
+      "label": "Composition · Argent",
+      "file": "src/card-lab/experiments/verre/essai-02-argent.png",
+      "sha256": "5779e1e2d1cd97848776f792d7c967c47f1715aeb42f260c84903be39e5dd15d",
+      "alphaSha256": "97b68238e39ab31e377de0baada6ce6fa85c10746cf7765db09ac8aad6708978",
+      "imageJob": "image_1a1bbeeaf001L9maMDwHQoHrTj",
+      "model": "openai/gpt-image-2",
+      "generationReferences": null,
+      "originalReference": "src/card-lab/experiments/verre/essai-01.png"
+    },
+    {
+      "finish": "dore",
+      "label": "Œuvre · Or",
+      "file": "src/card-lab/experiments/verre/essai-02-dore.png",
+      "sha256": "62cbef411df5db947d4c17dc3c2bd2fca7f7879b2753a7ee255c7caa6fc61279",
+      "alphaSha256": "b66636b24a6361d97a05b985f87dd7dcff93255f1c256172fcc42da42352b364",
+      "imageJob": "image_1a1bbed90001SYqDWkb40AQyoD",
+      "model": "openai/gpt-image-2",
+      "generationReferences": null,
+      "originalReference": "src/card-lab/experiments/verre/essai-01.png"
+    },
+    {
+      "finish": "lapis-lazuli",
+      "label": "Pièce maîtresse · Lapis-lazuli",
+      "file": "src/card-lab/experiments/verre/essai-02-lapis-lazuli.png",
+      "sha256": "e9cb9dd2df3e5d3f4b0f59c3f566745bcdffae06810e62a544e984632a576465",
+      "alphaSha256": "fd6d2c01be639007d299eb0d68dd1968d8a25acdbb6356965b78be81f06d2b91",
+      "imageJob": "image_1a1bbee47001rw0SKm8p0si2FG",
+      "model": "openai/gpt-image-2",
+      "generationReferences": null,
+      "originalReference": "src/card-lab/experiments/verre/essai-01.png"
+    }
+  ],
+  "originalTestManifest": "src/card-lab/experiments/verre/essai-02-progression.json"
+}

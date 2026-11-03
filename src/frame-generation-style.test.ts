@@ -82,7 +82,7 @@ test("direction artistique — expériences activées dans le lab uniquement, co
   ]) {
     const registry = JSON.parse(await readFile(path, "utf8"));
     const lab = path.startsWith("src/card-lab/");
-    assert.equal(registry.edition, lab ? "experiments-v1" : "approved-only");
+    assert.equal(registry.edition, lab ? "progression-v2" : "approved-only");
     for (const entry of acceptedFrameExperiments)
       assert.equal(
         Object.values(registry.frames).some(
