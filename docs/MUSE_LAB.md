@@ -5,7 +5,7 @@ Projet Firebase dédié demandé par l’utilisateur, nommé **muse-lab**. L’i
 ## Accès
 
 - [Accueil du laboratoire](https://muse-lab-6f2d.web.app/).
-- [Cartes et cadres](https://muse-lab-6f2d.web.app/card-lab.html) : 21 exemples, 30 variantes dans les six familles validées ; les autres cartes restent visibles sans cadre. Paléolithique reste non affecté.
+- [Cartes et cadres](https://muse-lab-6f2d.web.app/card-lab.html) : 21 exemples et 95 variantes ; treize palettes issues des expériences et six familles historiques intactes. Paléolithique reste non affecté.
 - [Sept boosters](https://muse-lab-6f2d.web.app/booster-lab.html) : une collection universelle et six regroupements spécialisés.
 - [Ouverture](https://muse-lab-6f2d.web.app/opening-lab.html) : carte par carte ou planche, sélecteur de rareté maximale, ambiance lapis exceptionnelle, sept pochettes, trois rythmes et mouvements réduits.
 
@@ -44,7 +44,9 @@ Les préparateurs d’images restent manuels ; ils ne relancent aucune générat
 
 ## Guides des essais
 
-- [Nettoyage : six familles validées uniquement](NETTOYAGE_CADRES_VALIDES.md) : état actuel ; suppression de toutes les versions non validées, cartes concernées sans cadre et avis conservés.
+- [Intégration des palettes examinées](INTEGRATION_PALETTES_LAB.md) : version courante du lab, 95 variantes, couleurs et géométrie conservées, aucun changement au jeu principal.
+- [Direction artistique des prochaines générations](GENERATION_CADRES.md) : style des expériences Japon et Photographie accepté, cinq finitions cohérentes ; nouvelles générations locales jusqu’à autorisation.
+- [Nettoyage : six familles validées uniquement](NETTOYAGE_CADRES_VALIDES.md) : état antérieur ; les anciennes éditions supprimées ne sont pas restaurées par la nouvelle intégration.
 - [Frises figuratives par thème](ESSAIS_CADRES_FRISES_V7.md) : ancien essai ; les assets non validés ont depuis été supprimés.
 - [Arts décoratifs comme référence de détail et de couleur](ESSAIS_CADRES_ARTS_DECORATIFS_V6.md) : essai précédent archivé, remplacé par les frises figuratives.
 - [Profils sobres inspirés d’encadrements réels](ESSAIS_CADRES_MUSEAUX.md) : version publiée ; outils et objets décoratifs retirés, matériaux et passe-partout discrets, six familles validées inchangées.

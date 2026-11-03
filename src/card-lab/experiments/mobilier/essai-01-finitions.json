@@ -1,0 +1,82 @@
+{
+  "scope": "Essais locaux uniquement, aucune intégration ni publication.",
+  "sourceFile": "src/card-lab/experiments/mobilier/essai-01.png",
+  "sourceSha256": "a03b0d61b069af658a29b142ce1e5194469dc1a0d7f517ada1dfea3bb4ad8e17",
+  "width": 1024,
+  "height": 1536,
+  "method": "Quatre adaptations de couleur par correspondance des distributions de luminance aux cadres Égypte approuvés existants. Géométrie, motifs et alpha inchangés ; lapis-lazuli : copie exacte du master. Ce ne sont pas cinq générations indépendantes.",
+  "outputs": [
+    {
+      "finish": "fer",
+      "file": "src/card-lab/experiments/mobilier/essai-01-fer.png",
+      "sha256": "feb24f52ecf423fff895473b53387177929a79f998554fbd7628c9f3c69eb7e9",
+      "referenceFile": "src/card-lab/assets/refined-frames/egypte-fer.webp",
+      "referenceSha256": "0c314702cbfe270babff9699e8d95bf6e4126fd3c1e4781e63476d0119d77ff5"
+    },
+    {
+      "finish": "cuivre",
+      "file": "src/card-lab/experiments/mobilier/essai-01-cuivre.png",
+      "sha256": "fce9b04560e0b2b6a0394aa689ac99375427d061d8aaf446e24bc59eba08c7e9",
+      "referenceFile": "src/card-lab/assets/refined-frames/egypte-cuivre.webp",
+      "referenceSha256": "58037bd2969b14231efc267607825d81d899545c763b64b6c0b4227484e65525"
+    },
+    {
+      "finish": "argent",
+      "file": "src/card-lab/experiments/mobilier/essai-01-argent.png",
+      "sha256": "806c661c2b5ea62a4ca5ad231ddc5825b563cc07b24cee0baa99bf602d04ef05",
+      "referenceFile": "src/card-lab/assets/refined-frames/egypte-argent.webp",
+      "referenceSha256": "396677078eda86e58118df46eb412fae73d9517f1ac7aa8469460b2ba0e6d765"
+    },
+    {
+      "finish": "dore",
+      "file": "src/card-lab/experiments/mobilier/essai-01-dore.png",
+      "sha256": "e7b570cc8ec9cb43ce63b18af277071cf7eaf7ee4cde53741f98e5542ddfc10e",
+      "referenceFile": "src/card-lab/assets/refined-frames/egypte-dore.webp",
+      "referenceSha256": "cc1db8e42317124bbeb41d9ebb2bd1063ea6236ad2efde5d0f95794a090fd4fa"
+    },
+    {
+      "finish": "lapis-lazuli",
+      "file": "src/card-lab/experiments/mobilier/essai-01-lapis-lazuli.png",
+      "sha256": "a03b0d61b069af658a29b142ce1e5194469dc1a0d7f517ada1dfea3bb4ad8e17",
+      "referenceFile": null,
+      "referenceSha256": null
+    }
+  ],
+  "imageJob": "image_19f132c170019tmkd22M902dWI",
+  "artDirection": "experiments-japon-photographie-01",
+  "generationReferences": [
+    {
+      "file": "src/card-lab/experiments/japon/essai-01.png",
+      "sha256": "3e37e756df31fe12c6266d6bd97cebf25c0c8ae59253a2035d6209f38d58c439"
+    },
+    {
+      "file": "src/card-lab/experiments/photographie/essai-01.png",
+      "sha256": "98863e38287f58104cb41c74c1aea774a19c46f0fce91617f1ea32b5a6e59536"
+    },
+    {
+      "file": "src/card-lab/assets/refined-frames/egypte-lapis-lazuli.webp",
+      "sha256": "eee733b1973b5f8d0803fef3f24d9694a7d6907b732db0b39940527a3b71391e"
+    },
+    {
+      "file": "src/card-lab/assets/refined-frames/prehistoire-lapis-lazuli.webp",
+      "sha256": "b3e344c7e6ef15da36ed9cfb5ea5a30b28f9c17be0991345dc1588f001582805"
+    },
+    {
+      "file": "src/card-lab/assets/refined-frames/decoratifs-lapis-lazuli.webp",
+      "sha256": "4484459ad75e525b6aa021dc4da027af55ea51facaa5d9d742ff684edd0cbd49"
+    },
+    {
+      "file": "src/card-lab/assets/refined-frames/art-moderne-lapis-lazuli.webp",
+      "sha256": "9b017bf297731aa683c25715a0b3f4a7eeae06b636a57da3609ec2c7bc12722c"
+    },
+    {
+      "file": "src/card-lab/assets/refined-frames/art-mysterieux-lapis-lazuli.webp",
+      "sha256": "60eb195e76fcc93f62c81cd6bbca31dbe4f49546aef466e105df7509f6f8195b"
+    },
+    {
+      "file": "src/card-lab/assets/refined-frames/beaux-arts-lapis-lazuli.webp",
+      "sha256": "de224b660503688a9fe716c4c08bf679bf9fc41fe92e08992e36a28c888636f0"
+    }
+  ],
+  "incidents": []
+}

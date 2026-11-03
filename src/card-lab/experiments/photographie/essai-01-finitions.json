@@ -1,0 +1,45 @@
+{
+  "scope": "Essais locaux uniquement, aucune intégration ni publication.",
+  "sourceFile": "src/card-lab/experiments/photographie/essai-01.png",
+  "sourceSha256": "98863e38287f58104cb41c74c1aea774a19c46f0fce91617f1ea32b5a6e59536",
+  "width": 1024,
+  "height": 1536,
+  "method": "Quatre adaptations de couleur par correspondance des distributions de luminance aux cadres Égypte approuvés existants. Géométrie, motifs et alpha inchangés ; lapis-lazuli : copie exacte du master. Ce ne sont pas cinq générations indépendantes.",
+  "outputs": [
+    {
+      "finish": "fer",
+      "file": "src/card-lab/experiments/photographie/essai-01-fer.png",
+      "sha256": "972a54d62c07634225e86fbf9ea64fb71ac74c2ebe93af98790e9b0da871d599",
+      "referenceFile": "src/card-lab/assets/refined-frames/egypte-fer.webp",
+      "referenceSha256": "0c314702cbfe270babff9699e8d95bf6e4126fd3c1e4781e63476d0119d77ff5"
+    },
+    {
+      "finish": "cuivre",
+      "file": "src/card-lab/experiments/photographie/essai-01-cuivre.png",
+      "sha256": "36cd6b4b441f92ee28cc1af5db424482b60c3171a3350ff2695272aa4b53a499",
+      "referenceFile": "src/card-lab/assets/refined-frames/egypte-cuivre.webp",
+      "referenceSha256": "58037bd2969b14231efc267607825d81d899545c763b64b6c0b4227484e65525"
+    },
+    {
+      "finish": "argent",
+      "file": "src/card-lab/experiments/photographie/essai-01-argent.png",
+      "sha256": "27327b81a35ebe629582550c04a36c67dc7cde63bf50bf4c1fd9b0351860464f",
+      "referenceFile": "src/card-lab/assets/refined-frames/egypte-argent.webp",
+      "referenceSha256": "396677078eda86e58118df46eb412fae73d9517f1ac7aa8469460b2ba0e6d765"
+    },
+    {
+      "finish": "dore",
+      "file": "src/card-lab/experiments/photographie/essai-01-dore.png",
+      "sha256": "6dfb2cb7f4eada0cf877c0f04c21b3c2534c67a4fdfeb5f0ece0e8a4942691b9",
+      "referenceFile": "src/card-lab/assets/refined-frames/egypte-dore.webp",
+      "referenceSha256": "cc1db8e42317124bbeb41d9ebb2bd1063ea6236ad2efde5d0f95794a090fd4fa"
+    },
+    {
+      "finish": "lapis-lazuli",
+      "file": "src/card-lab/experiments/photographie/essai-01-lapis-lazuli.png",
+      "sha256": "98863e38287f58104cb41c74c1aea774a19c46f0fce91617f1ea32b5a6e59536",
+      "referenceFile": null,
+      "referenceSha256": null
+    }
+  ]
+}

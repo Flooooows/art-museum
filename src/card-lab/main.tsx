@@ -103,7 +103,7 @@ function CardLab() {
         <section className="lab-intro">
           <div>
             <p className="lab-eyebrow">
-              Cadres validés · Six familles conservées
+              Palettes intégrées · 19 familles, cinq finitions
             </p>
             <h1>
               Le cadre fait
@@ -117,8 +117,8 @@ function CardLab() {
           </div>
           <aside className="lab-intent">
             <p>
-              <strong>{sampleCases.length} vraies cartes.</strong> Six familles
-              de cadres validées. Les autres cartes restent visibles sans cadre.
+              <strong>{sampleCases.length} vraies cartes.</strong> Les palettes
+              examinées sont maintenant intégrées aux dix-neuf familles du lab.
               Cinq finitions : fer, cuivre, argent, or et lapis-lazuli.
             </p>
             <p>
@@ -136,10 +136,10 @@ function CardLab() {
               occidental, Abstraction géométrique et Paléolithique.
             </p>
             <p>
-              Toutes les versions non validées ont été retirées du projet. Une
-              carte dont le cadre a été supprimé s’affiche sans cadre, sans
-              emprunter le décor d’une autre famille. Tes avis restent
-              conservés.
+              La direction des expériences Japon et Photographie guide les
+              treize nouvelles palettes : relief sculpté, moulures travaillées
+              et motifs propres au thème. Les cinq finitions conservent le même
+              dessin. Tes votes et commentaires restent conservés.
             </p>
             <details>
               <summary>Voir ta référence des Nymphéas</summary>
@@ -248,16 +248,16 @@ function CardLab() {
         >
           <div className="lab-frame-catalog__heading">
             <div>
-              <p className="lab-eyebrow">Décors validés et thèmes sans cadre</p>
+              <p className="lab-eyebrow">Palettes intégrées au laboratoire</p>
               <h2 id="frame-catalog-title">
-                {preservedFrameFamilies.length} décors conservés ×{" "}
-                {rarities.length} finitions
+                {frameFamilies.length} décors × {rarities.length} finitions
               </h2>
               <p>
                 Comparaison des cadres seuls. Ce nuancier ne change pas la
-                rareté des œuvres. Les six décors approuvés sont inchangés. Les
-                autres thèmes sont présentés sans cadre ; aucun asset de leurs
-                anciennes versions n’est chargé.
+                rareté des œuvres. Les {preservedFrameFamilies.length} décors
+                historiques sont inchangés ; les treize autres palettes
+                reprennent les fichiers examinés dans les expériences. Les
+                anciennes versions supprimées ne sont pas réactivées.
               </p>
             </div>
             <label>
@@ -351,9 +351,11 @@ function CardLab() {
             recadrées, les titres et artistes ne sont pas tronqués.
           </p>
           <p>
-            Seuls les six décors validés et leurs masques sont conservés. Les
-            cartes des autres thèmes restent consultables sans cadre. Les images
-            des œuvres, leurs données et les avis ne sont pas supprimés.
+            Les 95 variantes sont intégrées au lab uniquement. Les six familles
+            historiques sont intactes ; les nouvelles palettes gardent leurs
+            couleurs et leur géométrie. Les images des œuvres, leurs données et
+            les avis ne sont pas modifiés. Le jeu principal n’est pas mis à
+            jour.
           </p>
         </footer>
       </main>
