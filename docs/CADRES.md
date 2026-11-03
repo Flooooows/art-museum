@@ -1,6 +1,6 @@
 # Cadres actifs et archives
 
-**État actuel : 95 variantes intégrées au lab**, avec les treize palettes issues des expériences et les six familles historiques strictement inchangées. La présentation du jeu conserve ses 25 variantes affectables approuvées (Paléolithique reste non affecté) : les autres cartes du jeu sont toujours sans cadre. [Intégration des palettes](INTEGRATION_PALETTES_LAB.md) · [Nettoyage antérieur](NETTOYAGE_CADRES_VALIDES.md).
+**État actuel : 95 progressions intégrées au lab**, avec cinq dessins distincts pour chacun des 19 thèmes. L’utilisateur a aussi demandé une nouvelle série pour les six familles historiques : leurs originaux et tous les premiers essais restent conservés à l’identique. La présentation du jeu conserve ses 25 variantes approuvées et n’est pas redéployée. [Progression des raretés](INTEGRATION_PROGRESSION_RARETES.md) · [Ancienne intégration des palettes](INTEGRATION_PALETTES_LAB.md).
 
 Les sources, variantes et masques non validés ont été supprimés dans toutes les éditions, ainsi que leurs planches d’essai. Les sources, cinq finitions et masques des six familles approuvées sont inchangés. Les images des œuvres, leurs métadonnées et les avis ne sont pas supprimés. La publication de ce nettoyage vise uniquement le lab ; le jeu en ligne n’est pas redéployé.
 

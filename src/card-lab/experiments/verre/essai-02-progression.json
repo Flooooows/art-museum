@@ -1,0 +1,130 @@
+{
+  "scope": "Test local uniquement : aucun remplacement du lab, aucune intégration, publication, commit ou push.",
+  "method": "Cinq générations indépendantes sur le thème du verre : matières, gravures, reliefs, moulures et ornements évoluent avec la rareté, pas seulement les couleurs.",
+  "model": "openai/gpt-image-2",
+  "references": [
+    {
+      "file": "src/card-lab/experiments/verre/essai-01.png",
+      "sha256": "379c88e3f5638d364efbc1715203797fffad569086be4ff25e03b18de2ca50aa"
+    },
+    {
+      "file": "src/card-lab/experiments/japon/essai-02-cinq-raretes.png",
+      "sha256": "f290a686811ee9ee313dd47125aed890296ae44288aead9fdba0a102b9d21e3e"
+    },
+    {
+      "file": "src/card-lab/experiments/japon/essai-02-references/egypte-cinq-raretes.png",
+      "sha256": "ee8b3446f22bb95cad3c5a3281fbd368e4d03eb58f39c2f37d6e54436f7b3c00"
+    },
+    {
+      "file": "src/card-lab/experiments/japon/essai-02-references/prehistoire-cinq-raretes.png",
+      "sha256": "cdb8463736c3685b288ca0f688b8c4a7a29f0d8ae9fc65acd255e5c670cceeeb"
+    }
+  ],
+  "outputs": [
+    {
+      "finish": "fer",
+      "label": "Esquisse · Fer",
+      "file": "src/card-lab/experiments/verre/essai-02-fer.png",
+      "sha256": "c427c88333b9fa3a76070e87027a411a604139915da285035cc78d30a4e4c4f6",
+      "alphaSha256": "782188594e2590c2bc4473017340e109b9c2dd16297e402c1c23059330c9f8a8",
+      "width": 1024,
+      "height": 1536,
+      "centerAlpha": 0,
+      "imageJob": "image_1a1bbeeec001z36x3vfpt8Xm1U",
+      "materialReferences": [
+        {
+          "file": "src/card-lab/assets/refined-frames/egypte-fer.webp",
+          "sha256": "0c314702cbfe270babff9699e8d95bf6e4126fd3c1e4781e63476d0119d77ff5"
+        },
+        {
+          "file": "src/card-lab/assets/refined-frames/prehistoire-fer.webp",
+          "sha256": "ef84848fd394fbc6ec1e64e59d844a57d8a5e1a879778b7e2b87de56c7b6a55c"
+        }
+      ]
+    },
+    {
+      "finish": "cuivre",
+      "label": "Étude · Cuivre",
+      "file": "src/card-lab/experiments/verre/essai-02-cuivre.png",
+      "sha256": "1a79bad6fb3a1c2156254988b231891ab0b2d62136062ae4eaba2503e14b4790",
+      "alphaSha256": "4a852039f14facbc37d3df90294f48e7037193adc93d2b809d0ec7c550364b6f",
+      "width": 1024,
+      "height": 1536,
+      "centerAlpha": 0,
+      "imageJob": "image_1a1bbedf0001Je5YVAY5uefPEl",
+      "materialReferences": [
+        {
+          "file": "src/card-lab/assets/refined-frames/egypte-cuivre.webp",
+          "sha256": "58037bd2969b14231efc267607825d81d899545c763b64b6c0b4227484e65525"
+        },
+        {
+          "file": "src/card-lab/assets/refined-frames/prehistoire-cuivre.webp",
+          "sha256": "b8561626374e708b7f005926897f92393abf11eeda6598d4445e295169248cf8"
+        }
+      ]
+    },
+    {
+      "finish": "argent",
+      "label": "Composition · Argent",
+      "file": "src/card-lab/experiments/verre/essai-02-argent.png",
+      "sha256": "5779e1e2d1cd97848776f792d7c967c47f1715aeb42f260c84903be39e5dd15d",
+      "alphaSha256": "97b68238e39ab31e377de0baada6ce6fa85c10746cf7765db09ac8aad6708978",
+      "width": 1024,
+      "height": 1536,
+      "centerAlpha": 0,
+      "imageJob": "image_1a1bbeeaf001L9maMDwHQoHrTj",
+      "materialReferences": [
+        {
+          "file": "src/card-lab/assets/refined-frames/egypte-argent.webp",
+          "sha256": "396677078eda86e58118df46eb412fae73d9517f1ac7aa8469460b2ba0e6d765"
+        },
+        {
+          "file": "src/card-lab/assets/refined-frames/prehistoire-argent.webp",
+          "sha256": "28381d848b0328c7d993504c609eb2faf0ac5435f6937367835c902653bb3831"
+        }
+      ]
+    },
+    {
+      "finish": "dore",
+      "label": "Œuvre · Or",
+      "file": "src/card-lab/experiments/verre/essai-02-dore.png",
+      "sha256": "62cbef411df5db947d4c17dc3c2bd2fca7f7879b2753a7ee255c7caa6fc61279",
+      "alphaSha256": "b66636b24a6361d97a05b985f87dd7dcff93255f1c256172fcc42da42352b364",
+      "width": 1024,
+      "height": 1536,
+      "centerAlpha": 0,
+      "imageJob": "image_1a1bbed90001SYqDWkb40AQyoD",
+      "materialReferences": [
+        {
+          "file": "src/card-lab/assets/refined-frames/egypte-dore.webp",
+          "sha256": "cc1db8e42317124bbeb41d9ebb2bd1063ea6236ad2efde5d0f95794a090fd4fa"
+        },
+        {
+          "file": "src/card-lab/assets/refined-frames/prehistoire-dore.webp",
+          "sha256": "810aec05dcaacaf23a9bd2bac49e976c7df836635129ec6cc8cb868ac25b5347"
+        }
+      ]
+    },
+    {
+      "finish": "lapis-lazuli",
+      "label": "Pièce maîtresse · Lapis-lazuli",
+      "file": "src/card-lab/experiments/verre/essai-02-lapis-lazuli.png",
+      "sha256": "e9cb9dd2df3e5d3f4b0f59c3f566745bcdffae06810e62a544e984632a576465",
+      "alphaSha256": "fd6d2c01be639007d299eb0d68dd1968d8a25acdbb6356965b78be81f06d2b91",
+      "width": 1024,
+      "height": 1536,
+      "centerAlpha": 0,
+      "imageJob": "image_1a1bbee47001rw0SKm8p0si2FG",
+      "materialReferences": [
+        {
+          "file": "src/card-lab/assets/refined-frames/egypte-lapis-lazuli.webp",
+          "sha256": "eee733b1973b5f8d0803fef3f24d9694a7d6907b732db0b39940527a3b71391e"
+        },
+        {
+          "file": "src/card-lab/assets/refined-frames/prehistoire-lapis-lazuli.webp",
+          "sha256": "b3e344c7e6ef15da36ed9cfb5ea5a30b28f9c17be0991345dc1588f001582805"
+        }
+      ]
+    }
+  ]
+}

@@ -17,8 +17,6 @@ import {
 } from "../scripts/card-lab/generated-processing";
 import { refineFrame } from "../scripts/card-lab/refined-processing";
 const sha = (b: Buffer) => createHash("sha256").update(b).digest("hex");
-const approved = (family: string) =>
-  (preservedFrameFamilies as readonly string[]).includes(family);
 
 test("cadres du lab — 1011 cartes couvertes par les palettes intégrées, raretés inchangées", () => {
   const before = JSON.stringify(artworks);
@@ -54,15 +52,12 @@ test("cadres du lab — 1011 cartes couvertes par les palettes intégrées, rare
     assert.ok(cardFrameFor(byId[id]).asset);
 });
 
-test("cadres — 95 variantes sûres, dont trente variantes historiques strictement inchangées", async () => {
+test("cadres — 95 progressions actives, sources traçables et fenêtres sûres", async () => {
   assert.equal(Object.keys(labFrames).length, 95);
-  const baseline = JSON.parse(
-    await readFile("catalog/card-lab/prestige-frames/baseline.json", "utf8"),
-  );
   const manifest = JSON.parse(
     await readFile("src/card-lab/assets/refined-frames.json", "utf8"),
   );
-  assert.equal(manifest.edition, "experiments-v1");
+  assert.equal(manifest.edition, "progression-v2");
   assert.deepEqual(
     manifest,
     JSON.parse(
@@ -70,12 +65,7 @@ test("cadres — 95 variantes sûres, dont trente variantes historiques strictem
     ),
   );
   for (const f of Object.values(labFrames)) {
-    const old = baseline.frames[f.key];
     assert.equal(f.finish, rarities[f.level].finish);
-    if (approved(f.family)) {
-      assert.equal(f.outputSha256, old.outputSha256);
-      assert.equal(f.windowSha256, old.windowSha256);
-    }
     assert.equal(sha(await readFile(f.sourceFile)), f.sourceSha256);
     if (f.sourceMaskFile)
       assert.equal(sha(await readFile(f.sourceMaskFile)), f.sourceMaskSha256);
@@ -139,10 +129,20 @@ test("nettoyage — toutes les images supprimées sont absentes et les six famil
     await assert.rejects(access(path), { code: "ENOENT" });
   for (const [path, hash] of Object.entries(report.preservedAssets))
     assert.equal(sha(await readFile(path)), hash, path);
+  const previous = JSON.parse(
+    await readFile(
+      "catalog/card-lab/progression-frames/previous-edition.json",
+      "utf8",
+    ),
+  );
   const integratedFiles = new Set(
-    Object.values(labFrames)
-      .filter((f) => f.assetDirectory === "experiment-frames")
-      .flatMap((f) => [f.file, f.windowFile]),
+    [
+      ...Object.values(labFrames),
+      ...(Object.values(previous.frames) as (typeof labFrames)[string][]),
+    ].flatMap((f) => [
+      `src/card-lab/assets/${f.assetDirectory}/${f.file}`,
+      `src/card-lab/assets/${f.assetDirectory}/${f.windowFile}`,
+    ]),
   );
   async function inspect(dir: string) {
     for (const entry of await readdir(dir, { withFileTypes: true })) {
@@ -154,8 +154,7 @@ test("nettoyage — toutes les images supprimées sont absentes et les six famil
       )
         assert.ok(
           preservedFrameFamilies.some((f) => entry.name.startsWith(f + "-")) ||
-            (dir === "src/card-lab/assets/experiment-frames" &&
-              integratedFiles.has(entry.name)),
+            integratedFiles.has(path),
           path,
         );
     }

@@ -5,7 +5,7 @@ Projet Firebase dédié demandé par l’utilisateur, nommé **muse-lab**. L’i
 ## Accès
 
 - [Accueil du laboratoire](https://muse-lab-6f2d.web.app/).
-- [Cartes et cadres](https://muse-lab-6f2d.web.app/card-lab.html) : 21 exemples et 95 variantes ; treize palettes issues des expériences et six familles historiques intactes. Paléolithique reste non affecté.
+- [Cartes et cadres](https://muse-lab-6f2d.web.app/card-lab.html) : 21 exemples et 95 dessins ; détails et matières évoluent sur les cinq raretés des 19 thèmes. Premiers essais et originaux historiques conservés ; Paléolithique reste non affecté.
 - [Sept boosters](https://muse-lab-6f2d.web.app/booster-lab.html) : une collection universelle et six regroupements spécialisés.
 - [Ouverture](https://muse-lab-6f2d.web.app/opening-lab.html) : carte par carte ou planche, sélecteur de rareté maximale, ambiance lapis exceptionnelle, sept pochettes, trois rythmes et mouvements réduits.
 
@@ -44,6 +44,7 @@ Les préparateurs d’images restent manuels ; ils ne relancent aucune générat
 
 ## Guides des essais
 
+- [Progression des détails sur les 19 thèmes](INTEGRATION_PROGRESSION_RARETES.md) : série courante, cinq générations par thème, masque individuel et conservation intégrale des essais antérieurs.
 - [Intégration des palettes examinées](INTEGRATION_PALETTES_LAB.md) : version courante du lab, 95 variantes, couleurs et géométrie conservées, aucun changement au jeu principal.
 - [Direction artistique des prochaines générations](GENERATION_CADRES.md) : style des expériences Japon et Photographie accepté, cinq finitions cohérentes ; nouvelles générations locales jusqu’à autorisation.
 - [Nettoyage : six familles validées uniquement](NETTOYAGE_CADRES_VALIDES.md) : état antérieur ; les anciennes éditions supprimées ne sont pas restaurées par la nouvelle intégration.

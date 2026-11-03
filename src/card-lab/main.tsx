@@ -103,7 +103,7 @@ function CardLab() {
         <section className="lab-intro">
           <div>
             <p className="lab-eyebrow">
-              Palettes intégrées · 19 familles, cinq finitions
+              Essai 02 · Les détails évoluent avec la rareté
             </p>
             <h1>
               Le cadre fait
@@ -117,8 +117,8 @@ function CardLab() {
           </div>
           <aside className="lab-intent">
             <p>
-              <strong>{sampleCases.length} vraies cartes.</strong> Les palettes
-              examinées sont maintenant intégrées aux dix-neuf familles du lab.
+              <strong>{sampleCases.length} vraies cartes.</strong> Dix-neuf
+              thèmes, chacun avec cinq dessins travaillés selon leur rareté.
               Cinq finitions : fer, cuivre, argent, or et lapis-lazuli.
             </p>
             <p>
@@ -131,15 +131,16 @@ function CardLab() {
               conservé dans les archives, mais n’est affecté à aucune œuvre.
             </p>
             <p>
-              Tes six décors de référence restent identiques : Exposition
+              Les originaux de tes six décors restent conservés : Exposition
               classique, Égypte ancienne, Arts décoratifs, Fantastique
               occidental, Abstraction géométrique et Paléolithique.
             </p>
             <p>
-              La direction des expériences Japon et Photographie guide les
-              treize nouvelles palettes : relief sculpté, moulures travaillées
-              et motifs propres au thème. Les cinq finitions conservent le même
-              dessin. Tes votes et commentaires restent conservés.
+              Comme dans les essais Japon et Verre, le fer gravé laisse place au
+              cuivre modelé, à l’argent ciselé, à l’or sculpté puis au lapis
+              incrusté. Motifs, reliefs et coins évoluent : ce ne sont plus cinq
+              recolorations. Tous les premiers essais et tes avis sont
+              conservés.
             </p>
             <details>
               <summary>Voir ta référence des Nymphéas</summary>
@@ -254,10 +255,10 @@ function CardLab() {
               </h2>
               <p>
                 Comparaison des cadres seuls. Ce nuancier ne change pas la
-                rareté des œuvres. Les {preservedFrameFamilies.length} décors
-                historiques sont inchangés ; les treize autres palettes
-                reprennent les fichiers examinés dans les expériences. Les
-                anciennes versions supprimées ne sont pas réactivées.
+                rareté des œuvres. Les dix-neuf familles présentent des détails
+                distincts selon la rareté. Les {preservedFrameFamilies.length}{" "}
+                familles historiques ont aussi leur nouvelle série ; leurs
+                originaux et tous les premiers essais sont conservés à part.
               </p>
             </div>
             <label>
@@ -352,10 +353,10 @@ function CardLab() {
           </p>
           <p>
             Les 95 variantes sont intégrées au lab uniquement. Les six familles
-            historiques sont intactes ; les nouvelles palettes gardent leurs
-            couleurs et leur géométrie. Les images des œuvres, leurs données et
-            les avis ne sont pas modifiés. Le jeu principal n’est pas mis à
-            jour.
+            historiques originales et tous les premiers essais sont conservés.
+            Chaque rareté a son dessin et son masque mesuré. Les œuvres, leurs
+            données et les avis ne sont pas modifiés. Le jeu principal n’est pas
+            mis à jour.
           </p>
         </footer>
       </main>

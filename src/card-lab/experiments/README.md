@@ -1,5 +1,15 @@
 # Expériences de cadres — références artistiques acceptées
 
+## Série courante : essai 02, progression par rareté
+
+Ouvrir **[`index-essai-02.html`](index-essai-02.html)** : 19 thèmes × 5 dessins indépendants, soit 95 images. Chaque dossier possède ses `essai-02-<finition>.png`, une planche `essai-02-cinq-raretes.png` et `essai-02-details.png`. Cette série est autorisée pour le lab uniquement. Les détails, reliefs, moulures et matières évoluent avec les raretés, comme dans les essais Japon et Verre.
+
+Les premiers essais ci-dessous restent intacts. Les fichiers `essai-01`, la galerie `index.html`, les sources historiques et les premières planches Japon/Verre `essai-02` ne sont pas supprimés ou écrasés. `catalog/card-lab/progression-frames/preserved-inputs.json` protège 695 fichiers antérieurs par leur empreinte.
+
+Les dérivés actifs sont dans `src/card-lab/assets/progression-frames/`. Ils possèdent des masques individuels et, quand l’ouverture brute est trop petite pour la mise en page, une adaptation déclarée par neuf zones à coins proportionnels. Les PNG bruts restent inchangés.
+
+## Historique : essai 01 et ses cinq recolorations
+
 Les expériences `japon/essai-01` et `photographie/essai-01`, dans leurs cinq finitions, définissent la direction artistique acceptée pour les prochaines générations. L’utilisateur a ensuite autorisé l’intégration des 95 variantes au **lab uniquement**. Les sources de ce dossier restent intactes ; les dérivés actifs sont séparés dans `assets/experiment-frames/`.
 
 ## Toutes les catégories — revue locale
