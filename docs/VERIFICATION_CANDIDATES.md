@@ -1,6 +1,6 @@
 # Vérification du lot des nouvelles candidates
 
-Livraison du 30 octobre 2026 : [page Firebase](https://art-museum-8fdd8-atelier.web.app/masterpieces.html), version `masterpieces-818ec04f3f8db6b3`.
+Compte rendu historique de la livraison du premier lot, le 30 octobre 2026 : [ses 25 candidates sur Firebase](https://art-museum-8fdd8-atelier.web.app/masterpieces.html?lot=initial), version `masterpieces-818ec04f3f8db6b3`. La page sans paramètre ouvre désormais les 78 nouvelles œuvres ; voir [l'état actuel](ETAT_ACTUEL.md).
 
 ## Données et séparation
 

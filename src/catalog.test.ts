@@ -10,10 +10,19 @@ import {
   rarityLevelForScore,
   type CatalogDataset,
 } from "./catalog/model";
-import { artworks, byId, catalogSize, museumName } from "./data";
+import {
+  activeGameRelease,
+  artworks,
+  byId,
+  catalogSize,
+  museumName,
+} from "./data";
 import plan from "../catalog/initial-collections.json";
 
 const copy = (): CatalogDataset => structuredClone(catalogDataset);
+const legacyArtworks = artworks.filter((w) =>
+  catalogDataset.works.some((old) => old.id === w.id),
+);
 const legacyIds = [
   "437654",
   "436105",
@@ -37,10 +46,10 @@ const legacyIds = [
   "467642",
 ];
 
-test("la banque contient cent œuvres et conserve les vingt identifiants historiques", () => {
+test("le socle historique conserve cent œuvres et les vingt identifiants d’origine dans le jeu enrichi", () => {
   assert.equal(parseCatalog(catalogDataset), catalogDataset);
   assert.deepEqual(
-    artworks
+    legacyArtworks
       .filter((work) => !work.id.startsWith("cma-"))
       .map((work) => work.id)
       .sort(),
@@ -56,7 +65,8 @@ test("la banque contient cent œuvres et conserve les vingt identifiants histori
     "The Metropolitan Museum of Art, New York",
   );
   assert.equal(catalogDataset.memberships.length, 102);
-  assert.equal(catalogSize("all"), 100);
+  assert.equal(legacyArtworks.length, 100);
+  assert.equal(catalogSize("all"), 100 + activeGameRelease.works.length);
   assert.equal(
     museumName(byId["cma-136510"]),
     "The Cleveland Museum of Art, Cleveland",
@@ -247,7 +257,7 @@ test("la sélection couvre cent œuvres importées sans confondre appartenances 
   assert.equal(new Set(assigned).size, assigned.length);
   assert.deepEqual(
     [...assigned].sort(),
-    artworks.map((work) => work.id).sort(),
+    legacyArtworks.map((work) => work.id).sort(),
   );
   assert.ok(
     plan.collections.every((item) => item.target === item.candidateIds.length),
@@ -287,7 +297,7 @@ test("chaque image possède une revue de droits datée et une preuve reliée au 
 });
 
 test("les quatre-vingts fiches ajoutées gardent des attributions nuancées et des textes distincts", () => {
-  const added = artworks.filter((work) => work.id.startsWith("cma-"));
+  const added = legacyArtworks.filter((work) => work.id.startsWith("cma-"));
   assert.equal(added.length, 80);
   assert.equal(new Set(added.map((work) => work.story)).size, 80);
   assert.ok(
@@ -299,6 +309,6 @@ test("les quatre-vingts fiches ajoutées gardent des attributions nuancées et d
   assert.equal(byId["cma-127746"].artist, "Atelier de Jacopo Tintoretto");
   assert.equal(byId["cma-135517"].artist, "Attribué à Suzanne Valadon");
   assert.ok(byId["cma-296869"].artist.startsWith("Probablement"));
-  assert.equal(catalogSize("renaissance-italienne"), 15);
+  assert.equal(catalogSize("renaissance-italienne"), 68);
   assert.equal(catalogSize("premiers-arts"), 10);
 });

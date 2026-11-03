@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "0b9ba0f8ad9c5012462ab026ad388384275b1aa9",
+  "purpose": "Rangement sans réécriture des preuves ni des identifiants de catalogues. Les anciens chemins des manifestes restent des références historiques résolues explicitement.",
+  "relocations": {
+    "masterpieces-candidates.json": "catalog/masterpieces/reports/candidates.json",
+    "masterpieces-candidates.md": "catalog/masterpieces/reports/candidates.md",
+    "masterpieces-import-preview.json": "catalog/masterpieces/reports/import-preview.json",
+    "masterpieces-rights-review.md": "catalog/masterpieces/reports/rights-review.md",
+    "enrichment-351-results.json": "catalog/enrichment-351/reports/results.json",
+    "enrichment-351-review.json": "catalog/enrichment-351/reports/review.json",
+    "enrichment-351-report.md": "catalog/enrichment-351/reports/REPORT.md",
+    "muse_oeuvres_candidates.json": "catalog/enrichment-351/input/candidates.json",
+    "MUSE_catalogue_oeuvres_domaine_public_a_verifier.md": "catalog/enrichment-351/input/README.md"
+  },
+  "sourceArchives": {
+    "scripts/masterpieces/build.ts": "catalog/history/pre-cleanup/scripts/masterpieces/build.ts",
+    "scripts/masterpieces/images.ts": "catalog/history/pre-cleanup/scripts/masterpieces/images.ts",
+    "scripts/enrichment-351/audit.ts": "catalog/history/pre-cleanup/scripts/enrichment-351/audit.ts",
+    "scripts/enrichment-351/build.ts": "catalog/history/pre-cleanup/scripts/enrichment-351/build.ts",
+    "scripts/enrichment-351/collect.ts": "catalog/history/pre-cleanup/scripts/enrichment-351/collect.ts",
+    "scripts/enrichment-351/research.ts": "catalog/history/pre-cleanup/scripts/enrichment-351/research.ts",
+    "scripts/enrichment-351/prepare.ts": "catalog/history/pre-cleanup/scripts/enrichment-351/prepare.ts",
+    "src/enrichment-351/main.tsx": "catalog/history/pre-cleanup/src/enrichment-351/main.tsx",
+    "review-351.html": "catalog/history/pre-cleanup/review-351.html",
+    "vite.enrichment.config.ts": "catalog/history/pre-cleanup/vite.enrichment.config.ts"
+  }
+}

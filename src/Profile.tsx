@@ -5,26 +5,21 @@ import {
   HardDrive,
   Info,
   Landmark,
-  Moon,
   ShieldCheck,
-  Sun,
   Upload,
 } from "lucide-react";
-import { artworks, catalogs } from "./data";
+import { artworks, typeCatalogs, themeCatalogs } from "./data";
 import {
   duplicateCount,
   uniqueCount,
   type CollectionState,
 } from "./collection";
 import { Button } from "./components";
-import { type Theme } from "./theme";
 import { CARDS_PER_PACK } from "./packRules";
 
 export default function Profile({
   state,
   persistence,
-  theme,
-  onToggleTheme,
   onExport,
   onImport,
   importError,
@@ -32,8 +27,6 @@ export default function Profile({
 }: {
   state: CollectionState;
   persistence: boolean;
-  theme: Theme;
-  onToggleTheme: () => void;
   onExport: () => void;
   onImport: (file?: File) => void;
   importError: string;
@@ -45,7 +38,7 @@ export default function Profile({
       <div className="workspace-heading">
         <div>
           <h1>Profil</h1>
-          <p>Votre parcours, votre musée, vos préférences.</p>
+          <p>Votre parcours, votre musée, vos sauvegardes.</p>
         </div>
       </div>
       <section className="profile-identity" aria-labelledby="collector-title">
@@ -132,27 +125,15 @@ export default function Profile({
           </p>
         )}
       </section>
-      <section className="profile-section">
-        <div>
-          <h2>À votre lumière</h2>
-          <p>
-            Thème {theme === "dark" ? "sombre bordeaux" : "clair ivoire"}. Votre
-            préférence est conservée sur cet appareil.
-          </p>
-        </div>
-        <Button variant="ghost" onClick={onToggleTheme}>
-          {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}Passer au
-          thème {theme === "dark" ? "clair" : "sombre"}
-        </Button>
-      </section>
       <details className="profile-about">
         <summary>À propos de cette version</summary>
         <p>
-          {artworks.length} œuvres de démonstration, {catalogs.length} univers,{" "}
-          {CARDS_PER_PACK} cartes par pochette. Stock maximum : 10 pochettes,
-          avec une recharge toutes les 10 minutes. Les raretés et les paramètres
-          sont provisoires ; ils ne représentent pas une valeur marchande.
-          Comptes, échanges et paiements ne sont pas activés.
+          {artworks.length} œuvres à collectionner, {typeCatalogs.length} types
+          et {themeCatalogs.length} thèmes, {CARDS_PER_PACK} cartes par
+          pochette. Stock maximum : 10 pochettes, avec une recharge toutes les
+          10 minutes. Les raretés et les paramètres sont provisoires ; ils ne
+          représentent pas une valeur marchande. Comptes, échanges et paiements
+          ne sont pas activés.
         </p>
         <a
           className="source-link"

@@ -1,8 +1,14 @@
 import { ArrowRight, Clock3, Gift, RotateCcw } from "lucide-react";
-import { catalogs } from "./data";
+import { artworks } from "./data";
 import { MAX_STOCK, type CollectionState } from "./collection";
-import { Button, Pack } from "./components";
+import { Button } from "./components";
 import { CARDS_PER_PACK } from "./packRules";
+import BoosterVisual from "./game-presentation/boosters/BoosterVisual";
+import {
+  boosterGroups,
+  specializedBoosterGroups,
+  worksForBooster,
+} from "./game-presentation/boosters/groups";
 
 export default function Home({
   state,
@@ -15,12 +21,16 @@ export default function Home({
   onChoose: (id: string) => void;
   onResume: () => void;
 }) {
+  const universal = boosterGroups[0];
   return (
     <div className="pocket-home workspace">
       <div className="workspace-heading">
         <div>
           <h1>Pochettes</h1>
-          <p>Un peu de curiosité. {CARDS_PER_PACK} œuvres à découvrir.</p>
+          <p>
+            Un peu de curiosité. {CARDS_PER_PACK} œuvres à découvrir parmi{" "}
+            {artworks.length} cartes.
+          </p>
         </div>
         <div className="pocket-stock">
           <span>
@@ -38,11 +48,11 @@ export default function Home({
           </small>
         </div>
       </div>
-
       {state.latest &&
         state.latest.revealed.length < state.latest.cards.length && (
           <button className="resume-opening" onClick={onResume}>
-            <RotateCcw size={17} /> Reprendre ma dernière ouverture
+            <RotateCcw size={17} />
+            Reprendre ma dernière ouverture
             <span>
               {state.latest.revealed.length} / {state.latest.cards.length}{" "}
               dévoilées
@@ -50,58 +60,56 @@ export default function Home({
             <ArrowRight size={17} />
           </button>
         )}
-
-      <section className="pocket-feature" aria-labelledby="mixed-pack-title">
+      <section
+        className="pocket-feature published-universal"
+        aria-labelledby="mixed-pack-title"
+      >
         <div className="pocket-feature-copy">
-          <h2 id="mixed-pack-title">Écho de Silence</h2>
-          <p className="pocket-family">
-            Tous les styles · {CARDS_PER_PACK} cartes
-          </p>
+          <p className="pocket-family">La pochette universelle</p>
+          <h2 id="mixed-pack-title">
+            Tout l’art.
+            <br />
+            <em>Toutes les découvertes.</em>
+          </h2>
+          <p>{universal.description}</p>
           <p>
-            De la peinture aux trésors de l’Antiquité, laissez toute l’histoire
-            de l’art vous surprendre.
+            {artworks.length} œuvres possibles · {CARDS_PER_PACK} cartes par
+            pochette
           </p>
-          <Button
-            variant="blue"
-            onClick={() => onChoose("all")}
-            disabled={!state.stock}
-          >
-            {state.stock
-              ? "Choisir la pochette tous styles"
-              : "En attente de la recharge"}
-            <ArrowRight size={18} />
+          <Button variant="blue" onClick={() => onChoose(universal.id)}>
+            Choisir la collection universelle <ArrowRight size={18} />
           </Button>
           <span className="pocket-free">Gratuite · sans inscription</span>
         </div>
-        <img
-          className="pocket-main-image"
-          src="/assets/booster.png"
-          width={1024}
-          height={1536}
-          alt="Pochette MUSE bordeaux et or, buste antique et bleu outremer"
-        />
-      </section>
-
-      <section className="pocket-universes" aria-labelledby="universes-title">
-        <div className="pocket-section-heading">
-          <h2 id="universes-title">Ou explorez un univers</h2>
-          <p>Une envie plus précise ?</p>
+        <div className="published-universal__art">
+          <BoosterVisual group={universal} />
         </div>
-        <div className="pocket-options">
-          {catalogs.map((catalog) => (
+      </section>
+      <section className="pocket-universes" aria-labelledby="specialized-title">
+        <div className="pocket-section-heading">
+          <h2 id="specialized-title">Suivez votre curiosité.</h2>
+          <p>
+            Six sélections complémentaires · une seule sélection spécialisée par
+            œuvre
+          </p>
+        </div>
+        <div className="published-boosters">
+          {specializedBoosterGroups.map((group) => (
             <button
-              className="pocket-option"
-              key={catalog.id}
-              onClick={() => onChoose(catalog.id)}
+              type="button"
+              className="published-booster"
+              key={group.id}
+              onClick={() => onChoose(group.id)}
+              aria-label={`Choisir ${group.title}`}
             >
-              <div className="pocket-option-art" aria-hidden="true">
-                <Pack catalog={catalog} />
+              <div className="published-booster__art">
+                <BoosterVisual group={group} />
               </div>
-              <h3>{catalog.title}</h3>
-              <span className="pocket-option-family">
-                {catalog.family === "Art fantastique et mystérieux"
-                  ? "Imaginaire"
-                  : catalog.family}
+              <h3>{group.title}</h3>
+              <p>{group.subtitle}</p>
+              <span>
+                {worksForBooster(group.id).length} œuvres possibles ·{" "}
+                {CARDS_PER_PACK} cartes
               </span>
               <span className="pocket-option-action">
                 Découvrir la pochette <ArrowRight size={16} />
@@ -111,7 +119,8 @@ export default function Home({
         </div>
         <p className="pocket-footnote">
           Toutes les pochettes partagent votre stock gratuit. Les probabilités
-          sont consultables avant chaque ouverture.
+          sont consultables avant chaque ouverture. Les douze types et les
+          quatre thèmes restent les filtres précis de votre collection.
         </p>
       </section>
     </div>

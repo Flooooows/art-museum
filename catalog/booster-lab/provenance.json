@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "method": "Sept illustrations générées distinctes ; détourage du fond extérieur et mise à l’échelle proportionnelle commune. Textes ajoutés en HTML, pas dans les images sources.",
+  "referenceSha256": "fd63a018281e794f541bbb6cc4f92a3dc2e8e9425932775be9c4a861aa662732",
+  "preparationScriptSha256": "5dff86b7c1a645aafa7c840508dd55a5625228caa99db197784dacc6705d7ea0",
+  "processingScriptSha256": "f3b1be5e5d06c28e354b28fde58cc0f0064cc0034b0942bf4f2bad4ebf16793f",
+  "packs": {
+    "universel": {
+      "id": "universel",
+      "file": "universel.webp",
+      "width": 768,
+      "height": 1152,
+      "sourceFile": "src/booster-lab/assets/generated-sources/universel-master.png",
+      "sourceSha256": "dfe4442a18e5bcfec206bccdc8f511469ee018cfa037f30b308788faae114d13",
+      "outputSha256": "7684961aef64f98d18eac065be08be4026ae6f80b33367ec64ac54cff008901c",
+      "sourceBounds": {
+        "left": 90,
+        "top": 23,
+        "width": 860,
+        "height": 1473
+      },
+      "exteriorPixels": 388905,
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_1982f6914001miRXYJi0SER8UA",
+      "promptSummary": {
+        "palette": "Bordeaux & laiton",
+        "motif": "Pigments, relief, papier et tissage réunis.",
+        "layout": "Pochette frontale scellée ; zones supérieures et inférieures sans texte pour typographie HTML commune.",
+        "reference": "public/assets/booster.png"
+      },
+      "type": "generated-pack-illustration",
+      "rightsNote": "Illustration générée ; aucune licence muséale attribuée. Ce n’est pas une reproduction d’œuvre du catalogue."
+    },
+    "peintures": {
+      "id": "peintures",
+      "file": "peintures.webp",
+      "width": 768,
+      "height": 1152,
+      "sourceFile": "src/booster-lab/assets/generated-sources/peintures-master.png",
+      "sourceSha256": "f7ccc315e9c372d99bf05f31566fe5727656b4d88a3decaac7f0dd82b26576ca",
+      "outputSha256": "503d60a3c0366ae128f402bc58682d4ac35841f8f3b853c623f0c737056953dd",
+      "sourceBounds": {
+        "left": 90,
+        "top": 23,
+        "width": 860,
+        "height": 1473
+      },
+      "exteriorPixels": 390049,
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_1982fa056001gcNollFyPVwesD",
+      "promptSummary": {
+        "palette": "Cobalt & pigments",
+        "motif": "Empâtements, gestes et couches de couleur.",
+        "layout": "Pochette frontale scellée ; zones supérieures et inférieures sans texte pour typographie HTML commune.",
+        "reference": "public/assets/booster.png"
+      },
+      "type": "generated-pack-illustration",
+      "rightsNote": "Illustration générée ; aucune licence muséale attribuée. Ce n’est pas une reproduction d’œuvre du catalogue."
+    },
+    "traits-pages": {
+      "id": "traits-pages",
+      "file": "traits-pages.webp",
+      "width": 768,
+      "height": 1152,
+      "sourceFile": "src/booster-lab/assets/generated-sources/traits-pages-master.png",
+      "sourceSha256": "d0646d6020930cc1bbdecbb2f3d0cdb8e1d927c290e6db22a56fd6fc1bc23fdf",
+      "outputSha256": "e39da6cb5c5153b2b471cecfe5cc398ad37a9c2fee7a19dbb3fb77109f285cad",
+      "sourceBounds": {
+        "left": 90,
+        "top": 24,
+        "width": 859,
+        "height": 1472
+      },
+      "exteriorPixels": 396513,
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_1982fd064001ouz0irSTXqneAi",
+      "promptSummary": {
+        "palette": "Ivoire & cuivre",
+        "motif": "Feuillets, hachures et lignes gravées.",
+        "layout": "Pochette frontale scellée ; zones supérieures et inférieures sans texte pour typographie HTML commune.",
+        "reference": "public/assets/booster.png"
+      },
+      "type": "generated-pack-illustration",
+      "rightsNote": "Illustration générée ; aucune licence muséale attribuée. Ce n’est pas une reproduction d’œuvre du catalogue."
+    },
+    "sculptures": {
+      "id": "sculptures",
+      "file": "sculptures.webp",
+      "width": 768,
+      "height": 1152,
+      "sourceFile": "src/booster-lab/assets/generated-sources/sculptures-master.png",
+      "sourceSha256": "f6c14788e2d77f7897572bbad3ac919c018e3d91e1a1e112277817f0cf59735b",
+      "outputSha256": "fc35d57b642f90f620b9f7104875f865325c15785d0d73ad73d4bcfb6497926e",
+      "sourceBounds": {
+        "left": 89,
+        "top": 23,
+        "width": 861,
+        "height": 1473
+      },
+      "exteriorPixels": 388516,
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_1982ffce60013T39uaMjBNMr5S",
+      "promptSummary": {
+        "palette": "Olive & pierre",
+        "motif": "Volumes sculptés et plis taillés.",
+        "layout": "Pochette frontale scellée ; zones supérieures et inférieures sans texte pour typographie HTML commune.",
+        "reference": "public/assets/booster.png"
+      },
+      "type": "generated-pack-illustration",
+      "rightsNote": "Illustration générée ; aucune licence muséale attribuée. Ce n’est pas une reproduction d’œuvre du catalogue."
+    },
+    "photographies": {
+      "id": "photographies",
+      "file": "photographies.webp",
+      "width": 768,
+      "height": 1152,
+      "sourceFile": "src/booster-lab/assets/generated-sources/photographies-master.png",
+      "sourceSha256": "270514e6928874e9318f2d8203dbede9253a5d5afb50856027f9bc66e9215357",
+      "outputSha256": "3fc7464eb99f80d21d81edc093f02eb4fc57081231755fe0f9c87ebe04d0a9fb",
+      "sourceBounds": {
+        "left": 89,
+        "top": 24,
+        "width": 861,
+        "height": 1472
+      },
+      "exteriorPixels": 388330,
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_1983027cb001pXE6sUqx34mztM",
+      "promptSummary": {
+        "palette": "Nuit & argent",
+        "motif": "Lumière, ombres et tirages photographiques.",
+        "layout": "Pochette frontale scellée ; zones supérieures et inférieures sans texte pour typographie HTML commune.",
+        "reference": "public/assets/booster.png"
+      },
+      "type": "generated-pack-illustration",
+      "rightsNote": "Illustration générée ; aucune licence muséale attribuée. Ce n’est pas une reproduction d’œuvre du catalogue."
+    },
+    "matieres-objets": {
+      "id": "matieres-objets",
+      "file": "matieres-objets.webp",
+      "width": 768,
+      "height": 1152,
+      "sourceFile": "src/booster-lab/assets/generated-sources/matieres-objets-master.png",
+      "sourceSha256": "2f9ba349ae2395833f0d2e88a5f79906f40d13df5cf77e986d28e065ca9abf97",
+      "outputSha256": "caa9ff9d87639a605ef5c97c6ee9a06534b7db666749a764af13946820237871",
+      "sourceBounds": {
+        "left": 89,
+        "top": 23,
+        "width": 861,
+        "height": 1471
+      },
+      "exteriorPixels": 391384,
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_1983056bc001YPg2XRDl63XDHL",
+      "promptSummary": {
+        "palette": "Pétrole & cuivre",
+        "motif": "Céramique, métal, verre et minéral.",
+        "layout": "Pochette frontale scellée ; zones supérieures et inférieures sans texte pour typographie HTML commune.",
+        "reference": "public/assets/booster.png"
+      },
+      "type": "generated-pack-illustration",
+      "rightsNote": "Illustration générée ; aucune licence muséale attribuée. Ce n’est pas une reproduction d’œuvre du catalogue."
+    },
+    "textiles-interieur": {
+      "id": "textiles-interieur",
+      "file": "textiles-interieur.webp",
+      "width": 768,
+      "height": 1152,
+      "sourceFile": "src/booster-lab/assets/generated-sources/textiles-interieur-master.png",
+      "sourceSha256": "79e6b4e0e1889e38f8b699fdcb161fa33613fa4f000922ffa2896b03e5c51c38",
+      "outputSha256": "70f993031aed8d7e9fb552b96f9a35dbcac9111d42f759bc87c7c2e5c6f4325b",
+      "sourceBounds": {
+        "left": 89,
+        "top": 23,
+        "width": 861,
+        "height": 1473
+      },
+      "exteriorPixels": 386638,
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19830886b001mfcStithYg4zCh",
+      "promptSummary": {
+        "palette": "Prune & fils dorés",
+        "motif": "Trame tissée et assemblages de bois.",
+        "layout": "Pochette frontale scellée ; zones supérieures et inférieures sans texte pour typographie HTML commune.",
+        "reference": "public/assets/booster.png"
+      },
+      "type": "generated-pack-illustration",
+      "rightsNote": "Illustration générée ; aucune licence muséale attribuée. Ce n’est pas une reproduction d’œuvre du catalogue."
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises";
+import { readProjectFile as readFile } from "../project-files";
 export const values = (entity: any, property: string): any[] =>
   (entity?.claims?.[property] ?? [])
     .map((c: any) => c.mainsnak?.datavalue?.value)

@@ -1,5 +1,9 @@
 # Catalogue MUSE
 
+> **Classement types + thèmes :** `src/catalog/taxonomy.json` répartit les 1 011 cartes dans douze types principaux exclusifs et quatre thèmes secondaires. Cette projection remplace les anciens fourre-tout dans le jeu sans réécrire les appartenances historiques du socle ou des livraisons figées. Les anciens identifiants restent lisibles dans les sauvegardes. Voir [les effectifs, décisions et validations](../docs/RECLASSEMENT_CATALOGUES_2026-11-01.md) et `npm run taxonomy:check`.
+
+> **Livraison active :** 1 011 cartes, dont 997 du millier et 14 extras conservés. Les 658 ajouts du 1er novembre gardent leur statut `REVIEW_REQUIRED` et une autorisation explicite de publication distincte ; les 3 cartes bloquées du millier sont exclues. Le socle et les anciens calculs décrits ci-dessous restent conservés, pas réécrits. Voir [l'extension du 1er novembre](../docs/PUBLICATION_CARTES_2026-11-01.md), [la livraison précédente](../docs/PUBLICATION_CARTES_2026-10-30.md), `src/catalog/game-release.json` et `npm run game:check`. Les anciennes limitations de publication de cette documentation concernent le socle historique, pas la garde dédiée aux décisions humaines.
+
 ## Source actuelle
 
 `src/catalog/seed.json` est la source éditoriale locale effectivement lue par le site. Ce n’est pas une base hébergée : aucune infrastructure, connexion, synchronisation ou administration n’est provisionnée. `src/catalog/repository.ts` valide cette source ; `src/data.ts` la projette pour l’interface.

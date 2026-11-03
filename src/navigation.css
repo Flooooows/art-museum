@@ -962,3 +962,39 @@
     animation: none;
   }
 }
+.catalog-group > h3 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.taxonomy-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+.taxonomy-filters label {
+  display: flex;
+  flex: 1 1 220px;
+  min-width: 0;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+}
+.taxonomy-filters select {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0.65rem;
+  border: 1px solid currentColor;
+  border-radius: 0.4rem;
+  background: var(--paper, #f9f7f2);
+  color: inherit;
+  font: inherit;
+}
+.taxonomy-filters p {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 0.8rem;
+}

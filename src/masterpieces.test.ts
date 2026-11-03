@@ -13,8 +13,9 @@ import {
 import { REVIEW_STORAGE_KEY, parseReviewCatalog } from "./review/model";
 import { sha256 } from "../scripts/rarity-v2/http";
 import { createScorer } from "../scripts/masterpieces/score";
+import { readHistoricalFile, readProjectFile } from "../scripts/project-files";
 
-const json = async (p: string) => JSON.parse(await readFile(p, "utf8"));
+const json = async (p: string) => JSON.parse(await readProjectFile(p, "utf8"));
 const catalog = parseCandidateCatalog(
   await json("public/masterpieces-data/catalog.json"),
 );
@@ -126,9 +127,9 @@ test("candidates — calcul V2 reproductible avec preuves figées, aucun bonus p
   for (const c of report.candidates)
     assert.deepEqual(score(c.scoreInput), c.proposal);
   for (const [file, hash] of Object.entries(report.evidenceHashes))
-    assert.equal(sha256(await readFile(file)), hash);
+    assert.equal(sha256(await readHistoricalFile(file, hash)), hash);
   for (const [file, hash] of Object.entries(report.implementationHashes))
-    assert.equal(sha256(await readFile(file)), hash);
+    assert.equal(sha256(await readHistoricalFile(file, hash)), hash);
 });
 test("candidates — aucun choix initial, statuts et rareté indépendants, annulation historisée", () => {
   assert.deepEqual(decisionsFor([]), { rarities: {}, selections: {} });

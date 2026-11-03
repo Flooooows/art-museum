@@ -12,5 +12,11 @@
     "allowImportingTsExtensions": true,
     "types": ["vite/client", "node"]
   },
-  "include": ["src", "vite.config.ts"]
+  "include": [
+    "src",
+    "vite.config.ts",
+    "vite.card-lab.config.ts",
+    "vite.booster-lab.config.ts",
+    "vite.muse-lab.config.ts"
+  ]
 }

@@ -58,7 +58,7 @@ L’observation couvre l’accueil et la collection en mode invité. Les conditi
 
 ### Mécaniques à arbitrer avant leur implémentation
 
-- Nombre de cartes par pochette et éventuelle rareté minimale garantie.
+- Nombre de cartes décidé : cinq par nouvelle pochette, sans garantie de rareté dans la démonstration actuelle. Une éventuelle garantie reste à arbitrer ; les anciens tirages de trois restent conservés.
 - Garantie après plusieurs ouvertures sans carte exceptionnelle, et articulation avec les probabilités identiques entre abonnements.
 - Recyclage des doublons en monnaie virtuelle, en complément de la vente et de l’échange.
 - Fiche culturelle intégralement accessible avant acquisition ou enrichie à la découverte : Kyara annonce un déblocage du wiki, mais cette restriction n’est pas encore retenue ici.
@@ -176,6 +176,8 @@ Ne pas modifier artificiellement la notoriété attribuée à une œuvre pour re
 
 ## Les pochettes de découvertes et abonnements
 
+> **Vision future, non implémentée.** Le jeu actuel est une démonstration gratuite avec sauvegarde locale. Les abonnements et tarifs ci-dessous sont des propositions produit, pas des offres disponibles.
+
 « Pochette de découvertes » est le nom proposé pour les boosters.
 
 Le site propose une version gratuite et deux abonnements facultatifs. Tous les joueurs ont accès aux mêmes cartes, collections et fonctionnalités. Les abonnements permettent uniquement d’accélérer la collection grâce à des boosters supplémentaires.
@@ -190,6 +192,8 @@ Les probabilités d’obtenir les différentes raretés restent identiques pour 
 
 ## Le marché et les échanges
 
+> **Vision future, non implémentée.** L'onglet Marché actuel affiche uniquement les doublons locaux et annonce les échanges à venir ; il ne permet aucune transaction.
+
 - **Marché entre joueurs** : mettre des cartes en vente contre une monnaie virtuelle ou acheter celles qui manquent à sa collection.
 - **Système d’échange** : proposer des échanges de cartes en double avec d’autres joueurs.
 - **Gestion des doublons** : conserver, vendre ou échanger ses cartes supplémentaires.
@@ -198,6 +202,8 @@ Les probabilités d’obtenir les différentes raretés restent identiques pour 
 Le marché et les échanges permettent de compléter les collections sans devoir compter uniquement sur les boosters. Toutes les cartes restent accessibles à tous, quel que soit leur abonnement.
 
 ## Les récompenses de collection
+
+> **Vision future.** Les récompenses automatiques, paliers et déblocages décrits ci-dessous ne sont pas implémentés dans le jeu actuel.
 
 Compléter une famille débloque des récompenses cosmétiques :
 - Cadre de profil exclusif.

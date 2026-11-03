@@ -6,6 +6,18 @@ import {
 } from "./catalog/repository";
 import { RARITY_WEIGHTS } from "./packRules";
 import { type PublicationStatus } from "./catalog/model";
+import releaseSource from "./catalog/game-release.json";
+import { parseGameRelease, type HumanRarity } from "./catalog/gameRelease";
+import taxonomySource from "./catalog/taxonomy.json";
+import { parseTaxonomy } from "./catalog/taxonomy";
+
+export const activeGameRelease = parseGameRelease(
+  releaseSource,
+  catalogDataset,
+);
+const humanRarities = new Map(
+  activeGameRelease.existingRarities.map((d) => [d.artworkId, d]),
+);
 
 export const rarities = [
   {
@@ -71,6 +83,8 @@ export interface Catalog {
   image: string;
   texture: string;
   frameFamily?: string;
+  kind?: "type" | "theme" | "legacy";
+  coverImage?: string;
 }
 export interface Artwork {
   id: string;
@@ -91,18 +105,31 @@ export interface Artwork {
   image: string;
   imageCredit: string;
   publicationStatus: PublicationStatus;
+  rarityOrigin?: "manual-review";
+  humanRarity?: HumanRarity;
+  inventoryNumber?: string;
+  category?: string;
+  frameFamily?: string;
+  institutionalNote?: string;
+  imageSource?: string;
+  reuseUrl?: string;
+  reuseLabel?: string;
+  reuseObligations?: string[];
 }
 
-export const families = catalogDataset.families;
-export const catalogs: Catalog[] = catalogDataset.catalogs
+const legacyCatalogs: Catalog[] = catalogDataset.catalogs
   .filter((catalog) => catalog.status !== "draft")
   .map((catalog) => ({
     ...catalog,
-    family: families.find((family) => family.id === catalog.familyIds[0])!.name,
+    description:
+      activeGameRelease.catalogDescriptions[catalog.id] ?? catalog.description,
+    family: catalogDataset.families.find(
+      (family) => family.id === catalog.familyIds[0],
+    )!.name,
   }));
 
-/** Compatibility projection: catalog data is edited in catalog/seed.json, not JSX. */
-export const artworks: Artwork[] = catalogDataset.works
+/** Keep the historical seed immutable; an explicitly authorized release adds cards and human rarity updates. */
+const releasedArtworks: Artwork[] = catalogDataset.works
   .filter((work) => work.status !== "draft")
   .map((work) => ({
     id: work.id,
@@ -114,7 +141,9 @@ export const artworks: Artwork[] = catalogDataset.works
     catalogIds: catalogsFor(work.id),
     familyId: work.familyId,
     museumId: work.museumId,
-    rarity: assessmentFor(work.id)!.level,
+    rarity: humanRarities.get(work.id)?.level ?? assessmentFor(work.id)!.level,
+    rarityOrigin: "manual-review" as const,
+    humanRarity: humanRarities.get(work.id),
     anecdote: work.anecdote,
     story: work.story,
     origin: work.origin,
@@ -122,17 +151,78 @@ export const artworks: Artwork[] = catalogDataset.works
     image: primaryImageFor(work.id)!.url,
     imageCredit: primaryImageFor(work.id)!.rights.statement,
     publicationStatus: work.status,
-  }));
+    imageSource: primaryImageFor(work.id)!.rights.verification?.sourceImageUrl,
+    reuseUrl: primaryImageFor(work.id)!.rights.verification?.policyUrl,
+    reuseLabel:
+      primaryImageFor(work.id)!.rights.license === "CC0"
+        ? "CC0"
+        : "Déclaration de droits de la source",
+  }))
+  .concat(activeGameRelease.works);
+
+export const activeTaxonomy = parseTaxonomy(
+  taxonomySource,
+  releasedArtworks,
+  activeGameRelease.id,
+);
+const assignments = new Map(
+  activeTaxonomy.assignments.map((a) => [a.artworkId, a]),
+);
+const typeDefinitions = new Map(activeTaxonomy.catalogs.map((c) => [c.id, c]));
+const legacyMemberships = new Map(
+  releasedArtworks.map((w) => [w.id, w.catalogIds]),
+);
+export const artworks: Artwork[] = releasedArtworks.map((w) => {
+  const a = assignments.get(w.id)!;
+  const type = typeDefinitions.get(a.primaryCatalogId)!;
+  return {
+    ...w,
+    catalog: a.primaryCatalogId,
+    catalogIds: [a.primaryCatalogId, ...a.themeIds],
+    familyId: type.familyId,
+    frameFamily:
+      legacyCatalogs.find((c) => c.id === w.catalog)?.frameFamily ?? w.catalog,
+  };
+});
+const artworkImages = new Map(artworks.map((w) => [w.id, w.image]));
+export const visibleCatalogs: Catalog[] = activeTaxonomy.catalogs.map((c) => ({
+  ...c,
+  familyIds: [c.familyId],
+  family: catalogDataset.families.find((f) => f.id === c.familyId)!.name,
+  image: "hero-art",
+  coverImage: artworkImages.get(c.coverArtworkId),
+}));
+export const typeCatalogs = visibleCatalogs.filter((c) => c.kind === "type");
+export const themeCatalogs = visibleCatalogs.filter((c) => c.kind === "theme");
+/** Hidden legacy IDs remain readable in old saves, but are never offered as current catalogs. */
+export const catalogs: Catalog[] = [
+  ...visibleCatalogs,
+  ...legacyCatalogs
+    .filter((c) => !visibleCatalogs.some((v) => v.id === c.id))
+    .map((c) => ({
+      ...c,
+      kind: "legacy" as const,
+      title: `Ancien catalogue · ${c.family}`,
+    })),
+];
+export const families = catalogDataset.families.filter((f) =>
+  artworks.some((w) => w.familyId === f.id),
+);
+export const catalogCover = (catalog: Catalog) =>
+  catalog.coverImage ?? `/assets/${catalog.image}.jpg`;
 
 export const byId = Object.fromEntries(artworks.map((art) => [art.id, art]));
 export const getCatalog = (id: string) =>
   catalogs.find((catalog) => catalog.id === id);
 export const artworkInCatalog = (art: Artwork, catalog: string) =>
-  catalog === "all" || art.catalogIds.includes(catalog);
+  catalog === "all" ||
+  art.catalogIds.includes(catalog) ||
+  (getCatalog(catalog)?.kind === "legacy" &&
+    !!legacyMemberships.get(art.id)?.includes(catalog));
 export const catalogSize = (id: string) =>
   artworks.filter((art) => artworkInCatalog(art, id)).length;
 export const museumName = (art: Artwork) => {
-  const museum = catalogDataset.museums.find(
+  const museum = [...catalogDataset.museums, ...activeGameRelease.museums].find(
     (item) => item.id === art.museumId,
   )!;
   return `${museum.name}, ${museum.city}`;

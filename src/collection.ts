@@ -1,11 +1,6 @@
-import {
-  artworks,
-  byId,
-  catalogs,
-  ratesForCatalog,
-  artworkInCatalog,
-} from "./data";
+import { artworks, byId, artworkInCatalog } from "./data";
 import { CARDS_PER_PACK, LEGACY_CARDS_PER_PACK } from "./packRules";
+import { isPackSelection, packWorks, ratesForPack } from "./packSelection";
 
 export const STORAGE_KEY = "muse-collection-v1";
 export const MAX_STOCK = 10;
@@ -66,9 +61,9 @@ export function drawPack(
   catalog: string,
   random: () => number = Math.random,
 ): string[] {
-  if (catalog !== "all" && !catalogs.some((item) => item.id === catalog))
-    throw new Error("Catalogue inconnu.");
-  const rates = ratesForCatalog(catalog);
+  if (!isPackSelection(catalog)) throw new Error("Catalogue inconnu.");
+  const rates = ratesForPack(catalog);
+  const selection = packWorks(catalog);
   return Array.from({ length: CARDS_PER_PACK }, () => {
     const roll = Math.max(0, Math.min(0.99999999, random())) * 100;
     let cumulative = 0;
@@ -76,9 +71,7 @@ export function drawPack(
       cumulative += rate;
       return roll < cumulative;
     });
-    const pool = artworks.filter(
-      (art) => art.rarity === rarity && artworkInCatalog(art, catalog),
-    );
+    const pool = selection.filter((art) => art.rarity === rarity);
     const index = Math.floor(
       Math.max(0, Math.min(0.99999999, random())) * pool.length,
     );
@@ -160,8 +153,7 @@ export function parseState(value: string, now = Date.now()): CollectionState {
         validInteger(index, last.cards.length - 1),
       ) ||
       new Set(last.revealed).size !== last.revealed.length ||
-      (last.catalog !== "all" &&
-        !catalogs.some((catalog) => catalog.id === last.catalog))
+      !isPackSelection(last.catalog)
     ) {
       throw new Error("Le dernier tirage de cette sauvegarde est invalide.");
     }

@@ -1,4 +1,5 @@
 import assets from "./frame-assets.json";
+// Historical registry only. The site no longer imports or displays these frames.
 import { getCatalog, rarities, type Artwork } from "./data";
 
 export interface FrameAsset {
@@ -23,5 +24,8 @@ export function findFrame(
 
 export function getFrame(art: Artwork): FrameAsset | null {
   const catalog = getCatalog(art.catalog);
-  return findFrame(catalog?.frameFamily ?? catalog?.id, art.rarity);
+  return findFrame(
+    art.frameFamily ?? catalog?.frameFamily ?? catalog?.id,
+    art.rarity,
+  );
 }

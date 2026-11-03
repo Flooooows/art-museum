@@ -1,0 +1,44 @@
+{
+  "projectId": "muse-lab-6f2d",
+  "displayName": "muse-lab",
+  "origin": "https://muse-lab-6f2d.web.app",
+  "version": "5d248620a959da51",
+  "releaseTime": "2026-11-01T19:30:04.683Z",
+  "change": "Révélation une par une, sélecteur de rareté maximale et mise en scène lapis exclusive.",
+  "expectedFiles": 1145,
+  "checkedFiles": 1145,
+  "totalBytes": 175205340,
+  "failures": [],
+  "headers": [
+    {
+      "path": "/",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/card-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/booster-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "path": "/opening-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    }
+  ],
+  "gameIsolation": {
+    "projectId": "muse-collection-6f2d",
+    "beforeVersion": "d2169e93bdbfd2bf",
+    "afterVersion": "d2169e93bdbfd2bf",
+    "sameRelease": true
+  }
+}

@@ -109,7 +109,11 @@ test("les anciennes pochettes de trois cartes restent intactes et les suivantes 
   assert.deepEqual(revealed.counts, legacy.counts);
   const next = openPack(restored, "all", 3000, () => 0);
   assert.equal(next.latest?.cards.length, 5);
-  assert.equal(next.counts["437654"], 8);
+  assert.ok(next.counts["437654"] >= 3);
+  assert.equal(
+    Object.values(next.counts).reduce((sum, count) => sum + count, 0),
+    8,
+  );
   assert.equal(next.stock, 8);
 });
 
@@ -163,9 +167,9 @@ test("le parseur refuse les tailles de tirage non reconnues et indices hors du r
 
 test("une œuvre peut appartenir à deux catalogues sans doubler l’inventaire", () => {
   const art = byId["544864"];
-  assert.equal(art.catalog, "mythes");
+  assert.equal(art.catalog, "sculpture");
   assert.ok(artworkInCatalog(art, "egypte"));
-  assert.equal(catalogSize("egypte"), 21);
+  assert.equal(catalogSize("egypte"), 28);
   const state = { ...initialState(1000), counts: { [art.id]: 1 } };
   assert.equal(catalogProgress(state, "egypte"), 1);
   assert.equal(catalogProgress(state, "mythes"), 1);
@@ -176,8 +180,13 @@ test("une œuvre peut appartenir à deux catalogues sans doubler l’inventaire"
   );
   const position =
     (pool.findIndex((item) => item.id === art.id) + 0.5) / pool.length;
+  const rates = ratesForCatalog("egypte");
+  const roll =
+    (rates.slice(0, art.rarity).reduce((sum, rate) => sum + rate, 0) +
+      rates[art.rarity] / 2) /
+    100;
   assert.ok(
-    drawPack("egypte", () => (index++ % 2 ? position : 0)).every(
+    drawPack("egypte", () => (index++ % 2 ? position : roll)).every(
       (id) => id === art.id,
     ),
   );

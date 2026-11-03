@@ -1,4 +1,5 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { writeFile } from "node:fs/promises";
+import { readProjectFile as readFile } from "../project-files";
 import { sha256, payloadHash } from "../rarity-v2/http";
 import { loadResearch, values, label, norm } from "./research";
 import type { ArtworkInput, Evidence } from "../../src/rarity-engine/types";

@@ -1,4 +1,5 @@
-import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
+import { writeFile, mkdir, readdir } from "node:fs/promises";
+import { readProjectFile as readFile } from "../project-files";
 import { sha256 } from "../rarity-v2/http";
 import { assertProtectedInputs } from "../rarity-v2/integrity";
 import { parseReviewCatalog, parseReviewExport } from "../../src/review/model";

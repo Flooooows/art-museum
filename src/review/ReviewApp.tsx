@@ -15,6 +15,17 @@ import {
   Upload,
 } from "lucide-react";
 import { useTheme } from "../useTheme";
+import {
+  LegalOverview,
+  LegalStatusPanel,
+  useLegalEU,
+} from "../legal-eu/LegalStatus";
+import type { LegalInput, LegalDecision } from "../legal-eu/model";
+import { PersonalRaritySummary } from "./PersonalRaritySummary";
+import {
+  matchesPersonalRarity,
+  type PersonalRarityFilter,
+} from "./personalRarity";
 import { CRITERIA, type Criterion } from "../rarity-engine/types";
 import {
   decide,
@@ -102,10 +113,12 @@ export function ArtworkCard({
   work,
   decision,
   onDecide,
+  legal,
 }: {
   work: ReviewArtwork;
   decision?: ReviewDecisions[string];
   onDecide: (id: string, level: ReviewLevel | null) => void;
+  legal?: { input: LegalInput; decision: LegalDecision };
 }) {
   const [imageError, setImageError] = useState(false);
   const titleId = `title-${work.id}`;
@@ -118,10 +131,16 @@ export function ArtworkCard({
       aria-labelledby={titleId}
     >
       <div className="work-image">
-        {imageError ? (
+        {imageError || !legal || legal.decision.status === "BLOCKED" ? (
           <div className="image-fallback">
             <ImageOff size={28} />
-            <span>Image indisponible</span>
+            <span>
+              {legal?.decision.status === "BLOCKED"
+                ? "Fichier bloqué · ne pas publier"
+                : !legal
+                  ? "Image en attente du dossier juridique UE"
+                  : "Image indisponible"}
+            </span>
             <a href={work.sourceUrl} target="_blank" rel="noreferrer">
               Voir la notice du musée
             </a>
@@ -147,6 +166,7 @@ export function ArtworkCard({
         <p>{work.creator}</p>
         <span>{work.date}</span>
       </div>
+      <LegalStatusPanel entry={legal} />
       <div className="algorithm-proposal">
         <div>
           <span>Score de l’algo</span>
@@ -342,6 +362,10 @@ function ImportDialog({
 }
 
 function Workspace({ catalog }: { catalog: ReviewCatalog }) {
+  const legal = useLegalEU(catalog, "review-data");
+  const [legalFilter, setLegalFilter] = useState("all");
+  const [personalFilter, setPersonalFilter] =
+    useState<PersonalRarityFilter>("all");
   const [initial] = useState(() => initialStorage(catalog));
   const [decisions, setDecisions] = useState<ReviewDecisions>(
     initial.decisions,
@@ -374,8 +398,22 @@ function Workspace({ catalog }: { catalog: ReviewCatalog }) {
     return () => window.removeEventListener("storage", changedElsewhere);
   }, []);
   const filtered = useMemo(
-    () => filterReviewWorks(catalog.works, filterSnapshot, filters),
-    [catalog, filterSnapshot, filters],
+    () =>
+      filterReviewWorks(catalog.works, filterSnapshot, filters).filter(
+        (w) =>
+          matchesPersonalRarity(w.id, filterSnapshot, personalFilter) &&
+          (legalFilter === "all" ||
+            (legal.entries.get(w.id)?.decision.status ?? "REVIEW_REQUIRED") ===
+              legalFilter),
+      ),
+    [
+      catalog,
+      filterSnapshot,
+      filters,
+      legal.entries,
+      legalFilter,
+      personalFilter,
+    ],
   );
   const pages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const currentPage = Math.min(page, pages);
@@ -400,7 +438,8 @@ function Workspace({ catalog }: { catalog: ReviewCatalog }) {
 
   function save(next: ReviewDecisions) {
     setDecisions(next);
-    if (filters.state !== "all") setDirtyFilter(true);
+    if (filters.state !== "all" || personalFilter !== "all")
+      setDirtyFilter(true);
     if (storageBlocked) {
       setNotice(
         "Choix gardé pour cette session seulement. Exporte le JSON avant de fermer cette page.",
@@ -564,6 +603,15 @@ function Workspace({ catalog }: { catalog: ReviewCatalog }) {
             </p>
           </details>
         </div>
+        <LegalOverview
+          entries={legal.entries}
+          message={legal.message}
+          filter={legalFilter}
+          onFilter={(value) => {
+            setLegalFilter(value);
+            updateFilters({});
+          }}
+        />
         <div className={`save-notice${storageBlocked ? " is-warning" : ""}`}>
           <span role="status">{notice}</span>
           {storageBlocked && (
@@ -666,6 +714,15 @@ function Workspace({ catalog }: { catalog: ReviewCatalog }) {
               {filtered.length} résultat{filtered.length > 1 ? "s" : ""}
             </span>
           </div>
+          <PersonalRaritySummary
+            works={catalog.works}
+            decisions={decisions}
+            filter={personalFilter}
+            onFilter={(value) => {
+              setPersonalFilter(value);
+              updateFilters({});
+            }}
+          />
           {dirtyFilter && (
             <div className="filter-refresh">
               Vos choix ont changé. Les cartes restent en place pour faciliter
@@ -696,6 +753,7 @@ function Workspace({ catalog }: { catalog: ReviewCatalog }) {
                   key={w.id}
                   work={w}
                   decision={decisions[w.id]}
+                  legal={legal.entries.get(w.id)}
                   onDecide={(id, level) => save(decide(decisions, id, level))}
                 />
               ))}
@@ -717,6 +775,8 @@ function Workspace({ catalog }: { catalog: ReviewCatalog }) {
               <button
                 onClick={() => {
                   setFilters(initialFilters);
+                  setPersonalFilter("all");
+                  setLegalFilter("all");
                   setFilterSnapshot(decisions);
                   setDirtyFilter(false);
                   setPage(1);

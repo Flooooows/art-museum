@@ -22,7 +22,7 @@ test("les noms et matières restent stables, les nouveaux taux suivent la demand
   );
 });
 
-test("chaque original est activé avec une fenêtre transparente mesurée ou explicitement signalé", async () => {
+test("archives — chaque original conserve sa fenêtre mesurée ou son signalement, sans publication", async () => {
   const originals = (await readdir("public/assets/collections"))
     .filter((name) =>
       /^.+-(fer|cuivre|argent|dore|lapis-lazuli)\.png$/.test(name),
@@ -80,7 +80,7 @@ test("chaque original est activé avec une fenêtre transparente mesurée ou exp
   }
 });
 
-test("famille et rareté sélectionnent le bon cadre sans emprunter une autre famille", () => {
+test("archives — l’ancienne correspondance famille/rareté reste conservée pour la refonte", () => {
   for (const family of [
     "beaux-arts",
     "egypte",
@@ -98,12 +98,7 @@ test("famille et rareté sélectionnent le bon cadre sans emprunter une autre fa
     }
   }
   for (const art of artworks) {
-    const expected =
-      {
-        mythes: "art-mysterieux",
-        "renaissance-italienne": "beaux-arts",
-        "premiers-arts": "prehistoire",
-      }[art.catalog] ?? art.catalog;
+    const expected = art.frameFamily;
     assert.ok(
       getFrame(art)?.src.endsWith(
         `${expected}-${rarities[art.rarity].finish}.png`,

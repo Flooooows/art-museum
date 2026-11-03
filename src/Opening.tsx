@@ -1,17 +1,12 @@
-import { useRef, useState } from "react";
-import {
-  ArrowRight,
-  Check,
-  Landmark,
-  PackageOpen,
-  RotateCcw,
-  Sparkles,
-} from "lucide-react";
-import { byId, getCatalog, type Artwork } from "./data";
+import { useEffect, useRef, useState } from "react";
+import { ArrowRight, Check, PackageOpen, RotateCcw } from "lucide-react";
+import { byId, type Artwork } from "./data";
 import { type CollectionState } from "./collection";
-import { Button, Modal, Rarity, Rates } from "./components";
-import FramedArtwork from "./FramedArtwork";
+import { Button, Modal, Rates } from "./components";
 import { CARDS_PER_PACK } from "./packRules";
+import { packTitle, packVisualGroup, packWorks } from "./packSelection";
+import BoosterVisual from "./game-presentation/boosters/BoosterVisual";
+import OpeningScene from "./game-presentation/opening/OpeningScene";
 
 export function PackOpening({
   selected,
@@ -28,93 +23,57 @@ export function PackOpening({
   state: CollectionState;
   countdown: string;
   revealed: boolean;
-  onOpen: (quick: boolean) => void;
+  onOpen: (quick: boolean) => boolean;
   onReveal: (index?: number) => void;
   onClose: () => void;
   onDetail: (art: Artwork) => void;
   onCollection: () => void;
 }) {
-  const [quick, setQuick] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+  const mode = showAll ? "board" : "sequential";
+  const [reduced, setReduced] = useState(
+    () => window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+  );
   const started = useRef(false);
-  const catalog = getCatalog(selected);
   const result = revealed ? state.latest : null;
-  const title = result
-    ? `Vos ${result.cards.length} découvertes`
-    : catalog?.title || "Écho de Silence";
+  const group = packVisualGroup(selected);
+  useEffect(() => {
+    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const change = () => setReduced(query.matches);
+    query.addEventListener("change", change);
+    return () => query.removeEventListener("change", change);
+  }, []);
   return (
     <Modal
-      title={title}
-      className={`pack-opening ${result ? "pack-opening-results" : ""}`}
+      title={
+        result ? `Vos ${result.cards.length} découvertes` : packTitle(selected)
+      }
+      className={`pack-opening published-opening ${result ? "pack-opening-results" : ""}`}
       onClose={onClose}
     >
       {result ? (
         <>
           <p className="opening-introduction">
-            Votre tirage est sauvegardé. Touchez chaque carte pour la découvrir.
+            Votre tirage est sauvegardé. Découvrez les cartes une par une, ou
+            utilisez « Tout révéler » sous les cartes.
           </p>
-          <div className="discovery-cards">
-            {result.cards.map((card, index) => {
-              const art = byId[card.id];
-              const visible = result.revealed.includes(index);
-              return (
-                <article
-                  className={`discovery-card ${visible ? "discovery-visible" : ""}`}
-                  key={`${card.id}-${index}`}
-                >
-                  <button
-                    className="discovery-face"
-                    onClick={() => (visible ? onDetail(art) : onReveal(index))}
-                    aria-label={
-                      visible
-                        ? `Lire l’histoire de ${art.title}`
-                        : `Révéler la carte ${index + 1}`
-                    }
-                  >
-                    {visible ? (
-                      <FramedArtwork art={art} eager />
-                    ) : (
-                      <span className="discovery-back">
-                        <Landmark size={36} />
-                        <strong>MUSE</strong>
-                        <span>Une œuvre vous attend</span>
-                        <Sparkles size={20} />
-                        <span>Révéler la carte {index + 1}</span>
-                      </span>
-                    )}
-                  </button>
-                  {visible ? (
-                    <div className="discovery-description">
-                      <Rarity level={art.rarity} plain />
-                      <h3>{art.title}</h3>
-                      <p>{art.artist}</p>
-                      <span className="discovery-new">
-                        {card.isNew
-                          ? "Nouvelle découverte"
-                          : "Exemplaire supplémentaire"}
-                      </span>
-                      <button
-                        className="text-link"
-                        onClick={() => onDetail(art)}
-                      >
-                        Lire son histoire <ArrowRight size={15} />
-                      </button>
-                    </div>
-                  ) : (
-                    <p className="discovery-hidden-label">
-                      Carte {index + 1} sur {result.cards.length}
-                    </p>
-                  )}
-                </article>
-              );
-            })}
-          </div>
+          <OpeningScene
+            key={`${result.date}-${mode}-${reduced}`}
+            group={group}
+            works={result.cards.map((c) => byId[c.id])}
+            mood="museum"
+            speed={1.6}
+            reduced={reduced}
+            mode={mode}
+            initialVisible={result.revealed}
+            onReveal={onReveal}
+            onRevealAll={() => {
+              onReveal();
+              setShowAll(true);
+            }}
+            instant={showAll}
+          />
           <div className="opening-result-actions">
-            {result.revealed.length < result.cards.length && (
-              <Button variant="blue" onClick={() => onReveal()}>
-                <Sparkles size={17} />
-                Tout révéler
-              </Button>
-            )}
             <Button onClick={onCollection}>
               Voir ma collection <ArrowRight size={17} />
             </Button>
@@ -123,6 +82,27 @@ export function PackOpening({
               Retour aux pochettes
             </Button>
           </div>
+          <ul className="published-discoveries" aria-label="Œuvres dévoilées">
+            {result.cards.map(
+              (card, index) =>
+                result.revealed.includes(index) && (
+                  <li key={`${card.id}-${index}`}>
+                    <button
+                      type="button"
+                      onClick={() => onDetail(byId[card.id])}
+                    >
+                      {byId[card.id].title}
+                      <span>
+                        {card.isNew
+                          ? "Nouvelle découverte"
+                          : "Exemplaire supplémentaire"}{" "}
+                        · Lire son histoire <ArrowRight size={14} />
+                      </span>
+                    </button>
+                  </li>
+                ),
+            )}
+          </ul>
           <p className="opening-saved">
             <Check size={16} />
             Les {result.cards.length} cartes sont déjà dans votre collection,
@@ -131,39 +111,24 @@ export function PackOpening({
         </>
       ) : (
         <div className="opening-preview">
-          <img
-            src="/assets/booster.png"
-            width={1024}
-            height={1536}
-            alt="Pochette MUSE scellée, bordeaux et or"
-          />
+          <div className="published-opening__pack">
+            <BoosterVisual group={group} />
+          </div>
           <div className="opening-preview-copy">
-            <p className="pocket-family">
-              {catalog?.family || "Tous les styles"}
-            </p>
-            <p>
-              {catalog?.description ||
-                `Peinture, objets précieux, Antiquité et mythes : ${CARDS_PER_PACK} cartes choisies parmi tous les univers de MUSE.`}
-            </p>
+            <p className="pocket-family">{packTitle(selected)}</p>
+            <p>{group.description}</p>
+            <p>{packWorks(selected).length} œuvres possibles.</p>
             <p className="opening-cost">
               <PackageOpen size={18} />
               {CARDS_PER_PACK} cartes · 1 pochette de votre stock
             </p>
-            <label className="quick-opening">
-              <input
-                type="checkbox"
-                checked={quick}
-                onChange={(e) => setQuick(e.target.checked)}
-              />
-              Révéler toutes les cartes immédiatement
-            </label>
             <Button
               variant="blue"
               disabled={!state.stock}
               onClick={() => {
                 if (started.current) return;
                 started.current = true;
-                onOpen(quick);
+                if (!onOpen(false)) started.current = false;
               }}
             >
               {state.stock

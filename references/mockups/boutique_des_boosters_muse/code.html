@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&amp;family=Space+Grotesk:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-primary":"#ffffff","surface-container":"#f0eee9","on-error-container":"#93000a","primary-fixed-dim":"#ffb2b7","surface-dim":"#dbdad5","surface":"#fbf9f4","on-tertiary":"#ffffff","on-surface-variant":"#564243","surface-container-lowest":"#ffffff","outline-variant":"#dcc0c1","secondary-fixed-dim":"#bbc3ff","on-secondary-fixed":"#000e5e","background":"#fbf9f4","secondary-container":"#0138ff","inverse-on-surface":"#f2f1ec","on-primary-fixed-variant":"#822433","primary-fixed":"#ffdadb","surface-bright":"#fbf9f4","tertiary-container":"#cba72f","tertiary-fixed":"#ffe088","surface-container-highest":"#e4e2dd","surface-container-low":"#f5f3ee","on-error":"#ffffff","surface-tint":"#a23b49","on-surface":"#1b1c19","inverse-surface":"#30312e","tertiary-fixed-dim":"#e9c349","surface-variant":"#e4e2dd","on-background":"#1b1c19","on-secondary-container":"#c8ceff","secondary":"#0028c2","inverse-primary":"#ffb2b7","tertiary":"#735c00","surface-container-high":"#eae8e3","on-primary-fixed":"#40000e","primary-container":"#6b1123","outline":"#897172","on-tertiary-fixed-variant":"#574500","on-secondary":"#ffffff","on-tertiary-fixed":"#241a00","primary":"#4a0011","secondary-fixed":"#dee0ff","on-secondary-fixed-variant":"#002cce","error-container":"#ffdad6","error":"#ba1a1a","on-primary-container":"#f27986"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-md":"1rem","margin-mobile":"1rem","space-lg":"1.5rem","space-xs":"0.25rem","gutter-mobile":"0.75rem","space-xl":"2.5rem","space-sm":"0.5rem","space-xxl":"4rem","margin":"2.5rem","gutter":"1.5rem"},"fontFamily":{"body-md":["Inter"],"headline-xl-mobile":["Playfair Display"],"headline-lg":["Playfair Display"],"display-hero-mobile":["Playfair Display"],"headline-sm":["Playfair Display"],"label-caps":["Space Grotesk"],"body-lg":["Inter"],"headline-md":["Playfair Display"],"quote-editorial":["Playfair Display"],"meta-num":["Space Grotesk"],"headline-xl":["Playfair Display"],"body-sm":["Inter"],"display-hero":["Playfair Display"]},"fontSize":{"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-xl-mobile":["30px",{"lineHeight":"38px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"500"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-sm":["19px",{"lineHeight":"26px","fontWeight":"600"}],"label-caps":["11px",{"lineHeight":"14px","letterSpacing":"0.15em","fontWeight":"500"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"quote-editorial":["17px",{"lineHeight":"28px","fontWeight":"400"}],"meta-num":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"400"}],"headline-xl":["44px",{"lineHeight":"52px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}],"display-hero":["64px",{"lineHeight":"72px","letterSpacing":"-0.02em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin flex items-center justify-between"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm"><img alt="Logo MUSE" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XjEiheRhYKq_3FNlwnP25PZVj5v9M8648qGKDhltPrvv5SzzeFv5D09lS3IbAPzslN0H-Rh0_Rq843Y7ToVKwrUzkqUaD6gCypjLiZozVt-5AaD9riotZWkTZRVbrI4umYSKyketElOyvUQPTfItaT6s9vWJyu8ymOUacUxUOYPluk5CKUqQT5MwesWmeDux1XQQliuA-DraXybiGJgsl5Umlt3GWbI07hnOaFWnnI"/><span class="font-headline-sm text-headline-sm text-primary tracking-wide">MUSE</span></div><nav class="hidden lg:flex items-center gap-space-lg ml-space-md" data-active-classes="text-primary font-semibold"><a aria-current="page" class="uppercase transition-colors text-primary font-semibold" data-path="boosters" href="#">BOOSTERS</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="ouverture" href="#">OUVERTURE</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="revelation" href="#">RÉVÉLATION</a><a class="font-label-caps text-label-caps uppercase transition-colors text-on-surface-variant hover:text-on-surface" data-path="collection" href="#">COLLECTION</a></nav></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container text-on-surface"><span class="material-symbols-outlined text-[16px] text-tertiary-container">diamond</span><span class="font-meta-num text-meta-num font-medium">2 450 M</span></div><div class="flex items-center gap-space-xs"><button class="p-space-xs rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><button class="p-space-xs rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors relative" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-secondary-container"></span></button></div><div class="flex items-center gap-space-sm pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSfEmn0FujV8BvVQqlU0bdMkv9B1yCqgqLsQ9xIi-pwlG7I8xS8hlhg4RYBbRWjZ9BTYXZBU5DT2rqfzTp-_K-BvxaprNMSOOK9iKcGtpzBB_56yJjIdu_RuB1oJE8DuIXIxTMQm0zyiSMK9hP5dKylg_3tSYeWPrCZJqCoLswdx3iphKpBqGIUZPO4oD7tuhzAxs60A92dWEiznNRAWRMMoIIJCld2zHTjifRnJY"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-5rem)] flex flex-col justify-between"><div class="flex flex-col w-full">
+<!-- Top Curatorial Banner / Editorial Header -->
+<section class="w-full px-margin pt-space-xl pb-space-lg bg-surface relative overflow-hidden">
+<div class="max-w-[1440px] mx-auto relative z-10">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md mb-space-lg">
+<div class="max-w-3xl">
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="font-meta-num text-meta-num text-tertiary uppercase tracking-widest">Séries Scellées • Archives Privées</span>
+<span class="w-8 h-[1px] bg-tertiary-container/40"></span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Saison 2025</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-primary tracking-tight">
+            Séries &amp; Boosters Disponibles
+          </h1>
+<p class="font-quote-editorial text-quote-editorial text-on-surface-variant mt-space-sm max-w-2xl">
+            Déchirez le sceau, libérez les chefs-d’œuvre de la Renaissance et du Surréalisme contemporain. Chaque relique est unique, numérotée et scellée sous vide cryptographique.
+          </p>
+</div>
+<!-- Quick stats summary card -->
+<div class="flex items-center gap-space-lg p-space-md bg-surface-container rounded-lg shadow-sm">
+<div class="flex flex-col">
+<span class="font-meta-num text-meta-num text-on-surface-variant uppercase">Voûte restante</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">1 420 <span class="text-tertiary-container font-normal text-body-sm">/ 5 000</span></span>
+</div>
+<div class="w-[1px] h-8 bg-surface-variant"></div>
+<div class="flex flex-col">
+<span class="font-meta-num text-meta-num text-on-surface-variant uppercase">Index Légendaire</span>
+<span class="font-headline-sm text-headline-sm text-secondary-container font-semibold">+18.4%</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Masterwork Booster Box (Écho de Silence) -->
+<section class="w-full px-margin py-space-lg bg-surface">
+<div class="max-w-[1440px] mx-auto">
+<div class="relative rounded-xl overflow-hidden bg-primary-container text-on-primary shadow-xl">
+<!-- Ambient Art Canvas & Radial Light Backdrop -->
+<div class="absolute inset-0 opacity-25 mix-blend-soft-light bg-cover bg-center pointer-events-none" data-alt="Dark classical oil painting texture of Renaissance marble statues draped in heavy cardinal red velvet curtains with deep dramatic chiaroscuro and ultramarine cobalt brushstrokes." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDkV_zTxxurAtuCKZgKTlY96km-2I98b-Dh5aMww-nVQ51ju9XsIsw_VwkyKZLdS1Yh_apVTJU_Kt5kZty4soGDVJn4RZNXe9u10J93U4ZzHZKiMOM6nGm06XTuA-nF0rX_C4d533W2GkIh9o4rx-jpdq8G-aKFSvHGsg39lxHxPWD0CyRxALPE3LtKZuS8AeXiAV-c6YmqbLR-pvmR63rm6J45g7sonRnUp9NHBMw')"></div>
+<div class="absolute -right-24 -bottom-24 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/3 top-0 w-80 h-80 rounded-full bg-tertiary-container/15 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-space-xl p-space-lg md:p-space-xl items-center">
+<!-- Left: Narrative Details & Drop Rates -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded-full bg-tertiary-container/30 text-tertiary-fixed font-meta-num text-meta-num uppercase tracking-wider">
+                Édition Royale • Haute Rareté
+              </span>
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-container/40 text-on-secondary font-meta-num text-meta-num uppercase tracking-wider">
+                Exclusivité Saisonnière
+              </span>
+</div>
+<div>
+<span class="font-quote-editorial text-quote-editorial text-primary-fixed-dim italic block mb-space-xs">
+                Opus Magnum N° 04
+              </span>
+<h2 class="font-headline-xl text-headline-xl text-on-primary font-normal tracking-tight">
+                ÉCHO DE SILENCE
+              </h2>
+</div>
+<p class="font-body-lg text-body-lg text-surface-container-high/90 max-w-xl">
+              Finition feuille d’or repoussée à chaud et azurite royale. Chaque sachet scellé renferme 3 reliques numériques restaurées avec précision micrométrique, avec <strong>1 carte Épique ou Légendaire garantie</strong> à chaque ouverture.
+            </p>
+<!-- Curatorial Pill Matrix / Guarantees -->
+<div class="grid grid-cols-3 gap-space-sm py-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/5 backdrop-blur-sm">
+<span class="font-meta-num text-meta-num text-tertiary-fixed block uppercase">Composition</span>
+<span class="font-headline-sm text-headline-sm text-on-primary">3 Cartes</span>
+<span class="font-body-sm text-body-sm text-surface-container-high/70 block">Par sachet</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/5 backdrop-blur-sm">
+<span class="font-meta-num text-meta-num text-tertiary-fixed block uppercase">Garantie Voûte</span>
+<span class="font-headline-sm text-headline-sm text-on-primary">100%</span>
+<span class="font-body-sm text-body-sm text-surface-container-high/70 block">Épique min.</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/5 backdrop-blur-sm">
+<span class="font-meta-num text-meta-num text-tertiary-fixed block uppercase">Taux Légendaire</span>
+<span class="font-headline-sm text-headline-sm text-tertiary-fixed-dim font-bold">14.8%</span>
+<span class="font-body-sm text-body-sm text-surface-container-high/70 block">Fréquence tirage</span>
+</div>
+</div>
+<!-- Price & Purchase Actions -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<div class="flex flex-col mr-space-md">
+<span class="font-meta-num text-meta-num text-tertiary-fixed uppercase">Prix unitaire</span>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-lg text-headline-lg text-on-primary font-bold">450 M</span>
+<span class="font-body-md text-body-md text-surface-container-high/60">/ 45,00 €</span>
+</div>
+</div>
+<div class="flex items-center gap-space-sm flex-wrap">
+<button class="group relative px-space-lg py-space-sm rounded-full bg-secondary-container text-on-secondary font-label-caps text-label-caps uppercase tracking-widest shadow-lg hover:shadow-secondary-container/40 transition-all flex items-center gap-space-xs" type="button">
+<span>Acheter 1x Booster</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<button class="px-space-md py-space-sm rounded-full bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 text-on-primary font-label-caps text-label-caps uppercase tracking-wider backdrop-blur-md transition-all flex items-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed">stars</span>
+<span>Pack 5x (Remise -10%)</span>
+</button>
+<button class="px-space-sm py-space-sm rounded-full text-surface-container-high/80 hover:text-on-primary font-meta-num text-meta-num uppercase tracking-wider underline underline-offset-4 transition-colors" id="toggle-drop-modal" type="button">
+                  Détails des cotes &amp; drop rates
+                </button>
+</div>
+</div>
+</div>
+<!-- Right: Visual 3D Booster Mockup & Card Teasers -->
+<div class="lg:col-span-6 relative flex items-center justify-center min-h-[380px]">
+<!-- Decorative Greek Bust & Splatter Element behind Booster -->
+<div class="absolute -top-6 -left-4 w-40 h-40 rounded-full overflow-hidden opacity-30 pointer-events-none mix-blend-screen">
+<img class="w-full h-full object-cover" data-alt="Close up antique marble statue eye and classical nose classical Greek sculpture detail in dramatic warm light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwp5YJoLwd9Cz1Q4IBkx8jjqVIDOFgL1qx_BhwyMiJyo0pAUSSd_q8i_YPAbVxRvyo2ylqAL2C8xVf5_X-JOuSxea0I_atIJ4WOCZhppLLLCp0H8wCmw0o2Xh8KbyhHyqvPLe1e4AxXa7oCXmMSIDBPEcIlO9SDfyMwybiGKmWxori3ymztbOZ7WieE4M1PS55n0Ru7OfXM1GdccQlWRj0vpANNt29JcB4QH_a4Sw"/>
+</div>
+<!-- Central Physical Booster Envelope Simulation -->
+<div class="relative w-64 sm:w-72 aspect-[3/4.6] rounded-lg shadow-2xl p-2 bg-gradient-to-tr from-[#120005] via-[#240810] to-[#011440] transform hover:-translate-y-2 hover:rotate-1 transition-transform duration-500 cursor-pointer group">
+<!-- Foil Crinkle Sheen & Hot Stamp -->
+<div class="absolute inset-0 rounded-lg opacity-40 bg-gradient-to-b from-white/30 via-transparent to-black/60 pointer-events-none"></div>
+<div class="w-full h-full rounded bg-surface-container-lowest/5 p-4 flex flex-col justify-between relative overflow-hidden">
+<!-- Metallic Seal & Top Band -->
+<div class="flex items-center justify-between z-10">
+<span class="font-meta-num text-[9px] uppercase tracking-widest text-tertiary-fixed">SCEAU CRYPTO-MUSE</span>
+<span class="material-symbols-outlined text-tertiary-fixed text-[16px]">lock</span>
+</div>
+<!-- Main Wrapper Artwork Inside -->
+<div class="my-auto py-2 flex flex-col items-center text-center z-10">
+<div class="w-32 h-36 rounded shadow-inner overflow-hidden mb-space-sm relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High contrast antique marble bust fragmented with vigorous cobalt blue paint strokes and real gold leaf leafing on dark background, fine editorial packaging." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBx5KqesytAdsRwbDQ3OgGDIP2YvY04x4vIIsVRLudiZxlob-Z-jNiL7ZPZvnkp72ey4tRri9KJeJvNOir5n9gX97c4a3NWaBB7KJjpzOu4qsvWbjycO4OMNZY23lOjJatD2vnu0mRS7wU3sxn7axxu1owLcVb-wVTFvUE03QQrgFI1N3gml6oTXjrxJHcUU4ZGyTYth5RJEYw6uWSjoUL0qTCBca7RrmOeWZ7NrBU"/>
+<div class="absolute inset-0 bg-secondary-container/20 mix-blend-color"></div>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-primary tracking-widest uppercase font-bold">MUSE</span>
+<span class="font-label-caps text-[9px] text-tertiary-fixed-dim uppercase tracking-[0.25em]">ÉCHO DE SILENCE</span>
+</div>
+<!-- Bottom Wrapper Tear Line -->
+<div class="flex items-center justify-between text-surface-container-high/60 z-10 pt-2">
+<span class="font-meta-num text-[9px]">SÉRIE 2025-IV</span>
+<span class="font-meta-num text-[9px] text-tertiary-fixed">#0450 M</span>
+</div>
+</div>
+</div>
+<!-- Floating Foil Micro Cards behind the pack -->
+<div class="absolute -right-2 top-8 w-24 sm:w-28 aspect-[3/4.2] rounded bg-surface-container-low shadow-xl p-1.5 transform rotate-12 -z-0 opacity-90 hidden sm:block">
+<div class="w-full h-full rounded overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="Classical oil portrait of a tranquil Roman goddess with gold leaf crown and deep crimson undertones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNC9RrI_EBnkAveW65ahU8nIlv6dOLs0g3wih4zsZW1Kwjd4RmRVa7FjQvGQvoqACcQiC57kQa9UzRYS6Mc0C8narL3my1Gra7puGNVElBcFLI_6wUnLXaLQkEFsr0kWGRranaVdOE1dE2FZqPv9MgMQPpGtrVf2hW2MNTT_mebXgPawPV42d3p00AGQocVtxHTTUYxpp7vWfyhMagCDGZFHynZdyCu0oFruYwzl0"/>
+<div class="absolute bottom-1 right-1 px-1 rounded bg-black/60 text-[8px] font-meta-num text-tertiary-fixed">LEG</div>
+</div>
+</div>
+<div class="absolute -left-4 bottom-6 w-20 sm:w-24 aspect-[3/4.2] rounded bg-surface-container-low shadow-xl p-1.5 transform -rotate-12 -z-0 opacity-80 hidden sm:block">
+<div class="w-full h-full rounded overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="Modern textured abstract ultramarine blue impasto oil painting on linen paper." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4E1pncgKzKzxM49ybOkYTjN6kUpY5XzBoJboJcH6aHjhHEKZtBJxyB2AdMiY6VHe-VS9z-NoTaRUHhMvmY2YdqKDLauV-fTmy1kdkT-v-5bxdkDNJhCPEvI0ktIB1ItA2YMKGd4Yl7sxrbCdxBrBtbD2rALj4rcsprPrqfdTQ8kWO23fLEjUFvXrCZqeqAdcMSnKvmOx5Gpdl0hZCQ46Z4QawbmIG4lN_XBf7DGs"/>
+<div class="absolute bottom-1 left-1 px-1 rounded bg-black/60 text-[8px] font-meta-num text-on-secondary">ÉPI</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Live Drops Ticker -->
+<section class="w-full px-margin py-space-sm bg-surface-container">
+<div class="max-w-[1440px] mx-auto flex items-center justify-between gap-space-md overflow-hidden">
+<div class="flex items-center gap-space-xs shrink-0">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Tirages Directs :</span>
+</div>
+<!-- Scrolling feed -->
+<div class="flex items-center gap-space-xl overflow-x-auto whitespace-nowrap text-on-surface-variant font-meta-num text-meta-num py-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface">Alexandre V.</span>
+<span class="text-on-surface-variant/60">a obtenu</span>
+<span class="text-tertiary font-medium">« Écho de Silence #014 »</span>
+<span class="px-1.5 py-0.2 rounded bg-tertiary-container/20 text-tertiary text-[10px] uppercase font-bold">LÉGENDAIRE</span>
+<span class="text-on-surface-variant/50 text-[10px]">• il y a 3 min</span>
+</div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-dim"></div>
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface">Elena S.</span>
+<span class="text-on-surface-variant/60">a obtenu</span>
+<span class="text-secondary font-medium">« Solitude Solaire #109 »</span>
+<span class="px-1.5 py-0.2 rounded bg-secondary-fixed text-secondary text-[10px] uppercase font-bold">ÉPIQUE</span>
+<span class="text-on-surface-variant/50 text-[10px]">• il y a 8 min</span>
+</div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-dim"></div>
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface">Marc-Antoine D.</span>
+<span class="text-on-surface-variant/60">a obtenu</span>
+<span class="text-tertiary font-medium">« Parthénon Céleste #002 »</span>
+<span class="px-1.5 py-0.2 rounded bg-tertiary-container/20 text-tertiary text-[10px] uppercase font-bold">LÉGENDAIRE</span>
+<span class="text-on-surface-variant/50 text-[10px]">• il y a 12 min</span>
+</div>
+<div class="w-1.5 h-1.5 rounded-full bg-surface-dim"></div>
+<div class="flex items-center gap-space-xs">
+<span class="font-semibold text-on-surface">Claire B.</span>
+<span class="text-on-surface-variant/60">a obtenu</span>
+<span class="text-primary font-medium">« Éclat Pourpre #088 »</span>
+<span class="px-1.5 py-0.2 rounded bg-primary-fixed text-primary text-[10px] uppercase font-bold">RARE</span>
+<span class="text-on-surface-variant/50 text-[10px]">• il y a 17 min</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Filter & Rarity Curation Bar -->
+<section class="w-full px-margin pt-space-xl pb-space-md bg-surface">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-tertiary uppercase tracking-wider block">Cabinet des Collections</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          Catalogue des Séries Scellées
+        </h2>
+</div>
+<!-- Quick Category Toggle Pills -->
+<div class="flex items-center gap-space-xs flex-wrap">
+<button class="filter-pill active px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-caps text-label-caps uppercase transition-all shadow-sm" type="button">
+          Toutes les Séries (4)
+        </button>
+<button class="filter-pill px-space-md py-space-xs rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps uppercase transition-all" type="button">
+          Classique &amp; Marbre
+        </button>
+<button class="filter-pill px-space-md py-space-xs rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps uppercase transition-all" type="button">
+          Surréalisme Moderne
+        </button>
+<button class="filter-pill px-space-md py-space-xs rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps uppercase transition-all" type="button">
+          Éditions Mythiques (Or)
+        </button>
+</div>
+</div>
+</section>
+<!-- Four Core Booster Series Grid -->
+<section class="w-full px-margin pb-space-xxl bg-surface">
+<div class="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-space-lg">
+<!-- Booster Card 1: Série I : Renaissance Éternelle -->
+<div class="flex flex-col rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-sm hover:shadow-md p-space-md group relative">
+<div class="flex items-center justify-between pb-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">SÉRIE 01</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-meta-num text-[10px] uppercase">Fondateur</span>
+</div>
+<!-- Visual Booster Display Container with Passe-Partout -->
+<div class="relative w-full aspect-[4/5] rounded-lg bg-surface-container p-3 flex items-center justify-center overflow-hidden mb-space-md">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/5 via-transparent to-transparent"></div>
+<!-- Booster Foil Pack Simulation -->
+<div class="relative w-44 aspect-[3/4.6] rounded shadow-lg bg-gradient-to-b from-[#2E181B] via-[#4A0011] to-[#1F080C] p-2 transform group-hover:scale-105 transition-transform duration-300 flex flex-col justify-between overflow-hidden">
+<div class="absolute inset-0 opacity-30 bg-cover bg-center" data-alt="Fragment of Renaissance fresco painting depicting ancient Rome sculptures with dark terracotta and deep wine undertones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBscRXREAciVKrGNFWYdtkjXcM68msp5P-DdPTSMtxkY7ri1m30ddnwjEnADfj6GUQ-KDMtaJEv8OTdmBKbtUtTEeHQ75l0TTL9WJXokE23SqevJWTl0TI_der1BRmBBf4ny4tOBFibPnDFItiE1oSWxeq-AFos3yLNBNuChYFSqiUAzuNfaOog6g3AWS35LBligebT2InpCce8FebTakMey_nwua0-3Jmg8OuBOlI')"></div>
+<div class="relative z-10 flex justify-between items-center text-primary-fixed">
+<span class="font-meta-num text-[8px] uppercase">MUSE • I</span>
+<span class="material-symbols-outlined text-[12px]">verified</span>
+</div>
+<div class="relative z-10 text-center my-auto">
+<div class="w-20 h-20 mx-auto rounded overflow-hidden shadow mb-1">
+<img class="w-full h-full object-cover" data-alt="Sculpted marble head of Apollo in classical Roman style with soft golden rim lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_3tpe3ILXEIHRWimj_O94C95qEuFZdM4N1inZE5VO9PMIgadbmRHLLwWpy8X-03pCm3YQJo3EV_Vqu52PqD29v3Ic2fMK5BvNbN7PtQmoZ-YxFCPatir2KiHI5qEzSXn4zbj4-quREYbm3rqgY9uxBlvhOAZwgb9XxeF9MFprnY-4dxzZ-PwV5XHtbhxVcR3uMGw-hvUtAozY_GtfrDBncCNQo-mCzbwgjxr1vFk"/>
+</div>
+<span class="font-headline-sm text-[15px] text-on-primary block uppercase">Renaissance</span>
+<span class="font-meta-num text-[9px] text-primary-fixed-dim">Éternelle</span>
+</div>
+<div class="relative z-10 flex justify-between text-surface-container-high/60 font-meta-num text-[8px]">
+<span>VOL. I</span>
+<span>120 M</span>
+</div>
+</div>
+</div>
+<!-- Series Nomenclature & Meta -->
+<div class="flex flex-col flex-grow">
+<div class="flex items-start justify-between gap-space-xs mb-space-xs">
+<h3 class="font-headline-md text-headline-md text-primary leading-tight">
+              Renaissance Éternelle
+            </h3>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold whitespace-nowrap">
+              120 M
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 mb-space-sm">
+            L'apogée des canons classiques, bustes en marbre de Carrare et études d’anatomies vénitiennes.
+          </p>
+<!-- Gauge and Probability Visualizer -->
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/80 mb-space-md">
+<div class="flex items-center justify-between font-meta-num text-meta-num mb-1">
+<span class="text-on-surface-variant uppercase">Taux Légendaire</span>
+<span class="font-bold text-tertiary">1.5%</span>
+</div>
+<!-- Progress Bar -->
+<div class="w-full h-1.5 rounded-full bg-surface-variant overflow-hidden mb-space-xs">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 15%;"></div>
+</div>
+<div class="flex items-center justify-between text-[11px] font-meta-num text-on-surface-variant/70">
+<span>3 Cartes scellées</span>
+<span>840 restants</span>
+</div>
+</div>
+<!-- Quick Artwork Previews (3 Mini Thumbs) -->
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="font-label-caps text-[9px] text-on-surface-variant uppercase mr-1">Exemples :</span>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Classical bust of Roman orator in warm gallery lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmGIN5OT2gYqcCPP88FoPOpSAlSlyRbi0KBQL0tun9lu2V9G8osrbm2AW_cQ_40s0j2UXQWJkchV-rq85_n9Nit2v_NpgntBZsuF6yX9OsqoReP8ebNkckAjW0F5KqzGFgxvJOXPhQKB_rr4tVgvtDWBWK4fr2PmE3ChSyB39wlyv507EizgCaIgNLQQVKNcB2TQisuwHo6pk3RfXEBMMgMoYUPI69TixZ0QIlbgE"/>
+</div>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Anatomical sepia ink sketch of a human hand on old parchment paper." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_gpc8Osw-uwwwlG-gZEN8i5IKGNOwhUGIfqizBIF3K2txAWzc4gy5IKz4flT1gNqgIPcN0wcx8vyPl3HJSS2EF8Lynjq4q5DXNiEsHrCgPVFY2axBs_e7dU5SWRq6HiXmaxDWMl-9W4NhijAfUrIle7J2jKgIF0AzWNb3CmYegmalr5WIhn6sIt_nDhgIu3KngWeO_EgK33ozaz7ra2rYBz-pa6R_Ya5zTNLRRzg"/>
+</div>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Renaissance chiaroscuro portrait of a contemplative young woman." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4RBg8eRdUERaNVfedsvQYCLV1Yuzg_Zu7oBCsTTrRpkfMTCqR7vs4CaJPJnADalp6Oz4X-IXegCc_iK5gpCGTzczExw1ch9sqLrcr-u8o9fB7VOC78pV9YJ1n9abCPdYZvDSKm5dGkr6TNN3hRKJ9CiaO3oHjxU2ZfeU0nTNUpJ_IFTwnCaExZz2fEajbPwTa9uIZMThXrr6c15oSa55WoJ_Mcig9o_3cyjPJ0pY"/>
+</div>
+</div>
+<!-- Purchase Action Button -->
+<div class="mt-auto pt-space-xs">
+<button class="w-full py-space-sm px-space-md rounded-full bg-primary text-on-primary hover:bg-primary-container font-label-caps text-label-caps uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Acquérir • 120 M</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Booster Card 2: Série II : Matière & Impasto -->
+<div class="flex flex-col rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-sm hover:shadow-md p-space-md group relative">
+<div class="flex items-center justify-between pb-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">SÉRIE 02</span>
+<span class="px-space-xs py-0.5 rounded bg-secondary-fixed text-secondary font-meta-num text-[10px] uppercase font-semibold">Tendance</span>
+</div>
+<!-- Visual Booster Display Container with Passe-Partout -->
+<div class="relative w-full aspect-[4/5] rounded-lg bg-surface-container p-3 flex items-center justify-center overflow-hidden mb-space-md">
+<div class="absolute inset-0 bg-gradient-to-t from-secondary/5 via-transparent to-transparent"></div>
+<!-- Booster Foil Pack Simulation -->
+<div class="relative w-44 aspect-[3/4.6] rounded shadow-lg bg-gradient-to-b from-[#00174A] via-[#0028C2] to-[#001033] p-2 transform group-hover:scale-105 transition-transform duration-300 flex flex-col justify-between overflow-hidden">
+<div class="absolute inset-0 opacity-35 bg-cover bg-center" data-alt="Thick oil impasto texture with vibrant ultramarine cobalt blue strokes layered over coarse linen canvas." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1Z7x_aBUZqpBIrGYvWJr9VNhuEU2n-p0Pgm0bdpeC1VYjBPqNudjj9KNTnm4myMKDHiaeCEOvNTKnCaWVBNJcLWMwLRBKNL5Gwy3C1Tf1oSJZJ0RklOxWLqdVu_8usxOwi38BHE-R53tkRZ5iR-WQQJ5U8eAkoQVnA2NkCoQi7IZoIHQRDT1yzzMr0hOsV7TSQGnbsXUJFByq1lqGfu9bcFx4kvoNrnL_cCc6noI')"></div>
+<div class="relative z-10 flex justify-between items-center text-secondary-fixed">
+<span class="font-meta-num text-[8px] uppercase">MUSE • II</span>
+<span class="material-symbols-outlined text-[12px]">palette</span>
+</div>
+<div class="relative z-10 text-center my-auto">
+<div class="w-20 h-20 mx-auto rounded overflow-hidden shadow mb-1">
+<img class="w-full h-full object-cover" data-alt="Modern abstract textured oil impasto in cobalt blue and gold leafing on raw paper." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXLNFlhgdSYxMT7k_ctac7yNiV9nGeFyBRD44fG86bhrGSeSNf7zw5XZIS_Sx8igJ9LOQJEXyCcobFXMD9-B6Fkj0M6hhGSvAbuHMyWhTyWWH0FWuFSVXJ24EGBRBl_ev-OqaLRrrIBcM4_wFWDIOOO2JwojOGO76GXwfmTlQkPlYXBsRBEcMnwHHVaG9YtbKCjR3ISeUCXZli8t2NVjZ7iKFEJvVa2xq2Af0ckFE"/>
+</div>
+<span class="font-headline-sm text-[15px] text-on-secondary block uppercase">Matière &amp; Impasto</span>
+<span class="font-meta-num text-[9px] text-secondary-fixed-dim">Geste &amp; Relief</span>
+</div>
+<div class="relative z-10 flex justify-between text-on-secondary/70 font-meta-num text-[8px]">
+<span>VOL. II</span>
+<span>280 M</span>
+</div>
+</div>
+</div>
+<!-- Series Nomenclature & Meta -->
+<div class="flex flex-col flex-grow">
+<div class="flex items-start justify-between gap-space-xs mb-space-xs">
+<h3 class="font-headline-md text-headline-md text-primary leading-tight">
+              Matière &amp; Impasto
+            </h3>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold whitespace-nowrap">
+              280 M
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 mb-space-sm">
+            Pigments purs écrasés au couteau, coulées d’outremer et reliefs sculptés à même la toile brute.
+          </p>
+<!-- Gauge and Probability Visualizer -->
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/80 mb-space-md">
+<div class="flex items-center justify-between font-meta-num text-meta-num mb-1">
+<span class="text-on-surface-variant uppercase">Taux Légendaire</span>
+<span class="font-bold text-secondary">4.2%</span>
+</div>
+<!-- Progress Bar -->
+<div class="w-full h-1.5 rounded-full bg-surface-variant overflow-hidden mb-space-xs">
+<div class="h-full bg-secondary-container rounded-full" style="width: 32%;"></div>
+</div>
+<div class="flex items-center justify-between text-[11px] font-meta-num text-on-surface-variant/70">
+<span>3 Cartes scellées</span>
+<span>420 restants</span>
+</div>
+</div>
+<!-- Quick Artwork Previews (3 Mini Thumbs) -->
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="font-label-caps text-[9px] text-on-surface-variant uppercase mr-1">Exemples :</span>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Blue impasto abstract palette knife strokes with gold vein." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZCVkXxaBRoeQDYYlfPCIsf55X31VLc1g8A25uqas1s2B--YwtUZNxn5K0-Y8Jb-VrXyU6SmnehiCnpF8tjONDUTdiPYm66fkfeWzzurc-YxsEnZsKa9ee9J8aFcU1j3gXMOrPrWJVkBy5z_ejQnedGJyRMKrjPP5PC9yqiua-b2TJrfvn7DStJ1zEZeR9Mnry_ozfjq5gH40rVjPjKHwlBgllXocEKRdiYPNSwFY"/>
+</div>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Geometric mineral pigments on coarse paper in minimalist editorial format." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcDdgHzopCKy2YmVOmXjBsuULRxaJC47POGlDaWR0QlzDUetxCWkKtPaOJj8gvZmluIPbEAJyQ8e7OxMdAwlR6BQt-egPSLglmZXC2amVEZEgxj5m_UpubQyyIyHnH0BbMhZYW6YspHTjO0RPEzbpMkmNT9aW_HXmygEVAn5--G2LsbW4bNth7zH-x8y7YeWgDg1JcJxSBJ2mJD00Nrh24krVeAfD9P28tB8f5rg4"/>
+</div>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Layered crimson and ultramarine deep abstract canvas." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-rSW2knsGmCMUQ9cNIq_yQMmVpfBtfC8Q11bJcDadR88TSSLw3lijyKHF0UL1NirBGV5jtZ4WGH41Zj8gHXCrkJyRLHAs2wva7mSMJ2YOVR_YoSYcKbbVWlETqkKEKCy16eIpzr6wmnrYxsE6az7UZSUHhAVAMp6wOE0Y1c0dBA1Kye2Jgx84RlGbn1PM0-gXKGfhj7weDz1It8_DJWwc_oZm6T9naw0wHbdMdLI"/>
+</div>
+</div>
+<!-- Purchase Action Button -->
+<div class="mt-auto pt-space-xs">
+<button class="w-full py-space-sm px-space-md rounded-full bg-secondary text-on-secondary hover:bg-secondary-container font-label-caps text-label-caps uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Acquérir • 280 M</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Booster Card 3: Série III : Regards & Âmes -->
+<div class="flex flex-col rounded-xl bg-surface-container-low hover:bg-surface-container transition-all duration-300 shadow-sm hover:shadow-md p-space-md group relative">
+<div class="flex items-center justify-between pb-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">SÉRIE 03</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-highest text-on-surface-variant font-meta-num text-[10px] uppercase">Populaire</span>
+</div>
+<!-- Visual Booster Display Container with Passe-Partout -->
+<div class="relative w-full aspect-[4/5] rounded-lg bg-surface-container p-3 flex items-center justify-center overflow-hidden mb-space-md">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/5 via-transparent to-transparent"></div>
+<!-- Booster Foil Pack Simulation -->
+<div class="relative w-44 aspect-[3/4.6] rounded shadow-lg bg-gradient-to-b from-[#2E1020] via-[#5C1A3A] to-[#1C0512] p-2 transform group-hover:scale-105 transition-transform duration-300 flex flex-col justify-between overflow-hidden">
+<div class="absolute inset-0 opacity-30 bg-cover bg-center" data-alt="Dramatic chiaroscuro female portrait gaze with surreal floral blooming eyes and deep magenta accents." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCZXiL_XTnZTSmc1FE69AJ0osaaOU7_gHNj5bg7JkNqJqFSiVzA-rvsx55BlRkUWFZLCVVbxJmWgbwFQFeRjXNMKpCFB_EFWpOes3ZsSv1aj4sj4cFNiA9_CtRLw1d5t1m3bQHvY3Jy8iUggNclDkHhPfeKpGOi2NAuSsqjpkYfy8FhqMwyBL_g50lcWU4adzNxUOJ4eruBB9B08xtFeCaoX6BGp0vo_3WvL3oTZLA')"></div>
+<div class="relative z-10 flex justify-between items-center text-primary-fixed">
+<span class="font-meta-num text-[8px] uppercase">MUSE • III</span>
+<span class="material-symbols-outlined text-[12px]">visibility</span>
+</div>
+<div class="relative z-10 text-center my-auto">
+<div class="w-20 h-20 mx-auto rounded overflow-hidden shadow mb-1">
+<img class="w-full h-full object-cover" data-alt="Fine contemporary portraiture with face partially draped in scarlet petals, fine museum photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQN6JplY2whCR12_SQ5x6cAKWj-4piT5BKLx8mv4M56B7P4iV-dMkcJWruB359BTLNqLvKk69EraQD8XSfQc7ZMGtT7LH3sWwwjtVkRFl7aRsNqM3i8tPGWi6TyolI9LxPxplgeM0RxGvsTqZ2ol3aduoPNbhk4FgfWRU3h85HGCAS0yFV0uN7rANPP0KJD4OqoFX5q5debHxwdQ9pcIb-ih2HekgaCoH5XeXWwzQ"/>
+</div>
+<span class="font-headline-sm text-[15px] text-on-primary block uppercase">Regards &amp; Âmes</span>
+<span class="font-meta-num text-[9px] text-primary-fixed-dim">Surréalisme Intime</span>
+</div>
+<div class="relative z-10 flex justify-between text-surface-container-high/60 font-meta-num text-[8px]">
+<span>VOL. III</span>
+<span>350 M</span>
+</div>
+</div>
+</div>
+<!-- Series Nomenclature & Meta -->
+<div class="flex flex-col flex-grow">
+<div class="flex items-start justify-between gap-space-xs mb-space-xs">
+<h3 class="font-headline-md text-headline-md text-primary leading-tight">
+              Regards &amp; Âmes
+            </h3>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold whitespace-nowrap">
+              350 M
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 mb-space-sm">
+            Portraits contemporains explorant le regard hypnotique, l'éphémère floral et la métaphysique de l'identité.
+          </p>
+<!-- Gauge and Probability Visualizer -->
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/80 mb-space-md">
+<div class="flex items-center justify-between font-meta-num text-meta-num mb-1">
+<span class="text-on-surface-variant uppercase">Taux Légendaire</span>
+<span class="font-bold text-tertiary-container">6.8%</span>
+</div>
+<!-- Progress Bar -->
+<div class="w-full h-1.5 rounded-full bg-surface-variant overflow-hidden mb-space-xs">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 48%;"></div>
+</div>
+<div class="flex items-center justify-between text-[11px] font-meta-num text-on-surface-variant/70">
+<span>3 Cartes scellées</span>
+<span>295 restants</span>
+</div>
+</div>
+<!-- Quick Artwork Previews (3 Mini Thumbs) -->
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="font-label-caps text-[9px] text-on-surface-variant uppercase mr-1">Exemples :</span>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Monochrome face with vivid red flowers covering the eye line." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjreGaP8-BlZon0BXBnyI8E_zYbvSy2UXICGP4V_Nu4XoZeP3qP5vfMB_tdBml_hxJzluLo5NpngH1Kzwr6NZiApUb15x6WrTUNQso8ResE7Lb5WM6kr2EbBEL7cwjZ4Xh2CZuMX45C2iD-jQLWrDiwwubnEEbwkase670e_1mXtKA20iJ2cNmQ0n4rxLlQp3QI0l1R0cZYOpNzpHLh7ciH_gls-sRGPJICqYqU54"/>
+</div>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Deep surreal blue pupil framed by crackled gold parchment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAslypu93VxIKIMl-k7uFjX_zcd9wIm_dOD5MfuOuOENdeQ-Mmm66-676s8LygPl4kx0yS24yZf8TiASjH-i2KAtCIow6wSQaMhK-uChSIU7OzZVaRUVu2ucZMk-oXkQ37AvtYQ-2wJf2UyhzDx_Cdf8LpXVp2HFJ6KN_8g8FlSIV8mpIQJ1EXVXajJZGZKb_p09uzbMn1cNuVB7cBLFxi8Vs1Q7Q8iX6J9uIHhG24"/>
+</div>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Graceful female silhouette bathed in warm solar halo." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDibR2NMq_8r5BITsHaZlEVs8Km2gMBjHa2lwoqf55qg8SQNw-PErlk7MY7zBrenldG2P_nJNMOu2BpcZ6DX7GUHB9hVxhfiGf8ZHCSFaKp_Fr072HlaJhtQb4LHxN4aRAPbK6a37281QUQr8GHBbvbqLUT9t0WEh8GRH9ovguyGxofTr-wRrNxyXUUhh3p1e1bAcYxXq6qplNAssrRooWyJjbEiRZNZ_ym2UTsleI"/>
+</div>
+</div>
+<!-- Purchase Action Button -->
+<div class="mt-auto pt-space-xs">
+<button class="w-full py-space-sm px-space-md rounded-full bg-primary text-on-primary hover:bg-primary-container font-label-caps text-label-caps uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">shopping_bag</span>
+<span>Acquérir • 350 M</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Booster Card 4: Série Céleste : Or & Mythologie (Édition Limitée) -->
+<div class="flex flex-col rounded-xl bg-surface-container-high hover:bg-surface-container-highest transition-all duration-300 shadow-md hover:shadow-xl p-space-md group relative">
+<div class="flex items-center justify-between pb-space-sm">
+<span class="font-label-caps text-label-caps text-tertiary uppercase font-bold">ÉDITION ROYALE</span>
+<span class="px-space-xs py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-meta-num text-[10px] uppercase font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[10px]">auto_awesome</span>
+            Mythique
+          </span>
+</div>
+<!-- Visual Booster Display Container with Passe-Partout -->
+<div class="relative w-full aspect-[4/5] rounded-lg bg-surface-container p-3 flex items-center justify-center overflow-hidden mb-space-md">
+<div class="absolute inset-0 bg-gradient-to-t from-tertiary/10 via-transparent to-transparent"></div>
+<!-- Booster Foil Pack Simulation -->
+<div class="relative w-44 aspect-[3/4.6] rounded shadow-xl bg-gradient-to-b from-[#2B2005] via-[#4D3A0A] to-[#1F1703] p-2 transform group-hover:scale-105 transition-transform duration-300 flex flex-col justify-between overflow-hidden">
+<div class="absolute inset-0 opacity-40 bg-cover bg-center" data-alt="Ancient Greek temple ruins with divine golden sun rays and gilded leaf leafing texture overlay." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCZNVMO2JCptvxc0P2R_T5R_zGNCrYoMMMLZm5y-ib_CtAmY7K4C8I0EU42oVGa6eOaxg94r9wjk3HpMvFs2sSo3DF3F9stdTJrsht1UEV_GaYOMk_B65pdlrsCIwhNBCgLcyx-9UxH6sR8xA1pFpZMdH_S0NZE4aIfpcHAKgwQOvyaCG-IK2FnFUDcZjgYjYlK4LzsUhaKR5t4inVrM7NKFfCFeL50AEmndbg_u38')"></div>
+<div class="relative z-10 flex justify-between items-center text-tertiary-fixed">
+<span class="font-meta-num text-[8px] uppercase">MUSE • CÉLESTE</span>
+<span class="material-symbols-outlined text-[12px]">crown</span>
+</div>
+<div class="relative z-10 text-center my-auto">
+<div class="w-20 h-20 mx-auto rounded overflow-hidden shadow mb-1">
+<img class="w-full h-full object-cover" data-alt="Ancient Greek gold wreath ornament and statue fragment on black velvet, glowing rim." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpB-fCUg_vsCtK82FK0zFT0QSyDYeKB2KzpOD8cd73C4988zThSoMi1IIszX7FOEK9JReI2JKUKzYlZpie9-iousvWXVysM0H_q7j59lAaXdEPMBoEykg07JEh5RaJOvVeD8y4tMw9_eIKSFTirGEMWSMgyfeEcwBc1a8aPjvH4YyoaS0U55SJ3O8eil6jsdS8fq2x51UxEXMCTWwALjSgPHiJawT68S7OXV0y0z4"/>
+</div>
+<span class="font-headline-sm text-[15px] text-tertiary-fixed block uppercase">Or &amp; Mythologie</span>
+<span class="font-meta-num text-[9px] text-tertiary-fixed-dim">Série Céleste</span>
+</div>
+<div class="relative z-10 flex justify-between text-tertiary-fixed-dim font-meta-num text-[8px]">
+<span>LIMITÉ</span>
+<span>750 M</span>
+</div>
+</div>
+</div>
+<!-- Series Nomenclature & Meta -->
+<div class="flex flex-col flex-grow">
+<div class="flex items-start justify-between gap-space-xs mb-space-xs">
+<h3 class="font-headline-md text-headline-md text-primary leading-tight">
+              Or &amp; Mythologie
+            </h3>
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold whitespace-nowrap">
+              750 M
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2 mb-space-sm">
+            Ornements impériaux à la feuille d'or 24 carats, panthéon olympien et tirages ultra-limités à 100 exemplaires.
+          </p>
+<!-- Gauge and Probability Visualizer -->
+<div class="p-space-sm rounded-lg bg-surface-container-lowest/90 mb-space-md">
+<div class="flex items-center justify-between font-meta-num text-meta-num mb-1">
+<span class="text-on-surface-variant uppercase">Taux Légendaire</span>
+<span class="font-bold text-tertiary">12.0%</span>
+</div>
+<!-- Progress Bar -->
+<div class="w-full h-1.5 rounded-full bg-surface-variant overflow-hidden mb-space-xs">
+<div class="h-full bg-tertiary rounded-full" style="width: 82%;"></div>
+</div>
+<div class="flex items-center justify-between text-[11px] font-meta-num text-error font-medium">
+<span>Voûte critique</span>
+<span>Seulement 65 restants</span>
+</div>
+</div>
+<!-- Quick Artwork Previews (3 Mini Thumbs) -->
+<div class="flex items-center gap-space-xs mb-space-md">
+<span class="font-label-caps text-[9px] text-on-surface-variant uppercase mr-1">Exemples :</span>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Golden Apollo statue head framed in burnished dark wood and antique gold." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDieFKgjt8CmiM8NQLccWHsKwk91ez1cqAunsx51wjqJ58jyuBpY0E96FtGLDkbSXS0rPZg8vlduxSBKdI-GEKCecZ_UumDtQnhCS3JGws97aq5K7DpGV46EWIKORVkdneafocexYDJdw1c4a907x1gUfVvBU12k9Wb6i43YqN8t8ahEqOVXtylkOuzQ-T_uqQtb2JoEKSIw9PX4AXPBcZP8_2Ob478o8pAN3CfivU"/>
+</div>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Winged Nike sculpture in gold foil with dramatic nocturnal background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs77iXQRoVQySRT0LYQXsvBEiFkYDoLX_EUHSizds2lik2WKqvK_mmB0JKMi5GEo2AaHNHNlef4wGx2xlPvhoeiELeYllPt0d2Y8A3oFTiv6CHWKW1F1_JYFCNtQIYHY9wymqz758mpNDcPjDXDiJ5SPipWyZJ9e2vdg-tHzfBO_sxArKnT-8fJ0NRAUYKBREgMvTtBX0OzSEBUDf4feyRr7WDUMcWkc51rC5Y0HM"/>
+</div>
+<div class="w-7 h-9 rounded bg-surface-variant overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Classical temple facade gilded in leaf gold against dark celestial navy sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdQF_ryV62SugA60v68lCLBuwouYaHuMRIhQ21dDdqQyiH01okDkYfAb24iC6qlMaCuZbghMY0VkI_7S7iuUfUWd0aiIMgq4zLSeUPvPio-otBvk_t83X7oeCYIm87qKrFEkeDyCKC3oxtVqxvczd6nA0-qFnD-DHKXdjVkguDnbdaSu3N4hdVyXbXnW-NwCEPePkpU517CyQrPvv-uSCq1oQ648qQo2hMwLOZgPo"/>
+</div>
+</div>
+<!-- Purchase Action Button -->
+<div class="mt-auto pt-space-xs">
+<button class="w-full py-space-sm px-space-md rounded-full bg-primary-container text-on-primary hover:bg-primary font-label-caps text-label-caps uppercase tracking-wider transition-colors flex items-center justify-center gap-space-xs shadow-md" type="button">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed">diamond</span>
+<span>Acquérir • 750 M</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Curatorial Ritual Steps Showcase -->
+<section class="w-full px-margin py-space-xl bg-surface-container">
+<div class="max-w-[1440px] mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div>
+<span class="font-meta-num text-meta-num text-tertiary uppercase tracking-widest block">Protocole de Révélation</span>
+<h2 class="font-headline-xl text-headline-xl text-primary tracking-tight">
+            L'Expérience du Déballage
+          </h2>
+</div>
+<p class="font-quote-editorial text-quote-editorial text-on-surface-variant max-w-md">
+          Chaque booster acheté est immédiatement accessible dans votre sanctuaire pour un déballage physique-numérique immersif.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Step 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-display-hero text-headline-lg text-secondary-container font-light">01</span>
+<span class="material-symbols-outlined text-[24px] text-secondary">inventory_2</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Choisir &amp; Réserver</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Sélectionnez votre édition selon ses cotes de rareté. Le sachet est assigné à votre compte avec une empreinte cryptographique inviolable.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm">
+<span class="font-meta-num text-meta-num text-tertiary uppercase tracking-wider">• Empreinte Horodatée</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-display-hero text-headline-lg text-secondary-container font-light">02</span>
+<span class="material-symbols-outlined text-[24px] text-secondary">touch_app</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Déchirer le Sceau</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Déchirez la papillote d'aluminium dorée par geste tactile interactif dans le sanctuaire nocturne pour déclencher l'illumination.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm">
+<span class="font-meta-num text-meta-num text-tertiary uppercase tracking-wider">• Physique Haptique 3D</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="font-display-hero text-headline-lg text-secondary-container font-light">03</span>
+<span class="material-symbols-outlined text-[24px] text-secondary">workspace_premium</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Révéler &amp; Archiver</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Découvrez vos 3 chefs-d'œuvre, leur numéro d'édition et leurs finitions d'or. Intégrez-les à votre galerie privée ou négociez-les sur le Marché.
+            </p>
+</div>
+<div class="mt-space-md pt-space-sm">
+<span class="font-meta-num text-meta-num text-tertiary uppercase tracking-wider">• Certification Blockchain</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Drop Rates Modal Dialog (Hidden by Default) -->
+<div class="fixed inset-0 z-50 bg-black/70 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="drop-rate-modal">
+<div class="bg-surface-container-lowest max-w-xl w-full rounded-xl p-space-lg shadow-2xl relative text-on-surface">
+<div class="flex items-center justify-between pb-space-sm mb-space-md">
+<div>
+<span class="font-meta-num text-meta-num text-tertiary uppercase tracking-wider block">Transparence des Algorithmes</span>
+<h3 class="font-headline-md text-headline-md text-primary">Table des Cotes &amp; Raretés</h3>
+</div>
+<button class="p-space-xs rounded-full hover:bg-surface-container text-on-surface-variant" id="close-drop-modal" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+        Chaque booster MUSE contient exactement 3 cartes générées via tirage vérifiable sur protocole sans biais.
+      </p>
+<div class="space-y-space-sm mb-space-lg">
+<div class="flex items-center justify-between p-space-sm rounded bg-surface-container">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-outline"></span>
+<span class="font-body-md text-body-md font-medium">Commune</span>
+</div>
+<span class="font-meta-num text-meta-num text-on-surface">55.0%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded bg-surface-container">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-tertiary-container"></span>
+<span class="font-body-md text-body-md font-medium">Peu Commune</span>
+</div>
+<span class="font-meta-num text-meta-num text-on-surface">25.0%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded bg-surface-container">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-primary"></span>
+<span class="font-body-md text-body-md font-medium">Rare</span>
+</div>
+<span class="font-meta-num text-meta-num text-on-surface">13.2%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded bg-surface-container">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-secondary-container"></span>
+<span class="font-body-md text-body-md font-medium">Épique</span>
+</div>
+<span class="font-meta-num text-meta-num text-secondary-container font-semibold">5.3%</span>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded bg-tertiary-fixed/30">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary text-[16px]">stars</span>
+<span class="font-body-md text-body-md font-semibold text-tertiary">Légendaire (Gilding Or)</span>
+</div>
+<span class="font-meta-num text-meta-num text-tertiary font-bold">1.5% à 14.8%</span>
+</div>
+</div>
+<button class="w-full py-space-sm rounded-full bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-wider" id="confirm-drop-modal" type="button">
+        Compris • Fermer
+      </button>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const modal = document.getElementById('drop-rate-modal');
+    const openBtn = document.getElementById('toggle-drop-modal');
+    const closeBtn = document.getElementById('close-drop-modal');
+    const confirmBtn = document.getElementById('confirm-drop-modal');
+
+    if (openBtn && modal) {
+      openBtn.addEventListener('click', () => modal.classList.remove('hidden'));
+    }
+    if (closeBtn && modal) {
+      closeBtn.addEventListener('click', () => modal.classList.add('hidden'));
+    }
+    if (confirmBtn && modal) {
+      confirmBtn.addEventListener('click', () => modal.classList.add('hidden'));
+    }
+
+    // Filter pill active state toggling
+    const pills = document.querySelectorAll('.filter-pill');
+    pills.forEach(pill => {
+      pill.addEventListener('click', function() {
+        pills.forEach(p => {
+          p.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          p.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        this.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        this.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      });
+    });
+  })();
+</script></main><footer class="w-full bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full px-margin py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><span class="font-quote-editorial text-quote-editorial italic text-on-surface-variant">« MUSE — L'art ne meurt jamais, il circule »</span></div><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span><span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant">INDEX DE RARETÉ EN DIRECT</span></div><span class="font-meta-num text-meta-num text-tertiary">PARTHÉNON #89 — ESTIMATION +14.2%</span></div></div></footer></body></html>

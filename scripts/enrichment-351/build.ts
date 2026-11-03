@@ -1,4 +1,8 @@
-import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
+import { mkdir, readdir } from "node:fs/promises";
+import {
+  readProjectFile as readFile,
+  writeProjectFile as writeFile,
+} from "../project-files";
 import { sha256, payloadHash } from "../rarity-v2/http";
 import { createScorer } from "../masterpieces/score";
 import type {
@@ -334,9 +338,8 @@ for (const file of [
   "src/masterpieces/main.tsx",
   "src/masterpieces/batches.ts",
   "src/masterpieces/masterpieces.css",
-  "src/enrichment-351/main.tsx",
-  "review-351.html",
-  "vite.enrichment.config.ts",
+  "scripts/project-files.ts",
+  "catalog/history/layout-2026-10-30.json",
 ]) {
   implementationHashes[file] = sha256(await readFile(file));
 }
@@ -374,6 +377,7 @@ const review = {
 };
 parseCandidateCatalog(review, "/enrichment-351-images");
 await mkdir("public/enrichment-351-data", { recursive: true });
+await mkdir(`${dir}/reports`, { recursive: true });
 await writeFile(
   "enrichment-351-review.json",
   JSON.stringify(preview, null, 2) + "\n",

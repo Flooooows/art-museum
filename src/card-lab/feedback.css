@@ -1,0 +1,142 @@
+.frame-feedback {
+  margin-top: 32px;
+  padding-top: 28px;
+  border-top: 1px solid var(--lab-line);
+  font:
+    13px/1.7 "Card Inter",
+    Arial,
+    sans-serif;
+  color: var(--lab-ink);
+}
+.frame-feedback__heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: start;
+}
+.frame-feedback__heading > div {
+  max-width: 760px;
+}
+.frame-feedback__heading > span {
+  white-space: nowrap;
+  font-size: 11px;
+  color: var(--lab-muted);
+}
+.frame-feedback h3 {
+  font:
+    400 28px/1.3 "Card Playfair",
+    Georgia,
+    serif;
+  margin: 12px 0;
+}
+.frame-feedback p {
+  color: var(--lab-muted);
+}
+.frame-opinion {
+  min-width: 0;
+  margin: 20px 0 0;
+  padding: 16px;
+  border: 1px solid var(--lab-line);
+}
+.frame-opinion legend {
+  padding: 0 8px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.frame-opinion__choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  margin-bottom: 12px;
+}
+.frame-opinion__choices label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.frame-opinion input {
+  accent-color: var(--lab-accent);
+  width: 17px;
+  height: 17px;
+  flex: none;
+}
+.frame-opinion > label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+.frame-opinion textarea {
+  display: block;
+  width: 100%;
+  resize: vertical;
+  min-height: 90px;
+  border: 1px solid var(--lab-line);
+  padding: 10px;
+  background: var(--lab-paper);
+  color: var(--lab-ink);
+  font:
+    13px/1.6 "Card Inter",
+    Arial,
+    sans-serif;
+}
+.frame-opinion textarea::placeholder {
+  color: var(--lab-muted);
+  opacity: 1;
+}
+.frame-feedback__finishes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 18px;
+}
+.frame-feedback .frame-opinion__outdated {
+  color: var(--lab-accent);
+  font-size: 12px;
+}
+.frame-feedback__transfer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+.frame-feedback__transfer button,
+.frame-feedback__transfer > label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 16px;
+  color: var(--lab-ink);
+  background: transparent;
+  border: 1px solid var(--lab-line);
+  cursor: pointer;
+  font: inherit;
+}
+.frame-feedback__transfer input {
+  display: block;
+  max-width: 100%;
+  align-self: center;
+}
+.frame-feedback :is(button, input, textarea):focus-visible {
+  outline: 2px solid var(--lab-accent);
+  outline-offset: 4px;
+}
+.frame-feedback__storage {
+  font-size: 12px;
+}
+@media (max-width: 720px) {
+  .frame-feedback__finishes {
+    grid-template-columns: 1fr;
+  }
+  .frame-feedback__heading {
+    display: block;
+  }
+  .frame-feedback__heading > span {
+    white-space: normal;
+  }
+  .frame-opinion {
+    padding: 12px;
+  }
+}

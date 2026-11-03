@@ -396,27 +396,6 @@ main:focus {
   border-radius: 100%;
   background: var(--blue);
 }
-.shop-intro {
-  padding-top: 48px;
-  padding-bottom: 49px;
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  align-items: flex-end;
-}
-.shop-intro h1 {
-  font-size: 64px;
-  letter-spacing: -0.035em;
-  line-height: 1.1;
-}
-.shop-intro p {
-  font-family: Playfair, Georgia, serif;
-  font-size: 17px;
-  line-height: 1.65;
-  margin-top: 17px;
-  max-width: 670px;
-  color: #51433d;
-}
 .intro-status {
   display: flex;
   align-items: center;
@@ -484,11 +463,6 @@ main:focus {
   object-fit: cover;
   opacity: 0.16;
   mix-blend-mode: screen;
-}
-.featured-content {
-  position: relative;
-  z-index: 2;
-  padding: 39px 0 36px 42px;
 }
 .feature-badges {
   display: flex;
@@ -617,15 +591,6 @@ main:focus {
   max-width: 480px;
   margin-top: 20px;
   padding: 17px 20px;
-}
-.featured-visual {
-  min-height: 540px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 35px 50px;
-  z-index: 1;
 }
 .pack {
   position: relative;
@@ -757,9 +722,6 @@ main:focus {
   font-size: 8px;
   letter-spacing: 0.17em;
 }
-.featured-visual:hover .pack-featured {
-  transform: translateY(-7px) rotate(0);
-}
 .statue-detail {
   position: absolute;
   left: 7%;
@@ -793,20 +755,6 @@ main:focus {
   width: 100%;
   height: 100px;
   object-fit: cover;
-}
-.mini-art-right {
-  right: 6%;
-  top: 14%;
-  transform: rotate(12deg);
-}
-.mini-art-left {
-  left: 7%;
-  bottom: 9%;
-  width: 96px;
-  transform: rotate(-13deg);
-}
-.mini-art-left img {
-  height: 80px;
 }
 .discovery-strip {
   background: var(--paper-mid);
@@ -1068,67 +1016,6 @@ progress::-moz-progress-bar {
   margin-top: 22px;
   line-height: 1.6;
 }
-.ritual-section {
-  background: var(--paper-mid);
-  padding: 47px 0 40px;
-}
-.ritual-section .section-heading {
-  align-items: flex-end;
-  margin-bottom: 35px;
-}
-.ritual-section .section-heading h2 {
-  font-size: 39px;
-}
-.ritual-section .section-heading > p {
-  font-family: Playfair, serif;
-  font-size: 16px;
-  color: #65564b;
-  max-width: 380px;
-  line-height: 1.6;
-}
-.ritual-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 25px;
-}
-.ritual-step {
-  background: #f8f6f0;
-  padding: 28px 26px;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-}
-.ritual-step > div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--blue);
-  margin-bottom: 20px;
-}
-.ritual-step > div > span {
-  font-family: Playfair, serif;
-  font-size: 27px;
-}
-.ritual-step h3 {
-  font-size: 20px;
-  color: var(--wine);
-  margin-bottom: 10px;
-}
-.ritual-step p {
-  font-size: 12px;
-  line-height: 1.75;
-  color: #64574e;
-  margin-bottom: 22px;
-}
-.ritual-note {
-  display: block;
-  font-family: Space, sans-serif;
-  font-size: 8px;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: #7b6325;
-  margin-top: auto;
-}
 .collection-link {
   margin-top: 26px;
   color: var(--wine);
@@ -1248,29 +1135,6 @@ progress::-moz-progress-bar {
 .atelier > .page-width {
   max-width: 1440px;
 }
-.atelier-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-}
-.atelier-heading h1 {
-  font-size: 26px;
-  line-height: 1.3;
-  color: #f8ede1;
-}
-.atelier-heading > span {
-  display: flex;
-  gap: 7px;
-  align-items: center;
-  font-family: Space, sans-serif;
-  font-size: 11px;
-  text-transform: uppercase;
-  background: #780a234d;
-  color: #edcf96;
-  padding: 8px 14px;
-  border-radius: 20px;
-}
 .opening-steps {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1328,68 +1192,6 @@ progress::-moz-progress-bar {
   width: 53px;
   background: var(--blue);
 }
-.atelier-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(300px, 1.6fr) minmax(0, 1fr);
-  gap: 44px;
-  align-items: center;
-}
-.atelier-left,
-.atelier-right {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-.sealed-info {
-  background: #6b112384;
-  border: 1px solid #b57d5a10;
-  border-radius: 8px;
-  overflow: hidden;
-  padding-top: 27px;
-}
-.sealed-info > span {
-  display: flex;
-  gap: 7px;
-  align-items: center;
-  font-family: Space, sans-serif;
-  text-transform: uppercase;
-  font-size: 10px;
-  color: #f0d577;
-  letter-spacing: 0.08em;
-  padding: 0 23px;
-}
-.sealed-info h2 {
-  font-size: 29px;
-  line-height: 1.2;
-  margin: 12px 23px 8px;
-}
-.sealed-info > p {
-  font-size: 10px;
-  text-transform: uppercase;
-  color: #e2bab3;
-  padding: 0 23px;
-  margin-bottom: 20px;
-  letter-spacing: 0.03em;
-}
-.sealed-info dl {
-  background: #2a000c22;
-  margin: 0;
-  padding: 20px 23px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.sealed-info dl > div {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  font-size: 11px;
-}
-.sealed-info dd {
-  margin: 0;
-  color: #f1d480;
-  text-align: right;
-}
 .rates {
   padding: 20px;
   background: var(--paper-mid);
@@ -1438,78 +1240,6 @@ progress::-moz-progress-bar {
   margin-top: 14px;
   color: #d2b3b0;
 }
-.atelier-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.ritual-pack {
-  width: 100%;
-  max-width: 416px;
-  perspective: 1200px;
-}
-.atelier-pack-frame {
-  aspect-ratio: 3/4.8;
-  background: #8e5d62;
-  border-radius: 19px;
-  overflow: hidden;
-  position: relative;
-  border: 1px solid #b79b6744;
-  box-shadow: 0 22px 45px -10px #0d000dcc;
-  transform-origin: 50% 10%;
-  transition:
-    transform 0.55s cubic-bezier(0.16, 1, 0.3, 1),
-    filter 0.55s,
-    opacity 0.55s;
-}
-.atelier-pack-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.atelier-pack-frame:after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(0deg, #51081fe8, #51081f00 46%, #0c041d22);
-}
-.atelier-pack-frame:before {
-  content: "";
-  position: absolute;
-  left: 37%;
-  top: 18px;
-  width: 26%;
-  height: 3px;
-  background: #cba72f7d;
-  border-radius: 5px;
-  z-index: 2;
-}
-.atelier-pack-frame > .pack {
-  width: 100%;
-  height: 100%;
-  transform: none;
-  border: 0;
-  border-radius: 0;
-}
-.atelier-pack-frame > .pack .pack-center {
-  transform: translateY(-45px);
-}
-.atelier-pack-frame > .pack .pack-center img {
-  width: 62%;
-  height: 240px;
-}
-.atelier-pack-label {
-  position: absolute;
-  z-index: 3;
-  bottom: 28px;
-  left: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 .brand-seal {
   background: var(--wine);
   color: #e1bc4c;
@@ -1521,28 +1251,6 @@ progress::-moz-progress-bar {
   justify-content: center;
   border-radius: 13px 13px 5px 5px;
   font-size: 26px;
-}
-.atelier-pack-label h2 {
-  font-size: 36px;
-  line-height: 1.4;
-  letter-spacing: 0.025em;
-  text-shadow: 0 2px 5px #3a0015;
-}
-.atelier-pack-label p {
-  color: #dbdbfc;
-  text-transform: uppercase;
-  font-family: Space, sans-serif;
-  font-size: 9px;
-  letter-spacing: 0.03em;
-}
-.atelier-pack-label > span {
-  font-family: Space, sans-serif;
-  font-size: 10px;
-  letter-spacing: 0.05em;
-  background: #f8e3df15;
-  padding: 9px 18px;
-  border-radius: 20px;
-  margin-top: 15px;
 }
 .tear-seal {
   position: absolute;
@@ -1594,74 +1302,6 @@ progress::-moz-progress-bar {
 }
 .tear-seal:hover > span:first-child {
   transform: translateX(8px);
-}
-.is-opening .atelier-pack-frame {
-  transform: translateY(-20px) rotateY(14deg) scale(0.97);
-  filter: brightness(1.8);
-  opacity: 0;
-}
-.ritual-choice {
-  border: 0;
-  padding: 25px;
-  background: #6810288a;
-  border-radius: 8px;
-  min-width: 0;
-}
-.ritual-choice legend {
-  float: left;
-  width: 100%;
-  margin-bottom: 22px;
-  font-family: Space, sans-serif;
-  font-size: 10px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #f1d96c;
-}
-.ritual-choice label {
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  clear: both;
-  padding: 20px 15px;
-  background: #ffffff0a;
-  border-radius: 4px;
-  margin-top: 9px;
-  border: 1px solid transparent;
-  cursor: pointer;
-  position: relative;
-}
-.ritual-choice label.chosen {
-  background: #392264a6;
-  border-color: #8870ba33;
-}
-.ritual-choice label > svg {
-  margin-top: 5px;
-  color: #dfc9eb;
-  width: 22px;
-}
-.ritual-choice input {
-  position: absolute;
-  opacity: 0;
-  width: 1px;
-  height: 1px;
-}
-.ritual-choice label:focus-within {
-  outline: 2px solid #b4baff;
-  outline-offset: 3px;
-}
-.ritual-choice strong {
-  font-family: Playfair, serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.35;
-  display: block;
-}
-.ritual-choice small {
-  display: block;
-  font-size: 11px;
-  line-height: 1.8;
-  color: #e2c5d0;
-  margin-top: 10px;
 }
 .preservation-note {
   display: flex;
@@ -1746,31 +1386,6 @@ progress::-moz-progress-bar {
   background:
     radial-gradient(ellipse at 60% 35%, #17206699, transparent 55%),
     radial-gradient(ellipse at 85% 78%, #b1871e40, transparent 40%);
-}
-.revelation-heading {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 0 53px;
-}
-.revelation-heading h1 {
-  color: #f5ead8;
-  font-size: 25px;
-}
-.revelation-heading > span {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 10px;
-  font-family: Space, sans-serif;
-  color: #e6ce97;
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
-}
-.revelation-heading > span:last-child {
-  color: #e0c6bd;
-  font-size: 10px;
 }
 .reveal-grid {
   display: grid;
@@ -3087,25 +2702,16 @@ progress::-moz-progress-bar {
 .featured {
   animation: room-enter 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
-.atelier-pack-frame {
-  animation: room-enter 0.7s cubic-bezier(0.16, 1, 0.3, 1);
-}
 
 @media (min-width: 1600px) {
   .featured {
     min-height: 610px;
-  }
-  .featured-content {
-    padding: 48px 0 40px 48px;
   }
   .featured h2 {
     font-size: 49px;
   }
   .featured-description {
     font-size: 15px;
-  }
-  .featured-visual .pack-featured {
-    width: 310px;
   }
   .feature-stats {
     margin-top: 28px;
@@ -3137,31 +2743,11 @@ progress::-moz-progress-bar {
   .header-tools {
     gap: 9px;
   }
-  .shop-intro h1 {
-    font-size: 56px;
-  }
-  .featured-content {
-    padding-left: 30px;
-  }
   .featured h2 {
     font-size: 36px;
   }
   .featured-description {
     font-size: 12px;
-  }
-  .featured-visual {
-    padding: 35px 30px;
-  }
-  .featured-visual .pack-featured {
-    width: 245px;
-  }
-  .mini-art-right {
-    right: 3%;
-    width: 92px;
-  }
-  .mini-art-left {
-    left: 2%;
-    width: 83px;
   }
   .featured-actions {
     gap: 16px;
@@ -3279,41 +2865,6 @@ progress::-moz-progress-bar {
   .artwork-card-top > span:last-child {
     font-size: 6px;
   }
-  .atelier-layout {
-    gap: 25px;
-    grid-template-columns: minmax(0, 1fr) minmax(280px, 1.5fr) minmax(0, 1fr);
-  }
-  .sealed-info h2 {
-    font-size: 24px;
-  }
-  .sealed-info dl {
-    padding: 17px;
-  }
-  .sealed-info dl > div {
-    font-size: 10px;
-  }
-  .sealed-info > span,
-  .sealed-info h2,
-  .sealed-info > p {
-    padding-inline: 0;
-    margin-inline: 17px;
-  }
-  .ritual-choice {
-    padding: 21px 15px;
-  }
-  .ritual-choice label {
-    padding: 15px 12px;
-    gap: 8px;
-  }
-  .ritual-choice strong {
-    font-size: 22px;
-  }
-  .ritual-choice small {
-    font-size: 10px;
-  }
-  .ritual-choice label > svg {
-    width: 18px;
-  }
   .preservation-note {
     padding: 18px 8px;
   }
@@ -3340,15 +2891,6 @@ progress::-moz-progress-bar {
   }
   .reveal-card-label {
     font-size: 8px;
-  }
-  .revelation-heading h1 {
-    font-size: 23px;
-  }
-  .revelation-heading > span {
-    font-size: 9px;
-  }
-  .revelation-heading > .draw-date {
-    display: none;
   }
   .site-footer {
     padding-inline: 32px;
@@ -3383,16 +2925,6 @@ progress::-moz-progress-bar {
   .search-header {
     display: none;
   }
-  .shop-intro {
-    padding-top: 38px;
-    padding-bottom: 35px;
-  }
-  .shop-intro h1 {
-    font-size: 49px;
-  }
-  .shop-intro p {
-    font-size: 15px;
-  }
   .intro-status {
     gap: 16px;
     padding: 16px;
@@ -3402,10 +2934,6 @@ progress::-moz-progress-bar {
   }
   .featured {
     min-height: 540px;
-  }
-  .featured-content {
-    padding-top: 30px;
-    padding-left: 24px;
   }
   .feature-badges {
     font-size: 8px;
@@ -3417,31 +2945,6 @@ progress::-moz-progress-bar {
   .featured-description {
     font-size: 12px;
     line-height: 1.8;
-  }
-  .featured-visual .pack-featured {
-    width: 215px;
-  }
-  .mini-art-right {
-    right: 1%;
-    top: 15%;
-    width: 76px;
-    padding: 6px;
-  }
-  .mini-art-right img {
-    height: 80px;
-  }
-  .mini-art-left {
-    width: 72px;
-    padding: 5px;
-    left: 0%;
-    bottom: 13%;
-  }
-  .mini-art-left img {
-    height: 67px;
-  }
-  .featured-visual {
-    padding: 25px 20px;
-    min-height: 500px;
   }
   .pack-featured .pack-center > img {
     width: 110px;
@@ -3517,27 +3020,6 @@ progress::-moz-progress-bar {
   }
   .catalog-card .button {
     font-size: 10px;
-  }
-  .ritual-section .section-heading {
-    align-items: flex-start;
-  }
-  .ritual-section .section-heading h2 {
-    font-size: 34px;
-  }
-  .ritual-section .section-heading p {
-    font-size: 15px;
-  }
-  .ritual-step {
-    padding: 23px 20px;
-  }
-  .ritual-step h3 {
-    font-size: 19px;
-  }
-  .ritual-step p {
-    font-size: 11px;
-  }
-  .ritual-note {
-    font-size: 7px;
   }
   .collection-intro {
     margin-bottom: 35px;
@@ -3619,36 +3101,6 @@ progress::-moz-progress-bar {
   .rarity-filters button {
     font-size: 7px;
     padding: 6px 8px;
-  }
-  .atelier-layout {
-    grid-template-columns: minmax(0, 1fr) minmax(270px, 1.5fr);
-    gap: 25px;
-  }
-  .atelier-right {
-    grid-column: 1/-1;
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    align-items: center;
-    gap: 25px;
-    margin-top: 10px;
-  }
-  .ritual-choice {
-    padding: 22px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-  .ritual-choice legend {
-    margin-bottom: 6px;
-  }
-  .ritual-choice label {
-    clear: none;
-  }
-  .ritual-choice label > svg {
-    width: 20px;
-  }
-  .ritual-choice strong {
-    font-size: 20px;
   }
   .preservation-note {
     padding: 20px;
@@ -3828,23 +3280,6 @@ progress::-moz-progress-bar {
   .site-header nav a.active:after {
     bottom: 7px;
   }
-  .shop-intro {
-    padding-top: 29px;
-    padding-bottom: 25px;
-    flex-direction: column;
-    gap: 23px;
-    align-items: stretch;
-  }
-  .shop-intro h1 {
-    font-size: 44px;
-    line-height: 1.08;
-    letter-spacing: -0.035em;
-  }
-  .shop-intro p {
-    font-size: 14px;
-    line-height: 1.7;
-    margin-top: 14px;
-  }
   .desktop-break {
     display: none;
   }
@@ -3875,10 +3310,6 @@ progress::-moz-progress-bar {
     grid-template-columns: 1fr;
     min-height: 0;
     border-radius: 6px;
-  }
-  .featured-content {
-    padding: 24px 22px 0;
-    order: 1;
   }
   .feature-badges {
     gap: 6px;
@@ -3946,15 +3377,6 @@ progress::-moz-progress-bar {
   .featured-rates .rates {
     max-width: none;
   }
-  .featured-visual {
-    order: 2;
-    min-height: 330px;
-    padding: 24px 35px 30px;
-  }
-  .featured-visual .pack-featured {
-    width: 184px;
-    transform: rotate(1deg);
-  }
   .pack-featured .pack-inner {
     padding: 15px 12px;
   }
@@ -3975,23 +3397,6 @@ progress::-moz-progress-bar {
   }
   .pack-featured .pack-bottom {
     font-size: 5px;
-  }
-  .mini-art-right {
-    width: 76px;
-    top: 45px;
-    right: 8%;
-    padding: 5px;
-  }
-  .mini-art-right img {
-    height: 73px;
-  }
-  .mini-art-left {
-    width: 71px;
-    left: 8%;
-    bottom: 34px;
-  }
-  .mini-art-left img {
-    height: 67px;
   }
   .mini-art span {
     font-size: 4px;
@@ -4152,47 +3557,6 @@ progress::-moz-progress-bar {
     line-height: 1.8;
     margin-top: 18px;
   }
-  .ritual-section {
-    padding: 32px 0 28px;
-  }
-  .ritual-section .section-heading {
-    gap: 14px;
-    margin-bottom: 25px;
-  }
-  .ritual-section .section-heading h2 {
-    font-size: 31px;
-  }
-  .ritual-section .section-heading > p {
-    font-size: 14px;
-  }
-  .ritual-grid {
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-  .ritual-step {
-    padding: 22px;
-  }
-  .ritual-step > div {
-    margin-bottom: 13px;
-  }
-  .ritual-step > div > span {
-    font-size: 25px;
-  }
-  .ritual-step > div > svg {
-    width: 21px;
-  }
-  .ritual-step h3 {
-    font-size: 22px;
-    margin-bottom: 9px;
-  }
-  .ritual-step p {
-    font-size: 12px;
-    margin-bottom: 17px;
-    line-height: 1.8;
-  }
-  .ritual-note {
-    font-size: 8px;
-  }
   .collection-link {
     font-size: 9px;
   }
@@ -4246,24 +3610,6 @@ progress::-moz-progress-bar {
     padding-top: 26px;
     padding-bottom: 30px;
   }
-  .atelier-heading {
-    gap: 10px;
-    align-items: flex-start;
-  }
-  .atelier-heading h1 {
-    font-size: 26px;
-    max-width: 205px;
-  }
-  .atelier-heading > span {
-    font-size: 8px;
-    gap: 5px;
-    padding: 8px 10px;
-    white-space: nowrap;
-    margin-top: 4px;
-  }
-  .atelier-heading > span svg {
-    width: 12px;
-  }
   .opening-steps {
     margin: 23px 0 26px;
     gap: 7px;
@@ -4285,27 +3631,6 @@ progress::-moz-progress-bar {
   .opening-steps .current:before {
     width: 38px;
   }
-  .atelier-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  .atelier-center {
-    order: 1;
-    width: 100%;
-  }
-  .ritual-pack {
-    max-width: 310px;
-    width: 87%;
-  }
-  .atelier-pack-frame {
-    border-radius: 14px;
-    aspect-ratio: 3/4.6;
-  }
-  .atelier-pack-frame:before {
-    top: 14px;
-    height: 2px;
-  }
   .tear-seal {
     height: 35px;
   }
@@ -4321,59 +3646,11 @@ progress::-moz-progress-bar {
   .tear-seal > span:first-child svg {
     width: 19px;
   }
-  .atelier-pack-label {
-    bottom: 22px;
-  }
   .brand-seal {
     height: 37px;
     width: 34px;
     font-size: 22px;
     border-radius: 10px 10px 5px 5px;
-  }
-  .atelier-pack-label h2 {
-    font-size: 31px;
-  }
-  .atelier-pack-label p {
-    font-size: 8px;
-  }
-  .atelier-pack-label > span {
-    font-size: 8px;
-    padding: 8px 13px;
-    margin-top: 11px;
-  }
-  .atelier-pack-frame > .pack .pack-center img {
-    height: 190px;
-  }
-  .atelier-pack-frame > .pack .pack-center {
-    transform: translateY(-18px);
-  }
-  .atelier-left {
-    order: 3;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-  .sealed-info {
-    padding-top: 20px;
-  }
-  .sealed-info > span {
-    font-size: 9px;
-  }
-  .sealed-info h2 {
-    font-size: 27px;
-    margin-block: 10px 6px;
-  }
-  .sealed-info > p {
-    font-size: 9px;
-    margin-bottom: 15px;
-  }
-  .sealed-info dl {
-    padding: 16px 18px;
-    gap: 10px;
-  }
-  .sealed-info dl > div {
-    font-size: 11px;
   }
   .rates {
     padding: 19px;
@@ -4383,43 +3660,6 @@ progress::-moz-progress-bar {
   }
   .rates p {
     font-size: 9px;
-  }
-  .atelier-right {
-    order: 2;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 0;
-  }
-  .ritual-choice {
-    width: 100%;
-    padding: 17px;
-    gap: 8px;
-    border-radius: 6px;
-  }
-  .ritual-choice legend {
-    font-size: 9px;
-    letter-spacing: 0.08em;
-  }
-  .ritual-choice label {
-    padding: 15px 10px;
-    gap: 7px;
-    margin-top: 10px;
-  }
-  .ritual-choice strong {
-    font-size: 20px;
-    line-height: 1.3;
-  }
-  .ritual-choice small {
-    font-size: 9px;
-    line-height: 1.8;
-    margin-top: 7px;
-  }
-  .ritual-choice label > svg {
-    width: 17px;
-    height: 20px;
-    margin-top: 2px;
   }
   .preservation-note {
     padding: 15px 18px;
@@ -4476,18 +3716,6 @@ progress::-moz-progress-bar {
   }
   .revelation {
     padding: 28px 0;
-  }
-  .revelation-heading {
-    flex-wrap: wrap;
-    gap: 11px;
-    margin-bottom: 30px;
-  }
-  .revelation-heading h1 {
-    font-size: 29px;
-  }
-  .revelation-heading > span {
-    font-size: 8px;
-    letter-spacing: 0;
   }
   .reveal-grid {
     grid-template-columns: 1fr;
@@ -5181,12 +4409,6 @@ progress::-moz-progress-bar {
   .notification-button {
     display: none;
   }
-  .shop-intro h1 {
-    font-size: 40px;
-  }
-  .featured-content {
-    padding-inline: 17px;
-  }
   .featured h2 {
     font-size: 31px;
   }
@@ -5236,22 +4458,6 @@ progress::-moz-progress-bar {
   .collection-intro h1 {
     font-size: 28px;
   }
-  .atelier-heading h1 {
-    font-size: 24px;
-  }
-  .atelier-heading > span {
-    font-size: 7px;
-    padding: 7px;
-  }
-  .ritual-choice strong {
-    font-size: 18px;
-  }
-  .ritual-choice label {
-    padding-inline: 8px;
-  }
-  .ritual-choice label > svg {
-    width: 14px;
-  }
   .collection-pagination > span {
     font-size: 6px;
   }
@@ -5262,18 +4468,6 @@ progress::-moz-progress-bar {
   .artwork-open h3 {
     font-size: 16px;
   }
-}
-.ritual-choice {
-  display: block;
-}
-.ritual-options {
-  clear: both;
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
-.ritual-options label {
-  margin-top: 0;
 }
 .catalog-overview {
   display: grid;
@@ -5325,14 +4519,6 @@ progress::-moz-progress-bar {
 }
 
 @media (max-width: 950px) {
-  .ritual-options {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-  }
-  .ritual-choice legend {
-    margin-bottom: 14px;
-  }
   .catalog-overview {
     grid-template-columns: 1fr;
   }
@@ -5342,31 +4528,12 @@ progress::-moz-progress-bar {
     display: flex;
     flex-direction: column;
   }
-  .atelier-heading {
-    order: 0;
-  }
   .opening-steps {
     order: 1;
-  }
-  .atelier-layout {
-    display: contents;
-  }
-  .atelier-center {
-    order: 2;
   }
   .opening-action {
     order: 3;
     margin: 22px 0 27px;
-  }
-  .atelier-right {
-    order: 4;
-  }
-  .atelier-left {
-    order: 5;
-    margin-top: 19px;
-  }
-  .ritual-choice {
-    padding-top: 18px;
   }
   .catalog-overview {
     gap: 11px;
@@ -5510,10 +4677,5 @@ progress::-moz-progress-bar {
   }
   .flipping-card {
     perspective: none;
-  }
-  .is-opening .atelier-pack-frame {
-    opacity: 1;
-    filter: none;
-    transform: none;
   }
 }

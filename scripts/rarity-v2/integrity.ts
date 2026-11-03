@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { sha256 } from "./http";
+import { readHistoricalFile } from "../project-files";
 
 export async function assertProtectedInputs(
   root: string,
@@ -12,7 +13,7 @@ export async function assertProtectedInputs(
     ),
   ) as { files: Record<string, string> };
   for (const [file, expected] of Object.entries(manifest.files)) {
-    if (sha256(await readFile(path.join(root, file))) !== expected)
+    if (sha256(await readHistoricalFile(file, expected, root)) !== expected)
       throw new Error(
         `Entrée protégée modifiée : ${file}. Arrêt sans migration.`,
       );

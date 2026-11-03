@@ -59,7 +59,7 @@ Toutes les **1 000 propositions restent provisoires**, avec une confiance moyenn
 
 Le site dédié `art-museum-8fdd8-atelier` appartient au projet `art-museum-8fdd8`. Avec Firebase CLI installé et connecté à un compte autorisé (`firebase login`), lancer `npm run deploy:atelier`. La configuration `firebase.json` cible explicitement ce site, pas le site principal. Aucune règle Firestore ni authentification applicative n’est créée.
 
-`npm run build:atelier` compile uniquement `review.html` dans `dist-atelier`, puis copie le catalogue, les 100 images locales utiles, les polices et leurs licences. Le jeu, les autres assets, les captures sources et les sauvegardes utilisateur ne sont pas déployés. Les 900 nouvelles images restent servies par Cleveland. La page est aussi disponible à `/review.html`.
+`npm run build:atelier` compile `review.html` et `masterpieces.html` dans `dist-atelier`, puis copie les trois catalogues, les 100 images locales du millier, les images des lots de 25 et 78 candidates, les polices et leurs licences. La racine du site ouvre la revue du millier, également disponible à `/review.html`. Le jeu, les captures sources et les sauvegardes utilisateur ne sont pas déployés. Les 900 nouvelles images restent servies par Cleveland. `npm run preview:atelier` permet de vérifier ce paquet localement.
 
 Le premier déploiement a été vérifié : page, polices et image locale répondent HTTP 200 ; le catalogue en ligne possède exactement l’empreinte du manifeste local. Avant une mise à jour du catalogue, demander aux utilisateurs d’exporter leur JSON pour éviter toute incompatibilité de version.
 
@@ -85,6 +85,6 @@ npm run build
 
 ## Fichiers
 
-Entrée et rendu : `review.html`, `src/review/main.tsx`, `ReviewApp.tsx`, `review.css`. Contrats et logique : `src/review/types.ts`, `model.ts`. Tests : `src/review.test.ts`. Collecte, adaptation et calcul : `scripts/review/collect.ts`, `records.ts`, `build.ts`. Sources et résultats : `catalog/review-1000/`, `public/review-data/catalog.json`. Configuration de build : `vite.config.ts` ; commandes : `package.json`. Contrat de surface : `.impeccable/review-workspace.md` ; plan : `execplan/atelier-mille-oeuvres.md`.
+Entrée et rendu : `review.html`, `src/review/main.tsx`, `ReviewApp.tsx`, `review.css`. Contrats et logique : `src/review/types.ts`, `model.ts`. Tests : `src/review.test.ts`. Collecte, adaptation et calcul : `scripts/review/collect.ts`, `records.ts`, `build.ts`. Sources et résultats : `catalog/review-1000/`, `public/review-data/catalog.json`. Configurations : `vite.config.ts`, `vite.atelier.config.ts` ; commandes : `package.json`. Contrat de surface : `.impeccable/review-workspace.md` ; plan historique : `docs/archive/plans/atelier-mille-oeuvres.md`.
 
 Le moteur V2, ses archives, les 100 données actives, les tirages, acquisitions et le marché restent protégés. **Aucun outil de migration n’est fourni.**

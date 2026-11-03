@@ -1,0 +1,4294 @@
+{
+  "schemaVersion": 1,
+  "edition": "frieze-v7",
+  "width": 1024,
+  "height": 1536,
+  "commonAperture": {
+    "left": 17.7734375,
+    "top": 16.666666666666664,
+    "width": 64.453125,
+    "height": 63.86718750000001
+  },
+  "neutralFamilies": 12,
+  "brief": "Recommencer sans reprendre les mêmes motifs. Arts décoratifs sert seulement aux couleurs et au niveau de détail ; Paléolithique et Égypte ancienne servent d’exemples de motifs immédiatement liés au thème, suffisamment détaillés mais espacés. Frises figuratives gravées dans une vraie moulure, jamais un cadre constitué d’objets ni de rubans communs.",
+  "preservedFamilies": [
+    "beaux-arts",
+    "egypte",
+    "decoratifs",
+    "art-mysterieux",
+    "art-moderne",
+    "prehistoire"
+  ],
+  "baselineSha256": "cbc8398222afe21155d9b9b736b62a57f22b410b68a2fc0c4da84710f70e18d5",
+  "preparationScript": "scripts/card-lab/prepare-frieze-frames.ts",
+  "preparationScriptSha256": "eb50ec5716ba12dc88b75ecfb8515e13ba4d90a67139d2a06d0e675687e8e7c2",
+  "processingScriptSha256": "836419b97f1f0a6d0615fcf0e90a9fb88b6d415f0a8dcc2a98a784c7678f83cb",
+  "materialScript": "scripts/card-lab/decorative-processing.ts",
+  "materialScriptSha256": "6af8535b9561c29050f7717e17c7cffe3c523303e75685de66174ab4d74333aa",
+  "specsScriptSha256": "6ffc087491fb9326895258ce2daadba3fe815b225352c3294ddd8f32f7fe8659",
+  "method": "Treize frises figuratives différentes, images de motifs gravées dans le rail et non objets constituant le cadre. Seule une palette sans motifs est fournie comme référence de génération. Benchmarks Égypte/Paléolithique pour la lisibilité, Arts décoratifs pour les couleurs/détails. Six familles validées inchangées.",
+  "generationReferences": [
+    {
+      "purpose": "Colors only; no frame motifs or frame image supplied",
+      "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+      "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+    }
+  ],
+  "designBenchmarks": [
+    {
+      "family": "egypte",
+      "file": "src/card-lab/assets/refined-frames/egypte-argent.webp",
+      "sha256": "396677078eda86e58118df46eb412fae73d9517f1ac7aa8469460b2ba0e6d765",
+      "usage": "User-approved design benchmark inspected for motif legibility/detail; NOT supplied as a generation image."
+    },
+    {
+      "family": "prehistoire",
+      "file": "src/card-lab/assets/refined-frames/prehistoire-argent.webp",
+      "sha256": "28381d848b0328c7d993504c609eb2faf0ac5435f6937367835c902653bb3831",
+      "usage": "User-approved design benchmark inspected for motif legibility/detail; NOT supplied as a generation image."
+    },
+    {
+      "family": "decoratifs",
+      "file": "src/card-lab/assets/refined-frames/decoratifs-argent.webp",
+      "sha256": "d3dbcd3bd18df87d6650dcbdbf3b379708e5024c03d30261692030a01785c764",
+      "usage": "User-approved design benchmark inspected for motif legibility/detail; NOT supplied as a generation image."
+    }
+  ],
+  "sources": {
+    "src/card-lab/assets/generated-sources/peinture-frieze-v7-layout.png": {
+      "sourceSha256": "03e9b21f08876180ab29026f9457f5074c226be1d741a4e32a8c7956fb7306fc",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/peinture-frieze-v7.png",
+      "rawSourceSha256": "929ba2d5d3ca35cc4fa63c437a7e4fbba8b3622ebffacedd617a5f11da433180",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c5e2002qQr3SY8V4SyGl1",
+      "motifs": [
+        "palette à pigments",
+        "pinceaux gravés",
+        "chevalet",
+        "touches et pots de pigment"
+      ],
+      "forbidden": "Pinceaux constituant les rails, rubans abstraits et décor floral commun.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": {
+        "scale": 0.994475138121547,
+        "sourceCuts": {
+          "x": [
+            0,
+            181,
+            843,
+            1024
+          ],
+          "y": [
+            0,
+            193,
+            1346,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            180,
+            844,
+            1024
+          ],
+          "y": [
+            0,
+            192,
+            1347,
+            1536
+          ]
+        }
+      },
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 785919
+    },
+    "src/card-lab/assets/generated-sources/sculpture-frieze-v7.png": {
+      "sourceSha256": "234967f9f7e266f708ff65e108b95142e1d91b7563cfa4378a6346cde3224e07",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/sculpture-frieze-v7.png",
+      "rawSourceSha256": "234967f9f7e266f708ff65e108b95142e1d91b7563cfa4378a6346cde3224e07",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c636001Yrf4ndBnvOyqDu",
+      "motifs": [
+        "buste sculpté",
+        "main modelée",
+        "tête partiellement taillée",
+        "maillet et ciseau gravés"
+      ],
+      "forbidden": "Colonnes structurelles, statues débordantes et volutes communes.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": null,
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 817621
+    },
+    "src/card-lab/assets/generated-sources/estampes-frieze-v7-layout.png": {
+      "sourceSha256": "434f28a0ed6584b543efd29fd6f97208a77fd0a98d8b2fdc421f796df0d2b92b",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/estampes-frieze-v7.png",
+      "rawSourceSha256": "c4549662b12b3e95853eaa904a8bf1765382dbbe245080d8e11c73eb5dfa5e1e",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c634001DKGf3vd7045F9i",
+      "motifs": [
+        "presse en profil",
+        "plaque hachurée",
+        "burins",
+        "rouleau encreur et empreinte de feuille"
+      ],
+      "forbidden": "Rails en rouleaux ou outils, guillochés et rubans décoratifs communs.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": {
+        "scale": 0.8490566037735849,
+        "sourceCuts": {
+          "x": [
+            0,
+            199,
+            825,
+            1024
+          ],
+          "y": [
+            0,
+            265,
+            1305,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            169,
+            855,
+            1024
+          ],
+          "y": [
+            0,
+            225,
+            1340,
+            1536
+          ]
+        }
+      },
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 779429
+    },
+    "src/card-lab/assets/generated-sources/dessins-frieze-v7-layout.png": {
+      "sourceSha256": "1587b572fbb352d16ab6aa7fcf20b0a2e40256f23f206b16f67f19ce7bbc3e79",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/dessins-frieze-v7.png",
+      "rawSourceSha256": "d9c416e17a6dfef84fb5816c8d876b9e4718987757cbdbfe296b1179fb685f3f",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c636003yiFyFxUZPRzHi1",
+      "motifs": [
+        "crayons taillés",
+        "étude de profil",
+        "fusain et gomme",
+        "hachures et étude de perspective"
+      ],
+      "forbidden": "Crayons structurels, arabesques et rubans abstraits.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": {
+        "scale": 0.8587786259541985,
+        "sourceCuts": {
+          "x": [
+            0,
+            197,
+            826,
+            1024
+          ],
+          "y": [
+            0,
+            229,
+            1274,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            169,
+            854,
+            1024
+          ],
+          "y": [
+            0,
+            197,
+            1311,
+            1536
+          ]
+        }
+      },
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 779788
+    },
+    "src/card-lab/assets/generated-sources/photographie-frieze-v7-layout.png": {
+      "sourceSha256": "b2e1b747674a5f6fd2d2814ebb0e0cf6e871c5ce2358f947ba90a3162f498d8d",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/photographie-frieze-v7.png",
+      "rawSourceSha256": "0a29468f78ffb6013a0da3c6c58fa638c06f3295027bfb5519aacb3fc76cd483",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e91a919001EtCIi4w6gROP24",
+      "motifs": [
+        "appareil à soufflet gravé",
+        "pellicule perforée",
+        "diaphragme",
+        "plaque photographique"
+      ],
+      "forbidden": "Objectifs ou appareils constituant le cadre, ondes et rubans décoratifs communs.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": {
+        "scale": 0.9036144578313253,
+        "sourceCuts": {
+          "x": [
+            0,
+            175,
+            850,
+            1024
+          ],
+          "y": [
+            0,
+            248,
+            1287,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            158,
+            867,
+            1024
+          ],
+          "y": [
+            0,
+            224,
+            1311,
+            1536
+          ]
+        }
+      },
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 787205
+    },
+    "src/card-lab/assets/generated-sources/textiles-frieze-v7-layout.png": {
+      "sourceSha256": "8a6fa1f6e300c85b49fdb7d879a1da113ca293821072fe276c110378e5d99beb",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/textiles-frieze-v7.png",
+      "rawSourceSha256": "1abc1ed65143bd5f14492247d240daec312bf089e468ac22aabe9c4be7384ab0",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e91a923001v6ouOMccXRnWTx",
+      "motifs": [
+        "métier à tisser gravé",
+        "bobine de fil",
+        "aiguilles",
+        "échantillon chaîne/trame"
+      ],
+      "forbidden": "Cadre en tresses, glands, navettes ou objets rapportés.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": {
+        "scale": 0.8450704225352113,
+        "sourceCuts": {
+          "x": [
+            0,
+            213,
+            811,
+            1024
+          ],
+          "y": [
+            0,
+            188,
+            1348,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            180,
+            844,
+            1024
+          ],
+          "y": [
+            0,
+            159,
+            1377,
+            1536
+          ]
+        }
+      },
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 825747
+    },
+    "src/card-lab/assets/generated-sources/ceramique-frieze-v7.png": {
+      "sourceSha256": "b51488cdaf64f4530e556de9587c6da56a5ec0fc8fd561d6d2bb1a8efc242bd4",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/ceramique-frieze-v7.png",
+      "rawSourceSha256": "b51488cdaf64f4530e556de9587c6da56a5ec0fc8fd561d6d2bb1a8efc242bd4",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e91a92a001yPeBNKSiZyNi6O",
+      "motifs": [
+        "amphore en bas-relief",
+        "bol tourné",
+        "vase à col étroit",
+        "pot à couvercle"
+      ],
+      "forbidden": "Rails formés de vases, anses ou fragments, rubans et volutes végétales.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": null,
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 831473
+    },
+    "src/card-lab/assets/generated-sources/arts-metal-frieze-v7-layout.png": {
+      "sourceSha256": "83d5f95ed08da46a24d301cf178486ba3b866cc219ebdb209db1665792825edd",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/arts-metal-frieze-v7.png",
+      "rawSourceSha256": "95495e790ff894fece5822eb01f0f19d7460df78cd89e66b980c8c8c7176c0b1",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c636005HIux29n6MB5wUv",
+      "motifs": [
+        "enclume et marteau",
+        "coupe ciselée",
+        "tenaille et lopin",
+        "plat repoussé"
+      ],
+      "forbidden": "Chaînes, rivets ou outils constituant le cadre, rubans forgés communs.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": null,
+      "initialLayout": {
+        "scale": 0.75,
+        "sourceCuts": {
+          "x": [
+            0,
+            224,
+            798,
+            1024
+          ],
+          "y": [
+            0,
+            290,
+            1290,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            168,
+            854,
+            1024
+          ],
+          "y": [
+            0,
+            218,
+            1351,
+            1536
+          ]
+        }
+      },
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 809819
+    },
+    "src/card-lab/assets/generated-sources/verre-frieze-v7-layout.png": {
+      "sourceSha256": "914214815ac4d3c424fbf54c6e6efbbe521ddad09ac13a4e7a10554f8ab1c851",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/verre-frieze-v7.png",
+      "rawSourceSha256": "494d19678dedb07e943d5c5cffccd9095a922bc077b36db066bc5c5b05949767",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c636007B50CI2UtfgE2VT",
+      "motifs": [
+        "verre à pied",
+        "carafe à bouchon",
+        "coupe en cristal taillé",
+        "panneau de vitrail"
+      ],
+      "forbidden": "Prismes ou récipients structurels et volutes opalescentes communes.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": {
+        "scale": 0.8620689655172413,
+        "sourceCuts": {
+          "x": [
+            0,
+            201,
+            822,
+            1024
+          ],
+          "y": [
+            0,
+            210,
+            1275,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            173,
+            850,
+            1024
+          ],
+          "y": [
+            0,
+            181,
+            1311,
+            1536
+          ]
+        }
+      },
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 781381
+    },
+    "src/card-lab/assets/generated-sources/mobilier-frieze-v7-layout.png": {
+      "sourceSha256": "24548e5e5734f6c8dbfea13453942c539da98e0b44dbd7f5e95904b10c30dcb7",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/mobilier-frieze-v7.png",
+      "rawSourceSha256": "593835487c80ddf5abbe5331451969f8ac8f98b15650a0ea64387d8ea8e2c4fa",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c63a001pmsoWoqqOudsDP",
+      "motifs": [
+        "chaise en profil",
+        "armoire",
+        "table à pied central",
+        "panneau de marqueterie et assemblage"
+      ],
+      "forbidden": "Rails en pieds de meuble ou poignées et rubans de marqueterie communs.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": {
+        "scale": 0.8780487804878049,
+        "sourceCuts": {
+          "x": [
+            0,
+            205,
+            820,
+            1024
+          ],
+          "y": [
+            0,
+            221,
+            1314,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            180,
+            845,
+            1024
+          ],
+          "y": [
+            0,
+            194,
+            1341,
+            1536
+          ]
+        }
+      },
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 779444
+    },
+    "src/card-lab/assets/generated-sources/manuscrits-frieze-v7-layout.png": {
+      "sourceSha256": "1ee4baf6ad2e5566a364e59620b7dad1ec25020c2115022203b8dc0c14bb35f7",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/manuscrits-frieze-v7.png",
+      "rawSourceSha256": "f3535e38aedee81b5916ed9490e7429e89732a0aee841e054c9a0153dcbddf37",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c63a003UbtRVXW51yvBsB",
+      "motifs": [
+        "codex ouvert",
+        "plume et encrier",
+        "page enluminée",
+        "parchemin scellé"
+      ],
+      "forbidden": "Cadre-livre, texte lisible, fausse écriture et entrelacs communs.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": {
+        "scale": 0.9326424870466321,
+        "sourceCuts": {
+          "x": [
+            0,
+            193,
+            831,
+            1024
+          ],
+          "y": [
+            0,
+            170,
+            1362,
+            1536
+          ]
+        },
+        "targetCuts": {
+          "x": [
+            0,
+            180,
+            844,
+            1024
+          ],
+          "y": [
+            0,
+            159,
+            1374,
+            1536
+          ]
+        }
+      },
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 829314
+    },
+    "src/card-lab/assets/generated-sources/archeologie-frieze-v7.png": {
+      "sourceSha256": "8133aab6e2005b18dea2c2c761d4863366d6621190c175038a1318090c908130",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/archeologie-frieze-v7.png",
+      "rawSourceSha256": "8133aab6e2005b18dea2c2c761d4863366d6621190c175038a1318090c908130",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c692001ac9U1ytiiJK5Hr",
+      "motifs": [
+        "bol restauré",
+        "disque bi",
+        "fibule",
+        "tessons et coupe stratigraphique"
+      ],
+      "forbidden": "Glyphes inventés, animaux paléolithiques, outils structurels et rubans minéraux.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": null,
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 833281
+    },
+    "public/assets/collections/beaux-arts-fer.png": {
+      "sourceSha256": "03d59d73fb5051d7ead21817fdc8d236a2c52ae34d5da39fda4ca9196dd2d605",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 804280
+    },
+    "public/assets/collections/beaux-arts-cuivre.png": {
+      "sourceSha256": "150f37305d0bd48ed76cd5a07886ed1b7bb3e484df5af9f5c77005acbd117948",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 792583
+    },
+    "public/assets/collections/beaux-arts-argent.png": {
+      "sourceSha256": "023ea0ebba80d0eba3d410a2f7adc9355dd45bf5ac07db6e9a75266aa43267f9",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 768603
+    },
+    "public/assets/collections/beaux-arts-dore.png": {
+      "sourceSha256": "dc9c37078374483ceb732cb0e8438428fcbf773db3e512c90715f0203dc6f551",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 801677
+    },
+    "public/assets/collections/beaux-arts-lapis-lazuli.png": {
+      "sourceSha256": "9a7af67c386aa4dd5c0223fc42789ae4c3ee4863a5a8782963faaec03f41c88c",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 803098
+    },
+    "public/assets/collections/egypte-fer.png": {
+      "sourceSha256": "be84a97ba6acb54d923f17f9521f169b91c59feeb541dc2f031821cbba6d628b",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 857033
+    },
+    "public/assets/collections/egypte-cuivre.png": {
+      "sourceSha256": "e9d858aaee438caba9eff86aeee84e9b85823dabf541b696b24afe66e4ac7865",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 872686
+    },
+    "public/assets/collections/egypte-argent.png": {
+      "sourceSha256": "03856a0013a51a267f622c13ca244ba7da7db68af854c41cc45ef9204b5665da",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 790574
+    },
+    "public/assets/collections/egypte-dore.png": {
+      "sourceSha256": "2421410114a2372812b5fc6cb14c29afc0138709423987254d1add480dc5c453",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 806436
+    },
+    "public/assets/collections/egypte-lapis-lazuli.png": {
+      "sourceSha256": "9b33aa02299cd8a052e2a50f4f1f12f84c1450ba9c6b8a908369135368ee798c",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 886077
+    },
+    "public/assets/collections/decoratifs-fer.png": {
+      "sourceSha256": "e0dce7b41045ea6bcba85cac16e39e1660aaf43979176b26e630c061b04aad82",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 894815
+    },
+    "public/assets/collections/decoratifs-cuivre.png": {
+      "sourceSha256": "989ccf7dfdd8ba22635d19cb9f8b5929bc908f4e4c76ae61f3b23453e1282e98",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 892542
+    },
+    "public/assets/collections/decoratifs-argent.png": {
+      "sourceSha256": "464b2361f85e4ec083d0c8882cbca20021c261b98a0864ea116fd87fdd432570",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 890899
+    },
+    "public/assets/collections/decoratifs-dore.png": {
+      "sourceSha256": "f8ec1cba5fd02bd07e1fc985b6e4b3a5bd3378f728bc6ae2406cb4e434182602",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 892172
+    },
+    "public/assets/collections/decoratifs-lapis-lazuli.png": {
+      "sourceSha256": "1d13ae87cd5eee30c1cd68800d2634f21b501fa4e29e43bfbbd0a91c85438a8c",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 893975
+    },
+    "public/assets/collections/art-mysterieux-fer.png": {
+      "sourceSha256": "4193605952186dbf5735ec0b869e5b44461e27a3b783d6a66eebe326a2c0c687",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 783161
+    },
+    "public/assets/collections/art-mysterieux-cuivre.png": {
+      "sourceSha256": "cab9148153a1383821f189516835d376ba6be95e5a40a8d4208be19f49d5eb80",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 806133
+    },
+    "public/assets/collections/art-mysterieux-argent.png": {
+      "sourceSha256": "a7c1b4df957c63ee25d0f5eb756d62cc578dc5ae1cbc9da919f71f1d46c1ca78",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 800868
+    },
+    "public/assets/collections/art-mysterieux-dore.png": {
+      "sourceSha256": "368af6d67f1bdb33a429216c405d0e07c68c157e2abbe26aa02b6b8484e47961",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 760021
+    },
+    "public/assets/collections/art-mysterieux-lapis-lazuli.png": {
+      "sourceSha256": "cd8d4b39b98dd7add1cb3125637c01fa3c4bbdb22b8d5b4f0c500adac6be082c",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 792319
+    },
+    "public/assets/collections/art-moderne-fer.png": {
+      "sourceSha256": "45c6a7b393a2aadf291c6ca42dc73d0baea3d384ca98e2a54acbe62bc514485e",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 947537
+    },
+    "public/assets/collections/art-moderne-cuivre.png": {
+      "sourceSha256": "26ce64a1eb026455be37a68275ce25dd25dd9a7646e44e8c121a0abcaabf613a",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 824601
+    },
+    "public/assets/collections/art-moderne-argent.png": {
+      "sourceSha256": "d46b15c2e20211c6d728a64fee265511b0238bb4d2f6d405f2b431d1eebccd46",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 867447
+    },
+    "public/assets/collections/art-moderne-dore.png": {
+      "sourceSha256": "3d2bfb69e357289c4512c065a0d866c46013c3b369bdf90d7aa3d9308b74da2e",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 852267
+    },
+    "public/assets/collections/art-moderne-lapis-lazuli.png": {
+      "sourceSha256": "40958c5f97f1202b04d1c1403057f0f3128b42e0d94840f464c1ae65d650104d",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 850392
+    },
+    "public/assets/collections/prehistoire-fer.png": {
+      "sourceSha256": "d7c054c68aa416d4f5bbc6e47e5d13a1b93f3f8aac81a21c3aa63621892475ab",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 810226
+    },
+    "public/assets/collections/prehistoire-cuivre.png": {
+      "sourceSha256": "1c1ec08f9b53cdbd04caf5335ffb3fcd20ea7437e73301ffb443c0969532452c",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 817315
+    },
+    "public/assets/collections/prehistoire-argent.png": {
+      "sourceSha256": "ba7654e16d1846345ef1d048fb48a2a2e2470b976071c9d52bec06ac9f9c3778",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 828073
+    },
+    "public/assets/collections/prehistoire-dore.png": {
+      "sourceSha256": "30a11d874c4c4cfeddf89d7408f3bc1c48cf580ac145f778261ae36c16d5cf09",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 822128
+    },
+    "public/assets/collections/prehistoire-lapis-lazuli.png": {
+      "sourceSha256": "49a8d29915b79174074ef7bf65632951b029db8737aa7cf992cac9971fa81700",
+      "model": null,
+      "imageJob": null,
+      "reference": null,
+      "intent": "Source historique conservée ; fenêtre recalculée depuis sa transparence réelle.",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 821536
+    },
+    "src/card-lab/assets/generated-sources/japon-frieze-v7.png": {
+      "sourceSha256": "d469382f248b563b8ca16b3860c91c2268b9adede9740b2a9849df5a023c41dc",
+      "rawSourceFile": "src/card-lab/assets/generated-sources/japon-frieze-v7.png",
+      "rawSourceSha256": "d469382f248b563b8ca16b3860c91c2268b9adede9740b2a9849df5a023c41dc",
+      "model": "openai/gpt-image-2",
+      "imageJob": "image_19e94c69e001FY94oprfVkcW2T",
+      "motifs": [
+        "grue",
+        "éventail pliant",
+        "branche de cerisier",
+        "panneau seigaiha"
+      ],
+      "forbidden": "Volutes occidentales, rubans de vagues omniprésents, kanji et objets structurels.",
+      "generationReferences": [
+        {
+          "purpose": "Colors only; no frame motifs or frame image supplied",
+          "inputFile": "catalog/card-lab/frieze-frames/references/material-palette.png",
+          "inputSha256": "52c333b2c6d464d9e6bef7f0531a8430aaa853f4671dd3c540066c846a9846b9"
+        }
+      ],
+      "normalizedLayout": null,
+      "initialLayout": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "interiorPixels": 877012
+    }
+  },
+  "frames": {
+    "peinture-neutre-fer": {
+      "key": "peinture-neutre-fer",
+      "family": "peinture-neutre",
+      "finish": "fer",
+      "level": 0,
+      "file": "peinture-neutre-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.578125,
+        "top": 12.565104166666666,
+        "width": 64.84375,
+        "height": 75.13020833333334
+      },
+      "clearedRectangle": {
+        "left": 180,
+        "top": 193,
+        "right": 844,
+        "bottom": 1347
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/peinture-frieze-v7-layout.png",
+      "sourceSha256": "03e9b21f08876180ab29026f9457f5074c226be1d741a4e32a8c7956fb7306fc",
+      "outputSha256": "3a386c99382fd0a4d534b7fa2263526aaef0fecb77ff6c7764ed36a67ed98606",
+      "windowFile": "peinture-neutre-frieze-v7-window.webp",
+      "windowSha256": "edcf6cc3a43758a1a2943eea1ac5dd26dd3f7d3c73d70389046892af78989849",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c5e2002qQr3SY8V4SyGl1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "peinture-neutre-cuivre": {
+      "key": "peinture-neutre-cuivre",
+      "family": "peinture-neutre",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "peinture-neutre-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.578125,
+        "top": 12.565104166666666,
+        "width": 64.84375,
+        "height": 75.13020833333334
+      },
+      "clearedRectangle": {
+        "left": 180,
+        "top": 193,
+        "right": 844,
+        "bottom": 1347
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/peinture-frieze-v7-layout.png",
+      "sourceSha256": "03e9b21f08876180ab29026f9457f5074c226be1d741a4e32a8c7956fb7306fc",
+      "outputSha256": "e31a9665bd2d184f2abba153c06f9c92ad9b3099cb2de873c118b8f79faf3fcc",
+      "windowFile": "peinture-neutre-frieze-v7-window.webp",
+      "windowSha256": "edcf6cc3a43758a1a2943eea1ac5dd26dd3f7d3c73d70389046892af78989849",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c5e2002qQr3SY8V4SyGl1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "peinture-neutre-argent": {
+      "key": "peinture-neutre-argent",
+      "family": "peinture-neutre",
+      "finish": "argent",
+      "level": 2,
+      "file": "peinture-neutre-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.578125,
+        "top": 12.565104166666666,
+        "width": 64.84375,
+        "height": 75.13020833333334
+      },
+      "clearedRectangle": {
+        "left": 180,
+        "top": 193,
+        "right": 844,
+        "bottom": 1347
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/peinture-frieze-v7-layout.png",
+      "sourceSha256": "03e9b21f08876180ab29026f9457f5074c226be1d741a4e32a8c7956fb7306fc",
+      "outputSha256": "3e8433234412893df81eca7ca4a9efbc00b76beb56730a836293ba44a73c527a",
+      "windowFile": "peinture-neutre-frieze-v7-window.webp",
+      "windowSha256": "edcf6cc3a43758a1a2943eea1ac5dd26dd3f7d3c73d70389046892af78989849",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c5e2002qQr3SY8V4SyGl1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "peinture-neutre-dore": {
+      "key": "peinture-neutre-dore",
+      "family": "peinture-neutre",
+      "finish": "dore",
+      "level": 3,
+      "file": "peinture-neutre-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.578125,
+        "top": 12.565104166666666,
+        "width": 64.84375,
+        "height": 75.13020833333334
+      },
+      "clearedRectangle": {
+        "left": 180,
+        "top": 193,
+        "right": 844,
+        "bottom": 1347
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/peinture-frieze-v7-layout.png",
+      "sourceSha256": "03e9b21f08876180ab29026f9457f5074c226be1d741a4e32a8c7956fb7306fc",
+      "outputSha256": "32314b21e6e7c1c1d6494974961e2aff0f3f808ec5d711b0074ad3833d72adb6",
+      "windowFile": "peinture-neutre-frieze-v7-window.webp",
+      "windowSha256": "edcf6cc3a43758a1a2943eea1ac5dd26dd3f7d3c73d70389046892af78989849",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c5e2002qQr3SY8V4SyGl1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "peinture-neutre-lapis-lazuli": {
+      "key": "peinture-neutre-lapis-lazuli",
+      "family": "peinture-neutre",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "peinture-neutre-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.578125,
+        "top": 12.565104166666666,
+        "width": 64.84375,
+        "height": 75.13020833333334
+      },
+      "clearedRectangle": {
+        "left": 180,
+        "top": 193,
+        "right": 844,
+        "bottom": 1347
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/peinture-frieze-v7-layout.png",
+      "sourceSha256": "03e9b21f08876180ab29026f9457f5074c226be1d741a4e32a8c7956fb7306fc",
+      "outputSha256": "868682e6696f36b6de65690d244fa05cc4046193fbc475d3ec5ffb2dd6971cf5",
+      "windowFile": "peinture-neutre-frieze-v7-window.webp",
+      "windowSha256": "edcf6cc3a43758a1a2943eea1ac5dd26dd3f7d3c73d70389046892af78989849",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c5e2002qQr3SY8V4SyGl1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "sculpture-fer": {
+      "key": "sculpture-fer",
+      "family": "sculpture",
+      "finish": "fer",
+      "level": 0,
+      "file": "sculpture-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.11328125,
+        "top": 12.565104166666666,
+        "width": 67.7734375,
+        "height": 74.8046875
+      },
+      "clearedRectangle": {
+        "left": 165,
+        "top": 193,
+        "right": 859,
+        "bottom": 1342
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/sculpture-frieze-v7.png",
+      "sourceSha256": "234967f9f7e266f708ff65e108b95142e1d91b7563cfa4378a6346cde3224e07",
+      "outputSha256": "b9356fe3b0a609d51591d9e390dc54a9d4e1993d18450f71df7ea08e27dac57d",
+      "windowFile": "sculpture-frieze-v7-window.webp",
+      "windowSha256": "c9219425ac937fabcc690bd40a04b8cc0ea8784aab79a45cb0fd2d7a473c3843",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636001Yrf4ndBnvOyqDu",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "sculpture-cuivre": {
+      "key": "sculpture-cuivre",
+      "family": "sculpture",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "sculpture-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.11328125,
+        "top": 12.565104166666666,
+        "width": 67.7734375,
+        "height": 74.8046875
+      },
+      "clearedRectangle": {
+        "left": 165,
+        "top": 193,
+        "right": 859,
+        "bottom": 1342
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/sculpture-frieze-v7.png",
+      "sourceSha256": "234967f9f7e266f708ff65e108b95142e1d91b7563cfa4378a6346cde3224e07",
+      "outputSha256": "561dabbd4ddda69cdc7276e144d5fd8791970fabbd88e6b66f67b105affeb178",
+      "windowFile": "sculpture-frieze-v7-window.webp",
+      "windowSha256": "c9219425ac937fabcc690bd40a04b8cc0ea8784aab79a45cb0fd2d7a473c3843",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636001Yrf4ndBnvOyqDu",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "sculpture-argent": {
+      "key": "sculpture-argent",
+      "family": "sculpture",
+      "finish": "argent",
+      "level": 2,
+      "file": "sculpture-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.11328125,
+        "top": 12.565104166666666,
+        "width": 67.7734375,
+        "height": 74.8046875
+      },
+      "clearedRectangle": {
+        "left": 165,
+        "top": 193,
+        "right": 859,
+        "bottom": 1342
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/sculpture-frieze-v7.png",
+      "sourceSha256": "234967f9f7e266f708ff65e108b95142e1d91b7563cfa4378a6346cde3224e07",
+      "outputSha256": "914b7f83da71884baf57c2fd607a38ca8ec5453de0727742e3e867153a265808",
+      "windowFile": "sculpture-frieze-v7-window.webp",
+      "windowSha256": "c9219425ac937fabcc690bd40a04b8cc0ea8784aab79a45cb0fd2d7a473c3843",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636001Yrf4ndBnvOyqDu",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "sculpture-dore": {
+      "key": "sculpture-dore",
+      "family": "sculpture",
+      "finish": "dore",
+      "level": 3,
+      "file": "sculpture-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.11328125,
+        "top": 12.565104166666666,
+        "width": 67.7734375,
+        "height": 74.8046875
+      },
+      "clearedRectangle": {
+        "left": 165,
+        "top": 193,
+        "right": 859,
+        "bottom": 1342
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/sculpture-frieze-v7.png",
+      "sourceSha256": "234967f9f7e266f708ff65e108b95142e1d91b7563cfa4378a6346cde3224e07",
+      "outputSha256": "6936ed8fb573e7a8a414f4eb54679af670ec232d0592126cf28eb78cba2591f0",
+      "windowFile": "sculpture-frieze-v7-window.webp",
+      "windowSha256": "c9219425ac937fabcc690bd40a04b8cc0ea8784aab79a45cb0fd2d7a473c3843",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636001Yrf4ndBnvOyqDu",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "sculpture-lapis-lazuli": {
+      "key": "sculpture-lapis-lazuli",
+      "family": "sculpture",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "sculpture-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.11328125,
+        "top": 12.565104166666666,
+        "width": 67.7734375,
+        "height": 74.8046875
+      },
+      "clearedRectangle": {
+        "left": 165,
+        "top": 193,
+        "right": 859,
+        "bottom": 1342
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/sculpture-frieze-v7.png",
+      "sourceSha256": "234967f9f7e266f708ff65e108b95142e1d91b7563cfa4378a6346cde3224e07",
+      "outputSha256": "c8295efafe5c75eca753c46a3602214cae125ed90667445f347b6c1b72907305",
+      "windowFile": "sculpture-frieze-v7-window.webp",
+      "windowSha256": "c9219425ac937fabcc690bd40a04b8cc0ea8784aab79a45cb0fd2d7a473c3843",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636001Yrf4ndBnvOyqDu",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "estampes-fer": {
+      "key": "estampes-fer",
+      "family": "estampes",
+      "finish": "fer",
+      "level": 0,
+      "file": "estampes-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 14.713541666666666,
+        "width": 66.796875,
+        "height": 72.4609375
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 226,
+        "right": 854,
+        "bottom": 1339
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/estampes-frieze-v7-layout.png",
+      "sourceSha256": "434f28a0ed6584b543efd29fd6f97208a77fd0a98d8b2fdc421f796df0d2b92b",
+      "outputSha256": "f610309c05036a52a882d77bf353a04c565c173a76ba4a368b4e5294dd27ba41",
+      "windowFile": "estampes-frieze-v7-window.webp",
+      "windowSha256": "ac8c9af64afc3f2d5a8fffb532e64c355cfd865d1ed2f896f5d8666175bd8ecc",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c634001DKGf3vd7045F9i",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "estampes-cuivre": {
+      "key": "estampes-cuivre",
+      "family": "estampes",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "estampes-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 14.713541666666666,
+        "width": 66.796875,
+        "height": 72.4609375
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 226,
+        "right": 854,
+        "bottom": 1339
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/estampes-frieze-v7-layout.png",
+      "sourceSha256": "434f28a0ed6584b543efd29fd6f97208a77fd0a98d8b2fdc421f796df0d2b92b",
+      "outputSha256": "d4b1472d0a824b996d0329117d1d06658ac0cc8707d940664596d8d7da557573",
+      "windowFile": "estampes-frieze-v7-window.webp",
+      "windowSha256": "ac8c9af64afc3f2d5a8fffb532e64c355cfd865d1ed2f896f5d8666175bd8ecc",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c634001DKGf3vd7045F9i",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "estampes-argent": {
+      "key": "estampes-argent",
+      "family": "estampes",
+      "finish": "argent",
+      "level": 2,
+      "file": "estampes-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 14.713541666666666,
+        "width": 66.796875,
+        "height": 72.4609375
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 226,
+        "right": 854,
+        "bottom": 1339
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/estampes-frieze-v7-layout.png",
+      "sourceSha256": "434f28a0ed6584b543efd29fd6f97208a77fd0a98d8b2fdc421f796df0d2b92b",
+      "outputSha256": "d0bb4905ba687c4434e01c5862b5b9df8689b02f3c7cc761ba538e49a0e7407c",
+      "windowFile": "estampes-frieze-v7-window.webp",
+      "windowSha256": "ac8c9af64afc3f2d5a8fffb532e64c355cfd865d1ed2f896f5d8666175bd8ecc",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c634001DKGf3vd7045F9i",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "estampes-dore": {
+      "key": "estampes-dore",
+      "family": "estampes",
+      "finish": "dore",
+      "level": 3,
+      "file": "estampes-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 14.713541666666666,
+        "width": 66.796875,
+        "height": 72.4609375
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 226,
+        "right": 854,
+        "bottom": 1339
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/estampes-frieze-v7-layout.png",
+      "sourceSha256": "434f28a0ed6584b543efd29fd6f97208a77fd0a98d8b2fdc421f796df0d2b92b",
+      "outputSha256": "398853290ecfa256ab52b63bb4aa766c151fda5862ef1047da36b5f107726ac3",
+      "windowFile": "estampes-frieze-v7-window.webp",
+      "windowSha256": "ac8c9af64afc3f2d5a8fffb532e64c355cfd865d1ed2f896f5d8666175bd8ecc",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c634001DKGf3vd7045F9i",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "estampes-lapis-lazuli": {
+      "key": "estampes-lapis-lazuli",
+      "family": "estampes",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "estampes-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 14.713541666666666,
+        "width": 66.796875,
+        "height": 72.4609375
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 226,
+        "right": 854,
+        "bottom": 1339
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/estampes-frieze-v7-layout.png",
+      "sourceSha256": "434f28a0ed6584b543efd29fd6f97208a77fd0a98d8b2fdc421f796df0d2b92b",
+      "outputSha256": "87ba5688691829ecbaf306d8c5c2026382cc8e7f26417827b3436134b4a228a4",
+      "windowFile": "estampes-frieze-v7-window.webp",
+      "windowSha256": "ac8c9af64afc3f2d5a8fffb532e64c355cfd865d1ed2f896f5d8666175bd8ecc",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c634001DKGf3vd7045F9i",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "dessins-fer": {
+      "key": "dessins-fer",
+      "family": "dessins",
+      "finish": "fer",
+      "level": 0,
+      "file": "dessins-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 12.955729166666666,
+        "width": 66.796875,
+        "height": 72.39583333333334
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 199,
+        "right": 854,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/dessins-frieze-v7-layout.png",
+      "sourceSha256": "1587b572fbb352d16ab6aa7fcf20b0a2e40256f23f206b16f67f19ce7bbc3e79",
+      "outputSha256": "c12d44bc453edb35d5dcb5fb89219776f0d58eb294be8aaf168fe0503aacb3f1",
+      "windowFile": "dessins-frieze-v7-window.webp",
+      "windowSha256": "2a0324f13ff4c67263e02dc988a0a8d74119ab347d75fd3ae4384b183da4468e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636003yiFyFxUZPRzHi1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "dessins-cuivre": {
+      "key": "dessins-cuivre",
+      "family": "dessins",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "dessins-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 12.955729166666666,
+        "width": 66.796875,
+        "height": 72.39583333333334
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 199,
+        "right": 854,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/dessins-frieze-v7-layout.png",
+      "sourceSha256": "1587b572fbb352d16ab6aa7fcf20b0a2e40256f23f206b16f67f19ce7bbc3e79",
+      "outputSha256": "2d053e21f5ceb40c5c1532ba28ae18ea938f02f63811e05fad0edb820c93b36e",
+      "windowFile": "dessins-frieze-v7-window.webp",
+      "windowSha256": "2a0324f13ff4c67263e02dc988a0a8d74119ab347d75fd3ae4384b183da4468e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636003yiFyFxUZPRzHi1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "dessins-argent": {
+      "key": "dessins-argent",
+      "family": "dessins",
+      "finish": "argent",
+      "level": 2,
+      "file": "dessins-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 12.955729166666666,
+        "width": 66.796875,
+        "height": 72.39583333333334
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 199,
+        "right": 854,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/dessins-frieze-v7-layout.png",
+      "sourceSha256": "1587b572fbb352d16ab6aa7fcf20b0a2e40256f23f206b16f67f19ce7bbc3e79",
+      "outputSha256": "0811a1dfcd620968c60a4d0c0fe809cc2f68512bc365e7f256de13d853e5df8c",
+      "windowFile": "dessins-frieze-v7-window.webp",
+      "windowSha256": "2a0324f13ff4c67263e02dc988a0a8d74119ab347d75fd3ae4384b183da4468e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636003yiFyFxUZPRzHi1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "dessins-dore": {
+      "key": "dessins-dore",
+      "family": "dessins",
+      "finish": "dore",
+      "level": 3,
+      "file": "dessins-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 12.955729166666666,
+        "width": 66.796875,
+        "height": 72.39583333333334
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 199,
+        "right": 854,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/dessins-frieze-v7-layout.png",
+      "sourceSha256": "1587b572fbb352d16ab6aa7fcf20b0a2e40256f23f206b16f67f19ce7bbc3e79",
+      "outputSha256": "2afca6ed0bf3f3ac6e0a8215c966330e516a7fa234d8bceb30cfd284a19ed912",
+      "windowFile": "dessins-frieze-v7-window.webp",
+      "windowSha256": "2a0324f13ff4c67263e02dc988a0a8d74119ab347d75fd3ae4384b183da4468e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636003yiFyFxUZPRzHi1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "dessins-lapis-lazuli": {
+      "key": "dessins-lapis-lazuli",
+      "family": "dessins",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "dessins-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.6015625,
+        "top": 12.955729166666666,
+        "width": 66.796875,
+        "height": 72.39583333333334
+      },
+      "clearedRectangle": {
+        "left": 170,
+        "top": 199,
+        "right": 854,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/dessins-frieze-v7-layout.png",
+      "sourceSha256": "1587b572fbb352d16ab6aa7fcf20b0a2e40256f23f206b16f67f19ce7bbc3e79",
+      "outputSha256": "b92c015ecffddd947eae31859f8f021d552b3920c6c8dfc9e39fd52776611889",
+      "windowFile": "dessins-frieze-v7-window.webp",
+      "windowSha256": "2a0324f13ff4c67263e02dc988a0a8d74119ab347d75fd3ae4384b183da4468e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636003yiFyFxUZPRzHi1",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "photographie-fer": {
+      "key": "photographie-fer",
+      "family": "photographie",
+      "finish": "fer",
+      "level": 0,
+      "file": "photographie-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 14.6484375,
+        "width": 69.04296875,
+        "height": 70.703125
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 225,
+        "right": 866,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/photographie-frieze-v7-layout.png",
+      "sourceSha256": "b2e1b747674a5f6fd2d2814ebb0e0cf6e871c5ce2358f947ba90a3162f498d8d",
+      "outputSha256": "3349f356d171dd5f78acc50388bdb42a5a19348459ef27a2b56d78cff757b706",
+      "windowFile": "photographie-frieze-v7-window.webp",
+      "windowSha256": "255499c415f334043a24319b4492381cb34fcc60d4085b29a015a869236cc15d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a919001EtCIi4w6gROP24",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "photographie-cuivre": {
+      "key": "photographie-cuivre",
+      "family": "photographie",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "photographie-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 14.6484375,
+        "width": 69.04296875,
+        "height": 70.703125
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 225,
+        "right": 866,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/photographie-frieze-v7-layout.png",
+      "sourceSha256": "b2e1b747674a5f6fd2d2814ebb0e0cf6e871c5ce2358f947ba90a3162f498d8d",
+      "outputSha256": "89aa1806f02f308d804a3b6041cba69764a92a2442e74c59934cc2936a3755df",
+      "windowFile": "photographie-frieze-v7-window.webp",
+      "windowSha256": "255499c415f334043a24319b4492381cb34fcc60d4085b29a015a869236cc15d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a919001EtCIi4w6gROP24",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "photographie-argent": {
+      "key": "photographie-argent",
+      "family": "photographie",
+      "finish": "argent",
+      "level": 2,
+      "file": "photographie-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 14.6484375,
+        "width": 69.04296875,
+        "height": 70.703125
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 225,
+        "right": 866,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/photographie-frieze-v7-layout.png",
+      "sourceSha256": "b2e1b747674a5f6fd2d2814ebb0e0cf6e871c5ce2358f947ba90a3162f498d8d",
+      "outputSha256": "31b7bed378bb5637f0858a691363fd2548b6593916ff46e236826ed3db8bcd2a",
+      "windowFile": "photographie-frieze-v7-window.webp",
+      "windowSha256": "255499c415f334043a24319b4492381cb34fcc60d4085b29a015a869236cc15d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a919001EtCIi4w6gROP24",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "photographie-dore": {
+      "key": "photographie-dore",
+      "family": "photographie",
+      "finish": "dore",
+      "level": 3,
+      "file": "photographie-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 14.6484375,
+        "width": 69.04296875,
+        "height": 70.703125
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 225,
+        "right": 866,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/photographie-frieze-v7-layout.png",
+      "sourceSha256": "b2e1b747674a5f6fd2d2814ebb0e0cf6e871c5ce2358f947ba90a3162f498d8d",
+      "outputSha256": "680d2411ad49c568e4b34a99b720795e35ba8327328b16768ddbe0eb9a7197fd",
+      "windowFile": "photographie-frieze-v7-window.webp",
+      "windowSha256": "255499c415f334043a24319b4492381cb34fcc60d4085b29a015a869236cc15d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a919001EtCIi4w6gROP24",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "photographie-lapis-lazuli": {
+      "key": "photographie-lapis-lazuli",
+      "family": "photographie",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "photographie-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 14.6484375,
+        "width": 69.04296875,
+        "height": 70.703125
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 225,
+        "right": 866,
+        "bottom": 1311
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/photographie-frieze-v7-layout.png",
+      "sourceSha256": "b2e1b747674a5f6fd2d2814ebb0e0cf6e871c5ce2358f947ba90a3162f498d8d",
+      "outputSha256": "f741a83b7818f146958fef2cb7b362e3791d1af4003ddaff2d478cad382ec72c",
+      "windowFile": "photographie-frieze-v7-window.webp",
+      "windowSha256": "255499c415f334043a24319b4492381cb34fcc60d4085b29a015a869236cc15d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a919001EtCIi4w6gROP24",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "textiles-fer": {
+      "key": "textiles-fer",
+      "family": "textiles",
+      "finish": "fer",
+      "level": 0,
+      "file": "textiles-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 10.481770833333332,
+        "width": 64.74609375,
+        "height": 79.16666666666666
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 161,
+        "right": 844,
+        "bottom": 1377
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/textiles-frieze-v7-layout.png",
+      "sourceSha256": "8a6fa1f6e300c85b49fdb7d879a1da113ca293821072fe276c110378e5d99beb",
+      "outputSha256": "36ead99762807645da67fd3dc2084aee0f718979f489c2f0c019728007155b29",
+      "windowFile": "textiles-frieze-v7-window.webp",
+      "windowSha256": "bef04d1f78430a9dfbd1781dc12aac4cdd97864c2c132588e9b1342033feb26e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a923001v6ouOMccXRnWTx",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "textiles-cuivre": {
+      "key": "textiles-cuivre",
+      "family": "textiles",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "textiles-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 10.481770833333332,
+        "width": 64.74609375,
+        "height": 79.16666666666666
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 161,
+        "right": 844,
+        "bottom": 1377
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/textiles-frieze-v7-layout.png",
+      "sourceSha256": "8a6fa1f6e300c85b49fdb7d879a1da113ca293821072fe276c110378e5d99beb",
+      "outputSha256": "5c25f3aa95c580ba4cf42a2696b1aaac3c309d06f3e3f223b6500acac9caef16",
+      "windowFile": "textiles-frieze-v7-window.webp",
+      "windowSha256": "bef04d1f78430a9dfbd1781dc12aac4cdd97864c2c132588e9b1342033feb26e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a923001v6ouOMccXRnWTx",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "textiles-argent": {
+      "key": "textiles-argent",
+      "family": "textiles",
+      "finish": "argent",
+      "level": 2,
+      "file": "textiles-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 10.481770833333332,
+        "width": 64.74609375,
+        "height": 79.16666666666666
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 161,
+        "right": 844,
+        "bottom": 1377
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/textiles-frieze-v7-layout.png",
+      "sourceSha256": "8a6fa1f6e300c85b49fdb7d879a1da113ca293821072fe276c110378e5d99beb",
+      "outputSha256": "d24a0467d42df14b6edc3c7616ca77dba54cb0a57b5a31bebc30bc1c6ebc2312",
+      "windowFile": "textiles-frieze-v7-window.webp",
+      "windowSha256": "bef04d1f78430a9dfbd1781dc12aac4cdd97864c2c132588e9b1342033feb26e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a923001v6ouOMccXRnWTx",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "textiles-dore": {
+      "key": "textiles-dore",
+      "family": "textiles",
+      "finish": "dore",
+      "level": 3,
+      "file": "textiles-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 10.481770833333332,
+        "width": 64.74609375,
+        "height": 79.16666666666666
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 161,
+        "right": 844,
+        "bottom": 1377
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/textiles-frieze-v7-layout.png",
+      "sourceSha256": "8a6fa1f6e300c85b49fdb7d879a1da113ca293821072fe276c110378e5d99beb",
+      "outputSha256": "a70bb71ef51ba967a5bb2e973b72891e91a3be8ef3a2ce8a26f1aa8d36e08b7e",
+      "windowFile": "textiles-frieze-v7-window.webp",
+      "windowSha256": "bef04d1f78430a9dfbd1781dc12aac4cdd97864c2c132588e9b1342033feb26e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a923001v6ouOMccXRnWTx",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "textiles-lapis-lazuli": {
+      "key": "textiles-lapis-lazuli",
+      "family": "textiles",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "textiles-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 10.481770833333332,
+        "width": 64.74609375,
+        "height": 79.16666666666666
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 161,
+        "right": 844,
+        "bottom": 1377
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/textiles-frieze-v7-layout.png",
+      "sourceSha256": "8a6fa1f6e300c85b49fdb7d879a1da113ca293821072fe276c110378e5d99beb",
+      "outputSha256": "ec57c41a5f3b68f41178a5135c85a06c34a7bf1946009cc66a92f6060a501260",
+      "windowFile": "textiles-frieze-v7-window.webp",
+      "windowSha256": "bef04d1f78430a9dfbd1781dc12aac4cdd97864c2c132588e9b1342033feb26e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a923001v6ouOMccXRnWTx",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "ceramique-fer": {
+      "key": "ceramique-fer",
+      "family": "ceramique",
+      "finish": "fer",
+      "level": 0,
+      "file": "ceramique-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.015625,
+        "top": 12.109375,
+        "width": 67.7734375,
+        "height": 76.10677083333334
+      },
+      "clearedRectangle": {
+        "left": 164,
+        "top": 186,
+        "right": 858,
+        "bottom": 1355
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/ceramique-frieze-v7.png",
+      "sourceSha256": "b51488cdaf64f4530e556de9587c6da56a5ec0fc8fd561d6d2bb1a8efc242bd4",
+      "outputSha256": "7f7915570d6ed176c1abf6c8087968afce4cc7d4bb5559f0ab426a457912bd5e",
+      "windowFile": "ceramique-frieze-v7-window.webp",
+      "windowSha256": "61473481b151dccd872927bf372a5e0e2c7f38090957b5791149c0ef65809c59",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a92a001yPeBNKSiZyNi6O",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "ceramique-cuivre": {
+      "key": "ceramique-cuivre",
+      "family": "ceramique",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "ceramique-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.015625,
+        "top": 12.109375,
+        "width": 67.7734375,
+        "height": 76.10677083333334
+      },
+      "clearedRectangle": {
+        "left": 164,
+        "top": 186,
+        "right": 858,
+        "bottom": 1355
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/ceramique-frieze-v7.png",
+      "sourceSha256": "b51488cdaf64f4530e556de9587c6da56a5ec0fc8fd561d6d2bb1a8efc242bd4",
+      "outputSha256": "b8bcf11307a71500d758154586e9bfc7cb0a61afc2621ae953cf7c6b0854cf53",
+      "windowFile": "ceramique-frieze-v7-window.webp",
+      "windowSha256": "61473481b151dccd872927bf372a5e0e2c7f38090957b5791149c0ef65809c59",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a92a001yPeBNKSiZyNi6O",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "ceramique-argent": {
+      "key": "ceramique-argent",
+      "family": "ceramique",
+      "finish": "argent",
+      "level": 2,
+      "file": "ceramique-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.015625,
+        "top": 12.109375,
+        "width": 67.7734375,
+        "height": 76.10677083333334
+      },
+      "clearedRectangle": {
+        "left": 164,
+        "top": 186,
+        "right": 858,
+        "bottom": 1355
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/ceramique-frieze-v7.png",
+      "sourceSha256": "b51488cdaf64f4530e556de9587c6da56a5ec0fc8fd561d6d2bb1a8efc242bd4",
+      "outputSha256": "2868c2ebc8bcb49a282d04ddda0b905a4d3e0fae07ab499e08508f7ba9450879",
+      "windowFile": "ceramique-frieze-v7-window.webp",
+      "windowSha256": "61473481b151dccd872927bf372a5e0e2c7f38090957b5791149c0ef65809c59",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a92a001yPeBNKSiZyNi6O",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "ceramique-dore": {
+      "key": "ceramique-dore",
+      "family": "ceramique",
+      "finish": "dore",
+      "level": 3,
+      "file": "ceramique-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.015625,
+        "top": 12.109375,
+        "width": 67.7734375,
+        "height": 76.10677083333334
+      },
+      "clearedRectangle": {
+        "left": 164,
+        "top": 186,
+        "right": 858,
+        "bottom": 1355
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/ceramique-frieze-v7.png",
+      "sourceSha256": "b51488cdaf64f4530e556de9587c6da56a5ec0fc8fd561d6d2bb1a8efc242bd4",
+      "outputSha256": "44d5430def3298c4941c1acb06b7bb5b4fefe8e2b87c97e314d30e991ed4e81b",
+      "windowFile": "ceramique-frieze-v7-window.webp",
+      "windowSha256": "61473481b151dccd872927bf372a5e0e2c7f38090957b5791149c0ef65809c59",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a92a001yPeBNKSiZyNi6O",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "ceramique-lapis-lazuli": {
+      "key": "ceramique-lapis-lazuli",
+      "family": "ceramique",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "ceramique-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.015625,
+        "top": 12.109375,
+        "width": 67.7734375,
+        "height": 76.10677083333334
+      },
+      "clearedRectangle": {
+        "left": 164,
+        "top": 186,
+        "right": 858,
+        "bottom": 1355
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/ceramique-frieze-v7.png",
+      "sourceSha256": "b51488cdaf64f4530e556de9587c6da56a5ec0fc8fd561d6d2bb1a8efc242bd4",
+      "outputSha256": "ac345e13e96b40123c484684804ce475b340a32dc383bf2b4285f1fd2b33c74d",
+      "windowFile": "ceramique-frieze-v7-window.webp",
+      "windowSha256": "61473481b151dccd872927bf372a5e0e2c7f38090957b5791149c0ef65809c59",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e91a92a001yPeBNKSiZyNi6O",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "arts-metal-fer": {
+      "key": "arts-metal-fer",
+      "family": "arts-metal",
+      "finish": "fer",
+      "level": 0,
+      "file": "arts-metal-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.69921875,
+        "top": 12.630208333333334,
+        "width": 66.6015625,
+        "height": 75.32552083333334
+      },
+      "clearedRectangle": {
+        "left": 171,
+        "top": 194,
+        "right": 853,
+        "bottom": 1351
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/arts-metal-frieze-v7-layout.png",
+      "sourceSha256": "83d5f95ed08da46a24d301cf178486ba3b866cc219ebdb209db1665792825edd",
+      "outputSha256": "458d2a79f468441fa698a0a9eb5c77217884f8fd1e1ce0cc951c7e3bb0ccdc6f",
+      "windowFile": "arts-metal-frieze-v7-window.webp",
+      "windowSha256": "67d54339035bdbff7ac5820c26facc42cabbbea91f0adce4626363329ccc62f7",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636005HIux29n6MB5wUv",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "arts-metal-cuivre": {
+      "key": "arts-metal-cuivre",
+      "family": "arts-metal",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "arts-metal-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.69921875,
+        "top": 12.630208333333334,
+        "width": 66.6015625,
+        "height": 75.32552083333334
+      },
+      "clearedRectangle": {
+        "left": 171,
+        "top": 194,
+        "right": 853,
+        "bottom": 1351
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/arts-metal-frieze-v7-layout.png",
+      "sourceSha256": "83d5f95ed08da46a24d301cf178486ba3b866cc219ebdb209db1665792825edd",
+      "outputSha256": "14cdc1f46bae92ecab21e6c79f4b5a56251ccdc39627e8a35cc022f82fc7770b",
+      "windowFile": "arts-metal-frieze-v7-window.webp",
+      "windowSha256": "67d54339035bdbff7ac5820c26facc42cabbbea91f0adce4626363329ccc62f7",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636005HIux29n6MB5wUv",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "arts-metal-argent": {
+      "key": "arts-metal-argent",
+      "family": "arts-metal",
+      "finish": "argent",
+      "level": 2,
+      "file": "arts-metal-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.69921875,
+        "top": 12.630208333333334,
+        "width": 66.6015625,
+        "height": 75.32552083333334
+      },
+      "clearedRectangle": {
+        "left": 171,
+        "top": 194,
+        "right": 853,
+        "bottom": 1351
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/arts-metal-frieze-v7-layout.png",
+      "sourceSha256": "83d5f95ed08da46a24d301cf178486ba3b866cc219ebdb209db1665792825edd",
+      "outputSha256": "ae1220c7b08343163f8fdc9946ebaabcb7819ef04e95eba0af42ee81c46642fb",
+      "windowFile": "arts-metal-frieze-v7-window.webp",
+      "windowSha256": "67d54339035bdbff7ac5820c26facc42cabbbea91f0adce4626363329ccc62f7",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636005HIux29n6MB5wUv",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "arts-metal-dore": {
+      "key": "arts-metal-dore",
+      "family": "arts-metal",
+      "finish": "dore",
+      "level": 3,
+      "file": "arts-metal-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.69921875,
+        "top": 12.630208333333334,
+        "width": 66.6015625,
+        "height": 75.32552083333334
+      },
+      "clearedRectangle": {
+        "left": 171,
+        "top": 194,
+        "right": 853,
+        "bottom": 1351
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/arts-metal-frieze-v7-layout.png",
+      "sourceSha256": "83d5f95ed08da46a24d301cf178486ba3b866cc219ebdb209db1665792825edd",
+      "outputSha256": "0c4282c4260caca7c8883cf58860059782823116b2aa907d08248697f3652305",
+      "windowFile": "arts-metal-frieze-v7-window.webp",
+      "windowSha256": "67d54339035bdbff7ac5820c26facc42cabbbea91f0adce4626363329ccc62f7",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636005HIux29n6MB5wUv",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "arts-metal-lapis-lazuli": {
+      "key": "arts-metal-lapis-lazuli",
+      "family": "arts-metal",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "arts-metal-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.69921875,
+        "top": 12.630208333333334,
+        "width": 66.6015625,
+        "height": 75.32552083333334
+      },
+      "clearedRectangle": {
+        "left": 171,
+        "top": 194,
+        "right": 853,
+        "bottom": 1351
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/arts-metal-frieze-v7-layout.png",
+      "sourceSha256": "83d5f95ed08da46a24d301cf178486ba3b866cc219ebdb209db1665792825edd",
+      "outputSha256": "13f3d61b22a6bb75880b7d9d6c3859d6833ba134356e72c71b568e4f523bc0f7",
+      "windowFile": "arts-metal-frieze-v7-window.webp",
+      "windowSha256": "67d54339035bdbff7ac5820c26facc42cabbbea91f0adce4626363329ccc62f7",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636005HIux29n6MB5wUv",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "verre-fer": {
+      "key": "verre-fer",
+      "family": "verre",
+      "finish": "fer",
+      "level": 0,
+      "file": "verre-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.9921875,
+        "top": 11.848958333333332,
+        "width": 66.015625,
+        "height": 73.4375
+      },
+      "clearedRectangle": {
+        "left": 174,
+        "top": 182,
+        "right": 850,
+        "bottom": 1310
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/verre-frieze-v7-layout.png",
+      "sourceSha256": "914214815ac4d3c424fbf54c6e6efbbe521ddad09ac13a4e7a10554f8ab1c851",
+      "outputSha256": "38de42df139cbdd040dcefe72e15922581a349de3ec34482062ee229f777008b",
+      "windowFile": "verre-frieze-v7-window.webp",
+      "windowSha256": "a6efe59608a02599a9d1efbd22b159f3ff7db97691831ec2ba43705e0272d834",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636007B50CI2UtfgE2VT",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "verre-cuivre": {
+      "key": "verre-cuivre",
+      "family": "verre",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "verre-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.9921875,
+        "top": 11.848958333333332,
+        "width": 66.015625,
+        "height": 73.4375
+      },
+      "clearedRectangle": {
+        "left": 174,
+        "top": 182,
+        "right": 850,
+        "bottom": 1310
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/verre-frieze-v7-layout.png",
+      "sourceSha256": "914214815ac4d3c424fbf54c6e6efbbe521ddad09ac13a4e7a10554f8ab1c851",
+      "outputSha256": "62c33fba7a8d6e0ca67843985905dfccf7b14ad5f6532cefd83c7fbbc3c53303",
+      "windowFile": "verre-frieze-v7-window.webp",
+      "windowSha256": "a6efe59608a02599a9d1efbd22b159f3ff7db97691831ec2ba43705e0272d834",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636007B50CI2UtfgE2VT",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "verre-argent": {
+      "key": "verre-argent",
+      "family": "verre",
+      "finish": "argent",
+      "level": 2,
+      "file": "verre-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.9921875,
+        "top": 11.848958333333332,
+        "width": 66.015625,
+        "height": 73.4375
+      },
+      "clearedRectangle": {
+        "left": 174,
+        "top": 182,
+        "right": 850,
+        "bottom": 1310
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/verre-frieze-v7-layout.png",
+      "sourceSha256": "914214815ac4d3c424fbf54c6e6efbbe521ddad09ac13a4e7a10554f8ab1c851",
+      "outputSha256": "888e25d973627ffde4b077ec74e6248eda50ba55d5e716d43c6cd92e79d9cd56",
+      "windowFile": "verre-frieze-v7-window.webp",
+      "windowSha256": "a6efe59608a02599a9d1efbd22b159f3ff7db97691831ec2ba43705e0272d834",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636007B50CI2UtfgE2VT",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "verre-dore": {
+      "key": "verre-dore",
+      "family": "verre",
+      "finish": "dore",
+      "level": 3,
+      "file": "verre-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.9921875,
+        "top": 11.848958333333332,
+        "width": 66.015625,
+        "height": 73.4375
+      },
+      "clearedRectangle": {
+        "left": 174,
+        "top": 182,
+        "right": 850,
+        "bottom": 1310
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/verre-frieze-v7-layout.png",
+      "sourceSha256": "914214815ac4d3c424fbf54c6e6efbbe521ddad09ac13a4e7a10554f8ab1c851",
+      "outputSha256": "35dc800c89e59dd587b90fde0c4164242ec73c75db819f4b782421c75db7841d",
+      "windowFile": "verre-frieze-v7-window.webp",
+      "windowSha256": "a6efe59608a02599a9d1efbd22b159f3ff7db97691831ec2ba43705e0272d834",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636007B50CI2UtfgE2VT",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "verre-lapis-lazuli": {
+      "key": "verre-lapis-lazuli",
+      "family": "verre",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "verre-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.9921875,
+        "top": 11.848958333333332,
+        "width": 66.015625,
+        "height": 73.4375
+      },
+      "clearedRectangle": {
+        "left": 174,
+        "top": 182,
+        "right": 850,
+        "bottom": 1310
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/verre-frieze-v7-layout.png",
+      "sourceSha256": "914214815ac4d3c424fbf54c6e6efbbe521ddad09ac13a4e7a10554f8ab1c851",
+      "outputSha256": "67ed2b014b1af1c7aa296eda1c91149933ccbf89f28c7e6391f631dc9cb25f36",
+      "windowFile": "verre-frieze-v7-window.webp",
+      "windowSha256": "a6efe59608a02599a9d1efbd22b159f3ff7db97691831ec2ba43705e0272d834",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c636007B50CI2UtfgE2VT",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "mobilier-fer": {
+      "key": "mobilier-fer",
+      "family": "mobilier",
+      "finish": "fer",
+      "level": 0,
+      "file": "mobilier-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 12.6953125,
+        "width": 64.84375,
+        "height": 74.609375
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 195,
+        "right": 845,
+        "bottom": 1341
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/mobilier-frieze-v7-layout.png",
+      "sourceSha256": "24548e5e5734f6c8dbfea13453942c539da98e0b44dbd7f5e95904b10c30dcb7",
+      "outputSha256": "a23335e75be99d8125c18a351041a80d05828eb1ed6092bb9659b4d76e85d402",
+      "windowFile": "mobilier-frieze-v7-window.webp",
+      "windowSha256": "b13223af933e79c5e6b70567216c0007c5dc63f630fb694102160b0746d744a2",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a001pmsoWoqqOudsDP",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "mobilier-cuivre": {
+      "key": "mobilier-cuivre",
+      "family": "mobilier",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "mobilier-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 12.6953125,
+        "width": 64.84375,
+        "height": 74.609375
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 195,
+        "right": 845,
+        "bottom": 1341
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/mobilier-frieze-v7-layout.png",
+      "sourceSha256": "24548e5e5734f6c8dbfea13453942c539da98e0b44dbd7f5e95904b10c30dcb7",
+      "outputSha256": "57face5908e2380ce97b2ea80e57eb75e6292fa9dadfb80ee5bf06f1b8fd2656",
+      "windowFile": "mobilier-frieze-v7-window.webp",
+      "windowSha256": "b13223af933e79c5e6b70567216c0007c5dc63f630fb694102160b0746d744a2",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a001pmsoWoqqOudsDP",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "mobilier-argent": {
+      "key": "mobilier-argent",
+      "family": "mobilier",
+      "finish": "argent",
+      "level": 2,
+      "file": "mobilier-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 12.6953125,
+        "width": 64.84375,
+        "height": 74.609375
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 195,
+        "right": 845,
+        "bottom": 1341
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/mobilier-frieze-v7-layout.png",
+      "sourceSha256": "24548e5e5734f6c8dbfea13453942c539da98e0b44dbd7f5e95904b10c30dcb7",
+      "outputSha256": "96a0c16c8ebff8ccf72c4a838252a9c9536c13199bfda5edd2956afd9f125773",
+      "windowFile": "mobilier-frieze-v7-window.webp",
+      "windowSha256": "b13223af933e79c5e6b70567216c0007c5dc63f630fb694102160b0746d744a2",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a001pmsoWoqqOudsDP",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "mobilier-dore": {
+      "key": "mobilier-dore",
+      "family": "mobilier",
+      "finish": "dore",
+      "level": 3,
+      "file": "mobilier-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 12.6953125,
+        "width": 64.84375,
+        "height": 74.609375
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 195,
+        "right": 845,
+        "bottom": 1341
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/mobilier-frieze-v7-layout.png",
+      "sourceSha256": "24548e5e5734f6c8dbfea13453942c539da98e0b44dbd7f5e95904b10c30dcb7",
+      "outputSha256": "ea9e4a833c14f75b38eaae2d20328f11183e036cd37277e0c8d98945eae560ed",
+      "windowFile": "mobilier-frieze-v7-window.webp",
+      "windowSha256": "b13223af933e79c5e6b70567216c0007c5dc63f630fb694102160b0746d744a2",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a001pmsoWoqqOudsDP",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "mobilier-lapis-lazuli": {
+      "key": "mobilier-lapis-lazuli",
+      "family": "mobilier",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "mobilier-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.67578125,
+        "top": 12.6953125,
+        "width": 64.84375,
+        "height": 74.609375
+      },
+      "clearedRectangle": {
+        "left": 181,
+        "top": 195,
+        "right": 845,
+        "bottom": 1341
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/mobilier-frieze-v7-layout.png",
+      "sourceSha256": "24548e5e5734f6c8dbfea13453942c539da98e0b44dbd7f5e95904b10c30dcb7",
+      "outputSha256": "5106647ba1dc8fd42dab5903e8bdc4dc15dd22acab9a932b18fa5dcf08d6002e",
+      "windowFile": "mobilier-frieze-v7-window.webp",
+      "windowSha256": "b13223af933e79c5e6b70567216c0007c5dc63f630fb694102160b0746d744a2",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a001pmsoWoqqOudsDP",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "manuscrits-fer": {
+      "key": "manuscrits-fer",
+      "family": "manuscrits",
+      "finish": "fer",
+      "level": 0,
+      "file": "manuscrits-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.48046875,
+        "top": 10.416666666666668,
+        "width": 64.94140625,
+        "height": 78.90625
+      },
+      "clearedRectangle": {
+        "left": 179,
+        "top": 160,
+        "right": 844,
+        "bottom": 1372
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/manuscrits-frieze-v7-layout.png",
+      "sourceSha256": "1ee4baf6ad2e5566a364e59620b7dad1ec25020c2115022203b8dc0c14bb35f7",
+      "outputSha256": "9dd7c6573538cad4cb4603c0c1b464050ac766fb5453fe245422b1a118356303",
+      "windowFile": "manuscrits-frieze-v7-window.webp",
+      "windowSha256": "f6d631b341399704de0b010cf0db9c977159eef3a53debc73cd96c110e3e3802",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a003UbtRVXW51yvBsB",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "manuscrits-cuivre": {
+      "key": "manuscrits-cuivre",
+      "family": "manuscrits",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "manuscrits-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.48046875,
+        "top": 10.416666666666668,
+        "width": 64.94140625,
+        "height": 78.90625
+      },
+      "clearedRectangle": {
+        "left": 179,
+        "top": 160,
+        "right": 844,
+        "bottom": 1372
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/manuscrits-frieze-v7-layout.png",
+      "sourceSha256": "1ee4baf6ad2e5566a364e59620b7dad1ec25020c2115022203b8dc0c14bb35f7",
+      "outputSha256": "5605dcd931c8a3f1b84d3f794d9ba49a41cd1650a6bd71387b774d7228519a2e",
+      "windowFile": "manuscrits-frieze-v7-window.webp",
+      "windowSha256": "f6d631b341399704de0b010cf0db9c977159eef3a53debc73cd96c110e3e3802",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a003UbtRVXW51yvBsB",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "manuscrits-argent": {
+      "key": "manuscrits-argent",
+      "family": "manuscrits",
+      "finish": "argent",
+      "level": 2,
+      "file": "manuscrits-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.48046875,
+        "top": 10.416666666666668,
+        "width": 64.94140625,
+        "height": 78.90625
+      },
+      "clearedRectangle": {
+        "left": 179,
+        "top": 160,
+        "right": 844,
+        "bottom": 1372
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/manuscrits-frieze-v7-layout.png",
+      "sourceSha256": "1ee4baf6ad2e5566a364e59620b7dad1ec25020c2115022203b8dc0c14bb35f7",
+      "outputSha256": "4f6367d6a4d3a7ae6b5456e31be669a29c3c2687ca062a4daa840936d3a071fd",
+      "windowFile": "manuscrits-frieze-v7-window.webp",
+      "windowSha256": "f6d631b341399704de0b010cf0db9c977159eef3a53debc73cd96c110e3e3802",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a003UbtRVXW51yvBsB",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "manuscrits-dore": {
+      "key": "manuscrits-dore",
+      "family": "manuscrits",
+      "finish": "dore",
+      "level": 3,
+      "file": "manuscrits-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.48046875,
+        "top": 10.416666666666668,
+        "width": 64.94140625,
+        "height": 78.90625
+      },
+      "clearedRectangle": {
+        "left": 179,
+        "top": 160,
+        "right": 844,
+        "bottom": 1372
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/manuscrits-frieze-v7-layout.png",
+      "sourceSha256": "1ee4baf6ad2e5566a364e59620b7dad1ec25020c2115022203b8dc0c14bb35f7",
+      "outputSha256": "c2874f2c286b54698656aca02e41251e251f3275e6ad51bdd14d62771447726f",
+      "windowFile": "manuscrits-frieze-v7-window.webp",
+      "windowSha256": "f6d631b341399704de0b010cf0db9c977159eef3a53debc73cd96c110e3e3802",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a003UbtRVXW51yvBsB",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "manuscrits-lapis-lazuli": {
+      "key": "manuscrits-lapis-lazuli",
+      "family": "manuscrits",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "manuscrits-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.48046875,
+        "top": 10.416666666666668,
+        "width": 64.94140625,
+        "height": 78.90625
+      },
+      "clearedRectangle": {
+        "left": 179,
+        "top": 160,
+        "right": 844,
+        "bottom": 1372
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/manuscrits-frieze-v7-layout.png",
+      "sourceSha256": "1ee4baf6ad2e5566a364e59620b7dad1ec25020c2115022203b8dc0c14bb35f7",
+      "outputSha256": "aee0ba668e4205c4d09db54c52f3d2b42b9b0c1128c6a97738e22cc1e5ce2401",
+      "windowFile": "manuscrits-frieze-v7-window.webp",
+      "windowSha256": "f6d631b341399704de0b010cf0db9c977159eef3a53debc73cd96c110e3e3802",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c63a003UbtRVXW51yvBsB",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "archeologie-fer": {
+      "key": "archeologie-fer",
+      "family": "archeologie",
+      "finish": "fer",
+      "level": 0,
+      "file": "archeologie-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.0390625,
+        "top": 12.369791666666668,
+        "width": 69.921875,
+        "height": 73.95833333333334
+      },
+      "clearedRectangle": {
+        "left": 154,
+        "top": 190,
+        "right": 870,
+        "bottom": 1326
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/archeologie-frieze-v7.png",
+      "sourceSha256": "8133aab6e2005b18dea2c2c761d4863366d6621190c175038a1318090c908130",
+      "outputSha256": "000ab6ffeaf2a457c0e932822794b623316e04c8138ca7909ed67111589e05c8",
+      "windowFile": "archeologie-frieze-v7-window.webp",
+      "windowSha256": "3d9f6b7cd0a7c3874699cbabdc6afb150b50d5ae73a4dfe8226cd45c4580ae4d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c692001ac9U1ytiiJK5Hr",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "archeologie-cuivre": {
+      "key": "archeologie-cuivre",
+      "family": "archeologie",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "archeologie-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.0390625,
+        "top": 12.369791666666668,
+        "width": 69.921875,
+        "height": 73.95833333333334
+      },
+      "clearedRectangle": {
+        "left": 154,
+        "top": 190,
+        "right": 870,
+        "bottom": 1326
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/archeologie-frieze-v7.png",
+      "sourceSha256": "8133aab6e2005b18dea2c2c761d4863366d6621190c175038a1318090c908130",
+      "outputSha256": "3f2d5ba47d9a53634f717f6f4937e83ef48aec4835897ec342ab79696f0b14ce",
+      "windowFile": "archeologie-frieze-v7-window.webp",
+      "windowSha256": "3d9f6b7cd0a7c3874699cbabdc6afb150b50d5ae73a4dfe8226cd45c4580ae4d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c692001ac9U1ytiiJK5Hr",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "archeologie-argent": {
+      "key": "archeologie-argent",
+      "family": "archeologie",
+      "finish": "argent",
+      "level": 2,
+      "file": "archeologie-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.0390625,
+        "top": 12.369791666666668,
+        "width": 69.921875,
+        "height": 73.95833333333334
+      },
+      "clearedRectangle": {
+        "left": 154,
+        "top": 190,
+        "right": 870,
+        "bottom": 1326
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/archeologie-frieze-v7.png",
+      "sourceSha256": "8133aab6e2005b18dea2c2c761d4863366d6621190c175038a1318090c908130",
+      "outputSha256": "662596b791df0e8463c78b1de080b25d04151c7e6eb966559a59368e7a2b74f0",
+      "windowFile": "archeologie-frieze-v7-window.webp",
+      "windowSha256": "3d9f6b7cd0a7c3874699cbabdc6afb150b50d5ae73a4dfe8226cd45c4580ae4d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c692001ac9U1ytiiJK5Hr",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "archeologie-dore": {
+      "key": "archeologie-dore",
+      "family": "archeologie",
+      "finish": "dore",
+      "level": 3,
+      "file": "archeologie-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.0390625,
+        "top": 12.369791666666668,
+        "width": 69.921875,
+        "height": 73.95833333333334
+      },
+      "clearedRectangle": {
+        "left": 154,
+        "top": 190,
+        "right": 870,
+        "bottom": 1326
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/archeologie-frieze-v7.png",
+      "sourceSha256": "8133aab6e2005b18dea2c2c761d4863366d6621190c175038a1318090c908130",
+      "outputSha256": "552284c33ce84b0e338f9f19623135d2f62e11251fb005052dc01fa9c4c5f1c0",
+      "windowFile": "archeologie-frieze-v7-window.webp",
+      "windowSha256": "3d9f6b7cd0a7c3874699cbabdc6afb150b50d5ae73a4dfe8226cd45c4580ae4d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c692001ac9U1ytiiJK5Hr",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "archeologie-lapis-lazuli": {
+      "key": "archeologie-lapis-lazuli",
+      "family": "archeologie",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "archeologie-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.0390625,
+        "top": 12.369791666666668,
+        "width": 69.921875,
+        "height": 73.95833333333334
+      },
+      "clearedRectangle": {
+        "left": 154,
+        "top": 190,
+        "right": 870,
+        "bottom": 1326
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/archeologie-frieze-v7.png",
+      "sourceSha256": "8133aab6e2005b18dea2c2c761d4863366d6621190c175038a1318090c908130",
+      "outputSha256": "3dfedc216c45a82c0997ae4dd37023f5fb5432269a558c481a982a1a0fa53f6c",
+      "windowFile": "archeologie-frieze-v7-window.webp",
+      "windowSha256": "3d9f6b7cd0a7c3874699cbabdc6afb150b50d5ae73a4dfe8226cd45c4580ae4d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c692001ac9U1ytiiJK5Hr",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "beaux-arts-fer": {
+      "key": "beaux-arts-fer",
+      "family": "beaux-arts",
+      "finish": "fer",
+      "level": 0,
+      "file": "beaux-arts-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.4296875,
+        "top": 13.0859375,
+        "width": 69.140625,
+        "height": 72.265625
+      },
+      "clearedRectangle": {
+        "left": 158,
+        "top": 201,
+        "right": 866,
+        "bottom": 1311
+      },
+      "sourceFile": "public/assets/collections/beaux-arts-fer.png",
+      "sourceSha256": "03d59d73fb5051d7ead21817fdc8d236a2c52ae34d5da39fda4ca9196dd2d605",
+      "outputSha256": "a6567ee3c8925787e725f90cbcd325842eb4b938e5bfa7f288be17bce324bf26",
+      "windowFile": "beaux-arts-fer-window.webp",
+      "windowSha256": "dd2f2a27f3bfbabc635ec90f887a9840c3c37022a5fd2ed124e8266633bcb511",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "beaux-arts-cuivre": {
+      "key": "beaux-arts-cuivre",
+      "family": "beaux-arts",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "beaux-arts-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.11328125,
+        "top": 12.434895833333332,
+        "width": 67.87109375,
+        "height": 72.13541666666666
+      },
+      "clearedRectangle": {
+        "left": 165,
+        "top": 191,
+        "right": 860,
+        "bottom": 1299
+      },
+      "sourceFile": "public/assets/collections/beaux-arts-cuivre.png",
+      "sourceSha256": "150f37305d0bd48ed76cd5a07886ed1b7bb3e484df5af9f5c77005acbd117948",
+      "outputSha256": "a44797d85fd91fecdbc5e04e084bd5f00b84916462d083c37c2b6dbb0278fe51",
+      "windowFile": "beaux-arts-cuivre-window.webp",
+      "windowSha256": "f3235d247a12be37f15bd3ec26e4d9c5c7476231543b153401eb35b635a4fad9",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "beaux-arts-argent": {
+      "key": "beaux-arts-argent",
+      "family": "beaux-arts",
+      "finish": "argent",
+      "level": 2,
+      "file": "beaux-arts-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.30859375,
+        "top": 13.8671875,
+        "width": 67.3828125,
+        "height": 70.83333333333334
+      },
+      "clearedRectangle": {
+        "left": 167,
+        "top": 213,
+        "right": 857,
+        "bottom": 1301
+      },
+      "sourceFile": "public/assets/collections/beaux-arts-argent.png",
+      "sourceSha256": "023ea0ebba80d0eba3d410a2f7adc9355dd45bf5ac07db6e9a75266aa43267f9",
+      "outputSha256": "5539346a6f979bee8c5df66de36a4520351b1bf1823190cbeed44379d5a9554e",
+      "windowFile": "beaux-arts-argent-window.webp",
+      "windowSha256": "bbd28233c7e89070823ddeb95d781257001940569107888ea54f11f7fa420dd4",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "beaux-arts-dore": {
+      "key": "beaux-arts-dore",
+      "family": "beaux-arts",
+      "finish": "dore",
+      "level": 3,
+      "file": "beaux-arts-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 13.411458333333334,
+        "width": 68.84765625,
+        "height": 72.0703125
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 206,
+        "right": 864,
+        "bottom": 1313
+      },
+      "sourceFile": "public/assets/collections/beaux-arts-dore.png",
+      "sourceSha256": "dc9c37078374483ceb732cb0e8438428fcbf773db3e512c90715f0203dc6f551",
+      "outputSha256": "cd21d1b96a4588ae427b71bcb967d3579be069ce2cbe0a2630109f6a16d95566",
+      "windowFile": "beaux-arts-dore-window.webp",
+      "windowSha256": "36535dc48401211b971ed8a5ef9b6bed6a57027bf1c1797a9887335762b8434c",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "beaux-arts-lapis-lazuli": {
+      "key": "beaux-arts-lapis-lazuli",
+      "family": "beaux-arts",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "beaux-arts-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.625,
+        "top": 12.760416666666666,
+        "width": 68.84765625,
+        "height": 72.265625
+      },
+      "clearedRectangle": {
+        "left": 160,
+        "top": 196,
+        "right": 865,
+        "bottom": 1306
+      },
+      "sourceFile": "public/assets/collections/beaux-arts-lapis-lazuli.png",
+      "sourceSha256": "9a7af67c386aa4dd5c0223fc42789ae4c3ee4863a5a8782963faaec03f41c88c",
+      "outputSha256": "de224b660503688a9fe716c4c08bf679bf9fc41fe92e08992e36a28c888636f0",
+      "windowFile": "beaux-arts-lapis-lazuli-window.webp",
+      "windowSha256": "bc2fc258ca149aad663dbc5d7b873c3c39402a4e91c710b8d04dbecf065f09ca",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "egypte-fer": {
+      "key": "egypte-fer",
+      "family": "egypte",
+      "finish": "fer",
+      "level": 0,
+      "file": "egypte-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.0390625,
+        "top": 10.611979166666668,
+        "width": 69.921875,
+        "height": 75.45572916666666
+      },
+      "clearedRectangle": {
+        "left": 154,
+        "top": 163,
+        "right": 870,
+        "bottom": 1322
+      },
+      "sourceFile": "public/assets/collections/egypte-fer.png",
+      "sourceSha256": "be84a97ba6acb54d923f17f9521f169b91c59feeb541dc2f031821cbba6d628b",
+      "outputSha256": "0c314702cbfe270babff9699e8d95bf6e4126fd3c1e4781e63476d0119d77ff5",
+      "windowFile": "egypte-fer-window.webp",
+      "windowSha256": "8dece20885125230545cede7e9726c44add3372f64c54976c94ece5977650b3e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "egypte-cuivre": {
+      "key": "egypte-cuivre",
+      "family": "egypte",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "egypte-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 13.8671875,
+        "top": 11.5234375,
+        "width": 72.265625,
+        "height": 74.67447916666666
+      },
+      "clearedRectangle": {
+        "left": 142,
+        "top": 177,
+        "right": 882,
+        "bottom": 1324
+      },
+      "sourceFile": "public/assets/collections/egypte-cuivre.png",
+      "sourceSha256": "e9d858aaee438caba9eff86aeee84e9b85823dabf541b696b24afe66e4ac7865",
+      "outputSha256": "58037bd2969b14231efc267607825d81d899545c763b64b6c0b4227484e65525",
+      "windowFile": "egypte-cuivre-window.webp",
+      "windowSha256": "241a83ce3235738c42a2537fa359566bcdd0c9012c12083fa5d30de6ee75a20f",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "egypte-argent": {
+      "key": "egypte-argent",
+      "family": "egypte",
+      "finish": "argent",
+      "level": 2,
+      "file": "egypte-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.015625,
+        "top": 13.4765625,
+        "width": 67.96875,
+        "height": 72.13541666666666
+      },
+      "clearedRectangle": {
+        "left": 164,
+        "top": 207,
+        "right": 860,
+        "bottom": 1315
+      },
+      "sourceFile": "public/assets/collections/egypte-argent.png",
+      "sourceSha256": "03856a0013a51a267f622c13ca244ba7da7db68af854c41cc45ef9204b5665da",
+      "outputSha256": "396677078eda86e58118df46eb412fae73d9517f1ac7aa8469460b2ba0e6d765",
+      "windowFile": "egypte-argent-window.webp",
+      "windowSha256": "e746866cd5794787aa532d7d1fe15ac6bdde2623e1492f8162339c7a4cad3a65",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "egypte-dore": {
+      "key": "egypte-dore",
+      "family": "egypte",
+      "finish": "dore",
+      "level": 3,
+      "file": "egypte-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.30859375,
+        "top": 12.174479166666668,
+        "width": 67.28515625,
+        "height": 72.91666666666666
+      },
+      "clearedRectangle": {
+        "left": 167,
+        "top": 187,
+        "right": 856,
+        "bottom": 1307
+      },
+      "sourceFile": "public/assets/collections/egypte-dore.png",
+      "sourceSha256": "2421410114a2372812b5fc6cb14c29afc0138709423987254d1add480dc5c453",
+      "outputSha256": "cc1db8e42317124bbeb41d9ebb2bd1063ea6236ad2efde5d0f95794a090fd4fa",
+      "windowFile": "egypte-dore-window.webp",
+      "windowSha256": "e320b2647e69842a780cd3ac51f5b58d32cbdde5ab3552e1c3206470a68cc8b5",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "egypte-lapis-lazuli": {
+      "key": "egypte-lapis-lazuli",
+      "family": "egypte",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "egypte-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.13671875,
+        "top": 9.505208333333332,
+        "width": 69.7265625,
+        "height": 77.34375
+      },
+      "clearedRectangle": {
+        "left": 155,
+        "top": 146,
+        "right": 869,
+        "bottom": 1334
+      },
+      "sourceFile": "public/assets/collections/egypte-lapis-lazuli.png",
+      "sourceSha256": "9b33aa02299cd8a052e2a50f4f1f12f84c1450ba9c6b8a908369135368ee798c",
+      "outputSha256": "eee733b1973b5f8d0803fef3f24d9694a7d6907b732db0b39940527a3b71391e",
+      "windowFile": "egypte-lapis-lazuli-window.webp",
+      "windowSha256": "44ea56910640767b2af749f1e57feb6be402614e118bf2b75fe5754d49679c4a",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "decoratifs-fer": {
+      "key": "decoratifs-fer",
+      "family": "decoratifs",
+      "finish": "fer",
+      "level": 0,
+      "file": "decoratifs-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.33203125,
+        "top": 9.895833333333332,
+        "width": 69.23828125,
+        "height": 77.9296875
+      },
+      "clearedRectangle": {
+        "left": 157,
+        "top": 152,
+        "right": 866,
+        "bottom": 1349
+      },
+      "sourceFile": "public/assets/collections/decoratifs-fer.png",
+      "sourceSha256": "e0dce7b41045ea6bcba85cac16e39e1660aaf43979176b26e630c061b04aad82",
+      "outputSha256": "7fa6a727d7431939ee574df3ee73f999db03d962da2b38d8dce9d170949a9107",
+      "windowFile": "decoratifs-fer-window.webp",
+      "windowSha256": "a3f46ec8e7fd9589298a816184525e379fbca51b94be6d9d4627c839e5a91e6e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "decoratifs-cuivre": {
+      "key": "decoratifs-cuivre",
+      "family": "decoratifs",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "decoratifs-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 9.895833333333332,
+        "width": 68.9453125,
+        "height": 77.9296875
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 152,
+        "right": 865,
+        "bottom": 1349
+      },
+      "sourceFile": "public/assets/collections/decoratifs-cuivre.png",
+      "sourceSha256": "989ccf7dfdd8ba22635d19cb9f8b5929bc908f4e4c76ae61f3b23453e1282e98",
+      "outputSha256": "e64d5c8c735ea71d09047084b5169886a6ddc5701853e7ac49744cf587fc0478",
+      "windowFile": "decoratifs-cuivre-window.webp",
+      "windowSha256": "aab5a9266cbb9d2d3e6600aab4bfdb478ed310d2ba52888ba0e6415f58d5a517",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "decoratifs-argent": {
+      "key": "decoratifs-argent",
+      "family": "decoratifs",
+      "finish": "argent",
+      "level": 2,
+      "file": "decoratifs-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 9.9609375,
+        "width": 68.9453125,
+        "height": 77.79947916666666
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 153,
+        "right": 865,
+        "bottom": 1348
+      },
+      "sourceFile": "public/assets/collections/decoratifs-argent.png",
+      "sourceSha256": "464b2361f85e4ec083d0c8882cbca20021c261b98a0864ea116fd87fdd432570",
+      "outputSha256": "d3dbcd3bd18df87d6650dcbdbf3b379708e5024c03d30261692030a01785c764",
+      "windowFile": "decoratifs-argent-window.webp",
+      "windowSha256": "013e97052448b9b26af4153f67650041059629dca8b46b6cbe1489820713f616",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "decoratifs-dore": {
+      "key": "decoratifs-dore",
+      "family": "decoratifs",
+      "finish": "dore",
+      "level": 3,
+      "file": "decoratifs-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.4296875,
+        "top": 9.895833333333332,
+        "width": 69.140625,
+        "height": 77.9296875
+      },
+      "clearedRectangle": {
+        "left": 158,
+        "top": 152,
+        "right": 866,
+        "bottom": 1349
+      },
+      "sourceFile": "public/assets/collections/decoratifs-dore.png",
+      "sourceSha256": "f8ec1cba5fd02bd07e1fc985b6e4b3a5bd3378f728bc6ae2406cb4e434182602",
+      "outputSha256": "fcfa226c5195f0fe74aa3524198e2d925447aa8caf2259f377e4443e4d811116",
+      "windowFile": "decoratifs-dore-window.webp",
+      "windowSha256": "b79fc625638ae20eb23629417caaf38380f6d342c61cdb8186c19b31fcad3ce6",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "decoratifs-lapis-lazuli": {
+      "key": "decoratifs-lapis-lazuli",
+      "family": "decoratifs",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "decoratifs-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.4296875,
+        "top": 9.895833333333332,
+        "width": 69.04296875,
+        "height": 77.9296875
+      },
+      "clearedRectangle": {
+        "left": 158,
+        "top": 152,
+        "right": 865,
+        "bottom": 1349
+      },
+      "sourceFile": "public/assets/collections/decoratifs-lapis-lazuli.png",
+      "sourceSha256": "1d13ae87cd5eee30c1cd68800d2634f21b501fa4e29e43bfbbd0a91c85438a8c",
+      "outputSha256": "4484459ad75e525b6aa021dc4da027af55ea51facaa5d9d742ff684edd0cbd49",
+      "windowFile": "decoratifs-lapis-lazuli-window.webp",
+      "windowSha256": "7cd85b948f0380221765e98341842f03a6b4f338d7f0c29e13ed4f4a6aecbe55",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-mysterieux-fer": {
+      "key": "art-mysterieux-fer",
+      "family": "art-mysterieux",
+      "finish": "fer",
+      "level": 0,
+      "file": "art-mysterieux-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.7734375,
+        "top": 15.690104166666666,
+        "width": 64.453125,
+        "height": 64.84375
+      },
+      "clearedRectangle": {
+        "left": 182,
+        "top": 241,
+        "right": 842,
+        "bottom": 1237
+      },
+      "sourceFile": "public/assets/collections/art-mysterieux-fer.png",
+      "sourceSha256": "4193605952186dbf5735ec0b869e5b44461e27a3b783d6a66eebe326a2c0c687",
+      "outputSha256": "04446813c0e8adb470a5e40b43c7e43d77a63aff6868230a2796a2d7d7ea3f4c",
+      "windowFile": "art-mysterieux-fer-window.webp",
+      "windowSha256": "bdf8ceafedcbac314ae262954cc1b0a3a238816afb76ffe136473ab4e8d6fd4f",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-mysterieux-cuivre": {
+      "key": "art-mysterieux-cuivre",
+      "family": "art-mysterieux",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "art-mysterieux-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.52734375,
+        "top": 13.671875,
+        "width": 68.9453125,
+        "height": 70.05208333333334
+      },
+      "clearedRectangle": {
+        "left": 159,
+        "top": 210,
+        "right": 865,
+        "bottom": 1286
+      },
+      "sourceFile": "public/assets/collections/art-mysterieux-cuivre.png",
+      "sourceSha256": "cab9148153a1383821f189516835d376ba6be95e5a40a8d4208be19f49d5eb80",
+      "outputSha256": "a3948ba6eb59760fa8420ac767ba23d8f8589c1075c63003b34401578647e995",
+      "windowFile": "art-mysterieux-cuivre-window.webp",
+      "windowSha256": "880dcbead8a793d619c000fc40c7031caf3bcea6065a0fdf02a168dc540b4699",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-mysterieux-argent": {
+      "key": "art-mysterieux-argent",
+      "family": "art-mysterieux",
+      "finish": "argent",
+      "level": 2,
+      "file": "art-mysterieux-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.234375,
+        "top": 15.8203125,
+        "width": 69.62890625,
+        "height": 66.2109375
+      },
+      "clearedRectangle": {
+        "left": 156,
+        "top": 243,
+        "right": 869,
+        "bottom": 1260
+      },
+      "sourceFile": "public/assets/collections/art-mysterieux-argent.png",
+      "sourceSha256": "a7c1b4df957c63ee25d0f5eb756d62cc578dc5ae1cbc9da919f71f1d46c1ca78",
+      "outputSha256": "159574062a3d272108dddd6470ced14626d8cd430f1ff9cac0aaab0af834c5ff",
+      "windowFile": "art-mysterieux-argent-window.webp",
+      "windowSha256": "8b03fdf57c73987c1508d06d8b07720304b1c0de26e3754e0b4c7cd091942936",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-mysterieux-dore": {
+      "key": "art-mysterieux-dore",
+      "family": "art-mysterieux",
+      "finish": "dore",
+      "level": 3,
+      "file": "art-mysterieux-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 16.50390625,
+        "top": 16.666666666666664,
+        "width": 66.9921875,
+        "height": 65.234375
+      },
+      "clearedRectangle": {
+        "left": 169,
+        "top": 256,
+        "right": 855,
+        "bottom": 1258
+      },
+      "sourceFile": "public/assets/collections/art-mysterieux-dore.png",
+      "sourceSha256": "368af6d67f1bdb33a429216c405d0e07c68c157e2abbe26aa02b6b8484e47961",
+      "outputSha256": "98dfae33a90ca5744b95d67f253548483bdeb52afd462bf464502153c527d00e",
+      "windowFile": "art-mysterieux-dore-window.webp",
+      "windowSha256": "9f279153db1d7aa376663a7b5f690acda57b54f93ef1c2164de3a42d21f8b2e7",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-mysterieux-lapis-lazuli": {
+      "key": "art-mysterieux-lapis-lazuli",
+      "family": "art-mysterieux",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "art-mysterieux-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 17.08984375,
+        "top": 13.8671875,
+        "width": 65.8203125,
+        "height": 70.76822916666666
+      },
+      "clearedRectangle": {
+        "left": 175,
+        "top": 213,
+        "right": 849,
+        "bottom": 1300
+      },
+      "sourceFile": "public/assets/collections/art-mysterieux-lapis-lazuli.png",
+      "sourceSha256": "cd8d4b39b98dd7add1cb3125637c01fa3c4bbdb22b8d5b4f0c500adac6be082c",
+      "outputSha256": "60eb195e76fcc93f62c81cd6bbca31dbe4f49546aef466e105df7509f6f8195b",
+      "windowFile": "art-mysterieux-lapis-lazuli-window.webp",
+      "windowSha256": "2c7be9ae44efb0614d2808c41384423e0a4c56669c248b4b1e873d978d651a86",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-moderne-fer": {
+      "key": "art-moderne-fer",
+      "family": "art-moderne",
+      "finish": "fer",
+      "level": 0,
+      "file": "art-moderne-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 12.6953125,
+        "top": 12.3046875,
+        "width": 74.8046875,
+        "height": 71.09375
+      },
+      "clearedRectangle": {
+        "left": 130,
+        "top": 189,
+        "right": 896,
+        "bottom": 1281
+      },
+      "sourceFile": "public/assets/collections/art-moderne-fer.png",
+      "sourceSha256": "45c6a7b393a2aadf291c6ca42dc73d0baea3d384ca98e2a54acbe62bc514485e",
+      "outputSha256": "5fe32f5392d84c15022d011554c17397a454c97d3d263b57dec56a4c27c93ac6",
+      "windowFile": "art-moderne-fer-window.webp",
+      "windowSha256": "b508ae9d815903e4a975b14b053cbb0e5304dde2b3a12b4fd9846fc8d8c520c5",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-moderne-cuivre": {
+      "key": "art-moderne-cuivre",
+      "family": "art-moderne",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "art-moderne-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.8203125,
+        "top": 9.9609375,
+        "width": 68.5546875,
+        "height": 73.30729166666666
+      },
+      "clearedRectangle": {
+        "left": 162,
+        "top": 153,
+        "right": 864,
+        "bottom": 1279
+      },
+      "sourceFile": "public/assets/collections/art-moderne-cuivre.png",
+      "sourceSha256": "26ce64a1eb026455be37a68275ce25dd25dd9a7646e44e8c121a0abcaabf613a",
+      "outputSha256": "286bfe74e5a849b5dec4d367a59d3bef909c958f1c98fc63ddd51beb9cb85978",
+      "windowFile": "art-moderne-cuivre-window.webp",
+      "windowSha256": "d14b0eec60c20ba961239ae3d24c5a1bb0b59b225020f4c94641c4c329b9bd1d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-moderne-argent": {
+      "key": "art-moderne-argent",
+      "family": "art-moderne",
+      "finish": "argent",
+      "level": 2,
+      "file": "art-moderne-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.35546875,
+        "top": 12.5,
+        "width": 71.2890625,
+        "height": 71.35416666666666
+      },
+      "clearedRectangle": {
+        "left": 147,
+        "top": 192,
+        "right": 877,
+        "bottom": 1288
+      },
+      "sourceFile": "public/assets/collections/art-moderne-argent.png",
+      "sourceSha256": "d46b15c2e20211c6d728a64fee265511b0238bb4d2f6d405f2b431d1eebccd46",
+      "outputSha256": "83cc0c3dc46fffe59d739571b3b187cd9bbeadce593ec762b83cd88db9111c99",
+      "windowFile": "art-moderne-argent-window.webp",
+      "windowSha256": "3429b62c193b030caa110eadf7ebb777b2655e055b1afcfb1532a7f22a92ca9e",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-moderne-dore": {
+      "key": "art-moderne-dore",
+      "family": "art-moderne",
+      "finish": "dore",
+      "level": 3,
+      "file": "art-moderne-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.0390625,
+        "top": 10.677083333333332,
+        "width": 69.921875,
+        "height": 73.56770833333334
+      },
+      "clearedRectangle": {
+        "left": 154,
+        "top": 164,
+        "right": 870,
+        "bottom": 1294
+      },
+      "sourceFile": "public/assets/collections/art-moderne-dore.png",
+      "sourceSha256": "3d2bfb69e357289c4512c065a0d866c46013c3b369bdf90d7aa3d9308b74da2e",
+      "outputSha256": "59ba006eb7df491943dbf46a8f3bd702576607921fb71c98bc1a5d8aa6d18743",
+      "windowFile": "art-moderne-dore-window.webp",
+      "windowSha256": "bee04544092f0ca38b028617457ba0d7df3edca19c495da46cd289380d546afa",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "art-moderne-lapis-lazuli": {
+      "key": "art-moderne-lapis-lazuli",
+      "family": "art-moderne",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "art-moderne-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.35546875,
+        "top": 10.416666666666668,
+        "width": 71.2890625,
+        "height": 72.72135416666666
+      },
+      "clearedRectangle": {
+        "left": 147,
+        "top": 160,
+        "right": 877,
+        "bottom": 1277
+      },
+      "sourceFile": "public/assets/collections/art-moderne-lapis-lazuli.png",
+      "sourceSha256": "40958c5f97f1202b04d1c1403057f0f3128b42e0d94840f464c1ae65d650104d",
+      "outputSha256": "9b017bf297731aa683c25715a0b3f4a7eeae06b636a57da3609ec2c7bc12722c",
+      "windowFile": "art-moderne-lapis-lazuli-window.webp",
+      "windowSha256": "8f531d41dda8d7d1172c5635af8fc342b68e1b50c48cbb564a9b7110758ba8eb",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "prehistoire-fer": {
+      "key": "prehistoire-fer",
+      "family": "prehistoire",
+      "finish": "fer",
+      "level": 0,
+      "file": "prehistoire-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.453125,
+        "top": 13.606770833333334,
+        "width": 71.19140625,
+        "height": 68.68489583333334
+      },
+      "clearedRectangle": {
+        "left": 148,
+        "top": 209,
+        "right": 877,
+        "bottom": 1264
+      },
+      "sourceFile": "public/assets/collections/prehistoire-fer.png",
+      "sourceSha256": "d7c054c68aa416d4f5bbc6e47e5d13a1b93f3f8aac81a21c3aa63621892475ab",
+      "outputSha256": "ef84848fd394fbc6ec1e64e59d844a57d8a5e1a879778b7e2b87de56c7b6a55c",
+      "windowFile": "prehistoire-fer-window.webp",
+      "windowSha256": "6717c00c843fa8a2785eb46861fdacdaf44e955d5a9b34bcfe264befba3e3b58",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "prehistoire-cuivre": {
+      "key": "prehistoire-cuivre",
+      "family": "prehistoire",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "prehistoire-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.6484375,
+        "top": 10.7421875,
+        "width": 70.80078125,
+        "height": 71.61458333333334
+      },
+      "clearedRectangle": {
+        "left": 150,
+        "top": 165,
+        "right": 875,
+        "bottom": 1265
+      },
+      "sourceFile": "public/assets/collections/prehistoire-cuivre.png",
+      "sourceSha256": "1c1ec08f9b53cdbd04caf5335ffb3fcd20ea7437e73301ffb443c0969532452c",
+      "outputSha256": "b8561626374e708b7f005926897f92393abf11eeda6598d4445e295169248cf8",
+      "windowFile": "prehistoire-cuivre-window.webp",
+      "windowSha256": "e1938e1c4d32979eadf30522e5a755596adb844aee4347814fe4acaa50707deb",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "prehistoire-argent": {
+      "key": "prehistoire-argent",
+      "family": "prehistoire",
+      "finish": "argent",
+      "level": 2,
+      "file": "prehistoire-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.4296875,
+        "top": 11.393229166666668,
+        "width": 69.140625,
+        "height": 73.4375
+      },
+      "clearedRectangle": {
+        "left": 158,
+        "top": 175,
+        "right": 866,
+        "bottom": 1303
+      },
+      "sourceFile": "public/assets/collections/prehistoire-argent.png",
+      "sourceSha256": "ba7654e16d1846345ef1d048fb48a2a2e2470b976071c9d52bec06ac9f9c3778",
+      "outputSha256": "28381d848b0328c7d993504c609eb2faf0ac5435f6937367835c902653bb3831",
+      "windowFile": "prehistoire-argent-window.webp",
+      "windowSha256": "9fdde17444827426018aa8e325cfb89f33a573ef2709f01db7d10790110a0be4",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "prehistoire-dore": {
+      "key": "prehistoire-dore",
+      "family": "prehistoire",
+      "finish": "dore",
+      "level": 3,
+      "file": "prehistoire-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 15.13671875,
+        "top": 11.1328125,
+        "width": 69.921875,
+        "height": 71.875
+      },
+      "clearedRectangle": {
+        "left": 155,
+        "top": 171,
+        "right": 871,
+        "bottom": 1275
+      },
+      "sourceFile": "public/assets/collections/prehistoire-dore.png",
+      "sourceSha256": "30a11d874c4c4cfeddf89d7408f3bc1c48cf580ac145f778261ae36c16d5cf09",
+      "outputSha256": "810aec05dcaacaf23a9bd2bac49e976c7df836635129ec6cc8cb868ac25b5347",
+      "windowFile": "prehistoire-dore-window.webp",
+      "windowSha256": "40c487682c423e503059484d95e3dddd5c57c666f24d26a4091a3284ae67fb3f",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "prehistoire-lapis-lazuli": {
+      "key": "prehistoire-lapis-lazuli",
+      "family": "prehistoire",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "prehistoire-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.74609375,
+        "top": 11.653645833333332,
+        "width": 70.5078125,
+        "height": 72.33072916666666
+      },
+      "clearedRectangle": {
+        "left": 151,
+        "top": 179,
+        "right": 873,
+        "bottom": 1290
+      },
+      "sourceFile": "public/assets/collections/prehistoire-lapis-lazuli.png",
+      "sourceSha256": "49a8d29915b79174074ef7bf65632951b029db8737aa7cf992cac9971fa81700",
+      "outputSha256": "b3e344c7e6ef15da36ed9cfb5ea5a30b28f9c17be0991345dc1588f001582805",
+      "windowFile": "prehistoire-lapis-lazuli-window.webp",
+      "windowSha256": "bc72b5a54715fde54d9422b164ed12042c349c4c5e9bafa924093f198ee02a5d",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "historical-source-preserved",
+      "imageJob": null,
+      "generationModel": null,
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Source native intacte : aucun ornement opaque effacé, masque intérieur séparé et conservateur."
+    },
+    "japon-fer": {
+      "key": "japon-fer",
+      "family": "japon",
+      "finish": "fer",
+      "level": 0,
+      "file": "japon-frieze-v7-fer.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.94140625,
+        "top": 11.1328125,
+        "width": 70.01953125,
+        "height": 77.734375
+      },
+      "clearedRectangle": {
+        "left": 153,
+        "top": 171,
+        "right": 870,
+        "bottom": 1365
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/japon-frieze-v7.png",
+      "sourceSha256": "d469382f248b563b8ca16b3860c91c2268b9adede9740b2a9849df5a023c41dc",
+      "outputSha256": "ef267028474894b48c7be49699b011915295b798dbdbb9e975e7bc9be7a5309c",
+      "windowFile": "japon-frieze-v7-window.webp",
+      "windowSha256": "33cb956a163d79bd46729a122f34b3a06feeecb3178d22d2e685b1fc08eccf84",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c69e001FY94oprfVkcW2T",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "japon-cuivre": {
+      "key": "japon-cuivre",
+      "family": "japon",
+      "finish": "cuivre",
+      "level": 1,
+      "file": "japon-frieze-v7-cuivre.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.94140625,
+        "top": 11.1328125,
+        "width": 70.01953125,
+        "height": 77.734375
+      },
+      "clearedRectangle": {
+        "left": 153,
+        "top": 171,
+        "right": 870,
+        "bottom": 1365
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/japon-frieze-v7.png",
+      "sourceSha256": "d469382f248b563b8ca16b3860c91c2268b9adede9740b2a9849df5a023c41dc",
+      "outputSha256": "43576d9183429638da9576bdd18d1792fdcef8a3c6bd9cfcbcce049f309d818c",
+      "windowFile": "japon-frieze-v7-window.webp",
+      "windowSha256": "33cb956a163d79bd46729a122f34b3a06feeecb3178d22d2e685b1fc08eccf84",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c69e001FY94oprfVkcW2T",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "japon-argent": {
+      "key": "japon-argent",
+      "family": "japon",
+      "finish": "argent",
+      "level": 2,
+      "file": "japon-frieze-v7-argent.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.94140625,
+        "top": 11.1328125,
+        "width": 70.01953125,
+        "height": 77.734375
+      },
+      "clearedRectangle": {
+        "left": 153,
+        "top": 171,
+        "right": 870,
+        "bottom": 1365
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/japon-frieze-v7.png",
+      "sourceSha256": "d469382f248b563b8ca16b3860c91c2268b9adede9740b2a9849df5a023c41dc",
+      "outputSha256": "50d41ad2b49779ef32c964f8bab11419ee28853748edb8c4b65fa51e75292e6a",
+      "windowFile": "japon-frieze-v7-window.webp",
+      "windowSha256": "33cb956a163d79bd46729a122f34b3a06feeecb3178d22d2e685b1fc08eccf84",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c69e001FY94oprfVkcW2T",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "japon-dore": {
+      "key": "japon-dore",
+      "family": "japon",
+      "finish": "dore",
+      "level": 3,
+      "file": "japon-frieze-v7-dore.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.94140625,
+        "top": 11.1328125,
+        "width": 70.01953125,
+        "height": 77.734375
+      },
+      "clearedRectangle": {
+        "left": 153,
+        "top": 171,
+        "right": 870,
+        "bottom": 1365
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/japon-frieze-v7.png",
+      "sourceSha256": "d469382f248b563b8ca16b3860c91c2268b9adede9740b2a9849df5a023c41dc",
+      "outputSha256": "c796dccebc2f05d84addb030718118b83ae25c27dfa2149a3211b445b9a28060",
+      "windowFile": "japon-frieze-v7-window.webp",
+      "windowSha256": "33cb956a163d79bd46729a122f34b3a06feeecb3178d22d2e685b1fc08eccf84",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c69e001FY94oprfVkcW2T",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    },
+    "japon-lapis-lazuli": {
+      "key": "japon-lapis-lazuli",
+      "family": "japon",
+      "finish": "lapis-lazuli",
+      "level": 4,
+      "file": "japon-frieze-v7-lapis-lazuli.webp",
+      "assetDirectory": "frieze-frames",
+      "width": 1024,
+      "height": 1536,
+      "aperture": {
+        "left": 14.94140625,
+        "top": 11.1328125,
+        "width": 70.01953125,
+        "height": 77.734375
+      },
+      "clearedRectangle": {
+        "left": 153,
+        "top": 171,
+        "right": 870,
+        "bottom": 1365
+      },
+      "sourceFile": "src/card-lab/assets/generated-sources/japon-frieze-v7.png",
+      "sourceSha256": "d469382f248b563b8ca16b3860c91c2268b9adede9740b2a9849df5a023c41dc",
+      "outputSha256": "47a68fdfce7ffd1b031d1932eea97de20caef738e9f659c429e92a6a7a74a0b4",
+      "windowFile": "japon-frieze-v7-window.webp",
+      "windowSha256": "33cb956a163d79bd46729a122f34b3a06feeecb3178d22d2e685b1fc08eccf84",
+      "sourceMaskFile": null,
+      "sourceMaskSha256": null,
+      "origin": "generated-figurative-frieze-derived-finish",
+      "imageJob": "image_19e94c69e001FY94oprfVkcW2T",
+      "generationModel": "openai/gpt-image-2",
+      "removedMetalPixels": 0,
+      "backdropOnMetalPixels": 0,
+      "adaptation": "Motifs figuratifs propres au thème, gravés dans une frise régulière. Couleurs métal/fonds déclarées ; lapis/or natif, relief et alpha constants."
+    }
+  }
+}

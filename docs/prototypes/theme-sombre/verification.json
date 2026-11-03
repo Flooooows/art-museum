@@ -1,0 +1,122 @@
+{
+  "change": "Jeu en thème sombre uniquement dès le HTML ; préférence claire ignorée et sélecteurs retirés de la navigation et du profil ; lab et sauvegardes inchangés.",
+  "theme": {
+    "value": "dark",
+    "selectionAvailable": false,
+    "storedLightPreferenceIgnored": true,
+    "systemLightPreferenceIgnored": true,
+    "darkBeforeJavaScript": true,
+    "atelierAndLabThemesUnchanged": true,
+    "sources": {
+      "index.html": "918d8e46b29c5e0fa75b02096dba0e6ad7ffe5ebaad142334119dbd8ebbb0734",
+      "src/App.tsx": "7059e543b1e7afc55f81919da4e9f3c2c789da96ea53c39771e5ec7852a5f6f7",
+      "src/Profile.tsx": "36377c90f56e6318ef03a1440e8a708dfc0c5c001c27d56afdcb7a3c794f2464",
+      "src/appearance.css": "f58a79ebdafbadd802973264ee1908ca2f82f6948e4544f4cb521e733ad0e4f8"
+    }
+  },
+  "tests": {
+    "total": 186,
+    "passed": 186,
+    "failed": 0
+  },
+  "browsers": {
+    "compiled": {
+      "configurations": 8,
+      "accessibilityStates": 20,
+      "errors": [],
+      "violations": 0
+    },
+    "live": {
+      "configurations": 8,
+      "accessibilityStates": 20,
+      "errors": [],
+      "violations": 0
+    }
+  },
+  "publication": {
+    "projectId": "muse-collection-6f2d",
+    "origin": "https://muse-collection-6f2d.web.app",
+    "version": "2b882c1d138f52bb",
+    "releaseTime": "2026-11-02T21:23:31.120Z",
+    "previousVersion": "adae71ece203ed57",
+    "sourceLabVersion": "3b5f3172d4865a5a",
+    "change": "Jeu en thème sombre uniquement dès le HTML ; préférence claire ignorée et sélecteurs retirés de la navigation et du profil ; lab et sauvegardes inchangés.",
+    "expectedFiles": 1136,
+    "checkedFiles": 1136,
+    "verification": {
+      "method": "Tous les fichiers publiés téléchargés et vérifiés par SHA-256 contre le build local.",
+      "byteVerifiedFiles": 1136,
+      "downloadedBytes": 232493361,
+      "retriedFiles": 0
+    },
+    "failures": [],
+    "headers": [
+      {
+        "path": "/",
+        "status": 200,
+        "cache": "no-cache"
+      },
+      {
+        "path": "/index.html",
+        "status": 200,
+        "cache": "no-cache"
+      }
+    ],
+    "excluded": [
+      {
+        "path": "/review.html",
+        "status": 404
+      },
+      {
+        "path": "/masterpieces.html",
+        "status": 404
+      },
+      {
+        "path": "/card-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/opening-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/booster-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/muse-lab.html",
+        "status": 404
+      },
+      {
+        "path": "/assets/collections/beaux-arts-lapis-lazuli.png",
+        "status": 404
+      },
+      {
+        "path": "/src/card-lab/assets/generated-sources/peinture-detail-v2.png",
+        "status": 404
+      },
+      {
+        "path": "/tests/browser/game-presentation.html",
+        "status": 404
+      }
+    ],
+    "labIsolation": {
+      "projectId": "muse-lab-6f2d",
+      "beforeVersion": "1a04421ac1f0dc9f",
+      "afterVersion": "1a04421ac1f0dc9f",
+      "sameRelease": true
+    },
+    "storage": {
+      "key": "muse-collection-v1",
+      "version": 1,
+      "legacyThreeCardResultsSupported": true,
+      "reset": false
+    }
+  },
+  "inventoryAndRaritiesUnchanged": true,
+  "previews": [
+    "accueil-ancienne-preference-claire.png",
+    "accueil-mobile.png",
+    "profil-mobile.png"
+  ]
+}
