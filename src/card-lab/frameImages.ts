@@ -1,5 +1,5 @@
 import type { LabFrame } from "./frames";
-const urls = import.meta.glob<string>("./assets/frieze-frames/*.webp", {
+const urls = import.meta.glob<string>("./assets/refined-frames/*.webp", {
   eager: true,
   query: "?url",
   import: "default",

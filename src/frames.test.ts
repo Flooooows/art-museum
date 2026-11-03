@@ -6,6 +6,10 @@ import sharp from "sharp";
 import { artworks, rarities } from "./data";
 import { findFrame, frameAssets, getFrame } from "./frames";
 import preparationReport from "./frame-assets.report.json";
+const ignoredFrames = preparationReport.ignored as {
+  name: string;
+  reason: string;
+}[];
 
 test("les noms et matières restent stables, les nouveaux taux suivent la demande", () => {
   assert.deepEqual(
@@ -31,11 +35,11 @@ test("archives — chaque original conserve sa fenêtre mesurée ou son signalem
   assert.deepEqual(
     [
       ...Object.keys(frameAssets),
-      ...preparationReport.ignored.map((item) => item.name.slice(0, -4)),
+      ...ignoredFrames.map((item) => item.name.slice(0, -4)),
     ].sort(),
     originals.map((name) => name.slice(0, -4)),
   );
-  for (const item of preparationReport.ignored) {
+  for (const item of ignoredFrames) {
     assert.ok(item.reason.length > 0);
     assert.equal(frameAssets[item.name.slice(0, -4)], undefined);
   }

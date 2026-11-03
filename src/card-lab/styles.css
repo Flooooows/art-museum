@@ -252,6 +252,17 @@ button {
   pointer-events: none;
   z-index: 3;
 }
+.museum-card--unframed {
+  overflow: hidden;
+}
+.lab-frame-swatch__card--unframed {
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  text-align: center;
+  background: var(--lab-paper);
+  color: var(--lab-muted);
+}
 .museum-card__panel {
   position: absolute;
   left: var(--card-panel-left);

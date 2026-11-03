@@ -21,16 +21,19 @@ export default function MuseumCard({
 }) {
   const rarity = rarities[art.rarity];
   const frame = cardFrameFor(art),
-    a = commonCardAperture;
+    a = frame.asset
+      ? commonCardAperture
+      : { left: 4, top: 4, width: 92, height: 92 };
   const titleSize =
     art.title.length > 80 ? "long" : art.title.length > 40 ? "medium" : "short";
   return (
     <article
-      className={`museum-card museum-card--${titleSize}${art.title.length + art.artist.length > 210 ? " museum-card--dense" : ""}${missing ? " museum-card--missing" : ""}`}
+      className={`museum-card museum-card--${titleSize}${!frame.asset ? " museum-card--unframed" : ""}${art.title.length + art.artist.length > 210 ? " museum-card--dense" : ""}${missing ? " museum-card--missing" : ""}`}
       data-artwork-id={art.id}
       data-rarity-level={art.rarity}
       data-frame-key={frame.key}
       data-frame-family={frame.family}
+      data-frame-available={Boolean(frame.asset)}
       style={
         {
           "--card-panel-left": `${a.left}%`,
@@ -48,8 +51,12 @@ export default function MuseumCard({
         className="museum-card__velvet"
         aria-hidden="true"
         style={{
-          maskImage: `url("${frameWindowImage(frame)}")`,
-          WebkitMaskImage: `url("${frameWindowImage(frame)}")`,
+          maskImage: frame.asset
+            ? `url("${frameWindowImage(frame.asset)}")`
+            : undefined,
+          WebkitMaskImage: frame.asset
+            ? `url("${frameWindowImage(frame.asset)}")`
+            : undefined,
         }}
       />
       <div className="museum-card__panel">
@@ -121,12 +128,14 @@ export default function MuseumCard({
           aria-label={`Voir les détails de ${art.title}`}
         />
       )}
-      <img
-        className="museum-card__frame"
-        src={frameImage(frame)}
-        alt=""
-        aria-hidden="true"
-      />
+      {frame.asset && (
+        <img
+          className="museum-card__frame"
+          src={frameImage(frame.asset)}
+          alt=""
+          aria-hidden="true"
+        />
+      )}
     </article>
   );
 }

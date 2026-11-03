@@ -1,12 +1,12 @@
 # Cadres actifs et archives
 
-Le jeu reprend maintenant les **90 variantes affectables** validées dans le [laboratoire des cadres homogènes](ESSAIS_CADRES_HOMOGENES.md) : masques stricts, douze bases enrichies, gabarit commun et bandeau de rareté aligné. La copie active est dans `src/game-presentation/cards/` ; elle est indépendante des prochains essais du lab. [Intégration complète, pochettes et animations](INTEGRATION_LAB_2026-11-02.md).
+**État actuel du projet : seules les six familles explicitement validées sont conservées.** Le lab dispose de 30 variantes ; la présentation du jeu conserve ses 25 variantes affectables approuvées (Paléolithique reste non affecté). Les autres cartes s’affichent sans cadre, sans substitution de thème. [Nettoyage des assets](NETTOYAGE_CADRES_VALIDES.md).
 
-Les images restent entières ; titres, artistes et raretés viennent des mêmes œuvres. Les cinq Paléolithique restent archivées et non affectées. Les sources du lab, les premiers masters et les anciens PNG ne sont ni remplacés ni publiés comme tels.
+Les sources, variantes et masques non validés ont été supprimés dans toutes les éditions, ainsi que leurs planches d’essai. Les sources, cinq finitions et masques des six familles approuvées sont inchangés. Les images des œuvres, leurs métadonnées et les avis ne sont pas supprimés. La publication de ce nettoyage vise uniquement le lab ; le jeu en ligne n’est pas redéployé.
 
 ## Historique : retrait avant refonte
 
-Les paragraphes ci-dessous décrivent le système retiré le 1er novembre, pas le registre actif ci-dessus.
+Les paragraphes ci-dessous décrivent les anciens systèmes, pas le registre actif ci-dessus. Leurs mentions de fichiers « conservés » ne concernent plus les assets non validés supprimés lors du nettoyage.
 
 Les anciens cadres sont **retirés de l'affichage du jeu** à la demande de l'utilisateur : pas de superposition PNG, pas de passe-partout, pas de bordure de repli. Les reproductions restent entières, sans recadrage ni étirement, dans les cartes, les fiches, les tirages et le musée.
 
@@ -28,6 +28,6 @@ L'ancien script mesurait une fenêtre transparente sûre et la région intérieu
 
 Les anciennes correspondances `frameFamily` restent des métadonnées historiques, sans effet visuel dans le jeu actuel.
 
-Les cinq originaux Japon sont conservés mais non activés : quatre sans alpha et un sans ouverture suffisante. Leurs avertissements ne bloquent pas les 30 cadres valides.
+Les cinq originaux Japon non validés ont également été supprimés, et leur ancien signalement a été retiré du rapport actif.
 
 Les originaux, les dérivés et les masques restent **tous hors publication**. Les cinq sources des Arts décoratifs restent dans `output/imagegen/`, avec prompts et provenance dans `catalog/decorative-frame-generation.json`. Leur reconstruction historique (`node scripts/prepare-decorative-frames.mjs`) refuse d'écraser un original modifié inconnu, mais n'est pas requise pour utiliser ou publier le site sans cadres.
