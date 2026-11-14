@@ -3,7 +3,6 @@ import { ArrowDown, Search, X } from "lucide-react";
 import {
   artworks,
   rarities,
-  themeCatalogs,
   typeCatalogs,
 } from "../data";
 import LabNavigation from "../muse-lab/LabNavigation";
@@ -15,12 +14,13 @@ import {
   type SortOrder,
 } from "./exploration";
 import FramedCard from "./FramedCard";
+import { epochs } from "./epochs";
 import ArtworkViewer from "./ArtworkViewer";
 
 const batchSize = 24;
 const fr = (value: number) => value.toLocaleString("fr-FR");
 const typeIds = ["all", ...typeCatalogs.map((c) => c.id)];
-const themeIds = ["all", ...themeCatalogs.map((c) => c.id)];
+const epochIds = ["all", ...epochs.map((e) => e.id)];
 const rarityIds = ["all", ...rarities.map((_, level) => String(level))];
 
 export default function CollectionLab() {
@@ -32,7 +32,7 @@ export default function CollectionLab() {
   const counts = useMemo(
     () => ({
       category: facetCounts(artworks, filters, "category", typeIds),
-      theme: facetCounts(artworks, filters, "theme", themeIds),
+      epoch: facetCounts(artworks, filters, "epoch", epochIds),
       rarity: facetCounts(artworks, filters, "rarity", rarityIds),
     }),
     [filters],
@@ -41,7 +41,7 @@ export default function CollectionLab() {
   const filtered =
     filters.query.trim() !== "" ||
     filters.category !== "all" ||
-    filters.theme !== "all" ||
+    filters.epoch !== "all" ||
     filters.rarity !== "all";
   const update = (patch: Partial<Exploration>) => {
     setFilters((value) => ({ ...value, ...patch }));
@@ -70,7 +70,7 @@ export default function CollectionLab() {
           </div>
           <p className="cl-heading__aside">
             {fr(artworks.length)} œuvres. Cherchez un titre ou un artiste, ou
-            parcourez par type, thème et rareté.
+            parcourez par type, époque et rareté.
           </p>
         </header>
         <section className="cl-exploration" aria-label="Explorer la collection">
@@ -125,15 +125,15 @@ export default function CollectionLab() {
           </nav>
           <div className="cl-refine">
             <label className="cl-select">
-              <span>Thème</span>
+              <span>Époque</span>
               <select
-                value={filters.theme}
-                onChange={(event) => update({ theme: event.target.value })}
+                value={filters.epoch}
+                onChange={(event) => update({ epoch: event.target.value })}
               >
-                <option value="all">Tous ({fr(counts.theme.all)})</option>
-                {themeCatalogs.map((theme) => (
-                  <option key={theme.id} value={theme.id}>
-                    {theme.title} ({fr(counts.theme[theme.id])})
+                <option value="all">Toutes ({fr(counts.epoch.all)})</option>
+                {epochs.map((epoch) => (
+                  <option key={epoch.id} value={epoch.id}>
+                    {epoch.title} ({fr(counts.epoch[epoch.id])})
                   </option>
                 ))}
               </select>

@@ -14,6 +14,11 @@ import {
   initialExploration,
   normalize,
 } from "./collection-lab/exploration";
+import {
+  epochOf,
+  epochs,
+  representativeYear,
+} from "./collection-lab/epochs";
 
 test("Collection Lab — le parcours expose uniquement les œuvres réelles, sans mutation", () => {
   const before = JSON.stringify(artworks);
@@ -216,4 +221,38 @@ test("Collection Lab — compteurs par type, thème et rareté cohérents avec l
       ).length,
     ),
   );
+});
+
+test("Collection Lab — chaque œuvre reçoit une époque déduite de sa date, filtre et compteurs cohérents", () => {
+  const counts = new Map<string, number>();
+  for (const art of artworks) {
+    const epoch = epochOf(art);
+    assert.ok(epoch, `${art.id} : ${art.date}`);
+    counts.set(epoch, (counts.get(epoch) ?? 0) + 1);
+  }
+  assert.equal([...counts.values()].reduce((a, b) => a + b, 0), artworks.length);
+  const facets = facetCounts(artworks, initialExploration, "epoch", epochs.map((e) => e.id));
+  for (const epoch of epochs) {
+    assert.equal(facets[epoch.id], counts.get(epoch.id) ?? 0, epoch.id);
+    assert.ok(
+      exploreArtworks(artworks, { ...initialExploration, epoch: epoch.id }).every(
+        (art) => epochOf(art) === epoch.id,
+      ),
+    );
+  }
+  const cases: [string, number][] = [
+    ["1887–1888", 1887],
+    ["c. 1391–1353 BCE", -1391],
+    ["100 BCE–300 CE", -100],
+    ["Vers 30 av. J.-C.–20 apr. J.-C.", -30],
+    ["2e quart du XIXe siècle (1830)", 1830],
+    ["IVe millénaire av. J.-C., selon la notice", -3500],
+    ["Fin du Ier siècle av. J.-C.", -20],
+    ["XIe siècle", 1050],
+    ["1780s", 1785],
+    ["late 1800s", 1850],
+    ["16th century", 1550],
+    ["1185–1275 (radiocarbon date, 95.4% probability)", 1185],
+  ];
+  for (const [date, year] of cases) assert.equal(representativeYear(date), year, date);
 });

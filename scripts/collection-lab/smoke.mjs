@@ -1,7 +1,8 @@
 // Run with tsx. Playwright can be supplied externally without changing the app's dependencies.
 import assert from "node:assert/strict";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { artworks, typeCatalogs, themeCatalogs } from "../../src/data.ts";
+import { artworks, typeCatalogs } from "../../src/data.ts";
+import { epochOf } from "../../src/collection-lab/epochs.ts";
 import {
   exploreArtworks,
   initialExploration,
@@ -159,14 +160,12 @@ try {
       .getByRole("button", { name: "Effacer les filtres", exact: true })
       .click();
 
-    const chosen = artworks.find((art) =>
-      art.catalogIds.includes(themeCatalogs[0].id),
-    );
-    await page.getByLabel("Thème").selectOption(themeCatalogs[0].id);
+    const chosen = artworks.find((art) => epochOf(art) === "17");
+    await page.getByLabel("Époque").selectOption("17");
     await page.getByLabel("Rareté").selectOption(String(chosen.rarity));
     const expected = exploreArtworks(artworks, {
       ...initialExploration,
-      theme: themeCatalogs[0].id,
+      epoch: "17",
       rarity: String(chosen.rarity),
     });
     await page.waitForFunction(
@@ -180,7 +179,7 @@ try {
     await page
       .getByRole("button", { name: "Effacer les filtres", exact: true })
       .click();
-    assert.equal(await page.getByLabel("Thème").inputValue(), "all");
+    assert.equal(await page.getByLabel("Époque").inputValue(), "all");
 
     for (const sort of ["title", "artist", "rarity"]) {
       await page

@@ -54,6 +54,8 @@ La logique de recherche, de filtres et de tris est inchangée ; le jeu principal
 
 **Couverture des thèmes (vérifiée) :** les quatre thèmes — Égypte ancienne (28), Renaissance italienne (68), Mythes & créatures (65), Premières traces (10) — ne couvrent que **162 œuvres sur 1 011** (16 %), dont 9 dans deux thèmes. Les 849 autres n’ont aucun thème. Le filtre Thème ne permet donc pas de parcourir toute la collection ; les types, eux, couvrent chaque œuvre. Les cadres suivent le type de chaque carte (avec des sélections revues : Égypte, Japon, Arts décoratifs, Fantastique, etc.) et sont cohérents ; seuls Verre et Mobilier n’ont pas encore leur propre famille de cadres et utilisent Arts décoratifs.
 
+**Filtre Époque (remplace Thème dans le Lab) :** sept époques couvrant les 1 011 œuvres, déduites uniquement du champ `date` de chaque notice (`src/collection-lab/epochs.ts`) : l’année retenue est la première année datée, avec son ère (BCE / av. J.-C.) ; les siècles romains, millénaires, décennies (« 1780s ») et « quarts de siècle » sont gérés. Répartition : Antiquité et avant 150 · Moyen Âge (500–1400) 169 · XVᵉ–XVIᵉ 174 · XVIIᵉ 70 · XVIIIᵉ 93 · XIXᵉ 315 · XXᵉ et après 40. Les thèmes éditoriaux restent dans les données et les pochettes ; seul le filtre du Lab change.
+
 ## Consultation et accessibilité
 
 - Fenêtre immersive : image entière sur fond sombre, titre et informations de conservation, puis histoire et crédits dépliables.

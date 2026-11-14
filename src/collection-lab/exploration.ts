@@ -1,10 +1,12 @@
 import { getCatalog, type Artwork } from "../data";
+import { epochOf } from "./epochs";
 
 export type SortOrder = "collection" | "title" | "artist" | "rarity";
 export type Exploration = {
   query: string;
   category: string;
   theme: string;
+  epoch: string;
   rarity: string;
   sort: SortOrder;
 };
@@ -13,6 +15,7 @@ export const initialExploration: Exploration = {
   query: "",
   category: "all",
   theme: "all",
+  epoch: "all",
   rarity: "all",
   sort: "collection",
 };
@@ -56,7 +59,7 @@ const collator = new Intl.Collator("fr", {
 export function facetCounts(
   source: readonly Artwork[],
   filters: Exploration,
-  key: "category" | "theme" | "rarity",
+  key: "category" | "theme" | "epoch" | "rarity",
   values: readonly string[],
 ): Record<string, number> {
   const counts: Record<string, number> = {};
@@ -79,6 +82,7 @@ export function exploreArtworks(
     (art) =>
       (filters.category === "all" || art.catalog === filters.category) &&
       (filters.theme === "all" || art.catalogIds.includes(filters.theme)) &&
+      (filters.epoch === "all" || epochOf(art) === filters.epoch) &&
       (filters.rarity === "all" || art.rarity === Number(filters.rarity)) &&
       words.every((word) => searchableText(art).includes(word)),
   );
