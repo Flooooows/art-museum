@@ -119,7 +119,7 @@ test("cadres — 95 progressions actives, sources traçables et fenêtres sûres
   }
 });
 
-test("nettoyage — toutes les images supprimées sont absentes et les six familles sont inchangées", async () => {
+test("nettoyage — les images supprimées sont absentes, seules les progressions actives et les références restent", async () => {
   const report = JSON.parse(
     await readFile("catalog/card-lab/asset-cleanup.json", "utf8"),
   );
@@ -127,8 +127,14 @@ test("nettoyage — toutes les images supprimées sont absentes et les six famil
   assert.ok(report.removedFiles.length > 700);
   for (const path of report.removedFiles)
     await assert.rejects(access(path), { code: "ENOENT" });
-  for (const [path, hash] of Object.entries(report.preservedAssets))
-    assert.equal(sha(await readFile(path)), hash, path);
+  const cleanup = JSON.parse(
+    await readFile("catalog/card-lab/asset-cleanup-2026-11-14.json", "utf8"),
+  );
+  assert.ok(Object.keys(cleanup.removedFiles).length > 700);
+  for (const [path, hash] of Object.entries(cleanup.removedFiles)) {
+    assert.match(hash as string, /^[a-f0-9]{64}$/);
+    await assert.rejects(access(path), { code: "ENOENT" });
+  }
   const previous = JSON.parse(
     await readFile(
       "catalog/card-lab/progression-frames/previous-edition.json",
@@ -162,12 +168,11 @@ test("nettoyage — toutes les images supprimées sont absentes et les six famil
         );
     }
   }
-  for (const dir of [
-    "src/card-lab/assets",
-    "src/game-presentation/cards/assets",
-    "public/assets/collections",
-  ])
+  for (const dir of ["src/card-lab/assets", "src/game-presentation/cards/assets"])
     await inspect(dir);
+  await assert.rejects(access("public/assets/collections"), {
+    code: "ENOENT",
+  });
 });
 
 test("cadres — sélections bornées, aucune substitution archéologie / Paléolithique", () => {

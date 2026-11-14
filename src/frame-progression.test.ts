@@ -96,7 +96,16 @@ test("progressions — tous les premiers essais, leurs sorties et la copie du je
     await readFile(`${root}/preserved-inputs.json`, "utf8"),
   );
   assert.equal(Object.keys(protectedFiles.hashes).length, 695);
+  // Les anciens essais supprimés à la demande de l’utilisateur le 2026-11-14 sont inventoriés
+  // avec leur empreinte d’origine ; tous les autres fichiers protégés restent identiques.
+  const { removedFiles } = JSON.parse(
+    await readFile("catalog/card-lab/asset-cleanup-2026-11-14.json", "utf8"),
+  );
   for (const [file, hash] of Object.entries(protectedFiles.hashes)) {
+    if (Object.hasOwn(removedFiles, file)) {
+      assert.equal(removedFiles[file], hash, file);
+      continue;
+    }
     // The subsequent, authorized game promotion preserves the previous registry here.
     const preserved =
       file === "src/game-presentation/cards/assets/refined-frames.json"

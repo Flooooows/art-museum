@@ -1,12 +1,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { createHash } from "node:crypto";
 import { decorativeSpecs } from "./card-lab/decorativeSpecs";
 import { rarities } from "./data";
 import { applyDecorativeFinish } from "../scripts/card-lab/decorative-processing";
 
-const sha = (b: Buffer) => createHash("sha256").update(b).digest("hex");
 test("archives textuelles V6 — provenance déclarée, sans exiger les masters supprimés", async () => {
   const active = JSON.parse(
     await readFile(
@@ -23,10 +21,11 @@ test("archives textuelles V6 — provenance déclarée, sans exiger les masters 
   assert.equal(active.edition, "decor-v6");
   assert.equal(Object.keys(decorativeSpecs).length, 13);
   assert.equal(active.references.length, 2);
+  // Les images de référence V6 ont été supprimées le 2026-11-14 ; leurs empreintes restent déclarées.
   for (const ref of active.references) {
     assert.match(ref.key, /^decoratifs-(argent|lapis-lazuli)$/);
-    assert.equal(sha(await readFile(ref.sourceFile)), ref.sourceSha256);
-    assert.equal(sha(await readFile(ref.inputFile)), ref.inputSha256);
+    assert.match(ref.sourceSha256, /^[a-f0-9]{64}$/);
+    assert.match(ref.inputSha256, /^[a-f0-9]{64}$/);
   }
   const masters = new Set();
   for (const [family, spec] of Object.entries(decorativeSpecs)) {

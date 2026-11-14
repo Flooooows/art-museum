@@ -40,38 +40,23 @@ test("direction artistique — cinq matières cohérentes et expériences de ré
     experimentalFrameFinishes.map((e) => e.finish),
     rarities.map((r) => r.finish),
   );
+  // Les finitions essai-01 ont été supprimées le 2026-11-14 ; les deux masters de référence restent.
+  const masters = {
+    japon: "3e37e756df31fe12c6266d6bd97cebf25c0c8ae59253a2035d6209f38d58c439",
+    photographie:
+      "98863e38287f58104cb41c74c1aea774a19c46f0fce91617f1ea32b5a6e59536",
+  } as Record<string, string>;
   for (const entry of acceptedFrameExperiments) {
-    const dir = `src/card-lab/experiments/${entry.family}`;
-    const manifest = JSON.parse(
-      await readFile(`${dir}/essai-01-finitions.json`, "utf8"),
-    );
     const master = await readFile(entry.file);
-    assert.equal(sha(master), manifest.sourceSha256);
-    const alpha = await sharp(master)
-      .ensureAlpha()
-      .extractChannel("alpha")
-      .raw()
-      .toBuffer();
-    assert.equal(manifest.outputs.length, 5);
-    for (const output of manifest.outputs) {
-      const bytes = await readFile(output.file);
-      assert.equal(sha(bytes), output.sha256);
-      assert.deepEqual(
-        await sharp(bytes)
-          .ensureAlpha()
-          .extractChannel("alpha")
-          .raw()
-          .toBuffer(),
-        alpha,
-      );
-      assert.equal(output.referenceFile, frameFinishReference(output.finish));
-      if (output.referenceFile)
-        assert.equal(
-          sha(await readFile(output.referenceFile)),
-          output.referenceSha256,
-        );
-      else assert.deepEqual(bytes, master);
-    }
+    assert.equal(sha(master), masters[entry.family], entry.file);
+    const meta = await sharp(master).metadata();
+    assert.equal(meta.width, 1024);
+    assert.equal(meta.height, 1536);
+    assert.ok(meta.hasAlpha);
+  }
+  for (const { finish } of experimentalFrameFinishes) {
+    const reference = frameFinishReference(finish);
+    if (reference) await readFile(reference);
   }
 });
 

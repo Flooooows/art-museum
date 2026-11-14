@@ -57,9 +57,12 @@ test("rangement — une empreinte erronée ou invalide ne contourne pas l'intég
   }
 });
 
-test("rangement — tous les anciens cadres restent archivés localement et hors publication", async () => {
+test("rangement — les anciens cadres sont supprimés et restent exclus de la publication", async () => {
   const config = JSON.parse(await readFile("firebase.muse.json", "utf8"));
   assert.ok(config.hosting.ignore.includes("assets/collections/**"));
+  const { removedFiles } = JSON.parse(
+    await readFile("catalog/card-lab/asset-cleanup-2026-11-14.json", "utf8"),
+  );
   const frames = JSON.parse(await readFile("src/frame-assets.json", "utf8"));
   for (const frame of Object.values(frames) as {
     original: string;
@@ -67,8 +70,9 @@ test("rangement — tous les anciens cadres restent archivés localement et hors
     matte: string;
   }[]) {
     assert.match(frame.src, /^\/assets\/collections\/display\//);
-    await access(`public${frame.original}`);
-    await access(`public${frame.src}`);
-    await access(`public${frame.matte}`);
+    for (const file of [frame.original, frame.src, frame.matte]) {
+      assert.ok(Object.hasOwn(removedFiles, `public${file}`), file);
+      await assert.rejects(access(`public${file}`), { code: "ENOENT" });
+    }
   }
 });
