@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { mkdtemp, mkdir, writeFile, rm } from "node:fs/promises";
 import path from "node:path";
+import { tmpdir } from "node:os";
 import { parseEngineConfig } from "./rarity-engine/configuration";
 import {
   normalizeAudience,
@@ -856,7 +857,7 @@ test("V2 HTTP — secrets absents des URL, caches et réponses conservées", asy
 });
 
 test("V2 fichiers — cache altéré refusé, sortie figée jamais écrasée", async () => {
-  const directory = await mkdtemp("/tmp/opencode/muse-v2-test-");
+  const directory = await mkdtemp(path.join(tmpdir(), "muse-v2-test-"));
   try {
     const store = new DiskCaptureStore(directory);
     const value: Capture = {

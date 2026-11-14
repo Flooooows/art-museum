@@ -142,6 +142,9 @@ test("nettoyage — toutes les images supprimées sont absentes et les six famil
     ].flatMap((f) => [
       `src/card-lab/assets/${f.assetDirectory}/${f.file}`,
       `src/card-lab/assets/${f.assetDirectory}/${f.windowFile}`,
+      // Copies publiées dans le jeu, identiques aux cadres intégrés du lab.
+      `src/game-presentation/cards/assets/${f.assetDirectory}/${f.file}`,
+      `src/game-presentation/cards/assets/${f.assetDirectory}/${f.windowFile}`,
     ]),
   );
   async function inspect(dir: string) {

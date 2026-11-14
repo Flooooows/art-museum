@@ -25,7 +25,8 @@ import {
 import { ArtworkDetail, Brand, Button, Modal } from "./components";
 import Home from "./Home";
 import { PackOpening } from "./Opening";
-import Collection from "./Collection";
+// Extension explicite : sous Windows, "./Collection" se confond avec ./collection.ts.
+import Collection from "./Collection.tsx";
 import Market from "./Market";
 import Profile from "./Profile";
 import { navigation, resolvePage, type Page } from "./navigation";
