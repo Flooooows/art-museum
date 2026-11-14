@@ -80,13 +80,13 @@ try {
     const page = await context.newPage();
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto(`${origin}/collection-lab.html`);
-    await page.locator(".cl-artwork").first().waitFor();
+    await page.locator(".compact-card").first().waitFor();
     await page.evaluate(() => document.fonts.ready);
     await page
-      .locator(".cl-artwork img")
+      .locator(".museum-card__image img")
       .first()
       .evaluate((img) => img.decode());
-    assert.equal(await page.locator(".cl-artwork").count(), 24);
+    assert.equal(await page.locator(".compact-card").count(), 24);
     assert.equal(
       await page
         .locator(".cl-gallery")
@@ -104,7 +104,7 @@ try {
     );
     assert.ok(
       await page
-        .locator(".cl-artwork img")
+        .locator(".museum-card__image img")
         .first()
         .evaluate((el) => getComputedStyle(el).objectFit === "contain"),
     );
@@ -115,20 +115,20 @@ try {
     const search = page.getByRole("searchbox");
     await search.fill("zzzzzz-introuvable");
     await page.getByRole("heading", { name: "Un autre regard ?" }).waitFor();
-    assert.equal(await page.locator(".cl-artwork").count(), 0);
+    assert.equal(await page.locator(".compact-card").count(), 0);
     await page
       .getByRole("button", { name: "Retrouver toutes les œuvres" })
       .click();
-    await page.locator(".cl-artwork").first().waitFor();
+    await page.locator(".compact-card").first().waitFor();
     assert.equal(await search.inputValue(), "");
     await search.fill(artworks[0].id);
     await page.waitForFunction(
       (title) =>
-        document.querySelector(".cl-artwork__title")?.textContent === title,
+        document.querySelector(".museum-card h2")?.textContent === title,
       artworks[0].title,
     );
     assert.equal(
-      await page.locator(".cl-artwork").count(),
+      await page.locator(".compact-card").count(),
       exploreArtworks(artworks, {
         ...initialExploration,
         query: artworks[0].id,
@@ -149,7 +149,7 @@ try {
       "true",
     );
     assert.equal(
-      await page.locator(".cl-artwork").count(),
+      await page.locator(".compact-card").count(),
       Math.min(
         24,
         artworks.filter((art) => art.catalog === typeCatalogs.at(-1).id).length,
@@ -170,7 +170,7 @@ try {
       rarity: String(chosen.rarity),
     });
     await page.waitForFunction(
-      (count) => document.querySelectorAll(".cl-artwork").length === count,
+      (count) => document.querySelectorAll(".compact-card").length === count,
       Math.min(24, expected.length),
     );
     if (label === "mobile") {
@@ -192,14 +192,14 @@ try {
       })[0].title;
       await page.waitForFunction(
         (title) =>
-          document.querySelector(".cl-artwork__title")?.textContent === title,
+          document.querySelector(".museum-card h2")?.textContent === title,
         expectedFirst,
       );
     }
     await page
       .getByLabel("Trier par")
       .selectOption("collection");
-    const opener = page.locator(".cl-artwork button").first();
+    const opener = page.locator(".compact-card button").first();
     await opener.click();
     const viewer = page.getByRole("dialog", {
       name: artworks[0].title,
@@ -239,10 +239,10 @@ try {
       true,
     );
     await page.getByRole("button", { name: /Voir 24 œuvres de plus/ }).click();
-    assert.equal(await page.locator(".cl-artwork").count(), 48);
+    assert.equal(await page.locator(".compact-card").count(), 48);
     assert.equal(
       await page
-        .locator(".cl-artwork button")
+        .locator(".compact-card button")
         .nth(24)
         .evaluate((el) => el === document.activeElement),
       true,
@@ -290,11 +290,11 @@ try {
   await page.goto(`${origin}/collection-lab.html`, {
     waitUntil: "domcontentloaded",
   });
-  await page.locator(".cl-artwork").first().waitFor();
+  await page.locator(".compact-card").first().waitFor();
   assert.equal(await page.locator(".cl-image--loading").count(), 24);
   releaseImages();
   await page.locator(".cl-image--error").first().waitFor();
-  await page.locator(".cl-artwork button").first().click();
+  await page.locator(".compact-card button").first().click();
   await page.locator(".cl-viewer .cl-image--error").waitFor();
   await page.unroute(/\.(?:webp|jpg|png)(?:\?.*)?$/);
   await page.getByRole("button", { name: "Réessayer", exact: true }).click();
@@ -312,11 +312,11 @@ try {
   await page.getByRole("searchbox").fill(longest.id);
   await page.waitForFunction(
     (title) =>
-      document.querySelector(".cl-artwork__title")?.textContent === title,
+      document.querySelector(".museum-card h2")?.textContent === title,
     longest.title,
   );
   await noOverflow(page);
-  await page.locator(".cl-artwork button").first().click();
+  await page.locator(".compact-card button").first().click();
   await page
     .getByRole("heading", { name: longest.title, exact: true })
     .waitFor();

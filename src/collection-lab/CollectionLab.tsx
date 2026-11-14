@@ -1,8 +1,7 @@
-import { useMemo, useRef, useState, type CSSProperties } from "react";
-import { ArrowDown, ArrowUpRight, Search, X } from "lucide-react";
+import { useMemo, useRef, useState } from "react";
+import { ArrowDown, Search, X } from "lucide-react";
 import {
   artworks,
-  getCatalog,
   rarities,
   themeCatalogs,
   typeCatalogs,
@@ -15,7 +14,7 @@ import {
   type Exploration,
   type SortOrder,
 } from "./exploration";
-import ArtworkImage from "./ArtworkImage";
+import FramedCard from "./FramedCard";
 import ArtworkViewer from "./ArtworkViewer";
 
 const batchSize = 24;
@@ -190,48 +189,17 @@ export default function CollectionLab() {
           {results.length > 0 ? (
             <>
               <div className="cl-gallery">
-                {visible.map((art, index) => {
-                  const rarity = rarities[art.rarity];
-                  return (
-                    <article className="cl-artwork" key={art.id}>
-                      <button
-                        type="button"
-                        ref={
-                          index === limit - batchSize ? firstNewCard : undefined
-                        }
-                        aria-label={`Découvrir ${art.title} — ${art.artist}, ${rarity.name}`}
-                        onClick={() => setViewed(index)}
-                      >
-                        <span className="cl-artwork__visual">
-                          <ArtworkImage art={art} eager={index < 4} />
-                          <span className="cl-artwork__open" aria-hidden="true">
-                            <ArrowUpRight size={20} />
-                          </span>
-                        </span>
-                        <span className="cl-artwork__caption">
-                          <span className="cl-artwork__meta">
-                            <span
-                              className="cl-rarity"
-                              style={
-                                {
-                                  "--cl-rarity": rarity.color,
-                                  "--cl-rarity-ink": rarity.ink,
-                                } as CSSProperties
-                              }
-                            >
-                              {rarity.name}
-                            </span>
-                            <span>{getCatalog(art.catalog)?.title}</span>
-                          </span>
-                          <span className="cl-artwork__title">{art.title}</span>
-                          <span className="cl-artwork__artist">
-                            {art.artist}
-                          </span>
-                        </span>
-                      </button>
-                    </article>
-                  );
-                })}
+                {visible.map((art, index) => (
+                  <FramedCard
+                    key={art.id}
+                    art={art}
+                    eager={index < 8}
+                    openRef={
+                      index === limit - batchSize ? firstNewCard : undefined
+                    }
+                    onOpen={() => setViewed(index)}
+                  />
+                ))}
               </div>
               <div className="cl-gallery-end">
                 <p>

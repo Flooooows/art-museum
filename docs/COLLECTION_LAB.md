@@ -46,6 +46,14 @@ Après revue de lisibilité, la fenêtre « Filtres » (brouillon, Appliquer, An
 
 La logique de recherche, de filtres et de tris est inchangée ; le jeu principal n’est pas modifié.
 
+### Thème sombre et cartes encadrées — 15 novembre 2026
+
+- **Thème sombre uniquement**, avec la palette bordeaux du jeu (`src/appearance.css`) : fond, textes, menus, navigation du Lab et fiche immersive. Plus de thème clair.
+- **Cartes encadrées** : la galerie affiche la carte complète du jeu (cadre du Lab selon le type et la rareté, carton velours, titre, artiste, bandeau de rareté, numéro, type), en lecture seule. Composant `src/collection-lab/FramedCard.tsx` et styles `card.css`, copiés de la carte compacte publiée ; les cadres viennent de `src/card-lab/`, pas du jeu. Le clic ouvre toujours la fiche immersive.
+- Grille : autant de cartes de 200 px minimum que la largeur le permet (comme le jeu) ; **deux colonnes sur téléphone** au lieu d’une carte par écran.
+
+**Couverture des thèmes (vérifiée) :** les quatre thèmes — Égypte ancienne (28), Renaissance italienne (68), Mythes & créatures (65), Premières traces (10) — ne couvrent que **162 œuvres sur 1 011** (16 %), dont 9 dans deux thèmes. Les 849 autres n’ont aucun thème. Le filtre Thème ne permet donc pas de parcourir toute la collection ; les types, eux, couvrent chaque œuvre. Les cadres suivent le type de chaque carte (avec des sélections revues : Égypte, Japon, Arts décoratifs, Fantastique, etc.) et sont cohérents ; seuls Verre et Mobilier n’ont pas encore leur propre famille de cadres et utilisent Arts décoratifs.
+
 ## Consultation et accessibilité
 
 - Fenêtre immersive : image entière sur fond sombre, titre et informations de conservation, puis histoire et crédits dépliables.

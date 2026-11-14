@@ -2,6 +2,7 @@ import { Component, type ReactNode } from "react";
 import { createRoot } from "react-dom/client";
 import CollectionLab from "./CollectionLab";
 import "./styles.css";
+import "./card.css";
 
 class CollectionBoundary extends Component<
   { children: ReactNode },
