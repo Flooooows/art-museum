@@ -17,13 +17,13 @@ function MuseLab() {
         <header className="portal-heading">
           <p className="portal-eyebrow">MUSE · Le laboratoire</p>
           <h1>
-            Trois essais.
+            Quatre essais.
             <br />
             <em>Une même collection.</em>
           </h1>
           <p>
-            Les cartes, les pochettes et le rituel d’ouverture, réunis dans un
-            espace de travail séparé du jeu.
+            La galerie, les cartes, les pochettes et le rituel d’ouverture,
+            réunis dans un espace de travail séparé du jeu.
           </p>
           <span>
             {artworks.length.toLocaleString("fr-FR")} œuvres réelles · aucune
@@ -32,8 +32,29 @@ function MuseLab() {
         </header>
         <section
           className="portal-grid"
-          aria-label="Les trois espaces du laboratoire"
+          aria-label="Les quatre espaces du laboratoire"
         >
+          <a className="portal-entry" href="/collection-lab.html">
+            <div
+              className="portal-scene portal-scene--collection"
+              aria-hidden="true"
+            >
+              {["mona-lisa", "cma-136510"].map((id) => (
+                <img key={id} src={byId[id].image} alt="" />
+              ))}
+            </div>
+            <div className="portal-entry__copy">
+              <span>Nouveau · La Collection</span>
+              <h2>Le plaisir de regarder.</h2>
+              <p>
+                Une galerie ouverte, des filtres à la demande et une rencontre
+                en grand avec chaque œuvre. Sans toucher à votre collection.
+              </p>
+              <strong>
+                Découvrir la galerie <ArrowUpRight size={18} />
+              </strong>
+            </div>
+          </a>
           <a className="portal-entry" href="/card-lab.html">
             <div
               className="portal-scene portal-scene--cards"

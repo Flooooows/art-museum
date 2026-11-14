@@ -1,80 +1,37 @@
 {
   "projectId": "muse-collection-6f2d",
   "origin": "https://muse-collection-6f2d.web.app",
-  "version": "2b882c1d138f52bb",
-  "releaseTime": "2026-11-02T21:23:31.120Z",
-  "previousVersion": "adae71ece203ed57",
-  "sourceLabVersion": "3b5f3172d4865a5a",
-  "change": "Jeu en thème sombre uniquement dès le HTML ; préférence claire ignorée et sélecteurs retirés de la navigation et du profil ; lab et sauvegardes inchangés.",
+  "version": "e84e6c22e06f0a3b",
+  "releaseTime": "2026-11-10T14:41:49.387Z",
+  "previousVersion": "2b882c1d138f52bb",
+  "sourceLabVersion": "23a05bbe0435fdda",
+  "change": "Promotion des cadres progression-v2 actuellement publiés sur le lab ; 90 variantes affectables copiées à l’identique avec leurs masques et fenêtre commune. Jeu sombre et compact conservé.",
   "expectedFiles": 1136,
-  "checkedFiles": 1136,
+  "checkedFiles": 93,
   "verification": {
-    "method": "Tous les fichiers publiés téléchargés et vérifiés par SHA-256 contre le build local.",
-    "byteVerifiedFiles": 1136,
-    "downloadedBytes": 232493361,
-    "retriedFiles": 0
+    "method": "Téléchargement et SHA-256 de tous les fichiers nouveaux ou modifiés, dont les 90 nouveaux cadres. Les autres fichiers sont inchangés par rapport au manifest précédemment vérifié ; pas de nouvel audit complet.",
+    "changedFilesVerified": 93,
+    "unchangedFilesFromPreviousManifest": 1043,
+    "downloadedBytes": 101882438
+  },
+  "frames": {
+    "edition": "progression-v2",
+    "variants": 90,
+    "individualMasks": true,
+    "identicalToDeployedLab": true,
+    "unassignedPaleolithicVariantsRemainInLab": 5
   },
   "failures": [],
-  "headers": [
-    {
-      "path": "/",
-      "status": 200,
-      "cache": "no-cache"
-    },
-    {
-      "path": "/index.html",
-      "status": 200,
-      "cache": "no-cache"
-    }
-  ],
-  "excluded": [
-    {
-      "path": "/review.html",
-      "status": 404
-    },
-    {
-      "path": "/masterpieces.html",
-      "status": 404
-    },
-    {
-      "path": "/card-lab.html",
-      "status": 404
-    },
-    {
-      "path": "/opening-lab.html",
-      "status": 404
-    },
-    {
-      "path": "/booster-lab.html",
-      "status": 404
-    },
-    {
-      "path": "/muse-lab.html",
-      "status": 404
-    },
-    {
-      "path": "/assets/collections/beaux-arts-lapis-lazuli.png",
-      "status": 404
-    },
-    {
-      "path": "/src/card-lab/assets/generated-sources/peinture-detail-v2.png",
-      "status": 404
-    },
-    {
-      "path": "/tests/browser/game-presentation.html",
-      "status": 404
-    }
-  ],
   "labIsolation": {
     "projectId": "muse-lab-6f2d",
-    "beforeVersion": "1a04421ac1f0dc9f",
-    "afterVersion": "1a04421ac1f0dc9f",
+    "beforeVersion": "23a05bbe0435fdda",
+    "afterVersion": "23a05bbe0435fdda",
     "sameRelease": true
   },
+  "catalogAndRaritiesUnchanged": true,
   "storage": {
     "key": "muse-collection-v1",
     "version": 1,
-    "legacyThreeCardResultsSupported": true,
     "reset": false
   }
 }

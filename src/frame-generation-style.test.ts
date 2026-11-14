@@ -75,10 +75,10 @@ test("direction artistique — cinq matières cohérentes et expériences de ré
   }
 });
 
-test("direction artistique — expériences activées dans le lab uniquement, copie du jeu inchangée", async () => {
+test("direction artistique — expériences du lab et ancienne copie du jeu conservées", async () => {
   for (const path of [
     "src/card-lab/assets/refined-frames.json",
-    "src/game-presentation/cards/assets/refined-frames.json",
+    "catalog/game-presentation/frame-editions/before-progression-v2.json",
   ]) {
     const registry = JSON.parse(await readFile(path, "utf8"));
     const lab = path.startsWith("src/card-lab/");

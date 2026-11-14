@@ -257,6 +257,8 @@ components:
 
 # Design System: MUSE
 
+Impeccable n’est plus utilisé dans ce projet. Ses anciens fichiers sont conservés dans `docs/archive/impeccable/`, sans obligation de revue, de tests ou de mise à jour automatique. Les choix visuels validés restent conservés ; les consignes de travail actuelles sont dans `AGENTS.md`.
+
 Les bilans de livraison ci-dessous restent historiques. Les comptes rendus auparavant sous `.impeccable/review/` sont conservés dans `docs/archive/reviews/` ; le nettoyage CSS et ses vérifications sont décrits dans `docs/TRI_PROJET.md`.
 
 **Génération de cadres — direction actuelle.** Pour les nouvelles images, les expériences Japon et Photographie (`src/card-lab/experiments/`) sont les références artistiques acceptées, avec leurs cinq finitions. Le guide [GENERATION_CADRES.md](docs/GENERATION_CADRES.md) et le brief `src/card-lab/generationStyle.ts` font autorité sur les anciennes spécifications de génération décrites dans les historiques. Les motifs et compositions restent propres à chaque thème ; la parenté vient du relief sculpté, des moulures et des matières. Cette validation de style ne vaut pas intégration ou autorisation de publication.
@@ -269,7 +271,7 @@ Le classicisme éditorial tactile de la référence associe la sérénité d’u
 
 Le monde visuel des quatre maquettes reste la référence, pas leur ancienne succession de pages. Les adaptations approuvées associent textes lisibles, navigation supérieure persistante, thème sombre cohérent et quatre destinations distinctes : **Pochettes / Marché / Collection / Profil**. L’accueil allégé mène par la pochette tous styles ; choisir, ouvrir et révéler se déroule dans un même dialogue, sans page atelier ni page révélation. Kyara inspire uniquement la répartition des rôles, jamais la marque, les polices ou la palette MUSE.
 
-La référence utilisateur `references/mockups/classical_editorial_gilded_tactile/DESIGN.md` reste inchangée. L’ordre effectif de `src/main.tsx` est `src/styles.css`, puis `src/appearance.css` pour les rôles sémantiques et la lisibilité, puis `src/navigation.css` pour les nouvelles compositions, puis **`src/frames.css` en dernier** pour les cadres et encres de rareté. Le CSS exécuté fait autorité sur les anciennes descriptions ; `src/useTheme.ts` et `src/theme.ts` conservent exactement le comportement du thème. Le contrat actuel de `.impeccable/surface.md` précise cette adaptation sans remplacer l’identité.
+La référence utilisateur `references/mockups/classical_editorial_gilded_tactile/DESIGN.md` reste inchangée. Le CSS exécuté fait autorité sur les anciennes descriptions ; voir `src/main.tsx` pour l’ordre actuel des feuilles de style et `docs/ETAT_ACTUEL.md` pour le rendu du jeu. L’ancien contrat de surface est archivé dans `docs/archive/impeccable/surface.md` et n’impose plus de processus.
 
 **Key Characteristics:**
 - Papier chaud et hiérarchie éditoriale muséale.

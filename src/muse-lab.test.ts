@@ -4,7 +4,7 @@ import { readFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { artworks } from "./data";
 
-test("MUSE Lab — quatre entrées et hébergement distincts du jeu et de l’atelier", async () => {
+test("MUSE Lab — cinq entrées et hébergement distincts du jeu et de l’atelier", async () => {
   const config = JSON.parse(await readFile("firebase.lab.json", "utf8"));
   assert.equal(config.hosting.site, "muse-lab-6f2d");
   assert.equal(config.hosting.public, "dist-muse-lab");
@@ -19,6 +19,7 @@ test("MUSE Lab — quatre entrées et hébergement distincts du jeu et de l’at
     "card-lab.html",
     "booster-lab.html",
     "opening-lab.html",
+    "collection-lab.html",
   ]) {
     assert.ok(vite.includes(page));
     assert.match(await readFile(page, "utf8"), /noindex,nofollow/);
@@ -33,13 +34,14 @@ test("MUSE Lab — quatre entrées et hébergement distincts du jeu et de l’at
     ),
   );
 });
-test("MUSE Lab — navigation relative commune aux trois essais, sans adresse locale", async () => {
+test("MUSE Lab — navigation relative commune aux quatre essais, sans adresse locale", async () => {
   const nav = await readFile("src/muse-lab/LabNavigation.tsx", "utf8");
   assert.doesNotMatch(nav, /127\.0\.0\.1|localhost|https?:\/\//);
   for (const page of [
     "card-lab.html",
     "booster-lab.html",
     "opening-lab.html",
+    "collection-lab.html",
   ]) {
     assert.ok(nav.includes(`/${page}`));
   }
@@ -52,6 +54,10 @@ test("MUSE Lab — navigation relative commune aux trois essais, sans adresse lo
     assert.match(source, /LabNavigation/);
     assert.doesNotMatch(source, /127\.0\.0\.1|localhost/);
   }
+  assert.match(
+    await readFile("src/collection-lab/CollectionLab.tsx", "utf8"),
+    /LabNavigation/,
+  );
   const root = await readFile("src/muse-lab/main.tsx", "utf8");
   assert.doesNotMatch(root, /localStorage|sessionStorage|openPack/);
 });
@@ -74,6 +80,7 @@ test("MUSE Lab — seules les ressources publiques nécessaires sont préparées
     "card-lab.html",
     "booster-lab.html",
     "opening-lab.html",
+    "collection-lab.html",
     "robots.txt",
   ]) {
     assert.match(manifest.files[page], /^[a-f0-9]{64}$/);

@@ -85,7 +85,7 @@ test("intégration des expériences — provenance exacte, archive antérieure e
   );
   const game = JSON.parse(
     await readFile(
-      "src/game-presentation/cards/assets/refined-frames.json",
+      "catalog/game-presentation/frame-editions/before-progression-v2.json",
       "utf8",
     ),
   );

@@ -96,8 +96,14 @@ test("progressions — tous les premiers essais, leurs sorties et la copie du je
     await readFile(`${root}/preserved-inputs.json`, "utf8"),
   );
   assert.equal(Object.keys(protectedFiles.hashes).length, 695);
-  for (const [file, hash] of Object.entries(protectedFiles.hashes))
-    assert.equal(sha(await readFile(file)), hash, file);
+  for (const [file, hash] of Object.entries(protectedFiles.hashes)) {
+    // The subsequent, authorized game promotion preserves the previous registry here.
+    const preserved =
+      file === "src/game-presentation/cards/assets/refined-frames.json"
+        ? "catalog/game-presentation/frame-editions/before-progression-v2.json"
+        : file;
+    assert.equal(sha(await readFile(preserved)), hash, file);
+  }
   const previous = JSON.parse(
     await readFile(`${root}/previous-edition.json`, "utf8"),
   );
@@ -105,7 +111,7 @@ test("progressions — tous les premiers essais, leurs sorties et la copie du je
   assert.equal(Object.keys(previous.frames).length, 95);
   const game = JSON.parse(
     await readFile(
-      "src/game-presentation/cards/assets/refined-frames.json",
+      "catalog/game-presentation/frame-editions/before-progression-v2.json",
       "utf8",
     ),
   );

@@ -1,0 +1,37 @@
+{
+  "projectId": "muse-collection-6f2d",
+  "origin": "https://muse-collection-6f2d.web.app",
+  "version": "e84e6c22e06f0a3b",
+  "releaseTime": "2026-11-10T14:41:49.387Z",
+  "previousVersion": "2b882c1d138f52bb",
+  "sourceLabVersion": "23a05bbe0435fdda",
+  "change": "Promotion des cadres progression-v2 actuellement publiés sur le lab ; 90 variantes affectables copiées à l’identique avec leurs masques et fenêtre commune. Jeu sombre et compact conservé.",
+  "expectedFiles": 1136,
+  "checkedFiles": 93,
+  "verification": {
+    "method": "Téléchargement et SHA-256 de tous les fichiers nouveaux ou modifiés, dont les 90 nouveaux cadres. Les autres fichiers sont inchangés par rapport au manifest précédemment vérifié ; pas de nouvel audit complet.",
+    "changedFilesVerified": 93,
+    "unchangedFilesFromPreviousManifest": 1043,
+    "downloadedBytes": 101882438
+  },
+  "frames": {
+    "edition": "progression-v2",
+    "variants": 90,
+    "individualMasks": true,
+    "identicalToDeployedLab": true,
+    "unassignedPaleolithicVariantsRemainInLab": 5
+  },
+  "failures": [],
+  "labIsolation": {
+    "projectId": "muse-lab-6f2d",
+    "beforeVersion": "23a05bbe0435fdda",
+    "afterVersion": "23a05bbe0435fdda",
+    "sameRelease": true
+  },
+  "catalogAndRaritiesUnchanged": true,
+  "storage": {
+    "key": "muse-collection-v1",
+    "version": 1,
+    "reset": false
+  }
+}

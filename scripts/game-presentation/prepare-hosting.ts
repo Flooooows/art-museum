@@ -40,16 +40,20 @@ for (const file of publicFiles) {
 const provenance = JSON.parse(
   await readFile("public/assets/provenance.json", "utf8"),
 );
+const frameRegistry = JSON.parse(
+  await readFile(
+    "src/game-presentation/cards/assets/refined-frames.json",
+    "utf8",
+  ),
+);
 await writeFile(
   `${out}/assets/provenance.json`,
   JSON.stringify(
     {
       ...provenance,
       "presentation-jeu": {
-        source:
-          "Présentation validée dans MUSE Lab 3b5f3172d4865a5a, copiée et isolée dans src/game-presentation/.",
-        frames:
-          "25 variantes affectables des familles explicitement approuvées, inchangées avec masques stricts. Les autres thèmes sont affichés sans cadre ; leurs assets ont été supprimés.",
+        source: `Présentation autonome du jeu ; cadres copiés depuis MUSE Lab ${frameRegistry.sourceLabVersion}, sans dépendance aux futurs essais.`,
+        frames: `${Object.keys(frameRegistry.frames).length} variantes affectables de la série ${frameRegistry.edition} : dessins indépendants par rareté, cadres et masques copiés à l’identique, sans nouvelle génération ni recoloration.`,
         boosters:
           "Sept illustrations synthétiques générées distinctes ; textes de pochette ajoutés dans l’interface.",
         model: "openai/gpt-image-2 pour les nouveaux visuels générés.",

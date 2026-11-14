@@ -54,7 +54,7 @@ test("palettes — 19 familles et 95 variantes, intégration limitée au lab", a
   }
   for (const file of [
     "src/card-lab/assets/refined-frames.json",
-    "src/game-presentation/cards/assets/refined-frames.json",
+    "catalog/game-presentation/frame-editions/before-progression-v2.json",
   ]) {
     const registry = JSON.parse(await readFile(file, "utf8"));
     const lab = file.startsWith("src/card-lab/");

@@ -59,7 +59,7 @@ await writeFile(
     {
       schemaVersion: 1,
       scope:
-        "Cartes, boosters, ouverture et accueil du laboratoire uniquement.",
+        "Collection, cartes, boosters, ouverture et accueil du laboratoire uniquement.",
       works: artworks.length,
       publicFilesCopied: sources.size,
       fileCount: Object.keys(files).length,

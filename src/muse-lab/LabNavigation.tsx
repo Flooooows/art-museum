@@ -3,7 +3,7 @@ import "./navigation.css";
 export default function LabNavigation({
   current,
 }: {
-  current: "accueil" | "cartes" | "boosters" | "ouverture";
+  current: "accueil" | "cartes" | "boosters" | "ouverture" | "collection";
 }) {
   return (
     <nav className="muse-lab-nav" aria-label="Navigation du laboratoire">
@@ -16,6 +16,11 @@ export default function LabNavigation({
       </a>
       <div>
         {[
+          {
+            id: "collection",
+            href: "/collection-lab.html",
+            title: "Collection",
+          },
           { id: "cartes", href: "/card-lab.html", title: "Cartes" },
           { id: "boosters", href: "/booster-lab.html", title: "Boosters" },
           { id: "ouverture", href: "/opening-lab.html", title: "Ouverture" },

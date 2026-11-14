@@ -105,31 +105,43 @@ test("jeu — stock, inventaire, favoris et musée survivent au nouveau format d
   assert.deepEqual(before.counts, { "mona-lisa": 2 });
 });
 
-test("jeu — seuls les cadres approuvés restent actifs, les autres cartes sont sans cadre", async () => {
-  assert.equal(Object.keys(labFrames).length, 25);
+test("jeu — les 90 cadres du lab sont actifs, avec leurs masques et raretés exacts", async () => {
+  assert.equal(Object.keys(labFrames).length, 90);
+  const lab = JSON.parse(
+    await readFile("src/card-lab/assets/refined-frames.json", "utf8"),
+  );
+  const game = JSON.parse(
+    await readFile(
+      "src/game-presentation/cards/assets/refined-frames.json",
+      "utf8",
+    ),
+  );
+  assert.equal(game.edition, "progression-v2");
+  assert.deepEqual(game.commonAperture, lab.commonAperture);
   for (const art of artworks) {
     const f = cardFrameFor(art);
     assert.notEqual(f.family, "prehistoire");
     assert.equal(f.level, art.rarity);
     assert.equal(art.rarity, art.humanRarity!.level);
     assert.equal(Boolean(f.asset), Boolean(labFrames[f.key]));
-    if (!labFrames[f.key]) assert.equal(f.asset, null);
+    assert.ok(f.asset, `Cadre manquant : ${art.id}`);
   }
   for (const f of Object.values(labFrames)) {
     const bytes = await readFile(
-      `src/game-presentation/cards/assets/refined-frames/${f.file}`,
+      `src/game-presentation/cards/assets/${f.assetDirectory}/${f.file}`,
     );
     assert.equal(
       createHash("sha256").update(bytes).digest("hex"),
       f.outputSha256,
     );
     const mask = await readFile(
-      `src/game-presentation/cards/assets/refined-frames/${f.windowFile}`,
+      `src/game-presentation/cards/assets/${f.assetDirectory}/${f.windowFile}`,
     );
     assert.equal(
       createHash("sha256").update(mask).digest("hex"),
       f.windowSha256,
     );
+    assert.deepEqual(f, lab.frames[f.key]);
     const c = commonCardAperture,
       a = f.aperture;
     assert.ok(

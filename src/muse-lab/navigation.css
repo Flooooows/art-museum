@@ -48,6 +48,7 @@
 }
 .muse-lab-nav > div {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 @media (max-width: 440px) {

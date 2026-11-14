@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-10",
+  "scope": "Refonte Collection, Lab local uniquement. Aucun déploiement.",
+  "access": {
+    "activePreview": "http://127.0.0.1:4184/collection-lab.html",
+    "dev": "http://127.0.0.1:4180/collection-lab.html",
+    "standardPreview": "http://127.0.0.1:4181/collection-lab.html",
+    "published": false
+  },
+  "data": {
+    "works": 1011,
+    "readOnly": true,
+    "noInventedInventory": true
+  },
+  "checks": {
+    "typecheck": "passed",
+    "labBuild": "passed",
+    "targetedTests": {
+      "total": 9,
+      "passed": 9,
+      "failed": 0
+    },
+    "browser": {
+      "origin": "http://127.0.0.1:4184",
+      "results": [
+        {
+          "label": "desktop",
+          "width": 1440,
+          "height": 1080,
+          "columns": 4,
+          "search": true,
+          "filters": true,
+          "cancellation": true,
+          "sort": true,
+          "viewer": true,
+          "keyboard": true,
+          "loadMore": true,
+          "storageUntouched": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "tablet",
+          "width": 834,
+          "height": 1112,
+          "columns": 3,
+          "search": true,
+          "filters": true,
+          "cancellation": true,
+          "sort": true,
+          "viewer": true,
+          "keyboard": true,
+          "loadMore": true,
+          "storageUntouched": true,
+          "horizontalOverflow": false
+        },
+        {
+          "label": "mobile",
+          "width": 390,
+          "height": 844,
+          "columns": 2,
+          "search": true,
+          "filters": true,
+          "cancellation": true,
+          "sort": true,
+          "viewer": true,
+          "keyboard": true,
+          "loadMore": true,
+          "storageUntouched": true,
+          "horizontalOverflow": false
+        },
+        {
+          "loadingPlaceholder": true,
+          "imageErrorFallback": true,
+          "imageRetry": true
+        },
+        {
+          "narrowWidth": 320,
+          "longestRealTitle": "cma-153706",
+          "fullTitleWraps": true,
+          "singleResultNavigationDisabled": true,
+          "searchPreservedOnReturn": true
+        }
+      ],
+      "accessibility": [
+        {
+          "label": "gallery-desktop",
+          "violations": []
+        },
+        {
+          "label": "viewer-desktop",
+          "violations": []
+        },
+        {
+          "label": "filters-mobile",
+          "violations": []
+        }
+      ],
+      "errors": []
+    },
+    "isolation": {
+      "protectedFileCount": 365,
+      "allUnchanged": true,
+      "productionEntry": {
+        "url": "https://muse-collection-6f2d.web.app/",
+        "status": 200,
+        "sha256": "54c7845e0819c5e1e7355cb7c633e55c93b1823eaaefed2a828992314ef9f656",
+        "matchesPublishedManifest": true,
+        "referenceVersion": "e84e6c22e06f0a3b"
+      },
+      "deploymentPerformed": false,
+      "gameStorageRead": false,
+      "gameStorageWritten": false
+    },
+    "buildWarning": "Chunk de données partagé supérieur à 500 kB ; pas d’échec de build."
+  },
+  "protectedInputs": "protected-inputs.json"
+}

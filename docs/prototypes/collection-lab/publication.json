@@ -1,0 +1,177 @@
+{
+  "publication": {
+    "projectId": "muse-lab-6f2d",
+    "displayName": "muse-lab",
+    "origin": "https://muse-lab-6f2d.web.app",
+    "version": "79ec6097f6f3fbaa",
+    "releaseTime": "2026-11-10T15:10:06.126Z",
+    "previousVersion": "23a05bbe0435fdda",
+    "change": "Collection expérimentale : galerie responsive, recherche, filtres temporaires, tris et consultation immersive ; portail et navigation Lab mis à jour.",
+    "expectedFiles": 1147,
+    "checkedFiles": 12,
+    "verification": {
+      "method": "Contrôles ciblés après publication : empreintes SHA-256 de la nouvelle page, de ses dépendances directes et des entrées du portail ; parcours desktop et mobile. Aucun téléchargement exhaustif des ressources historiques.",
+      "byteVerifiedFiles": 12,
+      "build": "passed",
+      "targetedTestsPassed": 9,
+      "browserChecks": [
+        {
+          "width": 1440,
+          "search": true,
+          "imagesDecoded": true,
+          "viewer": true,
+          "filters": true,
+          "sort": true,
+          "noHorizontalOverflow": true
+        },
+        {
+          "width": 390,
+          "search": true,
+          "imagesDecoded": true,
+          "viewer": true,
+          "filters": true,
+          "sort": true,
+          "noHorizontalOverflow": true
+        }
+      ]
+    },
+    "headers": [
+      {
+        "file": "collection-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "file": "card-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "file": "booster-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "file": "opening-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      }
+    ],
+    "failures": [],
+    "gameIsolation": {
+      "projectId": "muse-collection-6f2d",
+      "beforeVersion": "e84e6c22e06f0a3b",
+      "afterVersion": "e84e6c22e06f0a3b",
+      "sameRelease": true,
+      "protectedFilesUnchanged": 365
+    },
+    "storage": {
+      "read": false,
+      "written": false
+    }
+  },
+  "liveVerification": {
+    "origin": "https://muse-lab-6f2d.web.app",
+    "checks": [
+      {
+        "file": "collection-lab.html",
+        "sha256": "54a28a2f59d26c7047c6d55e44a74ce34ddd4b45349638ed1eb55e005d82d4f5"
+      },
+      {
+        "file": "assets/react-CxOty8V2.js",
+        "sha256": "f59f97d5294367ab4b3d9d27f5c423cafc06ca4fb329342d5d3fab9ff9388547"
+      },
+      {
+        "file": "assets/collection-BoxjNnMr.js",
+        "sha256": "8985c049ff6a5b5e34b75888176e54a299fd2ddfe0a060bf4b61c2781626c309"
+      },
+      {
+        "file": "assets/collection-Bqnfb4Ku.css",
+        "sha256": "ae116c08dc17cf50a25970c0e70762e9eb212e425bda93fc3f1536110a9e6b48"
+      },
+      {
+        "file": "assets/arrow-up-right-CK8KvaY7.js",
+        "sha256": "699b2143b4c5976785c069f95f28e1b28edd9d458f98158d990dcf9040623a16"
+      },
+      {
+        "file": "assets/x-DMbOiy4I.js",
+        "sha256": "d7027200297069d087558801353c9858f05a9b134e1257d083ae21e0aae3e728"
+      },
+      {
+        "file": "assets/arrow-down-ByGgMwxM.js",
+        "sha256": "e4e6201c19ff55c33420db3099f20006f0f107fc20fafdbb776f63926f88ff2f"
+      },
+      {
+        "file": "assets/rotate-ccw-CxCxOE1j.js",
+        "sha256": "8f4e9baf122a3c78ac90283708bde850479e9603cac8838357de44127c6213b8"
+      },
+      {
+        "file": "assets/LabNavigation-CPEo2sYv.css",
+        "sha256": "17b298f26505db7a45d498313fa573fca43873deb8cb2515946ba782895ea041"
+      },
+      {
+        "file": "assets/LabNavigation-BaJR4lnC.js",
+        "sha256": "8adc90356404ed13ad238107d6ad2a06d1333aac2025d34eed43f77e5cf2cba1"
+      },
+      {
+        "file": "index.html",
+        "sha256": "27cb7a8817d53298214730ca5da639bfb71adafd47548c9236a2137b97e3107e"
+      },
+      {
+        "file": "muse-lab.html",
+        "sha256": "27cb7a8817d53298214730ca5da639bfb71adafd47548c9236a2137b97e3107e"
+      }
+    ],
+    "headers": [
+      {
+        "file": "collection-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "file": "card-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "file": "booster-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      },
+      {
+        "file": "opening-lab.html",
+        "status": 200,
+        "robots": "noindex, nofollow, noarchive",
+        "cache": "no-cache"
+      }
+    ],
+    "browserChecks": [
+      {
+        "width": 1440,
+        "search": true,
+        "imagesDecoded": true,
+        "viewer": true,
+        "filters": true,
+        "sort": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 390,
+        "search": true,
+        "imagesDecoded": true,
+        "viewer": true,
+        "filters": true,
+        "sort": true,
+        "noHorizontalOverflow": true
+      }
+    ],
+    "errors": []
+  }
+}

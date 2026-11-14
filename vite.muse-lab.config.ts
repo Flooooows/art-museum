@@ -14,6 +14,7 @@ export default defineConfig(({ command }) => ({
         cards: "card-lab.html",
         boosters: "booster-lab.html",
         opening: "opening-lab.html",
+        collection: "collection-lab.html",
       },
       output: {
         manualChunks: { react: ["react", "react-dom", "react-dom/client"] },

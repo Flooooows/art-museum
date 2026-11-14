@@ -11,6 +11,7 @@
 
 ## Édition et ressources
 
+- [Derniers cadres du lab promus dans le jeu — 10 novembre 2026](PROMOTION_CADRES_LAB_2026-11-10.md).
 - [Intégration du lab au jeu : cadres, sept pochettes et ouverture animée](INTEGRATION_LAB_2026-11-02.md).
 - [MUSE Lab sur Firebase : cartes, boosters et ouverture](MUSE_LAB.md).
 - [Sept visuels de pochettes et regroupements](ESSAIS_BOOSTERS.md).

@@ -1,4 +1,4 @@
-# État actuel — 2 novembre 2026
+# État actuel — 10 novembre 2026
 
 > **Laboratoire indépendant :** [MUSE Lab](MUSE_LAB.md) garde les cartes, les sept boosters et l’ouverture sur `muse-lab-6f2d`, avec 21 cas et 95 variantes dont cinq Paléolithique archivées. La présentation validée a été copiée dans le jeu : les futurs essais du lab ne changent pas automatiquement le site principal et n’utilisent pas ses sauvegardes. [Intégration](INTEGRATION_LAB_2026-11-02.md).
 
@@ -10,7 +10,8 @@
 - Présentation du lab intégrée au jeu le **2 novembre 2026 à 00:31:00 UTC**, version Hosting `545b73e7f226d778` ; les 176 tests passent. Le lab conserve sa release `3b5f3172d4865a5a` pour les futurs essais.
 - Ouverture simplifiée publiée le **2 novembre 2026 à 20:34:46 UTC**, `b256155a8d780c8e` : rapide une par une, sans réglages, avec **Tout révéler** juste sous les cartes ; 177 tests réussis. Le lab reste inchangé.
 - Format compact publié le **2 novembre 2026 à 20:54:28 UTC**, `adae71ece203ed57` : cartes plus petites dans la collection et les cinq cartes du booster sur une seule ligne, défilante sur écran étroit. 178 tests et 4 044 compositions de cartes réussis ; lab et sauvegardes inchangés.
-- Version courante du jeu : **`2b882c1d138f52bb`**, publiée le **2 novembre 2026 à 21:23:31 UTC**. Thème sombre uniquement, dès le HTML, sans bascule dans la navigation ou le profil ; anciennes préférences claires ignorées. Les 186 tests passent. Cette livraison ne modifie ni les sauvegardes, ni le lab, ni l’atelier.
+- Thème sombre uniquement publié le **2 novembre 2026 à 21:23:31 UTC**, `2b882c1d138f52bb` : sans bascule dans la navigation ou le profil ; anciennes préférences claires ignorées. Cette livraison ne modifie ni les sauvegardes, ni le lab, ni l’atelier.
+- **Version courante du jeu : `e84e6c22e06f0a3b`, publiée le 10 novembre 2026 à 14:41:49 UTC.** Les derniers cadres `progression-v2` du lab `23a05bbe0435fdda` sont maintenant copiés et publiés dans le jeu : 90 variantes affectables, dessins et masques individuels identiques au lab. Les cinq Paléolithique restent non affectées. Sombre, cartes compactes, sept boosters, tirages et sauvegardes conservés. [Détail de la promotion](PROMOTION_CADRES_LAB_2026-11-10.md).
 - Atelier : https://art-museum-8fdd8-atelier.web.app ; 1 000 propositions provisoires, sans rareté humaine précochée.
 - Deux lots supplémentaires : 78 œuvres à `/masterpieces.html`, 25 au premier lot `?lot=initial`. Les décisions et formats restent séparés.
 - Réponses humaines complètes reçues dans `state.zip` : trois exports validés, avec raretés pour les 1 000 œuvres, les 25 cartes initiales et les 78 nouvelles candidates. Les réponses et leur plan préparatoire restent privés dans `private/imports/state-2026-10-30-9b4b2a1552a4/`. L'export original de 722 décisions et son pointeur historique restent conservés intacts. Aucun import dans le jeu ni changement juridique n'est déduit de cette réception.

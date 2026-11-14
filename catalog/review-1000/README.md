@@ -85,6 +85,6 @@ npm run build
 
 ## Fichiers
 
-Entrée et rendu : `review.html`, `src/review/main.tsx`, `ReviewApp.tsx`, `review.css`. Contrats et logique : `src/review/types.ts`, `model.ts`. Tests : `src/review.test.ts`. Collecte, adaptation et calcul : `scripts/review/collect.ts`, `records.ts`, `build.ts`. Sources et résultats : `catalog/review-1000/`, `public/review-data/catalog.json`. Configurations : `vite.config.ts`, `vite.atelier.config.ts` ; commandes : `package.json`. Contrat de surface : `.impeccable/review-workspace.md` ; plan historique : `docs/archive/plans/atelier-mille-oeuvres.md`.
+Entrée et rendu : `review.html`, `src/review/main.tsx`, `ReviewApp.tsx`, `review.css`. Contrats et logique : `src/review/types.ts`, `model.ts`. Tests : `src/review.test.ts`. Collecte, adaptation et calcul : `scripts/review/collect.ts`, `records.ts`, `build.ts`. Sources et résultats : `catalog/review-1000/`, `public/review-data/catalog.json`. Configurations : `vite.config.ts`, `vite.atelier.config.ts` ; commandes : `package.json`. Ancien contrat de surface, archivé et inactif : `docs/archive/impeccable/review-workspace.md` ; plan historique : `docs/archive/plans/atelier-mille-oeuvres.md`.
 
 Le moteur V2, ses archives, les 100 données actives, les tirages, acquisitions et le marché restent protégés. **Aucun outil de migration n’est fourni.**

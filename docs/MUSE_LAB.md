@@ -1,17 +1,18 @@
-# MUSE Lab — cartes, boosters et ouverture
+# MUSE Lab — collection, cartes, boosters et ouverture
 
 Projet Firebase dédié demandé par l’utilisateur, nommé **muse-lab**. L’identifiant mondial `muse-lab` étant déjà pris, le projet créé porte l’identifiant **`muse-lab-6f2d`**.
 
 ## Accès
 
+- [Nouvelle Collection expérimentale](https://muse-lab-6f2d.web.app/collection-lab.html) : galerie épurée, filtres temporaires et consultation immersive. [Présentation, fichiers et vérifications](COLLECTION_LAB.md).
 - [Accueil du laboratoire](https://muse-lab-6f2d.web.app/).
 - [Cartes et cadres](https://muse-lab-6f2d.web.app/card-lab.html) : 21 exemples et 95 dessins ; détails et matières évoluent sur les cinq raretés des 19 thèmes. Premiers essais et originaux historiques conservés ; Paléolithique reste non affecté.
 - [Sept boosters](https://muse-lab-6f2d.web.app/booster-lab.html) : une collection universelle et six regroupements spécialisés.
 - [Ouverture](https://muse-lab-6f2d.web.app/opening-lab.html) : carte par carte ou planche, sélecteur de rareté maximale, ambiance lapis exceptionnelle, sept pochettes, trois rythmes et mouvements réduits.
 
-Une navigation commune relie les trois essais et l’accueil. Les adresses sont relatives au site, sans dépendance à un serveur local.
+Le Lab relie désormais les quatre essais et l’accueil par une navigation commune. Les adresses sont relatives au site. La Collection est publiée dans la version **`79ec6097f6f3fbaa`**, le **10 novembre 2026 à 15:10:06 UTC** ; le jeu principal conserve sa release `e84e6c22e06f0a3b`.
 
-**Promotion vers le jeu :** les éléments validés ont été copiés dans une version autonome, publiée sur le site principal le 2 novembre 2026 à 00:31:00 UTC (`545b73e7f226d778`). Le lab reste le lieu des prochains essais et conserve sa release `3b5f3172d4865a5a` ; ses futures modifications ne changent pas automatiquement le jeu. [Intégration et sauvegardes](INTEGRATION_LAB_2026-11-02.md).
+**Promotion vers le jeu :** après l’intégration initiale du 2 novembre, la série actuelle `progression-v2` du lab `23a05bbe0435fdda` a été copiée dans le jeu et publiée le **10 novembre 2026** (`e84e6c22e06f0a3b`). Le lab reste indépendant et n’a pas été redéployé lors de cette promotion. [Cadres promus et vérifications](PROMOTION_CADRES_LAB_2026-11-10.md) · [Intégration initiale et sauvegardes](INTEGRATION_LAB_2026-11-02.md).
 
 ## Isolation
 
@@ -34,7 +35,7 @@ npm run preview:lab
 npm run deploy:lab
 ```
 
-- `vite.muse-lab.config.ts` compile les quatre entrées dans **`dist-muse-lab/`**, indépendamment des builds du jeu et de l’atelier.
+- `vite.muse-lab.config.ts` compile les cinq entrées dans **`dist-muse-lab/`**, indépendamment des builds du jeu et de l’atelier.
 - `scripts/muse-lab/prepare-hosting.ts` copie uniquement les images publiques des 1 011 œuvres, deux polices et leurs licences, le favicon et les pages compilées. Il prépare l’accueil `/` et `robots.txt`.
 - Le répertoire `public/` n’est pas copié intégralement : aucun fichier de revue, atelier, preuve juridique, master de génération ou identifiant de service n’est livré par ce préparateur.
 - `firebase.lab.json` cible explicitement **`muse-lab-6f2d`**, pas le site du jeu.
@@ -44,8 +45,9 @@ Les préparateurs d’images restent manuels ; ils ne relancent aucune générat
 
 ## Guides des essais
 
+- [La Collection : galerie et consultation immersive](COLLECTION_LAB.md) : nouvelle expérience isolée, données réelles en lecture seule, publiée sur le Lab uniquement.
 - [Progression des détails sur les 19 thèmes](INTEGRATION_PROGRESSION_RARETES.md) : série courante, cinq générations par thème, masque individuel et conservation intégrale des essais antérieurs.
-- [Intégration des palettes examinées](INTEGRATION_PALETTES_LAB.md) : version courante du lab, 95 variantes, couleurs et géométrie conservées, aucun changement au jeu principal.
+- [Intégration des palettes examinées](INTEGRATION_PALETTES_LAB.md) : édition antérieure du lab, remplacée par la progression de détails.
 - [Direction artistique des prochaines générations](GENERATION_CADRES.md) : style des expériences Japon et Photographie accepté, cinq finitions cohérentes ; nouvelles générations locales jusqu’à autorisation.
 - [Nettoyage : six familles validées uniquement](NETTOYAGE_CADRES_VALIDES.md) : état antérieur ; les anciennes éditions supprimées ne sont pas restaurées par la nouvelle intégration.
 - [Frises figuratives par thème](ESSAIS_CADRES_FRISES_V7.md) : ancien essai ; les assets non validés ont depuis été supprimés.

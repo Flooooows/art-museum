@@ -2,50 +2,74 @@
   "projectId": "muse-lab-6f2d",
   "displayName": "muse-lab",
   "origin": "https://muse-lab-6f2d.web.app",
-  "version": "3b5f3172d4865a5a",
-  "releaseTime": "2026-11-01T23:45:30.241Z",
-  "change": "Masques stricts sans effacement du métal, douze décors enrichis, rendu natif sans perte et bandeau de rareté commun.",
-  "expectedFiles": 1140,
-  "checkedFiles": 1140,
+  "version": "79ec6097f6f3fbaa",
+  "releaseTime": "2026-11-10T15:10:06.126Z",
+  "previousVersion": "23a05bbe0435fdda",
+  "change": "Collection expérimentale : galerie responsive, recherche, filtres temporaires, tris et consultation immersive ; portail et navigation Lab mis à jour.",
+  "expectedFiles": 1147,
+  "checkedFiles": 12,
   "verification": {
-    "method": "Empreintes SHA-256 téléchargées pour tous les fichiers nouveaux ou modifiés ; empreintes héritées de la livraison précédente et statut HTTP contrôlé pour les fichiers inchangés.",
-    "previousVersion": "5d248620a959da51",
-    "byteVerifiedFiles": 101,
-    "unchangedFilesFromVerifiedPreviousManifest": 1039,
-    "downloadedBytes": 78093821,
-    "retriedFiles": 7
+    "method": "Contrôles ciblés après publication : empreintes SHA-256 de la nouvelle page, de ses dépendances directes et des entrées du portail ; parcours desktop et mobile. Aucun téléchargement exhaustif des ressources historiques.",
+    "byteVerifiedFiles": 12,
+    "build": "passed",
+    "targetedTestsPassed": 9,
+    "browserChecks": [
+      {
+        "width": 1440,
+        "search": true,
+        "imagesDecoded": true,
+        "viewer": true,
+        "filters": true,
+        "sort": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 390,
+        "search": true,
+        "imagesDecoded": true,
+        "viewer": true,
+        "filters": true,
+        "sort": true,
+        "noHorizontalOverflow": true
+      }
+    ]
   },
-  "failures": [],
   "headers": [
     {
-      "path": "/",
+      "file": "collection-lab.html",
       "status": 200,
       "robots": "noindex, nofollow, noarchive",
       "cache": "no-cache"
     },
     {
-      "path": "/card-lab.html",
+      "file": "card-lab.html",
       "status": 200,
       "robots": "noindex, nofollow, noarchive",
       "cache": "no-cache"
     },
     {
-      "path": "/booster-lab.html",
+      "file": "booster-lab.html",
       "status": 200,
       "robots": "noindex, nofollow, noarchive",
       "cache": "no-cache"
     },
     {
-      "path": "/opening-lab.html",
+      "file": "opening-lab.html",
       "status": 200,
       "robots": "noindex, nofollow, noarchive",
       "cache": "no-cache"
     }
   ],
+  "failures": [],
   "gameIsolation": {
     "projectId": "muse-collection-6f2d",
-    "beforeVersion": "d2169e93bdbfd2bf",
-    "afterVersion": "d2169e93bdbfd2bf",
-    "sameRelease": true
+    "beforeVersion": "e84e6c22e06f0a3b",
+    "afterVersion": "e84e6c22e06f0a3b",
+    "sameRelease": true,
+    "protectedFilesUnchanged": 365
+  },
+  "storage": {
+    "read": false,
+    "written": false
   }
 }

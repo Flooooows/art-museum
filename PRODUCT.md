@@ -1,7 +1,5 @@
 # MUSE — Un musée à collectionner
 
-<!-- impeccable:product-schema 1 -->
-
 ## Platform
 
 web

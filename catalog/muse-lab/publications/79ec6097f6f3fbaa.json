@@ -1,0 +1,75 @@
+{
+  "projectId": "muse-lab-6f2d",
+  "displayName": "muse-lab",
+  "origin": "https://muse-lab-6f2d.web.app",
+  "version": "79ec6097f6f3fbaa",
+  "releaseTime": "2026-11-10T15:10:06.126Z",
+  "previousVersion": "23a05bbe0435fdda",
+  "change": "Collection expérimentale : galerie responsive, recherche, filtres temporaires, tris et consultation immersive ; portail et navigation Lab mis à jour.",
+  "expectedFiles": 1147,
+  "checkedFiles": 12,
+  "verification": {
+    "method": "Contrôles ciblés après publication : empreintes SHA-256 de la nouvelle page, de ses dépendances directes et des entrées du portail ; parcours desktop et mobile. Aucun téléchargement exhaustif des ressources historiques.",
+    "byteVerifiedFiles": 12,
+    "build": "passed",
+    "targetedTestsPassed": 9,
+    "browserChecks": [
+      {
+        "width": 1440,
+        "search": true,
+        "imagesDecoded": true,
+        "viewer": true,
+        "filters": true,
+        "sort": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "width": 390,
+        "search": true,
+        "imagesDecoded": true,
+        "viewer": true,
+        "filters": true,
+        "sort": true,
+        "noHorizontalOverflow": true
+      }
+    ]
+  },
+  "headers": [
+    {
+      "file": "collection-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "file": "card-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "file": "booster-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    },
+    {
+      "file": "opening-lab.html",
+      "status": 200,
+      "robots": "noindex, nofollow, noarchive",
+      "cache": "no-cache"
+    }
+  ],
+  "failures": [],
+  "gameIsolation": {
+    "projectId": "muse-collection-6f2d",
+    "beforeVersion": "e84e6c22e06f0a3b",
+    "afterVersion": "e84e6c22e06f0a3b",
+    "sameRelease": true,
+    "protectedFilesUnchanged": 365
+  },
+  "storage": {
+    "read": false,
+    "written": false
+  }
+}

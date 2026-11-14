@@ -33,6 +33,6 @@ export function cardFrameFor(
 ) {
   const choice = frameChoiceFor(art),
     frame = labFrames[choice.key];
-  // Removed families remain visible without a frame or a thematic substitution.
+  // Keep the fallback for unavailable families, never substitute another theme.
   return { ...choice, level: art.rarity, asset: frame ?? null };
 }

@@ -1,0 +1,111 @@
+{
+  "scope": "Promotion à l’identique des cadres du lab déployé vers le jeu, sans génération et sans changement des données.",
+  "edition": "progression-v2",
+  "variants": 90,
+  "unassignedVariantsKeptInLab": 5,
+  "sourceLabVersion": "23a05bbe0435fdda",
+  "sourceHtmlMatchesLabManifest": true,
+  "labFrameHashesFoundInPublishedManifest": 95,
+  "sourceAndDestinationHashesIdentical": true,
+  "checks": {
+    "typecheck": "passed",
+    "targetedTests": {
+      "total": 12,
+      "passed": 12,
+      "failed": 0
+    },
+    "build": "passed",
+    "browsers": {
+      "compiled": {
+        "origin": "http://127.0.0.1:4183",
+        "results": [
+          {
+            "width": 1440,
+            "cardsChecked": 26,
+            "newFrames": true,
+            "fullTexts": true,
+            "wholeImages": true,
+            "singleRow": true,
+            "darkOnly": true,
+            "stockAndInventoryPreserved": true
+          },
+          {
+            "width": 390,
+            "cardsChecked": 26,
+            "newFrames": true,
+            "fullTexts": true,
+            "wholeImages": true,
+            "singleRow": true,
+            "darkOnly": true,
+            "stockAndInventoryPreserved": true
+          }
+        ],
+        "errors": []
+      },
+      "live": {
+        "origin": "https://muse-collection-6f2d.web.app",
+        "results": [
+          {
+            "width": 1440,
+            "cardsChecked": 26,
+            "newFrames": true,
+            "fullTexts": true,
+            "wholeImages": true,
+            "singleRow": true,
+            "darkOnly": true,
+            "stockAndInventoryPreserved": true
+          },
+          {
+            "width": 390,
+            "cardsChecked": 26,
+            "newFrames": true,
+            "fullTexts": true,
+            "wholeImages": true,
+            "singleRow": true,
+            "darkOnly": true,
+            "stockAndInventoryPreserved": true
+          }
+        ],
+        "errors": []
+      }
+    },
+    "unchangedInputs": true
+  },
+  "publication": {
+    "projectId": "muse-collection-6f2d",
+    "origin": "https://muse-collection-6f2d.web.app",
+    "version": "e84e6c22e06f0a3b",
+    "releaseTime": "2026-11-10T14:41:49.387Z",
+    "previousVersion": "2b882c1d138f52bb",
+    "sourceLabVersion": "23a05bbe0435fdda",
+    "change": "Promotion des cadres progression-v2 actuellement publiés sur le lab ; 90 variantes affectables copiées à l’identique avec leurs masques et fenêtre commune. Jeu sombre et compact conservé.",
+    "expectedFiles": 1136,
+    "checkedFiles": 93,
+    "verification": {
+      "method": "Téléchargement et SHA-256 de tous les fichiers nouveaux ou modifiés, dont les 90 nouveaux cadres. Les autres fichiers sont inchangés par rapport au manifest précédemment vérifié ; pas de nouvel audit complet.",
+      "changedFilesVerified": 93,
+      "unchangedFilesFromPreviousManifest": 1043,
+      "downloadedBytes": 101882438
+    },
+    "frames": {
+      "edition": "progression-v2",
+      "variants": 90,
+      "individualMasks": true,
+      "identicalToDeployedLab": true,
+      "unassignedPaleolithicVariantsRemainInLab": 5
+    },
+    "failures": [],
+    "labIsolation": {
+      "projectId": "muse-lab-6f2d",
+      "beforeVersion": "23a05bbe0435fdda",
+      "afterVersion": "23a05bbe0435fdda",
+      "sameRelease": true
+    },
+    "catalogAndRaritiesUnchanged": true,
+    "storage": {
+      "key": "muse-collection-v1",
+      "version": 1,
+      "reset": false
+    }
+  }
+}
