@@ -18,7 +18,6 @@ import {
   visibleCatalogs,
   typeCatalogs,
   themeCatalogs,
-  getCatalog,
   catalogCover,
   rarities,
   families,
