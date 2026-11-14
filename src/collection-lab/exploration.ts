@@ -52,6 +52,23 @@ const collator = new Intl.Collator("fr", {
   numeric: true,
 });
 
+/** Counts per value of one filter, with every other active filter applied. */
+export function facetCounts(
+  source: readonly Artwork[],
+  filters: Exploration,
+  key: "category" | "theme" | "rarity",
+  values: readonly string[],
+): Record<string, number> {
+  const counts: Record<string, number> = {};
+  for (const value of values)
+    counts[value] = exploreArtworks(source, {
+      ...filters,
+      [key]: value,
+      sort: "collection",
+    }).length;
+  return counts;
+}
+
 /** Pure, read-only exploration: never sorts or alters the source dataset. */
 export function exploreArtworks(
   source: readonly Artwork[],

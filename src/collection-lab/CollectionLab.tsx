@@ -1,73 +1,49 @@
-import { useMemo, useRef, useState } from "react";
+import { useMemo, useRef, useState, type CSSProperties } from "react";
+import { ArrowDown, ArrowUpRight, Search, X } from "lucide-react";
 import {
-  ArrowDown,
-  ArrowUpRight,
-  Search,
-  SlidersHorizontal,
-  X,
-} from "lucide-react";
-import { artworks, getCatalog, rarities, typeCatalogs } from "../data";
+  artworks,
+  getCatalog,
+  rarities,
+  themeCatalogs,
+  typeCatalogs,
+} from "../data";
 import LabNavigation from "../muse-lab/LabNavigation";
 import {
   exploreArtworks,
+  facetCounts,
   initialExploration,
   type Exploration,
   type SortOrder,
 } from "./exploration";
 import ArtworkImage from "./ArtworkImage";
 import ArtworkViewer from "./ArtworkViewer";
-import FilterPanel from "./FilterPanel";
 
 const batchSize = 24;
+const fr = (value: number) => value.toLocaleString("fr-FR");
+const typeIds = ["all", ...typeCatalogs.map((c) => c.id)];
+const themeIds = ["all", ...themeCatalogs.map((c) => c.id)];
+const rarityIds = ["all", ...rarities.map((_, level) => String(level))];
 
 export default function CollectionLab() {
   const [filters, setFilters] = useState<Exploration>(initialExploration);
   const [limit, setLimit] = useState(batchSize);
-  const [showFilters, setShowFilters] = useState(false);
   const [viewed, setViewed] = useState<number | null>(null);
   const firstNewCard = useRef<HTMLButtonElement>(null);
   const results = useMemo(() => exploreArtworks(artworks, filters), [filters]);
+  const counts = useMemo(
+    () => ({
+      category: facetCounts(artworks, filters, "category", typeIds),
+      theme: facetCounts(artworks, filters, "theme", themeIds),
+      rarity: facetCounts(artworks, filters, "rarity", rarityIds),
+    }),
+    [filters],
+  );
   const visible = results.slice(0, limit);
-  const advancedCount =
-    Number(filters.theme !== "all") + Number(filters.rarity !== "all");
-  const chips = [
-    ...(filters.query.trim()
-      ? [
-          {
-            key: "query" as const,
-            label: `« ${filters.query.trim()} »`,
-            reset: "",
-          },
-        ]
-      : []),
-    ...(filters.category !== "all"
-      ? [
-          {
-            key: "category" as const,
-            label: getCatalog(filters.category)!.title,
-            reset: "all",
-          },
-        ]
-      : []),
-    ...(filters.theme !== "all"
-      ? [
-          {
-            key: "theme" as const,
-            label: getCatalog(filters.theme)!.title,
-            reset: "all",
-          },
-        ]
-      : []),
-    ...(filters.rarity !== "all"
-      ? [
-          {
-            key: "rarity" as const,
-            label: rarities[Number(filters.rarity)].name,
-            reset: "all",
-          },
-        ]
-      : []),
-  ];
+  const filtered =
+    filters.query.trim() !== "" ||
+    filters.category !== "all" ||
+    filters.theme !== "all" ||
+    filters.rarity !== "all";
   const update = (patch: Partial<Exploration>) => {
     setFilters((value) => ({ ...value, ...patch }));
     setLimit(batchSize);
@@ -87,67 +63,40 @@ export default function CollectionLab() {
           <div>
             <p className="cl-eyebrow">
               <span className="cl-edition-mark" />
-              Le plaisir de regarder · MUSE Lab
+              MUSE Lab
             </p>
             <h1>
               La Collection<span className="cl-title-dot">.</span>
             </h1>
           </div>
-          <div className="cl-heading__aside">
-            <p>
-              Des œuvres, des époques, des regards. <br />
-              Entrez par ce qui vous attire.
-            </p>
-            <span>
-              {artworks.length.toLocaleString("fr-FR")} œuvres à explorer
-            </span>
-          </div>
+          <p className="cl-heading__aside">
+            {fr(artworks.length)} œuvres. Cherchez un titre ou un artiste, ou
+            parcourez par type, thème et rareté.
+          </p>
         </header>
         <section className="cl-exploration" aria-label="Explorer la collection">
-          <div className="cl-controls">
-            <label className="cl-search">
-              <Search size={19} aria-hidden="true" />
-              <span className="cl-sr-only">
-                Rechercher une œuvre, un artiste ou un mot-clé
-              </span>
-              <input
-                type="search"
-                placeholder="Une œuvre, un artiste, un mot-clé…"
-                value={filters.query}
-                onChange={(event) => update({ query: event.target.value })}
-              />
-            </label>
-            <div className="cl-controls__actions">
+          <label className="cl-search">
+            <Search size={19} aria-hidden="true" />
+            <span className="cl-sr-only">
+              Rechercher une œuvre, un artiste ou un mot-clé
+            </span>
+            <input
+              type="search"
+              placeholder="Œuvre, artiste, mot-clé…"
+              value={filters.query}
+              onChange={(event) => update({ query: event.target.value })}
+            />
+            {filters.query && (
               <button
-                className={`cl-button ${advancedCount ? "cl-button--active" : ""}`}
                 type="button"
-                aria-haspopup="dialog"
-                aria-expanded={showFilters}
-                onClick={() => setShowFilters(true)}
+                className="cl-search__clear"
+                aria-label="Effacer la recherche"
+                onClick={() => update({ query: "" })}
               >
-                <SlidersHorizontal size={16} aria-hidden="true" />
-                Filtres
-                {advancedCount > 0 && (
-                  <span className="cl-filter-count">{advancedCount}</span>
-                )}
+                <X size={16} aria-hidden="true" />
               </button>
-              <label className="cl-sort">
-                <span>Trier par</span>
-                <select
-                  aria-label="Trier les œuvres"
-                  value={filters.sort}
-                  onChange={(event) =>
-                    update({ sort: event.target.value as SortOrder })
-                  }
-                >
-                  <option value="collection">Parcours MUSE</option>
-                  <option value="title">Titre · A–Z</option>
-                  <option value="artist">Artiste · A–Z</option>
-                  <option value="rarity">Rareté décroissante</option>
-                </select>
-              </label>
-            </div>
-          </div>
+            )}
+          </label>
           <nav className="cl-categories" aria-label="Types d’œuvres">
             {[{ id: "all", title: "Tout voir" }, ...typeCatalogs].map(
               (category) => (
@@ -155,6 +104,10 @@ export default function CollectionLab() {
                   key={category.id}
                   type="button"
                   aria-pressed={filters.category === category.id}
+                  disabled={
+                    counts.category[category.id] === 0 &&
+                    filters.category !== category.id
+                  }
                   onClick={(event) => {
                     update({ category: category.id });
                     event.currentTarget.scrollIntoView({
@@ -163,38 +116,69 @@ export default function CollectionLab() {
                     });
                   }}
                 >
-                  {category.title}
+                  {category.title}{" "}
+                  <span className="cl-count">
+                    {fr(counts.category[category.id])}
+                  </span>
                 </button>
               ),
             )}
           </nav>
+          <div className="cl-refine">
+            <label className="cl-select">
+              <span>Thème</span>
+              <select
+                value={filters.theme}
+                onChange={(event) => update({ theme: event.target.value })}
+              >
+                <option value="all">Tous ({fr(counts.theme.all)})</option>
+                {themeCatalogs.map((theme) => (
+                  <option key={theme.id} value={theme.id}>
+                    {theme.title} ({fr(counts.theme[theme.id])})
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="cl-select">
+              <span>Rareté</span>
+              <select
+                value={filters.rarity}
+                onChange={(event) => update({ rarity: event.target.value })}
+              >
+                <option value="all">Toutes ({fr(counts.rarity.all)})</option>
+                {rarities.map((rarity, level) => (
+                  <option key={level} value={level}>
+                    {rarity.name} ({fr(counts.rarity[String(level)])})
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="cl-select">
+              <span>Trier par</span>
+              <select
+                value={filters.sort}
+                onChange={(event) =>
+                  update({ sort: event.target.value as SortOrder })
+                }
+              >
+                <option value="collection">Parcours MUSE</option>
+                <option value="title">Titre (A–Z)</option>
+                <option value="artist">Artiste (A–Z)</option>
+                <option value="rarity">Plus rares d’abord</option>
+              </select>
+            </label>
+          </div>
         </section>
         <div className="cl-results-bar">
           <p role="status" aria-live="polite" aria-atomic="true">
-            {results.length.toLocaleString("fr-FR")} œuvre
+            <strong>{fr(results.length)}</strong> œuvre
             {results.length > 1 ? "s" : ""}
-            {chips.length > 0
-              ? ` sur ${artworks.length.toLocaleString("fr-FR")}`
-              : " · À votre regard"}
+            {filtered ? ` sur ${fr(artworks.length)}` : ""}
           </p>
-          {chips.length > 0 && (
-            <div className="cl-active-filters" aria-label="Filtres actifs">
-              {chips.map((chip) => (
-                <button
-                  key={chip.key}
-                  className="cl-chip"
-                  type="button"
-                  aria-label={`Retirer le filtre ${chip.label}`}
-                  onClick={() => update({ [chip.key]: chip.reset })}
-                >
-                  {chip.label}
-                  <X size={13} aria-hidden="true" />
-                </button>
-              ))}
-              <button className="cl-text-button" type="button" onClick={reset}>
-                Tout effacer
-              </button>
-            </div>
+          {filtered && (
+            <button className="cl-text-button" type="button" onClick={reset}>
+              Effacer les filtres
+            </button>
           )}
         </div>
         <section
@@ -206,37 +190,52 @@ export default function CollectionLab() {
           {results.length > 0 ? (
             <>
               <div className="cl-gallery">
-                {visible.map((art, index) => (
-                  <article className="cl-artwork" key={art.id}>
-                    <button
-                      type="button"
-                      ref={
-                        index === limit - batchSize ? firstNewCard : undefined
-                      }
-                      aria-label={`Découvrir ${art.title} — ${art.artist}`}
-                      onClick={() => setViewed(index)}
-                    >
-                      <span className="cl-artwork__visual">
-                        <ArtworkImage art={art} eager={index < 4} />
-                        <span className="cl-artwork__open" aria-hidden="true">
-                          <ArrowUpRight size={20} />
+                {visible.map((art, index) => {
+                  const rarity = rarities[art.rarity];
+                  return (
+                    <article className="cl-artwork" key={art.id}>
+                      <button
+                        type="button"
+                        ref={
+                          index === limit - batchSize ? firstNewCard : undefined
+                        }
+                        aria-label={`Découvrir ${art.title} — ${art.artist}, ${rarity.name}`}
+                        onClick={() => setViewed(index)}
+                      >
+                        <span className="cl-artwork__visual">
+                          <ArtworkImage art={art} eager={index < 4} />
+                          <span className="cl-artwork__open" aria-hidden="true">
+                            <ArrowUpRight size={20} />
+                          </span>
                         </span>
-                      </span>
-                      <span className="cl-artwork__caption">
-                        <span className="cl-artwork__category">
-                          {getCatalog(art.catalog)?.title}
+                        <span className="cl-artwork__caption">
+                          <span className="cl-artwork__meta">
+                            <span
+                              className="cl-rarity"
+                              style={
+                                {
+                                  "--cl-rarity": rarity.color,
+                                  "--cl-rarity-ink": rarity.ink,
+                                } as CSSProperties
+                              }
+                            >
+                              {rarity.name}
+                            </span>
+                            <span>{getCatalog(art.catalog)?.title}</span>
+                          </span>
+                          <span className="cl-artwork__title">{art.title}</span>
+                          <span className="cl-artwork__artist">
+                            {art.artist}
+                          </span>
                         </span>
-                        <span className="cl-artwork__title">{art.title}</span>
-                        <span className="cl-artwork__artist">{art.artist}</span>
-                      </span>
-                    </button>
-                  </article>
-                ))}
+                      </button>
+                    </article>
+                  );
+                })}
               </div>
               <div className="cl-gallery-end">
                 <p>
-                  {visible.length.toLocaleString("fr-FR")} /{" "}
-                  {results.length.toLocaleString("fr-FR")} œuvres
+                  {fr(visible.length)} / {fr(results.length)} œuvres
                 </p>
                 {limit < results.length ? (
                   <button
@@ -261,7 +260,7 @@ export default function CollectionLab() {
           ) : (
             <div className="cl-empty">
               <Search size={28} strokeWidth={1} aria-hidden="true" />
-              <h2>Un autre regard ?</h2>
+              <h2>Aucune œuvre trouvée</h2>
               <p>
                 Aucune œuvre ne correspond à cette recherche.
                 <br />
@@ -289,16 +288,6 @@ export default function CollectionLab() {
           </p>
         </footer>
       </main>
-      {showFilters && (
-        <FilterPanel
-          filters={filters}
-          onClose={() => setShowFilters(false)}
-          onApply={(next) => {
-            update(next);
-            setShowFilters(false);
-          }}
-        />
-      )}
       {viewed !== null && (
         <ArtworkViewer
           items={results}

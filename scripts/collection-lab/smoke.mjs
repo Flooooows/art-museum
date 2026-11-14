@@ -135,16 +135,16 @@ try {
       }).length,
     );
     await page
-      .getByRole("button", { name: "Tout effacer", exact: true })
+      .getByRole("button", { name: "Effacer les filtres", exact: true })
       .click();
 
     const categories = page.getByRole("navigation", { name: "Types d’œuvres" });
     await categories
-      .getByRole("button", { name: typeCatalogs.at(-1).title, exact: true })
+      .getByRole("button", { name: new RegExp(`^${typeCatalogs.at(-1).title} \\d`) })
       .click();
     assert.equal(
       await categories
-        .getByRole("button", { name: typeCatalogs.at(-1).title, exact: true })
+        .getByRole("button", { name: new RegExp(`^${typeCatalogs.at(-1).title} \\d`) })
         .getAttribute("aria-pressed"),
       "true",
     );
@@ -156,75 +156,35 @@ try {
       ),
     );
     await page
-      .getByRole("button", { name: "Tout effacer", exact: true })
+      .getByRole("button", { name: "Effacer les filtres", exact: true })
       .click();
 
-    const filters = page.getByRole("button", { name: /^Filtres/ });
-    await filters.click();
-    const panel = page.getByRole("dialog", { name: "Les filtres" });
-    await panel
-      .getByRole("radio", { name: themeCatalogs[0].title, exact: true })
-      .check();
-    await page.keyboard.press("Escape");
-    await panel.waitFor({ state: "detached" });
-    assert.equal(
-      await filters.evaluate((el) => document.activeElement === el),
-      true,
-    );
-    assert.equal(await page.locator(".cl-chip").count(), 0);
-    await filters.click();
-    assert.equal(
-      await panel
-        .getByRole("radio", { name: "Tous les thèmes", exact: true })
-        .isChecked(),
-      true,
-    );
     const chosen = artworks.find((art) =>
       art.catalogIds.includes(themeCatalogs[0].id),
     );
-    await panel
-      .getByRole("radio", { name: themeCatalogs[0].title, exact: true })
-      .check();
-    await panel
-      .getByLabel("Rareté dans MUSE")
-      .selectOption(String(chosen.rarity));
-    for (let i = 0; i < 12; i++) {
-      await page.keyboard.press("Tab");
-      assert.equal(
-        await panel.evaluate((el) => el.contains(document.activeElement)),
-        true,
-      );
-    }
-    if (label === "mobile") {
-      await page.screenshot({ path: `${output}/mobile-filters.png` });
-      await audit(page, "filters-mobile");
-    }
-    await panel.getByRole("button", { name: "Afficher les résultats" }).click();
-    await panel.waitFor({ state: "detached" });
+    await page.getByLabel("Thème").selectOption(themeCatalogs[0].id);
+    await page.getByLabel("Rareté").selectOption(String(chosen.rarity));
     const expected = exploreArtworks(artworks, {
       ...initialExploration,
       theme: themeCatalogs[0].id,
       rarity: String(chosen.rarity),
     });
-    assert.equal(
-      await page.locator(".cl-artwork").count(),
+    await page.waitForFunction(
+      (count) => document.querySelectorAll(".cl-artwork").length === count,
       Math.min(24, expected.length),
     );
-    assert.equal(await page.locator(".cl-chip").count(), 2);
+    if (label === "mobile") {
+      await page.screenshot({ path: `${output}/mobile-filters.png` });
+      await audit(page, "filters-mobile");
+    }
     await page
-      .getByRole("button", {
-        name: `Retirer le filtre ${themeCatalogs[0].title}`,
-        exact: true,
-      })
+      .getByRole("button", { name: "Effacer les filtres", exact: true })
       .click();
-    assert.equal(await page.locator(".cl-chip").count(), 1);
-    await page
-      .getByRole("button", { name: "Tout effacer", exact: true })
-      .click();
+    assert.equal(await page.getByLabel("Thème").inputValue(), "all");
 
     for (const sort of ["title", "artist", "rarity"]) {
       await page
-        .getByRole("combobox", { name: "Trier les œuvres" })
+        .getByLabel("Trier par")
         .selectOption(sort);
       const expectedFirst = exploreArtworks(artworks, {
         ...initialExploration,
@@ -237,7 +197,7 @@ try {
       );
     }
     await page
-      .getByRole("combobox", { name: "Trier les œuvres" })
+      .getByLabel("Trier par")
       .selectOption("collection");
     const opener = page.locator(".cl-artwork button").first();
     await opener.click();

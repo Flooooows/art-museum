@@ -10,6 +10,7 @@ import {
 } from "./data";
 import {
   exploreArtworks,
+  facetCounts,
   initialExploration,
   normalize,
 } from "./collection-lab/exploration";
@@ -184,5 +185,35 @@ test("Collection Lab — composants autonomes, aucun accès aux sauvegardes ni c
   assert.match(
     await readFile("collection-lab.html", "utf8"),
     /noindex,nofollow/,
+  );
+});
+
+test("Collection Lab — compteurs par type, thème et rareté cohérents avec les autres filtres", () => {
+  const filters = { ...initialExploration, theme: themeCatalogs[0].id };
+  const types = facetCounts(artworks, filters, "category", [
+    "all",
+    ...typeCatalogs.map((c) => c.id),
+  ]);
+  const inTheme = artworks.filter((art) =>
+    art.catalogIds.includes(themeCatalogs[0].id),
+  );
+  assert.equal(types.all, inTheme.length);
+  assert.equal(
+    typeCatalogs.reduce((sum, c) => sum + types[c.id], 0),
+    inTheme.length,
+  );
+  const levels = facetCounts(
+    artworks,
+    { ...initialExploration, category: typeCatalogs[0].id },
+    "rarity",
+    rarities.map((_, level) => String(level)),
+  );
+  rarities.forEach((_, level) =>
+    assert.equal(
+      levels[String(level)],
+      artworks.filter(
+        (art) => art.catalog === typeCatalogs[0].id && art.rarity === level,
+      ).length,
+    ),
   );
 });

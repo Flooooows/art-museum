@@ -34,7 +34,17 @@ Une galerie ouverte, plutôt qu’un tableau de bord : papier ivoire, accents bo
 
 La recherche ignore les accents et la casse, accepte plusieurs mots et explore titre, artiste, date, technique, origine, récits, identifiant et catalogues. Les appartenances et raretés sont celles de `src/data.ts`. Le tri « Parcours MUSE » conserve l’ordre réel des données ; les autres tris portent sur titre, artiste et rareté décroissante.
 
-Les filtres sont préparés dans un brouillon : **Afficher les résultats** les applique ; **Annuler**, Échap ou la fermeture les abandonnent. Un compteur annonce le résultat avant application. Les filtres appliqués restent visibles sous forme d’étiquettes et peuvent être effacés ensemble.
+### Simplification du 15 novembre 2026
+
+Après revue de lisibilité, la fenêtre « Filtres » (brouillon, Appliquer, Annuler) et les étiquettes de filtres actifs sont retirées. Tout est visible et s’applique immédiatement :
+
+- **Recherche** pleine largeur, avec bouton d’effacement.
+- **Types** en pastilles avec leur nombre d’œuvres : elles passent à la ligne sur ordinateur (plus aucun type caché) et forment une rangée défilante sur téléphone. Un type sans résultat pour les autres filtres est désactivé.
+- **Thème**, **Rareté** et **Trier par** : trois menus étiquetés côte à côte, chaque option indiquant son nombre d’œuvres compte tenu des autres filtres (`facetCounts` dans `exploration.ts`).
+- **Effacer les filtres** à côté du nombre de résultats dès qu’un filtre est actif.
+- Cartes : la rareté (pastille de couleur et nom) précède le type ; textes agrandis (12–13 px au lieu de 9–11 px) et marge des images réduite.
+
+La logique de recherche, de filtres et de tris est inchangée ; le jeu principal n’est pas modifié.
 
 ## Consultation et accessibilité
 
@@ -52,7 +62,7 @@ Créés :
 - `collection-lab.html` : entrée séparée et non indexable.
 - `src/collection-lab/CollectionLab.tsx` : exploration et galerie.
 - `src/collection-lab/exploration.ts` : recherche, filtres et tris sans mutation.
-- `src/collection-lab/FilterPanel.tsx` : filtres temporaires et brouillon.
+- ~~`src/collection-lab/FilterPanel.tsx`~~ : retiré le 15 novembre 2026, filtres désormais dans `CollectionLab.tsx`.
 - `src/collection-lab/ArtworkViewer.tsx` : consultation et navigation.
 - `src/collection-lab/ArtworkImage.tsx` : images, chargement et erreurs.
 - `src/collection-lab/Modal.tsx` : fenêtres accessibles indépendantes du jeu.
