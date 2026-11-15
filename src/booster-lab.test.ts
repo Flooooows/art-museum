@@ -171,3 +171,18 @@ test("pochettes du lab — détourage limité à l’extérieur, refus d’une s
     /incohérentes/,
   );
 });
+
+test("pochettes du lab — quatre propositions vectorielles complètes, au format des illustrations", async () => {
+  // BoosterVisual uses import.meta.glob (Vite only): its style list is checked as text.
+  const source = await readFile("src/booster-lab/BoosterVisual.tsx", "utf8");
+  const vector = ["deco", "musee", "sceau", "vitrail"];
+  for (const id of vector) assert.match(source, new RegExp(`id: "${id}"`));
+  for (const style of vector)
+    for (const group of boosterGroups) {
+      const meta = await sharp(
+        `src/booster-lab/assets/vector/${style}/${group.id}.webp`,
+      ).metadata();
+      assert.equal(meta.width, 768, `${style}/${group.id}`);
+      assert.equal(meta.height, 1152, `${style}/${group.id}`);
+    }
+});

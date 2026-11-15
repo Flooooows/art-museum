@@ -12,6 +12,8 @@
     "booster-lab:prepare": "tsx scripts/booster-lab/prepare.ts",
     "dev:booster-lab": "vite --config vite.booster-lab.config.ts --open /booster-lab.html",
     "build:booster-lab": "tsc --noEmit && vite build --config vite.booster-lab.config.ts",
+    "booster-lab:vector": "tsx scripts/booster-lab/vector-packs.ts",
+    "image:booster": "tsx scripts/booster-lab/gpt-image.ts",
     "preview:booster-lab": "vite preview --config vite.booster-lab.config.ts",
     "card-lab:prepare-frames": "tsx scripts/card-lab/prepare-progression-frames.ts",
     "card-lab:audit": "tsx scripts/card-lab/audit-assignments.ts",

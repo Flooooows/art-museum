@@ -10,7 +10,11 @@ import {
   museumName,
 } from "../data";
 import { CARDS_PER_PACK } from "../packRules";
-import BoosterVisual from "./BoosterVisual";
+import BoosterVisual, {
+  PackStyleContext,
+  packStyles,
+  type PackStyle,
+} from "./BoosterVisual";
 import {
   boosterGroups,
   specializedBoosterGroups,
@@ -92,7 +96,8 @@ function Selection({
 }
 
 function BoosterLab() {
-  const [dark, setDark] = useState(false),
+  const [dark, setDark] = useState(true),
+    [packStyle, setPackStyle] = useState<PackStyle>("illustration"),
     [selection, setSelection] = useState<BoosterGroup | null>(null);
   const universal = boosterGroups[0];
   return (
@@ -114,7 +119,28 @@ function BoosterLab() {
           </button>
         </div>
       </header>
+      <PackStyleContext.Provider value={packStyle}>
       <main id="collection">
+        <fieldset className="pack-style-picker">
+          <legend>Style des pochettes</legend>
+          {packStyles.map((style) => (
+            <label key={style.id}>
+              <input
+                type="radio"
+                name="pack-style"
+                value={style.id}
+                checked={packStyle === style.id}
+                onChange={() => setPackStyle(style.id)}
+              />
+              <span>{style.title}</span>
+            </label>
+          ))}
+          <p>
+            {packStyle === "illustration"
+              ? "Illustrations générées, publiées dans le jeu."
+              : "Proposition vectorielle du Lab, non publiée dans le jeu."}
+          </p>
+        </fieldset>
         <section className="booster-intro" aria-labelledby="intro-title">
           <div>
             <p className="eyebrow">Étude 01 · Une collection, sept pochettes</p>
@@ -266,6 +292,7 @@ function BoosterLab() {
           </div>
         </section>
       </main>
+      </PackStyleContext.Provider>
       <footer className="booster-footer">
         <span>MUSE · Laboratoire des pochettes</span>
         <p>
