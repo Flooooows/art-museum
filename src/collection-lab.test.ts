@@ -13,12 +13,12 @@ import {
   facetCounts,
   initialExploration,
   normalize,
-} from "./collection-lab/exploration";
+} from "./exploration";
 import {
   epochOf,
   epochs,
   representativeYear,
-} from "./collection-lab/epochs";
+} from "./epochs";
 
 test("Collection Lab — le parcours expose uniquement les œuvres réelles, sans mutation", () => {
   const before = JSON.stringify(artworks);

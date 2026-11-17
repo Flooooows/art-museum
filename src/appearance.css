@@ -1423,3 +1423,150 @@ h3,
     padding: 20px;
   }
 }
+
+/* Collection: exploration bar shared in spirit with the Collection Lab. */
+:root .collection-workspace {
+  display: grid;
+  gap: 16px;
+}
+:root .collection-workspace .view-tabs {
+  justify-self: start;
+}
+:root .search-clear {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-soft);
+}
+:root .search-clear:hover {
+  background: var(--surface-hover);
+  color: var(--heading);
+}
+:root .search-field input::-webkit-search-cancel-button {
+  display: none;
+}
+:root .type-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+:root .type-pills button {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+  min-height: 40px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper-low);
+  color: var(--text);
+  font-size: var(--type-caption);
+  white-space: nowrap;
+}
+:root .type-pills button span {
+  color: var(--text-soft);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+:root .type-pills button:hover:not(:disabled) {
+  border-color: var(--border);
+  color: var(--heading);
+}
+:root .type-pills button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+:root .type-pills button[aria-pressed="true"] {
+  background: var(--action-bg);
+  border-color: var(--action-bg);
+  color: #fff;
+}
+:root .type-pills button[aria-pressed="true"] span {
+  color: #f1dfe4;
+}
+:root .explore-selects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+:root .explore-selects label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--type-caption);
+  color: var(--text-soft);
+}
+:root .explore-selects select {
+  min-height: 44px;
+  min-width: 170px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--paper-low);
+  color: var(--text);
+  font-size: var(--type-control);
+}
+:root .results-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 20px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+:root .results-bar p {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: var(--type-label);
+}
+:root .results-bar strong {
+  color: var(--heading);
+}
+:root .collection-more {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  padding: 28px 0 8px;
+  color: var(--text-soft);
+  font-size: var(--type-caption);
+}
+:root .collection-more p {
+  margin: 0;
+}
+@media (max-width: 700px) {
+  :root .type-pills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-inline: -20px;
+    padding-inline: 20px;
+  }
+  :root .type-pills::-webkit-scrollbar {
+    display: none;
+  }
+  :root .explore-selects {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  :root .explore-selects label {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+  }
+  :root .explore-selects select {
+    min-width: 0;
+    width: 100%;
+  }
+  /* Two cards per row on phones, as validated in the Collection Lab. */
+  :root .collection-workspace .artwork-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px 12px;
+  }
+}

@@ -125,3 +125,7 @@ Build et neuf tests ciblés réussis. En ligne : recherche, filtres, tri, consul
 Le jeu principal conserve **la même release `e84e6c22e06f0a3b` avant/après**, et les 365 fichiers protégés sont inchangés. Aucun déploiement du jeu ni de l’atelier.
 
 [Publication et contrôles en ligne](prototypes/collection-lab/publication.json).
+
+### Report dans le jeu — 17 novembre 2026
+
+La page Collection du jeu (`src/Collection.tsx`) reprend l’exploration du Lab : recherche avec effacement, types en pastilles avec compteurs, menus Époque, Rareté, Possession et Trier par, « Effacer les filtres » et affichage par lots de 24 (« Voir plus »). La recherche, les filtres et les époques sont partagés avec le Lab (`src/exploration.ts`, `src/epochs.ts`). Restent propres au jeu : en-tête de progression, vues Inventaire / Toutes les œuvres / Coups de cœur / Mon musée, filtre Possession, favoris et cartes compactes encadrées. Retirés comme dans le Lab : colonne latérale (séries, familles, dernière découverte, insignes) et filtres Thème et Famille. Le format des sauvegardes ne change pas.

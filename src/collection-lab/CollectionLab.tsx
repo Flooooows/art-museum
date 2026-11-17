@@ -12,9 +12,9 @@ import {
   initialExploration,
   type Exploration,
   type SortOrder,
-} from "./exploration";
+} from "../exploration";
 import FramedCard from "./FramedCard";
-import { epochs } from "./epochs";
+import { epochs } from "../epochs";
 import ArtworkViewer from "./ArtworkViewer";
 
 const batchSize = 24;

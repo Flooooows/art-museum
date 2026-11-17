@@ -1,4 +1,4 @@
-import type { Artwork } from "../data";
+import type { Artwork } from "./data";
 
 /**
  * Epochs derived only from each artwork's own `date` text (museum notices, in

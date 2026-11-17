@@ -2,11 +2,11 @@
 import assert from "node:assert/strict";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { artworks, typeCatalogs } from "../../src/data.ts";
-import { epochOf } from "../../src/collection-lab/epochs.ts";
+import { epochOf } from "../../src/epochs.ts";
 import {
   exploreArtworks,
   initialExploration,
-} from "../../src/collection-lab/exploration.ts";
+} from "../../src/exploration.ts";
 
 const { chromium } = await import(
   process.env.PLAYWRIGHT_MODULE || "playwright"

@@ -227,11 +227,11 @@ for (const width of widths)
         path: `${dir}/${label}-compact-collection-${width}-${theme}.png`,
         fullPage: true,
       });
-    for (let i = 1; i < Math.ceil(data.sampleIds.length / 6); i++) {
-      await page
-        .getByRole("button", { name: "Page suivante", exact: true })
-        .click();
-      checked += await checkCards(page);
+    // The collection now loads 24 more cards per click instead of paging by six.
+    const more = page.getByRole("button", { name: /^Voir \d+ œuvres de plus/ });
+    while (await more.count()) {
+      await more.click();
+      checked = await checkCards(page); // the grid keeps earlier cards: recount all
     }
     assert.deepEqual((await saved(page)).counts, seed.counts);
     assert.deepEqual((await saved(page)).favorites, seed.favorites);

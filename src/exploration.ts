@@ -1,4 +1,4 @@
-import { getCatalog, type Artwork } from "../data";
+import { getCatalog, type Artwork } from "./data";
 import { epochOf } from "./epochs";
 
 export type SortOrder = "collection" | "title" | "artist" | "rarity";
